@@ -1,0 +1,195 @@
+{
+  "date": "2025-12-11",
+  "totalPredictions": 1010,
+  "totalHighConfidence": 11,
+  "states": [
+    {
+      "code": "vic",
+      "name": "Victoria",
+      "totalPredictions": 422,
+      "highConfidenceCount": 3,
+      "topPicks": [
+        {
+          "track": "SAN",
+          "raceNumber": 6,
+          "raceId": 1238620318,
+          "dog": "FADE TO BLACK",
+          "box": 5,
+          "probability": 0.4696589035541766,
+          "implied_odds": 2.12920481743757,
+          "tier": "green"
+        },
+        {
+          "track": "SAN",
+          "raceNumber": 3,
+          "raceId": 1238202964,
+          "dog": "ABDULLA ZULU",
+          "box": 1,
+          "probability": 0.428959068519774,
+          "implied_odds": 2.331224756363677,
+          "tier": "green"
+        },
+        {
+          "track": "BAL",
+          "raceNumber": 11,
+          "raceId": 1239097756,
+          "dog": "SPICY LA VIDA",
+          "box": 7,
+          "probability": 0.403558546994759,
+          "implied_odds": 2.477955199925395,
+          "tier": "green"
+        }
+      ],
+      "hasData": true
+    },
+    {
+      "code": "nsw",
+      "name": "New South Wales",
+      "totalPredictions": 342,
+      "highConfidenceCount": 7,
+      "topPicks": [
+        {
+          "track": "RIS",
+          "raceNumber": 7,
+          "raceId": 1238566206,
+          "dog": "CAWBOURNE LEOTA",
+          "box": 2,
+          "probability": 0.555611072119711,
+          "implied_odds": 1.799820144305083,
+          "tier": "green"
+        },
+        {
+          "track": "RIS",
+          "raceNumber": 5,
+          "raceId": 1238566204,
+          "dog": "TORNADO CHEVY",
+          "box": 3,
+          "probability": 0.5254556593577359,
+          "implied_odds": 1.9031101524766132,
+          "tier": "green"
+        },
+        {
+          "track": "RIS",
+          "raceNumber": 6,
+          "raceId": 1238566205,
+          "dog": "TERRELL BANNER",
+          "box": 8,
+          "probability": 0.44786587214687884,
+          "implied_odds": 2.2328113441786144,
+          "tier": "green"
+        }
+      ],
+      "hasData": true
+    },
+    {
+      "code": "qld",
+      "name": "Queensland",
+      "totalPredictions": 153,
+      "highConfidenceCount": 1,
+      "topPicks": [
+        {
+          "track": "QST",
+          "raceNumber": 9,
+          "raceId": 1239050198,
+          "dog": "COUSIN HENRY",
+          "box": 1,
+          "probability": 0.5937518849836576,
+          "implied_odds": 1.6842051794539128,
+          "tier": "green"
+        },
+        {
+          "track": "QTT",
+          "raceNumber": 3,
+          "raceId": 1238548694,
+          "dog": "HIGHWAY PRINCESS",
+          "box": 3,
+          "probability": 0.37211509882643556,
+          "implied_odds": 2.6873405652008406,
+          "tier": "yellow"
+        },
+        {
+          "track": "QST",
+          "raceNumber": 9,
+          "raceId": 1239050198,
+          "dog": "TARAWI BUSTER",
+          "box": 5,
+          "probability": 0.3715742195449909,
+          "implied_odds": 2.691252372741425,
+          "tier": "yellow"
+        }
+      ],
+      "hasData": true
+    },
+    {
+      "code": "wa",
+      "name": "Western Australia",
+      "totalPredictions": 93,
+      "highConfidenceCount": 0,
+      "topPicks": [
+        {
+          "track": "MAN",
+          "raceNumber": 6,
+          "raceId": 1238548707,
+          "dog": "OSPREY WIZARD",
+          "box": 1,
+          "probability": 0.29632332645550585,
+          "implied_odds": 3.374692137678044,
+          "tier": "other"
+        },
+        {
+          "track": "MAN",
+          "raceNumber": 7,
+          "raceId": 1238548708,
+          "dog": "FANCY THAT FRED",
+          "box": 3,
+          "probability": 0.28718473845461884,
+          "implied_odds": 3.4820791849216626,
+          "tier": "other"
+        },
+        {
+          "track": "MAN",
+          "raceNumber": 8,
+          "raceId": 1238548709,
+          "dog": "SUNSET DIABLO",
+          "box": 1,
+          "probability": 0.2576858555925703,
+          "implied_odds": 3.880694179742291,
+          "tier": "other"
+        }
+      ],
+      "hasData": true
+    },
+    {
+      "code": "sa",
+      "name": "South Australia",
+      "totalPredictions": 0,
+      "highConfidenceCount": 0,
+      "topPicks": [],
+      "hasData": false
+    },
+    {
+      "code": "tas",
+      "name": "Tasmania",
+      "totalPredictions": 0,
+      "highConfidenceCount": 0,
+      "topPicks": [],
+      "hasData": false
+    },
+    {
+      "code": "nz",
+      "name": "New Zealand",
+      "totalPredictions": 0,
+      "highConfidenceCount": 0,
+      "topPicks": [],
+      "hasData": false
+    },
+    {
+      "code": "nt",
+      "name": "Northern Territory",
+      "totalPredictions": 0,
+      "highConfidenceCount": 0,
+      "topPicks": [],
+      "hasData": false
+    }
+  ]
+}
