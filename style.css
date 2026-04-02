@@ -240,6 +240,21 @@ main {
 .box-9 { background: repeating-linear-gradient(135deg, #3baa36 0px, #3baa36 4px, #fff 4px, #fff 8px); color: #000; text-shadow: 0 0 2px #fff; }
 .box-10 { background: linear-gradient(135deg, #d0021b 33%, #fff 33%, #fff 66%, #2974cc 66%); color: #000; text-shadow: 0 0 2px #fff; }
 
+/* Model top-pick badges */
+.badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: 3px;
+  margin-left: 3px;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+.badge-ens { background: #3b82f6; color: #fff; }
+.badge-ml { background: #f59e0b; color: #000; }
+.badge-mc { background: #8b5cf6; color: #fff; }
+
 .prob-bar {
   display: inline-block;
   height: 6px;

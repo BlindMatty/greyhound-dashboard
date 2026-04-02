@@ -207,8 +207,20 @@ function renderRaces(data) {
     .map((race, i) => {
     const dogs = (race.dogs || [])
       .filter(d => !d.scratched)
-      .sort((a, b) => (b.probability || 0) - (a.probability || 0));
-    const topDog = dogs[0];
+      .sort((a, b) => (b.ensemble_prob || b.probability || 0) - (a.ensemble_prob || a.probability || 0));
+
+    // Determine each model's top pick
+    const mlTop = dogs.reduce((best, d) => (!best || (d.probability || 0) > (best.probability || 0)) ? d : best, null);
+    const ensTop = dogs.reduce((best, d) => (!best || (d.ensemble_prob || 0) > (best.ensemble_prob || 0)) ? d : best, null);
+    const mcTop = dogs.reduce((best, d) => {
+      const mc = d.mc_win_pct != null && d.mc_win_pct > 0 ? d.mc_win_pct : 0;
+      const bestMc = best && best.mc_win_pct != null && best.mc_win_pct > 0 ? best.mc_win_pct : 0;
+      return mc > bestMc ? d : best;
+    }, null);
+    const topDog = ensTop || mlTop;
+
+    // Tag each dog with which models pick it as #1
+    const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, mc: mcTop?.dog };
 
     return `
       <div class="race-card">
@@ -218,7 +230,7 @@ function renderRaces(data) {
             <span class="race-meta">${esc(race.start_time || '')}${race.grade ? ' · ' + esc(race.grade) : ''}</span>
           </div>
           <div style="display:flex;align-items:center;gap:12px">
-            ${topDog ? `<span class="race-meta">Pick: <strong>${esc(topDog.dog)}</strong> (Box ${topDog.box}) ${(topDog.probability * 100).toFixed(1)}%</span>` : ''}
+            ${topDog ? `<span class="race-meta">Pick: <strong>${esc(topDog.dog)}</strong> (Box ${topDog.box}) ${((topDog.ensemble_prob || topDog.probability) * 100).toFixed(1)}%</span>` : ''}
             <span class="race-toggle">▼</span>
           </div>
         </div>
@@ -227,16 +239,16 @@ function renderRaces(data) {
             <thead>
               <tr>
                 <th>Box</th>
+                <th>Rug</th>
                 <th>Dog</th>
-                <th>ML Prob</th>
-                <th>ML Odds</th>
-                <th>Ens Prob</th>
-                <th>Ens Odds</th>
-                <th>MC Win%</th>
+                <th>ENS %</th>
+                <th>ML %</th>
+                <th>MC %</th>
+                <th>ENS Odds</th>
               </tr>
             </thead>
             <tbody>
-              ${dogs.map((d, di) => dogRow(d, di === 0)).join('')}
+              ${dogs.map((d, di) => dogRow(d, di === 0, topNames)).join('')}
             </tbody>
           </table>
         </div>
@@ -245,24 +257,31 @@ function renderRaces(data) {
   }).join('');
 }
 
-function dogRow(d, isTop) {
-  const prob = d.probability_norm || d.probability || 0;
-  const odds = d.implied_odds_norm || d.implied_odds || 0;
+function dogRow(d, isTop, topNames) {
+  const prob = d.probability || 0;
   const eProb = d.ensemble_prob || 0;
   const eOdds = d.ensemble_odds || 0;
   const mc = d.mc_win_pct != null ? d.mc_win_pct : '';
   const tierClass = d.isHighConf ? 'tier-green' : isTop ? 'tier-yellow' : '';
-  const barW = Math.min(prob * 200, 80);
+  const barW = Math.min(eProb * 200, 80);
+  const rug = d.rug || d.box;
+
+  // Model top-pick badges
+  const badges = [];
+  if (topNames.ens && d.dog === topNames.ens) badges.push('<span class="badge badge-ens">ENS</span>');
+  if (topNames.ml && d.dog === topNames.ml) badges.push('<span class="badge badge-ml">ML</span>');
+  if (topNames.mc && d.dog === topNames.mc) badges.push('<span class="badge badge-mc">MC</span>');
+  const badgeHtml = badges.length ? ' ' + badges.join('') : '';
 
   return `
     <tr class="${d.scratched ? 'scratched' : ''} ${isTop ? 'top-pick' : ''}">
       <td><span class="box-num box-${d.box}">${d.box}</span></td>
-      <td class="${tierClass}">${esc(d.dog)}${d.isHighConf ? ' ⭐' : ''}</td>
-      <td>${(prob * 100).toFixed(1)}%<span class="prob-bar" style="width:${barW}px"></span></td>
-      <td>$${odds.toFixed(2)}</td>
-      <td>${eProb ? (eProb * 100).toFixed(1) + '%' : '—'}</td>
+      <td><span class="box-num box-${rug}">${rug}</span></td>
+      <td class="${tierClass}">${esc(d.dog)}${d.isHighConf ? ' ⭐' : ''}${badgeHtml}</td>
+      <td>${eProb ? (eProb * 100).toFixed(1) + '%' : '—'}<span class="prob-bar" style="width:${barW}px"></span></td>
+      <td>${(prob * 100).toFixed(1)}%</td>
+      <td>${mc !== '' ? (typeof mc === 'number' ? mc.toFixed(1) : mc) + '%' : '—'}</td>
       <td>${eOdds ? '$' + eOdds.toFixed(2) : '—'}</td>
-      <td>${mc !== '' ? mc.toFixed ? mc.toFixed(1) + '%' : mc + '%' : '—'}</td>
     </tr>
   `;
 }
