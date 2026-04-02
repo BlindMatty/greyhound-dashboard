@@ -4,7 +4,7 @@
   "stateName": "Western Australia",
   "totalRaces": 10,
   "totalDogs": 79,
-  "highConfidenceCount": 0,
+  "highConfidenceCount": 1,
   "races": [
     {
       "track": "MAN",
@@ -783,7 +783,7 @@
           "box": 1,
           "probability": 0.2026204451289649,
           "implied_odds": 4.935336112619408,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.182122911415013,
           "ensemble_odds": 5.49079735344911,
@@ -1292,7 +1292,21 @@
       "race_prob_sum": 0.5737633233620707
     }
   ],
-  "highConfidencePicks": [],
+  "highConfidencePicks": [
+    {
+      "track": "MAN",
+      "raceNumber": 7,
+      "raceId": 1280011920,
+      "raceStartTime": "10:48PM",
+      "dog": "DIVOT",
+      "box": 1,
+      "probability": 0.2026204451289649,
+      "implied_odds": 4.935336112619408,
+      "ensemble_prob": 0.182122911415013,
+      "ensemble_odds": 5.49079735344911,
+      "mc_win_pct": 14.06
+    }
+  ],
   "topPicks": [
     {
       "track": "MAN",
@@ -1467,21 +1481,21 @@
   ],
   "trackStats": {
     "MAN": {
-      "bets": 59,
-      "wins": 21,
-      "pnl": -2.6999999999999997,
-      "strike_rate": 35.59322033898305,
-      "pot": -4.576271186440677,
-      "mc_bets": 59,
-      "mc_wins": 24,
-      "mc_pnl": 16.15,
-      "mc_strike_rate": 40.67796610169492,
-      "mc_pot": 27.3728813559322,
-      "ens_bets": 59,
-      "ens_wins": 26,
-      "ens_pnl": 14.2,
-      "ens_strike_rate": 44.06779661016949,
-      "ens_pot": 24.067796610169488,
+      "bets": 78,
+      "wins": 32,
+      "pnl": 15.200000000000001,
+      "strike_rate": 41.02564102564102,
+      "pot": 19.48717948717949,
+      "mc_bets": 78,
+      "mc_wins": 26,
+      "mc_pnl": 2.299999999999998,
+      "mc_strike_rate": 33.33333333333333,
+      "mc_pot": 2.9487179487179462,
+      "ens_bets": 78,
+      "ens_wins": 37,
+      "ens_pnl": 32.1,
+      "ens_strike_rate": 47.43589743589743,
+      "ens_pot": 41.15384615384616,
       "value_bets": 0,
       "value_wins": 0,
       "value_pnl": 0.0,

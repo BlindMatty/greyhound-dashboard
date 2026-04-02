@@ -4,7 +4,7 @@
   "stateName": "Western Australia",
   "totalRaces": 9,
   "totalDogs": 71,
-  "highConfidenceCount": 0,
+  "highConfidenceCount": 1,
   "races": [
     {
       "track": "MAN",
@@ -538,7 +538,7 @@
           "box": 1,
           "probability": 0.1066095236546042,
           "implied_odds": 9.380025027030612,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.16962286276200317,
           "ensemble_odds": 5.89543168719593,
@@ -1162,7 +1162,21 @@
       "race_prob_sum": 0.6777994500538066
     }
   ],
-  "highConfidencePicks": [],
+  "highConfidencePicks": [
+    {
+      "track": "MAN",
+      "raceNumber": 5,
+      "raceId": 1281376664,
+      "raceStartTime": "10:13PM",
+      "dog": "COMMON CHAOS",
+      "box": 1,
+      "probability": 0.1066095236546042,
+      "implied_odds": 9.380025027030612,
+      "ensemble_prob": 0.16962286276200317,
+      "ensemble_odds": 5.89543168719593,
+      "mc_win_pct": 13.26
+    }
+  ],
   "topPicks": [
     {
       "track": "MAN",
@@ -1337,21 +1351,21 @@
   ],
   "trackStats": {
     "MAN": {
-      "bets": 69,
-      "wins": 27,
-      "pnl": 6.410000000000002,
-      "strike_rate": 39.130434782608695,
-      "pot": 9.289855072463771,
-      "mc_bets": 69,
-      "mc_wins": 25,
-      "mc_pnl": 8.099999999999998,
-      "mc_strike_rate": 36.231884057971016,
-      "mc_pot": 11.739130434782606,
-      "ens_bets": 69,
-      "ens_wins": 32,
-      "ens_pnl": 23.310000000000002,
-      "ens_strike_rate": 46.3768115942029,
-      "ens_pot": 33.78260869565218,
+      "bets": 78,
+      "wins": 32,
+      "pnl": 15.200000000000001,
+      "strike_rate": 41.02564102564102,
+      "pot": 19.48717948717949,
+      "mc_bets": 78,
+      "mc_wins": 26,
+      "mc_pnl": 2.299999999999998,
+      "mc_strike_rate": 33.33333333333333,
+      "mc_pot": 2.9487179487179462,
+      "ens_bets": 78,
+      "ens_wins": 37,
+      "ens_pnl": 32.1,
+      "ens_strike_rate": 47.43589743589743,
+      "ens_pot": 41.15384615384616,
       "value_bets": 0,
       "value_wins": 0,
       "value_pnl": 0.0,

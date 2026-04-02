@@ -4,7 +4,7 @@
   "stateName": "New Zealand",
   "totalRaces": 7,
   "totalDogs": 46,
-  "highConfidenceCount": 0,
+  "highConfidenceCount": 1,
   "races": [
     {
       "track": "WAK",
@@ -433,7 +433,7 @@
           "box": 2,
           "probability": 0.3615906107775743,
           "implied_odds": 2.7655585355205234,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.4584728025384013,
           "ensemble_odds": 2.18115446426343,
@@ -767,7 +767,21 @@
       "race_prob_sum": 0.9700871552411127
     }
   ],
-  "highConfidencePicks": [],
+  "highConfidencePicks": [
+    {
+      "track": "WAK",
+      "raceNumber": 5,
+      "raceId": 1280690272,
+      "raceStartTime": "11:33AM",
+      "dog": "RAY THE DOYEN",
+      "box": 2,
+      "probability": 0.3615906107775743,
+      "implied_odds": 2.7655585355205234,
+      "ensemble_prob": 0.4584728025384013,
+      "ensemble_odds": 2.18115446426343,
+      "mc_win_pct": 55.92
+    }
+  ],
   "topPicks": [
     {
       "track": "WAK",
