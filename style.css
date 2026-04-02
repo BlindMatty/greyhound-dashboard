@@ -232,11 +232,13 @@ main {
 .box-1 { background: #dc2626; }
 .box-2 { background: #2563eb; }
 .box-3 { background: #f0f0f0; color: #111; }
-.box-4 { background: #16a34a; }
-.box-5 { background: #111; }
-.box-6 { background: #f59e0b; }
-.box-7 { background: #f0f0f0; color: #111; border: 2px solid #dc2626; }
-.box-8 { background: #f472b6; }
+.box-4 { background: #111; color: #fff; }
+.box-5 { background: #f57c00; }
+.box-6 { background: repeating-linear-gradient(45deg, #111, #111 3px, #fff 3px, #fff 6px); color: #fff; text-shadow: 0 0 2px #000; }
+.box-7 { background: repeating-conic-gradient(#dc2626 0% 25%, #fff 0% 50%) 50%/8px 8px; color: #dc2626; text-shadow: 0 0 2px #fff; }
+.box-8 { background: #e91e63; }
+.box-9 { background: #7b1fa2; }
+.box-10 { background: repeating-linear-gradient(45deg, #2563eb, #2563eb 3px, #fff 3px, #fff 6px); color: #2563eb; text-shadow: 0 0 2px #fff; }
 
 .prob-bar {
   display: inline-block;
