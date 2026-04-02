@@ -196,7 +196,15 @@ function renderRaces(data) {
     return;
   }
 
-  container.innerHTML = data.races.map((race, i) => {
+  container.innerHTML = data.races
+    .slice()
+    .sort((a, b) => {
+      const ta = parseTime(a.start_time);
+      const tb = parseTime(b.start_time);
+      if (ta !== tb) return ta - tb;
+      return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
+    })
+    .map((race, i) => {
     const dogs = (race.dogs || [])
       .filter(d => !d.scratched)
       .sort((a, b) => (b.probability || 0) - (a.probability || 0));
