@@ -229,16 +229,16 @@ main {
   font-size: 0.8rem;
   color: #fff;
 }
-.box-1 { background: #dc2626; }
-.box-2 { background: #2563eb; }
-.box-3 { background: #f0f0f0; color: #111; }
-.box-4 { background: #111; color: #fff; }
-.box-5 { background: #f57c00; }
-.box-6 { background: repeating-linear-gradient(45deg, #111, #111 3px, #fff 3px, #fff 6px); color: #fff; text-shadow: 0 0 2px #000; }
-.box-7 { background: repeating-conic-gradient(#dc2626 0% 25%, #fff 0% 50%) 50%/8px 8px; color: #dc2626; text-shadow: 0 0 2px #fff; }
-.box-8 { background: #e91e63; }
-.box-9 { background: #7b1fa2; }
-.box-10 { background: repeating-linear-gradient(45deg, #2563eb, #2563eb 3px, #fff 3px, #fff 6px); color: #2563eb; text-shadow: 0 0 2px #fff; }
+.box-1 { background: #be1522; color: #fff; }
+.box-2 { background: repeating-linear-gradient(135deg, #000 0px, #000 4px, #fff 4px, #fff 8px); color: red; text-shadow: 0 0 2px #fff; }
+.box-3 { background: #fff; color: #000; }
+.box-4 { background: #3c74b4; color: #fff; }
+.box-5 { background: #fcea0d; color: #000; }
+.box-6 { background: #3baa36; color: #be1522; font-weight: 700; }
+.box-7 { background: #202020; color: #fcea0d; }
+.box-8 { background: #d12e8b; color: #000; }
+.box-9 { background: repeating-linear-gradient(135deg, #3baa36 0px, #3baa36 4px, #fff 4px, #fff 8px); color: #000; text-shadow: 0 0 2px #fff; }
+.box-10 { background: linear-gradient(135deg, #d0021b 33%, #fff 33%, #fff 66%, #2974cc 66%); color: #000; text-shadow: 0 0 2px #fff; }
 
 .prob-bar {
   display: inline-block;
