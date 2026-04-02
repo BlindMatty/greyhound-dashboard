@@ -60,20 +60,11 @@ async function loadDate(dateStr) {
 
   renderSummary(summaryData);
 
-  // Gather all high-confidence picks across states
-  const allHC = [];
-  for (const s of summaryData.states) {
-    if (!s.hasData) continue;
-    for (const p of (s.topPicks || [])) {
-      if (p.tier === 'green') {
-        allHC.push({ ...p, state: s.code, stateName: s.name });
-      }
-    }
-  }
-  renderHighConfidence(allHC);
-
-  // Build state tabs using summary data
+  // High confidence picks are loaded from state prediction JSONs
+  // (consensus: ML + ENS + MC all agree on #1 pick)
+  // We load them after the first state is selected
   renderStateTabs(summaryData.states);
+  loadHighConfidencePicks(summaryData.states);
 
   // Auto-select first state with data
   const first = summaryData.states.find(s => s.hasData);
@@ -92,12 +83,31 @@ function renderSummary(data) {
   show('summaryBar');
 }
 
-// ── High confidence picks ───────────────────────────
+// ── High confidence picks (consensus: ML + ENS + MC agree) ──
+async function loadHighConfidencePicks(states) {
+  const allHC = [];
+  const fetches = states.filter(s => s.hasData).map(async (s) => {
+    try {
+      const data = await fetchJSON(`${DATA_DIR}/${s.code}_predictions_${currentDate}.json`);
+      stateDataCache[s.code] = data;
+      for (const p of (data.highConfidencePicks || [])) {
+        allHC.push({ ...p, state: s.code, stateName: s.name });
+      }
+    } catch { /* skip */ }
+  });
+  await Promise.all(fetches);
+  renderHighConfidence(allHC);
+}
+
 function renderHighConfidence(picks) {
   const el = document.getElementById('hcPicks');
   if (!picks.length) { hide('hcSection'); return; }
 
-  el.innerHTML = picks.map(p => `
+  el.innerHTML = picks.map(p => {
+    const ensOdds = p.ensemble_odds || p.implied_odds || 0;
+    const ensProb = p.ensemble_prob || p.probability || 0;
+    const mcPct = p.mc_win_pct != null ? p.mc_win_pct : '';
+    return `
     <div class="hc-card">
       <div class="hc-left">
         <span class="hc-dog">${esc(p.dog)}</span>
@@ -105,14 +115,18 @@ function renderHighConfidence(picks) {
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           · ${esc(p.stateName)}
         </span>
-        ${p.grade ? `<span class="hc-meta">${esc(p.grade)}</span>` : ''}
+        <span class="hc-meta">
+          ML ${(p.probability * 100).toFixed(1)}%
+          · ENS ${(ensProb * 100).toFixed(1)}%
+          ${mcPct !== '' ? '· MC ' + (typeof mcPct === 'number' ? mcPct.toFixed(1) : mcPct) + '%' : ''}
+        </span>
       </div>
       <div>
-        <div class="hc-odds">$${(p.implied_odds || 0).toFixed(2)}</div>
-        <div style="font-size:0.75rem;color:var(--text-dim);text-align:right">${(p.probability * 100).toFixed(1)}%</div>
+        <div class="hc-odds">$${ensOdds.toFixed(2)}</div>
+        <div style="font-size:0.7rem;color:var(--text-dim);text-align:right">ENS implied</div>
       </div>
     </div>
-  `).join('');
+  `}).join('');
   show('hcSection');
 }
 
