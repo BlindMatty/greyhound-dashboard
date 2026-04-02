@@ -96,7 +96,27 @@ async function loadHighConfidencePicks(states) {
     } catch { /* skip */ }
   });
   await Promise.all(fetches);
+  // Sort by race start time (all times are AEST)
+  allHC.sort((a, b) => {
+    const ta = parseTime(a.raceStartTime);
+    const tb = parseTime(b.raceStartTime);
+    if (ta !== tb) return ta - tb;
+    return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
+  });
   renderHighConfidence(allHC);
+}
+
+/** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
+function parseTime(s) {
+  if (!s) return 9999;
+  const m = s.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+  if (!m) return 9999;
+  let h = parseInt(m[1], 10);
+  const min = parseInt(m[2], 10);
+  const pm = m[3].toUpperCase() === 'PM';
+  if (pm && h !== 12) h += 12;
+  if (!pm && h === 12) h = 0;
+  return h * 60 + min;
 }
 
 function renderHighConfidence(picks) {
