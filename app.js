@@ -327,3 +327,63 @@ function showError(msg) {
   el.textContent = msg;
   el.hidden = false;
 }
+
+
+// HC Modal System
+window.openHCModal = function(slug) {
+  const modal = document.getElementById('hcModal');
+  const details = document.getElementById('hcModalDetails');
+  if(!modal || !details) {
+      console.error("Modal elements not found in DOM");
+      return;
+  }
+  
+  details.innerHTML = '<div style="padding: 20px; text-align: center;">Loading AI Analysis...</div>';
+  modal.style.display = 'block';
+
+  fetch('data/hc_profiles/' + slug)
+    .then(r => function(res) {
+        if(!res.ok) throw new Error("Not found");
+        return res.json();
+    }(r))
+    .then(data => {
+        if(!data || !data.steps || !data.steps['50_Final_Probability']) {
+            details.innerHTML = '<span style="color:red; padding: 20px;">Invalid profile data structure.</span>';
+            return;
+        }
+        
+      let redHtml = data.steps['50_Final_Probability'].red_flags.map(f => `<li style="color:#e74c3c; margin-bottom:5px;">${f}</li>`).join('') || '<li>None</li>';
+      let greenHtml = data.steps['50_Final_Probability'].green_flags.map(f => `<li style="color:#2ecc71; margin-bottom:5px;">${f}</li>`).join('') || '<li>None</li>';
+      
+      let finalScore = data.steps['50_Final_Probability'].final_score;
+      let decColor = finalScore >= 3 ? '#2ecc71' : (finalScore <= -2 ? '#e74c3c' : '#f39c12');
+
+      let scoreHtml = `<strong style="color:${decColor}; font-size:1.2em;">${data.steps['50_Final_Probability'].decision} (Score: ${finalScore})</strong>`;
+
+      details.innerHTML = `
+        <h4 style="margin:0 0 10px 0; color:#2c3e50;">${data.dog || 'Unknown Dog'} (R${data.race || '?'} ${data.track || '?'})</h4>
+        <div style="margin-bottom: 20px; padding: 10px; background: #f8f9fa; border-radius: 4px; border-left: 4px solid ${decColor}">${scoreHtml}</div>
+        <div style="display:flex; gap:20px; font-size:0.95em;">
+          <div style="flex:1; background: #fafafa; padding: 10px; border-radius: 4px;"><strong><span style="color:#2ecc71">&#10003;</span> Green Flags</strong><ul style="margin:10px 0; padding-left:20px; color:#2c3e50;">${greenHtml}</ul></div>
+          <div style="flex:1; background: #fafafa; padding: 10px; border-radius: 4px;"><strong><span style="color:#e74c3c">&#10007;</span> Red Flags</strong><ul style="margin:10px 0; padding-left:20px; color:#2c3e50;">${redHtml}</ul></div>
+        </div>
+      `;
+    })
+    .catch(err => {
+      details.innerHTML = `<div style="color:#e74c3c; padding: 20px;">Failed to load profile for ${slug}. The JSON file may not exist yet.</div>`;
+      console.error(err);
+    });
+};
+
+window.closeHCModal = function() {
+  const modal = document.getElementById('hcModal');
+  if(modal) modal.style.display = 'none';
+};
+
+// Close when clicking outside of the modal content
+window.onclick = function(event) {
+  const modal = document.getElementById('hcModal');
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+};
