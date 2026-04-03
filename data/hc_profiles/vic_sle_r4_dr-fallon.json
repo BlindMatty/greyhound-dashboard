@@ -1,57 +1,57 @@
 {
-  "dog": "GAMBELLA",
-  "date": "2026-04-04",
-  "track": "MEA",
-  "race": 5,
+  "dog": "DR. FALLON",
+  "date": "2026-04-05",
+  "track": "SLE",
+  "race": 4,
   "distance": 0,
-  "grade": "Mixed 4/5",
+  "grade": "Restricted Win Heat",
   "steps": {
-    "history_length": 29,
+    "history_length": 10,
     "01_Shortlist": "Complete (ENS+MC+ML Validated)",
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 521.551724137931,
+      "avg_dist": 439.5,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 4/5 vs Field"
+      "current_vs_historic_grade": "Restricted Win Heat vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.1,
-      "fluctuation": 0.4518518518518526,
-      "major_fluctuation": false
+      "last_weight": 28.3,
+      "fluctuation": 1.8100000000000023,
+      "major_fluctuation": true
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 29,
-      "last_3_avg_place": 1.0,
-      "last_5_avg_place": 2.0,
+      "total_starts": 10,
+      "last_3_avg_place": 5.0,
+      "last_5_avg_place": 4.2,
       "last_10_places": [
+        6.0,
+        7.0,
+        3.0,
+        4.0,
+        2.0,
         1.0,
         5.0,
-        6.0,
+        8.0,
         5.0,
-        1.0,
-        1.0,
-        6.0,
-        1.0,
-        1.0,
-        1.0
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": true
+      "consecutive_wins": false
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -69,13 +69,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 24.520500000000002
+      "avg_run_home": 18.24305
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.9005103070803214
+      "split_stdev": 1.9094937301692183
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -84,70 +84,66 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "ANTHONY AZZOPARDI"
+      "trainer": "MARCUS McMAHON"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 9
+      "days_since_last_run": 4
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
-      "has_group_experience": true
+      "has_group_experience": false
     },
     "25_Public_Trials": {
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 139485.0
+      "career_prize": 1725.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 3.235294117647059
+      "avg_1st_split_pos": 4.777777777777778
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -595
+      "dist_diff_from_last": -435
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 18.3,
-      "avg_temp_c": 14.0,
-      "total_precip_mm": 0.0,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "Coordinates not mapped for track: SLE"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.52,
-      "place_rate": 0.72
+      "win_rate": 0.1,
+      "place_rate": 0.4
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "ANTHONY AZZOPARDI"
+      "trainer_lookup": "MARCUS McMAHON"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "FERNANDO BALE",
-      "dam": "DESIREE DEVERE",
-      "total_offspring_runs_in_state": 99031,
-      "sire_win_rate": 0.13242318062020983
+      "sire": "FERAL FRANKY",
+      "dam": "CARRIE",
+      "total_offspring_runs_in_state": 22619,
+      "sire_win_rate": 0.12896237676289846
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 159,
-      "litter_wins": 32
+      "litter_size_racing": 8,
+      "total_litter_runs": 132,
+      "litter_wins": 14
     },
     "35_Injury_History": {
-      "long_spells_count": 2
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
     },
     "37_Aggressor_Map": {
-      "wide_runner": false
+      "wide_runner": true
     },
     "38_Course_Distance": {
       "cd_wins": 0
@@ -163,22 +159,22 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
     },
     "44_Second_Up": {
-      "is_second_up": false
+      "is_second_up": true
     },
     "45_Experience_Disparity": {
-      "total_starts": 29
+      "total_starts": 10
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.3716440311564215
+      "ewma_places": 3.6911045943304006
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -187,24 +183,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Major Weight Fluctuation (>1.5kg diff)",
+        "Poor Recent Form (>4.5 avg)",
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
-        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Group/Feature Race Caliber",
-        "High Earnings Class / Classy Animal",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Wide Runner drawn Outside (Perfect Map)",
+        "Adjacent Vacant Box (Clean Air potential)",
+        "Second-Up Bounce Profile (Pinnacle fitness)"
       ]
     }
   }
