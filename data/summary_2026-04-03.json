@@ -1,13 +1,13 @@
 {
   "date": "2026-04-03",
   "totalPredictions": 431,
-  "totalHighConfidence": 17,
+  "totalHighConfidence": 16,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
       "totalPredictions": 277,
-      "highConfidenceCount": 11,
+      "highConfidenceCount": 10,
       "topPicks": [
         {
           "track": "WGL",
@@ -20,10 +20,10 @@
           "probability": 0.4542811704871363,
           "implied_odds": 2.201279878995813,
           "grade": "Mixed 4/5",
-          "ensemble_prob": 0.2611201625434491,
-          "ensemble_odds": 3.8296544788401965,
+          "ensemble_prob": 0.2531201625434491,
+          "ensemble_odds": 3.9506927854012654,
           "ensemble_rank": 1,
-          "mc_win_pct": 21.16,
+          "mc_win_pct": 19.16,
           "mc_method": "blended",
           "tier": "green"
         },
@@ -38,10 +38,10 @@
           "probability": 0.4370871571127324,
           "implied_odds": 2.287873216421416,
           "grade": "Mixed 3/4",
-          "ensemble_prob": 0.25894286914454456,
-          "ensemble_odds": 3.8618557186133198,
+          "ensemble_prob": 0.2599828691445446,
+          "ensemble_odds": 3.846407277873461,
           "ensemble_rank": 1,
-          "mc_win_pct": 17.5,
+          "mc_win_pct": 17.76,
           "mc_method": "dog_track_dist",
           "tier": "green"
         },
@@ -56,10 +56,10 @@
           "probability": 0.4182404850628742,
           "implied_odds": 2.390968917917331,
           "grade": "Mixed 6/7",
-          "ensemble_prob": 0.25117781235410813,
-          "ensemble_odds": 3.981243369498773,
+          "ensemble_prob": 0.25245781235410814,
+          "ensemble_odds": 3.961057852301109,
           "ensemble_rank": 1,
-          "mc_win_pct": 21.36,
+          "mc_win_pct": 21.68,
           "mc_method": "blended",
           "tier": "green"
         }
@@ -225,10 +225,10 @@
           "probability": 0.2548882694802674,
           "implied_odds": 3.923287650856041,
           "grade": "Grade 4",
-          "ensemble_prob": 0.17983478482398615,
-          "ensemble_odds": 5.560659474076459,
+          "ensemble_prob": 0.17975478482398613,
+          "ensemble_odds": 5.5631342496901475,
           "ensemble_rank": 2,
-          "mc_win_pct": 0.1,
+          "mc_win_pct": 0.08,
           "mc_method": "dog_any_track",
           "tier": "other"
         },
@@ -243,10 +243,10 @@
           "probability": 0.1219748446249894,
           "implied_odds": 8.198411755099922,
           "grade": "Grade 5",
-          "ensemble_prob": 0.20768282622572776,
-          "ensemble_odds": 4.815034628395865,
+          "ensemble_prob": 0.2114428262257278,
+          "ensemble_odds": 4.729410866521622,
           "ensemble_rank": 1,
-          "mc_win_pct": 24.84,
+          "mc_win_pct": 25.78,
           "mc_method": "grade_baseline",
           "tier": "other"
         },
@@ -261,10 +261,10 @@
           "probability": 0.1158871696695888,
           "implied_odds": 8.629082950693727,
           "grade": "Grade 4",
-          "ensemble_prob": 0.20734158630024066,
-          "ensemble_odds": 4.822959146034272,
+          "ensemble_prob": 0.20694158630024065,
+          "ensemble_odds": 4.832281504545697,
           "ensemble_rank": 1,
-          "mc_win_pct": 31.44,
+          "mc_win_pct": 31.34,
           "mc_method": "dog_track_dist",
           "tier": "other"
         }

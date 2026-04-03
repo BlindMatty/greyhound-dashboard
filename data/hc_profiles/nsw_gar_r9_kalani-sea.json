@@ -1,10 +1,10 @@
 {
-  "dog": "FULL NOISE",
-  "date": "2026-04-03",
-  "track": "WGL",
-  "race": 5,
+  "dog": "KALANI SEA",
+  "date": "2026-04-04",
+  "track": "GAR",
+  "race": 9,
   "distance": 0,
-  "grade": "Mixed 6/7",
+  "grade": "Grade 5",
   "steps": {
     "history_length": 8,
     "01_Shortlist": "Complete (ENS+MC+ML Validated)",
@@ -13,21 +13,21 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 2,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 429.375,
+      "avg_dist": 400.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 6/7 vs Field"
+      "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.7,
-      "fluctuation": -0.29999999999999716,
+      "last_weight": 26.2,
+      "fluctuation": -0.25,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
@@ -35,16 +35,17 @@
     },
     "08_Form_Trajectory": {
       "total_starts": 8,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 1.8,
+      "last_3_avg_place": 1.6666666666666667,
+      "last_5_avg_place": 2.2,
       "last_10_places": [
+        4.0,
+        1.0,
         6.0,
         2.0,
-        2.0,
+        4.0,
+        3.0,
         1.0,
-        1.0,
-        2.0,
-        3.0
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -57,7 +58,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 767792
+      "races_with_same_dogs": 694155
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -66,13 +67,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 17.090249999999997
+      "avg_run_home": 11.84875
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.9148939066452825
+      "split_stdev": 0.3084263051594103
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -81,17 +82,17 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "BRAD SANDS"
+      "trainer": "Sarah Kedwell"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 8
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -100,45 +101,41 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 6920.0
+      "career_prize": 6910.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": NaN
+      "avg_1st_split_pos": 2.5
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -425
+      "dist_diff_from_last": -400
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 17.5,
-      "avg_temp_c": 13.6,
-      "total_precip_mm": 0.3,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "Coordinates not mapped for track: GAR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2857142857142857,
-      "place_rate": 0.8571428571428571
+      "win_rate": 0.375,
+      "place_rate": 0.625
     },
     "31_Track_Archetypes": {
-      "track_specialist": false
+      "track_specialist": true
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "BRAD SANDS"
+      "trainer_lookup": "Sarah Kedwell"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "AUSSIE SECRET",
-      "dam": "WHAT A SURPRISE",
-      "total_offspring_runs_in_state": 880,
-      "sire_win_rate": 0.12613636363636363
+      "sire": "FERNANDO BALE",
+      "dam": "KALANI ROSE",
+      "total_offspring_runs_in_state": 100268,
+      "sire_win_rate": 0.13671360753181475
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 7,
-      "total_litter_runs": 29,
+      "litter_size_racing": 5,
+      "total_litter_runs": 34,
       "litter_wins": 7
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -154,7 +151,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "VIC"
+      "home_state": "NSW"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -175,7 +172,7 @@
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.3464566929133857
+      "ewma_places": 1.5607843137254902
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -184,7 +181,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -194,8 +191,11 @@
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
+        "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
-        "High Career Win Rate (>25%)"
+        "Benefiting from inside track bias",
+        "High Career Win Rate (>25%)",
+        "Proven Track Specialist Profile"
       ]
     }
   }

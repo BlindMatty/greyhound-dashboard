@@ -1,57 +1,60 @@
 {
-  "dog": "FULL NOISE",
-  "date": "2026-04-03",
-  "track": "WGL",
-  "race": 5,
+  "dog": "NOTORIOUS BLAZE",
+  "date": "2026-04-04",
+  "track": "SHP",
+  "race": 12,
   "distance": 0,
-  "grade": "Mixed 6/7",
+  "grade": "Rank Limit - Grade 5",
   "steps": {
-    "history_length": 8,
+    "history_length": 53,
     "01_Shortlist": "Complete (ENS+MC+ML Validated)",
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 429.375,
+      "avg_dist": 392.35849056603774,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 6/7 vs Field"
+      "current_vs_historic_grade": "Rank Limit - Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.7,
-      "fluctuation": -0.29999999999999716,
+      "last_weight": 31.5,
+      "fluctuation": 0.9619047619047656,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 8,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 1.8,
+      "total_starts": 53,
+      "last_3_avg_place": 7.0,
+      "last_5_avg_place": 4.8,
       "last_10_places": [
+        1.0,
         6.0,
-        2.0,
+        6.0,
+        7.0,
+        5.0,
         2.0,
         1.0,
-        1.0,
-        2.0,
-        3.0
+        7.0,
+        8.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
       "consecutive_wins": false
     },
     "10_Forgive_Runs": {
-      "abnormal_runs": 0
+      "abnormal_runs": 1
     },
     "11_Surface_Bias": {
       "track_type": "Sand/Loam assumed"
@@ -66,13 +69,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 17.090249999999997
+      "avg_run_home": 15.036485294117647
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.9148939066452825
+      "split_stdev": 1.446038154302119
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -81,17 +84,17 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "BRAD SANDS"
+      "trainer": "BRIAN BROWN"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 4
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -100,45 +103,41 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 6920.0
+      "career_prize": 8490.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": NaN
+      "avg_1st_split_pos": 3.966666666666667
     },
     "28_Distance_Switch": {
       "dist_diff_from_last": -425
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 17.5,
-      "avg_temp_c": 13.6,
-      "total_precip_mm": 0.3,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "Coordinates not mapped for track: SHP"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2857142857142857,
-      "place_rate": 0.8571428571428571
+      "win_rate": 0.14634146341463414,
+      "place_rate": 0.34146341463414637
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "BRAD SANDS"
+      "trainer_lookup": "BRIAN BROWN"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "AUSSIE SECRET",
-      "dam": "WHAT A SURPRISE",
-      "total_offspring_runs_in_state": 880,
-      "sire_win_rate": 0.12613636363636363
+      "sire": "FERNANDO BALE",
+      "dam": "MERCEDES DIOR",
+      "total_offspring_runs_in_state": 99092,
+      "sire_win_rate": 0.13240221208573852
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 7,
-      "total_litter_runs": 29,
-      "litter_wins": 7
+      "litter_size_racing": 2,
+      "total_litter_runs": 57,
+      "litter_wins": 6
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 4
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -160,7 +159,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -169,13 +168,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 8
+      "total_starts": 53
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.3464566929133857
+      "ewma_places": 6.174092900982111
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -184,18 +183,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Poor Recent Form (>4.5 avg)",
+        "Distance Shock (>= 100m diff last run)",
+        "Injury Prone (Multiple 60+ day spells)",
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "High Career Win Rate (>25%)"
+        "Benefiting from inside track bias",
+        "Adjacent Vacant Box (Clean Air potential)",
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }
