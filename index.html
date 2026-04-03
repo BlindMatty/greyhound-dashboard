@@ -50,5 +50,15 @@
   </footer>
 
   <script src="app.js"></script>
+
+<!-- HC Modal -->
+<div id="hcModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.5);">
+  <div style="background-color:#fff; margin:10% auto; padding:20px; border:1px solid #888; width:90%; max-width:800px; border-radius:8px; position:relative;">
+    <span onclick="closeHCModal()" style="color:#aaa; float:right; font-size:28px; font-weight:bold; cursor:pointer;">&times;</span>
+    <h3 style="margin-top:0; color:#0e131f;">Engine AI: 50-Step Analysis</h3>
+    <div id="hcModalDetails" style="margin-top:15px; color:#2c3e50;">Loading...</div>
+  </div>
+</div>
+
 </body>
 </html>
