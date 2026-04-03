@@ -133,7 +133,7 @@ function renderHighConfidence(picks) {
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
-    <div class=\"hc-card\" onclick=\"openHCModal('${slug}')\" style=\"cursor:pointer\" title=\"Click for Full 50-step Assessment\">
+    <div class="hc-card" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
         <span class="hc-dog">${esc(p.dog)}</span>
         <span class="hc-meta">
