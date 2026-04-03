@@ -1,7 +1,7 @@
 {
   "date": "2026-04-03",
   "totalPredictions": 431,
-  "totalHighConfidence": 15,
+  "totalHighConfidence": 16,
   "states": [
     {
       "code": "vic",
@@ -212,7 +212,7 @@
       "code": "tas",
       "name": "Tasmania",
       "totalPredictions": 64,
-      "highConfidenceCount": 2,
+      "highConfidenceCount": 3,
       "topPicks": [
         {
           "track": "DHO",
@@ -225,10 +225,10 @@
           "probability": 0.2548882694802674,
           "implied_odds": 3.923287650856041,
           "grade": "Grade 4",
-          "ensemble_prob": 0.17975478482398613,
-          "ensemble_odds": 5.5631342496901475,
+          "ensemble_prob": 0.17959478482398614,
+          "ensemble_odds": 5.568090415209223,
           "ensemble_rank": 2,
-          "mc_win_pct": 0.08,
+          "mc_win_pct": 0.04,
           "mc_method": "dog_any_track",
           "tier": "other"
         },
@@ -243,10 +243,10 @@
           "probability": 0.1219748446249894,
           "implied_odds": 8.198411755099922,
           "grade": "Grade 5",
-          "ensemble_prob": 0.2120028262257278,
-          "ensemble_odds": 4.7169182496428625,
+          "ensemble_prob": 0.20936282622572777,
+          "ensemble_odds": 4.776397118950976,
           "ensemble_rank": 1,
-          "mc_win_pct": 25.92,
+          "mc_win_pct": 25.26,
           "mc_method": "grade_baseline",
           "tier": "other"
         },
@@ -261,10 +261,10 @@
           "probability": 0.1158871696695888,
           "implied_odds": 8.629082950693727,
           "grade": "Grade 4",
-          "ensemble_prob": 0.20638158630024067,
-          "ensemble_odds": 4.8453935156076176,
+          "ensemble_prob": 0.21254158630024067,
+          "ensemble_odds": 4.704961590845469,
           "ensemble_rank": 1,
-          "mc_win_pct": 31.2,
+          "mc_win_pct": 32.74,
           "mc_method": "dog_track_dist",
           "tier": "other"
         }
