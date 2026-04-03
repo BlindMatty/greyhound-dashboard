@@ -352,8 +352,8 @@ window.openHCModal = function(slug) {
             return;
         }
         
-      let redHtml = data.steps['50_Final_Probability'].red_flags.map(f => `<li style="color:#e74c3c; margin-bottom:5px;">${f}</li>`).join('') || '<li>None</li>';
-      let greenHtml = data.steps['50_Final_Probability'].green_flags.map(f => `<li style="color:#2ecc71; margin-bottom:5px;">${f}</li>`).join('') || '<li>None</li>';
+      let redHtml = data.steps['50_Final_Probability'].red_flags.map(f => `<li style="color:#000; margin-bottom:5px;">${f}</li>`).join('') || '<li>None</li>';
+      let greenHtml = data.steps['50_Final_Probability'].green_flags.map(f => `<li style="color:#000; margin-bottom:5px;">${f}</li>`).join('') || '<li>None</li>';
       
       let finalScore = data.steps['50_Final_Probability'].final_score;
       let decColor = finalScore >= 3 ? '#2ecc71' : (finalScore <= -2 ? '#e74c3c' : '#f39c12');
