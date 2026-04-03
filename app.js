@@ -129,8 +129,11 @@ function renderHighConfidence(picks) {
     const ensOdds = p.ensemble_odds || p.implied_odds || 0;
     const ensProb = p.ensemble_prob || p.probability || 0;
     const mcPct = p.mc_win_pct != null ? p.mc_win_pct : '';
-    return `
-    <div class="hc-card">
+    const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
+      const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
+      return `
+    
+    <div class=\"hc-card\" onclick=\"openHCModal('${slug}')\" style=\"cursor:pointer\" title=\"Click for Full 50-step Assessment\">
       <div class="hc-left">
         <span class="hc-dog">${esc(p.dog)}</span>
         <span class="hc-meta">
