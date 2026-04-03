@@ -227,13 +227,14 @@ function renderRaces(data) {
 
     // Tag each dog with which models pick it as #1
     const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, mc: mcTop?.dog };
+      const totalProb = race.dogs.reduce((s, d) => s + (d.probability || 0), 0) * 100;
 
     return `
       <div class="race-card">
         <div class="race-header" onclick="toggleRace(this)">
           <div>
             <span class="race-title">${esc(race.track)} R${race.raceNumber}</span>
-            <span class="race-meta">${esc(race.start_time || '')}${race.grade ? ' · ' + esc(race.grade) : ''}</span>
+            <span class="race-meta">${esc(race.start_time || '')}${race.grade ? ' · ' + esc(race.grade) : ''} &nbsp;&middot;&nbsp; ML Sum: ${totalProb.toFixed(1)}%</span>
           </div>
           <div style="display:flex;align-items:center;gap:12px">
             ${topDog ? `<span class="race-meta">Pick: <strong>${esc(topDog.dog)}</strong> (Box ${topDog.box}) ${((topDog.ensemble_prob || topDog.probability) * 100).toFixed(1)}%</span>` : ''}
