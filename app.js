@@ -66,8 +66,10 @@ async function loadDate(dateStr) {
   renderStateTabs(summaryData.states);
   loadHighConfidencePicks(summaryData.states);
 
-  // Auto-select first state with data
-  const first = summaryData.states.find(s => s.hasData);
+  // Auto-select first state by earliest race time
+  const first = summaryData.states
+    .filter(s => s.hasData)
+    .sort((a, b) => parseTime(a.earliestRaceTime) - parseTime(b.earliestRaceTime))[0];
   if (first) selectState(first.code);
 }
 
@@ -155,6 +157,7 @@ function renderStateTabs(states) {
   const container = document.getElementById('stateTabs');
   container.innerHTML = states
     .filter(s => s.hasData)
+    .sort((a, b) => parseTime(a.earliestRaceTime) - parseTime(b.earliestRaceTime))
     .map(s => `
       <div class="state-tab" data-state="${s.code}" onclick="selectState('${s.code}')">
         ${s.name} <span class="tab-count">(${s.totalPredictions})</span>
