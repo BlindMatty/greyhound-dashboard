@@ -3,7 +3,7 @@
   "state": "tas",
   "stateName": "Tasmania",
   "totalRaces": 8,
-  "totalDogs": 64,
+  "totalDogs": 63,
   "highConfidenceCount": 2,
   "races": [
     {
@@ -302,8 +302,8 @@
           "ensemble_rank": 1,
           "mc_win_pct": 17.52,
           "mc_method": "grade_baseline",
-          "probability_norm": 0.1815235436933068,
-          "implied_odds_norm": 5.508927270004989
+          "probability_norm": 0.13757641347266772,
+          "implied_odds_norm": 7.2686878132541946
         },
         {
           "dog": "OUR MISS MAGGIE",
@@ -318,13 +318,13 @@
           "ensemble_rank": 5,
           "mc_win_pct": 9.5,
           "mc_method": "blended",
-          "probability_norm": 0.17997230317617777,
-          "implied_odds_norm": 5.556410527352556
+          "probability_norm": 0.13640073068002306,
+          "implied_odds_norm": 7.331339025931316
         },
         {
           "dog": "VERY SNEAKY",
-          "box": null,
-          "rug": null,
+          "box": 1,
+          "rug": 9,
           "probability": 0.0706824925133606,
           "implied_odds": 14.147774992668468,
           "isHighConf": false,
@@ -334,8 +334,8 @@
           "ensemble_rank": 6,
           "mc_win_pct": 8.82,
           "mc_method": "dog_any_track",
-          "probability_norm": null,
-          "implied_odds_norm": null
+          "probability_norm": 0.12389186805355676,
+          "implied_odds_norm": 8.071554781688445
         },
         {
           "dog": "CABAO KYANITE",
@@ -350,8 +350,8 @@
           "ensemble_rank": 2,
           "mc_win_pct": 19.46,
           "mc_method": "grade_baseline",
-          "probability_norm": 0.16340918223306314,
-          "implied_odds_norm": 6.119607150189058
+          "probability_norm": 0.12384756689253273,
+          "implied_odds_norm": 8.074442034599986
         },
         {
           "dog": "BLAND OPTION",
@@ -366,13 +366,13 @@
           "ensemble_rank": 4,
           "mc_win_pct": 16.46,
           "mc_method": "grade_baseline",
-          "probability_norm": 0.16315430090699812,
-          "implied_odds_norm": 6.129167263387216
+          "probability_norm": 0.1236543927290731,
+          "implied_odds_norm": 8.087056010949818
         },
         {
           "dog": "AYLA ZORRO",
-          "box": null,
-          "rug": null,
+          "box": 2,
+          "rug": 10,
           "probability": 0.0674407019137107,
           "implied_odds": 14.827840927270948,
           "isHighConf": false,
@@ -382,8 +382,8 @@
           "ensemble_rank": 8,
           "mc_win_pct": 2.02,
           "mc_method": "dog_any_track",
-          "probability_norm": null,
-          "implied_odds_norm": null
+          "probability_norm": 0.11820967605738218,
+          "implied_odds_norm": 8.45954437363125
         },
         {
           "dog": "JUST LIKE COMET",
@@ -398,8 +398,8 @@
           "ensemble_rank": 3,
           "mc_win_pct": 18.9,
           "mc_method": "grade_baseline",
-          "probability_norm": 0.15597033499522708,
-          "implied_odds_norm": 6.411475618300117
+          "probability_norm": 0.11820967605738218,
+          "implied_odds_norm": 8.45954437363125
         },
         {
           "dog": "LEAN BRICK",
@@ -414,11 +414,11 @@
           "ensemble_rank": 7,
           "mc_win_pct": 7.32,
           "mc_method": "blended",
-          "probability_norm": 0.15597033499522708,
-          "implied_odds_norm": 6.411475618300117
+          "probability_norm": 0.11820967605738218,
+          "implied_odds_norm": 8.45954437363125
         }
       ],
-      "race_prob_sum": 0.4323944160008022
+      "race_prob_sum": 0.5705176104278735
     },
     {
       "track": "DHO",
@@ -446,7 +446,7 @@
         {
           "dog": "FAST CAR",
           "box": 1,
-          "rug": 1,
+          "rug": 9,
           "probability": 0.0740403068805002,
           "implied_odds": 13.506156877685315,
           "isHighConf": false,
@@ -578,8 +578,8 @@
           "ensemble_rank": 1,
           "mc_win_pct": 25.22,
           "mc_method": "grade_baseline",
-          "probability_norm": 0.18053804370954635,
-          "implied_odds_norm": 5.5389987586706235
+          "probability_norm": 0.2036289097023451,
+          "implied_odds_norm": 4.9108940447687495
         },
         {
           "dog": "TAKES TIME",
@@ -594,8 +594,8 @@
           "ensemble_rank": 5,
           "mc_win_pct": 6.66,
           "mc_method": "dog_any_track",
-          "probability_norm": 0.1436893367521295,
-          "implied_odds_norm": 6.959458666894987
+          "probability_norm": 0.16206724287852736,
+          "implied_odds_norm": 6.170278350138405
         },
         {
           "dog": "MINI MARA",
@@ -610,8 +610,8 @@
           "ensemble_rank": 3,
           "mc_win_pct": 19.14,
           "mc_method": "blended",
-          "probability_norm": 0.12949368421631768,
-          "implied_odds_norm": 7.722384346788
+          "probability_norm": 0.14605596243598956,
+          "implied_odds_norm": 6.846690702122206
         },
         {
           "dog": "DEADLY POWER",
@@ -626,24 +626,8 @@
           "ensemble_rank": 4,
           "mc_win_pct": 17.34,
           "mc_method": "blended",
-          "probability_norm": 0.1214270345846279,
-          "implied_odds_norm": 8.23539834782884
-        },
-        {
-          "dog": "MERCEDES DANGER",
-          "box": 6,
-          "rug": 6,
-          "probability": 0.0766129748864045,
-          "implied_odds": 13.052619370057338,
-          "isHighConf": false,
-          "scratched": false,
-          "ensemble_prob": 0.07419807777555315,
-          "ensemble_odds": 13.477438095161556,
-          "ensemble_rank": 7,
-          "mc_win_pct": 1.54,
-          "mc_method": "dog_any_track",
-          "probability_norm": 0.11339679629258864,
-          "implied_odds_norm": 8.818591289120553
+          "probability_norm": 0.13695758607330744,
+          "implied_odds_norm": 7.301530558991771
         },
         {
           "dog": "BLACKPOOL LOTTIE",
@@ -658,8 +642,8 @@
           "ensemble_rank": 2,
           "mc_win_pct": 23.04,
           "mc_method": "grade_baseline",
-          "probability_norm": 0.10441840669656308,
-          "implied_odds_norm": 9.576855572082914
+          "probability_norm": 0.11777354994875731,
+          "implied_odds_norm": 8.490870831651886
         },
         {
           "dog": "SILENT PRAYER",
@@ -674,8 +658,8 @@
           "ensemble_rank": 6,
           "mc_win_pct": 6.44,
           "mc_method": "dog_track_dist",
-          "probability_norm": 0.10351834887411344,
-          "implied_odds_norm": 9.660123165373122
+          "probability_norm": 0.11675837448053664,
+          "implied_odds_norm": 8.56469614662799
         },
         {
           "dog": "STEP ON IT",
@@ -690,11 +674,11 @@
           "ensemble_rank": 8,
           "mc_win_pct": 0.62,
           "mc_method": "dog_track_dist",
-          "probability_norm": 0.10351834887411344,
-          "implied_odds_norm": 9.660123165373122
+          "probability_norm": 0.11675837448053664,
+          "implied_odds_norm": 8.56469614662799
         }
       ],
-      "race_prob_sum": 0.6756185129668585
+      "race_prob_sum": 0.599005538080454
     },
     {
       "track": "DHO",
