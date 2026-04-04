@@ -1,24 +1,24 @@
 {
-  "dog": "FROGS MONELLI",
-  "date": "2026-04-04",
-  "track": "CAN",
-  "race": 2,
+  "dog": "WIGGLE ON",
+  "date": "2026-04-05",
+  "track": "GRA",
+  "race": 10,
   "distance": 0,
   "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 16,
+    "history_length": 21,
     "01_Shortlist": "Complete (ENS+MC+ML Validated)",
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 467.0,
+      "avg_dist": 396.9047619047619,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -26,41 +26,41 @@
       "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 31.3,
-      "fluctuation": 0.13124999999999787,
+      "last_weight": 26.8,
+      "fluctuation": -0.3611111111111107,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 16,
-      "last_3_avg_place": 3.0,
+      "total_starts": 21,
+      "last_3_avg_place": 1.6666666666666667,
       "last_5_avg_place": 2.2,
       "last_10_places": [
+        1.0,
         2.0,
-        3.0,
-        7.0,
         6.0,
-        4.0,
+        6.0,
+        1.0,
+        3.0,
+        3.0,
         1.0,
         1.0,
-        4.0,
-        1.0,
-        4.0
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
       "consecutive_wins": false
     },
     "10_Forgive_Runs": {
-      "abnormal_runs": 1
+      "abnormal_runs": 0
     },
     "11_Surface_Bias": {
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 210526
+      "races_with_same_dogs": 694155
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +69,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 20.58133333333333
+      "avg_run_home": 17.566470588235294
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.43910406619886927
+      "split_stdev": 2.594928878091448
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -84,7 +84,7 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "David Hobby"
+      "trainer": "Helen Pearce"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
@@ -97,47 +97,47 @@
       "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
-      "has_group_experience": true
+      "has_group_experience": false
     },
     "25_Public_Trials": {
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 37002.0
+      "career_prize": 38030.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 1.0
+      "avg_1st_split_pos": 2.8
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -520
+      "dist_diff_from_last": -350
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "Coordinates not mapped for track: CAN"
+      "message": "Coordinates not mapped for track: GRA"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.4666666666666667,
-      "place_rate": 0.6
+      "win_rate": 0.3333333333333333,
+      "place_rate": 0.8333333333333334
     },
     "31_Track_Archetypes": {
       "track_specialist": true
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "David Hobby"
+      "trainer_lookup": "Helen Pearce"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "HOOKED ON SCOTCH",
-      "dam": "FLAKE MONELLI",
-      "total_offspring_runs_in_state": 2084,
-      "sire_win_rate": 0.1362763915547025
+      "sire": "SHIMA SHINE",
+      "dam": "AMBER ALE",
+      "total_offspring_runs_in_state": 4511,
+      "sire_win_rate": 0.15983152294391487
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 8,
-      "total_litter_runs": 232,
-      "litter_wins": 29
+      "litter_size_racing": 3,
+      "total_litter_runs": 42,
+      "litter_wins": 9
     },
     "35_Injury_History": {
-      "long_spells_count": 1
+      "long_spells_count": 2
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -153,13 +153,13 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "WA"
+      "home_state": "NSW"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -168,13 +168,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 16
+      "total_starts": 21
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.9905392620624407
+      "ewma_places": 2.249592779513472
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,22 +183,23 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)",
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
-        "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "Elite Sire Line (>15% state win rate)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
