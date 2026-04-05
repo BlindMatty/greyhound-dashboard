@@ -1,0 +1,4620 @@
+{
+  "date": "2026-01-26",
+  "state": "vic",
+  "stateName": "Victoria",
+  "totalRaces": 52,
+  "totalDogs": 379,
+  "highConfidenceCount": 2,
+  "races": [
+    {
+      "track": "BAL",
+      "raceNumber": 1,
+      "raceId": 1256763027,
+      "start_time": "10:37AM",
+      "grade": "Tier 3 - Maiden",
+      "dogs": [
+        {
+          "dog": "QUEST FOR JUNIOR",
+          "box": 4,
+          "probability": 0.2366507872789087,
+          "implied_odds": 4.225635635944171,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.26431119033664413,
+          "implied_odds_norm": 3.78341907781632
+        },
+        {
+          "dog": "GOOD ODDS LUIGI",
+          "box": 8,
+          "probability": 0.16280753521625277,
+          "implied_odds": 6.142221849079206,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1818369333293913,
+          "implied_odds_norm": 5.49943282528052
+        },
+        {
+          "dog": "LORIMER STREET",
+          "box": 3,
+          "probability": 0.1469117728680945,
+          "implied_odds": 6.806806428630162,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16408323001042258,
+          "implied_odds_norm": 6.094468032695845
+        },
+        {
+          "dog": "TINKER ROCK",
+          "box": 9,
+          "probability": 0.116279900563466,
+          "implied_odds": 8.599938554765071,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "PAW GEORGIE",
+          "box": 5,
+          "probability": 0.10813367648256615,
+          "implied_odds": 9.247812823244061,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12077264172757686,
+          "implied_odds_norm": 8.280020919436948
+        },
+        {
+          "dog": "WHERE'S WYCHE",
+          "box": 1,
+          "probability": 0.0946604514347093,
+          "implied_odds": 10.56407385390229,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10572462861500896,
+          "implied_odds_norm": 9.458534053039342
+        },
+        {
+          "dog": "GOTHAM SORCERESS",
+          "box": 10,
+          "probability": 0.09304701397499031,
+          "implied_odds": 10.747255148550877,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "INFATUATED",
+          "box": 7,
+          "probability": 0.06235792606730222,
+          "implied_odds": 16.03645379291016,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06964649412447586,
+          "implied_odds_norm": 14.35822452473699
+        },
+        {
+          "dog": "BARELLEN MOON",
+          "box": 2,
+          "probability": 0.04759097749714035,
+          "implied_odds": 21.012386225100926,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.053153543481470125,
+          "implied_odds_norm": 18.81342116633504
+        },
+        {
+          "dog": "SPINNER BAIT",
+          "box": 6,
+          "probability": 0.03623597652630081,
+          "implied_odds": 27.596882873411168,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.04047133837501016,
+          "implied_odds_norm": 24.70884433655078
+        }
+      ],
+      "race_prob_sum": 0.8953491033712748
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 2,
+      "raceId": 1256763028,
+      "start_time": "10:52AM",
+      "grade": "Tier 3 - Maiden",
+      "dogs": [
+        {
+          "dog": "WILSON AGAIN",
+          "box": 7,
+          "probability": 0.278069346346505,
+          "implied_odds": 3.5962252335210296,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.30413069412097965,
+          "implied_odds_norm": 3.28806009827542
+        },
+        {
+          "dog": "PAW NIMBUS",
+          "box": 4,
+          "probability": 0.15515274455338987,
+          "implied_odds": 6.445261428526573,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16969404400655394,
+          "implied_odds_norm": 5.892958741447507
+        },
+        {
+          "dog": "ZARI BETTINA",
+          "box": 2,
+          "probability": 0.1410742634427984,
+          "implied_odds": 7.088465150168738,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15429609278111456,
+          "implied_odds_norm": 6.481045514344984
+        },
+        {
+          "dog": "PETE RENNIE",
+          "box": 8,
+          "probability": 0.1245452851501253,
+          "implied_odds": 8.029208000885884,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13621797770906663,
+          "implied_odds_norm": 7.341174908173962
+        },
+        {
+          "dog": "CHAPPY'S BANSHEE",
+          "box": 1,
+          "probability": 0.10551255594215625,
+          "implied_odds": 9.477545028368157,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11540145398543676,
+          "implied_odds_norm": 8.665402085195533
+        },
+        {
+          "dog": "TINKER ROCK",
+          "box": 9,
+          "probability": 0.1050381658010966,
+          "implied_odds": 9.52034903097632,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "PAW LUANNE",
+          "box": 10,
+          "probability": 0.07962712104941942,
+          "implied_odds": 12.558535167676908,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "TINKER LIZ",
+          "box": 3,
+          "probability": 0.048851183719447584,
+          "implied_odds": 20.470333037229995,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.05342963763691327,
+          "implied_odds_norm": 18.71620404382312
+        },
+        {
+          "dog": "SCOTT SWITCHEROO",
+          "box": 5,
+          "probability": 0.03650241512510303,
+          "implied_odds": 27.395447577173908,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.03992351186835256,
+          "implied_odds_norm": 25.047896670450523
+        },
+        {
+          "dog": "TOOTHPICK",
+          "box": 6,
+          "probability": 0.02460092799594558,
+          "implied_odds": 40.648873089860984,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.026906587891582637,
+          "implied_odds_norm": 37.16561921672857
+        }
+      ],
+      "race_prob_sum": 0.914308722275471
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 3,
+      "raceId": 1256763030,
+      "start_time": "11:10AM",
+      "grade": "Tier 3 - Restricted Win",
+      "dogs": [
+        {
+          "dog": "PAW NICKARA",
+          "box": 6,
+          "probability": 0.15892271313057293,
+          "implied_odds": 6.292366775656461,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.220144822240625,
+          "implied_odds_norm": 4.5424643188154095
+        },
+        {
+          "dog": "SOUTH OF HEAVEN",
+          "box": 8,
+          "probability": 0.13093434882234203,
+          "implied_odds": 7.637415307703922,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18137444534441016,
+          "implied_odds_norm": 5.513455868058534
+        },
+        {
+          "dog": "PAW KENNETH",
+          "box": 9,
+          "probability": 0.13047669873493287,
+          "implied_odds": 7.664203721398014,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "GOTHAM THANOS",
+          "box": 10,
+          "probability": 0.11072177105633735,
+          "implied_odds": 9.031647438977298,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "CAVED IN",
+          "box": 5,
+          "probability": 0.10199696332277472,
+          "implied_odds": 9.804213453252013,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1412894539582093,
+          "implied_odds_norm": 7.077669082759572
+        },
+        {
+          "dog": "CHAPPY'S INAZUMA",
+          "box": 4,
+          "probability": 0.09548808226971169,
+          "implied_odds": 10.47251108442456,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13227314386517278,
+          "implied_odds_norm": 7.5601136464958385
+        },
+        {
+          "dog": "PRINCE OF FIRE",
+          "box": 7,
+          "probability": 0.07436853465643424,
+          "implied_odds": 13.44654704600236,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10301767141859174,
+          "implied_odds_norm": 9.707072449120886
+        },
+        {
+          "dog": "PAW FERNA",
+          "box": 3,
+          "probability": 0.06466676494029416,
+          "implied_odds": 15.463894025366582,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08957846988781784,
+          "implied_odds_norm": 11.16339675429078
+        },
+        {
+          "dog": "TIMMY TIME",
+          "box": 1,
+          "probability": 0.04863254108743522,
+          "implied_odds": 20.56236375150797,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.0673673504680666,
+          "implied_odds_norm": 14.84398589304798
+        },
+        {
+          "dog": "BARELLEN SILK",
+          "box": 2,
+          "probability": 0.046890805615399635,
+          "implied_odds": 21.326142446816593,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06495464281710654,
+          "implied_odds_norm": 15.395358308961999
+        }
+      ],
+      "race_prob_sum": 0.7219007538449647
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 4,
+      "raceId": 1256763024,
+      "start_time": "11:27AM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "DIM SIM RIXI",
+          "box": 4,
+          "probability": 0.11864182698281739,
+          "implied_odds": 8.428730620819145,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15970875836044657,
+          "implied_odds_norm": 6.261397372729558
+        },
+        {
+          "dog": "ASTON DUNKEL",
+          "box": 8,
+          "probability": 0.11260421287368685,
+          "implied_odds": 8.880662405781784,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1515812718124823,
+          "implied_odds_norm": 6.597121056201963
+        },
+        {
+          "dog": "MR. OLAF",
+          "box": 3,
+          "probability": 0.1066835757896405,
+          "implied_odds": 9.373514082165823,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1436112529629512,
+          "implied_odds_norm": 6.963242638499782
+        },
+        {
+          "dog": "IT'S SOYSAGES",
+          "box": 5,
+          "probability": 0.10245527185448501,
+          "implied_odds": 9.76035670883074,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13791935501576205,
+          "implied_odds_norm": 7.250613953971257
+        },
+        {
+          "dog": "HARTLAND PRINCE",
+          "box": 6,
+          "probability": 0.09695346848506758,
+          "implied_odds": 10.314226150186842,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13051314586323243,
+          "implied_odds_norm": 7.662063414270328
+        },
+        {
+          "dog": "ZIPPING REMY",
+          "box": 7,
+          "probability": 0.08570632523319524,
+          "implied_odds": 11.667750277230253,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11537289280459774,
+          "implied_odds_norm": 8.667547252140572
+        },
+        {
+          "dog": "TESS CABANG",
+          "box": 9,
+          "probability": 0.07829665949227604,
+          "implied_odds": 12.771936970039569,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "VALLETTA PEARL",
+          "box": 2,
+          "probability": 0.06299475140793141,
+          "implied_odds": 15.87433837978594,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08479988707559942,
+          "implied_odds_norm": 11.792468533696233
+        },
+        {
+          "dog": "OCEAN BURN",
+          "box": 1,
+          "probability": 0.05682419113922367,
+          "implied_odds": 17.59813874956746,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07649343610492831,
+          "implied_odds_norm": 13.073017123041385
+        }
+      ],
+      "race_prob_sum": 0.7428636237660476
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 5,
+      "raceId": 1256763021,
+      "start_time": "11:44AM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "FERNANDO LEE",
+          "box": 2,
+          "probability": 0.17130346660471665,
+          "implied_odds": 5.837593481441351,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18048940115361253,
+          "implied_odds_norm": 5.540491539161965
+        },
+        {
+          "dog": "ANGRY FRANKY",
+          "box": 7,
+          "probability": 0.14974783013425222,
+          "implied_odds": 6.677893089358811,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15777787058653658,
+          "implied_odds_norm": 6.338024440832652
+        },
+        {
+          "dog": "LETHAL FORCE",
+          "box": 6,
+          "probability": 0.12113527805842708,
+          "implied_odds": 8.255233454928554,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12763100612430836,
+          "implied_odds_norm": 7.835086711030337
+        },
+        {
+          "dog": "BUST UP",
+          "box": 1,
+          "probability": 0.11131879234691262,
+          "implied_odds": 8.983209204099262,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11728812362098688,
+          "implied_odds_norm": 8.526012430989779
+        },
+        {
+          "dog": "MYOLA THUNDER",
+          "box": 4,
+          "probability": 0.10659936487503659,
+          "implied_odds": 9.380918931104999,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11231562274245907,
+          "implied_odds_norm": 8.903480883447628
+        },
+        {
+          "dog": "BRAVADO",
+          "box": 5,
+          "probability": 0.10633536368935896,
+          "implied_odds": 9.404209148344414,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11203746482276707,
+          "implied_odds_norm": 8.925585754567972
+        },
+        {
+          "dog": "TESS CABANG",
+          "box": 3,
+          "probability": 0.09484240251091401,
+          "implied_odds": 10.543807131888343,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09992820794843986,
+          "implied_odds_norm": 10.007184362957572
+        },
+        {
+          "dog": "ARGYLE EMMA",
+          "box": 8,
+          "probability": 0.08782290913292866,
+          "implied_odds": 11.386550615015508,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09253230300088965,
+          "implied_odds_norm": 10.807036759804687
+        }
+      ],
+      "race_prob_sum": 0.9491054073525468
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 6,
+      "raceId": 1256763031,
+      "start_time": "12:06PM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "BOROUGH SALTS",
+          "box": 8,
+          "probability": 0.13262949659500972,
+          "implied_odds": 7.539800916635808,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18747272875743098,
+          "implied_odds_norm": 5.334109161519112
+        },
+        {
+          "dog": "ANCONA",
+          "box": 2,
+          "probability": 0.13145199900337712,
+          "implied_odds": 7.60733961888483,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18580832760779278,
+          "implied_odds_norm": 5.381890106189514
+        },
+        {
+          "dog": "CASH JOB",
+          "box": 4,
+          "probability": 0.12186611816385545,
+          "implied_odds": 8.205726210589944,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17225861744025592,
+          "implied_odds_norm": 5.805224811738825
+        },
+        {
+          "dog": "MYOLA THALIA",
+          "box": 1,
+          "probability": 0.11040165915893181,
+          "implied_odds": 9.057834887792962,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15605352378794687,
+          "implied_odds_norm": 6.4080577979056
+        },
+        {
+          "dog": "THAT'S MY COUSIN",
+          "box": 3,
+          "probability": 0.11023094220866049,
+          "implied_odds": 9.071862944862257,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15581221417482033,
+          "implied_odds_norm": 6.417982090146067
+        },
+        {
+          "dog": "HARD COMPASS",
+          "box": 6,
+          "probability": 0.10087999774527455,
+          "implied_odds": 9.912767866282415,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14259458823175306,
+          "implied_odds_norm": 7.012888864861699
+        }
+      ],
+      "race_prob_sum": 0.7074602128751092
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 7,
+      "raceId": 1256763034,
+      "start_time": "12:21PM",
+      "grade": "Tier 3 - Restricted Win",
+      "dogs": [
+        {
+          "dog": "WYONG KNOXVILLE",
+          "box": 1,
+          "probability": 0.16038648493803148,
+          "implied_odds": 6.23493931166563,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2001112880183443,
+          "implied_odds_norm": 4.9972193468083095
+        },
+        {
+          "dog": "QUAYNOR",
+          "box": 3,
+          "probability": 0.143110688754721,
+          "implied_odds": 6.98759826188742,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17855659263911475,
+          "implied_odds_norm": 5.600465293494513
+        },
+        {
+          "dog": "FLYING OFFSHORE",
+          "box": 2,
+          "probability": 0.13641957330636986,
+          "implied_odds": 7.330326402313317,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17020821009823967,
+          "implied_odds_norm": 5.8751572525369165
+        },
+        {
+          "dog": "BOOTLEG TOMMY",
+          "box": 4,
+          "probability": 0.13276645744572144,
+          "implied_odds": 7.532022916321522,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16565028415805183,
+          "implied_odds_norm": 6.036814274618874
+        },
+        {
+          "dog": "POCKET RIOT",
+          "box": 8,
+          "probability": 0.1280442312958485,
+          "implied_odds": 7.809801268512301,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15975844883582946,
+          "implied_odds_norm": 6.259449858752806
+        },
+        {
+          "dog": "KIPTUM",
+          "box": 7,
+          "probability": 0.05304317306413487,
+          "implied_odds": 18.852567488579407,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06618099827142614,
+          "implied_odds_norm": 15.11007730494983
+        },
+        {
+          "dog": "ANGELANI",
+          "box": 6,
+          "probability": 0.04771583669408334,
+          "implied_odds": 20.957402600130827,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.05953417797899391,
+          "implied_odds_norm": 16.79707411686848
+        }
+      ],
+      "race_prob_sum": 0.8014864454989105
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 8,
+      "raceId": 1256763032,
+      "start_time": "12:38PM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "PENNY'S LEGACY",
+          "box": 2,
+          "probability": 0.13156453961799794,
+          "implied_odds": 7.600832282798493,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1606094293540838,
+          "implied_odds_norm": 6.226284496630479
+        },
+        {
+          "dog": "ASTUTE QUEEN",
+          "box": 1,
+          "probability": 0.12795434043081455,
+          "implied_odds": 7.815287833402605,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15620222333191652,
+          "implied_odds_norm": 6.40195753088024
+        },
+        {
+          "dog": "BLAZING RIOT",
+          "box": 5,
+          "probability": 0.10857514945508057,
+          "implied_odds": 9.210210669926063,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13254477875761378,
+          "implied_odds_norm": 7.544620085176739
+        },
+        {
+          "dog": "BUSTER BOURBSKI",
+          "box": 4,
+          "probability": 0.10061584751894619,
+          "implied_odds": 9.93879219485477,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12282833885875427,
+          "implied_odds_norm": 8.14144365454575
+        },
+        {
+          "dog": "ELEVATE",
+          "box": 7,
+          "probability": 0.09426589132671746,
+          "implied_odds": 10.608290930322678,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11507653245697996,
+          "implied_odds_norm": 8.689869069298195
+        },
+        {
+          "dog": "TRESPASSING",
+          "box": 6,
+          "probability": 0.08718965680684956,
+          "implied_odds": 11.469250328800934,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10643811064885791,
+          "implied_odds_norm": 9.395131066343577
+        },
+        {
+          "dog": "PAW KATTIA",
+          "box": 8,
+          "probability": 0.08640519660798579,
+          "implied_odds": 11.573377982541126,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10548046883096136,
+          "implied_odds_norm": 9.48042809330473
+        },
+        {
+          "dog": "GO PIKACHU",
+          "box": 3,
+          "probability": 0.08258763156547498,
+          "implied_odds": 12.108350621572262,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10082011776083241,
+          "implied_odds_norm": 9.918655345872745
+        }
+      ],
+      "race_prob_sum": 0.819158253329867
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 9,
+      "raceId": 1256763033,
+      "start_time": "12:54PM",
+      "grade": "Tier 3 - Restricted Win",
+      "dogs": [
+        {
+          "dog": "STROP",
+          "box": 8,
+          "probability": 0.1539967075746945,
+          "implied_odds": 6.493645323650575,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18809324142073464,
+          "implied_odds_norm": 5.316512132209787
+        },
+        {
+          "dog": "ZIPPING WINDSOR",
+          "box": 5,
+          "probability": 0.14099656997315282,
+          "implied_odds": 7.092371113640637,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17221473298441947,
+          "implied_odds_norm": 5.806704122640143
+        },
+        {
+          "dog": "MISS MY BROTHER",
+          "box": 10,
+          "probability": 0.13717211532210194,
+          "implied_odds": 7.29011138781261,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "SMALLER ACTS",
+          "box": 3,
+          "probability": 0.10857895982715386,
+          "implied_odds": 9.209887455100818,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13261951392093985,
+          "implied_odds_norm": 7.540368460377126
+        },
+        {
+          "dog": "CHERRY PIE",
+          "box": 2,
+          "probability": 0.09836903559988891,
+          "implied_odds": 10.165800588586123,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12014900222746824,
+          "implied_odds_norm": 8.322998788677264
+        },
+        {
+          "dog": "TRENTON'S EMPIRE",
+          "box": 1,
+          "probability": 0.09119730586733338,
+          "implied_odds": 10.965236203958929,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11138937409492826,
+          "implied_odds_norm": 8.977517003980829
+        },
+        {
+          "dog": "PRETTY ESMAY",
+          "box": 6,
+          "probability": 0.08308935369381085,
+          "implied_odds": 12.035236231166976,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10148623376407129,
+          "implied_odds_norm": 9.85355316588786
+        },
+        {
+          "dog": "KUNAMA NAMADGI",
+          "box": 4,
+          "probability": 0.07548175948402261,
+          "implied_odds": 13.248233836039185,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09219423605276554,
+          "implied_odds_norm": 10.846665071639293
+        },
+        {
+          "dog": "TURBO TERROR",
+          "box": 7,
+          "probability": 0.06701567212116906,
+          "implied_odds": 14.921882723073038,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08185366553467274,
+          "implied_odds_norm": 12.216923866120641
+        }
+      ],
+      "race_prob_sum": 0.818725364141226
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 10,
+      "raceId": 1256763029,
+      "start_time": "1:18PM",
+      "grade": "Tier 3 - Restricted Win",
+      "dogs": [
+        {
+          "dog": "PAW OPPA",
+          "box": 1,
+          "probability": 0.18421466495066638,
+          "implied_odds": 5.428449468275531,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19023430084787338,
+          "implied_odds_norm": 5.256675560311704
+        },
+        {
+          "dog": "MISS MY BROTHER",
+          "box": 10,
+          "probability": 0.14760968601650584,
+          "implied_odds": 6.774623176748571,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "APPELLANT",
+          "box": 7,
+          "probability": 0.14424012664514393,
+          "implied_odds": 6.93288354120886,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14895350299009083,
+          "implied_odds_norm": 6.713504415310899
+        },
+        {
+          "dog": "LAKEVIEW MITCH",
+          "box": 4,
+          "probability": 0.13301869511382738,
+          "implied_odds": 7.517740263083135,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1373653854944291,
+          "implied_odds_norm": 7.279854356325855
+        },
+        {
+          "dog": "AUTUMN RAINS",
+          "box": 3,
+          "probability": 0.12475591409221247,
+          "implied_odds": 8.015652061679873,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1288325991870689,
+          "implied_odds_norm": 7.762010595998061
+        },
+        {
+          "dog": "ECCENTRIC MONA",
+          "box": 2,
+          "probability": 0.11436526334357339,
+          "implied_odds": 8.743913761609798,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11810241013805292,
+          "implied_odds_norm": 8.46722771221243
+        },
+        {
+          "dog": "PAW LARA",
+          "box": 8,
+          "probability": 0.10853138683325209,
+          "implied_odds": 9.213924461652763,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11207789835734852,
+          "implied_odds_norm": 8.922365735406688
+        },
+        {
+          "dog": "PAW ATREIDES",
+          "box": 6,
+          "probability": 0.08612892590961038,
+          "implied_odds": 11.610501227537295,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08894338573739999,
+          "implied_odds_norm": 11.24310696865577
+        },
+        {
+          "dog": "BLAZE",
+          "box": 5,
+          "probability": 0.07310175020889095,
+          "implied_odds": 13.679563035665534,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07549051724773634,
+          "implied_odds_norm": 13.2466968893366
+        }
+      ],
+      "race_prob_sum": 0.968356727097177
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 11,
+      "raceId": 1256763022,
+      "start_time": "1:37PM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "LETHAL TRIX",
+          "box": 1,
+          "probability": 0.2363900992916519,
+          "implied_odds": 4.23029561304184,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2506608742476743,
+          "implied_odds_norm": 3.989453890645553
+        },
+        {
+          "dog": "ASCEND HIBISCUS",
+          "box": 3,
+          "probability": 0.18368197328518424,
+          "implied_odds": 5.444192383796978,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19477077993184888,
+          "implied_odds_norm": 5.134240363723471
+        },
+        {
+          "dog": "NICKED AGAIN",
+          "box": 7,
+          "probability": 0.14431923492646517,
+          "implied_odds": 6.929083295858164,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15303172893375394,
+          "implied_odds_norm": 6.534592577418314
+        },
+        {
+          "dog": "CONNOR'S FLYER",
+          "box": 2,
+          "probability": 0.12569964830380492,
+          "implied_odds": 7.955471741520617,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1332880853761274,
+          "implied_odds_norm": 7.502546061623489
+        },
+        {
+          "dog": "BURRA BRICE",
+          "box": 6,
+          "probability": 0.10776718338090963,
+          "implied_odds": 9.279262653320348,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11427304477815839,
+          "implied_odds_norm": 8.750970116717633
+        },
+        {
+          "dog": "TESS CABANG",
+          "box": 9,
+          "probability": 0.08025214497330425,
+          "implied_odds": 12.460726131776894,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "HOT CROSS",
+          "box": 4,
+          "probability": 0.07588540771917436,
+          "implied_odds": 13.177764079500687,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08046657917792584,
+          "implied_odds_norm": 12.427519725783585
+        },
+        {
+          "dog": "JOHN BOY",
+          "box": 5,
+          "probability": 0.06932385442197897,
+          "implied_odds": 14.425049044632352,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07350890755451116,
+          "implied_odds_norm": 13.603793516567247
+        }
+      ],
+      "race_prob_sum": 0.9430674013291692
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 12,
+      "raceId": 1256763023,
+      "start_time": "1:57PM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "CAN'T PARK THERE",
+          "box": 1,
+          "probability": 0.15349577867410355,
+          "implied_odds": 6.514837141698615,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.24652502768504966,
+          "implied_odds_norm": 4.056383278364578
+        },
+        {
+          "dog": "BUCK SHINES",
+          "box": 8,
+          "probability": 0.14673471411026168,
+          "implied_odds": 6.815019922610572,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.23566628197113426,
+          "implied_odds_norm": 4.24328839762697
+        },
+        {
+          "dog": "RUSTY WHEELS",
+          "box": 2,
+          "probability": 0.1393919427444421,
+          "implied_odds": 7.174015802573154,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2238732741771743,
+          "implied_odds_norm": 4.46681277019514
+        },
+        {
+          "dog": "TIPSY TURTLE",
+          "box": 3,
+          "probability": 0.0949317699781071,
+          "implied_odds": 10.53388133635997,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15246710641946776,
+          "implied_odds_norm": 6.5587917517684
+        },
+        {
+          "dog": "TINKER MIKE",
+          "box": 4,
+          "probability": 0.08808350440626939,
+          "implied_odds": 11.35286347586353,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14146830974717406,
+          "implied_odds_norm": 7.068720915568695
+        },
+        {
+          "dog": "TESS CABANG",
+          "box": 9,
+          "probability": 0.07857072420500243,
+          "implied_odds": 12.727386824014182,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        }
+      ],
+      "race_prob_sum": 0.6226377099131838
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 13,
+      "raceId": 1256763025,
+      "start_time": "2:13PM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "PAY UP SALLY",
+          "box": 4,
+          "probability": 0.1257070320373102,
+          "implied_odds": 7.955004455941631,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17871721483623784,
+          "implied_odds_norm": 5.595431872169225
+        },
+        {
+          "dog": "DUNSMORE FLYER",
+          "box": 7,
+          "probability": 0.1123845636295416,
+          "implied_odds": 8.898019155872205,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15977671158838852,
+          "implied_odds_norm": 6.2587343928830315
+        },
+        {
+          "dog": "WHODAT WHISKEY",
+          "box": 2,
+          "probability": 0.11205576697377895,
+          "implied_odds": 8.924127932067968,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15930926261904263,
+          "implied_odds_norm": 6.277098917916073
+        },
+        {
+          "dog": "KING BRUNO",
+          "box": 3,
+          "probability": 0.10383042381525971,
+          "implied_odds": 9.631088492706628,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14761532317477544,
+          "implied_odds_norm": 6.774364466323103
+        },
+        {
+          "dog": "SHY CABANG",
+          "box": 1,
+          "probability": 0.09588606207751743,
+          "implied_odds": 10.429044413061487,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1363208539600423,
+          "implied_odds_norm": 7.335634797982671
+        },
+        {
+          "dog": "WHAT A WROUGHT",
+          "box": 8,
+          "probability": 0.08470136175148764,
+          "implied_odds": 11.806185630568526,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1204196075567963,
+          "implied_odds_norm": 8.30429545726884
+        },
+        {
+          "dog": "TESS CABANG",
+          "box": 9,
+          "probability": 0.08186960976578106,
+          "implied_odds": 12.214544601603423,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "PAW FORRESTER",
+          "box": 6,
+          "probability": 0.0688199233324679,
+          "implied_odds": 14.530675879556224,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09784102626471697,
+          "implied_odds_norm": 10.220661395092254
+        }
+      ],
+      "race_prob_sum": 0.7033851336173634
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 14,
+      "raceId": 1256763026,
+      "start_time": "2:28PM",
+      "grade": "Grade 5 T3",
+      "dogs": [
+        {
+          "dog": "BLACK FRIDAY",
+          "box": 4,
+          "probability": 0.13079345864779363,
+          "implied_odds": 7.645642299993335,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.245529016199957,
+          "implied_odds_norm": 4.072838377626241
+        },
+        {
+          "dog": "TINKER PAT",
+          "box": 3,
+          "probability": 0.11337577881049589,
+          "implied_odds": 8.820226070256762,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.21283207677232394,
+          "implied_odds_norm": 4.698539877848136
+        },
+        {
+          "dog": "TINKER RAYS",
+          "box": 5,
+          "probability": 0.0915457972685658,
+          "implied_odds": 10.923494358417383,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17185224531082346,
+          "implied_odds_norm": 5.8189521946095795
+        },
+        {
+          "dog": "TESS CABANG",
+          "box": 9,
+          "probability": 0.08182127528382716,
+          "implied_odds": 12.221760129393395,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "MOTIVATE",
+          "box": 7,
+          "probability": 0.07160451436383022,
+          "implied_odds": 13.9655999190064,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13441792998661942,
+          "implied_odds_norm": 7.439483706522966
+        },
+        {
+          "dog": "ACE REDEEMER",
+          "box": 2,
+          "probability": 0.06510191313877937,
+          "implied_odds": 15.360531692337137,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12221107118776539,
+          "implied_odds_norm": 8.182564724136961
+        },
+        {
+          "dog": "FIRE UP TOMMY",
+          "box": 6,
+          "probability": 0.060279155693739726,
+          "implied_odds": 16.58948252494941,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11315766054251078,
+          "implied_odds_norm": 8.837227592066757
+        }
+      ],
+      "race_prob_sum": 0.5327006179232047
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 1,
+      "raceId": 1257269028,
+      "start_time": "7:01PM",
+      "grade": "Rank Limit - Maiden",
+      "dogs": [
+        {
+          "dog": "CALL ME HERO",
+          "box": 1,
+          "probability": 0.17540962594679516,
+          "implied_odds": 5.700941408445382,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2954312434146496,
+          "implied_odds_norm": 3.3848823450147414
+        },
+        {
+          "dog": "DISCO COWGIRL",
+          "box": 4,
+          "probability": 0.11399766010402246,
+          "implied_odds": 8.772109875654497,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19199898688061295,
+          "implied_odds_norm": 5.208360816100612
+        },
+        {
+          "dog": "MISS SINCLAIR",
+          "box": 2,
+          "probability": 0.10800441927889991,
+          "implied_odds": 9.258880392826326,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18190495367409756,
+          "implied_odds_norm": 5.497376403457425
+        },
+        {
+          "dog": "FRAME ME",
+          "box": 5,
+          "probability": 0.06810716097856977,
+          "implied_odds": 14.682743864696615,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11470854660760534,
+          "implied_odds_norm": 8.717746232290756
+        },
+        {
+          "dog": "LADY NATASHA",
+          "box": 7,
+          "probability": 0.06504511895397347,
+          "implied_odds": 15.37394374983939,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10955134455651161,
+          "implied_odds_norm": 9.128139905979467
+        },
+        {
+          "dog": "HUNTERVIEW JACK",
+          "box": 8,
+          "probability": 0.06317696075068577,
+          "implied_odds": 15.828555032051701,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10640492486652282,
+          "implied_odds_norm": 9.398061238748364
+        }
+      ],
+      "race_prob_sum": 0.5937409460129466
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 2,
+      "raceId": 1257269025,
+      "start_time": "7:26PM",
+      "grade": "Grade 7",
+      "dogs": [
+        {
+          "dog": "CHEVRON STROLL",
+          "box": 1,
+          "probability": 0.17129152231123723,
+          "implied_odds": 5.838000541457019,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.31909667637561673,
+          "implied_odds_norm": 3.133846492411832
+        },
+        {
+          "dog": "ROY INTENTION",
+          "box": 4,
+          "probability": 0.11323539874245958,
+          "implied_odds": 8.831160671535063,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.21094470350454764,
+          "implied_odds_norm": 4.740578850221957
+        },
+        {
+          "dog": "FOUND TREASURE",
+          "box": 2,
+          "probability": 0.09457070958015613,
+          "implied_odds": 10.574098517812443,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1761745047409845,
+          "implied_odds_norm": 5.676190215322139
+        },
+        {
+          "dog": "MISS KARIS",
+          "box": 8,
+          "probability": 0.09005621153297887,
+          "implied_odds": 11.104175747319738,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1677645069610537,
+          "implied_odds_norm": 5.960736380503587
+        },
+        {
+          "dog": "PAW JESSABELLE",
+          "box": 6,
+          "probability": 0.06764749420812201,
+          "implied_odds": 14.782513553620088,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12601960841779736,
+          "implied_odds_norm": 7.935273030564132
+        }
+      ],
+      "race_prob_sum": 0.5368013363749539
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 3,
+      "raceId": 1257269024,
+      "start_time": "7:45PM",
+      "grade": "Mixed 6/7",
+      "dogs": [
+        {
+          "dog": "SHE'S SALTY",
+          "box": 1,
+          "probability": 0.27175643925172727,
+          "implied_odds": 3.679765612007091,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.3673571797237979,
+          "implied_odds_norm": 2.7221463338537784
+        },
+        {
+          "dog": "PERFECT SYMPHONY",
+          "box": 2,
+          "probability": 0.20078242319595818,
+          "implied_odds": 4.9805156451569825,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2714153339897665,
+          "implied_odds_norm": 3.6843902122261967
+        },
+        {
+          "dog": "PAW ORTIZ",
+          "box": 4,
+          "probability": 0.10813202237931802,
+          "implied_odds": 9.247954287695501,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1461716045753068,
+          "implied_odds_norm": 6.84127401423445
+        },
+        {
+          "dog": "PAW QUIVER",
+          "box": 8,
+          "probability": 0.0844832135724217,
+          "implied_odds": 11.836670951712415,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11420342111275607,
+          "implied_odds_norm": 8.756305111146132
+        },
+        {
+          "dog": "RIO IZZY",
+          "box": 6,
+          "probability": 0.07460669641082125,
+          "implied_odds": 13.403622571538445,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10085246059837272,
+          "implied_odds_norm": 9.915474486857837
+        }
+      ],
+      "race_prob_sum": 0.7397607948102464
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 4,
+      "raceId": 1257269020,
+      "start_time": "8:12PM",
+      "grade": "Restricted Win Heat",
+      "dogs": [
+        {
+          "dog": "SUPER FREAKY",
+          "box": 5,
+          "probability": 0.4313999808059383,
+          "implied_odds": 2.3180344100428734,
+          "isHighConf": true,
+          "scratched": false,
+          "probability_norm": 0.3876237362125829,
+          "implied_odds_norm": 2.579821374642481
+        },
+        {
+          "dog": "MORAINE DYLAN",
+          "box": 1,
+          "probability": 0.20828990106861164,
+          "implied_odds": 4.801000888039193,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18715371641122971,
+          "implied_odds_norm": 5.34320140243818
+        },
+        {
+          "dog": "MELVIN BALE",
+          "box": 2,
+          "probability": 0.18514075978180866,
+          "implied_odds": 5.401295755610574,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16635363056296437,
+          "implied_odds_norm": 6.011290505748853
+        },
+        {
+          "dog": "HECTOR DARCY",
+          "box": 8,
+          "probability": 0.1694090037198177,
+          "implied_odds": 5.90287397979083,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15221825195088923,
+          "implied_odds_norm": 6.569514412257433
+        },
+        {
+          "dog": "DOLAN",
+          "box": 4,
+          "probability": 0.11869524612733917,
+          "implied_odds": 8.424937245820068,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10665066486233371,
+          "implied_odds_norm": 9.376406619600685
+        }
+      ],
+      "race_prob_sum": 1.1129348915035155
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 5,
+      "raceId": 1257269019,
+      "start_time": "8:36PM",
+      "grade": "Restricted Win Heat",
+      "dogs": [
+        {
+          "dog": "NIGHTTIME",
+          "box": 1,
+          "probability": 0.32728466417663793,
+          "implied_odds": 3.055444111674883,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.3127726755205538,
+          "implied_odds_norm": 3.197210236909858
+        },
+        {
+          "dog": "LAMIA TAYA",
+          "box": 8,
+          "probability": 0.23117676321822625,
+          "implied_odds": 4.325694269955757,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2209262536998135,
+          "implied_odds_norm": 4.526397307939523
+        },
+        {
+          "dog": "SHOW ME STYLE",
+          "box": 5,
+          "probability": 0.2040494461369881,
+          "implied_odds": 4.900772920151189,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19500177732833884,
+          "implied_odds_norm": 5.1281583875834444
+        },
+        {
+          "dog": "ULENTA BALE",
+          "box": 2,
+          "probability": 0.16978256050358906,
+          "implied_odds": 5.8898864349431275,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1622543049459158,
+          "implied_odds_norm": 6.1631646712445
+        },
+        {
+          "dog": "GALLOPING RED",
+          "box": 4,
+          "probability": 0.05739379454484808,
+          "implied_odds": 17.42348642271056,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.05484892096374152,
+          "implied_odds_norm": 18.23189923209357
+        },
+        {
+          "dog": "PUMPING MAGIC",
+          "box": 7,
+          "probability": 0.05671065010886242,
+          "implied_odds": 17.63337218106984,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.054196067541636486,
+          "implied_odds_norm": 18.451523244407788
+        }
+      ],
+      "race_prob_sum": 1.046397878689152
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 6,
+      "raceId": 1257269021,
+      "start_time": "8:52PM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "JUMBUK DAMIEN",
+          "box": 1,
+          "probability": 0.2561749282523111,
+          "implied_odds": 3.9035826293472513,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.24504311549673174,
+          "implied_odds_norm": 4.080914487121502
+        },
+        {
+          "dog": "PAW DROGO",
+          "box": 2,
+          "probability": 0.19126063819982203,
+          "implied_odds": 5.228467338665037,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18294960781727007,
+          "implied_odds_norm": 5.465986027140322
+        },
+        {
+          "dog": "WHIPPING IT",
+          "box": 3,
+          "probability": 0.17520556236547977,
+          "implied_odds": 5.707581349009882,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16759218846002263,
+          "implied_odds_norm": 5.9668652172206675
+        },
+        {
+          "dog": "MOTOR CITY ROSSI",
+          "box": 6,
+          "probability": 0.13230041389858782,
+          "implied_odds": 7.558555340322137,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12655143820821818,
+          "implied_odds_norm": 7.901925210479833
+        },
+        {
+          "dog": "FAST KNOCKDOWN",
+          "box": 8,
+          "probability": 0.10393233657512709,
+          "implied_odds": 9.621644552147194,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09941606592406377,
+          "implied_odds_norm": 10.058736389386224
+        },
+        {
+          "dog": "BLINKED",
+          "box": 4,
+          "probability": 0.10307520906885236,
+          "implied_odds": 9.701653860648667,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09859618399436673,
+          "implied_odds_norm": 10.142380358829453
+        },
+        {
+          "dog": "ESCAPING BINDI",
+          "box": 7,
+          "probability": 0.08347888758198747,
+          "implied_odds": 11.979076733837232,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07985140009932686,
+          "implied_odds_norm": 12.52326194351137
+        }
+      ],
+      "race_prob_sum": 1.0454279759421676
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 7,
+      "raceId": 1257269022,
+      "start_time": "9:13PM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "BILLY RAY MIKADO",
+          "box": 2,
+          "probability": 0.1608273149489604,
+          "implied_odds": 6.217849252270091,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.20028208404175182,
+          "implied_odds_norm": 4.9929578313731495
+        },
+        {
+          "dog": "BAYWARA",
+          "box": 1,
+          "probability": 0.15024287720447668,
+          "implied_odds": 6.65588957431257,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18710103174010684,
+          "implied_odds_norm": 5.344705962867445
+        },
+        {
+          "dog": "TORNADO TESSA",
+          "box": 8,
+          "probability": 0.1311844915760489,
+          "implied_odds": 7.6228522745791985,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16336717040352816,
+          "implied_odds_norm": 6.1211808806502015
+        },
+        {
+          "dog": "HARVINGTON",
+          "box": 3,
+          "probability": 0.10721310150619145,
+          "implied_odds": 9.327218277910289,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13351502767458662,
+          "implied_odds_norm": 7.489793601640701
+        },
+        {
+          "dog": "SCOUT ACE",
+          "box": 7,
+          "probability": 0.09860200525723117,
+          "implied_odds": 10.141781573216667,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12279142451567543,
+          "implied_odds_norm": 8.143891187387773
+        },
+        {
+          "dog": "PRINCESS LASS",
+          "box": 4,
+          "probability": 0.08426458904339211,
+          "implied_odds": 11.867381201907355,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1049366987808524,
+          "implied_odds_norm": 9.529554594512058
+        },
+        {
+          "dog": "BUSTER'S DREAM",
+          "box": 6,
+          "probability": 0.0706696221368271,
+          "implied_odds": 14.15035159044502,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08800656284349877,
+          "implied_odds_norm": 11.362788952209058
+        }
+      ],
+      "race_prob_sum": 0.8030040016731278
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 8,
+      "raceId": 1257269023,
+      "start_time": "9:34PM",
+      "grade": "Mixed 3/4",
+      "dogs": [
+        {
+          "dog": "MIDNIGHT THUNDER",
+          "box": 2,
+          "probability": 0.22999441517296695,
+          "implied_odds": 4.347931662809949,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19833475762872457,
+          "implied_odds_norm": 5.04198059864002
+        },
+        {
+          "dog": "SPEEDY EASY",
+          "box": 6,
+          "probability": 0.227543747345712,
+          "implied_odds": 4.394759300859535,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19622143409788323,
+          "implied_odds_norm": 5.096283209820795
+        },
+        {
+          "dog": "QILIN BALE",
+          "box": 1,
+          "probability": 0.1950824164423224,
+          "implied_odds": 5.1260386160720826,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16822853613039235,
+          "implied_odds_norm": 5.94429472550905
+        },
+        {
+          "dog": "LEVIATHAN",
+          "box": 4,
+          "probability": 0.14344296012516844,
+          "implied_odds": 6.9714121845184955,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12369745895167286,
+          "implied_odds_norm": 8.084240440142656
+        },
+        {
+          "dog": "PAW ULTRA",
+          "box": 8,
+          "probability": 0.10894537678565903,
+          "implied_odds": 9.178911758388947,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09394860689684033,
+          "implied_odds_norm": 10.644117385349244
+        },
+        {
+          "dog": "TO PERU",
+          "box": 7,
+          "probability": 0.10049764578056482,
+          "implied_odds": 9.950481846942822,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08666374008758332,
+          "implied_odds_norm": 11.53885118492912
+        },
+        {
+          "dog": "CLONCURRY GOLD",
+          "box": 5,
+          "probability": 0.08968612710710624,
+          "implied_odds": 11.149996462727906,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07734047050259701,
+          "implied_odds_norm": 12.929841175021311
+        },
+        {
+          "dog": "DOONGALLA SERENA",
+          "box": 3,
+          "probability": 0.0644346903381573,
+          "implied_odds": 15.519590375183574,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.0555649957043063,
+          "implied_odds_norm": 17.996941911443354
+        }
+      ],
+      "race_prob_sum": 1.1596273790976572
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 9,
+      "raceId": 1257269029,
+      "start_time": "9:49PM",
+      "grade": "Rank Limit - Restricted Win",
+      "dogs": [
+        {
+          "dog": "TOMMY THE HOOD",
+          "box": 1,
+          "probability": 0.1697320607507851,
+          "implied_odds": 5.891638831088513,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2767894781477091,
+          "implied_odds_norm": 3.6128540965215037
+        },
+        {
+          "dog": "BILLY DRIFTER",
+          "box": 3,
+          "probability": 0.15799745503701446,
+          "implied_odds": 6.329215871013413,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.25765334454150307,
+          "implied_odds_norm": 3.8811838510364027
+        },
+        {
+          "dog": "ALZETTA",
+          "box": 2,
+          "probability": 0.1275626331042704,
+          "implied_odds": 7.839286283645419,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2080219523164858,
+          "implied_odds_norm": 4.8071849574731145
+        },
+        {
+          "dog": "ENZO ENVY",
+          "box": 7,
+          "probability": 0.06541804590253632,
+          "implied_odds": 15.286301909565738,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10668006213270555,
+          "implied_odds_norm": 9.373822811951888
+        },
+        {
+          "dog": "MISS BLACK",
+          "box": 6,
+          "probability": 0.05321523285337955,
+          "implied_odds": 18.79161184458658,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08678040239329161,
+          "implied_odds_norm": 11.523339053764321
+        },
+        {
+          "dog": "PEPPERONI",
+          "box": 4,
+          "probability": 0.03929174334652482,
+          "implied_odds": 25.45063962117236,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06407476046830488,
+          "implied_odds_norm": 15.606769228496118
+        }
+      ],
+      "race_prob_sum": 0.6132171709945107
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 10,
+      "raceId": 1257269026,
+      "start_time": "10:14PM",
+      "grade": "Mixed 4/5",
+      "dogs": [
+        {
+          "dog": "LES NORTON",
+          "box": 2,
+          "probability": 0.1247736754908519,
+          "implied_odds": 8.014511042221542,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.25517209421550063,
+          "implied_odds_norm": 3.918923826974079
+        },
+        {
+          "dog": "HE SHINES",
+          "box": 8,
+          "probability": 0.11671239330470821,
+          "implied_odds": 8.568070379546057,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.23868613073475659,
+          "implied_odds_norm": 4.189602457929424
+        },
+        {
+          "dog": "MCIVOR OLLY",
+          "box": 1,
+          "probability": 0.09513855603342615,
+          "implied_odds": 10.510985679125277,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19456591695471864,
+          "implied_odds_norm": 5.139646324760622
+        },
+        {
+          "dog": "SMOOTH RANGER",
+          "box": 4,
+          "probability": 0.07996296207243614,
+          "implied_odds": 12.505789856735532,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16353061983169817,
+          "implied_odds_norm": 6.1150627388875325
+        },
+        {
+          "dog": "DREAM ON ALLAN",
+          "box": 6,
+          "probability": 0.07239094295880877,
+          "implied_odds": 13.81388277493513,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14804523826332597,
+          "implied_odds_norm": 6.75469209094935
+        }
+      ],
+      "race_prob_sum": 0.48897852986023116
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 11,
+      "raceId": 1257269027,
+      "start_time": "10:37PM",
+      "grade": "Mixed 4/5",
+      "dogs": [
+        {
+          "dog": "AXEL'S RADAR",
+          "box": 2,
+          "probability": 0.14110337683955237,
+          "implied_odds": 7.0870026104130215,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2512332850408939,
+          "implied_odds_norm": 3.9803643049814337
+        },
+        {
+          "dog": "TARGET RANGE",
+          "box": 1,
+          "probability": 0.12315503798178443,
+          "implied_odds": 8.119846466596906,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.21927643019261078,
+          "implied_odds_norm": 4.560453666276889
+        },
+        {
+          "dog": "SCOOBA STEVE",
+          "box": 4,
+          "probability": 0.10972066911554741,
+          "implied_odds": 9.114053059108624,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19535665804886043,
+          "implied_odds_norm": 5.11884268490041
+        },
+        {
+          "dog": "HANDSOME RATIO",
+          "box": 5,
+          "probability": 0.08466498739519528,
+          "implied_odds": 11.811257885532383,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1507452435771789,
+          "implied_odds_norm": 6.633708475770367
+        },
+        {
+          "dog": "BELFAST SPOT",
+          "box": 7,
+          "probability": 0.054972940069052505,
+          "implied_odds": 18.190768016843958,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.097878822117834,
+          "implied_odds_norm": 10.216714692337876
+        },
+        {
+          "dog": "MY MARGOT",
+          "box": 8,
+          "probability": 0.04802583308336616,
+          "implied_odds": 20.822127088647047,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08550956102262193,
+          "implied_odds_norm": 11.69459868628545
+        }
+      ],
+      "race_prob_sum": 0.5616428444844982
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 1,
+      "raceId": 1256879245,
+      "start_time": "8:12AM",
+      "grade": "Maiden",
+      "dogs": [
+        {
+          "dog": "JUST IMAGINE",
+          "box": 2,
+          "probability": 0.2718201660008614,
+          "implied_odds": 3.6789029111137803,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2857686953669028,
+          "implied_odds_norm": 3.4993336086588656
+        },
+        {
+          "dog": "TIME PERPETUATED",
+          "box": 7,
+          "probability": 0.1828680871126083,
+          "implied_odds": 5.468422707261165,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1922520151733172,
+          "implied_odds_norm": 5.201505945716562
+        },
+        {
+          "dog": "EXPRESS POLO",
+          "box": 3,
+          "probability": 0.1664670014618783,
+          "implied_odds": 6.00719656879868,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17500930313334628,
+          "implied_odds_norm": 5.713981954651072
+        },
+        {
+          "dog": "LOVE DANCE",
+          "box": 6,
+          "probability": 0.1531833524198571,
+          "implied_odds": 6.528124526607308,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16104399985103507,
+          "implied_odds_norm": 6.209483128368615
+        },
+        {
+          "dog": "DARE DEVIL",
+          "box": 8,
+          "probability": 0.11000734147749307,
+          "implied_odds": 9.090302397723109,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1156523995894585,
+          "implied_odds_norm": 8.646599668919867
+        },
+        {
+          "dog": "PERFECT GLOSS",
+          "box": 1,
+          "probability": 0.06684349392534815,
+          "implied_odds": 14.960319116723843,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07027358688594024,
+          "implied_odds_norm": 14.230097598733384
+        }
+      ],
+      "race_prob_sum": 0.9511894423980463
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 2,
+      "raceId": 1256879244,
+      "start_time": "8:27AM",
+      "grade": "Grade 7",
+      "dogs": [
+        {
+          "dog": "CRACKERJACK GAZ",
+          "box": 8,
+          "probability": 0.26238156065383667,
+          "implied_odds": 3.8112434330677405,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.29223440648545274,
+          "implied_odds_norm": 3.4219105547032136
+        },
+        {
+          "dog": "SCOTT THE POP",
+          "box": 1,
+          "probability": 0.22700964979905014,
+          "implied_odds": 4.405099082286608,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2528380047369988,
+          "implied_odds_norm": 3.955101611564276
+        },
+        {
+          "dog": "PRAWN AND ORDER",
+          "box": 7,
+          "probability": 0.17769605838389302,
+          "implied_odds": 5.627586841794818,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19791368733084028,
+          "implied_odds_norm": 5.052707639812505
+        },
+        {
+          "dog": "RUPEE STAR",
+          "box": 5,
+          "probability": 0.15528615156557307,
+          "implied_odds": 6.43972427623546,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17295406058677143,
+          "implied_odds_norm": 5.781882174996972
+        },
+        {
+          "dog": "PERFECT JENNY",
+          "box": 2,
+          "probability": 0.07547281135851219,
+          "implied_odds": 13.24980455875406,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08405984085993673,
+          "implied_odds_norm": 11.896287094645265
+        }
+      ],
+      "race_prob_sum": 0.8978462317608651
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 3,
+      "raceId": 1256879243,
+      "start_time": "8:42AM",
+      "grade": "Grade 6",
+      "dogs": [
+        {
+          "dog": "WHOPPI DEVERE",
+          "box": 7,
+          "probability": 0.19896600817344468,
+          "implied_odds": 5.025984132567357,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.22737713676570914,
+          "implied_odds_norm": 4.397979560409393
+        },
+        {
+          "dog": "BURMA STAR",
+          "box": 3,
+          "probability": 0.17453831953938548,
+          "implied_odds": 5.729400871046801,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19946132365568892,
+          "implied_odds_norm": 5.013503278090166
+        },
+        {
+          "dog": "HEATHCOTE RUPEE",
+          "box": 6,
+          "probability": 0.16333587702319818,
+          "implied_odds": 6.122353632435405,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18665924089041244,
+          "implied_odds_norm": 5.357355977822173
+        },
+        {
+          "dog": "LAMINATE",
+          "box": 4,
+          "probability": 0.15211587077446098,
+          "implied_odds": 6.5739360062085765,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17383708639904175,
+          "implied_odds_norm": 5.752512428242771
+        },
+        {
+          "dog": "CALAMITY NINA",
+          "box": 1,
+          "probability": 0.1124500411038595,
+          "implied_odds": 8.89283801218351,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12850721894713282,
+          "implied_odds_norm": 7.781664004505417
+        },
+        {
+          "dog": "WINDORAH",
+          "box": 5,
+          "probability": 0.07364232054870926,
+          "implied_odds": 13.57914841016681,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08415799334201499,
+          "implied_odds_norm": 11.882412594321693
+        }
+      ],
+      "race_prob_sum": 0.875048437163058
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 4,
+      "raceId": 1255615295,
+      "start_time": "8:57AM",
+      "grade": "Grade 5 Final",
+      "dogs": [
+        {
+          "dog": "CROYDON",
+          "box": 2,
+          "probability": 0.5103075819455576,
+          "implied_odds": 1.9596024738403466,
+          "isHighConf": true,
+          "scratched": false,
+          "probability_norm": 0.33802293130226774,
+          "implied_odds_norm": 2.9583791731152624
+        },
+        {
+          "dog": "DEAR CARLA LOU",
+          "box": 4,
+          "probability": 0.35560457080804364,
+          "implied_odds": 2.81211233513588,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.23554911520370786,
+          "implied_odds_norm": 4.245399092818408
+        },
+        {
+          "dog": "PAW MANTRA",
+          "box": 3,
+          "probability": 0.23824204029455728,
+          "implied_odds": 4.197412004882185,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15780928143919046,
+          "implied_odds_norm": 6.336762900636714
+        },
+        {
+          "dog": "FLUENT ACTION",
+          "box": 7,
+          "probability": 0.22099403853693175,
+          "implied_odds": 4.525008939699898,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14638436768229227,
+          "implied_odds_norm": 6.831330529571071
+        },
+        {
+          "dog": "NANCY DEVERE",
+          "box": 5,
+          "probability": 0.18453509072545735,
+          "implied_odds": 5.419023536763277,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12223430437254162,
+          "implied_odds_norm": 8.181009456659838
+        }
+      ],
+      "race_prob_sum": 1.5096833223105477
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 5,
+      "raceId": 1256879251,
+      "start_time": "9:15AM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "ALFREDO",
+          "box": 2,
+          "probability": 0.2884005669671651,
+          "implied_odds": 3.4673995634476396,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2593567843038677,
+          "implied_odds_norm": 3.855692468905612
+        },
+        {
+          "dog": "PAW GERTRUDE",
+          "box": 8,
+          "probability": 0.25512425219759305,
+          "implied_odds": 3.919658720745618,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.22943160737763063,
+          "implied_odds_norm": 4.358597367772698
+        },
+        {
+          "dog": "MAGIC LOKI",
+          "box": 4,
+          "probability": 0.14661532431279736,
+          "implied_odds": 6.820569436974704,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13185022291500934,
+          "implied_odds_norm": 7.584363362393404
+        },
+        {
+          "dog": "SMOOTH COLLINDA",
+          "box": 3,
+          "probability": 0.14431863180404422,
+          "implied_odds": 6.929112253210657,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12978482203917538,
+          "implied_odds_norm": 7.7050612258662365
+        },
+        {
+          "dog": "READY ONE",
+          "box": 7,
+          "probability": 0.13974305758107333,
+          "implied_odds": 7.155990553733519,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.125670037421056,
+          "implied_odds_norm": 7.957346241964674
+        },
+        {
+          "dog": "GOLD TAG",
+          "box": 6,
+          "probability": 0.1377820612207339,
+          "implied_odds": 7.257838873508715,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12390652594326083,
+          "implied_odds_norm": 8.07059993319415
+        },
+        {
+          "dog": "DESTINI KADALI",
+          "box": 9,
+          "probability": 0.09385171132094405,
+          "implied_odds": 10.655106720220656,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        }
+      ],
+      "race_prob_sum": 1.111983894083407
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 6,
+      "raceId": 1256879252,
+      "start_time": "9:35AM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "HAPPY AND NUMB",
+          "box": 4,
+          "probability": 0.3739055397129204,
+          "implied_odds": 2.6744722765214615,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.3120185431457022,
+          "implied_odds_norm": 3.2049377255538096
+        },
+        {
+          "dog": "INNER VISION",
+          "box": 8,
+          "probability": 0.18167616575944712,
+          "implied_odds": 5.504299343944076,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15160602490159092,
+          "implied_odds_norm": 6.596043927997655
+        },
+        {
+          "dog": "GO BOY",
+          "box": 3,
+          "probability": 0.16426376212024116,
+          "implied_odds": 6.087769980989474,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13707563623620406,
+          "implied_odds_norm": 7.295242447584442
+        },
+        {
+          "dog": "SWEET BEGONIA",
+          "box": 2,
+          "probability": 0.13878899969725336,
+          "implied_odds": 7.2051819825875585,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11581733055743194,
+          "implied_odds_norm": 8.634286381726923
+        },
+        {
+          "dog": "I'M TOO MESSY",
+          "box": 6,
+          "probability": 0.13710042839157915,
+          "implied_odds": 7.293923233732368,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11440824322698313,
+          "implied_odds_norm": 8.740628924928291
+        },
+        {
+          "dog": "BIANCA'S BOY",
+          "box": 1,
+          "probability": 0.12482429529719842,
+          "implied_odds": 8.011260929765843,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10416399499650135,
+          "implied_odds_norm": 9.600246227437685
+        },
+        {
+          "dog": "DESTINI KADALI",
+          "box": 5,
+          "probability": 0.07778477904085697,
+          "implied_odds": 12.855985609662058,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06491022693558632,
+          "implied_odds_norm": 15.405892833995948
+        }
+      ],
+      "race_prob_sum": 1.1983439700194967
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 7,
+      "raceId": 1256879250,
+      "start_time": "9:52AM",
+      "grade": "Mixed 4/5",
+      "dogs": [
+        {
+          "dog": "WHODAT JEWEL",
+          "box": 3,
+          "probability": 0.29904072447643226,
+          "implied_odds": 3.344026141425467,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17102011701093428,
+          "implied_odds_norm": 5.8472653245586566
+        },
+        {
+          "dog": "HAVE A CRACK",
+          "box": 2,
+          "probability": 0.26549324762420795,
+          "implied_odds": 3.7665741368136363,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.151834457844498,
+          "implied_odds_norm": 6.5861202667457395
+        },
+        {
+          "dog": "SOLAR SPECTRUM",
+          "box": 6,
+          "probability": 0.21616908486956987,
+          "implied_odds": 4.626008388772941,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12362617918769125,
+          "implied_odds_norm": 8.08890161105589
+        },
+        {
+          "dog": "IMPRESS MOANA",
+          "box": 8,
+          "probability": 0.2054722183154276,
+          "implied_odds": 4.8668379997964735,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11750868675269706,
+          "implied_odds_norm": 8.510009154510852
+        },
+        {
+          "dog": "CLIFF THE BOSS",
+          "box": 7,
+          "probability": 0.20055958559096987,
+          "implied_odds": 4.986049393019012,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11469917301559827,
+          "implied_odds_norm": 8.718458675059559
+        },
+        {
+          "dog": "PAW XENA",
+          "box": 5,
+          "probability": 0.19966639738761816,
+          "implied_odds": 5.008353999890483,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11418836248530198,
+          "implied_odds_norm": 8.75745985173154
+        },
+        {
+          "dog": "COLLINDA EXPRESS",
+          "box": 4,
+          "probability": 0.18115854003926923,
+          "implied_odds": 5.520026821717777,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10360379767434504,
+          "implied_odds_norm": 9.652155832581277
+        },
+        {
+          "dog": "SLICK ECLIPSE",
+          "box": 1,
+          "probability": 0.18101066055844636,
+          "implied_odds": 5.524536493678564,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10351922602893412,
+          "implied_odds_norm": 9.660041311751067
+        },
+        {
+          "dog": "DESTINI KADALI",
+          "box": 9,
+          "probability": 0.07768875321196929,
+          "implied_odds": 12.87187602652803,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        }
+      ],
+      "race_prob_sum": 1.7485704588619413
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 8,
+      "raceId": 1255662343,
+      "start_time": "10:12AM",
+      "grade": "Restricted Win Final",
+      "dogs": [
+        {
+          "dog": "JUST IN CASEY",
+          "box": 4,
+          "probability": 0.2542372074847267,
+          "implied_odds": 3.9333345810922458,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.25724104593658415,
+          "implied_odds_norm": 3.8874045017159626
+        },
+        {
+          "dog": "BLUE TROMBONE",
+          "box": 1,
+          "probability": 0.21402089747414005,
+          "implied_odds": 4.672440924236518,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.21654957613488438,
+          "implied_odds_norm": 4.6178802002231585
+        },
+        {
+          "dog": "THIRD TIME CHARM",
+          "box": 2,
+          "probability": 0.1715420720922158,
+          "implied_odds": 5.829473713378199,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1735688591127303,
+          "implied_odds_norm": 5.761402161147556
+        },
+        {
+          "dog": "CHARENTE JEWEL",
+          "box": 5,
+          "probability": 0.11403417752860892,
+          "implied_odds": 8.76930076291487,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11538150292867629,
+          "implied_odds_norm": 8.666900452996833
+        },
+        {
+          "dog": "THANK YOU BRIAN",
+          "box": 6,
+          "probability": 0.08468885314586927,
+          "implied_odds": 11.807929412830587,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08568946055514688,
+          "implied_odds_norm": 11.67004662558744
+        },
+        {
+          "dog": "KING OF SNAKE",
+          "box": 7,
+          "probability": 0.0756511161612724,
+          "implied_odds": 13.21857562376487,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07654494178931236,
+          "implied_odds_norm": 13.064220530109878
+        },
+        {
+          "dog": "SLICK NITRO",
+          "box": 8,
+          "probability": 0.07414854099298888,
+          "implied_odds": 13.48644203389727,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07502461354266572,
+          "implied_odds_norm": 13.328959027977003
+        }
+      ],
+      "race_prob_sum": 0.988322864879822
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 9,
+      "raceId": 1256879246,
+      "start_time": "10:27AM",
+      "grade": "Mixed 3/4",
+      "dogs": [
+        {
+          "dog": "MAXIMUM JASMINE",
+          "box": 7,
+          "probability": 0.2743234177864862,
+          "implied_odds": 3.645332243484691,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2216831323392675,
+          "implied_odds_norm": 4.510943117086525
+        },
+        {
+          "dog": "DOONGALLA BOY",
+          "box": 8,
+          "probability": 0.21007253908308482,
+          "implied_odds": 4.760260452721498,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16976144019409908,
+          "implied_odds_norm": 5.890619205731503
+        },
+        {
+          "dog": "SWEET LOVE",
+          "box": 1,
+          "probability": 0.20165917207077694,
+          "implied_odds": 4.958861973553214,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1629625253662737,
+          "implied_odds_norm": 6.136380114093135
+        },
+        {
+          "dog": "NALA'S GHOST",
+          "box": 4,
+          "probability": 0.1603401335196627,
+          "implied_odds": 6.236741719298673,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1295722520707316,
+          "implied_odds_norm": 7.717701776566442
+        },
+        {
+          "dog": "ZERO KILLER",
+          "box": 6,
+          "probability": 0.15158006483068512,
+          "implied_odds": 6.59717358688954,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12249316461203284,
+          "implied_odds_norm": 8.16372083427884
+        },
+        {
+          "dog": "LETIZIA",
+          "box": 5,
+          "probability": 0.1484661548690143,
+          "implied_odds": 6.73554185384716,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11997678697393081,
+          "implied_odds_norm": 8.33494566092427
+        },
+        {
+          "dog": "BIG BOY CABANG",
+          "box": 3,
+          "probability": 0.09101585115989115,
+          "implied_odds": 10.98709716226529,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07355069844366445,
+          "implied_odds_norm": 13.596063955340162
+        }
+      ],
+      "race_prob_sum": 1.2374573333196013
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 10,
+      "raceId": 1256879241,
+      "start_time": "10:47AM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "PAW TABITHA",
+          "box": 8,
+          "probability": 0.30147289609202826,
+          "implied_odds": 3.317047777637489,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2874643780465567,
+          "implied_odds_norm": 3.4786918880016624
+        },
+        {
+          "dog": "FLYING BATTY",
+          "box": 5,
+          "probability": 0.17736824112191324,
+          "implied_odds": 5.6379879152810375,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16912648460363774,
+          "implied_odds_norm": 5.912734497755244
+        },
+        {
+          "dog": "LILAH RAINBOW",
+          "box": 7,
+          "probability": 0.1461388731127888,
+          "implied_odds": 6.84280628897561,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1393482492534537,
+          "implied_odds_norm": 7.176265258856241
+        },
+        {
+          "dog": "OUR MATE BEAR",
+          "box": 4,
+          "probability": 0.11895201259251863,
+          "implied_odds": 8.406751413493058,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11342467850528187,
+          "implied_odds_norm": 8.816423490708265
+        },
+        {
+          "dog": "REGGAE MISS",
+          "box": 3,
+          "probability": 0.11244854670575291,
+          "implied_odds": 8.89295619459384,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1072234086713416,
+          "implied_odds_norm": 9.326321671652632
+        },
+        {
+          "dog": "LYN'S BIANCA",
+          "box": 2,
+          "probability": 0.11025663729399421,
+          "implied_odds": 9.069748765632552,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1051333505468684,
+          "implied_odds_norm": 9.511729577706177
+        },
+        {
+          "dog": "DESTINI KADALI",
+          "box": 10,
+          "probability": 0.0931147792619785,
+          "implied_odds": 10.739433717460676,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "PHOENIX VIOLET",
+          "box": 6,
+          "probability": 0.08209411116871056,
+          "implied_odds": 12.181141689260912,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07827945037285987,
+          "implied_odds_norm": 12.77474477959171
+        }
+      ],
+      "race_prob_sum": 1.0487313180877067
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 11,
+      "raceId": 1256879242,
+      "start_time": "11:04AM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "STRUCK THE LOT",
+          "box": 2,
+          "probability": 0.21368417730816794,
+          "implied_odds": 4.679803683161035,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.23994580489453007,
+          "implied_odds_norm": 4.1676077664269116
+        },
+        {
+          "dog": "ORIENTAL OPHELIA",
+          "box": 8,
+          "probability": 0.18247411992863824,
+          "implied_odds": 5.4802291984807425,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2049000545115443,
+          "implied_odds_norm": 4.880428179406164
+        },
+        {
+          "dog": "NOCTILUCENT",
+          "box": 6,
+          "probability": 0.15874959527078228,
+          "implied_odds": 6.299228658153619,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17825980329369348,
+          "implied_odds_norm": 5.609789652647835
+        },
+        {
+          "dog": "MORE RAGE",
+          "box": 1,
+          "probability": 0.15596454902008033,
+          "implied_odds": 6.411713471317451,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1751324769155245,
+          "implied_odds_norm": 5.709963209635595
+        },
+        {
+          "dog": "MIA SIENNA",
+          "box": 3,
+          "probability": 0.12202602062767753,
+          "implied_odds": 8.194973456121893,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13702292844714722,
+          "implied_odds_norm": 7.298048664794973
+        },
+        {
+          "dog": "OUR MATE BEAR",
+          "box": 9,
+          "probability": 0.0784420402058896,
+          "implied_odds": 12.74826607486578,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "SCOTT LIL DIVA",
+          "box": 5,
+          "probability": 0.057653374756719625,
+          "implied_odds": 17.345038416566375,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06473893193756039,
+          "implied_odds_norm": 15.446655823183539
+        }
+      ],
+      "race_prob_sum": 0.890551836912066
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 12,
+      "raceId": 1256879247,
+      "start_time": "11:19AM",
+      "grade": "Mixed 4/5",
+      "dogs": [
+        {
+          "dog": "ASTON BOOST",
+          "box": 3,
+          "probability": 0.2193529810313916,
+          "implied_odds": 4.5588621376287115,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1624567838379371,
+          "implied_odds_norm": 6.15548317759125
+        },
+        {
+          "dog": "ELITE ONE",
+          "box": 5,
+          "probability": 0.21891366397197468,
+          "implied_odds": 4.568010885460398,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.16213141768051162,
+          "implied_odds_norm": 6.167836032684004
+        },
+        {
+          "dog": "HIGHWAY HOOLIGAN",
+          "box": 2,
+          "probability": 0.21818138254418654,
+          "implied_odds": 4.583342484767131,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1615890768148286,
+          "implied_odds_norm": 6.188537119659023
+        },
+        {
+          "dog": "SPICY ASSASSIN",
+          "box": 8,
+          "probability": 0.17151333095853752,
+          "implied_odds": 5.830450580204433,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12702587401293694,
+          "implied_odds_norm": 7.872411882780315
+        },
+        {
+          "dog": "NEEDFUL",
+          "box": 4,
+          "probability": 0.16405784317818925,
+          "implied_odds": 6.095411110055027,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12150420496133155,
+          "implied_odds_norm": 8.2301678391974
+        },
+        {
+          "dog": "CANYA JIVE",
+          "box": 7,
+          "probability": 0.15331723431703428,
+          "implied_odds": 6.522423943104583,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11354951583953304,
+          "implied_odds_norm": 8.80673063734758
+        },
+        {
+          "dog": "ALL CHAMPAGNE",
+          "box": 1,
+          "probability": 0.12234610288415391,
+          "implied_odds": 8.173533740971479,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09061173591627898,
+          "implied_odds_norm": 11.036098027345524
+        },
+        {
+          "dog": "PHOENIX TAN",
+          "box": 10,
+          "probability": 0.1153308134166243,
+          "implied_odds": 8.670709677452562,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "JUST QUICKLY",
+          "box": 6,
+          "probability": 0.0825410458077559,
+          "implied_odds": 12.115184514733103,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06113139093664222,
+          "implied_odds_norm": 16.358207864702763
+        }
+      ],
+      "race_prob_sum": 1.3502235846932236
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 13,
+      "raceId": 1256879248,
+      "start_time": "11:40AM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "SCOTT GREYSCALE",
+          "box": 7,
+          "probability": 0.16561534777608922,
+          "implied_odds": 6.038087734187492,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15520006105360046,
+          "implied_odds_norm": 6.443296434365682
+        },
+        {
+          "dog": "SON OF WITCHY",
+          "box": 5,
+          "probability": 0.16431873536596803,
+          "implied_odds": 6.085733302248317,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15398499054283032,
+          "implied_odds_norm": 6.494139438362039
+        },
+        {
+          "dog": "PAW HAZELDON",
+          "box": 10,
+          "probability": 0.15899006624206807,
+          "implied_odds": 6.289701134393291,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "KID",
+          "box": 8,
+          "probability": 0.14548365104827937,
+          "implied_odds": 6.873624581143799,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1363344148244063,
+          "implied_odds_norm": 7.334905139600761
+        },
+        {
+          "dog": "BURN BRIGHT",
+          "box": 6,
+          "probability": 0.13678462461463559,
+          "implied_odds": 7.310763200303455,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12818245637527928,
+          "implied_odds_norm": 7.801379598096513
+        },
+        {
+          "dog": "COUNTY KILDARE",
+          "box": 2,
+          "probability": 0.12965883179146798,
+          "implied_odds": 7.712548279073756,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12150479336842969,
+          "implied_odds_norm": 8.230127983245701
+        },
+        {
+          "dog": "RED CABANG",
+          "box": 3,
+          "probability": 0.11713194555022469,
+          "implied_odds": 8.537380603579344,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1097657031478725,
+          "implied_odds_norm": 9.110313798590031
+        },
+        {
+          "dog": "BONE SHAKER",
+          "box": 1,
+          "probability": 0.11159353713734509,
+          "implied_odds": 8.961092422128694,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10457559646174092,
+          "implied_odds_norm": 9.562460400269876
+        },
+        {
+          "dog": "MARKET JET",
+          "box": 9,
+          "probability": 0.11079836395953113,
+          "implied_odds": 9.025404024604983,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": null,
+          "implied_odds_norm": null
+        },
+        {
+          "dog": "RABADA",
+          "box": 4,
+          "probability": 0.09652210651789822,
+          "implied_odds": 10.360320926217755,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09045198422584062,
+          "implied_odds_norm": 11.055589421932401
+        }
+      ],
+      "race_prob_sum": 1.067108779801908
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 14,
+      "raceId": 1256879249,
+      "start_time": "11:57AM",
+      "grade": "Grade 5",
+      "dogs": [
+        {
+          "dog": "CHALK AND CHEESE",
+          "box": 1,
+          "probability": 0.26629889272928664,
+          "implied_odds": 3.7551789635737505,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.25650763356398293,
+          "implied_odds_norm": 3.8985194557594376
+        },
+        {
+          "dog": "ASCEND IGLOO",
+          "box": 7,
+          "probability": 0.21048896203153586,
+          "implied_odds": 4.750842943727273,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.20274971851623644,
+          "implied_odds_norm": 4.93218933825508
+        },
+        {
+          "dog": "REV TREASURE",
+          "box": 8,
+          "probability": 0.131912043693358,
+          "implied_odds": 7.5808089390578655,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12706191084605573,
+          "implied_odds_norm": 7.87017913819641
+        },
+        {
+          "dog": "WE ARE SOUTH",
+          "box": 4,
+          "probability": 0.1159819353588721,
+          "implied_odds": 8.622032361382772,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11171751962678472,
+          "implied_odds_norm": 8.951147531208221
+        },
+        {
+          "dog": "SCOTT CRUSH",
+          "box": 6,
+          "probability": 0.1149549414340879,
+          "implied_odds": 8.699060584301836,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11072828614319384,
+          "implied_odds_norm": 9.031116030341153
+        },
+        {
+          "dog": "SUNNY STRIDE",
+          "box": 5,
+          "probability": 0.10054036471611826,
+          "implied_odds": 9.946253953062135,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09684370357937666,
+          "implied_odds_norm": 10.325916533957866
+        },
+        {
+          "dog": "MOE PATTY",
+          "box": 2,
+          "probability": 0.09799427438906087,
+          "implied_odds": 10.204677836888298,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09439122772436981,
+          "implied_odds_norm": 10.594204822932092
+        }
+      ],
+      "race_prob_sum": 1.0381714143523195
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 1,
+      "raceId": 1257224941,
+      "start_time": "2:17PM",
+      "grade": "Bottom Up - Maiden",
+      "dogs": [
+        {
+          "dog": "JASKIER",
+          "box": 8,
+          "probability": 0.22101367723384943,
+          "implied_odds": 4.5246068592484585,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2776336605307292,
+          "implied_odds_norm": 3.601868729059665
+        },
+        {
+          "dog": "FEARLESS BEAR",
+          "box": 3,
+          "probability": 0.15007206718881405,
+          "implied_odds": 6.663465218626222,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18851800430866164,
+          "implied_odds_norm": 5.304533132881537
+        },
+        {
+          "dog": "PAW MURBELLA",
+          "box": 2,
+          "probability": 0.1325539331559077,
+          "implied_odds": 7.544099040982941,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1665120192578919,
+          "implied_odds_norm": 6.005572477330969
+        },
+        {
+          "dog": "STARBRIGHT HUD",
+          "box": 1,
+          "probability": 0.08935933405933597,
+          "implied_odds": 11.190772743852195,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11225169106268348,
+          "implied_odds_norm": 8.908551760183114
+        },
+        {
+          "dog": "JUNO USKO",
+          "box": 5,
+          "probability": 0.07929138762529443,
+          "implied_odds": 12.61171017369097,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09960450624817666,
+          "implied_odds_norm": 10.039706411559123
+        },
+        {
+          "dog": "ELSA ESCARGOT",
+          "box": 6,
+          "probability": 0.07716310264425594,
+          "implied_odds": 12.959561833721063,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09693099048510878,
+          "implied_odds_norm": 10.316617987656146
+        },
+        {
+          "dog": "MORAINE LAURA",
+          "box": 4,
+          "probability": 0.04660875081563079,
+          "implied_odds": 21.45519848741877,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.058549128106748366,
+          "implied_odds_norm": 17.07967364051558
+        }
+      ],
+      "race_prob_sum": 0.7960622527230883
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 2,
+      "raceId": 1257224942,
+      "start_time": "2:44PM",
+      "grade": "Bottom Up - Maiden",
+      "dogs": [
+        {
+          "dog": "SPONSORSHIP",
+          "box": 2,
+          "probability": 0.24689577228508813,
+          "implied_odds": 4.050292116161915,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.24337142475930962,
+          "implied_odds_norm": 4.1089458262776075
+        },
+        {
+          "dog": "ROCKY RAY",
+          "box": 1,
+          "probability": 0.20722060671166476,
+          "implied_odds": 4.82577488729893,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.20426260777229335,
+          "implied_odds_norm": 4.8956586372126125
+        },
+        {
+          "dog": "EDEN'S DREAM",
+          "box": 3,
+          "probability": 0.138765780227118,
+          "implied_odds": 7.206387614895399,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13678494908659342,
+          "implied_odds_norm": 7.310745858207964
+        },
+        {
+          "dog": "DOONGALLA PARODY",
+          "box": 5,
+          "probability": 0.13790494154995414,
+          "implied_odds": 7.251371769283293,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13593639856906015,
+          "implied_odds_norm": 7.356381444017492
+        },
+        {
+          "dog": "ULTRA PUB RUN",
+          "box": 8,
+          "probability": 0.13665253895357152,
+          "implied_odds": 7.317829640470535,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1347018735651166,
+          "implied_odds_norm": 7.4238017151007725
+        },
+        {
+          "dog": "SOLAR GOLD",
+          "box": 4,
+          "probability": 0.0763902543816167,
+          "implied_odds": 13.09067508800769,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.0752998112301132,
+          "implied_odds_norm": 13.280245775703742
+        },
+        {
+          "dog": "PAW XELA",
+          "box": 6,
+          "probability": 0.07065145894738609,
+          "implied_odds": 14.153989385338763,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06964293501751359,
+          "implied_odds_norm": 14.358958302784382
+        }
+      ],
+      "race_prob_sum": 1.0144813530563994
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 3,
+      "raceId": 1257224935,
+      "start_time": "3:05PM",
+      "grade": "Bottom Up - Restricted Win",
+      "dogs": [
+        {
+          "dog": "AVERAGE RETURN",
+          "box": 7,
+          "probability": 0.190696399207218,
+          "implied_odds": 5.243937505675509,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.2509177561734035,
+          "implied_odds_norm": 3.985369609749431
+        },
+        {
+          "dog": "INGA EXTREME",
+          "box": 1,
+          "probability": 0.12885151431987388,
+          "implied_odds": 7.760871149077069,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1695424401671878,
+          "implied_odds_norm": 5.898228190026569
+        },
+        {
+          "dog": "WHIPSTICK JORDAN",
+          "box": 8,
+          "probability": 0.08945126756827472,
+          "implied_odds": 11.179271431081045,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11769971241412236,
+          "implied_odds_norm": 8.496197479918512
+        },
+        {
+          "dog": "LILLY'S WISH",
+          "box": 6,
+          "probability": 0.07990922725232244,
+          "implied_odds": 12.514199353253495,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1051443240829919,
+          "implied_odds_norm": 9.510736872593197
+        },
+        {
+          "dog": "PAW NITRO",
+          "box": 4,
+          "probability": 0.07709034640288051,
+          "implied_odds": 12.971792794572714,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10143524902650088,
+          "implied_odds_norm": 9.858505890183608
+        },
+        {
+          "dog": "GROOVIN'",
+          "box": 2,
+          "probability": 0.07314582978682671,
+          "implied_odds": 13.671319375477182,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09624506576869628,
+          "implied_odds_norm": 10.390143037600273
+        },
+        {
+          "dog": "SOLAR KELLY",
+          "box": 3,
+          "probability": 0.0606208802421764,
+          "implied_odds": 16.49596634039404,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07976477432641406,
+          "implied_odds_norm": 12.536862398780091
+        },
+        {
+          "dog": "JOCK'S LEGEND",
+          "box": 5,
+          "probability": 0.06023016930951951,
+          "implied_odds": 16.60297507817146,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07925067804068318,
+          "implied_odds_norm": 12.618188572300314
+        }
+      ],
+      "race_prob_sum": 0.7599956340890922
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 4,
+      "raceId": 1257224934,
+      "start_time": "3:24PM",
+      "grade": "Bottom Up - Restricted Win",
+      "dogs": [
+        {
+          "dog": "DOONGALLA ADAM",
+          "box": 3,
+          "probability": 0.16292714710534603,
+          "implied_odds": 6.137712577471306,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1775276906339406,
+          "implied_odds_norm": 5.632924060629982
+        },
+        {
+          "dog": "STREET SIXTY SIX",
+          "box": 4,
+          "probability": 0.15803654670701955,
+          "implied_odds": 6.327650286195368,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17219882426664976,
+          "implied_odds_norm": 5.807240579363659
+        },
+        {
+          "dog": "LIVING THE DREAM",
+          "box": 6,
+          "probability": 0.15764130154114964,
+          "implied_odds": 6.343515247740876,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17176815962433728,
+          "implied_odds_norm": 5.821800746931407
+        },
+        {
+          "dog": "CRUISING NAT",
+          "box": 1,
+          "probability": 0.1324242233578329,
+          "implied_odds": 7.5514885014490805,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14429127971846645,
+          "implied_odds_norm": 6.930425746802907
+        },
+        {
+          "dog": "MEADOW MOO",
+          "box": 2,
+          "probability": 0.11413101313893045,
+          "implied_odds": 8.761860361151012,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1243587428629408,
+          "implied_odds_norm": 8.041252082309384
+        },
+        {
+          "dog": "SOLAR TESS",
+          "box": 8,
+          "probability": 0.0797952825626258,
+          "implied_odds": 12.532069163551983,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08694605219881674,
+          "implied_odds_norm": 11.501384763431608
+        },
+        {
+          "dog": "DALE'S CORNER",
+          "box": 7,
+          "probability": 0.07505127654180141,
+          "implied_odds": 13.324223731797936,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08177691710872695,
+          "implied_odds_norm": 12.228389567076055
+        },
+        {
+          "dog": "MORAINE ALFIE",
+          "box": 5,
+          "probability": 0.03774945610479844,
+          "implied_odds": 26.490447894768135,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.04113233358612147,
+          "implied_odds_norm": 24.31177404282775
+        }
+      ],
+      "race_prob_sum": 0.9177562470595042
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 5,
+      "raceId": 1257224933,
+      "start_time": "3:40PM",
+      "grade": "Bottom Up - Restricted Win",
+      "dogs": [
+        {
+          "dog": "BRAGGING RIGHTS",
+          "box": 2,
+          "probability": 0.21230687372440793,
+          "implied_odds": 4.710163088257254,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17385992840425207,
+          "implied_odds_norm": 5.751756653636947
+        },
+        {
+          "dog": "KODA",
+          "box": 4,
+          "probability": 0.21198848701621625,
+          "implied_odds": 4.71723730885208,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17359919878528118,
+          "implied_odds_norm": 5.7603952495014985
+        },
+        {
+          "dog": "ASTON ASTUTE",
+          "box": 8,
+          "probability": 0.18408142921697004,
+          "implied_odds": 5.432378509085436,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15074586867007977,
+          "implied_odds_norm": 6.63368096799114
+        },
+        {
+          "dog": "ILLUSIVE LASS",
+          "box": 1,
+          "probability": 0.17886188554467433,
+          "implied_odds": 5.590906061147555,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.14647153937848006,
+          "implied_odds_norm": 6.827264902405486
+        },
+        {
+          "dog": "VAL'S LEGACY",
+          "box": 3,
+          "probability": 0.1490711908677543,
+          "implied_odds": 6.708204275949812,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12207568279229362,
+          "implied_odds_norm": 8.191639621639109
+        },
+        {
+          "dog": "RITA SKEETER",
+          "box": 7,
+          "probability": 0.11127399298658504,
+          "implied_odds": 8.986825880514218,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09112323173773339,
+          "implied_odds_norm": 10.974149851029791
+        },
+        {
+          "dog": "LETA LESTRANGE",
+          "box": 5,
+          "probability": 0.09435806217069989,
+          "implied_odds": 10.5979285393858,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07727063022300928,
+          "implied_odds_norm": 12.941527681525557
+        },
+        {
+          "dog": "PAW INGRID",
+          "box": 6,
+          "probability": 0.07919555202991449,
+          "implied_odds": 12.626971772635294,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06485392000887065,
+          "implied_odds_norm": 15.419268409114222
+        }
+      ],
+      "race_prob_sum": 1.2211374735572222
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 6,
+      "raceId": 1257224936,
+      "start_time": "4:00PM",
+      "grade": "Bottom Up - Grade 5",
+      "dogs": [
+        {
+          "dog": "PAW LINDEN",
+          "box": 6,
+          "probability": 0.13377687594948412,
+          "implied_odds": 7.47513344815746,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.18820688513938943,
+          "implied_odds_norm": 5.313301897852365
+        },
+        {
+          "dog": "STEP ON AIR",
+          "box": 7,
+          "probability": 0.1116242470243808,
+          "implied_odds": 8.958627060495033,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15704098103189024,
+          "implied_odds_norm": 6.367764601501888
+        },
+        {
+          "dog": "PANAMA JAN",
+          "box": 5,
+          "probability": 0.10741296019921252,
+          "implied_odds": 9.309863522477722,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15111624127273512,
+          "implied_odds_norm": 6.6174223999867525
+        },
+        {
+          "dog": "OCEAN SHARNI",
+          "box": 1,
+          "probability": 0.09800968058058672,
+          "implied_odds": 10.203073758390303,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13788703439706737,
+          "implied_odds_norm": 7.252313492509694
+        },
+        {
+          "dog": "SAINT TAY",
+          "box": 8,
+          "probability": 0.09417385715383497,
+          "implied_odds": 10.618658194773513,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13249052342333037,
+          "implied_odds_norm": 7.54770963357753
+        },
+        {
+          "dog": "SAINT RAINE",
+          "box": 2,
+          "probability": 0.08774089017009015,
+          "implied_odds": 11.397194604037518,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12344016498416086,
+          "implied_odds_norm": 8.10109092229676
+        },
+        {
+          "dog": "MORAINE GRACE",
+          "box": 4,
+          "probability": 0.07805841779356512,
+          "implied_odds": 12.810918133706224,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10981816975142658,
+          "implied_odds_norm": 9.105961265458165
+        }
+      ],
+      "race_prob_sum": 0.7107969288711544
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 7,
+      "raceId": 1257224931,
+      "start_time": "4:20PM",
+      "grade": "Bottom Up - Restricted Win",
+      "dogs": [
+        {
+          "dog": "ASTON ALERT",
+          "box": 1,
+          "probability": 0.37795043095901354,
+          "implied_odds": 2.6458496090680317,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.3031125242268301,
+          "implied_odds_norm": 3.299104854049725
+        },
+        {
+          "dog": "IVORY PANKE",
+          "box": 2,
+          "probability": 0.21758267868067493,
+          "implied_odds": 4.595954080828297,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17449916592392184,
+          "implied_odds_norm": 5.7306864173550265
+        },
+        {
+          "dog": "KOKERI",
+          "box": 5,
+          "probability": 0.1684387975351834,
+          "implied_odds": 5.9368744887360085,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1350862571292004,
+          "implied_odds_norm": 7.402677528059506
+        },
+        {
+          "dog": "ASTON TRANSCEND",
+          "box": 6,
+          "probability": 0.11919381540290784,
+          "implied_odds": 8.389697037717312,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09559226633854587,
+          "implied_odds_norm": 10.461097307374624
+        },
+        {
+          "dog": "ASTON NIJINSKY",
+          "box": 8,
+          "probability": 0.10851086761020787,
+          "implied_odds": 9.215666799312622,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08702464739599759,
+          "implied_odds_norm": 11.490997434894423
+        },
+        {
+          "dog": "PADDY'S CHARIOT",
+          "box": 4,
+          "probability": 0.09848292513692757,
+          "implied_odds": 10.154044456027595,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07898233627026412,
+          "implied_odds_norm": 12.661058753417601
+        },
+        {
+          "dog": "SUPER SEAFARER",
+          "box": 3,
+          "probability": 0.08681899273903133,
+          "implied_odds": 11.51821702200455,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.06962797733338853,
+          "implied_odds_norm": 14.362042935871303
+        },
+        {
+          "dog": "THERMAL SMOKE",
+          "box": 7,
+          "probability": 0.06991959330312059,
+          "implied_odds": 14.302142686453083,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.05607482538185161,
+          "implied_odds_norm": 17.833314561219233
+        }
+      ],
+      "race_prob_sum": 1.246898101367067
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 8,
+      "raceId": 1257224943,
+      "start_time": "4:40PM",
+      "grade": "Bottom Up - Grade 5",
+      "dogs": [
+        {
+          "dog": "NORBIT",
+          "box": 1,
+          "probability": 0.14067319887776888,
+          "implied_odds": 7.108674630118429,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.195772298290491,
+          "implied_odds_norm": 5.107974972619361
+        },
+        {
+          "dog": "LEMON PEPPER",
+          "box": 5,
+          "probability": 0.09383260362572998,
+          "implied_odds": 10.657276483435322,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1305851051439541,
+          "implied_odds_norm": 7.657841213189072
+        },
+        {
+          "dog": "AUSSIE FLAME",
+          "box": 4,
+          "probability": 0.09130841159442192,
+          "implied_odds": 10.951893506173866,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12707223361449452,
+          "implied_odds_norm": 7.869539800754198
+        },
+        {
+          "dog": "MIRA BALE",
+          "box": 3,
+          "probability": 0.08670843429771959,
+          "implied_odds": 11.532903437818156,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12067052998762254,
+          "implied_odds_norm": 8.287027496295677
+        },
+        {
+          "dog": "MORAINE SADIE",
+          "box": 8,
+          "probability": 0.08495746942243346,
+          "implied_odds": 11.770595414367943,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11823374444072857,
+          "implied_odds_norm": 8.45782229709647
+        },
+        {
+          "dog": "NOVA'S FERN",
+          "box": 6,
+          "probability": 0.08242750394555881,
+          "implied_odds": 12.13187288384316,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11471283811347775,
+          "implied_odds_norm": 8.717420093911082
+        },
+        {
+          "dog": "BUSH LASS",
+          "box": 7,
+          "probability": 0.07829442820696789,
+          "implied_odds": 12.77230095296876,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10896091278009795,
+          "implied_odds_norm": 9.177602999877339
+        },
+        {
+          "dog": "MORAINE SOFIA",
+          "box": 2,
+          "probability": 0.060353129215348814,
+          "implied_odds": 16.56914915599245,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08399233762913355,
+          "implied_odds_norm": 11.905847940742875
+        }
+      ],
+      "race_prob_sum": 0.7185551791859494
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 9,
+      "raceId": 1257224932,
+      "start_time": "5:00PM",
+      "grade": "Bottom Up - Restricted Win",
+      "dogs": [
+        {
+          "dog": "PAW ALIA",
+          "box": 8,
+          "probability": 0.19159661456126353,
+          "implied_odds": 5.219298901965971,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1840619202535521,
+          "implied_odds_norm": 5.432954293981411
+        },
+        {
+          "dog": "SAILOR SONG",
+          "box": 1,
+          "probability": 0.18438662636468076,
+          "implied_odds": 5.423386824281904,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1771354707674411,
+          "implied_odds_norm": 5.645396688012235
+        },
+        {
+          "dog": "REV KEN",
+          "box": 5,
+          "probability": 0.12858332052511223,
+          "implied_odds": 7.777058454519384,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12352667578509044,
+          "implied_odds_norm": 8.095417395832643
+        },
+        {
+          "dog": "GLIMMER OF HOPE",
+          "box": 6,
+          "probability": 0.12233408615991638,
+          "implied_odds": 8.174336616965363,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11752319769646981,
+          "implied_odds_norm": 8.508958398006884
+        },
+        {
+          "dog": "LEKTRA STING",
+          "box": 4,
+          "probability": 0.1175095590099326,
+          "implied_odds": 8.509945985887617,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11288839904110282,
+          "implied_odds_norm": 8.858306154522563
+        },
+        {
+          "dog": "CHIEF HAMISH",
+          "box": 2,
+          "probability": 0.11324359891723632,
+          "implied_odds": 8.830521191143408,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10879020133450593,
+          "implied_odds_norm": 9.192004314112998
+        },
+        {
+          "dog": "BEDEVILLED",
+          "box": 3,
+          "probability": 0.10744441898998895,
+          "implied_odds": 9.307137675463387,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10321907892323964,
+          "implied_odds_norm": 9.68813140392063
+        },
+        {
+          "dog": "INGA FREDDY",
+          "box": 7,
+          "probability": 0.07583742526478737,
+          "implied_odds": 13.18610167088989,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.0728550561985982,
+          "implied_odds_norm": 13.725883311023251
+        }
+      ],
+      "race_prob_sum": 1.040935649792918
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 10,
+      "raceId": 1257224937,
+      "start_time": "5:24PM",
+      "grade": "Bottom Up - Grade 5",
+      "dogs": [
+        {
+          "dog": "PAW LONDON",
+          "box": 1,
+          "probability": 0.17748189169499054,
+          "implied_odds": 5.634377628330323,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19915709661628914,
+          "implied_odds_norm": 5.021161771235671
+        },
+        {
+          "dog": "BUSH BUDDY",
+          "box": 8,
+          "probability": 0.14124781693278668,
+          "implied_odds": 7.079755437748492,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1584978887427359,
+          "implied_odds_norm": 6.309232305441866
+        },
+        {
+          "dog": "MERMAID LADY",
+          "box": 3,
+          "probability": 0.13237902075566899,
+          "implied_odds": 7.554067059052302,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1485459793944187,
+          "implied_odds_norm": 6.731922358832776
+        },
+        {
+          "dog": "ASTON TELMONT",
+          "box": 7,
+          "probability": 0.12422313678534924,
+          "implied_odds": 8.050030178580542,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13939404757559606,
+          "implied_odds_norm": 7.173907475910553
+        },
+        {
+          "dog": "SICILY",
+          "box": 5,
+          "probability": 0.1232067721947658,
+          "implied_odds": 8.116436963539599,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1382535581485842,
+          "implied_odds_norm": 7.233086897664345
+        },
+        {
+          "dog": "ASTON RYAN",
+          "box": 6,
+          "probability": 0.09767638763571886,
+          "implied_odds": 10.237888851187554,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10960524244877672,
+          "implied_odds_norm": 9.123651183631507
+        },
+        {
+          "dog": "MEAL TICKET",
+          "box": 4,
+          "probability": 0.0949502636661962,
+          "implied_odds": 10.531829627304298,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10654618707359936,
+          "implied_odds_norm": 9.38560100052408
+        }
+      ],
+      "race_prob_sum": 0.8911652896654763
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 11,
+      "raceId": 1257224938,
+      "start_time": "5:46PM",
+      "grade": "Bottom Up - Grade 5",
+      "dogs": [
+        {
+          "dog": "COLLINDA POPS",
+          "box": 2,
+          "probability": 0.16186117510805678,
+          "implied_odds": 6.178133819505578,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19211013921595496,
+          "implied_odds_norm": 5.205347328783513
+        },
+        {
+          "dog": "BISMUTH",
+          "box": 8,
+          "probability": 0.13439041617595202,
+          "implied_odds": 7.441006795385914,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15950558584303248,
+          "implied_odds_norm": 6.269372917034316
+        },
+        {
+          "dog": "POPCORN MISS",
+          "box": 1,
+          "probability": 0.11380577928099035,
+          "implied_odds": 8.78689998274135,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.13507404778604648,
+          "implied_odds_norm": 7.403346656079871
+        },
+        {
+          "dog": "BUSH PROFIT",
+          "box": 7,
+          "probability": 0.1081683439860253,
+          "implied_odds": 9.244848937774197,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12838307647304525,
+          "implied_odds_norm": 7.789188633518652
+        },
+        {
+          "dog": "DUKE CABOOM",
+          "box": 6,
+          "probability": 0.10184662363849498,
+          "implied_odds": 9.818685826537601,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12087993944690159,
+          "implied_odds_norm": 8.272671251951326
+        },
+        {
+          "dog": "BUSH JEWEL",
+          "box": 5,
+          "probability": 0.08691123821348042,
+          "implied_odds": 11.505991866594929,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.10315339711006251,
+          "implied_odds_norm": 9.694300217112781
+        },
+        {
+          "dog": "MORAINE QUINN",
+          "box": 4,
+          "probability": 0.07271288295861449,
+          "implied_odds": 13.752721104032739,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.08630162272482818,
+          "implied_odds_norm": 11.587267636768425
+        },
+        {
+          "dog": "PANAMA REBEL",
+          "box": 3,
+          "probability": 0.06284717612086957,
+          "implied_odds": 15.91161388185159,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07459219140012854,
+          "implied_odds_norm": 13.406229006408795
+        }
+      ],
+      "race_prob_sum": 0.8425436354824839
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 12,
+      "raceId": 1257224939,
+      "start_time": "6:10PM",
+      "grade": "Bottom Up - Grade 5",
+      "dogs": [
+        {
+          "dog": "REBEL THINKER",
+          "box": 7,
+          "probability": 0.17385267249378164,
+          "implied_odds": 5.751996708798181,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.315503886572496,
+          "implied_odds_norm": 3.1695330630110052
+        },
+        {
+          "dog": "ZIPPING SCOOBY",
+          "box": 2,
+          "probability": 0.10720496279271431,
+          "implied_odds": 9.327926375325978,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.19455313476513278,
+          "implied_odds_norm": 5.139984000808899
+        },
+        {
+          "dog": "SLEEK MONIQUE",
+          "box": 5,
+          "probability": 0.09552694368889564,
+          "implied_odds": 10.468250750874208,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.17336013058595093,
+          "implied_odds_norm": 5.768338986709553
+        },
+        {
+          "dog": "TESTED",
+          "box": 3,
+          "probability": 0.08714369212229305,
+          "implied_odds": 11.475299882826294,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.15814639579868334,
+          "implied_odds_norm": 6.32325507609403
+        },
+        {
+          "dog": "MANA'S WAY",
+          "box": 1,
+          "probability": 0.06227174266695933,
+          "implied_odds": 16.058648066879755,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11300934609314522,
+          "implied_odds_norm": 8.848825646471525
+        },
+        {
+          "dog": "BELLA SUPREME",
+          "box": 6,
+          "probability": 0.02503177979722084,
+          "implied_odds": 39.94921687953748,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.045427106184591684,
+          "implied_odds_norm": 22.013288628523462
+        }
+      ],
+      "race_prob_sum": 0.5510317935618648
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 13,
+      "raceId": 1257224940,
+      "start_time": "6:25PM",
+      "grade": "Bottom Up - Grade 5",
+      "dogs": [
+        {
+          "dog": "ETHANOL VISION",
+          "box": 1,
+          "probability": 0.15795277355391008,
+          "implied_odds": 6.33100627168598,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.23415304408084509,
+          "implied_odds_norm": 4.270711080974604
+        },
+        {
+          "dog": "BONDED",
+          "box": 6,
+          "probability": 0.09753306127696079,
+          "implied_odds": 10.252933588953384,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1445853889278453,
+          "implied_odds_norm": 6.916328180982696
+        },
+        {
+          "dog": "SUPER SEALANT",
+          "box": 3,
+          "probability": 0.09021540415349327,
+          "implied_odds": 11.084581501165713,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.1337375155258946,
+          "implied_odds_norm": 7.477333462250369
+        },
+        {
+          "dog": "RESIGN THE PLOW",
+          "box": 8,
+          "probability": 0.08583463078254,
+          "implied_odds": 11.650309331829902,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.12724335023105784,
+          "implied_odds_norm": 7.8589568585244445
+        },
+        {
+          "dog": "HENRY BALE",
+          "box": 7,
+          "probability": 0.07876397363832516,
+          "implied_odds": 12.696159853385275,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.11676163562283154,
+          "implied_odds_norm": 8.564456935411927
+        },
+        {
+          "dog": "FERGUS BALE",
+          "box": 5,
+          "probability": 0.06084964992146787,
+          "implied_odds": 16.433948285497006,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.09020500520367564,
+          "implied_odds_norm": 11.08585934607598
+        },
+        {
+          "dog": "ASTON BREEZE",
+          "box": 2,
+          "probability": 0.05311694257119372,
+          "implied_odds": 18.82638479539141,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07874185122217851,
+          "implied_odds_norm": 12.699726822251023
+        },
+        {
+          "dog": "FINISH THE ARENA",
+          "box": 4,
+          "probability": 0.05030422438946522,
+          "implied_odds": 19.879046186216947,
+          "isHighConf": false,
+          "scratched": false,
+          "probability_norm": 0.07457220918567142,
+          "implied_odds_norm": 13.409821311719215
+        }
+      ],
+      "race_prob_sum": 0.6745706602873561
+    }
+  ],
+  "highConfidencePicks": [
+    {
+      "track": "SHP",
+      "raceNumber": 4,
+      "raceId": 1255615295,
+      "dog": "CROYDON",
+      "box": 2,
+      "probability": 0.5103075819455576,
+      "implied_odds": 1.9596024738403466
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 4,
+      "raceId": 1257269020,
+      "dog": "SUPER FREAKY",
+      "box": 5,
+      "probability": 0.4313999808059383,
+      "implied_odds": 2.3180344100428734
+    }
+  ],
+  "topPicks": [
+    {
+      "track": "SHP",
+      "raceNumber": 4,
+      "raceId": 1255615295,
+      "raceStartTime": "8:57AM",
+      "dog": "CROYDON",
+      "box": 2,
+      "probability": 0.5103075819455576,
+      "implied_odds": 1.9596024738403466,
+      "grade": "Grade 5 Final",
+      "tier": "green"
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 4,
+      "raceId": 1257269020,
+      "raceStartTime": "8:12PM",
+      "dog": "SUPER FREAKY",
+      "box": 5,
+      "probability": 0.4313999808059383,
+      "implied_odds": 2.3180344100428734,
+      "grade": "Restricted Win Heat",
+      "tier": "green"
+    },
+    {
+      "track": "WBL",
+      "raceNumber": 7,
+      "raceId": 1257224931,
+      "raceStartTime": "4:20PM",
+      "dog": "ASTON ALERT",
+      "box": 1,
+      "probability": 0.37795043095901354,
+      "implied_odds": 2.6458496090680317,
+      "grade": "Bottom Up - Restricted Win",
+      "tier": "yellow"
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 6,
+      "raceId": 1256879252,
+      "raceStartTime": "9:35AM",
+      "dog": "HAPPY AND NUMB",
+      "box": 4,
+      "probability": 0.3739055397129204,
+      "implied_odds": 2.6744722765214615,
+      "grade": "Grade 5",
+      "tier": "yellow"
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 4,
+      "raceId": 1255615295,
+      "raceStartTime": "8:57AM",
+      "dog": "DEAR CARLA LOU",
+      "box": 4,
+      "probability": 0.35560457080804364,
+      "implied_odds": 2.81211233513588,
+      "grade": "Grade 5 Final",
+      "tier": "yellow"
+    },
+    {
+      "track": "SAP",
+      "raceNumber": 5,
+      "raceId": 1257269019,
+      "raceStartTime": "8:36PM",
+      "dog": "NIGHTTIME",
+      "box": 1,
+      "probability": 0.32728466417663793,
+      "implied_odds": 3.055444111674883,
+      "grade": "Restricted Win Heat",
+      "tier": "yellow"
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 10,
+      "raceId": 1256879241,
+      "raceStartTime": "10:47AM",
+      "dog": "PAW TABITHA",
+      "box": 8,
+      "probability": 0.30147289609202826,
+      "implied_odds": 3.317047777637489,
+      "grade": "Grade 5",
+      "tier": "yellow"
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 7,
+      "raceId": 1256879250,
+      "raceStartTime": "9:52AM",
+      "dog": "WHODAT JEWEL",
+      "box": 3,
+      "probability": 0.29904072447643226,
+      "implied_odds": 3.344026141425467,
+      "grade": "Mixed 4/5",
+      "tier": "other"
+    },
+    {
+      "track": "SHP",
+      "raceNumber": 5,
+      "raceId": 1256879251,
+      "raceStartTime": "9:15AM",
+      "dog": "ALFREDO",
+      "box": 2,
+      "probability": 0.2884005669671651,
+      "implied_odds": 3.4673995634476396,
+      "grade": "Grade 5",
+      "tier": "other"
+    },
+    {
+      "track": "BAL",
+      "raceNumber": 2,
+      "raceId": 1256763028,
+      "raceStartTime": "10:52AM",
+      "dog": "WILSON AGAIN",
+      "box": 7,
+      "probability": 0.278069346346505,
+      "implied_odds": 3.5962252335210296,
+      "grade": "Tier 3 - Maiden",
+      "tier": "other"
+    }
+  ],
+  "trackStats": {
+    "HVL": {
+      "bets": 262,
+      "wins": 72,
+      "pnl": 43.10000000000001,
+      "strike_rate": 27.480916030534353,
+      "pot": 16.450381679389317,
+      "value_bets": 128,
+      "value_wins": 25,
+      "value_pnl": 28.700000000000003,
+      "value_strike_rate": 19.53125,
+      "value_pot": 22.421875000000004
+    },
+    "SLE": {
+      "bets": 190,
+      "wins": 54,
+      "pnl": -12.849999999999998,
+      "strike_rate": 28.421052631578945,
+      "pot": -6.763157894736841,
+      "value_bets": 72,
+      "value_wins": 13,
+      "value_pnl": -9.0,
+      "value_strike_rate": 18.055555555555554,
+      "value_pot": -12.5
+    },
+    "BAL": {
+      "bets": 248,
+      "wins": 76,
+      "pnl": 56.14999999999999,
+      "strike_rate": 30.64516129032258,
+      "pot": 22.64112903225806,
+      "value_bets": 120,
+      "value_wins": 28,
+      "value_pnl": 41.099999999999994,
+      "value_strike_rate": 23.333333333333332,
+      "value_pot": 34.25
+    },
+    "SHP": {
+      "bets": 176,
+      "wins": 52,
+      "pnl": 70.4,
+      "strike_rate": 29.545454545454547,
+      "pot": 40.0,
+      "value_bets": 84,
+      "value_wins": 21,
+      "value_pnl": 56.7,
+      "value_strike_rate": 25.0,
+      "value_pot": 67.5
+    },
+    "WBL": {
+      "bets": 168,
+      "wins": 50,
+      "pnl": 26.699999999999996,
+      "strike_rate": 29.761904761904763,
+      "pot": 15.892857142857139,
+      "value_bets": 54,
+      "value_wins": 11,
+      "value_pnl": 21.8,
+      "value_strike_rate": 20.37037037037037,
+      "value_pot": 40.370370370370374
+    },
+    "GEL": {
+      "bets": 199,
+      "wins": 64,
+      "pnl": 68.59999999999998,
+      "strike_rate": 32.1608040201005,
+      "pot": 34.47236180904522,
+      "value_bets": 91,
+      "value_wins": 27,
+      "value_pnl": 59.3,
+      "value_strike_rate": 29.67032967032967,
+      "value_pot": 65.16483516483517
+    },
+    "HOR": {
+      "bets": 82,
+      "wins": 33,
+      "pnl": 45.7,
+      "strike_rate": 40.243902439024396,
+      "pot": 55.73170731707317,
+      "value_bets": 30,
+      "value_wins": 11,
+      "value_pnl": 35.4,
+      "value_strike_rate": 36.666666666666664,
+      "value_pot": 118.0
+    },
+    "WGL": {
+      "bets": 225,
+      "wins": 59,
+      "pnl": 23.199999999999996,
+      "strike_rate": 26.222222222222225,
+      "pot": 10.31111111111111,
+      "value_bets": 97,
+      "value_wins": 23,
+      "value_pnl": 35.900000000000006,
+      "value_strike_rate": 23.711340206185564,
+      "value_pot": 37.010309278350526
+    },
+    "SAN": {
+      "bets": 84,
+      "wins": 30,
+      "pnl": 34.4,
+      "strike_rate": 35.714285714285715,
+      "pot": 40.95238095238095,
+      "value_bets": 48,
+      "value_wins": 12,
+      "value_pnl": 19.8,
+      "value_strike_rate": 25.0,
+      "value_pot": 41.25
+    },
+    "BEN": {
+      "bets": 199,
+      "wins": 57,
+      "pnl": 21.0,
+      "strike_rate": 28.643216080402013,
+      "pot": 10.552763819095476,
+      "value_bets": 82,
+      "value_wins": 21,
+      "value_pnl": 26.199999999999996,
+      "value_strike_rate": 25.609756097560975,
+      "value_pot": 31.951219512195117
+    },
+    "MEA": {
+      "bets": 84,
+      "wins": 30,
+      "pnl": 10.500000000000002,
+      "strike_rate": 35.714285714285715,
+      "pot": 12.500000000000004,
+      "value_bets": 39,
+      "value_wins": 9,
+      "value_pnl": 10.299999999999999,
+      "value_strike_rate": 23.076923076923077,
+      "value_pot": 26.410256410256405
+    },
+    "SAP": {
+      "bets": 67,
+      "wins": 29,
+      "pnl": 32.1,
+      "strike_rate": 43.28358208955223,
+      "pot": 47.91044776119403,
+      "value_bets": 25,
+      "value_wins": 4,
+      "value_pnl": 2.5,
+      "value_strike_rate": 16.0,
+      "value_pot": 10.0
+    },
+    "MEP": {
+      "bets": 65,
+      "wins": 16,
+      "pnl": -9.5,
+      "strike_rate": 24.615384615384617,
+      "pot": -14.615384615384617,
+      "value_bets": 21,
+      "value_wins": 1,
+      "value_pnl": -3.0,
+      "value_strike_rate": 4.761904761904762,
+      "value_pot": -14.285714285714285
+    }
+  }
+}
