@@ -63,6 +63,7 @@ async function loadDate(dateStr) {
   // High confidence picks are loaded from state prediction JSONs
   // (consensus: ML + ENS + MC all agree on #1 pick)
   // We load them after the first state is selected
+  window._summaryStates = summaryData.states;
   renderStateTabs(summaryData.states);
   loadHighConfidencePicks(summaryData.states);
 
@@ -158,7 +159,7 @@ function renderHighConfidence(picks) {
 // ── State tabs ──────────────────────────────────────
 function renderStateTabs(states) {
   const container = document.getElementById('stateTabs');
-  container.innerHTML = states
+  const stateTabs = states
     .filter(s => s.hasData)
     .sort((a, b) => parseTime(a.earliestRaceTime) - parseTime(b.earliestRaceTime))
     .map(s => `
@@ -167,7 +168,56 @@ function renderStateTabs(states) {
       </div>
     `)
     .join('');
+  container.innerHTML = `
+    <div class="state-tab" data-state="__all__" onclick="selectAllStates()">ALL</div>
+  ` + stateTabs;
   show('statesSection');
+}
+
+async function selectAllStates() {
+  activeState = '__all__';
+
+  document.querySelectorAll('.state-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.state === '__all__');
+  });
+
+  const container = document.getElementById('stateContent');
+  container.innerHTML = '<div class="loading">Loading all races…</div>';
+
+  // Ensure all states are loaded
+  const stateCodes = Object.keys(stateDataCache);
+  // Also fetch any that haven't been loaded yet
+  const summaryStates = (window._summaryStates || []).filter(s => s.hasData);
+  const fetches = summaryStates.map(async s => {
+    if (!stateDataCache[s.code]) {
+      try {
+        stateDataCache[s.code] = await fetchJSON(`${DATA_DIR}/${s.code}_predictions_${currentDate}.json`);
+      } catch { /* skip */ }
+    }
+  });
+  await Promise.all(fetches);
+
+  // Merge all races from all states
+  const allRaces = [];
+  for (const [code, data] of Object.entries(stateDataCache)) {
+    if (data && data.races) {
+      data.races.forEach(race => allRaces.push({ ...race, _stateCode: code }));
+    }
+  }
+
+  if (!allRaces.length) {
+    container.innerHTML = '<div class="error">No races found.</div>';
+    return;
+  }
+
+  allRaces.sort((a, b) => {
+    const ta = parseTime(a.start_time);
+    const tb = parseTime(b.start_time);
+    if (ta !== tb) return ta - tb;
+    return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
+  });
+
+  renderRaces({ races: allRaces });
 }
 
 async function selectState(stateCode) {
