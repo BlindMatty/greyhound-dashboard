@@ -1,13 +1,13 @@
 {
   "date": "2026-04-06",
-  "totalPredictions": 867,
-  "totalHighConfidence": 39,
+  "totalPredictions": 863,
+  "totalHighConfidence": 25,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 364,
-      "highConfidenceCount": 14,
+      "totalPredictions": 360,
+      "highConfidenceCount": 0,
       "topPicks": [
         {
           "track": "SHP",
@@ -20,11 +20,6 @@
           "probability": 0.503852157722438,
           "implied_odds": 1.9847091744536696,
           "grade": "Free For All",
-          "ensemble_prob": 0.31847530600530655,
-          "ensemble_odds": 3.1399608733976305,
-          "ensemble_rank": 1,
-          "mc_win_pct": 41.16,
-          "mc_method": "dog_track_dist",
           "tier": "green"
         },
         {
@@ -35,14 +30,9 @@
           "dog": "RIORDAN LOMAR",
           "box": 1,
           "rug": 1,
-          "probability": 0.4854571721506815,
+          "probability": 0.48545717215068157,
           "implied_odds": 2.059913947856164,
           "grade": "Free For All",
-          "ensemble_prob": 0.2783180091612988,
-          "ensemble_odds": 3.5930121913902147,
-          "ensemble_rank": 1,
-          "mc_win_pct": 26.42,
-          "mc_method": "dog_track_dist",
           "tier": "green"
         },
         {
@@ -56,11 +46,6 @@
           "probability": 0.405448200493634,
           "implied_odds": 2.466406309813431,
           "grade": "Mixed 4/5",
-          "ensemble_prob": 0.5607434006026023,
-          "ensemble_odds": 1.7833468907977357,
-          "ensemble_rank": 1,
-          "mc_win_pct": 71.96,
-          "mc_method": "dog_any_track",
           "tier": "green"
         }
       ],
