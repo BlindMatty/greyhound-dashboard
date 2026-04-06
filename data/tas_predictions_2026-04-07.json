@@ -5,6 +5,7 @@
   "totalRaces": 10,
   "totalDogs": 79,
   "highConfidenceCount": 4,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "DLC",
@@ -183,7 +184,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.13032091390869116,
-          "implied_odds_norm": 7.673365463816852
+          "implied_odds_norm": 7.673365463816852,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "TAH JOSH",
@@ -337,7 +340,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.13606415119181509,
-          "implied_odds_norm": 7.349474429824355
+          "implied_odds_norm": 7.349474429824355,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "MERCEDES DANGER",
@@ -491,7 +496,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.13242770892504085,
-          "implied_odds_norm": 7.551289742285266
+          "implied_odds_norm": 7.551289742285266,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "SLICK STEEL",
@@ -1397,7 +1404,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.16290506343776515,
-          "implied_odds_norm": 6.138544615478029
+          "implied_odds_norm": 6.138544615478029,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "DEADLY POWER",
@@ -1541,7 +1550,10 @@
       "implied_odds": 13.20484087635439,
       "ensemble_prob": 0.23865662535502447,
       "ensemble_odds": 4.1901204230655855,
-      "mc_win_pct": 39.8
+      "fastai_prob": null,
+      "mc_win_pct": 39.8,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "DLC",
@@ -1554,7 +1566,10 @@
       "implied_odds": 13.801904248100284,
       "ensemble_prob": 0.2106725483452147,
       "ensemble_odds": 4.746702918129458,
-      "mc_win_pct": 33.12
+      "fastai_prob": null,
+      "mc_win_pct": 33.12,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "DLC",
@@ -1567,7 +1582,10 @@
       "implied_odds": 12.850329055457198,
       "ensemble_prob": 0.162358490715089,
       "ensemble_odds": 6.159209756112026,
-      "mc_win_pct": 20.18
+      "fastai_prob": null,
+      "mc_win_pct": 20.18,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "DLC",
@@ -1580,7 +1598,10 @@
       "implied_odds": 9.314641371692,
       "ensemble_prob": 0.17926303806265903,
       "ensemble_odds": 5.578394803564933,
-      "mc_win_pct": 20.38
+      "fastai_prob": null,
+      "mc_win_pct": 20.38,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

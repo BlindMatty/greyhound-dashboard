@@ -5,6 +5,7 @@
   "totalRaces": 38,
   "totalDogs": 280,
   "highConfidenceCount": 13,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "GEL",
@@ -29,7 +30,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.18347830805809712,
-          "implied_odds_norm": 5.450235565085749
+          "implied_odds_norm": 5.450235565085749,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "PAW KENTA",
@@ -183,7 +186,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.1932159507446562,
-          "implied_odds_norm": 5.175556138848734
+          "implied_odds_norm": 5.175556138848734,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "CREAM",
@@ -537,7 +542,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.24602952056828356,
-          "implied_odds_norm": 4.064552894669637
+          "implied_odds_norm": 4.064552894669637,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "TINKER ROCK",
@@ -827,7 +834,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.21007172677794095,
-          "implied_odds_norm": 4.7602788596918755
+          "implied_odds_norm": 4.7602788596918755,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "SLIPPERY SHARK",
@@ -981,7 +990,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.18115620809713745,
-          "implied_odds_norm": 5.520097878532497
+          "implied_odds_norm": 5.520097878532497,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "PAW KENNETH",
@@ -1135,7 +1146,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2392452438251222,
-          "implied_odds_norm": 4.179811410298949
+          "implied_odds_norm": 4.179811410298949,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "ASTON SASHA",
@@ -1389,7 +1402,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.20433993735065145,
-          "implied_odds_norm": 4.893805943984312
+          "implied_odds_norm": 4.893805943984312,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "VOLTS",
@@ -1987,7 +2002,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.18873002238123415,
-          "implied_odds_norm": 5.298574055059468
+          "implied_odds_norm": 5.298574055059468,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "LEKTRA HARMONY",
@@ -3355,7 +3372,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2877655467089728,
-          "implied_odds_norm": 3.4750511707759593
+          "implied_odds_norm": 3.4750511707759593,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "RABADA",
@@ -3917,7 +3936,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.43617605758300765,
-          "implied_odds_norm": 2.29265220457382
+          "implied_odds_norm": 2.29265220457382,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "MERRY MYRTLE",
@@ -4325,7 +4346,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2975868509372766,
-          "implied_odds_norm": 3.3603635269851804
+          "implied_odds_norm": 3.3603635269851804,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "PAW RAYNOR",
@@ -5041,7 +5064,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.35664463881762887,
-          "implied_odds_norm": 2.803911488240126
+          "implied_odds_norm": 2.803911488240126,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "DR. ZAIDEN",
@@ -5195,7 +5220,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.39867200081027404,
-          "implied_odds_norm": 2.5083276426926577
+          "implied_odds_norm": 2.5083276426926577,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "MR. KIA ORA",
@@ -5439,7 +5466,10 @@
       "implied_odds": 5.558027500067457,
       "ensemble_prob": 0.2208069848348582,
       "ensemble_odds": 4.528842240873409,
-      "mc_win_pct": 27.68
+      "fastai_prob": null,
+      "mc_win_pct": 27.68,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "GEL",
@@ -5452,7 +5482,10 @@
       "implied_odds": 5.795717532658015,
       "ensemble_prob": 0.2311295704467937,
       "ensemble_odds": 4.326577503981479,
-      "mc_win_pct": 28.8
+      "fastai_prob": null,
+      "mc_win_pct": 28.8,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "GEL",
@@ -5465,7 +5498,10 @@
       "implied_odds": 5.607905078742368,
       "ensemble_prob": 0.2719377123409701,
       "ensemble_odds": 3.6773126882311433,
-      "mc_win_pct": 31.08
+      "fastai_prob": null,
+      "mc_win_pct": 31.08,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "GEL",
@@ -5478,7 +5514,10 @@
       "implied_odds": 9.922955981223176,
       "ensemble_prob": 0.29324303606676455,
       "ensemble_odds": 3.410140658113782,
-      "mc_win_pct": 41.8
+      "fastai_prob": null,
+      "mc_win_pct": 41.8,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "GEL",
@@ -5491,7 +5530,10 @@
       "implied_odds": 5.688959067858935,
       "ensemble_prob": 0.25029372485828244,
       "ensemble_odds": 3.9953059173425345,
-      "mc_win_pct": 35.4
+      "fastai_prob": null,
+      "mc_win_pct": 35.4,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "GEL",
@@ -5504,7 +5546,10 @@
       "implied_odds": 5.288471551637109,
       "ensemble_prob": 0.27826714629507326,
       "ensemble_odds": 3.5936689376172506,
-      "mc_win_pct": 33.68
+      "fastai_prob": null,
+      "mc_win_pct": 33.68,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "GEL",
@@ -5517,7 +5562,10 @@
       "implied_odds": 5.163458084574633,
       "ensemble_prob": 0.24148396241039083,
       "ensemble_odds": 4.141061750098942,
-      "mc_win_pct": 29.72
+      "fastai_prob": null,
+      "mc_win_pct": 29.72,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "HOR",
@@ -5530,7 +5578,10 @@
       "implied_odds": 4.194556737924296,
       "ensemble_prob": 0.21427801342874048,
       "ensemble_odds": 4.666834380245719,
-      "mc_win_pct": 25.26
+      "fastai_prob": null,
+      "mc_win_pct": 25.26,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "HOR",
@@ -5543,7 +5594,10 @@
       "implied_odds": 6.236072777312343,
       "ensemble_prob": 0.31033932802538367,
       "ensemble_odds": 3.2222793236125287,
-      "mc_win_pct": 34.42
+      "fastai_prob": null,
+      "mc_win_pct": 34.42,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WGL",
@@ -5556,7 +5610,10 @@
       "implied_odds": 4.534767330973938,
       "ensemble_prob": 0.3796256345498044,
       "ensemble_odds": 2.634174062523184,
-      "mc_win_pct": 29.48
+      "fastai_prob": null,
+      "mc_win_pct": 29.48,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WGL",
@@ -5569,7 +5626,10 @@
       "implied_odds": 3.443244349841968,
       "ensemble_prob": 0.2657521105623659,
       "ensemble_odds": 3.7629052047183005,
-      "mc_win_pct": 21.8
+      "fastai_prob": null,
+      "mc_win_pct": 21.8,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WGL",
@@ -5582,7 +5642,10 @@
       "implied_odds": 1.9304749590710544,
       "ensemble_prob": 0.36070678329057726,
       "ensemble_odds": 2.772334888957224,
-      "mc_win_pct": 36.68
+      "fastai_prob": null,
+      "mc_win_pct": 36.68,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WGL",
@@ -5595,7 +5658,10 @@
       "implied_odds": 1.6325401450670252,
       "ensemble_prob": 0.5691232004861644,
       "ensemble_odds": 1.7570887975499259,
-      "mc_win_pct": 82.48
+      "fastai_prob": null,
+      "mc_win_pct": 82.48,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

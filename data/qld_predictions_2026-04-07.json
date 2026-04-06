@@ -5,6 +5,7 @@
   "totalRaces": 26,
   "totalDogs": 200,
   "highConfidenceCount": 9,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "QOT",
@@ -1071,7 +1072,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.371923918417502,
-          "implied_odds_norm": 2.688721941452158
+          "implied_odds_norm": 2.688721941452158,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "MILCHICK",
@@ -1225,7 +1228,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.27087488266614956,
-          "implied_odds_norm": 3.691741331485834
+          "implied_odds_norm": 3.691741331485834,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "MIDNIGHT QUEEN",
@@ -1515,7 +1520,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.22808491695747724,
-          "implied_odds_norm": 4.384331999412455
+          "implied_odds_norm": 4.384331999412455,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "LITTLE LIES",
@@ -1669,7 +1676,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.21675906780609885,
-          "implied_odds_norm": 4.613417146149322
+          "implied_odds_norm": 4.613417146149322,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "TUCKEROO ROAD",
@@ -2521,7 +2530,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.16303707258476974,
-          "implied_odds_norm": 6.1335743101009035
+          "implied_odds_norm": 6.1335743101009035,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "SHE'S SNAPPY",
@@ -2829,7 +2840,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.20492437452987583,
-          "implied_odds_norm": 4.879848979869451
+          "implied_odds_norm": 4.879848979869451,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "LEMON SLICE",
@@ -2983,7 +2996,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2628257628365129,
-          "implied_odds_norm": 3.804802045308002
+          "implied_odds_norm": 3.804802045308002,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "ZINA CORTEZ",
@@ -3581,7 +3596,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.19703475211002883,
-          "implied_odds_norm": 5.075246824689974
+          "implied_odds_norm": 5.075246824689974,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "EXOTIC RUBY",
@@ -3735,7 +3752,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2275500709081676,
-          "implied_odds_norm": 4.394637171541775
+          "implied_odds_norm": 4.394637171541775,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "MISS ROSALEA",
@@ -3879,7 +3898,10 @@
       "implied_odds": 8.035707985641004,
       "ensemble_prob": 0.22198085126601724,
       "ensemble_odds": 4.504893076572721,
-      "mc_win_pct": 25.94
+      "fastai_prob": null,
+      "mc_win_pct": 25.94,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "TOW",
@@ -3892,7 +3914,10 @@
       "implied_odds": 7.728389474196927,
       "ensemble_prob": 0.2154222435508618,
       "ensemble_odds": 4.64204616717724,
-      "mc_win_pct": 29.4
+      "fastai_prob": null,
+      "mc_win_pct": 29.4,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "QOT",
@@ -3905,7 +3930,10 @@
       "implied_odds": 5.658643276139698,
       "ensemble_prob": 0.26276492959968967,
       "ensemble_odds": 3.805682902674471,
-      "mc_win_pct": 25.06
+      "fastai_prob": null,
+      "mc_win_pct": 25.06,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "QOT",
@@ -3918,7 +3946,10 @@
       "implied_odds": 5.085074279733425,
       "ensemble_prob": 0.24325544068365929,
       "ensemble_odds": 4.110904969646482,
-      "mc_win_pct": 28.3
+      "fastai_prob": null,
+      "mc_win_pct": 28.3,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "TOW",
@@ -3931,7 +3962,10 @@
       "implied_odds": 6.053966466271866,
       "ensemble_prob": 0.26153545770190767,
       "ensemble_odds": 3.8235733264885936,
-      "mc_win_pct": 25.96
+      "fastai_prob": null,
+      "mc_win_pct": 25.96,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "QOT",
@@ -3944,7 +3978,10 @@
       "implied_odds": 4.939054628921172,
       "ensemble_prob": 0.2722109501744863,
       "ensemble_odds": 3.6736215033194046,
-      "mc_win_pct": 33.84
+      "fastai_prob": null,
+      "mc_win_pct": 33.84,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "TOW",
@@ -3957,7 +3994,10 @@
       "implied_odds": 5.53824425329922,
       "ensemble_prob": 0.2702100425449005,
       "ensemble_odds": 3.7008247013388895,
-      "mc_win_pct": 33.42
+      "fastai_prob": null,
+      "mc_win_pct": 33.42,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "TOW",
@@ -3970,7 +4010,10 @@
       "implied_odds": 4.44143701781273,
       "ensemble_prob": 0.24991462471792542,
       "ensemble_odds": 4.001366471164638,
-      "mc_win_pct": 31.74
+      "fastai_prob": null,
+      "mc_win_pct": 31.74,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "QOT",
@@ -3983,7 +4026,10 @@
       "implied_odds": 3.179102700460325,
       "ensemble_prob": 0.37211435105050106,
       "ensemble_odds": 2.687345965499423,
-      "mc_win_pct": 37.24
+      "fastai_prob": null,
+      "mc_win_pct": 37.24,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

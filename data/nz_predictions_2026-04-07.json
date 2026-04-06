@@ -5,6 +5,7 @@
   "totalRaces": 11,
   "totalDogs": 81,
   "highConfidenceCount": 4,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "WNS",
@@ -301,7 +302,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.1857256313824941,
-          "implied_odds_norm": 5.384286447466921
+          "implied_odds_norm": 5.384286447466921,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "FOREVER A FAIRY",
@@ -609,7 +612,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.3424495542339646,
-          "implied_odds_norm": 2.920138127313172
+          "implied_odds_norm": 2.920138127313172,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "ALPHA RAMBO",
@@ -1017,7 +1022,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.15258964255378882,
-          "implied_odds_norm": 6.5535247560953795
+          "implied_odds_norm": 6.5535247560953795,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "GROOT'S GALAXY",
@@ -1461,7 +1468,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.23948576897843443,
-          "implied_odds_norm": 4.175613458226194
+          "implied_odds_norm": 4.175613458226194,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "BUMPER BILL",
@@ -1587,7 +1596,10 @@
       "implied_odds": 1.9641676983457548,
       "ensemble_prob": 0.36370973254037875,
       "ensemble_odds": 2.749445259590299,
-      "mc_win_pct": 39.56
+      "fastai_prob": null,
+      "mc_win_pct": 39.56,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WNS",
@@ -1600,7 +1612,10 @@
       "implied_odds": 6.388246191768004,
       "ensemble_prob": 0.2245137855322733,
       "ensemble_odds": 4.454069480095477,
-      "mc_win_pct": 33.24
+      "fastai_prob": null,
+      "mc_win_pct": 33.24,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WNS",
@@ -1613,7 +1628,10 @@
       "implied_odds": 4.005696585653563,
       "ensemble_prob": 0.2801714613870606,
       "ensemble_odds": 3.569242902361446,
-      "mc_win_pct": 34.12
+      "fastai_prob": null,
+      "mc_win_pct": 34.12,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WNS",
@@ -1626,7 +1644,10 @@
       "implied_odds": 3.8001413698211577,
       "ensemble_prob": 0.2617553788294964,
       "ensemble_odds": 3.8203608440512133,
-      "mc_win_pct": 37.58
+      "fastai_prob": null,
+      "mc_win_pct": 37.58,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

@@ -5,6 +5,7 @@
   "totalRaces": 12,
   "totalDogs": 70,
   "highConfidenceCount": 3,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "APK",
@@ -683,7 +684,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.1939154221316397,
-          "implied_odds_norm": 5.1568874151801545
+          "implied_odds_norm": 5.1568874151801545,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "NEEDS SPACE",
@@ -991,7 +994,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.28997550114907333,
-          "implied_odds_norm": 3.4485671928743753
+          "implied_odds_norm": 3.4485671928743753,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "GRAND CHIEF",
@@ -1327,7 +1332,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.35332549714403877,
-          "implied_odds_norm": 2.8302514482625467
+          "implied_odds_norm": 2.8302514482625467,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "WEBLEC STELLA",
@@ -1399,7 +1406,10 @@
       "implied_odds": 4.080963519899912,
       "ensemble_prob": 0.2270692532789838,
       "ensemble_odds": 4.403942786438687,
-      "mc_win_pct": 27.68
+      "fastai_prob": null,
+      "mc_win_pct": 27.68,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "APK",
@@ -1412,7 +1422,10 @@
       "implied_odds": 3.184544974216102,
       "ensemble_prob": 0.36334530068944404,
       "ensemble_odds": 2.7522029268095944,
-      "mc_win_pct": 47.34
+      "fastai_prob": null,
+      "mc_win_pct": 47.34,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "APK",
@@ -1425,7 +1438,10 @@
       "implied_odds": 3.5037178846422004,
       "ensemble_prob": 0.4527152982864232,
       "ensemble_odds": 2.208893765651634,
-      "mc_win_pct": 60.18
+      "fastai_prob": null,
+      "mc_win_pct": 60.18,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

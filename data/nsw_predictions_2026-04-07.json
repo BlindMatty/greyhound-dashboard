@@ -4,7 +4,8 @@
   "stateName": "New South Wales",
   "totalRaces": 31,
   "totalDogs": 236,
-  "highConfidenceCount": 9,
+  "highConfidenceCount": 6,
+  "fourWayHighConfidenceCount": 6,
   "races": [
     {
       "track": "BUL",
@@ -137,7 +138,7 @@
           "rug": 1,
           "probability": 0.4825479646238286,
           "implied_odds": 2.072332852506284,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2861909746659454,
           "ensemble_odds": 3.4941702867018907,
@@ -1225,7 +1226,9 @@
           "fastai_prob": 0.1564506462784506,
           "fastai_rank": 1,
           "probability_norm": 0.20350408734001035,
-          "implied_odds_norm": 4.9139062171720465
+          "implied_odds_norm": 4.9139062171720465,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "DREAM LINKIN",
@@ -1687,7 +1690,9 @@
           "fastai_prob": 0.4530882707445133,
           "fastai_rank": 1,
           "probability_norm": 0.28752378904974096,
-          "implied_odds_norm": 3.4779730863486997
+          "implied_odds_norm": 3.4779730863486997,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "ZIPPING HOLLY",
@@ -1841,7 +1846,9 @@
           "fastai_prob": 0.1984880029979608,
           "fastai_rank": 1,
           "probability_norm": 0.40576847064622507,
-          "implied_odds_norm": 2.4644595929481765
+          "implied_odds_norm": 2.4644595929481765,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "INFRARED VIOLET",
@@ -1985,7 +1992,7 @@
           "rug": 8,
           "probability": 0.2996047577570879,
           "implied_odds": 3.3377307072365485,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.23679359197107894,
           "ensemble_odds": 4.22308725365396,
@@ -2149,7 +2156,9 @@
           "fastai_prob": 0.1254416719538531,
           "fastai_rank": 1,
           "probability_norm": 0.22718096903323237,
-          "implied_odds_norm": 4.401777157019339
+          "implied_odds_norm": 4.401777157019339,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "SILENT MINUTE",
@@ -2901,7 +2910,9 @@
           "fastai_prob": 0.160530966438227,
           "fastai_rank": 1,
           "probability_norm": 0.21745932207621416,
-          "implied_odds_norm": 4.5985611950428344
+          "implied_odds_norm": 4.5985611950428344,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "ELLA'S GLORY",
@@ -3871,7 +3882,9 @@
           "fastai_prob": 0.1675783441719302,
           "fastai_rank": 1,
           "probability_norm": 0.27754523878667214,
-          "implied_odds_norm": 3.6030162303328996
+          "implied_odds_norm": 3.6030162303328996,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "BARLEY CHARLIE",
@@ -4423,7 +4436,7 @@
           "rug": 4,
           "probability": 0.1485006938045621,
           "implied_odds": 6.733975272304612,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.22037482168647704,
           "ensemble_odds": 4.537723467441668,
@@ -4577,33 +4590,10 @@
       "implied_odds": 4.6098210354703255,
       "ensemble_prob": 0.20998491120615362,
       "ensemble_odds": 4.762246936010777,
-      "mc_win_pct": 27.0
-    },
-    {
-      "track": "GRA",
-      "raceNumber": 10,
-      "raceId": 1282674777,
-      "raceStartTime": "6:30PM",
-      "dog": "BIG BUCKETS",
-      "box": 4,
-      "probability": 0.1485006938045621,
-      "implied_odds": 6.733975272304612,
-      "ensemble_prob": 0.22037482168647704,
-      "ensemble_odds": 4.537723467441668,
-      "mc_win_pct": 37.22
-    },
-    {
-      "track": "GOS",
-      "raceNumber": 4,
-      "raceId": 1282612139,
-      "raceStartTime": "8:00PM",
-      "dog": "STILTON SPARKLE",
-      "box": 8,
-      "probability": 0.2996047577570879,
-      "implied_odds": 3.3377307072365485,
-      "ensemble_prob": 0.23679359197107894,
-      "ensemble_odds": 4.22308725365396,
-      "mc_win_pct": 26.8
+      "fastai_prob": 0.1564506462784506,
+      "mc_win_pct": 27.0,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "GRA",
@@ -4616,7 +4606,10 @@
       "implied_odds": 2.782534130189448,
       "ensemble_prob": 0.3070411943195341,
       "ensemble_odds": 3.2568919692232305,
-      "mc_win_pct": 47.6
+      "fastai_prob": 0.1675783441719302,
+      "mc_win_pct": 47.6,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "GOS",
@@ -4629,7 +4622,10 @@
       "implied_odds": 5.307138448928461,
       "ensemble_prob": 0.20266342950481367,
       "ensemble_odds": 4.9342893409205235,
-      "mc_win_pct": 23.0
+      "fastai_prob": 0.160530966438227,
+      "mc_win_pct": 23.0,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "GOS",
@@ -4642,20 +4638,10 @@
       "implied_odds": 4.404961035162335,
       "ensemble_prob": 0.34307068659808476,
       "ensemble_odds": 2.914851192668417,
-      "mc_win_pct": 28.86
-    },
-    {
-      "track": "BUL",
-      "raceNumber": 2,
-      "raceId": 1282642213,
-      "raceStartTime": "7:07PM",
-      "dog": "POCKET TALK",
-      "box": 1,
-      "probability": 0.4825479646238286,
-      "implied_odds": 2.072332852506284,
-      "ensemble_prob": 0.2861909746659454,
-      "ensemble_odds": 3.4941702867018907,
-      "mc_win_pct": 51.92
+      "fastai_prob": 0.4530882707445133,
+      "mc_win_pct": 28.86,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "GOS",
@@ -4668,7 +4654,10 @@
       "implied_odds": 1.8105822922582897,
       "ensemble_prob": 0.2890854912147286,
       "ensemble_odds": 3.459184325709429,
-      "mc_win_pct": 26.3
+      "fastai_prob": 0.1984880029979608,
+      "mc_win_pct": 26.3,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "GOS",
@@ -4681,7 +4670,10 @@
       "implied_odds": 3.914605200359656,
       "ensemble_prob": 0.2437408803290285,
       "ensemble_odds": 4.102717601783045,
-      "mc_win_pct": 37.86
+      "fastai_prob": 0.1254416719538531,
+      "mc_win_pct": 37.86,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     }
   ],
   "topPicks": [

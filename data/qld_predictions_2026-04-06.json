@@ -5,6 +5,7 @@
   "totalRaces": 14,
   "totalDogs": 112,
   "highConfidenceCount": 2,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "QST",
@@ -491,7 +492,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2827973996518251,
-          "implied_odds_norm": 3.536100406973973
+          "implied_odds_norm": 3.536100406973973,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "DO THE MATHS",
@@ -1877,7 +1880,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.25709472153874907,
-          "implied_odds_norm": 3.8896170019160854
+          "implied_odds_norm": 3.8896170019160854,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "NOAKI WARRIOR",
@@ -2175,7 +2180,10 @@
       "implied_odds": 4.692502268595229,
       "ensemble_prob": 0.24319843979109498,
       "ensemble_odds": 4.111868484267374,
-      "mc_win_pct": 18.38
+      "fastai_prob": null,
+      "mc_win_pct": 18.38,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "QST",
@@ -2188,7 +2196,10 @@
       "implied_odds": 6.01163486687321,
       "ensemble_prob": 0.4065768329232494,
       "ensemble_odds": 2.459559716696334,
-      "mc_win_pct": 63.08
+      "fastai_prob": null,
+      "mc_win_pct": 63.08,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

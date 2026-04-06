@@ -78,15 +78,17 @@ async function loadDate(dateStr) {
 function renderSummary(data) {
   const statesWithData = data.states.filter(s => s.hasData).length;
   const totalRaces = data.states.reduce((n, s) => n + Math.ceil((s.totalPredictions || 0) / 7), 0);
+  const total4Way = data.states.reduce((n, s) => n + (s.fourWayHighConfidenceCount || 0), 0);
   document.getElementById('statDate').textContent = formatDate(data.date);
   document.getElementById('statStates').textContent = statesWithData;
   document.getElementById('statRaces').textContent = totalRaces;
   document.getElementById('statDogs').textContent = data.totalPredictions || 0;
   document.getElementById('statHC').textContent = data.totalHighConfidence || 0;
+  document.getElementById('stat4Way').textContent = total4Way;
   show('summaryBar');
 }
 
-// ── High confidence picks (consensus: ML + ENS + MC agree) ──
+// ── High confidence picks (3-way normally, 4-way for NSW with FastAI) ──
 async function loadHighConfidencePicks(states) {
   const allHC = [];
   const fetches = states.filter(s => s.hasData).map(async (s) => {
@@ -125,10 +127,16 @@ function parseTime(s) {
 function renderHighConfidence(picks) {
   const el = document.getElementById('hcPicks');
   if (!picks.length) { hide('hcSection'); return; }
+  const fourWayCount = picks.filter(p => p.isFourWayAligned).length;
+  const subtitle = document.getElementById('hcSubtitle');
+  if (subtitle) {
+    subtitle.textContent = `(3-way for regular states, 4-way for NSW with FastAI • ${fourWayCount} NSW 4-way picks)`;
+  }
 
   el.innerHTML = picks.map(p => {
     const ensOdds = p.ensemble_odds || p.implied_odds || 0;
     const ensProb = p.ensemble_prob || p.probability || 0;
+    const fastaiProb = p.fastai_prob || 0;
     const mcPct = p.mc_win_pct != null ? p.mc_win_pct : '';
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
@@ -136,7 +144,7 @@ function renderHighConfidence(picks) {
     
     <div class="hc-card" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)}</span>
+        <span class="hc-dog">${esc(p.dog)}${p.isFourWayAligned ? ' <span class="badge badge-4way">4WAY</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           · ${esc(p.stateName)}
@@ -144,6 +152,7 @@ function renderHighConfidence(picks) {
         <span class="hc-meta">
           ML ${(p.probability * 100).toFixed(1)}%
           · ENS ${(ensProb * 100).toFixed(1)}%
+          ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
           ${mcPct !== '' ? '· MC ' + (typeof mcPct === 'number' ? mcPct.toFixed(1) : mcPct) + '%' : ''}
         </span>
       </div>
@@ -332,6 +341,7 @@ function dogRow(d, isTop, topNames) {
   if (topNames.ml && d.dog === topNames.ml) badges.push('<span class="badge badge-ml">ML</span>');
   if (topNames.fastai && d.dog === topNames.fastai) badges.push('<span class="badge badge-fastai">FAI</span>');
   if (topNames.mc && d.dog === topNames.mc) badges.push('<span class="badge badge-mc">MC</span>');
+  if (badges.length === 4) badges.unshift('<span class="badge badge-4way">4WAY</span>');
   const badgeHtml = badges.length ? ' ' + badges.join('') : '';
 
   return `

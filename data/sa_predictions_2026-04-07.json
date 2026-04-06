@@ -5,6 +5,7 @@
   "totalRaces": 12,
   "totalDogs": 72,
   "highConfidenceCount": 5,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "APK",
@@ -501,7 +502,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.38133531892958317,
-          "implied_odds_norm": 2.6223639677725696
+          "implied_odds_norm": 2.6223639677725696,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "SEBON DIVA",
@@ -619,7 +622,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2381513302017642,
-          "implied_odds_norm": 4.199010768290859
+          "implied_odds_norm": 4.199010768290859,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "KOTA LAMBAI",
@@ -855,7 +860,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2163000157763941,
-          "implied_odds_norm": 4.623208169498132
+          "implied_odds_norm": 4.623208169498132,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "ASTON BIDEN",
@@ -973,7 +980,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.35432643950755305,
-          "implied_odds_norm": 2.82225622617892
+          "implied_odds_norm": 2.82225622617892,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "GRAPEFRUIT WILMA",
@@ -1091,7 +1100,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2842493534420901,
-          "implied_odds_norm": 3.5180379054185926
+          "implied_odds_norm": 3.5180379054185926,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "SEBON KNIGHT",
@@ -1435,7 +1446,10 @@
       "implied_odds": 3.7270873883166407,
       "ensemble_prob": 0.3054758637045318,
       "ensemble_odds": 3.2735810544012054,
-      "mc_win_pct": 23.22
+      "fastai_prob": null,
+      "mc_win_pct": 23.22,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "APK",
@@ -1448,7 +1462,10 @@
       "implied_odds": 5.687424731841238,
       "ensemble_prob": 0.24194000946583638,
       "ensemble_odds": 4.1332560175054756,
-      "mc_win_pct": 28.04
+      "fastai_prob": null,
+      "mc_win_pct": 28.04,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "APK",
@@ -1461,7 +1478,10 @@
       "implied_odds": 3.5054545411159665,
       "ensemble_prob": 0.35752119135774996,
       "ensemble_odds": 2.797036998568737,
-      "mc_win_pct": 32.18
+      "fastai_prob": null,
+      "mc_win_pct": 32.18,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "APK",
@@ -1474,7 +1494,10 @@
       "implied_odds": 6.834607490083037,
       "ensemble_prob": 0.4216107981210585,
       "ensemble_odds": 2.3718557599961345,
-      "mc_win_pct": 69.68
+      "fastai_prob": null,
+      "mc_win_pct": 69.68,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "APK",
@@ -1487,7 +1510,10 @@
       "implied_odds": 4.795251314388545,
       "ensemble_prob": 0.318309612065254,
       "ensemble_odds": 3.141595359033639,
-      "mc_win_pct": 36.94
+      "fastai_prob": null,
+      "mc_win_pct": 36.94,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

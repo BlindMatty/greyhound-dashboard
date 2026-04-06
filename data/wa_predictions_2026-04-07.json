@@ -5,6 +5,7 @@
   "totalRaces": 13,
   "totalDogs": 101,
   "highConfidenceCount": 3,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "MAN",
@@ -183,7 +184,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.4675683690419176,
-          "implied_odds_norm": 2.1387246576347207
+          "implied_odds_norm": 2.1387246576347207,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "TERRA FIRMA",
@@ -319,7 +322,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.3716084879497768,
-          "implied_odds_norm": 2.6910041950795023
+          "implied_odds_norm": 2.6910041950795023,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "GLOBAL DREAM",
@@ -781,7 +786,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.3140658003733298,
-          "implied_odds_norm": 3.1840461419591075
+          "implied_odds_norm": 3.1840461419591075,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "FELON DAVE",
@@ -1967,7 +1974,10 @@
       "implied_odds": 4.319304281422664,
       "ensemble_prob": 0.2438794802239978,
       "ensemble_odds": 4.100385973766725,
-      "mc_win_pct": 13.86
+      "fastai_prob": null,
+      "mc_win_pct": 13.86,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "MAN",
@@ -1980,7 +1990,10 @@
       "implied_odds": 3.957950543689561,
       "ensemble_prob": 0.2780850927698659,
       "ensemble_odds": 3.5960215991425586,
-      "mc_win_pct": 13.78
+      "fastai_prob": null,
+      "mc_win_pct": 13.78,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "MAN",
@@ -1993,7 +2006,10 @@
       "implied_odds": 5.759991737587232,
       "ensemble_prob": 0.34398102142515025,
       "ensemble_odds": 2.9071371317431782,
-      "mc_win_pct": 15.86
+      "fastai_prob": null,
+      "mc_win_pct": 15.86,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

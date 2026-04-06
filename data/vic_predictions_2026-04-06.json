@@ -5,6 +5,7 @@
   "totalRaces": 50,
   "totalDogs": 360,
   "highConfidenceCount": 13,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "BAL",
@@ -1089,7 +1090,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.1921974057253759,
-          "implied_odds_norm": 5.202983860400617
+          "implied_odds_norm": 5.202983860400617,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "PAW OLYSLAGERS",
@@ -2267,7 +2270,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.3110778935995958,
-          "implied_odds_norm": 3.2146289420589653
+          "implied_odds_norm": 3.2146289420589653,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "WOOFER BARKER",
@@ -2657,7 +2662,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.48016907962553806,
-          "implied_odds_norm": 2.0825997391998965
+          "implied_odds_norm": 2.0825997391998965,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "TIGER ROCKS",
@@ -2757,7 +2764,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2430482935357906,
-          "implied_odds_norm": 4.1144086446866694
+          "implied_odds_norm": 4.1144086446866694,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "OUTSIDES",
@@ -3247,7 +3256,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.33797865635529395,
-          "implied_odds_norm": 2.958766718537303
+          "implied_odds_norm": 2.958766718537303,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "HIGH CONTRAST",
@@ -4117,7 +4128,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.24628951334038554,
-          "implied_odds_norm": 4.060262194833872
+          "implied_odds_norm": 4.060262194833872,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "BONNIE BLITZ",
@@ -4579,7 +4592,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.250650542613405,
-          "implied_odds_norm": 3.9896183330525097
+          "implied_odds_norm": 3.9896183330525097,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "PAW OLTRON",
@@ -4887,7 +4902,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2883466849698488,
-          "implied_odds_norm": 3.4680475001977773
+          "implied_odds_norm": 3.4680475001977773,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "CROYDON",
@@ -5177,7 +5194,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.24814873014197125,
-          "implied_odds_norm": 4.029841294887459
+          "implied_odds_norm": 4.029841294887459,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "MADE UP STORIES",
@@ -5331,7 +5350,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.21500738377311365,
-          "implied_odds_norm": 4.651003060691391
+          "implied_odds_norm": 4.651003060691391,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "ASTON FUMIKO",
@@ -5893,7 +5914,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.3765457645193823,
-          "implied_odds_norm": 2.655719687290563
+          "implied_odds_norm": 2.655719687290563,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "BLACK HAWK",
@@ -6519,7 +6542,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.23474448702304163,
-          "implied_odds_norm": 4.259950947865471
+          "implied_odds_norm": 4.259950947865471,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "DIMORA STRIPEY",
@@ -6637,7 +6662,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.3411720586362665,
-          "implied_odds_norm": 2.9310723861655075
+          "implied_odds_norm": 2.9310723861655075,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "SEATS TWO",
@@ -6999,7 +7026,10 @@
       "implied_odds": 7.0903290032518855,
       "ensemble_prob": 0.27107844343522547,
       "ensemble_odds": 3.6889690944346567,
-      "mc_win_pct": 38.94
+      "fastai_prob": null,
+      "mc_win_pct": 38.94,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SAP",
@@ -7012,7 +7042,10 @@
       "implied_odds": 3.82109747429345,
       "ensemble_prob": 0.44264673615975747,
       "ensemble_odds": 2.259137859403725,
-      "mc_win_pct": 64.0
+      "fastai_prob": null,
+      "mc_win_pct": 64.0,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SAP",
@@ -7025,7 +7058,10 @@
       "implied_odds": 2.466406309813431,
       "ensemble_prob": 0.6237814477753229,
       "ensemble_odds": 1.6031255876019348,
-      "mc_win_pct": 83.92
+      "fastai_prob": null,
+      "mc_win_pct": 83.92,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SAP",
@@ -7038,7 +7074,10 @@
       "implied_odds": 4.430835561562239,
       "ensemble_prob": 0.4150289761214744,
       "ensemble_odds": 2.409470320229668,
-      "mc_win_pct": 67.3
+      "fastai_prob": null,
+      "mc_win_pct": 67.3,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SAP",
@@ -7051,7 +7090,10 @@
       "implied_odds": 5.190504542436759,
       "ensemble_prob": 0.3079071938131763,
       "ensemble_odds": 3.2477318493791127,
-      "mc_win_pct": 26.28
+      "fastai_prob": null,
+      "mc_win_pct": 26.28,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SHP",
@@ -7064,7 +7106,10 @@
       "implied_odds": 2.469190213280516,
       "ensemble_prob": 0.3782537080042313,
       "ensemble_odds": 2.643728214261983,
-      "mc_win_pct": 57.62
+      "fastai_prob": null,
+      "mc_win_pct": 57.62,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SHP",
@@ -7077,7 +7122,10 @@
       "implied_odds": 2.8249786341198577,
       "ensemble_prob": 0.21967032556804295,
       "ensemble_odds": 4.552276223081618,
-      "mc_win_pct": 17.32
+      "fastai_prob": null,
+      "mc_win_pct": 17.32,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SHP",
@@ -7090,7 +7138,10 @@
       "implied_odds": 1.9847091744536696,
       "ensemble_prob": 0.3470880109819093,
       "ensemble_odds": 2.8811136321620783,
-      "mc_win_pct": 43.52
+      "fastai_prob": null,
+      "mc_win_pct": 43.52,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SHP",
@@ -7103,7 +7154,10 @@
       "implied_odds": 3.155447851954569,
       "ensemble_prob": 0.21336923808518268,
       "ensemble_odds": 4.6867112099860115,
-      "mc_win_pct": 16.12
+      "fastai_prob": null,
+      "mc_win_pct": 16.12,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "SHP",
@@ -7116,7 +7170,10 @@
       "implied_odds": 3.291710444920494,
       "ensemble_prob": 0.22356443026386816,
       "ensemble_odds": 4.472983465302249,
-      "mc_win_pct": 23.64
+      "fastai_prob": null,
+      "mc_win_pct": 23.64,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WBL",
@@ -7129,7 +7186,10 @@
       "implied_odds": 2.7984312194082954,
       "ensemble_prob": 0.3748874587116293,
       "ensemble_odds": 2.667467200521155,
-      "mc_win_pct": 37.24
+      "fastai_prob": null,
+      "mc_win_pct": 37.24,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WBL",
@@ -7142,7 +7202,10 @@
       "implied_odds": 7.128728202112238,
       "ensemble_prob": 0.348206692213825,
       "ensemble_odds": 2.8718574983215,
-      "mc_win_pct": 51.84
+      "fastai_prob": null,
+      "mc_win_pct": 51.84,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "WBL",
@@ -7155,7 +7218,10 @@
       "implied_odds": 5.852987974147401,
       "ensemble_prob": 0.38102323518175985,
       "ensemble_odds": 2.624511860865832,
-      "mc_win_pct": 44.08
+      "fastai_prob": null,
+      "mc_win_pct": 44.08,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [

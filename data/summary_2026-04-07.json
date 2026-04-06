@@ -1,13 +1,14 @@
 {
   "date": "2026-04-07",
   "totalPredictions": 1049,
-  "totalHighConfidence": 47,
+  "totalHighConfidence": 44,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
       "totalPredictions": 280,
       "highConfidenceCount": 13,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "WGL",
@@ -81,7 +82,8 @@
       "code": "nsw",
       "name": "New South Wales",
       "totalPredictions": 236,
-      "highConfidenceCount": 9,
+      "highConfidenceCount": 6,
+      "fourWayHighConfidenceCount": 6,
       "topPicks": [
         {
           "track": "GOS",
@@ -162,6 +164,7 @@
       "name": "Queensland",
       "totalPredictions": 200,
       "highConfidenceCount": 9,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "QOT",
@@ -236,6 +239,7 @@
       "name": "Western Australia",
       "totalPredictions": 101,
       "highConfidenceCount": 3,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "MAN",
@@ -310,6 +314,7 @@
       "name": "South Australia",
       "totalPredictions": 72,
       "highConfidenceCount": 5,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "APK",
@@ -384,6 +389,7 @@
       "name": "Tasmania",
       "totalPredictions": 79,
       "highConfidenceCount": 4,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "DLC",
@@ -458,6 +464,7 @@
       "name": "New Zealand",
       "totalPredictions": 81,
       "highConfidenceCount": 4,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "WNS",
@@ -532,6 +539,7 @@
       "name": "Northern Territory",
       "totalPredictions": 0,
       "highConfidenceCount": 0,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [],
       "hasData": false,
       "earliestRaceTime": null,

@@ -4,7 +4,8 @@
   "stateName": "New South Wales",
   "totalRaces": 31,
   "totalDogs": 237,
-  "highConfidenceCount": 14,
+  "highConfidenceCount": 6,
+  "fourWayHighConfidenceCount": 6,
   "races": [
     {
       "track": "MAT",
@@ -155,7 +156,7 @@
           "rug": 1,
           "probability": 0.3064148629946758,
           "implied_odds": 3.263549262025764,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.23493578717552202,
           "ensemble_odds": 4.256482215937981,
@@ -1479,7 +1480,9 @@
           "fastai_prob": 0.326047727791261,
           "fastai_rank": 1,
           "probability_norm": 0.2158788656523467,
-          "implied_odds_norm": 4.6322274159546915
+          "implied_odds_norm": 4.6322274159546915,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "MIDNIGHT SMOKE",
@@ -1633,7 +1636,9 @@
           "fastai_prob": 0.1716301971404067,
           "fastai_rank": 1,
           "probability_norm": 0.18202399429792487,
-          "implied_odds_norm": 5.493781211960803
+          "implied_odds_norm": 5.493781211960803,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "ZIPPING RUPERT",
@@ -1777,7 +1782,7 @@
           "rug": 6,
           "probability": 0.4201292602857777,
           "implied_odds": 2.380219838341624,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.31020590301344314,
           "ensemble_odds": 3.2236652825934904,
@@ -2403,7 +2408,9 @@
           "fastai_prob": 0.1729597125738476,
           "fastai_rank": 1,
           "probability_norm": 0.2906810922637755,
-          "implied_odds_norm": 3.4401962377813025
+          "implied_odds_norm": 3.4401962377813025,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "WESTBURN HARADA",
@@ -2711,7 +2718,9 @@
           "fastai_prob": 0.2654866548829649,
           "fastai_rank": 1,
           "probability_norm": 0.2649348901028746,
-          "implied_odds_norm": 3.7745122947441865
+          "implied_odds_norm": 3.7745122947441865,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "HOT SPARK",
@@ -3009,7 +3018,7 @@
           "rug": 8,
           "probability": 0.4105566103753414,
           "implied_odds": 2.435717693318284,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.34779050401948314,
           "ensemble_odds": 2.8752941453053023,
@@ -3173,7 +3182,9 @@
           "fastai_prob": 0.2823424139536258,
           "fastai_rank": 1,
           "probability_norm": 0.22606282271410494,
-          "implied_odds_norm": 4.423549117869199
+          "implied_odds_norm": 4.423549117869199,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "MADDALENA",
@@ -3399,7 +3410,7 @@
           "rug": 2,
           "probability": 0.0973311709151298,
           "implied_odds": 10.274200860811307,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.27727765887693767,
           "ensemble_odds": 3.6064932315510623,
@@ -3517,7 +3528,7 @@
           "rug": 1,
           "probability": 0.1699545902378564,
           "implied_odds": 5.883924633047396,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2715522653050449,
           "ensemble_odds": 3.6825323437337647,
@@ -3825,7 +3836,7 @@
           "rug": 5,
           "probability": 0.1259944018240558,
           "implied_odds": 7.936860570967625,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.3149203255168748,
           "ensemble_odds": 3.1754063455850696,
@@ -3979,7 +3990,7 @@
           "rug": 1,
           "probability": 0.2429539502147814,
           "implied_odds": 4.116006342419864,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.21736767815940372,
           "ensemble_odds": 4.600499984485564,
@@ -4133,7 +4144,7 @@
           "rug": 1,
           "probability": 0.35551638601891,
           "implied_odds": 2.812809871291867,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.3159431097020042,
           "ensemble_odds": 3.1651267879941885,
@@ -4297,7 +4308,9 @@
           "fastai_prob": 0.3472582076088421,
           "fastai_rank": 1,
           "probability_norm": 0.3206527591214075,
-          "implied_odds_norm": 3.118638376105081
+          "implied_odds_norm": 3.118638376105081,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "KARLI MULWEE",
@@ -4585,32 +4598,6 @@
   ],
   "highConfidencePicks": [
     {
-      "track": "MAT",
-      "raceNumber": 2,
-      "raceId": 1282612105,
-      "raceStartTime": "6:36PM",
-      "dog": "STEREOPHONIC",
-      "box": 1,
-      "probability": 0.3064148629946758,
-      "implied_odds": 3.263549262025764,
-      "ensemble_prob": 0.23493578717552202,
-      "ensemble_odds": 4.256482215937981,
-      "mc_win_pct": 34.26
-    },
-    {
-      "track": "TAR",
-      "raceNumber": 8,
-      "raceId": 1282247904,
-      "raceStartTime": "5:08PM",
-      "dog": "AMAZING BUNDY",
-      "box": 1,
-      "probability": 0.35551638601891,
-      "implied_odds": 2.812809871291867,
-      "ensemble_prob": 0.3159431097020042,
-      "ensemble_odds": 3.1651267879941885,
-      "mc_win_pct": 51.88
-    },
-    {
       "track": "NOW",
       "raceNumber": 8,
       "raceId": 1282247923,
@@ -4621,46 +4608,10 @@
       "implied_odds": 2.9057870784045434,
       "ensemble_prob": 0.24401360161254101,
       "ensemble_odds": 4.098132208170338,
-      "mc_win_pct": 26.84
-    },
-    {
-      "track": "NOW",
-      "raceNumber": 12,
-      "raceId": 1282247928,
-      "raceStartTime": "9:57PM",
-      "dog": "EIDETIC MEMORY",
-      "box": 8,
-      "probability": 0.4105566103753414,
-      "implied_odds": 2.435717693318284,
-      "ensemble_prob": 0.34779050401948314,
-      "ensemble_odds": 2.8752941453053023,
-      "mc_win_pct": 63.44
-    },
-    {
-      "track": "NOW",
-      "raceNumber": 4,
-      "raceId": 1282247916,
-      "raceStartTime": "7:08PM",
-      "dog": "WHERE'S FERNANDO",
-      "box": 6,
-      "probability": 0.4201292602857777,
-      "implied_odds": 2.380219838341624,
-      "ensemble_prob": 0.31020590301344314,
-      "ensemble_odds": 3.2236652825934904,
-      "mc_win_pct": 55.52
-    },
-    {
-      "track": "TAR",
-      "raceNumber": 3,
-      "raceId": 1282247899,
-      "raceStartTime": "3:27PM",
-      "dog": "RADIANT MISS",
-      "box": 2,
-      "probability": 0.0973311709151298,
-      "implied_odds": 10.274200860811307,
-      "ensemble_prob": 0.27727765887693767,
-      "ensemble_odds": 3.6064932315510623,
-      "mc_win_pct": 44.6
+      "fastai_prob": 0.1729597125738476,
+      "mc_win_pct": 26.84,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "TAR",
@@ -4673,7 +4624,10 @@
       "implied_odds": 7.05271946514971,
       "ensemble_prob": 0.2637350788892435,
       "ensemble_odds": 3.7916837009761357,
-      "mc_win_pct": 28.28
+      "fastai_prob": 0.2823424139536258,
+      "mc_win_pct": 28.28,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "NOW",
@@ -4686,33 +4640,10 @@
       "implied_odds": 6.123012006209839,
       "ensemble_prob": 0.1918180638127772,
       "ensemble_odds": 5.2132733493548535,
-      "mc_win_pct": 22.18
-    },
-    {
-      "track": "TAR",
-      "raceNumber": 7,
-      "raceId": 1282247903,
-      "raceStartTime": "4:50PM",
-      "dog": "EVEN ME",
-      "box": 1,
-      "probability": 0.2429539502147814,
-      "implied_odds": 4.116006342419864,
-      "ensemble_prob": 0.21736767815940372,
-      "ensemble_odds": 4.600499984485564,
-      "mc_win_pct": 20.64
-    },
-    {
-      "track": "TAR",
-      "raceNumber": 6,
-      "raceId": 1282247902,
-      "raceStartTime": "4:28PM",
-      "dog": "STITCHED UP LUCY",
-      "box": 5,
-      "probability": 0.1259944018240558,
-      "implied_odds": 7.936860570967625,
-      "ensemble_prob": 0.3149203255168748,
-      "ensemble_odds": 3.1754063455850696,
-      "mc_win_pct": 54.7
+      "fastai_prob": 0.1716301971404067,
+      "mc_win_pct": 22.18,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "NOW",
@@ -4725,7 +4656,10 @@
       "implied_odds": 3.55106526076512,
       "ensemble_prob": 0.3298071816619465,
       "ensemble_odds": 3.0320746654480177,
-      "mc_win_pct": 45.9
+      "fastai_prob": 0.2654866548829649,
+      "mc_win_pct": 45.9,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "NOW",
@@ -4738,7 +4672,10 @@
       "implied_odds": 4.354234992461365,
       "ensemble_prob": 0.2651088644812025,
       "ensemble_odds": 3.772035318233973,
-      "mc_win_pct": 25.34
+      "fastai_prob": 0.326047727791261,
+      "mc_win_pct": 25.34,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "TAR",
@@ -4751,20 +4688,10 @@
       "implied_odds": 2.1687181020324706,
       "ensemble_prob": 0.34530365557674986,
       "ensemble_odds": 2.8960017765515147,
-      "mc_win_pct": 36.8
-    },
-    {
-      "track": "TAR",
-      "raceNumber": 4,
-      "raceId": 1282247900,
-      "raceStartTime": "3:48PM",
-      "dog": "RAIN ABOUT",
-      "box": 1,
-      "probability": 0.1699545902378564,
-      "implied_odds": 5.883924633047396,
-      "ensemble_prob": 0.2715522653050449,
-      "ensemble_odds": 3.6825323437337647,
-      "mc_win_pct": 25.5
+      "fastai_prob": 0.3472582076088421,
+      "mc_win_pct": 36.8,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     }
   ],
   "topPicks": [

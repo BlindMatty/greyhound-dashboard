@@ -5,6 +5,7 @@
   "totalRaces": 11,
   "totalDogs": 83,
   "highConfidenceCount": 5,
+  "fourWayHighConfidenceCount": 0,
   "races": [
     {
       "track": "LCN",
@@ -301,7 +302,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.17598930260818554,
-          "implied_odds_norm": 5.68216354732852
+          "implied_odds_norm": 5.68216354732852,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "WORPEL",
@@ -591,7 +594,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.2121506889409079,
-          "implied_odds_norm": 4.713630698029636
+          "implied_odds_norm": 4.713630698029636,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "YES EILEEN",
@@ -899,7 +904,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.18309431289376507,
-          "implied_odds_norm": 5.461666089979647
+          "implied_odds_norm": 5.461666089979647,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "CANYA LEXI",
@@ -1207,7 +1214,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.20872526926201815,
-          "implied_odds_norm": 4.790986752757159
+          "implied_odds_norm": 4.790986752757159,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "DEADLY GRIN",
@@ -1479,7 +1488,9 @@
           "fastai_prob": null,
           "fastai_rank": null,
           "probability_norm": 0.12996226898124083,
-          "implied_odds_norm": 7.694540945144188
+          "implied_odds_norm": 7.694540945144188,
+          "alignmentModels": 3,
+          "isFourWayAligned": false
         },
         {
           "dog": "HAT TRICK HANNAH",
@@ -1623,7 +1634,10 @@
       "implied_odds": 6.188968499031115,
       "ensemble_prob": 0.4126504133645448,
       "ensemble_odds": 2.4233587744320935,
-      "mc_win_pct": 71.34
+      "fastai_prob": null,
+      "mc_win_pct": 71.34,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "LCN",
@@ -1636,7 +1650,10 @@
       "implied_odds": 13.778434887721229,
       "ensemble_prob": 0.1866973613887444,
       "ensemble_odds": 5.356262094769423,
-      "mc_win_pct": 27.18
+      "fastai_prob": null,
+      "mc_win_pct": 27.18,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "LCN",
@@ -1649,7 +1666,10 @@
       "implied_odds": 7.067759641421952,
       "ensemble_prob": 0.233696587736259,
       "ensemble_odds": 4.279052636954039,
-      "mc_win_pct": 30.96
+      "fastai_prob": null,
+      "mc_win_pct": 30.96,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "LCN",
@@ -1662,7 +1682,10 @@
       "implied_odds": 10.343571142822276,
       "ensemble_prob": 0.2196735815649113,
       "ensemble_odds": 4.552208749346176,
-      "mc_win_pct": 28.52
+      "fastai_prob": null,
+      "mc_win_pct": 28.52,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     },
     {
       "track": "LCN",
@@ -1675,7 +1698,10 @@
       "implied_odds": 10.191091547461037,
       "ensemble_prob": 0.2515551615572108,
       "ensemble_odds": 3.9752712439278315,
-      "mc_win_pct": 31.58
+      "fastai_prob": null,
+      "mc_win_pct": 31.58,
+      "alignmentModels": 3,
+      "isFourWayAligned": false
     }
   ],
   "topPicks": [
