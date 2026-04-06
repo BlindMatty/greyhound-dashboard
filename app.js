@@ -88,7 +88,7 @@ function renderSummary(data) {
   show('summaryBar');
 }
 
-// ── High confidence picks (3-way normally, 4-way for NSW with FastAI) ──
+// ── High confidence picks (3-way normally, 4-way when FastAI is present) ──
 async function loadHighConfidencePicks(states) {
   const allHC = [];
   const fetches = states.filter(s => s.hasData).map(async (s) => {
@@ -130,7 +130,7 @@ function renderHighConfidence(picks) {
   const fourWayCount = picks.filter(p => p.isFourWayAligned).length;
   const subtitle = document.getElementById('hcSubtitle');
   if (subtitle) {
-    subtitle.textContent = `(3-way for regular states, 4-way for NSW with FastAI • ${fourWayCount} NSW 4-way picks)`;
+    subtitle.textContent = `(3-way normally, 4-way when FastAI is present • ${fourWayCount} 4-way picks)`;
   }
 
   el.innerHTML = picks.map(p => {
