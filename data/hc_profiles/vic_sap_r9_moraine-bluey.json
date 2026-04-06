@@ -112,12 +112,8 @@
       "dist_diff_from_last": -485
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 22.3,
-      "avg_temp_c": 18.5,
-      "total_precip_mm": 1.5,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-37.95&longitude=145.17&hourly=temperature_2m,precipitation,wind_speed_10m,wind_direction_10m&timezone=Australia%2FSydney&start_date=2026-04-06&end_date=2026-04-06 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))"
     },
     "30_Non_Chaser": {
       "win_rate": 0.23529411764705882,
