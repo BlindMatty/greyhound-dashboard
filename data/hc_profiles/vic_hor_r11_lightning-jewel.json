@@ -15,7 +15,7 @@
     "03_Speed_Map": {
       "own_box": 2,
       "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 415.9836065573771,
@@ -31,7 +31,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 4
     },
     "08_Form_Trajectory": {
       "total_starts": 61,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 768550
+      "races_with_same_dogs": 768956
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 23.0,
-      "avg_temp_c": 16.0,
+      "max_wind_kmh": 21.3,
+      "avg_temp_c": 16.1,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ELUSIVE JEWEL",
-      "total_offspring_runs_in_state": 99389,
-      "sire_win_rate": 0.13223797402126997
+      "total_offspring_runs_in_state": 99424,
+      "sire_win_rate": 0.13225177019633086
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -195,6 +195,7 @@
         "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
