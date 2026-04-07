@@ -585,6 +585,36 @@
       "value_pot": 0.0
     }
   ],
+  "modelPerformance": {
+    "resultsDate": "2026-04-07",
+    "settledRaces": 5,
+    "models": {
+      "ens": {
+        "wins": 0,
+        "settled": 5,
+        "strikeRate": 0.0,
+        "label": "ENS"
+      },
+      "ml": {
+        "wins": 0,
+        "settled": 5,
+        "strikeRate": 0.0,
+        "label": "ML"
+      },
+      "mc": {
+        "wins": 0,
+        "settled": 5,
+        "strikeRate": 0.0,
+        "label": "MC"
+      },
+      "fastai": {
+        "wins": 2,
+        "settled": 5,
+        "strikeRate": 40.0,
+        "label": "FAI"
+      }
+    }
+  },
   "cumulative": {
     "bets": 1794,
     "wins": 571,
