@@ -1,7 +1,7 @@
 {
   "date": "2026-04-08",
   "totalPredictions": 1239,
-  "totalHighConfidence": 22,
+  "totalHighConfidence": 19,
   "states": [
     {
       "code": "vic",
@@ -250,7 +250,7 @@
       "code": "wa",
       "name": "Western Australia",
       "totalPredictions": 91,
-      "highConfidenceCount": 3,
+      "highConfidenceCount": 0,
       "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
@@ -264,11 +264,13 @@
           "probability": 0.4954921238094468,
           "implied_odds": 2.0181955513476004,
           "grade": "Mixed 6/5",
-          "ensemble_prob": 0.42029639047169387,
-          "ensemble_odds": 2.379273347738512,
+          "ensemble_prob": 0.3367491930869602,
+          "ensemble_odds": 2.969569105223559,
           "ensemble_rank": 1,
-          "mc_win_pct": 40.28,
+          "mc_win_pct": 41.52,
           "mc_method": "blended",
+          "fastai_prob": 0.1630869284747243,
+          "fastai_rank": 3,
           "tier": "green"
         },
         {
@@ -282,11 +284,13 @@
           "probability": 0.4083210206710373,
           "implied_odds": 2.4490534392684307,
           "grade": "Maiden Heat",
-          "ensemble_prob": 0.2800153579276554,
-          "ensemble_odds": 3.5712326902382237,
+          "ensemble_prob": 0.20286723053210054,
+          "ensemble_odds": 4.929332339072701,
           "ensemble_rank": 1,
-          "mc_win_pct": 21.74,
+          "mc_win_pct": 21.26,
           "mc_method": "blended",
+          "fastai_prob": 0.0742427617168758,
+          "fastai_rank": 7,
           "tier": "green"
         },
         {
@@ -300,11 +304,13 @@
           "probability": 0.4012071426876158,
           "implied_odds": 2.4924780583445663,
           "grade": "Novice Grade 5",
-          "ensemble_prob": 0.3258416437529575,
-          "ensemble_odds": 3.0689754338403947,
+          "ensemble_prob": 0.2444761876486968,
+          "ensemble_odds": 4.090377920310844,
           "ensemble_rank": 1,
-          "mc_win_pct": 29.48,
+          "mc_win_pct": 27.82,
           "mc_method": "blended",
+          "fastai_prob": 0.1086924900244946,
+          "fastai_rank": 4,
           "tier": "green"
         }
       ],

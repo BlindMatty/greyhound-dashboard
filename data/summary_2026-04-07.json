@@ -1,7 +1,7 @@
 {
   "date": "2026-04-07",
   "totalPredictions": 1047,
-  "totalHighConfidence": 22,
+  "totalHighConfidence": 20,
   "states": [
     {
       "code": "vic",
@@ -250,7 +250,7 @@
       "code": "wa",
       "name": "Western Australia",
       "totalPredictions": 101,
-      "highConfidenceCount": 2,
+      "highConfidenceCount": 0,
       "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
@@ -264,29 +264,33 @@
           "probability": 0.2699476379230784,
           "implied_odds": 3.7044221156880432,
           "grade": "Grade 6",
-          "ensemble_prob": 0.25723041509288574,
-          "ensemble_odds": 3.8875651607485864,
+          "ensemble_prob": 0.17483019564864952,
+          "ensemble_odds": 5.7198357314068735,
           "ensemble_rank": 1,
-          "mc_win_pct": 13.14,
+          "mc_win_pct": 12.32,
           "mc_method": "grade_baseline",
+          "fastai_prob": 0.0601732284578056,
+          "fastai_rank": 9,
           "tier": "other"
         },
         {
           "track": "MAN",
           "raceNumber": 3,
           "raceId": 1282193807,
-          "raceStartTime": "8:53PM",
+          "raceStartTime": "8:54PM",
           "dog": "CANYA CAVIAR",
           "box": 1,
           "rug": 1,
           "probability": 0.2651323241378959,
           "implied_odds": 3.771701557897927,
           "grade": "Maiden Heat",
-          "ensemble_prob": 0.25875323100010383,
-          "ensemble_odds": 3.8646860413487887,
+          "ensemble_prob": 0.18318195966725162,
+          "ensemble_odds": 5.459052855513125,
           "ensemble_rank": 1,
-          "mc_win_pct": 12.76,
+          "mc_win_pct": 13.46,
           "mc_method": "grade_baseline",
+          "fastai_prob": 0.0687571606682485,
+          "fastai_rank": 9,
           "tier": "other"
         },
         {
@@ -300,11 +304,13 @@
           "probability": 0.2579619516443137,
           "implied_odds": 3.876540682165533,
           "grade": "Novice Grade 5",
-          "ensemble_prob": 0.16774371209111918,
-          "ensemble_odds": 5.961475321690719,
-          "ensemble_rank": 1,
-          "mc_win_pct": 12.46,
+          "ensemble_prob": 0.1349522733034057,
+          "ensemble_odds": 7.41002708232825,
+          "ensemble_rank": 2,
+          "mc_win_pct": 12.5,
           "mc_method": "grade_baseline",
+          "fastai_prob": 0.0833506330916851,
+          "fastai_rank": 7,
           "tier": "other"
         }
       ],
