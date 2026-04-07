@@ -109,12 +109,8 @@
       "dist_diff_from_last": -390
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 19.5,
-      "avg_temp_c": 11.8,
-      "total_precip_mm": 0.0,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "API returned 502"
     },
     "30_Non_Chaser": {
       "win_rate": 0.14285714285714285,
