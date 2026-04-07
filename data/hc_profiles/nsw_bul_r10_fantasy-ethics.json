@@ -1,51 +1,50 @@
 {
-  "dog": "GATE TWO SLOY",
-  "date": "2026-04-08",
-  "track": "RIC",
-  "race": 3,
+  "dog": "FANTASY ETHICS",
+  "date": "2026-04-07",
+  "track": "BUL",
+  "race": 10,
   "distance": 0,
-  "grade": "Mixed Maiden and Grade Five",
+  "grade": "Grade 5",
   "steps": {
-    "history_length": 8,
+    "history_length": 7,
     "01_Shortlist": "Complete (ENS+MC+ML Validated)",
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 2,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 412.25,
+      "avg_dist": 340.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed Maiden and Grade Five vs Field"
+      "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.9,
-      "fluctuation": -0.4125000000000014,
+      "last_weight": 30.1,
+      "fluctuation": -0.4285714285714306,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 8,
-      "last_3_avg_place": 2.3333333333333335,
-      "last_5_avg_place": 2.6,
+      "total_starts": 7,
+      "last_3_avg_place": 3.6666666666666665,
+      "last_5_avg_place": 4.4,
       "last_10_places": [
+        4.0,
+        4.0,
+        5.0,
         6.0,
-        2.0,
-        1.0,
-        3.0,
-        3.0,
-        3.0,
-        2.0,
-        2.0
+        4.0,
+        6.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -67,13 +66,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.54285714285714
+      "avg_run_home": 16.569999999999997
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.6995211215536514
+      "split_stdev": 0.07641989269817125
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -82,14 +81,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Victor Sultana"
+      "trainer": "David Smith"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 15
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -101,38 +100,38 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 4685.0
+      "career_prize": 1425.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -472
+      "dist_diff_from_last": -340
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "API returned 502"
+      "message": "Coordinates not mapped for track: BUL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.125,
-      "place_rate": 0.875
+      "win_rate": 0.14285714285714285,
+      "place_rate": 0.14285714285714285
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Victor Sultana"
+      "trainer_lookup": "David Smith"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "TOMMY SHELBY",
-      "dam": "NEED A MARGARITA",
-      "total_offspring_runs_in_state": 8198,
-      "sire_win_rate": 0.14820687972676264
+      "sire": "FERAL FRANKY",
+      "dam": "SASSY ETHICS",
+      "total_offspring_runs_in_state": 23664,
+      "sire_win_rate": 0.13636747802569305
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 48,
-      "litter_wins": 9
+      "litter_size_racing": 7,
+      "total_litter_runs": 53,
+      "litter_wins": 14
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -157,7 +156,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -166,13 +165,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 8
+      "total_starts": 7
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.219607843137255
+      "ewma_places": 3.1496062992125986
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -181,18 +180,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }
