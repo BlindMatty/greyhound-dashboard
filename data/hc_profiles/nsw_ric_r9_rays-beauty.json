@@ -113,7 +113,7 @@
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-33.6&longitude=150.75&hourly=temperature_2m,precipitation,wind_speed_10m,wind_direction_10m&timezone=Australia%2FSydney&start_date=2026-04-08&end_date=2026-04-08 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))"
+      "message": "API returned 502"
     },
     "30_Non_Chaser": {
       "win_rate": 0.2,

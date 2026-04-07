@@ -587,30 +587,30 @@
   ],
   "modelPerformance": {
     "resultsDate": "2026-04-07",
-    "settledRaces": 5,
+    "settledRaces": 38,
     "models": {
       "ens": {
-        "wins": 0,
-        "settled": 5,
-        "strikeRate": 0.0,
+        "wins": 13,
+        "settled": 38,
+        "strikeRate": 34.21052631578947,
         "label": "ENS"
       },
       "ml": {
-        "wins": 0,
-        "settled": 5,
-        "strikeRate": 0.0,
+        "wins": 9,
+        "settled": 38,
+        "strikeRate": 23.684210526315788,
         "label": "ML"
       },
       "mc": {
-        "wins": 0,
-        "settled": 5,
-        "strikeRate": 0.0,
+        "wins": 12,
+        "settled": 38,
+        "strikeRate": 31.57894736842105,
         "label": "MC"
       },
       "fastai": {
-        "wins": 2,
-        "settled": 5,
-        "strikeRate": 40.0,
+        "wins": 12,
+        "settled": 38,
+        "strikeRate": 31.57894736842105,
         "label": "FAI"
       }
     }
