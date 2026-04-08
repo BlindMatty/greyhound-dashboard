@@ -113,7 +113,7 @@
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "API returned 502"
+      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
     },
     "30_Non_Chaser": {
       "win_rate": 0.2,
