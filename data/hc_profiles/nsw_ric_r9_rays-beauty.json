@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 695052
+      "races_with_same_dogs": 695317
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,12 @@
       "dist_diff_from_last": -401
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      "status": "success",
+      "max_wind_kmh": 9.0,
+      "avg_temp_c": 19.5,
+      "total_precip_mm": 0.0,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.2,
@@ -128,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "GABBY KEEPING",
-      "total_offspring_runs_in_state": 23420,
-      "sire_win_rate": 0.13706233988044406
+      "total_offspring_runs_in_state": 23450,
+      "sire_win_rate": 0.1369722814498934
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 13,

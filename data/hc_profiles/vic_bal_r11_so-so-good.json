@@ -57,7 +57,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 768956
+      "races_with_same_dogs": 769272
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -109,8 +109,12 @@
       "dist_diff_from_last": -390
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "API returned 502"
+      "status": "success",
+      "max_wind_kmh": 17.8,
+      "avg_temp_c": 12.7,
+      "total_precip_mm": 0.1,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.14285714285714285,
@@ -125,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "DEEP DIVE",
-      "total_offspring_runs_in_state": 22681,
-      "sire_win_rate": 0.128830298487721
+      "total_offspring_runs_in_state": 22705,
+      "sire_win_rate": 0.12873816340013214
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,

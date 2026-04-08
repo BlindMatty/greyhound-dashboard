@@ -31,7 +31,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 11,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 768956
+      "races_with_same_dogs": 769272
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,12 @@
       "dist_diff_from_last": -525
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "API returned 502"
+      "status": "success",
+      "max_wind_kmh": 9.8,
+      "avg_temp_c": 14.3,
+      "total_precip_mm": 0.0,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.4,

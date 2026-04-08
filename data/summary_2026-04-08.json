@@ -1,14 +1,14 @@
 {
   "date": "2026-04-08",
   "totalPredictions": 1234,
-  "totalHighConfidence": 0,
+  "totalHighConfidence": 23,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
       "totalPredictions": 328,
-      "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
+      "highConfidenceCount": 6,
+      "fourWayHighConfidenceCount": 6,
       "topPicks": [
         {
           "track": "BAL",
@@ -21,7 +21,12 @@
           "probability": 0.4369017458300679,
           "implied_odds": 2.28884413840028,
           "grade": "Mixed 4/5",
-          "fastai_prob": 0.4329839137557075,
+          "ensemble_prob": 0.32132813628966683,
+          "ensemble_odds": 3.1120835279066026,
+          "ensemble_rank": 1,
+          "mc_win_pct": 25.22,
+          "mc_method": "dog_track_dist",
+          "fastai_prob": 0.4223862651461051,
           "fastai_rank": 1,
           "tier": "green"
         },
@@ -36,7 +41,12 @@
           "probability": 0.3408014880777083,
           "implied_odds": 2.9342594882449093,
           "grade": "Restricted Win Heat",
-          "fastai_prob": 0.486333611306755,
+          "ensemble_prob": 0.28108190336655015,
+          "ensemble_odds": 3.557681899912038,
+          "ensemble_rank": 1,
+          "mc_win_pct": 16.36,
+          "mc_method": "grade_baseline",
+          "fastai_prob": 0.4029195647512451,
           "fastai_rank": 1,
           "tier": "yellow"
         },
@@ -51,8 +61,13 @@
           "probability": 0.3236640448121792,
           "implied_odds": 3.089623379638277,
           "grade": "Grade 6",
-          "fastai_prob": 0.19756249707017,
-          "fastai_rank": 3,
+          "ensemble_prob": 0.2674298665295005,
+          "ensemble_odds": 3.739298130673407,
+          "ensemble_rank": 2,
+          "mc_win_pct": 25.6,
+          "mc_method": "grade_baseline",
+          "fastai_prob": 0.1863155734722738,
+          "fastai_rank": 2,
           "tier": "yellow"
         }
       ],
@@ -73,8 +88,8 @@
       "code": "nsw",
       "name": "New South Wales",
       "totalPredictions": 364,
-      "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
+      "highConfidenceCount": 5,
+      "fourWayHighConfidenceCount": 5,
       "topPicks": [
         {
           "track": "TAR",
@@ -87,7 +102,12 @@
           "probability": 0.400967414719223,
           "implied_odds": 2.4939682460238046,
           "grade": "Mixed 4/5 Final",
-          "fastai_prob": 0.1136712367813015,
+          "ensemble_prob": 0.12909203589066892,
+          "ensemble_odds": 7.74641125690297,
+          "ensemble_rank": 3,
+          "mc_win_pct": 8.9,
+          "mc_method": "blended",
+          "fastai_prob": 0.121462284326208,
           "fastai_rank": 3,
           "tier": "green"
         },
@@ -102,7 +122,12 @@
           "probability": 0.3984755183183745,
           "implied_odds": 2.5095644626303457,
           "grade": "Mixed 4/5 Final",
-          "fastai_prob": 0.1215589507634069,
+          "ensemble_prob": 0.13502787459858806,
+          "ensemble_odds": 7.405878252714915,
+          "ensemble_rank": 2,
+          "mc_win_pct": 10.0,
+          "mc_method": "blended",
+          "fastai_prob": 0.1292201599739354,
           "fastai_rank": 1,
           "tier": "yellow"
         },
@@ -117,8 +142,13 @@
           "probability": 0.365844079307811,
           "implied_odds": 2.733404902689782,
           "grade": "Maiden Final",
-          "fastai_prob": 0.2189963990609052,
-          "fastai_rank": 1,
+          "ensemble_prob": 0.20511107238530696,
+          "ensemble_odds": 4.875407204353511,
+          "ensemble_rank": 1,
+          "mc_win_pct": 18.92,
+          "mc_method": "blended",
+          "fastai_prob": 0.1594876435853432,
+          "fastai_rank": 2,
           "tier": "yellow"
         }
       ],
@@ -139,8 +169,8 @@
       "code": "qld",
       "name": "Queensland",
       "totalPredictions": 267,
-      "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
+      "highConfidenceCount": 6,
+      "fourWayHighConfidenceCount": 6,
       "topPicks": [
         {
           "track": "ROC",
@@ -153,8 +183,13 @@
           "probability": 0.3493587625433354,
           "implied_odds": 2.8623870565603955,
           "grade": "Open",
-          "fastai_prob": 0.1812558010152545,
-          "fastai_rank": 3,
+          "ensemble_prob": 0.2023938067529848,
+          "ensemble_odds": 4.940862648136601,
+          "ensemble_rank": 1,
+          "mc_win_pct": 9.58,
+          "mc_method": "grade_baseline",
+          "fastai_prob": 0.2206344395226133,
+          "fastai_rank": 2,
           "tier": "yellow"
         },
         {
@@ -168,7 +203,12 @@
           "probability": 0.3393328280877492,
           "implied_odds": 2.9469592011928967,
           "grade": "Mixed 4/5 Heat",
-          "fastai_prob": 0.2161004785635321,
+          "ensemble_prob": 0.21939776511322445,
+          "ensemble_odds": 4.5579315700136265,
+          "ensemble_rank": 2,
+          "mc_win_pct": 13.84,
+          "mc_method": "grade_baseline",
+          "fastai_prob": 0.2408986517360997,
           "fastai_rank": 1,
           "tier": "yellow"
         },
@@ -183,7 +223,12 @@
           "probability": 0.3105512916624413,
           "implied_odds": 3.2200799895141508,
           "grade": "Mixed 4/5 Heat",
-          "fastai_prob": 0.2853014152945751,
+          "ensemble_prob": 0.2947087880901712,
+          "ensemble_odds": 3.3931801168210596,
+          "ensemble_rank": 1,
+          "mc_win_pct": 29.72,
+          "mc_method": "blended",
+          "fastai_prob": 0.2966791968203497,
           "fastai_rank": 1,
           "tier": "yellow"
         }
@@ -219,8 +264,13 @@
           "probability": 0.4920138804230409,
           "implied_odds": 2.0324629848657625,
           "grade": "Mixed 6/5",
-          "fastai_prob": 0.2032469711561154,
-          "fastai_rank": 1,
+          "ensemble_prob": 0.33010657322871845,
+          "ensemble_odds": 3.0293247123774707,
+          "ensemble_rank": 1,
+          "mc_win_pct": 41.78,
+          "mc_method": "blended",
+          "fastai_prob": 0.1263378550807911,
+          "fastai_rank": 4,
           "tier": "green"
         },
         {
@@ -234,8 +284,13 @@
           "probability": 0.4519313805362986,
           "implied_odds": 2.212725300936877,
           "grade": "Maiden Heat",
-          "fastai_prob": 0.1455183639192772,
-          "fastai_rank": 4,
+          "ensemble_prob": 0.25805640374655464,
+          "ensemble_odds": 3.8751218163224954,
+          "ensemble_rank": 1,
+          "mc_win_pct": 21.28,
+          "mc_method": "blended",
+          "fastai_prob": 0.2283829887772066,
+          "fastai_rank": 2,
           "tier": "green"
         },
         {
@@ -249,7 +304,12 @@
           "probability": 0.4075614832457294,
           "implied_odds": 2.4536175303814813,
           "grade": "Novice Grade 5",
-          "fastai_prob": 0.1811624327102885,
+          "ensemble_prob": 0.2640877353249512,
+          "ensemble_odds": 3.786620377389102,
+          "ensemble_rank": 1,
+          "mc_win_pct": 28.6,
+          "mc_method": "blended",
+          "fastai_prob": 0.1410463850663529,
           "fastai_rank": 3,
           "tier": "green"
         }
@@ -271,8 +331,8 @@
       "code": "sa",
       "name": "South Australia",
       "totalPredictions": 62,
-      "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
+      "highConfidenceCount": 1,
+      "fourWayHighConfidenceCount": 1,
       "topPicks": [
         {
           "track": "MBS",
@@ -285,7 +345,12 @@
           "probability": 0.3628028747317742,
           "implied_odds": 2.756317740699589,
           "grade": "Masters Heat",
-          "fastai_prob": 0.2949940747232656,
+          "ensemble_prob": 0.5622195403511604,
+          "ensemble_odds": 1.778664610937221,
+          "ensemble_rank": 1,
+          "mc_win_pct": 67.4,
+          "mc_method": "dog_any_track",
+          "fastai_prob": 0.4893105086190818,
           "fastai_rank": 1,
           "tier": "yellow"
         },
@@ -300,8 +365,13 @@
           "probability": 0.308852882695553,
           "implied_odds": 3.2377874905112494,
           "grade": "Grade 5",
-          "fastai_prob": 0.0719478473810361,
-          "fastai_rank": 7,
+          "ensemble_prob": 0.160638615286884,
+          "ensemble_odds": 6.225153262271983,
+          "ensemble_rank": 2,
+          "mc_win_pct": 12.26,
+          "mc_method": "blended",
+          "fastai_prob": 0.1227821705411975,
+          "fastai_rank": 5,
           "tier": "yellow"
         },
         {
@@ -315,7 +385,12 @@
           "probability": 0.2982088805614811,
           "implied_odds": 3.3533541929306567,
           "grade": "Mixed 1/2/3",
-          "fastai_prob": 0.268391217190957,
+          "ensemble_prob": 0.25735270191891463,
+          "ensemble_odds": 3.8857178982137706,
+          "ensemble_rank": 1,
+          "mc_win_pct": 16.66,
+          "mc_method": "dog_track_dist",
+          "fastai_prob": 0.2705485945218407,
           "fastai_rank": 1,
           "tier": "other"
         }
@@ -357,8 +432,8 @@
       "code": "nz",
       "name": "New Zealand",
       "totalPredictions": 87,
-      "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
+      "highConfidenceCount": 2,
+      "fourWayHighConfidenceCount": 2,
       "topPicks": [
         {
           "track": "SOU",
@@ -371,8 +446,13 @@
           "probability": 0.331527394787116,
           "implied_odds": 3.0163419847766453,
           "grade": "Class 5",
-          "fastai_prob": 0.1723478797273599,
-          "fastai_rank": 1,
+          "ensemble_prob": 0.12739105370031095,
+          "ensemble_odds": 7.849844796421204,
+          "ensemble_rank": 4,
+          "mc_win_pct": 2.28,
+          "mc_method": "blended",
+          "fastai_prob": 0.1315876376781057,
+          "fastai_rank": 5,
           "tier": "yellow"
         },
         {
@@ -386,8 +466,13 @@
           "probability": 0.3012538818264511,
           "implied_odds": 3.319459301029317,
           "grade": "Class 4",
-          "fastai_prob": 0.1947627776869224,
-          "fastai_rank": 1,
+          "ensemble_prob": 0.1916120077366065,
+          "ensemble_odds": 5.218879608915841,
+          "ensemble_rank": 1,
+          "mc_win_pct": 28.18,
+          "mc_method": "blended",
+          "fastai_prob": 0.089998536094128,
+          "fastai_rank": 6,
           "tier": "yellow"
         },
         {
@@ -401,8 +486,13 @@
           "probability": 0.2924670799803238,
           "implied_odds": 3.41918823844132,
           "grade": "Mixed Grade 2/3",
-          "fastai_prob": 0.2292165127346158,
-          "fastai_rank": 1,
+          "ensemble_prob": 0.17583031833770774,
+          "ensemble_odds": 5.687301311025067,
+          "ensemble_rank": 2,
+          "mc_win_pct": 19.26,
+          "mc_method": "blended",
+          "fastai_prob": 0.1111074035355427,
+          "fastai_rank": 5,
           "tier": "other"
         }
       ],
@@ -423,8 +513,8 @@
       "code": "nt",
       "name": "Northern Territory",
       "totalPredictions": 35,
-      "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
+      "highConfidenceCount": 3,
+      "fourWayHighConfidenceCount": 3,
       "topPicks": [
         {
           "track": "DAR",
@@ -437,6 +527,13 @@
           "probability": 0.3624704606562,
           "implied_odds": 2.758845502029726,
           "grade": "Mixed 3/4",
+          "ensemble_prob": 0.2844109853531871,
+          "ensemble_odds": 3.516038590275198,
+          "ensemble_rank": 1,
+          "mc_win_pct": 33.04,
+          "mc_method": "dog_track_dist",
+          "fastai_prob": 0.199261473171176,
+          "fastai_rank": 1,
           "tier": "yellow"
         },
         {
@@ -447,9 +544,16 @@
           "dog": "MUM'S BOY",
           "box": 8,
           "rug": 8,
-          "probability": 0.27767452953508975,
-          "implied_odds": 3.6013385947724452,
+          "probability": 0.2776745295350897,
+          "implied_odds": 3.601338594772445,
           "grade": "Mixed 3/4",
+          "ensemble_prob": 0.15656132132878295,
+          "ensemble_odds": 6.387273635101567,
+          "ensemble_rank": 3,
+          "mc_win_pct": 5.2,
+          "mc_method": "dog_track_dist",
+          "fastai_prob": 0.1697900328896348,
+          "fastai_rank": 2,
           "tier": "other"
         },
         {
@@ -460,9 +564,16 @@
           "dog": "BRITTAIN ON FIRE",
           "box": 8,
           "rug": 8,
-          "probability": 0.24756433981228995,
+          "probability": 0.2475643398122899,
           "implied_odds": 4.0393539746404,
           "grade": "Mixed 1/2",
+          "ensemble_prob": 0.30171185250573773,
+          "ensemble_odds": 3.3144206689095275,
+          "ensemble_rank": 1,
+          "mc_win_pct": 45.16,
+          "mc_method": "dog_track_dist",
+          "fastai_prob": 0.203849867791634,
+          "fastai_rank": 1,
           "tier": "other"
         }
       ],

@@ -58,7 +58,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 695052
+      "races_with_same_dogs": 695317
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -110,8 +110,12 @@
       "dist_diff_from_last": -472
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "API returned 502"
+      "status": "success",
+      "max_wind_kmh": 9.0,
+      "avg_temp_c": 19.5,
+      "total_precip_mm": 0.0,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.125,
@@ -126,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "NEED A MARGARITA",
-      "total_offspring_runs_in_state": 8198,
-      "sire_win_rate": 0.14820687972676264
+      "total_offspring_runs_in_state": 8213,
+      "sire_win_rate": 0.14842323146231584
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
