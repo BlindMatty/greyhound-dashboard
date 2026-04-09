@@ -4,8 +4,7 @@
   "stateName": "New South Wales",
   "totalRaces": 47,
   "totalDogs": 352,
-  "highConfidenceCount": 10,
-  "fourWayHighConfidenceCount": 10,
+  "highConfidenceCount": 2,
   "races": [
     {
       "track": "GAR",
@@ -256,7 +255,7 @@
           "rug": 1,
           "probability": 0.1841587503454444,
           "implied_odds": 5.430097663696147,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2586164909261407,
           "ensemble_odds": 3.8667294433501302,
@@ -266,9 +265,7 @@
           "fastai_prob": 0.1610229197590446,
           "fastai_rank": 1,
           "probability_norm": 0.29941431244886374,
-          "implied_odds_norm": 3.3398537024538117,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.3398537024538117
         },
         {
           "dog": "PROJECT NEMESIS",
@@ -920,7 +917,7 @@
           "rug": 3,
           "probability": 0.2933157950665017,
           "implied_odds": 3.4092947492762056,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.3400748530575909,
           "ensemble_odds": 2.940529095312591,
@@ -930,9 +927,7 @@
           "fastai_prob": 0.2182060693024972,
           "fastai_rank": 1,
           "probability_norm": 0.2884339836804698,
-          "implied_odds_norm": 3.4669978455375445,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.4669978455375445
         },
         {
           "dog": "STOP IT ZIPPER",
@@ -1076,7 +1071,7 @@
           "rug": 6,
           "probability": 0.236214385842142,
           "implied_odds": 4.233442414757425,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2849535485366894,
           "ensemble_odds": 3.5093439093328023,
@@ -1086,9 +1081,7 @@
           "fastai_prob": 0.2298731162787006,
           "fastai_rank": 1,
           "probability_norm": 0.24859843695560452,
-          "implied_odds_norm": 4.022551437757363,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 4.022551437757363
         },
         {
           "dog": "PHYSICALITY",
@@ -1550,9 +1543,7 @@
           "fastai_prob": 0.2776495901597133,
           "fastai_rank": 1,
           "probability_norm": 0.3972184274610121,
-          "implied_odds_norm": 2.5175065678395603,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 2.5175065678395603
         },
         {
           "dog": "GOLDILOCKS GORT",
@@ -3046,7 +3037,7 @@
           "rug": 1,
           "probability": 0.5753026581614634,
           "implied_odds": 1.738215504158755,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.32894501379914515,
           "ensemble_odds": 3.040021760629584,
@@ -3056,9 +3047,7 @@
           "fastai_prob": 0.2180084376482655,
           "fastai_rank": 1,
           "probability_norm": 0.2550487748379673,
-          "implied_odds_norm": 3.920818677271831,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.920818677271831
         },
         {
           "dog": "TRAVELLING GEM",
@@ -4280,7 +4269,7 @@
           "rug": 1,
           "probability": 0.3715868676466722,
           "implied_odds": 2.691160767691236,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2557231689591779,
           "ensemble_odds": 3.9104786792300152,
@@ -4290,9 +4279,7 @@
           "fastai_prob": 0.1732112309132142,
           "fastai_rank": 1,
           "probability_norm": 0.3204244258150227,
-          "implied_odds_norm": 3.120860706721804,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.120860706721804
         },
         {
           "dog": "DANGEROUS WHEELS",
@@ -4998,7 +4985,7 @@
           "rug": 3,
           "probability": 0.320132899163291,
           "implied_odds": 3.123702695391914,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.24287813794613103,
           "ensemble_odds": 4.117291117497756,
@@ -5008,9 +4995,7 @@
           "fastai_prob": 0.2060792636852005,
           "fastai_rank": 1,
           "probability_norm": 0.27822807139436695,
-          "implied_odds_norm": 3.594173639591444,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.594173639591444
         },
         {
           "dog": "AIRFLOW BETTY",
@@ -5744,9 +5729,7 @@
           "fastai_prob": 0.2737272393821898,
           "fastai_rank": 1,
           "probability_norm": 0.3235736658315792,
-          "implied_odds_norm": 3.0904863578128827,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.0904863578128827
         },
         {
           "dog": "ROWAN",
@@ -6126,7 +6109,7 @@
           "rug": 1,
           "probability": 0.3762122898839961,
           "implied_odds": 2.658073717656451,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.3481826512942432,
           "ensemble_odds": 2.872055791070754,
@@ -6136,9 +6119,7 @@
           "fastai_prob": 0.2272923984900194,
           "fastai_rank": 1,
           "probability_norm": 0.33565931277000527,
-          "implied_odds_norm": 2.979211247701037,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 2.979211247701037
         },
         {
           "dog": "SAGE DAVIES",
@@ -6264,7 +6245,7 @@
           "rug": 1,
           "probability": 0.3804828909882368,
           "implied_odds": 2.6282390711516026,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.26830793495337335,
           "ensemble_odds": 3.7270608495935105,
@@ -6274,9 +6255,7 @@
           "fastai_prob": 0.2144766642689418,
           "fastai_rank": 1,
           "probability_norm": 0.34202502325295475,
-          "implied_odds_norm": 2.9237626840549042,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 2.9237626840549042
         },
         {
           "dog": "ALL CHAMPAGNE",
@@ -6836,38 +6815,6 @@
   ],
   "highConfidencePicks": [
     {
-      "track": "RIC",
-      "raceNumber": 11,
-      "raceId": 1284318555,
-      "raceStartTime": "10:27PM",
-      "dog": "BROOKLYN BRUTE",
-      "box": 3,
-      "probability": 0.320132899163291,
-      "implied_odds": 3.123702695391914,
-      "ensemble_prob": 0.24287813794613103,
-      "ensemble_odds": 4.117291117497756,
-      "fastai_prob": 0.2060792636852005,
-      "mc_win_pct": 24.38,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "WAG",
-      "raceNumber": 8,
-      "raceId": 1284314519,
-      "raceStartTime": "9:12PM",
-      "dog": "SHIFTY BULLDOZER",
-      "box": 1,
-      "probability": 0.3804828909882368,
-      "implied_odds": 2.6282390711516026,
-      "ensemble_prob": 0.26830793495337335,
-      "ensemble_odds": 3.7270608495935105,
-      "fastai_prob": 0.2144766642689418,
-      "mc_win_pct": 24.84,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
       "track": "WAG",
       "raceNumber": 4,
       "raceId": 1284314515,
@@ -6879,41 +6826,7 @@
       "ensemble_prob": 0.4476878890743323,
       "ensemble_odds": 2.233699022029975,
       "fastai_prob": 0.2737272393821898,
-      "mc_win_pct": 74.58,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "GBN",
-      "raceNumber": 10,
-      "raceId": 1284324030,
-      "raceStartTime": "3:22PM",
-      "dog": "CAWBOURNE FOCUS",
-      "box": 1,
-      "probability": 0.5753026581614634,
-      "implied_odds": 1.738215504158755,
-      "ensemble_prob": 0.32894501379914515,
-      "ensemble_odds": 3.040021760629584,
-      "fastai_prob": 0.2180084376482655,
-      "mc_win_pct": 51.38,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "RIC",
-      "raceNumber": 6,
-      "raceId": 1284318546,
-      "raceStartTime": "8:42PM",
-      "dog": "CREEPING TIGER",
-      "box": 1,
-      "probability": 0.3715868676466722,
-      "implied_odds": 2.691160767691236,
-      "ensemble_prob": 0.2557231689591779,
-      "ensemble_odds": 3.9104786792300152,
-      "fastai_prob": 0.1732112309132142,
-      "mc_win_pct": 27.28,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
+      "mc_win_pct": 74.58
     },
     {
       "track": "GAR",
@@ -6927,73 +6840,7 @@
       "ensemble_prob": 0.4849472321157338,
       "ensemble_odds": 2.0620800239176282,
       "fastai_prob": 0.2776495901597133,
-      "mc_win_pct": 78.0,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "GAR",
-      "raceNumber": 8,
-      "raceId": 1284324051,
-      "raceStartTime": "5:27PM",
-      "dog": "DONE DEALING",
-      "box": 3,
-      "probability": 0.2933157950665017,
-      "implied_odds": 3.4092947492762056,
-      "ensemble_prob": 0.3400748530575909,
-      "ensemble_odds": 2.940529095312591,
-      "fastai_prob": 0.2182060693024972,
-      "mc_win_pct": 51.36,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "GAR",
-      "raceNumber": 3,
-      "raceId": 1284324046,
-      "raceStartTime": "3:52PM",
-      "dog": "MIA PARTY GIRL",
-      "box": 1,
-      "probability": 0.1841587503454444,
-      "implied_odds": 5.430097663696147,
-      "ensemble_prob": 0.2586164909261407,
-      "ensemble_odds": 3.8667294433501302,
-      "fastai_prob": 0.1610229197590446,
-      "mc_win_pct": 31.54,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "WAG",
-      "raceNumber": 7,
-      "raceId": 1284314518,
-      "raceStartTime": "8:56PM",
-      "dog": "SONALI",
-      "box": 1,
-      "probability": 0.3762122898839961,
-      "implied_odds": 2.658073717656451,
-      "ensemble_prob": 0.3481826512942432,
-      "ensemble_odds": 2.872055791070754,
-      "fastai_prob": 0.2272923984900194,
-      "mc_win_pct": 48.16,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "GAR",
-      "raceNumber": 9,
-      "raceId": 1284324052,
-      "raceStartTime": "5:49PM",
-      "dog": "KALANI SEA",
-      "box": 6,
-      "probability": 0.236214385842142,
-      "implied_odds": 4.233442414757425,
-      "ensemble_prob": 0.2849535485366894,
-      "ensemble_odds": 3.5093439093328023,
-      "fastai_prob": 0.2298731162787006,
-      "mc_win_pct": 37.64,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
+      "mc_win_pct": 78.0
     }
   ],
   "topPicks": [

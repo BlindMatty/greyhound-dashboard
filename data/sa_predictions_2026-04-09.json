@@ -4,8 +4,7 @@
   "stateName": "South Australia",
   "totalRaces": 22,
   "totalDogs": 133,
-  "highConfidenceCount": 2,
-  "fourWayHighConfidenceCount": 2,
+  "highConfidenceCount": 1,
   "races": [
     {
       "track": "APK",
@@ -1190,7 +1189,7 @@
           "rug": 4,
           "probability": 0.3968298870054634,
           "implied_odds": 2.5199714858831497,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.23679171981383867,
           "ensemble_odds": 4.223120642842502,
@@ -1200,9 +1199,7 @@
           "fastai_prob": 0.2438489496626724,
           "fastai_rank": 1,
           "probability_norm": 0.2692633691224554,
-          "implied_odds_norm": 3.7138360232922016,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.7138360232922016
         },
         {
           "dog": "SOUTHLINE",
@@ -2174,9 +2171,7 @@
           "fastai_prob": 0.4082158071000256,
           "fastai_rank": 1,
           "probability_norm": 0.34690462335583566,
-          "implied_odds_norm": 2.8826367037900646,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 2.8826367037900646
         },
         {
           "dog": "BOURNE FRANKY",
@@ -2639,25 +2634,7 @@
       "ensemble_prob": 0.41236692993327406,
       "ensemble_odds": 2.425024722913188,
       "fastai_prob": 0.4082158071000256,
-      "mc_win_pct": 48.2,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "APK",
-      "raceNumber": 10,
-      "raceId": 1284324084,
-      "raceStartTime": "10:35PM",
-      "dog": "ZINFANDEL TREV",
-      "box": 4,
-      "probability": 0.3968298870054634,
-      "implied_odds": 2.5199714858831497,
-      "ensemble_prob": 0.23679171981383867,
-      "ensemble_odds": 4.223120642842502,
-      "fastai_prob": 0.2438489496626724,
-      "mc_win_pct": 19.76,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
+      "mc_win_pct": 48.2
     }
   ],
   "topPicks": [

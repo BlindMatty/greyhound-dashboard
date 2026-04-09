@@ -4,8 +4,7 @@
   "stateName": "Victoria",
   "totalRaces": 48,
   "totalDogs": 350,
-  "highConfidenceCount": 6,
-  "fourWayHighConfidenceCount": 6,
+  "highConfidenceCount": 1,
   "races": [
     {
       "track": "GEL",
@@ -944,7 +943,7 @@
           "rug": 1,
           "probability": 0.3919643439972802,
           "implied_odds": 2.5512524680228026,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.35161936382535797,
           "ensemble_odds": 2.8439844413593764,
@@ -954,9 +953,7 @@
           "fastai_prob": 0.3192290623723159,
           "fastai_rank": 1,
           "probability_norm": 0.25458848592504035,
-          "implied_odds_norm": 3.9279074085637737,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.9279074085637737
         },
         {
           "dog": "PAW WAVERLY",
@@ -1218,7 +1215,7 @@
           "rug": 8,
           "probability": 0.2760858788612136,
           "implied_odds": 3.6220613822219168,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2770060095909251,
           "ensemble_odds": 3.6100299826591224,
@@ -1228,9 +1225,7 @@
           "fastai_prob": 0.1846593262000177,
           "fastai_rank": 1,
           "probability_norm": 0.1552480643214243,
-          "implied_odds_norm": 6.441304143603416,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 6.441304143603416
         },
         {
           "dog": "PAW FABIAN",
@@ -2008,7 +2003,7 @@
           "rug": 1,
           "probability": 0.1905034919074435,
           "implied_odds": 5.249247612142731,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.42295372310960855,
           "ensemble_odds": 2.3643248548514366,
@@ -2734,7 +2729,7 @@
           "rug": 3,
           "probability": 0.1425613729268192,
           "implied_odds": 7.01452279442713,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.22217425268325403,
           "ensemble_odds": 4.500971592894991,
@@ -2744,9 +2739,7 @@
           "fastai_prob": 0.2306419411642363,
           "fastai_rank": 1,
           "probability_norm": 0.1735778163988989,
-          "implied_odds_norm": 5.761104850529411,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 5.761104850529411
         },
         {
           "dog": "ELLA AUDACIOUS",
@@ -3090,7 +3083,7 @@
           "rug": 4,
           "probability": 0.1523254933163596,
           "implied_odds": 6.564889292189156,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.31739287960226903,
           "ensemble_odds": 3.150669294324179,
@@ -3100,9 +3093,7 @@
           "fastai_prob": 0.3837357415737616,
           "fastai_rank": 1,
           "probability_norm": 0.24534138640631528,
-          "implied_odds_norm": 4.075953163254233,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 4.075953163254233
         },
         {
           "dog": "AUDACIOUS RACHEL",
@@ -3482,7 +3473,7 @@
           "rug": 8,
           "probability": 0.3075896556240415,
           "implied_odds": 3.2510846243225835,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.24487998030696068,
           "ensemble_odds": 4.083633128140917,
@@ -3492,9 +3483,7 @@
           "fastai_prob": 0.2993461990686578,
           "fastai_rank": 1,
           "probability_norm": 0.26087909097858125,
-          "implied_odds_norm": 3.8331933626758237,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.8331933626758237
         },
         {
           "dog": "SCOTT ENIGMA",
@@ -4064,7 +4053,7 @@
           "rug": 1,
           "probability": 0.1510044098643841,
           "implied_odds": 6.62232315531773,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.22232314933552808,
           "ensemble_odds": 4.497957153759139,
@@ -4074,9 +4063,7 @@
           "fastai_prob": 0.1610195973526812,
           "fastai_rank": 2,
           "probability_norm": 0.17093982895057386,
-          "implied_odds_norm": 5.8500117037624015,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 5.8500117037624015
         },
         {
           "dog": "JAICOS",
@@ -6802,100 +6789,18 @@
   ],
   "highConfidencePicks": [
     {
-      "track": "GEL",
-      "raceNumber": 7,
-      "raceId": 1284763902,
-      "raceStartTime": "9:17PM",
-      "dog": "EXTREME GRUNT",
-      "box": 1,
-      "probability": 0.3919643439972802,
-      "implied_odds": 2.5512524680228026,
-      "ensemble_prob": 0.35161936382535797,
-      "ensemble_odds": 2.8439844413593764,
-      "fastai_prob": 0.3192290623723159,
-      "mc_win_pct": 47.82,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "GEL",
-      "raceNumber": 9,
-      "raceId": 1284763906,
-      "raceStartTime": "9:57PM",
-      "dog": "TYPHOON BAYLEE",
-      "box": 8,
-      "probability": 0.2760858788612136,
-      "implied_odds": 3.6220613822219168,
-      "ensemble_prob": 0.2770060095909251,
-      "ensemble_odds": 3.6100299826591224,
-      "fastai_prob": 0.1846593262000177,
-      "mc_win_pct": 48.64,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
       "track": "HVL",
-      "raceNumber": 8,
-      "raceId": 1284761401,
-      "raceStartTime": "12:58PM",
-      "dog": "SAXON KELTON",
-      "box": 3,
-      "probability": 0.1425613729268192,
-      "implied_odds": 7.01452279442713,
-      "ensemble_prob": 0.22217425268325403,
-      "ensemble_odds": 4.500971592894991,
-      "fastai_prob": 0.2306419411642363,
-      "mc_win_pct": 26.28,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "HVL",
-      "raceNumber": 11,
-      "raceId": 1284761396,
-      "raceStartTime": "2:08PM",
-      "dog": "MY BOY SONNY",
-      "box": 4,
-      "probability": 0.1523254933163596,
-      "implied_odds": 6.564889292189156,
-      "ensemble_prob": 0.31739287960226903,
-      "ensemble_odds": 3.150669294324179,
-      "fastai_prob": 0.3837357415737616,
-      "mc_win_pct": 32.22,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "SHP",
       "raceNumber": 2,
-      "raceId": 1284371623,
-      "raceStartTime": "2:43PM",
-      "dog": "ROCKET TATTOO",
-      "box": 8,
-      "probability": 0.3075896556240415,
-      "implied_odds": 3.2510846243225835,
-      "ensemble_prob": 0.24487998030696068,
-      "ensemble_odds": 4.083633128140917,
-      "fastai_prob": 0.2993461990686578,
-      "mc_win_pct": 17.28,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "SHP",
-      "raceNumber": 6,
-      "raceId": 1284371624,
-      "raceStartTime": "4:12PM",
-      "dog": "LITTLE MINNIE",
+      "raceId": 1284761398,
+      "raceStartTime": "11:10AM",
+      "dog": "RONALDO JACK",
       "box": 1,
-      "probability": 0.1510044098643841,
-      "implied_odds": 6.62232315531773,
-      "ensemble_prob": 0.22232314933552808,
-      "ensemble_odds": 4.497957153759139,
-      "fastai_prob": 0.1610195973526812,
-      "mc_win_pct": 33.76,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
+      "probability": 0.1905034919074435,
+      "implied_odds": 5.249247612142731,
+      "ensemble_prob": 0.42295372310960855,
+      "ensemble_odds": 2.3643248548514366,
+      "fastai_prob": 0.6111147914036006,
+      "mc_win_pct": 38.52
     }
   ],
   "topPicks": [

@@ -4,8 +4,7 @@
   "stateName": "New Zealand",
   "totalRaces": 27,
   "totalDogs": 195,
-  "highConfidenceCount": 4,
-  "fourWayHighConfidenceCount": 4,
+  "highConfidenceCount": 0,
   "races": [
     {
       "track": "CCH",
@@ -174,7 +173,7 @@
           "rug": 8,
           "probability": 0.1432388282955441,
           "implied_odds": 6.981347249900034,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.22000294486632868,
           "ensemble_odds": 4.545393701923349,
@@ -184,9 +183,7 @@
           "fastai_prob": 0.2545833438200204,
           "fastai_rank": 1,
           "probability_norm": 0.1980320826968084,
-          "implied_odds_norm": 5.049686830446674,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 5.049686830446674
         },
         {
           "dog": "CLAWS IN EMPEROR",
@@ -448,7 +445,7 @@
           "rug": 4,
           "probability": 0.1881662104625799,
           "implied_odds": 5.314450440074453,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.252873304124901,
           "ensemble_odds": 3.9545495063649456,
@@ -458,9 +455,7 @@
           "fastai_prob": 0.2101617739583524,
           "fastai_rank": 1,
           "probability_norm": 0.21886834092556154,
-          "implied_odds_norm": 4.568956824779451,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 4.568956824779451
         },
         {
           "dog": "HOMEBUSH JOJO",
@@ -1592,7 +1587,7 @@
           "rug": 8,
           "probability": 0.2109209247692958,
           "implied_odds": 4.741113292072821,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.25834146892026566,
           "ensemble_odds": 3.8708458389568086,
@@ -1602,9 +1597,7 @@
           "fastai_prob": 0.1716925200698378,
           "fastai_rank": 1,
           "probability_norm": 0.20634748644567713,
-          "implied_odds_norm": 4.846194238781092,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 4.846194238781092
         },
         {
           "dog": "HOMEBUSH KAIZA",
@@ -2002,7 +1995,7 @@
           "rug": 7,
           "probability": 0.2425967138103297,
           "implied_odds": 4.122067377968828,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2749182427194943,
           "ensemble_odds": 3.6374450458725076,
@@ -2012,9 +2005,7 @@
           "fastai_prob": 0.1484660856186114,
           "fastai_rank": 1,
           "probability_norm": 0.24029902934256486,
-          "implied_odds_norm": 4.1614816453312535,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 4.1614816453312535
         },
         {
           "dog": "RIPSLINGER NESTA",
@@ -3796,72 +3787,7 @@
       "race_prob_sum": 1.0373798134053893
     }
   ],
-  "highConfidencePicks": [
-    {
-      "track": "CCH",
-      "raceNumber": 15,
-      "raceId": 1284744875,
-      "raceStartTime": "1:44PM",
-      "dog": "SPOT THE ANGEL",
-      "box": 7,
-      "probability": 0.2425967138103297,
-      "implied_odds": 4.122067377968828,
-      "ensemble_prob": 0.2749182427194943,
-      "ensemble_odds": 3.6374450458725076,
-      "fastai_prob": 0.1484660856186114,
-      "mc_win_pct": 43.6,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "CCH",
-      "raceNumber": 2,
-      "raceId": 1284744862,
-      "raceStartTime": "9:50AM",
-      "dog": "CRONUS JEWEL",
-      "box": 8,
-      "probability": 0.1432388282955441,
-      "implied_odds": 6.981347249900034,
-      "ensemble_prob": 0.22000294486632868,
-      "ensemble_odds": 4.545393701923349,
-      "fastai_prob": 0.2545833438200204,
-      "mc_win_pct": 20.74,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "CCH",
-      "raceNumber": 12,
-      "raceId": 1284744872,
-      "raceStartTime": "12:47PM",
-      "dog": "OPAWA CONNOR",
-      "box": 8,
-      "probability": 0.2109209247692958,
-      "implied_odds": 4.741113292072821,
-      "ensemble_prob": 0.25834146892026566,
-      "ensemble_odds": 3.8708458389568086,
-      "fastai_prob": 0.1716925200698378,
-      "mc_win_pct": 39.7,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "CCH",
-      "raceNumber": 4,
-      "raceId": 1284744864,
-      "raceStartTime": "10:22AM",
-      "dog": "LET HIM BURN",
-      "box": 4,
-      "probability": 0.1881662104625799,
-      "implied_odds": 5.314450440074453,
-      "ensemble_prob": 0.252873304124901,
-      "ensemble_odds": 3.9545495063649456,
-      "fastai_prob": 0.2101617739583524,
-      "mc_win_pct": 32.96,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    }
-  ],
+  "highConfidencePicks": [],
   "topPicks": [
     {
       "track": "WAN",

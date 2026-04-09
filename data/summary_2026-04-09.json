@@ -1,14 +1,13 @@
 {
   "date": "2026-04-09",
   "totalPredictions": 1310,
-  "totalHighConfidence": 21,
+  "totalHighConfidence": 8,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
       "totalPredictions": 340,
-      "highConfidenceCount": 10,
-      "fourWayHighConfidenceCount": 10,
+      "highConfidenceCount": 6,
       "topPicks": [
         {
           "track": "HOR",
@@ -21,10 +20,10 @@
           "probability": 0.5558680055304317,
           "implied_odds": 1.7989882311102967,
           "grade": "Grade 5",
-          "ensemble_prob": 0.5883037805952344,
-          "ensemble_odds": 1.6998020971210135,
+          "ensemble_prob": 0.5872550505952344,
+          "ensemble_odds": 1.7028376324501806,
           "ensemble_rank": 1,
-          "mc_win_pct": 98.52,
+          "mc_win_pct": 98.21,
           "mc_method": "dog_relative",
           "fastai_prob": 0.3874554246446117,
           "fastai_rank": 1,
@@ -41,10 +40,10 @@
           "probability": 0.5110687790917006,
           "implied_odds": 1.9566837985627976,
           "grade": "Mixed 4/5",
-          "ensemble_prob": 0.44621513316273653,
-          "ensemble_odds": 2.24107146010957,
+          "ensemble_prob": 0.4463817831627365,
+          "ensemble_odds": 2.2402347894099255,
           "ensemble_rank": 1,
-          "mc_win_pct": 75.23,
+          "mc_win_pct": 75.28,
           "mc_method": "dog_relative",
           "fastai_prob": 0.2265234856358315,
           "fastai_rank": 2,
@@ -61,10 +60,10 @@
           "probability": 0.4571602131208193,
           "implied_odds": 2.1874169520865934,
           "grade": "Grade 5",
-          "ensemble_prob": 0.39154302604137636,
-          "ensemble_odds": 2.5539977307483057,
+          "ensemble_prob": 0.39300954604137633,
+          "ensemble_odds": 2.5444674565098713,
           "ensemble_rank": 1,
-          "mc_win_pct": 55.74,
+          "mc_win_pct": 56.18,
           "mc_method": "dog_relative",
           "fastai_prob": 0.256331217920373,
           "fastai_rank": 1,
@@ -88,8 +87,7 @@
       "code": "nsw",
       "name": "New South Wales",
       "totalPredictions": 306,
-      "highConfidenceCount": 5,
-      "fourWayHighConfidenceCount": 5,
+      "highConfidenceCount": 1,
       "topPicks": [
         {
           "track": "RIS",
@@ -169,8 +167,7 @@
       "code": "qld",
       "name": "Queensland",
       "totalPredictions": 176,
-      "highConfidenceCount": 2,
-      "fourWayHighConfidenceCount": 2,
+      "highConfidenceCount": 0,
       "topPicks": [
         {
           "track": "QST",
@@ -251,7 +248,6 @@
       "name": "Western Australia",
       "totalPredictions": 88,
       "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "MAN",
@@ -331,8 +327,7 @@
       "code": "sa",
       "name": "South Australia",
       "totalPredictions": 133,
-      "highConfidenceCount": 2,
-      "fourWayHighConfidenceCount": 2,
+      "highConfidenceCount": 1,
       "topPicks": [
         {
           "track": "APK",
@@ -412,8 +407,7 @@
       "code": "tas",
       "name": "Tasmania",
       "totalPredictions": 84,
-      "highConfidenceCount": 2,
-      "fourWayHighConfidenceCount": 2,
+      "highConfidenceCount": 0,
       "topPicks": [
         {
           "track": "HOB",
@@ -494,7 +488,6 @@
       "name": "New Zealand",
       "totalPredictions": 183,
       "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "CCH",
@@ -575,7 +568,6 @@
       "name": "Northern Territory",
       "totalPredictions": 0,
       "highConfidenceCount": 0,
-      "fourWayHighConfidenceCount": 0,
       "topPicks": [],
       "hasData": false,
       "earliestRaceTime": null,

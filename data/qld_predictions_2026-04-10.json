@@ -4,8 +4,7 @@
   "stateName": "Queensland",
   "totalRaces": 24,
   "totalDogs": 190,
-  "highConfidenceCount": 5,
-  "fourWayHighConfidenceCount": 5,
+  "highConfidenceCount": 1,
   "races": [
     {
       "track": "QOT",
@@ -1868,7 +1867,7 @@
           "rug": 8,
           "probability": 0.1302848819412772,
           "implied_odds": 7.675487632177658,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2765243234006938,
           "ensemble_odds": 3.6163184044788848,
@@ -1878,9 +1877,7 @@
           "fastai_prob": 0.3048974169038587,
           "fastai_rank": 1,
           "probability_norm": 0.2633034912268231,
-          "implied_odds_norm": 3.79789874923667,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.79789874923667
         },
         {
           "dog": "DASHING DAMIRO",
@@ -2468,7 +2465,7 @@
           "rug": 3,
           "probability": 0.1938701330880837,
           "implied_odds": 5.158092090160458,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2651541607734565,
           "ensemble_odds": 3.771390941341419,
@@ -2478,9 +2475,7 @@
           "fastai_prob": 0.2002586089667729,
           "fastai_rank": 1,
           "probability_norm": 0.2839428470734781,
-          "implied_odds_norm": 3.521835504245762,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.521835504245762
         },
         {
           "dog": "FLY LIKE POTTER",
@@ -2634,9 +2629,7 @@
           "fastai_prob": 0.6572244570220401,
           "fastai_rank": 1,
           "probability_norm": 0.3076936401934922,
-          "implied_odds_norm": 3.2499859255171897,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.2499859255171897
         },
         {
           "dog": "BARNSLEY",
@@ -3224,7 +3217,7 @@
           "rug": 4,
           "probability": 0.0981446535570917,
           "implied_odds": 10.189042028848675,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.2692885007705484,
           "ensemble_odds": 3.7134894254250614,
@@ -3234,9 +3227,7 @@
           "fastai_prob": 0.276964700322276,
           "fastai_rank": 1,
           "probability_norm": 0.20854541860149306,
-          "implied_odds_norm": 4.79511852480868,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 4.79511852480868
         },
         {
           "dog": "DANIEL SPARKLES",
@@ -3380,7 +3371,7 @@
           "rug": 1,
           "probability": 0.2402947301433814,
           "implied_odds": 4.161556099891621,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.3468232279137924,
           "ensemble_odds": 2.8833132256313685,
@@ -3390,9 +3381,7 @@
           "fastai_prob": 0.3067288280138953,
           "fastai_rank": 1,
           "probability_norm": 0.3061615652388613,
-          "implied_odds_norm": 3.2662493060479996,
-          "alignmentModels": 4,
-          "isFourWayAligned": true
+          "implied_odds_norm": 3.2662493060479996
         },
         {
           "dog": "SMOOTH BLAST",
@@ -3691,73 +3680,7 @@
       "ensemble_prob": 0.45774319708181344,
       "ensemble_odds": 2.1846310472228994,
       "fastai_prob": 0.6572244570220401,
-      "mc_win_pct": 41.36,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "TOW",
-      "raceNumber": 11,
-      "raceId": 1284744886,
-      "raceStartTime": "3:04PM",
-      "dog": "FEDERAL BLAST",
-      "box": 1,
-      "probability": 0.2402947301433814,
-      "implied_odds": 4.161556099891621,
-      "ensemble_prob": 0.3468232279137924,
-      "ensemble_odds": 2.8833132256313685,
-      "fastai_prob": 0.3067288280138953,
-      "mc_win_pct": 42.76,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "TOW",
-      "raceNumber": 10,
-      "raceId": 1284744885,
-      "raceStartTime": "2:47PM",
-      "dog": "MISS TWO STEP",
-      "box": 4,
-      "probability": 0.0981446535570917,
-      "implied_odds": 10.189042028848675,
-      "ensemble_prob": 0.2692885007705484,
-      "ensemble_odds": 3.7134894254250614,
-      "fastai_prob": 0.276964700322276,
-      "mc_win_pct": 32.34,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "TOW",
-      "raceNumber": 1,
-      "raceId": 1284744876,
-      "raceStartTime": "12:02PM",
-      "dog": "STRIKER STAR",
-      "box": 8,
-      "probability": 0.1302848819412772,
-      "implied_odds": 7.675487632177658,
-      "ensemble_prob": 0.2765243234006938,
-      "ensemble_odds": 3.6163184044788848,
-      "fastai_prob": 0.3048974169038587,
-      "mc_win_pct": 26.2,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
-    },
-    {
-      "track": "TOW",
-      "raceNumber": 5,
-      "raceId": 1284744880,
-      "raceStartTime": "1:09PM",
-      "dog": "SHE'S WANTED",
-      "box": 3,
-      "probability": 0.1938701330880837,
-      "implied_odds": 5.158092090160458,
-      "ensemble_prob": 0.2651541607734565,
-      "ensemble_odds": 3.771390941341419,
-      "fastai_prob": 0.2002586089667729,
-      "mc_win_pct": 31.0,
-      "alignmentModels": 4,
-      "isFourWayAligned": true
+      "mc_win_pct": 41.36
     }
   ],
   "topPicks": [
