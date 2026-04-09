@@ -4,7 +4,8 @@
   "stateName": "New South Wales",
   "totalRaces": 41,
   "totalDogs": 306,
-  "highConfidenceCount": 1,
+  "highConfidenceCount": 5,
+  "fourWayHighConfidenceCount": 5,
   "races": [
     {
       "track": "CAS",
@@ -1605,7 +1606,7 @@
           "rug": 4,
           "probability": 0.2689332830045559,
           "implied_odds": 3.718394349810021,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.28570679420882106,
           "ensemble_odds": 3.500091773348264,
@@ -1615,7 +1616,9 @@
           "fastai_prob": 0.241636099174338,
           "fastai_rank": 1,
           "probability_norm": 0.27488752955613155,
-          "implied_odds_norm": 3.6378514573386704
+          "implied_odds_norm": 3.6378514573386704,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "FLASHING PAST",
@@ -2467,7 +2470,9 @@
           "fastai_prob": 0.4319896439445082,
           "fastai_rank": 1,
           "probability_norm": 0.4246913452953693,
-          "implied_odds_norm": 2.3546512333669254
+          "implied_odds_norm": 2.3546512333669254,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "ANGRY GOLIATH",
@@ -3273,7 +3278,7 @@
           "rug": 7,
           "probability": 0.2307431622165265,
           "implied_odds": 4.333822898126066,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.2319879181559354,
           "ensemble_odds": 4.310569308733697,
@@ -3283,7 +3288,9 @@
           "fastai_prob": 0.2053196081788728,
           "fastai_rank": 1,
           "probability_norm": 0.20725156793616414,
-          "implied_odds_norm": 4.825053966819742
+          "implied_odds_norm": 4.825053966819742,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "CLOCK IT",
@@ -4351,7 +4358,7 @@
           "rug": 5,
           "probability": 0.4632734389249962,
           "implied_odds": 2.1585524141432586,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.2661284585417373,
           "ensemble_odds": 3.7575838581095176,
@@ -4361,7 +4368,9 @@
           "fastai_prob": 0.2011388291680355,
           "fastai_rank": 1,
           "probability_norm": 0.25844885056997924,
-          "implied_odds_norm": 3.8692375601385534
+          "implied_odds_norm": 3.8692375601385534,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "LEVI DESIGN",
@@ -5683,7 +5692,7 @@
           "rug": 1,
           "probability": 0.2190648437043338,
           "implied_odds": 4.5648584368456415,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.33280799872173383,
           "ensemble_odds": 3.0047354746305728,
@@ -5693,7 +5702,9 @@
           "fastai_prob": 0.2407126746716802,
           "fastai_rank": 1,
           "probability_norm": 0.2673309665676752,
-          "implied_odds_norm": 3.7406814961963963
+          "implied_odds_norm": 3.7406814961963963,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "NIGHT AGENT",
@@ -5938,7 +5949,73 @@
       "ensemble_prob": 0.48669478299169644,
       "ensemble_odds": 2.054675815206059,
       "fastai_prob": 0.4319896439445082,
-      "mc_win_pct": 60.22
+      "mc_win_pct": 60.22,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "RIS",
+      "raceNumber": 3,
+      "raceId": 1284318512,
+      "raceStartTime": "1:22PM",
+      "dog": "NOIR",
+      "box": 7,
+      "probability": 0.2307431622165265,
+      "implied_odds": 4.333822898126066,
+      "ensemble_prob": 0.2319879181559354,
+      "ensemble_odds": 4.310569308733697,
+      "fastai_prob": 0.2053196081788728,
+      "mc_win_pct": 28.34,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "CAS",
+      "raceNumber": 12,
+      "raceId": 1284318570,
+      "raceStartTime": "6:42PM",
+      "dog": "STEELY DAWN",
+      "box": 4,
+      "probability": 0.2689332830045559,
+      "implied_odds": 3.718394349810021,
+      "ensemble_prob": 0.28570679420882106,
+      "ensemble_odds": 3.500091773348264,
+      "fastai_prob": 0.241636099174338,
+      "mc_win_pct": 34.06,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "RIS",
+      "raceNumber": 10,
+      "raceId": 1284318519,
+      "raceStartTime": "3:49PM",
+      "dog": "MAGIC MANIA",
+      "box": 5,
+      "probability": 0.4632734389249962,
+      "implied_odds": 2.1585524141432586,
+      "ensemble_prob": 0.2661284585417373,
+      "ensemble_odds": 3.7575838581095176,
+      "fastai_prob": 0.2011388291680355,
+      "mc_win_pct": 33.88,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "WPK",
+      "raceNumber": 9,
+      "raceId": 1284314510,
+      "raceStartTime": "10:08PM",
+      "dog": "RITZA RINGER",
+      "box": 1,
+      "probability": 0.2190648437043338,
+      "implied_odds": 4.5648584368456415,
+      "ensemble_prob": 0.33280799872173383,
+      "ensemble_odds": 3.0047354746305728,
+      "fastai_prob": 0.2407126746716802,
+      "mc_win_pct": 49.04,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     }
   ],
   "topPicks": [

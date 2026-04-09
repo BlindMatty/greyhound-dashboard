@@ -4,7 +4,8 @@
   "stateName": "Queensland",
   "totalRaces": 23,
   "totalDogs": 176,
-  "highConfidenceCount": 0,
+  "highConfidenceCount": 2,
+  "fourWayHighConfidenceCount": 2,
   "races": [
     {
       "track": "QST",
@@ -1079,7 +1080,7 @@
           "rug": 3,
           "probability": 0.1561652048576761,
           "implied_odds": 6.403475094925067,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.253248922861416,
           "ensemble_odds": 3.9486841195657307,
@@ -1089,7 +1090,9 @@
           "fastai_prob": 0.2896211374435681,
           "fastai_rank": 1,
           "probability_norm": 0.20640192256230416,
-          "implied_odds_norm": 4.844916111176928
+          "implied_odds_norm": 4.844916111176928,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "ELUSIVE HORNET",
@@ -1641,7 +1644,7 @@
           "rug": 3,
           "probability": 0.1645804017321483,
           "implied_odds": 6.076057595408488,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.31001108573986885,
           "ensemble_odds": 3.225691099443788,
@@ -1651,7 +1654,9 @@
           "fastai_prob": 0.3245643536384429,
           "fastai_rank": 1,
           "probability_norm": 0.32238462634832177,
-          "implied_odds_norm": 3.101884886159385
+          "implied_odds_norm": 3.101884886159385,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "STRIKING BEACH",
@@ -3405,7 +3410,40 @@
       "race_prob_sum": 0.6515537109302432
     }
   ],
-  "highConfidencePicks": [],
+  "highConfidencePicks": [
+    {
+      "track": "QST",
+      "raceNumber": 12,
+      "raceId": 1284314543,
+      "raceStartTime": "3:28PM",
+      "dog": "BUSH BOODIE",
+      "box": 3,
+      "probability": 0.1645804017321483,
+      "implied_odds": 6.076057595408488,
+      "ensemble_prob": 0.31001108573986885,
+      "ensemble_odds": 3.225691099443788,
+      "fastai_prob": 0.3245643536384429,
+      "mc_win_pct": 28.28,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "QST",
+      "raceNumber": 8,
+      "raceId": 1284314535,
+      "raceStartTime": "2:06PM",
+      "dog": "KONSTANTIN",
+      "box": 3,
+      "probability": 0.1561652048576761,
+      "implied_odds": 6.403475094925067,
+      "ensemble_prob": 0.253248922861416,
+      "ensemble_odds": 3.9486841195657307,
+      "fastai_prob": 0.2896211374435681,
+      "mc_win_pct": 26.48,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    }
+  ],
   "topPicks": [
     {
       "track": "QST",

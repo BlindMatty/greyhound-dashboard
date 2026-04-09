@@ -4,7 +4,8 @@
   "stateName": "Tasmania",
   "totalRaces": 11,
   "totalDogs": 84,
-  "highConfidenceCount": 0,
+  "highConfidenceCount": 2,
+  "fourWayHighConfidenceCount": 2,
   "races": [
     {
       "track": "HOB",
@@ -753,7 +754,7 @@
           "rug": 5,
           "probability": 0.1002774371459377,
           "implied_odds": 9.97233304381982,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.2287492239631926,
           "ensemble_odds": 4.3715995301514425,
@@ -763,7 +764,9 @@
           "fastai_prob": 0.1547449105540083,
           "fastai_rank": 2,
           "probability_norm": 0.2215049348396571,
-          "implied_odds_norm": 4.514572105239459
+          "implied_odds_norm": 4.514572105239459,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "SILENT PRAYER",
@@ -1025,7 +1028,7 @@
           "rug": 4,
           "probability": 0.3609587029354092,
           "implied_odds": 2.7704000260078017,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.26116543282222504,
           "ensemble_odds": 3.8289906485468874,
@@ -1035,7 +1038,9 @@
           "fastai_prob": 0.1503902608273529,
           "fastai_rank": 1,
           "probability_norm": 0.30309345797381043,
-          "implied_odds_norm": 3.2993123859717475
+          "implied_odds_norm": 3.2993123859717475,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "BLACKBRUSH CADET",
@@ -1629,7 +1634,40 @@
       "race_prob_sum": 1.0011675145822096
     }
   ],
-  "highConfidencePicks": [],
+  "highConfidencePicks": [
+    {
+      "track": "HOB",
+      "raceNumber": 8,
+      "raceId": 1282612172,
+      "raceStartTime": "9:50PM",
+      "dog": "WHALED IT",
+      "box": 4,
+      "probability": 0.3609587029354092,
+      "implied_odds": 2.7704000260078017,
+      "ensemble_prob": 0.26116543282222504,
+      "ensemble_odds": 3.8289906485468874,
+      "fastai_prob": 0.1503902608273529,
+      "mc_win_pct": 33.0,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "HOB",
+      "raceNumber": 6,
+      "raceId": 1282612169,
+      "raceStartTime": "9:04PM",
+      "dog": "CABAO KYANITE",
+      "box": 5,
+      "probability": 0.1002774371459377,
+      "implied_odds": 9.97233304381982,
+      "ensemble_prob": 0.2287492239631926,
+      "ensemble_odds": 4.3715995301514425,
+      "fastai_prob": 0.1547449105540083,
+      "mc_win_pct": 31.0,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    }
+  ],
   "topPicks": [
     {
       "track": "HOB",

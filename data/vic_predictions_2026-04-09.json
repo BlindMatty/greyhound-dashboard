@@ -4,7 +4,8 @@
   "stateName": "Victoria",
   "totalRaces": 49,
   "totalDogs": 340,
-  "highConfidenceCount": 6,
+  "highConfidenceCount": 10,
+  "fourWayHighConfidenceCount": 10,
   "races": [
     {
       "track": "HOR",
@@ -19,7 +20,7 @@
           "rug": 2,
           "probability": 0.1965299394164381,
           "implied_odds": 5.088283255820096,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.2488159808176813,
           "ensemble_odds": 4.019034455559127,
@@ -29,7 +30,9 @@
           "fastai_prob": 0.251990410661647,
           "fastai_rank": 1,
           "probability_norm": 0.251486319041428,
-          "implied_odds_norm": 3.9763594449655426
+          "implied_odds_norm": 3.9763594449655426,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "TWITCHING",
@@ -619,7 +622,9 @@
           "fastai_prob": 0.3874554246446117,
           "fastai_rank": 1,
           "probability_norm": 0.38331932947354747,
-          "implied_odds_norm": 2.6087909560245883
+          "implied_odds_norm": 2.6087909560245883,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "MISS BELLA BABE",
@@ -1053,7 +1058,7 @@
           "rug": 2,
           "probability": 0.163127689505908,
           "implied_odds": 6.130167128761929,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.45653679594737956,
           "ensemble_odds": 2.1904039474515,
@@ -1625,7 +1630,7 @@
           "rug": 1,
           "probability": 0.3817848724366807,
           "implied_odds": 2.6192761217008425,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.4614361398983015,
           "ensemble_odds": 2.1671471164360807,
@@ -2523,7 +2528,7 @@
           "rug": 2,
           "probability": 0.4571602131208193,
           "implied_odds": 2.1874169520865934,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.39300954604137633,
           "ensemble_odds": 2.5444674565098713,
@@ -2533,7 +2538,9 @@
           "fastai_prob": 0.256331217920373,
           "fastai_rank": 1,
           "probability_norm": 0.36090705191516526,
-          "implied_odds_norm": 2.770796510329922
+          "implied_odds_norm": 2.770796510329922,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "ELUSIVE CURL",
@@ -2659,7 +2666,7 @@
           "rug": 1,
           "probability": 0.1979687362838813,
           "implied_odds": 5.0513026388471225,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.3091692675796307,
           "ensemble_odds": 3.234474137189061,
@@ -2669,7 +2676,9 @@
           "fastai_prob": 0.3250361595677946,
           "fastai_rank": 1,
           "probability_norm": 0.2849789010068531,
-          "implied_odds_norm": 3.5090317088981697
+          "implied_odds_norm": 3.5090317088981697,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "PAW HARRIS",
@@ -3411,7 +3420,7 @@
           "rug": 4,
           "probability": 0.1685419667360242,
           "implied_odds": 5.933240363607668,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.2996484359136423,
           "ensemble_odds": 3.3372441840083447,
@@ -3421,7 +3430,9 @@
           "fastai_prob": 0.2261689917318333,
           "fastai_rank": 1,
           "probability_norm": 0.1941079813120047,
-          "implied_odds_norm": 5.151771674924706
+          "implied_odds_norm": 5.151771674924706,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "PAW ENNA",
@@ -3547,7 +3558,7 @@
           "rug": 4,
           "probability": 0.5110687790917006,
           "implied_odds": 1.9566837985627976,
-          "isHighConf": true,
+          "isHighConf": false,
           "scratched": false,
           "ensemble_prob": 0.4463817831627365,
           "ensemble_odds": 2.2402347894099255,
@@ -4473,7 +4484,9 @@
           "fastai_prob": 0.6179625923112309,
           "fastai_rank": 1,
           "probability_norm": 0.37787934726386263,
-          "implied_odds_norm": 2.6463473255174432
+          "implied_odds_norm": 2.6463473255174432,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "ASTON CHANT",
@@ -4853,7 +4866,7 @@
           "rug": 7,
           "probability": 0.2290552471333434,
           "implied_odds": 4.365758970882054,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.3807295843112872,
           "ensemble_odds": 2.6265361064833694,
@@ -4863,7 +4876,9 @@
           "fastai_prob": 0.2732508077321356,
           "fastai_rank": 1,
           "probability_norm": 0.33447020723357423,
-          "implied_odds_norm": 2.989802913303005
+          "implied_odds_norm": 2.989802913303005,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "IMMY'S HAND",
@@ -4999,7 +5014,9 @@
           "fastai_prob": 0.420790179281832,
           "fastai_rank": 1,
           "probability_norm": 0.25118568755684356,
-          "implied_odds_norm": 3.9811185490960708
+          "implied_odds_norm": 3.9811185490960708,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "COMANCHE CHIEF",
@@ -6167,7 +6184,7 @@
           "rug": 1,
           "probability": 0.231617095897138,
           "implied_odds": 4.317470591394098,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.28966647682613617,
           "ensemble_odds": 3.452246221091786,
@@ -6177,7 +6194,9 @@
           "fastai_prob": 0.2823183081149246,
           "fastai_rank": 1,
           "probability_norm": 0.2547784506420745,
-          "implied_odds_norm": 3.9249787314424407
+          "implied_odds_norm": 3.9249787314424407,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "OLD HABITS",
@@ -6475,7 +6494,7 @@
           "rug": 8,
           "probability": 0.1671388597133675,
           "implied_odds": 5.983049074972369,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.3474094361110079,
           "ensemble_odds": 2.878448009916661,
@@ -6485,7 +6504,9 @@
           "fastai_prob": 0.2678276277875894,
           "fastai_rank": 1,
           "probability_norm": 0.2944154373643924,
-          "implied_odds_norm": 3.396561025984242
+          "implied_odds_norm": 3.396561025984242,
+          "alignmentModels": 4,
+          "isFourWayAligned": true
         },
         {
           "dog": "SANTORINI BALE",
@@ -6620,6 +6641,22 @@
   "highConfidencePicks": [
     {
       "track": "HOR",
+      "raceNumber": 1,
+      "raceId": 1284225336,
+      "raceStartTime": "11:24AM",
+      "dog": "SAFELY",
+      "box": 2,
+      "probability": 0.1965299394164381,
+      "implied_odds": 5.088283255820096,
+      "ensemble_prob": 0.2488159808176813,
+      "ensemble_odds": 4.019034455559127,
+      "fastai_prob": 0.251990410661647,
+      "mc_win_pct": 24.31,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "HOR",
       "raceNumber": 6,
       "raceId": 1284225335,
       "raceStartTime": "12:54PM",
@@ -6630,49 +6667,57 @@
       "ensemble_prob": 0.5872550505952344,
       "ensemble_odds": 1.7028376324501806,
       "fastai_prob": 0.3874554246446117,
-      "mc_win_pct": 98.21
-    },
-    {
-      "track": "HOR",
-      "raceNumber": 9,
-      "raceId": 1284225345,
-      "raceStartTime": "1:57PM",
-      "dog": "JUNEAU SANGRIA",
-      "box": 2,
-      "probability": 0.163127689505908,
-      "implied_odds": 6.130167128761929,
-      "ensemble_prob": 0.45653679594737956,
-      "ensemble_odds": 2.1904039474515,
-      "fastai_prob": 0.4174427346227605,
-      "mc_win_pct": 72.24
+      "mc_win_pct": 98.21,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "SAN",
-      "raceNumber": 2,
-      "raceId": 1284225333,
-      "raceStartTime": "7:25PM",
-      "dog": "HURRICANE",
+      "raceNumber": 9,
+      "raceId": 1284225329,
+      "raceStartTime": "9:53PM",
+      "dog": "AMRON LUCY",
+      "box": 2,
+      "probability": 0.4571602131208193,
+      "implied_odds": 2.1874169520865934,
+      "ensemble_prob": 0.39300954604137633,
+      "ensemble_odds": 2.5444674565098713,
+      "fastai_prob": 0.256331217920373,
+      "mc_win_pct": 56.18,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "SAN",
+      "raceNumber": 10,
+      "raceId": 1284225330,
+      "raceStartTime": "10:14PM",
+      "dog": "MY DEAR FRIEND",
       "box": 1,
-      "probability": 0.3817848724366807,
-      "implied_odds": 2.6192761217008425,
-      "ensemble_prob": 0.4614361398983015,
-      "ensemble_odds": 2.1671471164360807,
-      "fastai_prob": 0.2644878370583175,
-      "mc_win_pct": 74.48
+      "probability": 0.1979687362838813,
+      "implied_odds": 5.0513026388471225,
+      "ensemble_prob": 0.3091692675796307,
+      "ensemble_odds": 3.234474137189061,
+      "fastai_prob": 0.3250361595677946,
+      "mc_win_pct": 31.75,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "WBL",
-      "raceNumber": 4,
-      "raceId": 1284331047,
-      "raceStartTime": "6:57PM",
-      "dog": "DAPPER CHAP",
+      "raceNumber": 3,
+      "raceId": 1284331045,
+      "raceStartTime": "6:35PM",
+      "dog": "POWER AFFECT",
       "box": 4,
-      "probability": 0.5110687790917006,
-      "implied_odds": 1.9566837985627976,
-      "ensemble_prob": 0.4463817831627365,
-      "ensemble_odds": 2.2402347894099255,
-      "fastai_prob": 0.2265234856358315,
-      "mc_win_pct": 75.28
+      "probability": 0.1685419667360242,
+      "implied_odds": 5.933240363607668,
+      "ensemble_prob": 0.2996484359136423,
+      "ensemble_odds": 3.3372441840083447,
+      "fastai_prob": 0.2261689917318333,
+      "mc_win_pct": 47.87,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "WBL",
@@ -6686,7 +6731,25 @@
       "ensemble_prob": 0.557862646395105,
       "ensemble_odds": 1.7925559391043226,
       "fastai_prob": 0.6179625923112309,
-      "mc_win_pct": 67.78
+      "mc_win_pct": 67.78,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "WGL",
+      "raceNumber": 1,
+      "raceId": 1284299983,
+      "raceStartTime": "2:44PM",
+      "dog": "BERNARDO SPLIT",
+      "box": 7,
+      "probability": 0.2290552471333434,
+      "implied_odds": 4.365758970882054,
+      "ensemble_prob": 0.3807295843112872,
+      "ensemble_odds": 2.6265361064833694,
+      "fastai_prob": 0.2732508077321356,
+      "mc_win_pct": 53.54,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     },
     {
       "track": "WGL",
@@ -6700,7 +6763,41 @@
       "ensemble_prob": 0.4767175074447111,
       "ensemble_odds": 2.0976783616783328,
       "fastai_prob": 0.420790179281832,
-      "mc_win_pct": 75.57
+      "mc_win_pct": 75.57,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "WGL",
+      "raceNumber": 10,
+      "raceId": 1284299974,
+      "raceStartTime": "5:42PM",
+      "dog": "ALLIE",
+      "box": 1,
+      "probability": 0.231617095897138,
+      "implied_odds": 4.317470591394098,
+      "ensemble_prob": 0.28966647682613617,
+      "ensemble_odds": 3.452246221091786,
+      "fastai_prob": 0.2823183081149246,
+      "mc_win_pct": 33.15,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
+    },
+    {
+      "track": "WGL",
+      "raceNumber": 12,
+      "raceId": 1284299976,
+      "raceStartTime": "6:27PM",
+      "dog": "QUICK RESPONSE",
+      "box": 8,
+      "probability": 0.1671388597133675,
+      "implied_odds": 5.983049074972369,
+      "ensemble_prob": 0.3474094361110079,
+      "ensemble_odds": 2.878448009916661,
+      "fastai_prob": 0.2678276277875894,
+      "mc_win_pct": 48.04,
+      "alignmentModels": 4,
+      "isFourWayAligned": true
     }
   ],
   "topPicks": [

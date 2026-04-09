@@ -1,13 +1,14 @@
 {
   "date": "2026-04-09",
   "totalPredictions": 1310,
-  "totalHighConfidence": 8,
+  "totalHighConfidence": 21,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
       "totalPredictions": 340,
-      "highConfidenceCount": 6,
+      "highConfidenceCount": 10,
+      "fourWayHighConfidenceCount": 10,
       "topPicks": [
         {
           "track": "HOR",
@@ -87,7 +88,8 @@
       "code": "nsw",
       "name": "New South Wales",
       "totalPredictions": 306,
-      "highConfidenceCount": 1,
+      "highConfidenceCount": 5,
+      "fourWayHighConfidenceCount": 5,
       "topPicks": [
         {
           "track": "RIS",
@@ -167,7 +169,8 @@
       "code": "qld",
       "name": "Queensland",
       "totalPredictions": 176,
-      "highConfidenceCount": 0,
+      "highConfidenceCount": 2,
+      "fourWayHighConfidenceCount": 2,
       "topPicks": [
         {
           "track": "QST",
@@ -248,6 +251,7 @@
       "name": "Western Australia",
       "totalPredictions": 88,
       "highConfidenceCount": 0,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "MAN",
@@ -327,7 +331,8 @@
       "code": "sa",
       "name": "South Australia",
       "totalPredictions": 133,
-      "highConfidenceCount": 1,
+      "highConfidenceCount": 2,
+      "fourWayHighConfidenceCount": 2,
       "topPicks": [
         {
           "track": "APK",
@@ -407,7 +412,8 @@
       "code": "tas",
       "name": "Tasmania",
       "totalPredictions": 84,
-      "highConfidenceCount": 0,
+      "highConfidenceCount": 2,
+      "fourWayHighConfidenceCount": 2,
       "topPicks": [
         {
           "track": "HOB",
@@ -488,6 +494,7 @@
       "name": "New Zealand",
       "totalPredictions": 183,
       "highConfidenceCount": 0,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [
         {
           "track": "CCH",
@@ -568,6 +575,7 @@
       "name": "Northern Territory",
       "totalPredictions": 0,
       "highConfidenceCount": 0,
+      "fourWayHighConfidenceCount": 0,
       "topPicks": [],
       "hasData": false,
       "earliestRaceTime": null,
