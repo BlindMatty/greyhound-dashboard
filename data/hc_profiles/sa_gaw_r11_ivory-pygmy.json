@@ -1,12 +1,12 @@
 {
-  "dog": "NEO DEVERE",
-  "date": "2026-04-11",
-  "track": "MEA",
-  "race": 6,
+  "dog": "IVORY PYGMY",
+  "date": "2026-04-12",
+  "track": "GAW",
+  "race": 11,
   "distance": 0,
-  "grade": "Mixed 4/5",
+  "grade": "Restricted Win Final",
   "steps": {
-    "history_length": 37,
+    "history_length": 42,
     "01_Shortlist": "Complete (ENS+MC+ML Validated)",
     "02_TDG_Medians": {
       "status": "calculated",
@@ -18,36 +18,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 497.43243243243245,
+      "avg_dist": 445.4047619047619,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 4/5 vs Field"
+      "current_vs_historic_grade": "Restricted Win Final vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 31.7,
-      "fluctuation": -0.27714285714285936,
+      "last_weight": 26.1,
+      "fluctuation": -0.19473684210526443,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 37,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 3.0,
+      "total_starts": 42,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.8,
       "last_10_places": [
-        3.0,
+        2.0,
         4.0,
         2.0,
         3.0,
-        3.0,
-        3.0,
-        7.0,
-        1.0,
+        4.0,
+        5.0,
+        4.0,
+        4.0,
         2.0,
-        2.0
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 770370
+      "races_with_same_dogs": 212715
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +69,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 22.126739583333332
+      "avg_run_home": 19.99081081081081
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.2084540369029622
+      "split_stdev": 1.7604084719143986
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -84,61 +84,57 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "DANIEL PELL"
+      "trainer": "Kim Johnstone"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 6
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
-      "has_group_experience": true
+      "has_group_experience": false
     },
     "25_Public_Trials": {
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 57995.0
+      "career_prize": 14080.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 4.388888888888889
+      "avg_1st_split_pos": 3.2413793103448274
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -525
+      "dist_diff_from_last": -342
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 23.1,
-      "avg_temp_c": 11.8,
-      "total_precip_mm": 0.0,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "Coordinates not mapped for track: GAW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2857142857142857,
-      "place_rate": 0.7142857142857143
+      "win_rate": 0.10526315789473684,
+      "place_rate": 0.5263157894736842
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "DANIEL PELL"
+      "trainer_lookup": "Kim Johnstone"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "FERNANDO BALE",
-      "dam": "PHEME",
-      "total_offspring_runs_in_state": 99235,
-      "sire_win_rate": 0.13244319040661057
+      "sire": "VULTURI",
+      "dam": "LALA IVORY",
+      "total_offspring_runs_in_state": 52,
+      "sire_win_rate": 0.09615384615384616
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 5,
-      "total_litter_runs": 132,
-      "litter_wins": 34
+      "litter_size_racing": 1,
+      "total_litter_runs": 42,
+      "litter_wins": 4
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -147,7 +143,7 @@
       "time_of_day": "Standard"
     },
     "37_Aggressor_Map": {
-      "wide_runner": true
+      "wide_runner": false
     },
     "38_Course_Distance": {
       "cd_wins": 0
@@ -157,7 +153,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "VIC"
+      "home_state": "SA"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -172,13 +168,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 37
+      "total_starts": 42
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.249117786654071
+      "ewma_places": 3.5121285469449943
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -187,22 +183,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)"
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Group/Feature Race Caliber",
-        "High Earnings Class / Classy Animal",
-        "High Career Win Rate (>25%)",
-        "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
