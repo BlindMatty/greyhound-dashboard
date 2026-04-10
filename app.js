@@ -59,6 +59,7 @@ async function loadDate(dateStr) {
   }
 
   renderSummary(summaryData);
+  hide('loading');
 
   // High confidence picks are loaded from state prediction JSONs
   // (consensus: ML + ENS + MC all agree on #1 pick)
