@@ -76,15 +76,16 @@ async function loadDate(dateStr) {
 
 // ── Render summary bar ──────────────────────────────
 function renderSummary(data) {
-  const statesWithData = data.states.filter(s => s.hasData).length;
-  const totalRaces = data.states.reduce((n, s) => n + Math.ceil((s.totalPredictions || 0) / 7), 0);
-  const total4Way = data.states.reduce((n, s) => n + (s.fourWayHighConfidenceCount || 0), 0);
-  document.getElementById('statDate').textContent = formatDate(data.date);
-  document.getElementById('statStates').textContent = statesWithData;
-  document.getElementById('statRaces').textContent = totalRaces;
-  document.getElementById('statDogs').textContent = data.totalPredictions || 0;
-  document.getElementById('statHC').textContent = data.totalHighConfidence || 0;
-  document.getElementById('stat4Way').textContent = total4Way;
+  const mp = data.modelPerformance;
+  if (mp && mp.models) {
+    document.getElementById('statENS').textContent = mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statML').textContent = mp.models.ml ? mp.models.ml.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statFAI').textContent = mp.models.fastai ? mp.models.fastai.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statMC').textContent = mp.models.mc ? mp.models.mc.strikeRate.toFixed(1) + '%' : '-';
+    const meta = document.getElementById('summaryMeta');
+    meta.textContent = `Cumulative SR from ${mp.startDate} to ${mp.resultsDate} over ${mp.settledRaces} settled races`;
+    show('summaryMeta');
+  }
   show('summaryBar');
 }
 

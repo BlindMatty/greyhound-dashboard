@@ -23,15 +23,14 @@
     <div id="loading" class="loading">Loading predictions…</div>
     <div id="error" class="error" hidden></div>
 
-    <!-- Summary bar -->
+    <!-- Model SR performance bar -->
     <section id="summaryBar" class="summary-bar" hidden>
-      <div class="stat"><span id="statDate" class="stat-value"></span><span class="stat-label">Date</span></div>
-      <div class="stat"><span id="statStates" class="stat-value">0</span><span class="stat-label">States</span></div>
-      <div class="stat"><span id="statRaces" class="stat-value">0</span><span class="stat-label">Races</span></div>
-      <div class="stat"><span id="statDogs" class="stat-value">0</span><span class="stat-label">Runners</span></div>
-      <div class="stat highlight"><span id="statHC" class="stat-value">0</span><span class="stat-label">High Conf</span></div>
-      <div class="stat"><span id="stat4Way" class="stat-value">0</span><span class="stat-label">4-Way Align</span></div>
+      <div class="stat"><span id="statENS" class="stat-value">-</span><span class="stat-label">ENS SR</span></div>
+      <div class="stat"><span id="statML" class="stat-value">-</span><span class="stat-label">ML SR</span></div>
+      <div class="stat"><span id="statFAI" class="stat-value">-</span><span class="stat-label">FAI SR</span></div>
+      <div class="stat"><span id="statMC" class="stat-value">-</span><span class="stat-label">MC SR</span></div>
     </section>
+    <div id="summaryMeta" class="summary-meta" hidden></div>
 
     <!-- High confidence picks -->
     <section id="hcSection" hidden>
