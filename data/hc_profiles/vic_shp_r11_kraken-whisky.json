@@ -14,7 +14,7 @@
     },
     "03_Speed_Map": {
       "own_box": 7,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -31,7 +31,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 34,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 770578
+      "races_with_same_dogs": 770803
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "KRAKEN DOLL",
-      "total_offspring_runs_in_state": 12582,
-      "sire_win_rate": 0.12994754411063425
+      "total_offspring_runs_in_state": 12600,
+      "sire_win_rate": 0.12976190476190477
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -159,7 +159,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -183,10 +183,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 13,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
@@ -199,7 +198,8 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
