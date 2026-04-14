@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.244,
-      "mc_win_pct": 35.0,
-      "ens_prob": 0.2604,
-      "fastai_prob": 0.6535,
+      "ml_prob": 0.2428,
+      "mc_win_pct": 40.4,
+      "ens_prob": 0.2572,
+      "fastai_prob": 0.7074,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 697215
+      "races_with_same_dogs": 697467
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,8 +122,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 8.1,
-      "avg_temp_c": 16.7,
+      "max_wind_kmh": 9.5,
+      "avg_temp_c": 16.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -141,13 +141,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "FRENCH MARTINI",
-      "total_offspring_runs_in_state": 100581,
-      "sire_win_rate": 0.1366957974170072
+      "total_offspring_runs_in_state": 100603,
+      "sire_win_rate": 0.13672554496386788
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 70,
-      "litter_wins": 26
+      "total_litter_runs": 72,
+      "litter_wins": 27
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -214,7 +214,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.653)"
+        "FastAI Strong Conviction (Rank 1, prob 0.707)"
       ]
     }
   }

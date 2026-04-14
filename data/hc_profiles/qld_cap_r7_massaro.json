@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.5288,
-      "mc_win_pct": 81.8,
-      "ens_prob": 0.4832,
-      "fastai_prob": 0.3291,
+      "ml_prob": 0.4957,
+      "mc_win_pct": 75.7,
+      "ens_prob": 0.4734,
+      "fastai_prob": 0.5949,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397060
+      "races_with_same_dogs": 397271
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "BARCIA QUALITY",
-      "total_offspring_runs_in_state": 54208,
-      "sire_win_rate": 0.13230519480519481
+      "total_offspring_runs_in_state": 54226,
+      "sire_win_rate": 0.1322797182163538
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -203,7 +203,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.329)"
+        "FastAI Strong Conviction (Rank 1, prob 0.595)"
       ]
     }
   }

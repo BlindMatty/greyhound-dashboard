@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1402,
-      "mc_win_pct": 40.8,
-      "ens_prob": 0.3011,
-      "fastai_prob": 0.0681,
-      "fastai_rank": 1,
+      "ml_prob": 0.1045,
+      "mc_win_pct": 46.0,
+      "ens_prob": 0.3029,
+      "fastai_prob": 0.0827,
+      "fastai_rank": 3,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -23,7 +23,7 @@
     },
     "03_Speed_Map": {
       "own_box": 2,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -40,7 +40,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 67,
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 771204
+      "races_with_same_dogs": 771494
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,8 +122,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 11.5,
-      "avg_temp_c": 13.8,
+      "max_wind_kmh": 11.9,
+      "avg_temp_c": 14.1,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -141,8 +141,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "KUNG FU HUSTLE",
-      "total_offspring_runs_in_state": 9098,
-      "sire_win_rate": 0.14486700373708508
+      "total_offspring_runs_in_state": 9106,
+      "sire_win_rate": 0.1448495497474193
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -172,7 +172,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -196,20 +196,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Lukewarm (Rank 3, prob 0.083)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
+        "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]

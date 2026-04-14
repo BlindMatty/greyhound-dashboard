@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.3331,
-      "mc_win_pct": 47.8,
-      "ens_prob": 0.3409,
-      "fastai_prob": 0.1827,
+      "ml_prob": 0.329,
+      "mc_win_pct": 45.3,
+      "ens_prob": 0.3351,
+      "fastai_prob": 0.225,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 771204
+      "races_with_same_dogs": 771494
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 15.3,
-      "avg_temp_c": 12.9,
+      "max_wind_kmh": 14.0,
+      "avg_temp_c": 13.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "TINGLE",
-      "total_offspring_runs_in_state": 11494,
-      "sire_win_rate": 0.12145467200278406
+      "total_offspring_runs_in_state": 11500,
+      "sire_win_rate": 0.12139130434782609
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,

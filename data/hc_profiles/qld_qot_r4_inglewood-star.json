@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2577,
-      "mc_win_pct": 29.0,
-      "ens_prob": 0.2889,
-      "fastai_prob": 0.4983,
+      "ml_prob": 0.246,
+      "mc_win_pct": 28.7,
+      "ens_prob": 0.2655,
+      "fastai_prob": 0.5126,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397060
+      "races_with_same_dogs": 397271
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "OUT OF RANGE",
       "dam": "BROCKIE MAGIC",
-      "total_offspring_runs_in_state": 3802,
-      "sire_win_rate": 0.13387690689110995
+      "total_offspring_runs_in_state": 3809,
+      "sire_win_rate": 0.13363087424520873
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -198,7 +198,7 @@
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.498)"
+        "FastAI Strong Conviction (Rank 1, prob 0.513)"
       ]
     }
   }

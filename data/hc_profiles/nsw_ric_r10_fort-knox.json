@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.3957,
-      "mc_win_pct": 54.2,
-      "ens_prob": 0.3497,
-      "fastai_prob": 0.3188,
+      "ml_prob": 0.3457,
+      "mc_win_pct": 53.5,
+      "ens_prob": 0.3244,
+      "fastai_prob": 0.5133,
       "fastai_rank": 3,
       "is_four_way": true
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 697215
+      "races_with_same_dogs": 697467
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 8.1,
-      "avg_temp_c": 16.7,
+      "max_wind_kmh": 9.5,
+      "avg_temp_c": 16.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "FLYING ELLA",
-      "total_offspring_runs_in_state": 7943,
-      "sire_win_rate": 0.1692055898275211
+      "total_offspring_runs_in_state": 7952,
+      "sire_win_rate": 0.16951710261569417
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 40,
+      "total_litter_runs": 41,
       "litter_wins": 11
     },
     "35_Injury_History": {

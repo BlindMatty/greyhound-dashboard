@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1851,
-      "mc_win_pct": 57.8,
-      "ens_prob": 0.3094,
-      "fastai_prob": 0.0775,
-      "fastai_rank": 5,
+      "ml_prob": 0.1693,
+      "mc_win_pct": 69.2,
+      "ens_prob": 0.3666,
+      "fastai_prob": 0.1958,
+      "fastai_rank": 4,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 212913
+      "races_with_same_dogs": 212996
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -137,12 +137,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "SALT AND PEPPER",
-      "total_offspring_runs_in_state": 1227,
-      "sire_win_rate": 0.1850040749796251
+      "total_offspring_runs_in_state": 1230,
+      "sire_win_rate": 0.18455284552845527
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 83,
+      "total_litter_runs": 86,
       "litter_wins": 8
     },
     "35_Injury_History": {
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",

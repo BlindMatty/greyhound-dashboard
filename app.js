@@ -156,6 +156,7 @@ function renderHighConfidence(picks) {
           · ENS ${(ensProb * 100).toFixed(1)}%
           ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
           ${mcPct !== '' ? '· MC ' + (typeof mcPct === 'number' ? mcPct.toFixed(1) : mcPct) + '%' : ''}
+          ${p.elo_agrees ? ' · <span class="badge badge-elo" style="font-size:0.6rem">ELO ✓</span>' : (p.elo_prob ? ' · <span style="font-size:0.6rem;opacity:0.5">ELO ✗</span>' : '')}
         </span>
       </div>
       <div>
@@ -285,10 +286,11 @@ function renderRaces(data) {
       const bestMc = best && best.mc_win_pct != null && best.mc_win_pct > 0 ? best.mc_win_pct : 0;
       return mc > bestMc ? d : best;
     }, null);
+    const eloTop = dogs.reduce((best, d) => (!best || (d.elo_prob || 0) > (best.elo_prob || 0)) ? d : best, null);
     const topDog = ensTop || mlTop;
 
     // Tag each dog with which models pick it as #1
-    const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, fastai: fastaiTop?.dog, mc: mcTop?.dog };
+    const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, fastai: fastaiTop?.dog, mc: mcTop?.dog, elo: eloTop?.dog };
       const totalProb = race.dogs.reduce((s, d) => s + (d.probability || 0), 0) * 100;
 
     return `
@@ -314,6 +316,7 @@ function renderRaces(data) {
                 <th>ML %</th>
                 <th>FastAI %</th>
                 <th>MC %</th>
+                <th>Elo</th>
                 <th>ENS Odds</th>
               </tr>
             </thead>
@@ -333,17 +336,19 @@ function dogRow(d, isTop, topNames) {
   const fProb = d.fastai_prob || 0;
   const eOdds = d.ensemble_odds || 0;
   const mc = d.mc_win_pct != null ? d.mc_win_pct : '';
+  const eloR = d.elo_rating || '';
   const tierClass = d.isHighConf ? 'tier-green' : isTop ? 'tier-yellow' : '';
   const barW = Math.min(eProb * 200, 80);
   const rug = d.rug || d.box;
 
-  // Model top-pick badges
+  // Model top-pick badges — 4WAY = core betting signal (ENS+ML+FAI+MC), ELO is separate/informational
   const badges = [];
   if (topNames.ens && d.dog === topNames.ens) badges.push('<span class="badge badge-ens">ENS</span>');
   if (topNames.ml && d.dog === topNames.ml) badges.push('<span class="badge badge-ml">ML</span>');
   if (topNames.fastai && d.dog === topNames.fastai) badges.push('<span class="badge badge-fastai">FAI</span>');
   if (topNames.mc && d.dog === topNames.mc) badges.push('<span class="badge badge-mc">MC</span>');
   if (badges.length === 4) badges.unshift('<span class="badge badge-4way">4WAY</span>');
+  if (topNames.elo && d.dog === topNames.elo) badges.push('<span class="badge badge-elo">ELO</span>');
   const badgeHtml = badges.length ? ' ' + badges.join('') : '';
 
   return `
@@ -355,6 +360,7 @@ function dogRow(d, isTop, topNames) {
       <td>${(prob * 100).toFixed(1)}%</td>
       <td>${fProb ? (fProb * 100).toFixed(1) + '%' : '—'}</td>
       <td>${mc !== '' ? (typeof mc === 'number' ? mc.toFixed(1) : mc) + '%' : '—'}</td>
+      <td>${eloR ? 'R' + eloR : '—'}</td>
       <td>${eOdds ? '$' + eOdds.toFixed(2) : '—'}</td>
     </tr>
   `;
