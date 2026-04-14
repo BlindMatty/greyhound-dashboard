@@ -7,7 +7,16 @@
   "grade": "Grade 5",
   "steps": {
     "history_length": 18,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.1173,
+      "mc_win_pct": 32.1,
+      "ens_prob": 0.2369,
+      "fastai_prob": 0.3765,
+      "fastai_rank": 2,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -183,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 8,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -195,7 +204,8 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

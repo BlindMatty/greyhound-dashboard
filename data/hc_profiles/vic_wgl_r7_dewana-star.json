@@ -7,7 +7,16 @@
   "grade": "Mixed 3/4",
   "steps": {
     "history_length": 20,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.3744,
+      "mc_win_pct": 53.4,
+      "ens_prob": 0.3596,
+      "fastai_prob": 0.1809,
+      "fastai_rank": 2,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -187,7 +196,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 13,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -201,7 +210,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

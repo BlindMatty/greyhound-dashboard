@@ -7,7 +7,16 @@
   "grade": "Restricted Win",
   "steps": {
     "history_length": 7,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.2163,
+      "mc_win_pct": 62.3,
+      "ens_prob": 0.3865,
+      "fastai_prob": 0.0925,
+      "fastai_rank": 2,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -183,18 +192,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.092)"
       ],
       "green_flags": [
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

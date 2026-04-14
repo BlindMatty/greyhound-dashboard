@@ -7,7 +7,16 @@
   "grade": "Mixed Grade 1/2",
   "steps": {
     "history_length": 8,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.2391,
+      "mc_win_pct": 29.1,
+      "ens_prob": 0.218,
+      "fastai_prob": 0.1991,
+      "fastai_rank": 3,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -181,7 +190,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 9,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -192,7 +201,8 @@
         "Strong Head-to-Head Experience over field",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

@@ -7,7 +7,16 @@
   "grade": "Rank Limit - Grade 5",
   "steps": {
     "history_length": 56,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.1695,
+      "mc_win_pct": 33.6,
+      "ens_prob": 0.255,
+      "fastai_prob": 0.1189,
+      "fastai_rank": 2,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -183,18 +192,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
-      "decision": "PASS / CAUTION",
+      "final_score": 6,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.119)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "From an active winning litter (10+ wins)",
         "Wide Runner drawn Outside (Perfect Map)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

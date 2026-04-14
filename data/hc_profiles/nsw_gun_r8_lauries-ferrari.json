@@ -7,7 +7,16 @@
   "grade": "Grade 5",
   "steps": {
     "history_length": 41,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.3147,
+      "mc_win_pct": 58.3,
+      "ens_prob": 0.3822,
+      "fastai_prob": 0.4625,
+      "fastai_rank": 1,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -183,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -195,7 +204,9 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.463)"
       ]
     }
   }

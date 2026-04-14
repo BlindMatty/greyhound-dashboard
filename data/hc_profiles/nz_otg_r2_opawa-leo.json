@@ -7,7 +7,16 @@
   "grade": "Maiden",
   "steps": {
     "history_length": 1,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.3943,
+      "mc_win_pct": 35.8,
+      "ens_prob": 0.3163,
+      "fastai_prob": 0.3104,
+      "fastai_rank": 3,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -174,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -185,7 +194,8 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile"
+        "Proven Track Specialist Profile",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

@@ -7,7 +7,16 @@
   "grade": "Grade 4",
   "steps": {
     "history_length": 15,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.3783,
+      "mc_win_pct": 31.7,
+      "ens_prob": 0.2504,
+      "fastai_prob": 0.2425,
+      "fastai_rank": 1,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -183,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -195,7 +204,8 @@
         "Strong Head-to-Head Experience over field",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile"
+        "Proven Track Specialist Profile",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

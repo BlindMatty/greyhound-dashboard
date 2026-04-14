@@ -7,7 +7,16 @@
   "grade": "Novice Grade 5",
   "steps": {
     "history_length": 3,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "01_Shortlist": {
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
+      "ml_prob": 0.2251,
+      "mc_win_pct": 46.0,
+      "ens_prob": 0.3275,
+      "fastai_prob": 0.1286,
+      "fastai_rank": 1,
+      "is_four_way": true
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
@@ -176,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -190,7 +199,8 @@
         "Professional Box Dog (Elite start consistency)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Elite Sire Line (>15% state win rate)"
+        "Elite Sire Line (>15% state win rate)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }
