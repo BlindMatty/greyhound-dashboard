@@ -1,20 +1,20 @@
 {
-  "dog": "FORT KNOX",
-  "date": "2026-04-15",
-  "track": "RIC",
-  "race": 10,
+  "dog": "MISTRESS GRACE",
+  "date": "2026-04-14",
+  "track": "WGL",
+  "race": 3,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Maiden",
   "steps": {
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.3957,
-      "mc_win_pct": 54.2,
-      "ens_prob": 0.3497,
-      "fastai_prob": 0.3188,
-      "fastai_rank": 3,
+      "ml_prob": 0.1636,
+      "mc_win_pct": 100.0,
+      "ens_prob": 0.4353,
+      "fastai_prob": 0.0703,
+      "fastai_rank": 5,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -22,32 +22,33 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 2,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 322.0,
+      "avg_dist": 430.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.1,
+      "last_weight": 27.6,
       "fluctuation": 0.0,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 2,
       "last_3_avg_place": null,
       "last_5_avg_place": null,
       "last_10_places": [
-        1.0
+        4.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 697215
+      "races_with_same_dogs": 771204
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +70,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.969999999999999
+      "avg_run_home": 17.54025
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": NaN
+      "split_stdev": 1.4209310767943668
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -84,17 +85,17 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Victor Sultana"
+      "trainer": "HOPE SELLECK"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 17
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -103,42 +104,42 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 1200.0
+      "career_prize": 75.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -320
+      "dist_diff_from_last": -460
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 10.8,
-      "avg_temp_c": 16.7,
+      "max_wind_kmh": 25.1,
+      "avg_temp_c": 14.6,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 1.0,
-      "place_rate": 1.0
+      "win_rate": 0.0,
+      "place_rate": 0.0
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Victor Sultana"
+      "trainer_lookup": "HOPE SELLECK"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "BERNARDO",
-      "dam": "FLYING ELLA",
-      "total_offspring_runs_in_state": 7943,
-      "sire_win_rate": 0.1692055898275211
+      "sire": "MEPUNGA BLAZER",
+      "dam": "ANTS IN PANTS",
+      "total_offspring_runs_in_state": 19447,
+      "sire_win_rate": 0.1160076104283437
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 5,
-      "total_litter_runs": 40,
-      "litter_wins": 11
+      "litter_size_racing": 4,
+      "total_litter_runs": 6,
+      "litter_wins": 0
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -157,13 +158,13 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "NSW"
+      "home_state": "VIC"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -178,7 +179,7 @@
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0
+      "ewma_places": 4.666666666666667
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -187,20 +188,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
+        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
+        "Adjacent Vacant Box (Clean Air potential)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
