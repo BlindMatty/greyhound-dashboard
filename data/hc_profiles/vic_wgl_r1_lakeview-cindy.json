@@ -15,7 +15,7 @@
     "03_Speed_Map": {
       "own_box": 7,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 460.0,
@@ -31,7 +31,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 1,
@@ -51,7 +51,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 770803
+      "races_with_same_dogs": 771204
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -104,9 +104,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 25.3,
-      "avg_temp_c": 14.7,
-      "total_precip_mm": 0.2,
+      "max_wind_kmh": 26.1,
+      "avg_temp_c": 14.4,
+      "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -123,8 +123,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "DODDS JOY",
-      "total_offspring_runs_in_state": 36855,
-      "sire_win_rate": 0.14717134717134717
+      "total_offspring_runs_in_state": 36899,
+      "sire_win_rate": 0.14723976259519228
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -154,7 +154,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -178,17 +178,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field"
+        "Small Field Advantage",
+        "Strong Head-to-Head Experience over field",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

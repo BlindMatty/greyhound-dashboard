@@ -15,7 +15,7 @@
     "03_Speed_Map": {
       "own_box": 1,
       "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 432.5,
@@ -31,7 +31,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 100,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 770803
+      "races_with_same_dogs": 771204
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "WELSLY BALE",
-      "total_offspring_runs_in_state": 62461,
-      "sire_win_rate": 0.130913690142649
+      "total_offspring_runs_in_state": 62465,
+      "sire_win_rate": 0.1309373249019451
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -192,6 +192,7 @@
         "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
