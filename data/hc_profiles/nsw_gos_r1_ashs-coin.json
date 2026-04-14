@@ -1,20 +1,20 @@
 {
-  "dog": "SHE'S ALL FIRE",
+  "dog": "ASH'S COIN",
   "date": "2026-04-14",
-  "track": "QOT",
-  "race": 12,
+  "track": "GOS",
+  "race": 1,
   "distance": 0,
-  "grade": "Grade 5 Heat",
+  "grade": "Maiden",
   "steps": {
-    "history_length": 21,
+    "history_length": 11,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.4351,
-      "mc_win_pct": 79.3,
-      "ens_prob": 0.4549,
-      "fastai_prob": 0.5739,
-      "fastai_rank": 1,
+      "ml_prob": 0.2307,
+      "mc_win_pct": 100.0,
+      "ens_prob": 0.3566,
+      "fastai_prob": 0.0622,
+      "fastai_rank": 7,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -27,36 +27,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 452.95238095238096,
+      "avg_dist": 356.72727272727275,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 Heat vs Field"
+      "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.2,
-      "fluctuation": 0.5666666666666629,
+      "last_weight": 27.0,
+      "fluctuation": -0.3399999999999963,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 21,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 1.4,
+      "total_starts": 11,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.2,
       "last_10_places": [
+        2.0,
+        3.0,
         3.0,
         2.0,
-        5.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
         3.0,
-        1.0,
-        1.0
+        4.0,
+        2.0,
+        5.0,
+        2.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397060
+      "races_with_same_dogs": 697215
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -78,13 +78,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 20.422777777777778
+      "avg_run_home": 13.111111111111112
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.7639217699399823
+      "split_stdev": 3.6926270383623154
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -93,57 +93,57 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Tony Brett"
+      "trainer": "Michael Edwards"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 5
+      "days_since_last_run": 6
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
-      "has_group_experience": true
+      "has_group_experience": false
     },
     "25_Public_Trials": {
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 61505.0
+      "career_prize": 2435.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 2.4444444444444446
+      "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -350
+      "dist_diff_from_last": -300
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "Coordinates not mapped for track: QOT"
+      "message": "Coordinates not mapped for track: GOS"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5,
-      "place_rate": 0.8333333333333334
+      "win_rate": 0.0,
+      "place_rate": 0.8
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Tony Brett"
+      "trainer_lookup": "Michael Edwards"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "FERAL FRANKY",
-      "dam": "AMRON LASS",
-      "total_offspring_runs_in_state": 6800,
-      "sire_win_rate": 0.10338235294117647
+      "sire": "ASTON RUPEE",
+      "dam": "TWO PHONES",
+      "total_offspring_runs_in_state": 10755,
+      "sire_win_rate": 0.1599256159925616
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 2,
-      "total_litter_runs": 49,
-      "litter_wins": 16
+      "litter_size_racing": 1,
+      "total_litter_runs": 11,
+      "litter_wins": 0
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -162,7 +162,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "QLD"
+      "home_state": "NSW"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -177,13 +177,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 21
+      "total_starts": 11
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.2709360921329198
+      "ewma_places": 2.959921798631476
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,25 +192,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)",
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Positive Weight Gain (Strength build)",
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Group/Feature Race Caliber",
-        "High Earnings Class / Classy Animal",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.574)"
+        "Elite Sire Line (>15% state win rate)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

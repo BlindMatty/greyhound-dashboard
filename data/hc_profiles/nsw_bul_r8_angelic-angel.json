@@ -1,20 +1,20 @@
 {
-  "dog": "SHE'S ALL FIRE",
+  "dog": "ANGELIC ANGEL",
   "date": "2026-04-14",
-  "track": "QOT",
-  "race": 12,
+  "track": "BUL",
+  "race": 8,
   "distance": 0,
-  "grade": "Grade 5 Heat",
+  "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 21,
+    "history_length": 38,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.4351,
-      "mc_win_pct": 79.3,
-      "ens_prob": 0.4549,
-      "fastai_prob": 0.5739,
-      "fastai_rank": 1,
+      "ml_prob": 0.2312,
+      "mc_win_pct": 100.0,
+      "ens_prob": 0.4711,
+      "fastai_prob": 0.537,
+      "fastai_rank": 3,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -27,36 +27,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 452.95238095238096,
+      "avg_dist": 452.10526315789474,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 Heat vs Field"
+      "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.2,
-      "fluctuation": 0.5666666666666629,
+      "last_weight": 29.8,
+      "fluctuation": 0.44848484848484915,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 21,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 1.4,
+      "total_starts": 38,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.6,
       "last_10_places": [
         3.0,
         2.0,
-        5.0,
         1.0,
         1.0,
+        7.0,
+        4.0,
+        4.0,
+        4.0,
         1.0,
-        1.0,
-        3.0,
-        1.0,
-        1.0
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397060
+      "races_with_same_dogs": 697215
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -78,13 +78,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 20.422777777777778
+      "avg_run_home": 20.0884375
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.7639217699399823
+      "split_stdev": 1.1032071556266334
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -93,7 +93,7 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Tony Brett"
+      "trainer": "Jennifer Brown"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
@@ -106,47 +106,47 @@
       "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
-      "has_group_experience": true
+      "has_group_experience": false
     },
     "25_Public_Trials": {
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 61505.0
+      "career_prize": 25840.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 2.4444444444444446
+      "avg_1st_split_pos": 2.8125
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -350
+      "dist_diff_from_last": -520
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "Coordinates not mapped for track: QOT"
+      "message": "Coordinates not mapped for track: BUL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5,
-      "place_rate": 0.8333333333333334
+      "win_rate": 0.24242424242424243,
+      "place_rate": 0.5454545454545454
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Tony Brett"
+      "trainer_lookup": "Jennifer Brown"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "FERAL FRANKY",
-      "dam": "AMRON LASS",
-      "total_offspring_runs_in_state": 6800,
-      "sire_win_rate": 0.10338235294117647
+      "sire": "FERNANDO BALE",
+      "dam": "FARMOR BANGS",
+      "total_offspring_runs_in_state": 100738,
+      "sire_win_rate": 0.13666143858325558
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 2,
-      "total_litter_runs": 49,
-      "litter_wins": 16
+      "litter_size_racing": 3,
+      "total_litter_runs": 96,
+      "litter_wins": 22
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -162,7 +162,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "QLD"
+      "home_state": "NSW"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -177,13 +177,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 21
+      "total_starts": 38
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.2709360921329198
+      "ewma_places": 3.756975079741908
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -200,17 +200,11 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Positive Weight Gain (Strength build)",
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.574)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }
