@@ -1,20 +1,20 @@
 {
-  "dog": "BOSS ON TOP",
+  "dog": "DOLLAR KEEPING",
   "date": "2026-04-15",
-  "track": "OTG",
+  "track": "RIC",
   "race": 6,
   "distance": 0,
-  "grade": "Class 5 heats",
+  "grade": "Grade 5 Heat",
   "steps": {
-    "history_length": 15,
+    "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.5407,
-      "mc_win_pct": 37.8,
-      "ens_prob": 0.2723,
-      "fastai_prob": 0.1127,
-      "fastai_rank": 2,
+      "ml_prob": 0.2167,
+      "mc_win_pct": 35.1,
+      "ens_prob": 0.2152,
+      "fastai_prob": 0.571,
+      "fastai_rank": 7,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -22,41 +22,33 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 313.0,
+      "avg_dist": 460.5,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 5 heats vs Field"
+      "current_vs_historic_grade": "Grade 5 Heat vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.1,
-      "fluctuation": 0.35999999999999943,
+      "last_weight": 35.1,
+      "fluctuation": 0.05000000000000426,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 15,
-      "last_3_avg_place": 2.6666666666666665,
-      "last_5_avg_place": 2.0,
+      "total_starts": 2,
+      "last_3_avg_place": null,
+      "last_5_avg_place": null,
       "last_10_places": [
-        1.0,
-        1.0,
-        1.0,
-        3.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        5.0,
-        2.0
+        2.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275167
+      "races_with_same_dogs": 697467
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -78,13 +70,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": NaN
+      "avg_run_home": 20.65
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": NaN
+      "split_stdev": 0.8061017305526645
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -93,17 +85,17 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "D Fahey & K Wyllie"
+      "trainer": "Todd Barnes"
     },
     "21_Size_Bumping": {
-      "is_heavy": false,
+      "is_heavy": true,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 6
+      "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -112,38 +104,42 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 22780.0
+      "career_prize": 1580.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -295
+      "dist_diff_from_last": -401
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "Coordinates not mapped for track: OTG"
+      "status": "success",
+      "max_wind_kmh": 9.5,
+      "avg_temp_c": 16.0,
+      "total_precip_mm": 0.0,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.7333333333333333,
-      "place_rate": 0.9333333333333333
+      "win_rate": 0.5,
+      "place_rate": 1.0
     },
     "31_Track_Archetypes": {
       "track_specialist": true
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "D Fahey & K Wyllie"
+      "trainer_lookup": "Todd Barnes"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "KOBLENZ",
-      "dam": "FAIRLY ABLE",
-      "total_offspring_runs_in_state": 268,
-      "sire_win_rate": 0.29850746268656714
+      "sire": "ASTON RUPEE",
+      "dam": "TANIA KEEPING",
+      "total_offspring_runs_in_state": 10802,
+      "sire_win_rate": 0.15941492316237735
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 71,
-      "litter_wins": 30
+      "litter_size_racing": 8,
+      "total_litter_runs": 13,
+      "litter_wins": 5
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -162,7 +158,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "NZ"
+      "home_state": "NSW"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -177,13 +173,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 15
+      "total_starts": 2
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.5157933286538285
+      "ewma_places": 1.3333333333333333
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,22 +188,23 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Inexperienced (< 3 starts)",
+        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.113)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "High Earnings Class / Classy Animal",
+        "Heavy Dog (+34kg) - Resistance in packs",
+        "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }

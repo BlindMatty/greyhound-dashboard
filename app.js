@@ -83,6 +83,7 @@ function renderSummary(data) {
     document.getElementById('statML').textContent = mp.models.ml ? mp.models.ml.strikeRate.toFixed(1) + '%' : '-';
     document.getElementById('statFAI').textContent = mp.models.fastai ? mp.models.fastai.strikeRate.toFixed(1) + '%' : '-';
     document.getElementById('statMC').textContent = mp.models.mc ? mp.models.mc.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statELO').textContent = mp.models.elo ? mp.models.elo.strikeRate.toFixed(1) + '%' : '-';
     const meta = document.getElementById('summaryMeta');
     meta.textContent = `Cumulative SR from ${mp.startDate} to ${mp.resultsDate} over ${mp.settledRaces} settled races`;
     show('summaryMeta');
@@ -356,7 +357,7 @@ function dogRow(d, isTop, topNames) {
       <td><span class="box-num box-${d.box}">${d.box}</span></td>
       <td><span class="box-num box-${rug}">${rug}</span></td>
       <td class="${tierClass}">${esc(d.dog)}${d.isHighConf ? ' ⭐' : ''}${badgeHtml}</td>
-      <td>${eProb ? (eProb * 100).toFixed(1) + '%' : '—'}<span class="prob-bar" style="width:${barW}px"></span></td>
+      <td>${eProb ? (eProb * 100).toFixed(1) + '%' : '—'}</td>
       <td>${(prob * 100).toFixed(1)}%</td>
       <td>${fProb ? (fProb * 100).toFixed(1) + '%' : '—'}</td>
       <td>${mc !== '' ? (typeof mc === 'number' ? mc.toFixed(1) : mc) + '%' : '—'}</td>
