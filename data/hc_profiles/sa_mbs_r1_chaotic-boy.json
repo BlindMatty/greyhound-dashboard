@@ -1,20 +1,20 @@
 {
-  "dog": "CERISE",
+  "dog": "CHAOTIC BOY",
   "date": "2026-04-15",
   "track": "MBS",
-  "race": 3,
+  "race": 1,
   "distance": 0,
-  "grade": "Grade 6",
+  "grade": "Maiden",
   "steps": {
-    "history_length": 29,
+    "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1693,
-      "mc_win_pct": 69.7,
-      "ens_prob": 0.3682,
-      "fastai_prob": 0.1958,
-      "fastai_rank": 4,
+      "ml_prob": 0.1732,
+      "mc_win_pct": 34.0,
+      "ens_prob": 0.3142,
+      "fastai_prob": 0.288,
+      "fastai_rank": 1,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -27,37 +27,26 @@
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 359.82758620689657,
+      "avg_dist": 342.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 6 vs Field"
+      "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.9,
-      "fluctuation": 1.2782608695652193,
+      "last_weight": 0.0,
+      "fluctuation": 0.0,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 5
     },
     "08_Form_Trajectory": {
-      "total_starts": 29,
-      "last_3_avg_place": 3.3333333333333335,
-      "last_5_avg_place": 3.8,
-      "last_10_places": [
-        3.0,
-        5.0,
-        5.0,
-        3.0,
-        5.0,
-        4.0,
-        5.0,
-        2.0,
-        5.0,
-        3.0
-      ]
+      "total_starts": 1,
+      "last_3_avg_place": null,
+      "last_5_avg_place": null,
+      "last_10_places": []
     },
     "09_Pattern_Recognition": {
       "consecutive_wins": false
@@ -78,13 +67,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.547391304347828
+      "avg_run_home": NaN
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.2976427396791064
+      "split_stdev": NaN
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -93,14 +82,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Raymond Fewings"
+      "trainer": "Edgar Kowalewski"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
-      "is_light": false
+      "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 5
+      "days_since_last_run": 16
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -112,38 +101,38 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 3045.0
+      "career_prize": 490.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 3.0
+      "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -395
+      "dist_diff_from_last": -342
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: MBS"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.043478260869565216,
-      "place_rate": 0.5652173913043478
+      "win_rate": 0,
+      "place_rate": 0
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Raymond Fewings"
+      "trainer_lookup": "Edgar Kowalewski"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "KOBLENZ",
-      "dam": "SALT AND PEPPER",
-      "total_offspring_runs_in_state": 1230,
-      "sire_win_rate": 0.18455284552845527
+      "sire": "ASTON RUPEE",
+      "dam": "OPAL MODEL",
+      "total_offspring_runs_in_state": 1837,
+      "sire_win_rate": 0.17583015786608602
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 86,
-      "litter_wins": 8
+      "litter_size_racing": 1,
+      "total_litter_runs": 1,
+      "litter_wins": 0
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -177,13 +166,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 29
+      "total_starts": 1
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.5737657038886192
+      "ewma_places": 0
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,22 +181,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Inexperienced (< 3 starts)",
+        "Light/Frail Dog (<26kg) - Bump risk",
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
-        "Positive Weight Gain (Strength build)",
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.288)"
       ]
     }
   }
