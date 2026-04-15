@@ -122,10 +122,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.8,
-      "avg_temp_c": 18.0,
-      "total_precip_mm": 1.3,
-      "is_wet": false,
+      "max_wind_kmh": 27.3,
+      "avg_temp_c": 18.1,
+      "total_precip_mm": 2.2,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -193,16 +193,17 @@
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": false
+      "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
+        "Heavy dog penalty on assumed wet track",
         "Wide Runner drawn Inside (Crash risk)",
         "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
