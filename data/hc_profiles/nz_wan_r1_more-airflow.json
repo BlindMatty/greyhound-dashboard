@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2879,
-      "mc_win_pct": 43.5,
-      "ens_prob": 0.2614,
-      "fastai_prob": 0.5248,
-      "fastai_rank": 3,
+      "ml_prob": 0.2677,
+      "mc_win_pct": 43.9,
+      "ens_prob": 0.2357,
+      "fastai_prob": 0.4336,
+      "fastai_rank": 8,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275279
+      "races_with_same_dogs": 275459
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -192,13 +192,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

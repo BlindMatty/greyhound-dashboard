@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.5899,
-      "mc_win_pct": 52.9,
-      "ens_prob": 0.351,
-      "fastai_prob": 0.6082,
+      "ml_prob": 0.5809,
+      "mc_win_pct": 52.7,
+      "ens_prob": 0.3247,
+      "fastai_prob": 0.6236,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275279
+      "races_with_same_dogs": 275459
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,13 +132,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "WHISKEY RIOT",
       "dam": "ISAVANA",
-      "total_offspring_runs_in_state": 2017,
-      "sire_win_rate": 0.25384234010907286
+      "total_offspring_runs_in_state": 2023,
+      "sire_win_rate": 0.2540781018289669
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 101,
-      "litter_wins": 39
+      "total_litter_runs": 103,
+      "litter_wins": 40
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -204,7 +204,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.608)"
+        "FastAI Strong Conviction (Rank 1, prob 0.624)"
       ]
     }
   }

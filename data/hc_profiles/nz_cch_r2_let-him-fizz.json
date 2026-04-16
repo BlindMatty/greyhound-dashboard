@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2653,
-      "mc_win_pct": 40.9,
-      "ens_prob": 0.3268,
-      "fastai_prob": 0.2889,
+      "ml_prob": 0.3695,
+      "mc_win_pct": 40.8,
+      "ens_prob": 0.3355,
+      "fastai_prob": 0.5977,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275279
+      "races_with_same_dogs": 275459
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HASTEN SLOWLY",
       "dam": "GRACIAS MAESTRO",
-      "total_offspring_runs_in_state": 1509,
-      "sire_win_rate": 0.11862160371106693
+      "total_offspring_runs_in_state": 1517,
+      "sire_win_rate": 0.11865524060646011
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -202,7 +202,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.289)"
+        "FastAI Strong Conviction (Rank 1, prob 0.598)"
       ]
     }
   }
