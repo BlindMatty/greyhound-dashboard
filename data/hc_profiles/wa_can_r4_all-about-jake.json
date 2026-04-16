@@ -1,20 +1,20 @@
 {
-  "dog": "BLACK KERMARO",
+  "dog": "ALL ABOUT JAKE",
   "date": "2026-04-16",
-  "track": "RIS",
-  "race": 6,
+  "track": "CAN",
+  "race": 4,
   "distance": 0,
-  "grade": "Grade 5 Final",
+  "grade": "Grade 5",
   "steps": {
-    "history_length": 5,
+    "history_length": 28,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.3365,
-      "mc_win_pct": 27.2,
-      "ens_prob": 0.1907,
-      "fastai_prob": 0.6059,
-      "fastai_rank": 4,
+      "ml_prob": 0.1358,
+      "mc_win_pct": 100.0,
+      "ens_prob": 0.4512,
+      "fastai_prob": 0.186,
+      "fastai_rank": 1,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -22,34 +22,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 363.2,
+      "avg_dist": 446.5,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 Final vs Field"
+      "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.8,
-      "fluctuation": -0.16666666666666785,
+      "last_weight": 31.7,
+      "fluctuation": 0.8279999999999994,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 5,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": null,
+      "total_starts": 28,
+      "last_3_avg_place": 4.333333333333333,
+      "last_5_avg_place": 4.2,
       "last_10_places": [
-        1.0,
+        5.0,
+        7.0,
+        5.0,
+        6.0,
+        2.0,
         4.0,
-        1.0
+        4.0,
+        4.0,
+        2.0,
+        7.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -62,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 697904
+      "races_with_same_dogs": 211289
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -71,13 +78,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 10.649999999999999
+      "avg_run_home": 19.277600000000003
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.17039170558842734
+      "split_stdev": 1.5277551069024993
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -86,14 +93,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Gary Stewart"
+      "trainer": "Jesse Erenshaw"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 58
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -105,41 +112,41 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 2775.0
+      "career_prize": 19855.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": NaN
+      "avg_1st_split_pos": 3.857142857142857
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -324
+      "dist_diff_from_last": -400
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "Coordinates not mapped for track: RIS"
+      "message": "Coordinates not mapped for track: CAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6666666666666666,
-      "place_rate": 0.6666666666666666
+      "win_rate": 0.16,
+      "place_rate": 0.32
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Gary Stewart"
+      "trainer_lookup": "Jesse Erenshaw"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "HOOKED ON SCOTCH",
-      "dam": "KERMARO",
-      "total_offspring_runs_in_state": 8672,
-      "sire_win_rate": 0.12880535055350553
+      "sire": "ZAMBORA BROCKIE",
+      "dam": "SWEET IMITATED",
+      "total_offspring_runs_in_state": 3824,
+      "sire_win_rate": 0.13284518828451883
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 29,
-      "litter_wins": 7
+      "litter_size_racing": 2,
+      "total_litter_runs": 30,
+      "litter_wins": 4
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -155,7 +162,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "NSW"
+      "home_state": "WA"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -170,13 +177,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 5
+      "total_starts": 28
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.8571428571428572
+      "ewma_places": 4.9950373171281015
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -185,22 +192,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Elite Run Home Time Strength",
-        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
+        "High Earnings Class / Classy Animal",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
