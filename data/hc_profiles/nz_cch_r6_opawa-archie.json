@@ -11,10 +11,10 @@
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
       "ml_prob": 0.5744,
-      "mc_win_pct": 86.1,
-      "ens_prob": 0.4983,
-      "fastai_prob": 0.19,
-      "fastai_rank": 2,
+      "mc_win_pct": 86.3,
+      "ens_prob": 0.5224,
+      "fastai_prob": 0.5173,
+      "fastai_rank": 1,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275167
+      "races_with_same_dogs": 275279
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -137,12 +137,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "GO HAZEL",
-      "total_offspring_runs_in_state": 1578,
-      "sire_win_rate": 0.15779467680608364
+      "total_offspring_runs_in_state": 1583,
+      "sire_win_rate": 0.1572962728995578
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 175,
+      "total_litter_runs": 176,
       "litter_wins": 51
     },
     "35_Injury_History": {
@@ -192,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -208,7 +208,8 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.517)"
       ]
     }
   }

@@ -11,10 +11,10 @@
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
       "ml_prob": 0.4047,
-      "mc_win_pct": 38.0,
-      "ens_prob": 0.2639,
-      "fastai_prob": 0.2376,
-      "fastai_rank": 4,
+      "mc_win_pct": 37.9,
+      "ens_prob": 0.27,
+      "fastai_prob": 0.3169,
+      "fastai_rank": 2,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -192,12 +192,11 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 12,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

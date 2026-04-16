@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1833,
-      "mc_win_pct": 66.2,
-      "ens_prob": 0.3763,
-      "fastai_prob": 0.5126,
+      "ml_prob": 0.2445,
+      "mc_win_pct": 67.2,
+      "ens_prob": 0.3861,
+      "fastai_prob": 0.5546,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397271
+      "races_with_same_dogs": 397592
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -131,12 +131,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "JUNGLE DEUCE",
       "dam": "AMBER ALE",
-      "total_offspring_runs_in_state": 1952,
-      "sire_win_rate": 0.12141393442622951
+      "total_offspring_runs_in_state": 1955,
+      "sire_win_rate": 0.12122762148337596
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 40,
+      "total_litter_runs": 41,
       "litter_wins": 13
     },
     "35_Injury_History": {
@@ -203,7 +203,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.513)"
+        "FastAI Strong Conviction (Rank 1, prob 0.555)"
       ]
     }
   }

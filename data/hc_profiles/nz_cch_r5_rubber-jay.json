@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2741,
-      "mc_win_pct": 30.3,
-      "ens_prob": 0.2701,
-      "fastai_prob": 0.1419,
-      "fastai_rank": 2,
+      "ml_prob": 0.2247,
+      "mc_win_pct": 29.5,
+      "ens_prob": 0.2339,
+      "fastai_prob": 0.1782,
+      "fastai_rank": 4,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275167
+      "races_with_same_dogs": 275279
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -137,13 +137,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "CHARLOTTE LU",
-      "total_offspring_runs_in_state": 3449,
-      "sire_win_rate": 0.198898231371412
+      "total_offspring_runs_in_state": 3455,
+      "sire_win_rate": 0.19913169319826338
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 100,
-      "litter_wins": 44
+      "total_litter_runs": 102,
+      "litter_wins": 46
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -192,14 +192,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.142)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

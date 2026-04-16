@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.3131,
-      "mc_win_pct": 93.9,
-      "ens_prob": 0.4659,
-      "fastai_prob": 0.7186,
+      "ml_prob": 0.2678,
+      "mc_win_pct": 93.3,
+      "ens_prob": 0.4516,
+      "fastai_prob": 0.7181,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 697467
+      "races_with_same_dogs": 697904
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,12 +129,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "TANIA KEEPING",
-      "total_offspring_runs_in_state": 10802,
-      "sire_win_rate": 0.15941492316237735
+      "total_offspring_runs_in_state": 10824,
+      "sire_win_rate": 0.15927568366592756
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 13,
+      "total_litter_runs": 16,
       "litter_wins": 5
     },
     "35_Injury_History": {
@@ -202,7 +202,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.719)"
+        "FastAI Strong Conviction (Rank 1, prob 0.718)"
       ]
     }
   }

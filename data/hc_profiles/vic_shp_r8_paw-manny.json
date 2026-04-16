@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1903,
-      "mc_win_pct": 40.3,
-      "ens_prob": 0.2397,
-      "fastai_prob": 0.0784,
-      "fastai_rank": 5,
+      "ml_prob": 0.2366,
+      "mc_win_pct": 41.0,
+      "ens_prob": 0.2872,
+      "fastai_prob": 0.3664,
+      "fastai_rank": 3,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 771494
+      "races_with_same_dogs": 771855
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -192,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,8 +201,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

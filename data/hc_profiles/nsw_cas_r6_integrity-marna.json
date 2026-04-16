@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1745,
-      "mc_win_pct": 37.7,
-      "ens_prob": 0.2648,
-      "fastai_prob": 0.6378,
-      "fastai_rank": 1,
+      "ml_prob": 0.1885,
+      "mc_win_pct": 37.0,
+      "ens_prob": 0.2515,
+      "fastai_prob": 0.426,
+      "fastai_rank": 5,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 697467
+      "races_with_same_dogs": 697904
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -137,8 +137,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "MISS INTEGRITY",
-      "total_offspring_runs_in_state": 7535,
-      "sire_win_rate": 0.16894492368944924
+      "total_offspring_runs_in_state": 7559,
+      "sire_win_rate": 0.16880539753935705
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -192,12 +192,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -206,8 +207,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.638)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }
