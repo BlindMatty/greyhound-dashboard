@@ -11,8 +11,8 @@
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
       "ml_prob": 0.3353,
-      "mc_win_pct": 23.2,
-      "ens_prob": 0.2801,
+      "mc_win_pct": 22.7,
+      "ens_prob": 0.2783,
       "fastai_prob": 0.5939,
       "fastai_rank": 2,
       "is_four_way": true
@@ -114,10 +114,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 27.2,
+      "max_wind_kmh": 27.8,
       "avg_temp_c": 12.7,
-      "total_precip_mm": 2.0,
-      "is_wet": false,
+      "total_precip_mm": 2.5,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {

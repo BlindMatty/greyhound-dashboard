@@ -1,20 +1,20 @@
 {
-  "dog": "CHEAP REALITY",
+  "dog": "NUGGET NED",
   "date": "2026-04-17",
-  "track": "TOW",
-  "race": 12,
+  "track": "RIC",
+  "race": 10,
   "distance": 0,
-  "grade": "Grade 5 Heat",
+  "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 3,
+    "history_length": 27,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.3,
-      "mc_win_pct": 88.0,
-      "ens_prob": 0.5067,
-      "fastai_prob": 0.3016,
-      "fastai_rank": 1,
+      "ml_prob": 0.2054,
+      "mc_win_pct": 17.8,
+      "ens_prob": 0.1933,
+      "fastai_prob": 0.5339,
+      "fastai_rank": 2,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -22,34 +22,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
+      "own_box": 7,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 380.0,
+      "avg_dist": 324.81481481481484,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 Heat vs Field"
+      "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.2,
-      "fluctuation": 0.1999999999999993,
+      "last_weight": 30.9,
+      "fluctuation": -0.8960000000000008,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 3,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": null,
+      "total_starts": 27,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.8,
       "last_10_places": [
-        1.0,
+        4.0,
         3.0,
-        1.0
+        4.0,
+        1.0,
+        2.0,
+        2.0,
+        7.0,
+        1.0,
+        6.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -62,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397686
+      "races_with_same_dogs": 698056
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -71,13 +78,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.325
+      "avg_run_home": 16.258181818181814
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.03535533905932725
+      "split_stdev": 0.45029485289691523
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -86,14 +93,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Hayley Wooler"
+      "trainer": "Tess Simmons"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -105,41 +112,45 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 4780.0
+      "career_prize": 10320.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -380
+      "dist_diff_from_last": -340
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "Coordinates not mapped for track: TOW"
+      "status": "success",
+      "max_wind_kmh": 13.9,
+      "avg_temp_c": 17.4,
+      "total_precip_mm": 0.0,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6666666666666666,
-      "place_rate": 1.0
+      "win_rate": 0.2,
+      "place_rate": 0.56
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Hayley Wooler"
+      "trainer_lookup": "Tess Simmons"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "HARD STYLE RICO",
-      "dam": "MISS CAITLYN",
-      "total_offspring_runs_in_state": 2681,
-      "sire_win_rate": 0.09585975382320029
+      "sire": "GOOD ODDS HARADA",
+      "dam": "RAINBOW DANCER",
+      "total_offspring_runs_in_state": 7923,
+      "sire_win_rate": 0.10437965417139972
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 1,
-      "total_litter_runs": 3,
-      "litter_wins": 2
+      "litter_size_racing": 6,
+      "total_litter_runs": 213,
+      "litter_wins": 22
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -155,13 +166,13 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "QLD"
+      "home_state": "NSW"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -170,13 +181,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 3
+      "total_starts": 27
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.5714285714285714
+      "ewma_places": 3.6952103881600613
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -185,22 +196,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
-      "decision": "PASS / CAUTION",
+      "final_score": 0,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Professional Box Dog (Elite start consistency)",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.302)"
+        "From an active winning litter (10+ wins)",
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }
