@@ -1,17 +1,57 @@
 {
   "date": "2026-04-19",
-  "totalPredictions": 0,
+  "totalPredictions": 186,
   "totalHighConfidence": 0,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 0,
+      "totalPredictions": 186,
       "highConfidenceCount": 0,
       "fourWayHighConfidenceCount": 0,
-      "topPicks": [],
-      "hasData": false,
-      "earliestRaceTime": null,
+      "topPicks": [
+        {
+          "track": "HVL",
+          "raceNumber": 3,
+          "raceId": 1286309985,
+          "raceStartTime": "11:51AM",
+          "dog": "FIND THE SUN",
+          "box": 6,
+          "rug": 6,
+          "probability": 0.4202865461648333,
+          "implied_odds": 2.3793290770906745,
+          "grade": "Grade 5 Final",
+          "tier": "green"
+        },
+        {
+          "track": "SLE",
+          "raceNumber": 8,
+          "raceId": 1287887643,
+          "raceStartTime": "7:22PM",
+          "dog": "ASTON BUGSY",
+          "box": 1,
+          "rug": 1,
+          "probability": 0.32835817395317063,
+          "implied_odds": 3.045454870091392,
+          "grade": "Mixed 4/5",
+          "tier": "yellow"
+        },
+        {
+          "track": "HVL",
+          "raceNumber": 10,
+          "raceId": 1287916693,
+          "raceStartTime": "2:07PM",
+          "dog": "ALL MUCKED UP",
+          "box": 2,
+          "rug": 2,
+          "probability": 0.3247314416416515,
+          "implied_odds": 3.0794677440058993,
+          "grade": "Free For All",
+          "tier": "yellow"
+        }
+      ],
+      "hasData": true,
+      "earliestRaceTime": "11:20AM",
       "bets": 1018,
       "wins": 293,
       "strike_rate": 28.781925343811395,
