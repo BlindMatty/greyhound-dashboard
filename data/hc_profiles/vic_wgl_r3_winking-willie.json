@@ -1,20 +1,20 @@
 {
-  "dog": "REDEEMER'S WAY",
+  "dog": "WINKING WILLIE",
   "date": "2026-04-17",
-  "track": "QOT",
-  "race": 11,
+  "track": "WGL",
+  "race": 3,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "S/E Veteran",
   "steps": {
-    "history_length": 22,
+    "history_length": 97,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2962,
-      "mc_win_pct": 33.2,
-      "ens_prob": 0.224,
-      "fastai_prob": 0.1311,
-      "fastai_rank": 1,
+      "ml_prob": 0.2724,
+      "mc_win_pct": 100.0,
+      "ens_prob": 0.4768,
+      "fastai_prob": 0.1302,
+      "fastai_rank": 3,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -27,36 +27,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 345.59090909090907,
+      "avg_dist": 399.74226804123714,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "S/E Veteran vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.2,
-      "fluctuation": 0.31250000000000355,
+      "last_weight": 36.0,
+      "fluctuation": 0.15111111111111342,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 22,
-      "last_3_avg_place": 3.3333333333333335,
-      "last_5_avg_place": 2.6,
+      "total_starts": 97,
+      "last_3_avg_place": 4.0,
+      "last_5_avg_place": 4.0,
       "last_10_places": [
-        2.0,
         1.0,
-        6.0,
+        3.0,
+        4.0,
+        1.0,
+        2.0,
+        5.0,
+        3.0,
+        2.0,
         7.0,
-        2.0,
-        2.0,
-        1.0,
-        3.0,
-        3.0,
-        4.0
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397686
+      "races_with_same_dogs": 772239
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -78,13 +78,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.062666666666667
+      "avg_run_home": 16.33697294117647
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.017088749229645
+      "split_stdev": 1.5785084987092084
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -93,60 +93,64 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "John Dart"
+      "trainer": "DONALD RHODES"
     },
     "21_Size_Bumping": {
-      "is_heavy": false,
+      "is_heavy": true,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 5
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
-      "has_group_experience": false
+      "has_group_experience": true
     },
     "25_Public_Trials": {
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 11370.0
+      "career_prize": 74260.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 2.0
+      "avg_1st_split_pos": 3.909090909090909
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -390
+      "dist_diff_from_last": -350
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "Coordinates not mapped for track: QOT"
+      "status": "success",
+      "max_wind_kmh": 27.8,
+      "avg_temp_c": 12.7,
+      "total_precip_mm": 2.5,
+      "is_wet": true,
+      "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3125,
-      "place_rate": 0.6875
+      "win_rate": 0.2413793103448276,
+      "place_rate": 0.6781609195402298
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "John Dart"
+      "trainer_lookup": "DONALD RHODES"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "MY REDEEMER",
-      "dam": "RUMBLING AWAY",
-      "total_offspring_runs_in_state": 9688,
-      "sire_win_rate": 0.09898843930635838
+      "sire": "BERNARDO",
+      "dam": "SILVER SALUTE",
+      "total_offspring_runs_in_state": 37402,
+      "sire_win_rate": 0.14763916368108657
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 8,
-      "total_litter_runs": 111,
-      "litter_wins": 21
+      "litter_size_racing": 5,
+      "total_litter_runs": 261,
+      "litter_wins": 44
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 2
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -162,7 +166,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "QLD"
+      "home_state": "VIC"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -177,36 +181,40 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 22
+      "total_starts": 97
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.36586556801709
+      "ewma_places": 3.9085742883026344
     },
     "48_Track_Renovations": {
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": false
+      "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": 12,
-      "decision": "PASS / CAUTION",
+      "final_score": 5,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)",
+        "Heavy dog penalty on assumed wet track",
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Lukewarm (Rank 3, prob 0.130)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
+        "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
-        "Elite Early Speed (<= 2.0 avg split pos)",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
+        "Group/Feature Race Caliber",
+        "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
+        "Veteran Dog (>50 starts) - Racing sense",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
