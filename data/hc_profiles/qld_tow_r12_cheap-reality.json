@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2382,
-      "mc_win_pct": 88.9,
-      "ens_prob": 0.4642,
-      "fastai_prob": 0.1604,
+      "ml_prob": 0.2729,
+      "mc_win_pct": 88.5,
+      "ens_prob": 0.4724,
+      "fastai_prob": 0.2654,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -40,7 +40,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 3,
@@ -185,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 13,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -199,7 +199,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.265)"
       ]
     }
   }
