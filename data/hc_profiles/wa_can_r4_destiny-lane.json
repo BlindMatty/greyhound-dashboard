@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.4795,
-      "mc_win_pct": 55.3,
-      "ens_prob": 0.3762,
-      "fastai_prob": 0.132,
-      "fastai_rank": 5,
+      "ml_prob": 0.2396,
+      "mc_win_pct": 46.7,
+      "ens_prob": 0.3111,
+      "fastai_prob": 0.1997,
+      "fastai_rank": 4,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -40,7 +40,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 24,
@@ -192,16 +192,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",

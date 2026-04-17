@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2654,
-      "mc_win_pct": 43.7,
-      "ens_prob": 0.2684,
-      "fastai_prob": 0.4776,
-      "fastai_rank": 2,
+      "ml_prob": 0.245,
+      "mc_win_pct": 44.0,
+      "ens_prob": 0.2484,
+      "fastai_prob": 0.6286,
+      "fastai_rank": 1,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -198,7 +198,8 @@
         "Optimal Racing Cadence (6-10 days)",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.629)"
       ]
     }
   }

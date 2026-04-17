@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2963,
-      "mc_win_pct": 24.6,
-      "ens_prob": 0.2772,
-      "fastai_prob": 0.3004,
-      "fastai_rank": 1,
+      "ml_prob": 0.2221,
+      "mc_win_pct": 23.6,
+      "ens_prob": 0.2375,
+      "fastai_prob": 0.6196,
+      "fastai_rank": 2,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -40,7 +40,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
       "total_starts": 1,
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -197,8 +197,7 @@
         "Elite Run Home Time Strength",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.300)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

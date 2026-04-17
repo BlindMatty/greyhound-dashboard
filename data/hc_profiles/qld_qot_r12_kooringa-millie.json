@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1886,
-      "mc_win_pct": 68.7,
-      "ens_prob": 0.2711,
-      "fastai_prob": 0.1118,
-      "fastai_rank": 3,
+      "ml_prob": 0.1923,
+      "mc_win_pct": 69.1,
+      "ens_prob": 0.2732,
+      "fastai_prob": 0.1429,
+      "fastai_rank": 5,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -187,14 +187,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.112)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
