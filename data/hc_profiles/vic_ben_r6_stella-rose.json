@@ -1,20 +1,20 @@
 {
-  "dog": "PRAWN AND ORDER",
+  "dog": "STELLA ROSE",
   "date": "2026-04-18",
   "track": "BEN",
-  "race": 5,
+  "race": 6,
   "distance": 0,
-  "grade": "Rank Limit - Grade 6",
+  "grade": "Rank Limit - Grade 5",
   "steps": {
-    "history_length": 20,
+    "history_length": 93,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2358,
+      "ml_prob": 0.1333,
       "mc_win_pct": 100.0,
-      "ens_prob": 0.5727,
-      "fastai_prob": 0.164,
-      "fastai_rank": 1,
+      "ens_prob": 0.4559,
+      "fastai_prob": 0.1017,
+      "fastai_rank": 2,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -22,40 +22,40 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 403.75,
+      "avg_dist": 421.93548387096774,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Rank Limit - Grade 6 vs Field"
+      "current_vs_historic_grade": "Rank Limit - Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.5,
-      "fluctuation": 0.27777777777777857,
+      "last_weight": 29.5,
+      "fluctuation": 0.8487500000000026,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 20,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 3.2,
+      "total_starts": 93,
+      "last_3_avg_place": 5.0,
+      "last_5_avg_place": 5.0,
       "last_10_places": [
-        1.0,
-        7.0,
-        6.0,
-        4.0,
-        4.0,
-        5.0,
-        5.0,
         3.0,
         2.0,
+        6.0,
+        6.0,
+        1.0,
+        4.0,
+        6.0,
+        6.0,
+        8.0,
         1.0
       ]
     },
@@ -78,13 +78,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.422833333333335
+      "avg_run_home": 17.103440140845073
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.28229752226465
+      "split_stdev": 1.353119516740671
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -93,7 +93,7 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "DARREN FISHER"
+      "trainer": "JANE HOOKE"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
@@ -112,10 +112,10 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 3740.0
+      "career_prize": 12140.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": NaN
+      "avg_1st_split_pos": 4.294117647058823
     },
     "28_Distance_Switch": {
       "dist_diff_from_last": -425
@@ -129,34 +129,34 @@
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.16666666666666666,
-      "place_rate": 0.4444444444444444
+      "win_rate": 0.1125,
+      "place_rate": 0.25
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "DARREN FISHER"
+      "trainer_lookup": "JANE HOOKE"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "BERNARDO",
-      "dam": "JEN JUMBO PRAWN",
-      "total_offspring_runs_in_state": 37061,
-      "sire_win_rate": 0.1475135587275033
+      "sire": "ASTON DEE BEE",
+      "dam": "WHITE AMBUSH",
+      "total_offspring_runs_in_state": 28327,
+      "sire_win_rate": 0.14103152469375507
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 61,
-      "litter_wins": 8
+      "total_litter_runs": 580,
+      "litter_wins": 61
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
     },
     "37_Aggressor_Map": {
-      "wide_runner": false
+      "wide_runner": true
     },
     "38_Course_Distance": {
       "cd_wins": 0
@@ -181,13 +181,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 20
+      "total_starts": 93
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.9792441530004616
+      "ewma_places": 3.847555248539085
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -196,19 +196,23 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Poor Recent Form (>4.5 avg)",
         "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "Wide Runner drawn Inside (Crash risk)",
+        "FastAI Lukewarm (Rank 2, prob 0.102)"
       ],
       "green_flags": [
-        "Small Field Advantage",
-        "Strong Recent Form (<2.5 avg)",
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
+        "From an active winning litter (10+ wins)",
+        "Veteran Dog (>50 starts) - Racing sense",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
