@@ -1,12 +1,12 @@
 {
   "date": "2026-04-18",
-  "totalPredictions": 700,
+  "totalPredictions": 698,
   "totalHighConfidence": 6,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 173,
+      "totalPredictions": 172,
       "highConfidenceCount": 6,
       "fourWayHighConfidenceCount": 6,
       "topPicks": [
@@ -93,7 +93,7 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 358,
+      "totalPredictions": 357,
       "highConfidenceCount": 0,
       "fourWayHighConfidenceCount": 0,
       "topPicks": [
@@ -108,10 +108,10 @@
           "probability": 0.4083585828623475,
           "implied_odds": 2.4488281671236165,
           "grade": "Non Graded",
-          "ensemble_prob": 0.3609530343047828,
-          "ensemble_odds": 2.770443534090411,
+          "ensemble_prob": 0.3642659943047828,
+          "ensemble_odds": 2.745246648423888,
           "ensemble_rank": 1,
-          "mc_win_pct": 56.6,
+          "mc_win_pct": 57.47,
           "mc_method": "dog_track_dist",
           "fastai_prob": 0.1511373240490519,
           "fastai_rank": 4,
@@ -130,14 +130,14 @@
           "probability": 0.3436061405520526,
           "implied_odds": 2.9103088739722645,
           "grade": "Grade 5",
-          "ensemble_prob": 0.21231147702021624,
+          "ensemble_prob": 0.2123114770202162,
           "ensemble_odds": 4.710060963424885,
           "ensemble_rank": 2,
           "mc_win_pct": 0.0,
           "mc_method": "dog_track_dist",
           "fastai_prob": 0.1546436210390457,
           "fastai_rank": 5,
-          "elo_prob": 0.10293621453641932,
+          "elo_prob": 0.1029362145364193,
           "elo_rating": 1252,
           "tier": "yellow"
         },
@@ -152,14 +152,14 @@
           "probability": 0.3423999271307429,
           "implied_odds": 2.92056136921477,
           "grade": "Non Graded",
-          "ensemble_prob": 0.19598904227592065,
-          "ensemble_odds": 5.102326070822689,
+          "ensemble_prob": 0.1941612022759206,
+          "ensemble_odds": 5.150359537735605,
           "ensemble_rank": 2,
-          "mc_win_pct": 15.25,
+          "mc_win_pct": 14.77,
           "mc_method": "dog_track_dist",
           "fastai_prob": 0.1826571446884682,
           "fastai_rank": 3,
-          "elo_prob": 0.06732006951899974,
+          "elo_prob": 0.0673200695189997,
           "elo_rating": 1326,
           "tier": "yellow"
         }
