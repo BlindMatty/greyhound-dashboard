@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1442,
-      "mc_win_pct": 32.0,
-      "ens_prob": 0.1933,
-      "fastai_prob": 0.0779,
-      "fastai_rank": 7,
+      "ml_prob": 0.1363,
+      "mc_win_pct": 31.6,
+      "ens_prob": 0.2048,
+      "fastai_prob": 0.1796,
+      "fastai_rank": 6,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397863
+      "races_with_same_dogs": 398079
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,12 +129,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON EXCEED",
       "dam": "ASTON ARIARNE",
-      "total_offspring_runs_in_state": 46,
-      "sire_win_rate": 0.1956521739130435
+      "total_offspring_runs_in_state": 48,
+      "sire_win_rate": 0.1875
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 5,
+      "total_litter_runs": 7,
       "litter_wins": 1
     },
     "35_Injury_History": {
@@ -189,7 +189,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

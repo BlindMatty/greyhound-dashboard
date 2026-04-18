@@ -10,11 +10,11 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.4248,
-      "mc_win_pct": 60.8,
-      "ens_prob": 0.426,
-      "fastai_prob": 0.7044,
-      "fastai_rank": 1,
+      "ml_prob": 0.3895,
+      "mc_win_pct": 61.6,
+      "ens_prob": 0.4215,
+      "fastai_prob": 0.4505,
+      "fastai_rank": 3,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 698534
+      "races_with_same_dogs": 699022
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FLYING RICCIARDO",
       "dam": "REIKO LIVE WIRE",
-      "total_offspring_runs_in_state": 12324,
-      "sire_win_rate": 0.1296656929568322
+      "total_offspring_runs_in_state": 12343,
+      "sire_win_rate": 0.12954711172324396
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 11,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,8 +205,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.704)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }

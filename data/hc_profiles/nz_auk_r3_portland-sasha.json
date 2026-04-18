@@ -11,10 +11,10 @@
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
       "ml_prob": 0.2206,
-      "mc_win_pct": 44.9,
-      "ens_prob": 0.3096,
-      "fastai_prob": 0.408,
-      "fastai_rank": 2,
+      "mc_win_pct": 44.4,
+      "ens_prob": 0.307,
+      "fastai_prob": 0.5509,
+      "fastai_rank": 1,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 8,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,7 +203,8 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.551)"
       ]
     }
   }
