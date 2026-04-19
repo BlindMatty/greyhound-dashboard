@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1844,
-      "mc_win_pct": 36.8,
-      "ens_prob": 0.2309,
-      "fastai_prob": 0.0924,
+      "ml_prob": 0.2296,
+      "mc_win_pct": 37.7,
+      "ens_prob": 0.2645,
+      "fastai_prob": 0.1543,
       "fastai_rank": 2,
       "is_four_way": true
     },
@@ -23,7 +23,7 @@
     },
     "03_Speed_Map": {
       "own_box": 8,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
@@ -40,7 +40,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 66,
@@ -192,16 +192,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.092)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
