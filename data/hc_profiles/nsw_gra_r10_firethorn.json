@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2823,
-      "mc_win_pct": 34.3,
-      "ens_prob": 0.2753,
-      "fastai_prob": 0.5045,
+      "ml_prob": 0.268,
+      "mc_win_pct": 38.0,
+      "ens_prob": 0.2966,
+      "fastai_prob": 0.2403,
       "fastai_rank": 2,
       "is_four_way": true
     },
@@ -23,7 +23,7 @@
     },
     "03_Speed_Map": {
       "own_box": 8,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
@@ -40,7 +40,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 26,
@@ -192,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -201,6 +201,7 @@
         "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Head-to-Head Experience over field",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
