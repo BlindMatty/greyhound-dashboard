@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2969,
-      "mc_win_pct": 60.2,
-      "ens_prob": 0.4152,
-      "fastai_prob": 0.4097,
+      "ml_prob": 0.313,
+      "mc_win_pct": 61.0,
+      "ens_prob": 0.3765,
+      "fastai_prob": 0.2668,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 699022
+      "races_with_same_dogs": 699275
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -137,8 +137,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "SWEET CITY WOMAN",
-      "total_offspring_runs_in_state": 101134,
-      "sire_win_rate": 0.1370063480135266
+      "total_offspring_runs_in_state": 101159,
+      "sire_win_rate": 0.13701203056574304
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -211,7 +211,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.410)"
+        "FastAI Strong Conviction (Rank 1, prob 0.267)"
       ]
     }
   }

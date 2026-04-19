@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.1847,
-      "mc_win_pct": 32.6,
-      "ens_prob": 0.2873,
-      "fastai_prob": 0.1104,
+      "ml_prob": 0.1783,
+      "mc_win_pct": 32.4,
+      "ens_prob": 0.2446,
+      "fastai_prob": 0.5817,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -69,7 +69,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 772840
+      "races_with_same_dogs": 773053
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -137,12 +137,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "JACKSLITTLETHING",
       "dam": "IDRIA BALE",
-      "total_offspring_runs_in_state": 1323,
-      "sire_win_rate": 0.12622826908541193
+      "total_offspring_runs_in_state": 1324,
+      "sire_win_rate": 0.12613293051359517
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 418,
+      "total_litter_runs": 419,
       "litter_wins": 79
     },
     "35_Injury_History": {
@@ -192,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -211,7 +211,8 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.582)"
       ]
     }
   }

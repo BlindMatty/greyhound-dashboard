@@ -8,14 +8,14 @@
   "steps": {
     "history_length": 103,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS)",
-      "alignment_count": 3,
+      "status": "Validated (ML+MC+ENS+FAI)",
+      "alignment_count": 4,
       "ml_prob": 0.2227,
-      "mc_win_pct": 30.2,
-      "ens_prob": 0.3039,
-      "fastai_prob": null,
-      "fastai_rank": null,
-      "is_four_way": false
+      "mc_win_pct": 30.4,
+      "ens_prob": 0.2452,
+      "fastai_prob": 0.2211,
+      "fastai_rank": 3,
+      "is_four_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -192,7 +192,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 12,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -208,7 +208,7 @@
         "Adjacent Vacant Box (Clean Air potential)",
         "Second-Up Bounce Profile (Pinnacle fitness)",
         "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }
