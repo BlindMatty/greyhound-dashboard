@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2287,
-      "mc_win_pct": 40.2,
-      "ens_prob": 0.3394,
-      "fastai_prob": 0.6999,
+      "ml_prob": 0.4288,
+      "mc_win_pct": 49.8,
+      "ens_prob": 0.3934,
+      "fastai_prob": 0.2259,
       "fastai_rank": 1,
       "is_four_way": true
     },
@@ -40,7 +40,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 8,
@@ -189,7 +189,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,8 +199,7 @@
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.700)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
       ]
     }
   }
