@@ -8,14 +8,13 @@
   "steps": {
     "history_length": 9,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
       "ml_prob": 0.2321,
-      "mc_win_pct": 36.8,
-      "ens_prob": 0.2355,
-      "fastai_prob": 0.6716,
+      "ens_prob": 0.1799,
+      "fastai_prob": 0.658,
       "fastai_rank": 1,
-      "is_four_way": true
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -204,8 +203,8 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.672)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.658)"
       ]
     }
   }

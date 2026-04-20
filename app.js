@@ -62,7 +62,7 @@ async function loadDate(dateStr) {
   hide('loading');
 
   // High confidence picks are loaded from state prediction JSONs
-  // (consensus: ML + ENS + MC all agree on #1 pick)
+  // (consensus: ML + ENS agree, and FastAI must also agree when present)
   // We load them after the first state is selected
   window._summaryStates = summaryData.states;
   renderStateTabs(summaryData.states);
@@ -80,10 +80,8 @@ function renderSummary(data) {
   const mp = data.modelPerformance;
   if (mp && mp.models) {
     document.getElementById('statENS').textContent = mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-';
-    document.getElementById('statML').textContent = mp.models.ml ? mp.models.ml.strikeRate.toFixed(1) + '%' : '-';
-    document.getElementById('statFAI').textContent = mp.models.fastai ? mp.models.fastai.strikeRate.toFixed(1) + '%' : '-';
-    document.getElementById('statMC').textContent = mp.models.mc ? mp.models.mc.strikeRate.toFixed(1) + '%' : '-';
-    document.getElementById('statELO').textContent = mp.models.elo ? mp.models.elo.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statFASTENS').textContent = mp.models.fast_ens ? mp.models.fast_ens.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statELOENS').textContent = mp.models.elo_ens ? mp.models.elo_ens.strikeRate.toFixed(1) + '%' : '-';
     const meta = document.getElementById('summaryMeta');
     meta.textContent = `Cumulative SR from ${mp.startDate} to ${mp.resultsDate} over ${mp.settledRaces} settled races`;
     show('summaryMeta');
@@ -91,7 +89,7 @@ function renderSummary(data) {
   show('summaryBar');
 }
 
-// ── High confidence picks (3-way normally, 4-way when FastAI is present) ──
+// ── FAST ENS top picks (ELO ENS when confirmed by Elo) ──
 async function loadHighConfidencePicks(states) {
   const allHC = [];
   const fetches = states.filter(s => s.hasData).map(async (s) => {
@@ -130,24 +128,23 @@ function parseTime(s) {
 function renderHighConfidence(picks) {
   const el = document.getElementById('hcPicks');
   if (!picks.length) { hide('hcSection'); return; }
-  const fourWayCount = picks.filter(p => p.isFourWayAligned).length;
+  const eloEnsCount = picks.filter(p => p.isEloEns).length;
   const subtitle = document.getElementById('hcSubtitle');
   if (subtitle) {
-    subtitle.textContent = `(3-way normally, 4-way when FastAI is present • ${fourWayCount} 4-way picks)`;
+    subtitle.textContent = `(${picks.length} FAST ENS picks • ${eloEnsCount} ELO ENS confirmations)`;
   }
 
   el.innerHTML = picks.map(p => {
     const ensOdds = p.ensemble_odds || p.implied_odds || 0;
     const ensProb = p.ensemble_prob || p.probability || 0;
     const fastaiProb = p.fastai_prob || 0;
-    const mcPct = p.mc_win_pct != null ? p.mc_win_pct : '';
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
     <div class="hc-card" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)}${p.isFourWayAligned ? ' <span class="badge badge-4way">4WAY</span>' : ''}</span>
+        <span class="hc-dog">${esc(p.dog)} <span class="badge badge-fast-ens">FAST ENS</span>${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           · ${esc(p.stateName)}
@@ -156,8 +153,7 @@ function renderHighConfidence(picks) {
           ML ${(p.probability * 100).toFixed(1)}%
           · ENS ${(ensProb * 100).toFixed(1)}%
           ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
-          ${mcPct !== '' ? '· MC ' + (typeof mcPct === 'number' ? mcPct.toFixed(1) : mcPct) + '%' : ''}
-          ${p.elo_agrees ? ' · <span class="badge badge-elo" style="font-size:0.6rem">ELO ✓</span>' : (p.elo_prob ? ' · <span style="font-size:0.6rem;opacity:0.5">ELO ✗</span>' : '')}
+          ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : (p.elo_prob ? ' · <span style="font-size:0.6rem;opacity:0.5">ELO no</span>' : '')}
         </span>
       </div>
       <div>
@@ -282,16 +278,11 @@ function renderRaces(data) {
     const mlTop = dogs.reduce((best, d) => (!best || (d.probability || 0) > (best.probability || 0)) ? d : best, null);
     const ensTop = dogs.reduce((best, d) => (!best || (d.ensemble_prob || 0) > (best.ensemble_prob || 0)) ? d : best, null);
     const fastaiTop = dogs.reduce((best, d) => (!best || (d.fastai_prob || 0) > (best.fastai_prob || 0)) ? d : best, null);
-    const mcTop = dogs.reduce((best, d) => {
-      const mc = d.mc_win_pct != null && d.mc_win_pct > 0 ? d.mc_win_pct : 0;
-      const bestMc = best && best.mc_win_pct != null && best.mc_win_pct > 0 ? best.mc_win_pct : 0;
-      return mc > bestMc ? d : best;
-    }, null);
     const eloTop = dogs.reduce((best, d) => (!best || (d.elo_prob || 0) > (best.elo_prob || 0)) ? d : best, null);
     const topDog = ensTop || mlTop;
 
     // Tag each dog with which models pick it as #1
-    const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, fastai: fastaiTop?.dog, mc: mcTop?.dog, elo: eloTop?.dog };
+    const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, fastai: fastaiTop?.dog, elo: eloTop?.dog };
       const totalProb = race.dogs.reduce((s, d) => s + (d.probability || 0), 0) * 100;
 
     return `
@@ -316,7 +307,6 @@ function renderRaces(data) {
                 <th>ENS %</th>
                 <th>ML %</th>
                 <th>FastAI %</th>
-                <th>MC %</th>
                 <th>Elo</th>
                 <th>ENS Odds</th>
               </tr>
@@ -336,20 +326,20 @@ function dogRow(d, isTop, topNames) {
   const eProb = d.ensemble_prob || 0;
   const fProb = d.fastai_prob || 0;
   const eOdds = d.ensemble_odds || 0;
-  const mc = d.mc_win_pct != null ? d.mc_win_pct : '';
   const eloR = d.elo_rating || '';
   const tierClass = d.isHighConf ? 'tier-green' : isTop ? 'tier-yellow' : '';
   const barW = Math.min(eProb * 200, 80);
   const rug = d.rug || d.box;
 
-  // Model top-pick badges — 4WAY = core betting signal (ENS+ML+FAI+MC), ELO is separate/informational
+  // ENS tiers — standard ENS is always the blended top pick, FAST ENS is ML+FAI+ENS agreement, ELO ENS adds Elo confirmation
   const badges = [];
   if (topNames.ens && d.dog === topNames.ens) badges.push('<span class="badge badge-ens">ENS</span>');
-  if (topNames.ml && d.dog === topNames.ml) badges.push('<span class="badge badge-ml">ML</span>');
-  if (topNames.fastai && d.dog === topNames.fastai) badges.push('<span class="badge badge-fastai">FAI</span>');
-  if (topNames.mc && d.dog === topNames.mc) badges.push('<span class="badge badge-mc">MC</span>');
-  if (badges.length === 4) badges.unshift('<span class="badge badge-4way">4WAY</span>');
-  if (topNames.elo && d.dog === topNames.elo) badges.push('<span class="badge badge-elo">ELO</span>');
+  const fastEnsDog = (topNames.ens && topNames.ml && topNames.fastai && topNames.ens === topNames.ml && topNames.ens === topNames.fastai)
+    ? topNames.ens
+    : null;
+  const eloEnsDog = fastEnsDog && topNames.elo && topNames.elo === fastEnsDog ? fastEnsDog : null;
+  if (fastEnsDog && d.dog === fastEnsDog) badges.push('<span class="badge badge-fast-ens">FAST ENS</span>');
+  if (eloEnsDog && d.dog === eloEnsDog) badges.push('<span class="badge badge-elo-ens">ELO ENS</span>');
   const badgeHtml = badges.length ? ' ' + badges.join('') : '';
 
   return `
@@ -360,7 +350,6 @@ function dogRow(d, isTop, topNames) {
       <td>${eProb ? (eProb * 100).toFixed(1) + '%' : '—'}</td>
       <td>${(prob * 100).toFixed(1)}%</td>
       <td>${fProb ? (fProb * 100).toFixed(1) + '%' : '—'}</td>
-      <td>${mc !== '' ? (typeof mc === 'number' ? mc.toFixed(1) : mc) + '%' : '—'}</td>
       <td>${eloR ? 'R' + eloR : '—'}</td>
       <td>${eOdds ? '$' + eOdds.toFixed(2) : '—'}</td>
     </tr>

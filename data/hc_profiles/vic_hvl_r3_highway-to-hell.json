@@ -8,14 +8,13 @@
   "steps": {
     "history_length": 17,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.1542,
-      "mc_win_pct": 68.7,
-      "ens_prob": 0.3787,
-      "fastai_prob": 0.5505,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
+      "ml_prob": 0.1461,
+      "ens_prob": 0.344,
+      "fastai_prob": 0.6179,
       "fastai_rank": 1,
-      "is_four_way": true
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -40,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 17,
@@ -69,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 773053
+      "races_with_same_dogs": 773471
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -137,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "CHRISTO BALE",
       "dam": "HOT JEAN",
-      "total_offspring_runs_in_state": 3847,
-      "sire_win_rate": 0.1447881466077463
+      "total_offspring_runs_in_state": 3859,
+      "sire_win_rate": 0.14459704586680489
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 60,
+      "total_litter_runs": 62,
       "litter_wins": 5
     },
     "35_Injury_History": {
@@ -206,8 +205,8 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.550)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.618)"
       ]
     }
   }

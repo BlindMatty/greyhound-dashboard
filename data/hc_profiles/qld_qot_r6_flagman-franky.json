@@ -8,14 +8,13 @@
   "steps": {
     "history_length": 2,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.3029,
-      "mc_win_pct": 71.7,
-      "ens_prob": 0.5213,
-      "fastai_prob": 0.45,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
+      "ml_prob": 0.4251,
+      "ens_prob": 0.4548,
+      "fastai_prob": 0.2526,
       "fastai_rank": 1,
-      "is_four_way": true
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 398245
+      "races_with_same_dogs": 398381
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "FLYING SEPTEMBER",
-      "total_offspring_runs_in_state": 7103,
-      "sire_win_rate": 0.1053076165000704
+      "total_offspring_runs_in_state": 7109,
+      "sire_win_rate": 0.10535940357293572
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,8 +194,8 @@
         "Strong Head-to-Head Experience over field",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.450)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.253)"
       ]
     }
   }

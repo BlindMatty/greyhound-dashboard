@@ -8,14 +8,13 @@
   "steps": {
     "history_length": 2,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.34,
-      "mc_win_pct": 61.0,
-      "ens_prob": 0.4084,
-      "fastai_prob": 0.4218,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
+      "ml_prob": 0.2892,
+      "ens_prob": 0.3052,
+      "fastai_prob": 0.3722,
       "fastai_rank": 1,
-      "is_four_way": true
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -61,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 211569
+      "races_with_same_dogs": 211656
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "MISS AMERICA",
-      "total_offspring_runs_in_state": 1910,
-      "sire_win_rate": 0.17643979057591622
+      "total_offspring_runs_in_state": 1912,
+      "sire_win_rate": 0.17625523012552302
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -202,8 +201,8 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Second-Up Bounce Profile (Pinnacle fitness)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.422)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.372)"
       ]
     }
   }
