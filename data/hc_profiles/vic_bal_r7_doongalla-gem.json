@@ -1,20 +1,20 @@
 {
-  "dog": "PAW HADES",
+  "dog": "DOONGALLA GEM",
   "date": "2026-04-20",
-  "track": "SHP",
-  "race": 11,
+  "track": "BAL",
+  "race": 7,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Grade 5 T3",
   "steps": {
-    "history_length": 6,
+    "history_length": 20,
     "01_Shortlist": {
       "status": "Validated (ML+MC+ENS+FAI)",
       "alignment_count": 4,
-      "ml_prob": 0.2538,
+      "ml_prob": 0.1845,
       "mc_win_pct": 100.0,
-      "ens_prob": 0.4292,
-      "fastai_prob": 0.5545,
-      "fastai_rank": 3,
+      "ens_prob": 0.4657,
+      "fastai_prob": 0.6453,
+      "fastai_rank": 1,
       "is_four_way": true
     },
     "02_TDG_Medians": {
@@ -27,32 +27,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 399.1666666666667,
+      "avg_dist": 417.75,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Grade 5 T3 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 31.6,
-      "fluctuation": -0.016666666666662167,
+      "last_weight": 28.3,
+      "fluctuation": 1.1875,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 6,
-      "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 3.2,
+      "total_starts": 20,
+      "last_3_avg_place": 4.333333333333333,
+      "last_5_avg_place": 5.2,
       "last_10_places": [
         1.0,
         1.0,
         1.0,
+        5.0,
+        5.0,
+        6.0,
         7.0,
         4.0,
-        3.0
+        4.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -74,13 +78,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.011
+      "avg_run_home": 16.151767857142858
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.4295677930759354
+      "split_stdev": 0.958810491916594
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -89,14 +93,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "MARK DELBRIDGE"
+      "trainer": "MATHEW TABB"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 12
+      "days_since_last_run": 9
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -108,41 +112,45 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 6000.0
+      "career_prize": 4385.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": NaN
+      "avg_1st_split_pos": 3.5454545454545454
     },
     "28_Distance_Switch": {
       "dist_diff_from_last": -390
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "Coordinates not mapped for track: SHP"
+      "status": "success",
+      "max_wind_kmh": 10.8,
+      "avg_temp_c": 14.6,
+      "total_precip_mm": 0.0,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5,
-      "place_rate": 0.6666666666666666
+      "win_rate": 0.25,
+      "place_rate": 0.3125
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "MARK DELBRIDGE"
+      "trainer_lookup": "MATHEW TABB"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "ORSON ALLEN",
-      "dam": "KALANY BALE",
-      "total_offspring_runs_in_state": 17512,
-      "sire_win_rate": 0.1264275925079945
+      "sire": "BERNARDO",
+      "dam": "HOLLY'S ENTITY",
+      "total_offspring_runs_in_state": 37107,
+      "sire_win_rate": 0.14762713234699654
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 5,
-      "total_litter_runs": 80,
-      "litter_wins": 21
+      "litter_size_racing": 4,
+      "total_litter_runs": 89,
+      "litter_wins": 11
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -173,13 +181,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 6
+      "total_starts": 20
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.5396825396825395
+      "ewma_places": 4.752117189288167
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -188,21 +196,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 9,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.645)"
       ]
     }
   }
