@@ -573,21 +573,21 @@
     }
   ],
   "modelPerformance": {
-    "startDate": "2026-04-13",
+    "startDate": "2025-11-29",
     "resultsDate": "2026-04-20",
-    "settledRaces": 1045,
+    "settledRaces": 18583,
     "models": {
       "ens": {
-        "wins": 346,
-        "settled": 1045,
+        "wins": 5990,
+        "settled": 18583,
         "label": "ENS",
-        "strikeRate": 33.11004784688995
+        "strikeRate": 32.23376204057472
       },
       "fast_ens": {
-        "wins": 134,
-        "settled": 323,
+        "wins": 252,
+        "settled": 609,
         "label": "FAST ENS",
-        "strikeRate": 41.48606811145511
+        "strikeRate": 41.37931034482759
       },
       "elo_ens": {
         "wins": 42,
