@@ -68,11 +68,10 @@ async function loadDate(dateStr) {
   renderStateTabs(summaryData.states);
   loadHighConfidencePicks(summaryData.states);
 
-  // Auto-select first state by earliest race time
-  const first = summaryData.states
-    .filter(s => s.hasData)
-    .sort((a, b) => parseTime(a.earliestRaceTime) - parseTime(b.earliestRaceTime))[0];
-  if (first) selectState(first.code);
+  // Default to showing all states by time
+  if (summaryData.states.some(s => s.hasData)) {
+    selectAllStates();
+  }
 }
 
 // ── Render summary bar ──────────────────────────────
