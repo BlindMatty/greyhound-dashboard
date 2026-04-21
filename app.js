@@ -93,7 +93,8 @@ function renderSummary(data) {
 
 // ── FAST ENS top picks (ELO ENS when confirmed by Elo) ──
 async function loadHighConfidencePicks(states) {
-  const allHC = [];
+  const eloHC = [];
+  const tsHC = [];
   const FAST_ENS_TRACKS = ['MBR', 'DHO', 'MEP', 'BEN', 'DAR', 'HOB', 'CAS', 'BUL', 'GOS', 'HVL', 'LCN'];
   const ML_TRACKS = ['NOR', 'DHO', 'MBR', 'HOB', 'RIS', 'WAK'];
   
@@ -102,24 +103,35 @@ async function loadHighConfidencePicks(states) {
       const data = await fetchJSON(`${DATA_DIR}/${s.code}_predictions_${currentDate}.json`);
       stateDataCache[s.code] = data;
       for (const p of (data.highConfidencePicks || [])) {
+        const enhancedP = { ...p, state: s.code, stateName: s.name };
+        if (p.isEloEns) {
+          eloHC.push(enhancedP);
+        }
+        
         const t = (p.track || '').toUpperCase();
         const meetsFastEns = p.isFastEns && FAST_ENS_TRACKS.includes(t);
-        const meetsMl = ML_TRACKS.includes(t); // Because all highConfidencePicks are now ML top picks
+        const meetsMl = ML_TRACKS.includes(t); // Because all highConfidencePicks are ML top picks
         if (meetsFastEns || meetsMl) {
-          allHC.push({ ...p, state: s.code, stateName: s.name });
+          // Prevent duplicating exact same pick in TS section if it's already in ELO top banner? The user requested both sections. It's often good to keep them distinct or duplicate. The request is: "It needed to keep the existing TOP Picks as well. The track specialist picks are an add on". So they can be in both or separate.
+          tsHC.push(enhancedP);
         }
       }
     } catch { /* skip */ }
   });
   await Promise.all(fetches);
-  // Sort by race start time (all times are AEST)
-  allHC.sort((a, b) => {
+  
+  const sorter = (a, b) => {
     const ta = parseTime(a.raceStartTime);
     const tb = parseTime(b.raceStartTime);
     if (ta !== tb) return ta - tb;
     return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
-  });
-  renderHighConfidence(allHC);
+  };
+  
+  eloHC.sort(sorter);
+  tsHC.sort(sorter);
+  
+  renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks');
+  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists');
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
@@ -135,12 +147,12 @@ function parseTime(s) {
   return h * 60 + min;
 }
 
-function renderHighConfidence(picks) {
-  const el = document.getElementById('hcPicks');
-  if (!picks.length) { hide('hcSection'); return; }
-  const subtitle = document.getElementById('hcSubtitle');
+function renderPicksGrid(picks, gridId, sectionId, subtitleId, label) {
+  const el = document.getElementById(gridId);
+  if (!picks.length) { hide(sectionId); return; }
+  const subtitle = document.getElementById(subtitleId);
   if (subtitle) {
-    subtitle.textContent = `(${picks.length} top track specialists)`;
+    subtitle.textContent = `(${picks.length} ${label})`;
   }
 
   el.innerHTML = picks.map(p => {
@@ -171,7 +183,7 @@ function renderHighConfidence(picks) {
       </div>
     </div>
   `}).join('');
-  show('hcSection');
+  show(sectionId);
 }
 
 // ── State tabs ──────────────────────────────────────
