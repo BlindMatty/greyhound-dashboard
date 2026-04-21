@@ -79,6 +79,9 @@ async function loadDate(dateStr) {
 function renderSummary(data) {
   const mp = data.modelPerformance;
   if (mp && mp.models) {
+    document.getElementById('statML').textContent = mp.models.ml ? mp.models.ml.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statFA').textContent = mp.models.fastai ? mp.models.fastai.strikeRate.toFixed(1) + '%' : '-';
+    document.getElementById('statELO').textContent = mp.models.elo ? mp.models.elo.strikeRate.toFixed(1) + '%' : '-';
     document.getElementById('statENS').textContent = mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-';
     document.getElementById('statFASTENS').textContent = mp.models.fast_ens ? mp.models.fast_ens.strikeRate.toFixed(1) + '%' : '-';
     document.getElementById('statELOENS').textContent = mp.models.elo_ens ? mp.models.elo_ens.strikeRate.toFixed(1) + '%' : '-';
