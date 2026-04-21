@@ -1,12 +1,12 @@
 {
   "date": "2026-04-21",
-  "totalPredictions": 1066,
+  "totalPredictions": 1065,
   "totalHighConfidence": 54,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 268,
+      "totalPredictions": 267,
       "highConfidenceCount": 14,
       "fastEnsCount": 14,
       "eloEnsCount": 1,
@@ -26,7 +26,7 @@
           "ensemble_odds": 4.808318925868318,
           "fastai_prob": 0.1063281436296958,
           "fastai_rank": 5,
-          "elo_prob": 0.19675135604311497,
+          "elo_prob": 0.1967513560431149,
           "elo_rating": 1379,
           "tier": "green"
         },
@@ -45,7 +45,7 @@
           "ensemble_odds": 4.843324637498421,
           "fastai_prob": 0.1092732071414307,
           "fastai_rank": 2,
-          "elo_prob": 0.16018809228892458,
+          "elo_prob": 0.1601880922889245,
           "elo_rating": 1249,
           "tier": "yellow"
         },
@@ -579,21 +579,21 @@
     }
   ],
   "modelPerformance": {
-    "startDate": "2025-11-29",
+    "startDate": "2026-04-08",
     "resultsDate": "2026-04-20",
-    "settledRaces": 18583,
+    "settledRaces": 1780,
     "models": {
       "ens": {
-        "wins": 5990,
-        "settled": 18583,
+        "wins": 616,
+        "settled": 1780,
         "label": "ENS",
-        "strikeRate": 32.23376204057472
+        "strikeRate": 34.60674157303371
       },
       "fast_ens": {
-        "wins": 252,
-        "settled": 609,
+        "wins": 231,
+        "settled": 533,
         "label": "FAST ENS",
-        "strikeRate": 41.37931034482759
+        "strikeRate": 43.33958724202627
       },
       "elo_ens": {
         "wins": 42,
