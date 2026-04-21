@@ -97,7 +97,9 @@ async function loadHighConfidencePicks(states) {
       const data = await fetchJSON(`${DATA_DIR}/${s.code}_predictions_${currentDate}.json`);
       stateDataCache[s.code] = data;
       for (const p of (data.highConfidencePicks || [])) {
-        allHC.push({ ...p, state: s.code, stateName: s.name });
+        if (p.isEloEns) {
+          allHC.push({ ...p, state: s.code, stateName: s.name });
+        }
       }
     } catch { /* skip */ }
   });
@@ -128,10 +130,9 @@ function parseTime(s) {
 function renderHighConfidence(picks) {
   const el = document.getElementById('hcPicks');
   if (!picks.length) { hide('hcSection'); return; }
-  const eloEnsCount = picks.filter(p => p.isEloEns).length;
   const subtitle = document.getElementById('hcSubtitle');
   if (subtitle) {
-    subtitle.textContent = `(${picks.length} FAST ENS picks • ${eloEnsCount} ELO ENS confirmations)`;
+    subtitle.textContent = `(${picks.length} ELO ENS picks)`;
   }
 
   el.innerHTML = picks.map(p => {
