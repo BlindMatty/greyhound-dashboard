@@ -94,12 +94,18 @@ function renderSummary(data) {
 // ── FAST ENS top picks (ELO ENS when confirmed by Elo) ──
 async function loadHighConfidencePicks(states) {
   const allHC = [];
+  const FAST_ENS_TRACKS = ['MBR', 'DHO', 'MEP', 'BEN', 'DAR', 'HOB', 'CAS', 'BUL', 'GOS', 'HVL', 'LCN'];
+  const ML_TRACKS = ['NOR', 'DHO', 'MBR', 'HOB', 'RIS', 'WAK'];
+  
   const fetches = states.filter(s => s.hasData).map(async (s) => {
     try {
       const data = await fetchJSON(`${DATA_DIR}/${s.code}_predictions_${currentDate}.json`);
       stateDataCache[s.code] = data;
       for (const p of (data.highConfidencePicks || [])) {
-        if (p.isEloEns) {
+        const t = (p.track || '').toUpperCase();
+        const meetsFastEns = p.isFastEns && FAST_ENS_TRACKS.includes(t);
+        const meetsMl = ML_TRACKS.includes(t); // Because all highConfidencePicks are now ML top picks
+        if (meetsFastEns || meetsMl) {
           allHC.push({ ...p, state: s.code, stateName: s.name });
         }
       }
@@ -134,7 +140,7 @@ function renderHighConfidence(picks) {
   if (!picks.length) { hide('hcSection'); return; }
   const subtitle = document.getElementById('hcSubtitle');
   if (subtitle) {
-    subtitle.textContent = `(${picks.length} ELO ENS picks)`;
+    subtitle.textContent = `(${picks.length} top track specialists)`;
   }
 
   el.innerHTML = picks.map(p => {
@@ -147,7 +153,7 @@ function renderHighConfidence(picks) {
     
     <div class="hc-card" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)} <span class="badge badge-fast-ens">FAST ENS</span>${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
+        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           · ${esc(p.stateName)}
