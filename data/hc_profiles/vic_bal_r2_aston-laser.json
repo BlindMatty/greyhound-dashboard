@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2298,
-      "ens_prob": 0.2261,
-      "fastai_prob": 0.6662,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2251,
+      "ens_prob": 0.2094,
+      "fastai_prob": 0.1823,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 773471
+      "races_with_same_dogs": 773761
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.8,
-      "avg_temp_c": 18.6,
+      "max_wind_kmh": 21.3,
+      "avg_temp_c": 18.1,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON EXCEED",
       "dam": "ASTON LIGHTS",
-      "total_offspring_runs_in_state": 486,
-      "sire_win_rate": 0.20781893004115226
+      "total_offspring_runs_in_state": 493,
+      "sire_win_rate": 0.20486815415821502
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 62,
+      "total_litter_runs": 63,
       "litter_wins": 16
     },
     "35_Injury_History": {
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -201,9 +201,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.666)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

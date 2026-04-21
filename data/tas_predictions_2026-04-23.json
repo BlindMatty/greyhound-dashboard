@@ -4,8 +4,8 @@
   "stateName": "Tasmania",
   "totalRaces": 11,
   "totalDogs": 84,
-  "highConfidenceCount": 4,
-  "fastEnsCount": 4,
+  "highConfidenceCount": 11,
+  "fastEnsCount": 11,
   "eloEnsCount": 1,
   "races": [
     {
@@ -21,7 +21,7 @@
           "rug": 2,
           "probability": 0.1464681279286277,
           "implied_odds": 6.827423919061004,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.1680968469090669,
           "ensemble_odds": 5.948951562077524,
@@ -31,7 +31,9 @@
           "elo_prob": 0.21061264809287544,
           "elo_rating": 1400,
           "probability_norm": 0.21407105842406135,
-          "implied_odds_norm": 4.671346081818602
+          "implied_odds_norm": 4.671346081818602,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "HEARTBREAK KID",
@@ -175,7 +177,7 @@
           "rug": 3,
           "probability": 0.1369032957747437,
           "implied_odds": 7.304426050088433,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.17579150304610763,
           "ensemble_odds": 5.688557084227866,
@@ -185,7 +187,9 @@
           "elo_prob": 0.049346871213798105,
           "elo_rating": 1120,
           "probability_norm": 0.19031282090390803,
-          "implied_odds_norm": 5.254506739222346
+          "implied_odds_norm": 5.254506739222346,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "JUNEAU QUADRANT",
@@ -329,7 +333,7 @@
           "rug": 8,
           "probability": 0.2593427201158207,
           "implied_odds": 3.855901563588932,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.15111583314906496,
           "ensemble_odds": 6.617440271884492,
@@ -339,7 +343,9 @@
           "elo_prob": 0.15571245465274852,
           "elo_rating": 1400,
           "probability_norm": 0.22593007700462062,
-          "implied_odds_norm": 4.426148183800905
+          "implied_odds_norm": 4.426148183800905,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "INDY GIA",
@@ -603,7 +609,7 @@
           "rug": 8,
           "probability": 0.1490548664223937,
           "implied_odds": 6.708938956519448,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.1982621012549523,
           "ensemble_odds": 5.04382831448994,
@@ -613,7 +619,9 @@
           "elo_prob": 0.1529603776620103,
           "elo_rating": 1596,
           "probability_norm": 0.24083141877062544,
-          "implied_odds_norm": 4.152282144517148
+          "implied_odds_norm": 4.152282144517148,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "JUNGLE BOOGIE",
@@ -1033,7 +1041,7 @@
           "rug": 6,
           "probability": 0.3198908194441167,
           "implied_odds": 3.126066580271757,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.198008913616559,
           "ensemble_odds": 5.050277695763149,
@@ -1043,7 +1051,9 @@
           "elo_prob": 0.09300527303864617,
           "elo_rating": 1419,
           "probability_norm": 0.22428188371583976,
-          "implied_odds_norm": 4.458674875706761
+          "implied_odds_norm": 4.458674875706761,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "RUPEE'S ROCKET",
@@ -1187,7 +1197,7 @@
           "rug": 8,
           "probability": 0.238396325891897,
           "implied_odds": 4.194695519147636,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.1172022000382045,
           "ensemble_odds": 8.532263043475542,
@@ -1197,7 +1207,9 @@
           "elo_prob": 0.09980765592584634,
           "elo_rating": 1296,
           "probability_norm": 0.1727386152979287,
-          "implied_odds_norm": 5.789093528828299
+          "implied_odds_norm": 5.789093528828299,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "TICKING OVER",
@@ -1341,7 +1353,7 @@
           "rug": 8,
           "probability": 0.3035630794239802,
           "implied_odds": 3.2942082479118646,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.16884991460190835,
           "ensemble_odds": 5.9224193412100075,
@@ -1351,7 +1363,9 @@
           "elo_prob": 0.04793065130185246,
           "elo_rating": 1246,
           "probability_norm": 0.22633457221673534,
-          "implied_odds_norm": 4.418237966060314
+          "implied_odds_norm": 4.418237966060314,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "DEADLY POWER",
@@ -1642,6 +1656,60 @@
   "highConfidencePicks": [
     {
       "track": "HOB",
+      "raceNumber": 8,
+      "raceId": 1288327565,
+      "raceStartTime": "9:34PM",
+      "dog": "IF EVER",
+      "box": 6,
+      "probability": 0.3198908194441167,
+      "implied_odds": 3.126066580271757,
+      "ensemble_prob": 0.198008913616559,
+      "ensemble_odds": 5.050277695763149,
+      "fastai_prob": 0.1717359435172783,
+      "elo_prob": 0.09300527303864617,
+      "elo_rating": 1419,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "HOB",
+      "raceNumber": 10,
+      "raceId": 1288327567,
+      "raceStartTime": "10:17PM",
+      "dog": "FISHING YARI",
+      "box": 8,
+      "probability": 0.3035630794239802,
+      "implied_odds": 3.2942082479118646,
+      "ensemble_prob": 0.16884991460190835,
+      "ensemble_odds": 5.9224193412100075,
+      "fastai_prob": 0.1113652569870814,
+      "elo_prob": 0.04793065130185246,
+      "elo_rating": 1246,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "HOB",
+      "raceNumber": 2,
+      "raceId": 1288327553,
+      "raceStartTime": "7:28PM",
+      "dog": "BLACKBRUSH BILL",
+      "box": 3,
+      "probability": 0.1369032957747437,
+      "implied_odds": 7.304426050088433,
+      "ensemble_prob": 0.17579150304610763,
+      "ensemble_odds": 5.688557084227866,
+      "fastai_prob": 0.1612701851883073,
+      "elo_prob": 0.049346871213798105,
+      "elo_rating": 1120,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "HOB",
       "raceNumber": 11,
       "raceId": 1288327568,
       "raceStartTime": "10:35PM",
@@ -1657,6 +1725,60 @@
       "isFastEns": true,
       "isEloEns": true,
       "elo_agrees": true
+    },
+    {
+      "track": "HOB",
+      "raceNumber": 1,
+      "raceId": 1288327552,
+      "raceStartTime": "7:01PM",
+      "dog": "VELMA DANGER",
+      "box": 2,
+      "probability": 0.1464681279286277,
+      "implied_odds": 6.827423919061004,
+      "ensemble_prob": 0.1680968469090669,
+      "ensemble_odds": 5.948951562077524,
+      "fastai_prob": 0.1221226353940726,
+      "elo_prob": 0.21061264809287544,
+      "elo_rating": 1400,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "HOB",
+      "raceNumber": 5,
+      "raceId": 1288327558,
+      "raceStartTime": "8:31PM",
+      "dog": "DENTON",
+      "box": 8,
+      "probability": 0.1490548664223937,
+      "implied_odds": 6.708938956519448,
+      "ensemble_prob": 0.1982621012549523,
+      "ensemble_odds": 5.04382831448994,
+      "fastai_prob": 0.1556927837392793,
+      "elo_prob": 0.1529603776620103,
+      "elo_rating": 1596,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "HOB",
+      "raceNumber": 9,
+      "raceId": 1288327566,
+      "raceStartTime": "9:59PM",
+      "dog": "ZARI EXACT",
+      "box": 8,
+      "probability": 0.238396325891897,
+      "implied_odds": 4.194695519147636,
+      "ensemble_prob": 0.1172022000382045,
+      "ensemble_odds": 8.532263043475542,
+      "fastai_prob": 0.0616657847784803,
+      "elo_prob": 0.09980765592584634,
+      "elo_rating": 1296,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
     },
     {
       "track": "HOB",
@@ -1691,6 +1813,24 @@
       "elo_prob": 0.15046715613160408,
       "elo_rating": 1388,
       "isFastEns": true,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "HOB",
+      "raceNumber": 3,
+      "raceId": 1288327554,
+      "raceStartTime": "7:49PM",
+      "dog": "MANILA FRANKY",
+      "box": 8,
+      "probability": 0.2593427201158207,
+      "implied_odds": 3.855901563588932,
+      "ensemble_prob": 0.15111583314906496,
+      "ensemble_odds": 6.617440271884492,
+      "fastai_prob": 0.0763015892935094,
+      "elo_prob": 0.15571245465274852,
+      "elo_rating": 1400,
+      "isFastEns": false,
       "isEloEns": false,
       "elo_agrees": false
     },

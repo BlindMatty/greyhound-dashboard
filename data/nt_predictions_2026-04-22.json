@@ -4,8 +4,8 @@
   "stateName": "Northern Territory",
   "totalRaces": 5,
   "totalDogs": 28,
-  "highConfidenceCount": 1,
-  "fastEnsCount": 1,
+  "highConfidenceCount": 5,
+  "fastEnsCount": 5,
   "eloEnsCount": 1,
   "races": [
     {
@@ -21,7 +21,7 @@
           "rug": 2,
           "probability": 0.2608579152095317,
           "implied_odds": 3.833504531372028,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.22545628694023795,
           "ensemble_odds": 4.435449610083713,
@@ -31,7 +31,9 @@
           "elo_prob": 0.12193715256012112,
           "elo_rating": 1200,
           "probability_norm": 0.2551675893545852,
-          "implied_odds_norm": 3.9189930136871065
+          "implied_odds_norm": 3.9189930136871065,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "SILVERSMITH",
@@ -139,7 +141,7 @@
           "rug": 6,
           "probability": 0.196379798416984,
           "implied_odds": 5.09217347232756,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.20447265112399085,
           "ensemble_odds": 4.890629600110221,
@@ -149,7 +151,9 @@
           "elo_prob": 0.22261803417593826,
           "elo_rating": 1580,
           "probability_norm": 0.23674366116931264,
-          "implied_odds_norm": 4.223977930648066
+          "implied_odds_norm": 4.223977930648066,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "MERMAID SHIMMER",
@@ -239,7 +243,7 @@
           "rug": 8,
           "probability": 0.1906841060604886,
           "implied_odds": 5.244275575242653,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.1693502817696681,
           "ensemble_odds": 5.90492079227888,
@@ -249,7 +253,9 @@
           "elo_prob": 0.17567188118884206,
           "elo_rating": 1360,
           "probability_norm": 0.18297174188760734,
-          "implied_odds_norm": 5.465324807446291
+          "implied_odds_norm": 5.465324807446291,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "TERRITORY TUFF",
@@ -459,7 +465,7 @@
           "rug": 8,
           "probability": 0.1891969757897533,
           "implied_odds": 5.285496746582558,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.18393052399593962,
           "ensemble_odds": 5.436835486980266,
@@ -469,7 +475,9 @@
           "elo_prob": 0.06020513359955439,
           "elo_rating": 1238,
           "probability_norm": 0.19655027915550088,
-          "implied_odds_norm": 5.0877567017284635
+          "implied_odds_norm": 5.0877567017284635,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "WILLOW'S WITCH",
@@ -568,6 +576,24 @@
   "highConfidencePicks": [
     {
       "track": "DAR",
+      "raceNumber": 1,
+      "raceId": 1289341090,
+      "raceStartTime": "7:02PM",
+      "dog": "LITTLE NIFTY",
+      "box": 2,
+      "probability": 0.2608579152095317,
+      "implied_odds": 3.833504531372028,
+      "ensemble_prob": 0.22545628694023795,
+      "ensemble_odds": 4.435449610083713,
+      "fastai_prob": 0.1957449845258907,
+      "elo_prob": 0.12193715256012112,
+      "elo_rating": 1200,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "DAR",
       "raceNumber": 4,
       "raceId": 1289341093,
       "raceStartTime": "8:02PM",
@@ -583,6 +609,60 @@
       "isFastEns": true,
       "isEloEns": true,
       "elo_agrees": true
+    },
+    {
+      "track": "DAR",
+      "raceNumber": 3,
+      "raceId": 1289341092,
+      "raceStartTime": "7:47PM",
+      "dog": "ENIGMA DREAM",
+      "box": 8,
+      "probability": 0.1906841060604886,
+      "implied_odds": 5.244275575242653,
+      "ensemble_prob": 0.1693502817696681,
+      "ensemble_odds": 5.90492079227888,
+      "fastai_prob": 0.1557288216517289,
+      "elo_prob": 0.17567188118884206,
+      "elo_rating": 1360,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "DAR",
+      "raceNumber": 5,
+      "raceId": 1289341094,
+      "raceStartTime": "8:22PM",
+      "dog": "MISH MASH",
+      "box": 8,
+      "probability": 0.1891969757897533,
+      "implied_odds": 5.285496746582558,
+      "ensemble_prob": 0.18393052399593962,
+      "ensemble_odds": 5.436835486980266,
+      "fastai_prob": 0.1713107688363784,
+      "elo_prob": 0.06020513359955439,
+      "elo_rating": 1238,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "DAR",
+      "raceNumber": 2,
+      "raceId": 1289341091,
+      "raceStartTime": "7:25PM",
+      "dog": "GO JO",
+      "box": 6,
+      "probability": 0.196379798416984,
+      "implied_odds": 5.09217347232756,
+      "ensemble_prob": 0.20447265112399085,
+      "ensemble_odds": 4.890629600110221,
+      "fastai_prob": 0.1722016410786691,
+      "elo_prob": 0.22261803417593826,
+      "elo_rating": 1580,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
     }
   ],
   "topPicks": [

@@ -4,8 +4,8 @@
   "stateName": "South Australia",
   "totalRaces": 9,
   "totalDogs": 50,
-  "highConfidenceCount": 2,
-  "fastEnsCount": 2,
+  "highConfidenceCount": 9,
+  "fastEnsCount": 9,
   "eloEnsCount": 2,
   "races": [
     {
@@ -21,7 +21,7 @@
           "rug": 1,
           "probability": 0.2015430948274519,
           "implied_odds": 4.961717993147493,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.18194708134853035,
           "ensemble_odds": 5.496103551583997,
@@ -31,7 +31,9 @@
           "elo_prob": 0.1269790599654225,
           "elo_rating": 1219,
           "probability_norm": 0.2319647154418761,
-          "implied_odds_norm": 4.311000481668395
+          "implied_odds_norm": 4.311000481668395,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "TATAMAGOUCHE",
@@ -121,7 +123,7 @@
           "rug": 5,
           "probability": 0.3187862592731211,
           "implied_odds": 3.136898065431506,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.1484126359140161,
           "ensemble_odds": 6.7379707518931005,
@@ -131,7 +133,9 @@
           "elo_prob": 0.3156987938970855,
           "elo_rating": 1674,
           "probability_norm": 0.22655797546177517,
-          "implied_odds_norm": 4.413881250314756
+          "implied_odds_norm": 4.413881250314756,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "ICE AGE",
@@ -239,7 +243,7 @@
           "rug": 1,
           "probability": 0.3494305522039554,
           "implied_odds": 2.8617989860724045,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.2693083949727826,
           "ensemble_odds": 3.7132151045683672,
@@ -249,7 +253,9 @@
           "elo_prob": 0.3128968879012667,
           "elo_rating": 1598,
           "probability_norm": 0.2855526462677331,
-          "implied_odds_norm": 3.5019812040628184
+          "implied_odds_norm": 3.5019812040628184,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "RIGHT SIDE UP",
@@ -459,7 +465,7 @@
           "rug": 5,
           "probability": 0.1836827011482224,
           "implied_odds": 5.444170810581948,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.1647755935611232,
           "ensemble_odds": 6.06885994696206,
@@ -469,7 +475,9 @@
           "elo_prob": 0.15863247079753007,
           "elo_rating": 1486,
           "probability_norm": 0.19691811832539605,
-          "implied_odds_norm": 5.078252872331213
+          "implied_odds_norm": 5.078252872331213,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "YARRAMUNDI OPAL",
@@ -577,7 +585,7 @@
           "rug": 4,
           "probability": 0.2206353729975242,
           "implied_odds": 4.532364808118148,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.19722748191131564,
           "ensemble_odds": 5.070287316499103,
@@ -587,7 +595,9 @@
           "elo_prob": 0.27925042576602216,
           "elo_rating": 1437,
           "probability_norm": 0.21904459460518713,
-          "implied_odds_norm": 4.565280425214014
+          "implied_odds_norm": 4.565280425214014,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "RIO HOPE",
@@ -695,7 +705,7 @@
           "rug": 8,
           "probability": 0.3455978752467642,
           "implied_odds": 2.8935363080168788,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.2292354348951112,
           "ensemble_odds": 4.362327318451265,
@@ -705,7 +715,9 @@
           "elo_prob": 0.39464269313521083,
           "elo_rating": 1568,
           "probability_norm": 0.272482166236371,
-          "implied_odds_norm": 3.6699649515136588
+          "implied_odds_norm": 3.6699649515136588,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "STIFLER",
@@ -813,7 +825,7 @@
           "rug": 8,
           "probability": 0.3142404780833143,
           "implied_odds": 3.182276217562497,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.22704591527970164,
           "ensemble_odds": 4.404395466741092,
@@ -823,7 +835,9 @@
           "elo_prob": 0.20433418996601804,
           "elo_rating": 1501,
           "probability_norm": 0.23620437977652833,
-          "implied_odds_norm": 4.233621751409074
+          "implied_odds_norm": 4.233621751409074,
+          "isFastEns": false,
+          "isEloEns": false
         },
         {
           "dog": "SLICK ANGEL",
@@ -1006,6 +1020,114 @@
   "highConfidencePicks": [
     {
       "track": "MBS",
+      "raceNumber": 1,
+      "raceId": 1288327549,
+      "raceStartTime": "11:47AM",
+      "dog": "CHAOTIC BOY",
+      "box": 1,
+      "probability": 0.2015430948274519,
+      "implied_odds": 4.961717993147493,
+      "ensemble_prob": 0.18194708134853035,
+      "ensemble_odds": 5.496103551583997,
+      "fastai_prob": 0.1319294472551846,
+      "elo_prob": 0.1269790599654225,
+      "elo_rating": 1219,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "MBS",
+      "raceNumber": 3,
+      "raceId": 1288327551,
+      "raceStartTime": "12:30PM",
+      "dog": "GALBA STACEY",
+      "box": 1,
+      "probability": 0.3494305522039554,
+      "implied_odds": 2.8617989860724045,
+      "ensemble_prob": 0.2693083949727826,
+      "ensemble_odds": 3.7132151045683672,
+      "fastai_prob": 0.2530641436778322,
+      "elo_prob": 0.3128968879012667,
+      "elo_rating": 1598,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "MBS",
+      "raceNumber": 8,
+      "raceId": 1288327563,
+      "raceStartTime": "2:12PM",
+      "dog": "YUMALI",
+      "box": 8,
+      "probability": 0.3142404780833143,
+      "implied_odds": 3.182276217562497,
+      "ensemble_prob": 0.22704591527970164,
+      "ensemble_odds": 4.404395466741092,
+      "fastai_prob": 0.217887450782875,
+      "elo_prob": 0.20433418996601804,
+      "elo_rating": 1501,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "MBS",
+      "raceNumber": 2,
+      "raceId": 1288327550,
+      "raceStartTime": "12:10PM",
+      "dog": "BINNAWAY PEARL",
+      "box": 5,
+      "probability": 0.3187862592731211,
+      "implied_odds": 3.136898065431506,
+      "ensemble_prob": 0.1484126359140161,
+      "ensemble_odds": 6.7379707518931005,
+      "fastai_prob": 0.0702672963662571,
+      "elo_prob": 0.3156987938970855,
+      "elo_rating": 1674,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "MBS",
+      "raceNumber": 5,
+      "raceId": 1288327557,
+      "raceStartTime": "1:12PM",
+      "dog": "PRIME VOLTAGE",
+      "box": 5,
+      "probability": 0.1836827011482224,
+      "implied_odds": 5.444170810581948,
+      "ensemble_prob": 0.1647755935611232,
+      "ensemble_odds": 6.06885994696206,
+      "fastai_prob": 0.1326330687968504,
+      "elo_prob": 0.15863247079753007,
+      "elo_rating": 1486,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "MBS",
+      "raceNumber": 6,
+      "raceId": 1288327559,
+      "raceStartTime": "1:32PM",
+      "dog": "TRANSFORMATION",
+      "box": 4,
+      "probability": 0.2206353729975242,
+      "implied_odds": 4.532364808118148,
+      "ensemble_prob": 0.19722748191131564,
+      "ensemble_odds": 5.070287316499103,
+      "fastai_prob": 0.1754103692174443,
+      "elo_prob": 0.27925042576602216,
+      "elo_rating": 1437,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
+    },
+    {
+      "track": "MBS",
       "raceNumber": 9,
       "raceId": 1288327564,
       "raceStartTime": "2:36PM",
@@ -1039,6 +1161,24 @@
       "isFastEns": true,
       "isEloEns": true,
       "elo_agrees": true
+    },
+    {
+      "track": "MBS",
+      "raceNumber": 7,
+      "raceId": 1288327561,
+      "raceStartTime": "1:51PM",
+      "dog": "TODD KEEPING",
+      "box": 8,
+      "probability": 0.3455978752467642,
+      "implied_odds": 2.8935363080168788,
+      "ensemble_prob": 0.2292354348951112,
+      "ensemble_odds": 4.362327318451265,
+      "fastai_prob": 0.1859887035538514,
+      "elo_prob": 0.39464269313521083,
+      "elo_rating": 1568,
+      "isFastEns": false,
+      "isEloEns": false,
+      "elo_agrees": false
     }
   ],
   "topPicks": [
