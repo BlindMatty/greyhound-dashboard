@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4825,
-      "ens_prob": 0.2575,
-      "fastai_prob": 0.6426,
+      "ml_prob": 0.3684,
+      "ens_prob": 0.3038,
+      "fastai_prob": 0.2339,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -22,7 +22,7 @@
     },
     "03_Speed_Map": {
       "own_box": 7,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 4,
@@ -161,7 +161,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -185,10 +185,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 12,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
@@ -199,8 +198,8 @@
         "Elite Run Home Time Strength",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.643)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
