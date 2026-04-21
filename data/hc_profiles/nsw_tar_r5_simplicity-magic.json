@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2741,
-      "ens_prob": 0.2673,
-      "fastai_prob": 0.6426,
+      "ml_prob": 0.2443,
+      "ens_prob": 0.2507,
+      "fastai_prob": 0.6416,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 699449
+      "races_with_same_dogs": 699729
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 24.266458333333333
+      "avg_run_home": 24.266458333333336
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -210,7 +210,7 @@
         "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.643)"
+        "FastAI Strong Conviction (Rank 1, prob 0.642)"
       ]
     }
   }

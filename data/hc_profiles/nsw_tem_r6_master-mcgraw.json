@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3509,
-      "ens_prob": 0.1654,
-      "fastai_prob": 0.6811,
+      "ml_prob": 0.3992,
+      "ens_prob": 0.1957,
+      "fastai_prob": 0.6903,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 699449
+      "races_with_same_dogs": 699729
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "KHATANGA EVE",
-      "total_offspring_runs_in_state": 23684,
-      "sire_win_rate": 0.13612565445026178
+      "total_offspring_runs_in_state": 23710,
+      "sire_win_rate": 0.13606073386756642
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -207,7 +207,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.681)"
+        "FastAI Strong Conviction (Rank 1, prob 0.690)"
       ]
     }
   }

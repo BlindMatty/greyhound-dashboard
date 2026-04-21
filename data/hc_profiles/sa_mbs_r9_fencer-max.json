@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1888,
-      "ens_prob": 0.3122,
-      "fastai_prob": 0.2679,
+      "ml_prob": 0.1698,
+      "ens_prob": 0.3155,
+      "fastai_prob": 0.4215,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213482
+      "races_with_same_dogs": 213551
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "HOLY REIGN",
-      "total_offspring_runs_in_state": 3291,
-      "sire_win_rate": 0.19203889395320572
+      "total_offspring_runs_in_state": 3296,
+      "sire_win_rate": 0.19205097087378642
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 274,
+      "total_litter_runs": 275,
       "litter_wins": 73
     },
     "35_Injury_History": {
@@ -208,7 +208,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.268)"
+        "FastAI Strong Conviction (Rank 1, prob 0.421)"
       ]
     }
   }
