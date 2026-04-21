@@ -334,6 +334,9 @@ function dogRow(d, isTop, topNames) {
   // ENS tiers — standard ENS is always the blended top pick, FAST ENS is ML+FAI+ENS agreement, ELO ENS adds Elo confirmation
   const badges = [];
   if (topNames.ens && d.dog === topNames.ens) badges.push('<span class="badge badge-ens">ENS</span>');
+  if (topNames.ml && d.dog === topNames.ml) badges.push('<span class="badge badge-ml">ML</span>');
+  if (topNames.fastai && d.dog === topNames.fastai) badges.push('<span class="badge badge-fastai">FAI</span>');
+  if (topNames.elo && d.dog === topNames.elo) badges.push('<span class="badge badge-elo">ELO</span>');
   const fastEnsDog = (topNames.ens && topNames.ml && topNames.fastai && topNames.ens === topNames.ml && topNames.ens === topNames.fastai)
     ? topNames.ens
     : null;
