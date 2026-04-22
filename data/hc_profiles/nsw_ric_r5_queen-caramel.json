@@ -115,8 +115,12 @@
       "dist_diff_from_last": -320
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      "status": "success",
+      "max_wind_kmh": 13.0,
+      "avg_temp_c": 16.5,
+      "total_precip_mm": 0.2,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.2,
