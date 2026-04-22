@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "totalPredictions": 1245,
+  "totalPredictions": 1242,
   "totalHighConfidence": 46,
   "states": [
     {
@@ -105,7 +105,7 @@
           "ensemble_odds": 6.797693783987025,
           "fastai_prob": 0.0964457683637721,
           "fastai_rank": 5,
-          "elo_prob": 0.0319941389488889,
+          "elo_prob": 0.031994138948888945,
           "elo_rating": 1386,
           "tier": "green"
         },
@@ -124,7 +124,7 @@
           "ensemble_odds": 3.479085848154142,
           "fastai_prob": 0.2290866935926709,
           "fastai_rank": 2,
-          "elo_prob": 0.4200583379038153,
+          "elo_prob": 0.42005833790381536,
           "elo_rating": 1686,
           "tier": "green"
         },
@@ -243,7 +243,7 @@
     {
       "code": "wa",
       "name": "Western Australia",
-      "totalPredictions": 69,
+      "totalPredictions": 66,
       "highConfidenceCount": 0,
       "fastEnsCount": 0,
       "eloEnsCount": 0,
@@ -263,8 +263,27 @@
           "ensemble_odds": 5.208065686237304,
           "fastai_prob": 0.1544085510756387,
           "fastai_rank": 4,
-          "elo_prob": 0.09480466622773166,
+          "elo_prob": 0.0948046662277316,
           "elo_rating": 1200,
+          "tier": "other"
+        },
+        {
+          "track": "CAN",
+          "raceNumber": 3,
+          "raceId": 1288297490,
+          "raceStartTime": "9:07PM",
+          "dog": "CAKE IN TUMMY",
+          "box": 2,
+          "rug": 2,
+          "probability": 0.25469695280071275,
+          "implied_odds": 3.926234644756227,
+          "grade": "Grade 6",
+          "ensemble_prob": 0.2230219776227062,
+          "ensemble_odds": 4.483863028475757,
+          "fastai_prob": 0.19134700244469968,
+          "fastai_rank": 2,
+          "elo_prob": 0.2204978945049582,
+          "elo_rating": 1350,
           "tier": "other"
         },
         {
@@ -282,27 +301,8 @@
           "ensemble_odds": 6.2409469051441775,
           "fastai_prob": 0.0869047470356253,
           "fastai_rank": 7,
-          "elo_prob": 0.30715080051126664,
+          "elo_prob": 0.3071508005112666,
           "elo_rating": 1537,
-          "tier": "other"
-        },
-        {
-          "track": "CAN",
-          "raceNumber": 1,
-          "raceId": 1288297488,
-          "raceStartTime": "8:26PM",
-          "dog": "ORANA VALERIE",
-          "box": 1,
-          "rug": 1,
-          "probability": 0.2449132176029071,
-          "implied_odds": 4.083078936235125,
-          "grade": "Novice Grade 5",
-          "ensemble_prob": 0.20180604706825384,
-          "ensemble_odds": 4.955252900136263,
-          "fastai_prob": 0.1464772088549143,
-          "fastai_rank": 2,
-          "elo_prob": 0.27422305309019307,
-          "elo_rating": 1400,
           "tier": "other"
         }
       ],
