@@ -9,12 +9,12 @@
     "history_length": 21,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.1518,
-      "ens_prob": 0.1772,
-      "fastai_prob": 0.4077,
-      "fastai_rank": 2,
-      "is_three_way": true
+      "ens_prob": 0.1579,
+      "fastai_prob": 0.4823,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -206,8 +206,7 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "Elite Early Speed (<= 2.0 avg split pos)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

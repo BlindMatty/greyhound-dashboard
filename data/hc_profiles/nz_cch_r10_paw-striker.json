@@ -9,12 +9,12 @@
     "history_length": 35,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.3191,
-      "ens_prob": 0.2151,
-      "fastai_prob": 0.4395,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "ens_prob": 0.1767,
+      "fastai_prob": 0.4258,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -205,9 +205,7 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Elite Early Speed (<= 2.0 avg split pos)",
-        "Elite Sire Line (>15% state win rate)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.440)"
+        "Elite Sire Line (>15% state win rate)"
       ]
     }
   }

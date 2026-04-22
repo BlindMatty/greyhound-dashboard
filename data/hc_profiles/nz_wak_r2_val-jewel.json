@@ -9,12 +9,12 @@
     "history_length": 79,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.2055,
-      "ens_prob": 0.2011,
-      "fastai_prob": 0.4401,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "ens_prob": 0.1907,
+      "fastai_prob": 0.5078,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -210,7 +210,9 @@
         "Elite Early Speed (<= 2.0 avg split pos)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.508)"
       ]
     }
   }

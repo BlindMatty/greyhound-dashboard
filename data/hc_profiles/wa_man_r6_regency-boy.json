@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2399,
-      "ens_prob": 0.1719,
-      "fastai_prob": 0.1743,
-      "fastai_rank": 4,
+      "ml_prob": 0.2223,
+      "ens_prob": 0.1199,
+      "fastai_prob": 0.0674,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 211767
+      "races_with_same_dogs": 211846
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "SUNTORY ROSE",
-      "total_offspring_runs_in_state": 14640,
-      "sire_win_rate": 0.12445355191256831
+      "total_offspring_runs_in_state": 14642,
+      "sire_win_rate": 0.12443655238355415
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

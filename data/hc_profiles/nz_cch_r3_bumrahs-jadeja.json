@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.1279,
-      "ens_prob": 0.1269,
-      "fastai_prob": 0.1689,
-      "fastai_rank": 8,
+      "ens_prob": 0.1562,
+      "fastai_prob": 0.4233,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -200,7 +200,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

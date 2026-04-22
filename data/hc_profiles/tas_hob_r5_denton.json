@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.1491,
-      "ens_prob": 0.1983,
-      "fastai_prob": 0.3248,
-      "fastai_rank": 4,
+      "ens_prob": 0.1786,
+      "fastai_prob": 0.2852,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

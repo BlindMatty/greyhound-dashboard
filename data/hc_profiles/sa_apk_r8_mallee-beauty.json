@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.462,
-      "ens_prob": 0.2167,
-      "fastai_prob": 0.6285,
+      "ml_prob": 0.6331,
+      "ens_prob": 0.2079,
+      "fastai_prob": 0.3884,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213551
+      "races_with_same_dogs": 213601
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "ROSIE RED",
-      "total_offspring_runs_in_state": 6349,
-      "sire_win_rate": 0.14191211214364466
+      "total_offspring_runs_in_state": 6350,
+      "sire_win_rate": 0.14188976377952756
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -210,7 +210,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.628)"
+        "FastAI Strong Conviction (Rank 1, prob 0.388)"
       ]
     }
   }

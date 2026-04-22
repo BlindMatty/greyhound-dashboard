@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1646,
-      "ens_prob": 0.2626,
-      "fastai_prob": 0.3875,
-      "fastai_rank": 2,
+      "ml_prob": 0.1378,
+      "ens_prob": 0.2123,
+      "fastai_prob": 0.4405,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 699729
+      "races_with_same_dogs": 700152
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -131,12 +131,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "FRENCH MARTINI",
-      "total_offspring_runs_in_state": 100831,
-      "sire_win_rate": 0.13668415467465364
+      "total_offspring_runs_in_state": 100866,
+      "sire_win_rate": 0.13664664009676203
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 76,
+      "total_litter_runs": 77,
       "litter_wins": 29
     },
     "35_Injury_History": {
