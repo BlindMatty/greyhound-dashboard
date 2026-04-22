@@ -1,18 +1,18 @@
 {
-  "dog": "PAW KENNETH",
+  "dog": "IVORY QUILL",
   "date": "2026-04-23",
-  "track": "WBL",
-  "race": 13,
+  "track": "SHP",
+  "race": 5,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 23,
+    "history_length": 41,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1801,
-      "ens_prob": 0.1991,
-      "fastai_prob": 0.1229,
+      "ml_prob": 0.1336,
+      "ens_prob": 0.2131,
+      "fastai_prob": 0.0809,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 4,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 413.9130434782609,
+      "avg_dist": 410.1219512195122,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.7,
-      "fluctuation": -0.480952380952381,
+      "last_weight": 25.8,
+      "fluctuation": -0.09354838709677082,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 23,
-      "last_3_avg_place": 2.6666666666666665,
-      "last_5_avg_place": 3.6,
+      "total_starts": 41,
+      "last_3_avg_place": 5.333333333333333,
+      "last_5_avg_place": 4.8,
       "last_10_places": [
-        1.0,
-        1.0,
-        7.0,
-        7.0,
-        7.0,
         4.0,
-        6.0,
         5.0,
-        2.0,
-        1.0
+        8.0,
+        4.0,
+        8.0,
+        1.0,
+        7.0,
+        6.0,
+        6.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.763720588235294
+      "avg_run_home": 17.127704545454545
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.0625896873911398
+      "split_stdev": 1.3213391119244517
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,11 +92,11 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "CORREY GRENFELL"
+      "trainer": "ROSLYN  RUSSELL"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
-      "is_light": false
+      "is_light": true
     },
     "22_Quick_Backup": {
       "days_since_last_run": 3
@@ -111,38 +111,38 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 9160.0
+      "career_prize": 5325.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 2.0
+      "avg_1st_split_pos": 4.3
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -450
+      "dist_diff_from_last": -390
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "Coordinates not mapped for track: WBL"
+      "message": "Coordinates not mapped for track: SHP"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2857142857142857,
-      "place_rate": 0.38095238095238093
+      "win_rate": 0.0967741935483871,
+      "place_rate": 0.22580645161290322
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "CORREY GRENFELL"
+      "trainer_lookup": "ROSLYN  RUSSELL"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "AUSSIE INFRARED",
-      "dam": "DYNA DANNA",
-      "total_offspring_runs_in_state": 23907,
-      "sire_win_rate": 0.12925084703224998
+      "sire": "SUPERIOR PANAMA",
+      "dam": "LALA IVORY",
+      "total_offspring_runs_in_state": 7688,
+      "sire_win_rate": 0.12109781477627471
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 5,
-      "total_litter_runs": 107,
-      "litter_wins": 21
+      "litter_size_racing": 9,
+      "total_litter_runs": 218,
+      "litter_wins": 22
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -151,7 +151,7 @@
       "time_of_day": "Standard"
     },
     "37_Aggressor_Map": {
-      "wide_runner": false
+      "wide_runner": true
     },
     "38_Course_Distance": {
       "cd_wins": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 23
+      "total_starts": 41
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.3223072635208433
+      "ewma_places": 4.9227163372201455
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,19 +191,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": -7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Poor Recent Form (>4.5 avg)",
         "Quick Backup (< 4 days)",
+        "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.123)"
+        "FastAI Lukewarm (Rank 3, prob 0.081)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Elite Early Speed (<= 2.0 avg split pos)",
-        "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)"
       ]
     }
