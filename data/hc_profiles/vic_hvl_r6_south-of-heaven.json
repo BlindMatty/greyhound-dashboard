@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 28,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1922,
-      "ens_prob": 0.0977,
-      "fastai_prob": 0.0235,
-      "fastai_rank": 10,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.2061,
+      "ens_prob": 0.1931,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 774157
+      "races_with_same_dogs": 774580
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ALLEN DEED",
       "dam": "AFIRE LOVE",
-      "total_offspring_runs_in_state": 14163,
-      "sire_win_rate": 0.10654522346960389
+      "total_offspring_runs_in_state": 14171,
+      "sire_win_rate": 0.10648507515348246
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,18 +191,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 10 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)"
+        "Optimal Racing Cadence (6-10 days)",
+        "2-Way Model Alignment"
       ]
     }
   }

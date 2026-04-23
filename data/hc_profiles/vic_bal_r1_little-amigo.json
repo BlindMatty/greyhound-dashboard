@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3219,
-      "ens_prob": 0.1911,
-      "fastai_prob": 0.638,
+      "ml_prob": 0.3231,
+      "ens_prob": 0.2286,
+      "fastai_prob": 0.6073,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 774157
+      "races_with_same_dogs": 774580
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 24.5,
-      "avg_temp_c": 16.3,
+      "max_wind_kmh": 23.4,
+      "avg_temp_c": 16.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "CAROLINE",
-      "total_offspring_runs_in_state": 37338,
-      "sire_win_rate": 0.14802613958969416
+      "total_offspring_runs_in_state": 37380,
+      "sire_win_rate": 0.14804708400214017
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 8,
+      "total_litter_runs": 9,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -199,7 +199,7 @@
         "Strong Head-to-Head Experience over field",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.638)"
+        "FastAI Strong Conviction (Rank 1, prob 0.607)"
       ]
     }
   }
