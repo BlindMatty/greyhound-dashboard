@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1985,
-      "ens_prob": 0.1728,
-      "fastai_prob": 0.0788,
-      "fastai_rank": 3,
+      "ml_prob": 0.1496,
+      "ens_prob": 0.1387,
+      "fastai_prob": 0.0677,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,7 +203,7 @@
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 3, prob 0.079)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

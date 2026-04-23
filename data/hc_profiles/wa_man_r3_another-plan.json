@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1521,
-      "ens_prob": 0.1558,
-      "fastai_prob": 0.2679,
-      "fastai_rank": 6,
+      "ml_prob": 0.1277,
+      "ens_prob": 0.1711,
+      "fastai_prob": 0.2418,
+      "fastai_rank": 10,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -196,7 +196,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 10 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

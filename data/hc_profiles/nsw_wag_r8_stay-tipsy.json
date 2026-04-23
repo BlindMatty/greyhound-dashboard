@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3053,
-      "ens_prob": 0.1649,
-      "fastai_prob": 0.3322,
-      "fastai_rank": 8,
+      "ml_prob": 0.3102,
+      "ens_prob": 0.1744,
+      "fastai_prob": 0.2236,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -190,7 +190,7 @@
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

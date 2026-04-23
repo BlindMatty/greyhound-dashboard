@@ -9,12 +9,12 @@
     "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1874,
-      "ens_prob": 0.2445,
-      "fastai_prob": 0.6236,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2014,
+      "ens_prob": 0.2297,
+      "fastai_prob": 0.2599,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -184,7 +184,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -196,9 +196,7 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.624)"
+        "Proven Track Specialist Profile"
       ]
     }
   }

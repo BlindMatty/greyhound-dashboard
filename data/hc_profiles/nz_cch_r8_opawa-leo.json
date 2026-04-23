@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4298,
-      "ens_prob": 0.1918,
-      "fastai_prob": 0.1538,
-      "fastai_rank": 3,
+      "ml_prob": 0.4282,
+      "ens_prob": 0.1734,
+      "fastai_prob": 0.4618,
+      "fastai_rank": 8,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275874
+      "races_with_same_dogs": 276067
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "OUR ANNA",
-      "total_offspring_runs_in_state": 6384,
-      "sire_win_rate": 0.13063909774436092
+      "total_offspring_runs_in_state": 6392,
+      "sire_win_rate": 0.1304755944931164
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -183,13 +183,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
