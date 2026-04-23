@@ -9,12 +9,12 @@
     "history_length": 118,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2002,
-      "ens_prob": 0.1458,
-      "fastai_prob": 0.1463,
-      "fastai_rank": 8,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3016,
+      "ens_prob": 0.254,
+      "fastai_prob": 0.2054,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -22,7 +22,7 @@
     },
     "03_Speed_Map": {
       "own_box": 4,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 118,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 211767
+      "races_with_same_dogs": 211846
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ELUSIVE WAVE",
-      "total_offspring_runs_in_state": 27939,
-      "sire_win_rate": 0.13926769032535166
+      "total_offspring_runs_in_state": 27945,
+      "sire_win_rate": 0.13927357308999821
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -191,20 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 8,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
