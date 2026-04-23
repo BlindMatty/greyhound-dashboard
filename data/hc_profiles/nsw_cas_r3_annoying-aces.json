@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1415,
-      "ens_prob": 0.1423,
-      "fastai_prob": 0.0234,
+      "ml_prob": 0.2528,
+      "ens_prob": 0.1524,
+      "fastai_prob": 0.0585,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 1,
@@ -188,7 +188,7 @@
         "Quick Backup (< 4 days)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.023)"
+        "FastAI Lukewarm (Rank 3, prob 0.059)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
