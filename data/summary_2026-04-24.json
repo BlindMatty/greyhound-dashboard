@@ -1,15 +1,15 @@
 {
   "date": "2026-04-24",
-  "totalPredictions": 1243,
-  "totalHighConfidence": 51,
+  "totalPredictions": 1233,
+  "totalHighConfidence": 38,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 369,
-      "highConfidenceCount": 18,
-      "fastEnsCount": 18,
-      "eloEnsCount": 5,
+      "totalPredictions": 359,
+      "highConfidenceCount": 5,
+      "fastEnsCount": 5,
+      "eloEnsCount": 0,
       "topPicks": [
         {
           "track": "BAL",
@@ -19,34 +19,13 @@
           "dog": "KRAKEN WHISKY",
           "box": 8,
           "rug": 8,
-          "probability": 0.503052346507805,
-          "implied_odds": 1.9878646962726867,
+          "probability": 0.5542903094264059,
+          "implied_odds": 1.8041087549136952,
           "grade": "Mixed 4/5",
-          "ensemble_prob": 0.2112952127108364,
-          "ensemble_odds": 4.732714892923433,
-          "fastai_prob": 0.1200622946059355,
-          "fastai_rank": 3,
-          "elo_prob": 0.13717833779615837,
-          "elo_rating": 1378,
-          "tier": "green"
-        },
-        {
-          "track": "BAL",
-          "raceNumber": 5,
-          "raceId": 1290192238,
-          "raceStartTime": "8:31PM",
-          "dog": "CINEMATIC",
-          "box": 7,
-          "rug": 7,
-          "probability": 0.4275964010497822,
-          "implied_odds": 2.338653921185778,
-          "grade": "Mixed 6/7",
-          "ensemble_prob": 0.20619169679997607,
-          "ensemble_odds": 4.849855816309069,
-          "fastai_prob": 0.1884623427685503,
-          "fastai_rank": 1,
-          "elo_prob": 0.27684424155433446,
-          "elo_rating": 1415,
+          "ensemble_prob": 0.1940564336054115,
+          "ensemble_odds": 5.1531401532059995,
+          "fastai_prob": 0.0745986629592371,
+          "fastai_rank": 6,
           "tier": "green"
         },
         {
@@ -57,15 +36,30 @@
           "dog": "PAW ESTRELLA",
           "box": 3,
           "rug": 3,
-          "probability": 0.4112502231817839,
-          "implied_odds": 2.431609622635931,
+          "probability": 0.4537920587171082,
+          "implied_odds": 2.20365248970431,
           "grade": "Mixed 3/4",
-          "ensemble_prob": 0.2822004347685318,
-          "ensemble_odds": 3.5435806497613167,
-          "fastai_prob": 0.2999707903491964,
+          "ensemble_prob": 0.2577722984486132,
+          "ensemble_odds": 3.87939280527209,
+          "fastai_prob": 0.2132440573163388,
           "fastai_rank": 2,
-          "elo_prob": 0.13793972224653306,
-          "elo_rating": 1334,
+          "tier": "green"
+        },
+        {
+          "track": "WGL",
+          "raceNumber": 7,
+          "raceId": 1289838528,
+          "raceStartTime": "4:35PM",
+          "dog": "FIND THE SUN",
+          "box": 1,
+          "rug": 1,
+          "probability": 0.433418348198624,
+          "implied_odds": 2.307239654611315,
+          "grade": "Mixed 4/5",
+          "ensemble_prob": 0.21714734110113315,
+          "ensemble_odds": 4.605168062059138,
+          "fastai_prob": 0.1826949257223878,
+          "fastai_rank": 3,
           "tier": "green"
         }
       ],
@@ -442,7 +436,7 @@
           "ensemble_odds": 5.214828195120887,
           "fastai_prob": 0.1028747154138949,
           "fastai_rank": 3,
-          "elo_prob": 0.15463686893655515,
+          "elo_prob": 0.1545813305461764,
           "elo_rating": 1400,
           "tier": "green"
         },
@@ -461,7 +455,7 @@
           "ensemble_odds": 4.307166417425093,
           "fastai_prob": 0.100279460936252,
           "fastai_rank": 4,
-          "elo_prob": 0.09925366050523006,
+          "elo_prob": 0.09928420549474085,
           "elo_rating": 1219,
           "tier": "yellow"
         },
@@ -480,7 +474,7 @@
           "ensemble_odds": 4.404911495713131,
           "fastai_prob": 0.1391144326431947,
           "fastai_rank": 3,
-          "elo_prob": 0.19916449939385197,
+          "elo_prob": 0.19792324877961529,
           "elo_rating": 1546,
           "tier": "yellow"
         }
@@ -522,44 +516,44 @@
   ],
   "modelPerformance": {
     "startDate": "2026-04-08",
-    "resultsDate": "2026-04-22",
-    "settledRaces": 2091,
+    "resultsDate": "2026-04-23",
+    "settledRaces": 2218,
     "models": {
       "ml": {
-        "wins": 674,
-        "settled": 2091,
+        "wins": 718,
+        "settled": 2218,
         "label": "ML",
-        "strikeRate": 32.233381157340986
+        "strikeRate": 32.37150586113616
       },
       "fastai": {
-        "wins": 562,
-        "settled": 2090,
+        "wins": 594,
+        "settled": 2217,
         "label": "FastAI",
-        "strikeRate": 26.88995215311005
+        "strikeRate": 26.79296346414073
       },
       "elo": {
-        "wins": 283,
-        "settled": 1356,
+        "wins": 309,
+        "settled": 1483,
         "label": "ELO",
-        "strikeRate": 20.870206489675518
+        "strikeRate": 20.83614295347269
       },
       "ens": {
-        "wins": 693,
-        "settled": 2091,
+        "wins": 737,
+        "settled": 2218,
         "label": "ENS",
-        "strikeRate": 33.14203730272597
+        "strikeRate": 33.22813345356177
       },
       "fast_ens": {
-        "wins": 263,
-        "settled": 638,
+        "wins": 278,
+        "settled": 676,
         "label": "FAST ENS",
-        "strikeRate": 41.222570532915356
+        "strikeRate": 41.124260355029584
       },
       "elo_ens": {
-        "wins": 51,
-        "settled": 102,
+        "wins": 58,
+        "settled": 114,
         "label": "ELO ENS",
-        "strikeRate": 50.0
+        "strikeRate": 50.877192982456144
       }
     }
   },
