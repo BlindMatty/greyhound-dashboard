@@ -6,7 +6,7 @@
   "totalDogs": 349,
   "highConfidenceCount": 47,
   "fastEnsCount": 47,
-  "eloEnsCount": 3,
+  "eloEnsCount": 4,
   "races": [
     {
       "track": "GAR",
@@ -2306,7 +2306,7 @@
           "probability": 0.1109111443611239,
           "implied_odds": 9.016226509610474,
           "isHighConf": false,
-          "scratched": false,
+          "scratched": true,
           "ensemble_prob": 0.1216596284799281,
           "ensemble_odds": 8.219653573617348,
           "ensemble_rank": 4,
@@ -2378,7 +2378,7 @@
           "probability": 0.0769768425576675,
           "implied_odds": 12.99091995428164,
           "isHighConf": false,
-          "scratched": false,
+          "scratched": true,
           "ensemble_prob": 0.0830126827036458,
           "ensemble_odds": 12.046352044421779,
           "ensemble_rank": 7,
@@ -3542,7 +3542,7 @@
           "probability_norm": 0.16190023252005767,
           "implied_odds_norm": 6.176643383610403,
           "isFastEns": true,
-          "isEloEns": false,
+          "isEloEns": true,
           "isMlSpecialist": false
         },
         {
@@ -3588,7 +3588,7 @@
           "probability": 0.1719445898509853,
           "implied_odds": 5.815827068863541,
           "isHighConf": false,
-          "scratched": false,
+          "scratched": true,
           "ensemble_prob": 0.11907714544609489,
           "ensemble_odds": 8.397917133919629,
           "ensemble_rank": 5,
@@ -7512,8 +7512,8 @@
       "elo_prob": 0.2125541900369367,
       "elo_rating": 1655,
       "isFastEns": true,
-      "isEloEns": false,
-      "elo_agrees": false,
+      "isEloEns": true,
+      "elo_agrees": true,
       "isMlSpecialist": false,
       "grade": "Masters Grade 1/2"
     },
