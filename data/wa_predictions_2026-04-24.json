@@ -33,7 +33,8 @@
           "probability_norm": 0.32096035939352535,
           "implied_odds_norm": 3.1156495521427083,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "GIVE ME ROOM",
@@ -189,7 +190,8 @@
           "probability_norm": 0.1751442080310655,
           "implied_odds_norm": 5.7095807577184,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "ELITE ARNOTT",
@@ -345,7 +347,8 @@
           "probability_norm": 0.2709553232222422,
           "implied_odds_norm": 3.6906453363154004,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "LIGHTNING BYTE",
@@ -501,7 +504,8 @@
           "probability_norm": 0.2916335604780185,
           "implied_odds_norm": 3.4289606393752945,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": true
         },
         {
           "dog": "GIDEON MONELLI",
@@ -657,7 +661,8 @@
           "probability_norm": 0.20523404994217692,
           "implied_odds_norm": 4.872485829138694,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": true
         },
         {
           "dog": "SUNSET CALIGULA",
@@ -813,7 +818,8 @@
           "probability_norm": 0.2951121082483357,
           "implied_odds_norm": 3.3885427674777198,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": true
         },
         {
           "dog": "SHEERAN MELODY",
@@ -969,7 +975,8 @@
           "probability_norm": 0.17514585984896042,
           "implied_odds_norm": 5.709526910098615,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": true
         },
         {
           "dog": "BOLT OF FUN",
@@ -1125,7 +1132,8 @@
           "probability_norm": 0.23579674852012827,
           "implied_odds_norm": 4.2409405824128115,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": true
         },
         {
           "dog": "MOO MOVE",
@@ -1281,7 +1289,8 @@
           "probability_norm": 0.22762445673769735,
           "implied_odds_norm": 4.39320103969473,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "RAMBO'S SHOUT",
@@ -1419,7 +1428,8 @@
           "probability_norm": 0.2750277578580182,
           "implied_odds_norm": 3.63599662735223,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "TIME HAS COME",
@@ -1575,7 +1585,8 @@
           "probability_norm": 0.3418155820573378,
           "implied_odds_norm": 2.925554165732138,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "CLIFTON KUNA",
@@ -1681,6 +1692,7 @@
       "box": 6,
       "probability": 0.1486838211066857,
       "implied_odds": 6.725681332082969,
+      "implied_odds_norm": 5.709526910098615,
       "ensemble_prob": 0.129646499029467,
       "ensemble_odds": 7.713281943484742,
       "fastai_prob": 0.0841471382099737,
@@ -1688,7 +1700,9 @@
       "elo_rating": 1400,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": true,
+      "grade": "Free For All"
     },
     {
       "track": "MAN",
@@ -1699,6 +1713,7 @@
       "box": 7,
       "probability": 0.1875035629286191,
       "implied_odds": 5.333231989733926,
+      "implied_odds_norm": 3.1156495521427083,
       "ensemble_prob": 0.20529136379158694,
       "ensemble_odds": 4.871125514150737,
       "fastai_prob": 0.0896223681896487,
@@ -1706,7 +1721,9 @@
       "elo_rating": 1350,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Mixed 6/5"
     },
     {
       "track": "MAN",
@@ -1717,6 +1734,7 @@
       "box": 1,
       "probability": 0.1516327975182056,
       "implied_odds": 6.594879316131696,
+      "implied_odds_norm": 3.63599662735223,
       "ensemble_prob": 0.15544903833726886,
       "ensemble_odds": 6.4329764319954,
       "fastai_prob": 0.0358703188165195,
@@ -1724,7 +1742,9 @@
       "elo_rating": 1350,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Grade 5"
     },
     {
       "track": "MAN",
@@ -1735,6 +1755,7 @@
       "box": 2,
       "probability": 0.1276867654034844,
       "implied_odds": 7.831665222625423,
+      "implied_odds_norm": 3.6906453363154004,
       "ensemble_prob": 0.17108064961792788,
       "ensemble_odds": 5.845196416037036,
       "fastai_prob": 0.0712059760136138,
@@ -1742,7 +1763,9 @@
       "elo_rating": 1149,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Novice Grade 5"
     },
     {
       "track": "MAN",
@@ -1753,6 +1776,7 @@
       "box": 2,
       "probability": 0.1660494514526697,
       "implied_odds": 6.022302339764352,
+      "implied_odds_norm": 4.39320103969473,
       "ensemble_prob": 0.18541663625170418,
       "ensemble_odds": 5.393259311653643,
       "fastai_prob": 0.1432088157657111,
@@ -1760,7 +1784,9 @@
       "elo_rating": 1200,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Mixed 3/4"
     },
     {
       "track": "MAN",
@@ -1771,6 +1797,7 @@
       "box": 8,
       "probability": 0.165757994363273,
       "implied_odds": 6.032891528648767,
+      "implied_odds_norm": 2.925554165732138,
       "ensemble_prob": 0.2740948906594861,
       "ensemble_odds": 3.648371546050894,
       "fastai_prob": 0.2063741992616344,
@@ -1778,7 +1805,9 @@
       "elo_rating": 1221,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Grade 5"
     },
     {
       "track": "MAN",
@@ -1789,6 +1818,7 @@
       "box": 1,
       "probability": 0.1200444758560213,
       "implied_odds": 8.330245876531443,
+      "implied_odds_norm": 4.872485829138694,
       "ensemble_prob": 0.1591293607119499,
       "ensemble_odds": 6.284195421422971,
       "fastai_prob": 0.113024671481723,
@@ -1796,7 +1826,9 @@
       "elo_rating": 1428,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": true,
+      "grade": "S/E Heat"
     },
     {
       "track": "MAN",
@@ -1807,6 +1839,7 @@
       "box": 4,
       "probability": 0.0609504665384967,
       "implied_odds": 16.406765309472952,
+      "implied_odds_norm": 5.7095807577184,
       "ensemble_prob": 0.13622584727403494,
       "ensemble_odds": 7.340750819397568,
       "fastai_prob": 0.0973074865170045,
@@ -1814,7 +1847,9 @@
       "elo_rating": 1280,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Novice Grade 5"
     },
     {
       "track": "MAN",
@@ -1825,6 +1860,7 @@
       "box": 2,
       "probability": 0.2523569113325372,
       "implied_odds": 3.962641620233948,
+      "implied_odds_norm": 3.3885427674777198,
       "ensemble_prob": 0.18720510528059547,
       "ensemble_odds": 5.341734663171357,
       "fastai_prob": 0.0792981023128553,
@@ -1832,7 +1868,9 @@
       "elo_rating": 1200,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": true,
+      "grade": "S/E Heat"
     },
     {
       "track": "MAN",
@@ -1843,6 +1881,7 @@
       "box": 1,
       "probability": 0.2736100163698936,
       "implied_odds": 3.654836958337443,
+      "implied_odds_norm": 3.4289606393752945,
       "ensemble_prob": 0.18048583508506497,
       "ensemble_odds": 5.540601009096858,
       "fastai_prob": 0.0693381096921115,
@@ -1850,7 +1889,9 @@
       "elo_rating": 1400,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": true,
+      "grade": "S/E Heat"
     },
     {
       "track": "MAN",
@@ -1861,6 +1902,7 @@
       "box": 1,
       "probability": 0.1372824404103255,
       "implied_odds": 7.284252793081803,
+      "implied_odds_norm": 4.2409405824128115,
       "ensemble_prob": 0.15231856703897725,
       "ensemble_odds": 6.565187812882372,
       "fastai_prob": 0.0688403855578263,
@@ -1868,7 +1910,9 @@
       "elo_rating": 1279,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": true,
+      "grade": "Mixed 4/5"
     }
   ],
   "topPicks": [

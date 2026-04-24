@@ -1,12 +1,12 @@
 {
   "date": "2026-04-24",
-  "totalPredictions": 1233,
-  "totalHighConfidence": 41,
+  "totalPredictions": 1220,
+  "totalHighConfidence": 42,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 359,
+      "totalPredictions": 357,
       "highConfidenceCount": 5,
       "fastEnsCount": 5,
       "eloEnsCount": 1,
@@ -26,7 +26,7 @@
           "ensemble_odds": 5.1531401532059995,
           "fastai_prob": 0.0745986629592371,
           "fastai_rank": 6,
-          "elo_prob": 0.13712580358312385,
+          "elo_prob": 0.1371258035831238,
           "elo_rating": 1378,
           "tier": "green"
         },
@@ -64,7 +64,7 @@
           "ensemble_odds": 4.605168062059138,
           "fastai_prob": 0.1826949257223878,
           "fastai_rank": 3,
-          "elo_prob": 0.13689766550327429,
+          "elo_prob": 0.1368976655032742,
           "elo_rating": 1391,
           "tier": "green"
         }
@@ -85,9 +85,9 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 362,
-      "highConfidenceCount": 17,
-      "fastEnsCount": 17,
+      "totalPredictions": 351,
+      "highConfidenceCount": 18,
+      "fastEnsCount": 18,
       "eloEnsCount": 3,
       "topPicks": [
         {
@@ -110,6 +110,25 @@
           "tier": "green"
         },
         {
+          "track": "RIC",
+          "raceNumber": 11,
+          "raceId": 1289735858,
+          "raceStartTime": "6:29PM",
+          "dog": "CANYA SAPPHIRE",
+          "box": 1,
+          "rug": 1,
+          "probability": 0.40010470739978,
+          "implied_odds": 2.499345750013412,
+          "grade": "Non Graded",
+          "ensemble_prob": 0.414829298809855,
+          "ensemble_odds": 2.4106301142879722,
+          "fastai_prob": 0.42955389021992973,
+          "fastai_rank": 1,
+          "elo_prob": 0.1491785462468477,
+          "elo_rating": 1443,
+          "tier": "green"
+        },
+        {
           "track": "GBN",
           "raceNumber": 9,
           "raceId": 1289735868,
@@ -124,27 +143,8 @@
           "ensemble_odds": 4.12484353590326,
           "fastai_prob": 0.2828679746640611,
           "fastai_rank": 1,
-          "elo_prob": 0.05977879190894426,
+          "elo_prob": 0.0597787919089442,
           "elo_rating": 1382,
-          "tier": "yellow"
-        },
-        {
-          "track": "RIC",
-          "raceNumber": 11,
-          "raceId": 1289735858,
-          "raceStartTime": "6:29PM",
-          "dog": "CANYA SAPPHIRE",
-          "box": 1,
-          "rug": 1,
-          "probability": 0.3624898336870628,
-          "implied_odds": 2.758698057345517,
-          "grade": "Non Graded",
-          "ensemble_prob": 0.2959394591636324,
-          "ensemble_odds": 3.379069498964904,
-          "fastai_prob": 0.3352661058308261,
-          "fastai_rank": 1,
-          "elo_prob": 0.1491785462468477,
-          "elo_rating": 1443,
           "tier": "yellow"
         }
       ],
