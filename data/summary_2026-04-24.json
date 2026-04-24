@@ -1,36 +1,16 @@
 {
   "date": "2026-04-24",
-  "totalPredictions": 1214,
+  "totalPredictions": 1211,
   "totalHighConfidence": 42,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 357,
+      "totalPredictions": 354,
       "highConfidenceCount": 5,
       "fastEnsCount": 5,
       "eloEnsCount": 1,
       "topPicks": [
-        {
-          "track": "BAL",
-          "raceNumber": 11,
-          "raceId": 1290192235,
-          "raceStartTime": "10:32PM",
-          "dog": "KRAKEN WHISKY",
-          "box": 8,
-          "rug": 8,
-          "probability": 0.5542903094264059,
-          "implied_odds": 1.8041087549136952,
-          "grade": "Mixed 4/5",
-          "distanceInMetres": null,
-          "ensemble_prob": 0.1940564336054115,
-          "ensemble_odds": 5.1531401532059995,
-          "fastai_prob": 0.0745986629592371,
-          "fastai_rank": 6,
-          "elo_prob": 0.13712580358312385,
-          "elo_rating": 1378,
-          "tier": "green"
-        },
         {
           "track": "BEN",
           "raceNumber": 6,
@@ -67,8 +47,28 @@
           "ensemble_odds": 4.605168062059138,
           "fastai_prob": 0.1826949257223878,
           "fastai_rank": 3,
-          "elo_prob": 0.13689766550327429,
+          "elo_prob": 0.1368976655032742,
           "elo_rating": 1391,
+          "tier": "green"
+        },
+        {
+          "track": "BAL",
+          "raceNumber": 5,
+          "raceId": 1290192238,
+          "raceStartTime": "8:31PM",
+          "dog": "CINEMATIC",
+          "box": 7,
+          "rug": 7,
+          "probability": 0.4177983930853896,
+          "implied_odds": 2.393498913710805,
+          "grade": "Mixed 6/7",
+          "distanceInMetres": null,
+          "ensemble_prob": 0.1737768620969636,
+          "ensemble_odds": 5.754506025330474,
+          "fastai_prob": 0.1310845791172672,
+          "fastai_rank": 4,
+          "elo_prob": 0.2769188029774266,
+          "elo_rating": 1415,
           "tier": "green"
         }
       ],
@@ -149,7 +149,7 @@
           "ensemble_odds": 4.12484353590326,
           "fastai_prob": 0.2828679746640611,
           "fastai_rank": 1,
-          "elo_prob": 0.0597787919089442,
+          "elo_prob": 0.05977879190894426,
           "elo_rating": 1382,
           "tier": "yellow"
         }
