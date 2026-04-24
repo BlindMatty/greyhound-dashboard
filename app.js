@@ -95,8 +95,6 @@ function renderSummary(data) {
 async function loadHighConfidencePicks(states) {
   const eloHC = [];
   const tsHC = [];
-  const FAST_ENS_TRACKS = ['MBR', 'DHO', 'MEP', 'BEN', 'DAR', 'HOB', 'CAS', 'BUL', 'GOS', 'HVL', 'LCN'];
-  const ML_TRACKS = ['NOR', 'DHO', 'MBR', 'HOB', 'RIS', 'WAK'];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
     try {
@@ -107,12 +105,7 @@ async function loadHighConfidencePicks(states) {
         if (p.isEloEns) {
           eloHC.push(enhancedP);
         }
-        
-        const t = (p.track || '').toUpperCase();
-        const meetsFastEns = p.isFastEns && FAST_ENS_TRACKS.includes(t);
-        const meetsMl = ML_TRACKS.includes(t); // Because all highConfidencePicks are ML top picks
-        if (meetsFastEns || meetsMl) {
-          // Prevent duplicating exact same pick in TS section if it's already in ELO top banner? The user requested both sections. It's often good to keep them distinct or duplicate. The request is: "It needed to keep the existing TOP Picks as well. The track specialist picks are an add on". So they can be in both or separate.
+        if (p.isMlSpecialist) {
           tsHC.push(enhancedP);
         }
       }
@@ -130,8 +123,8 @@ async function loadHighConfidencePicks(states) {
   eloHC.sort(sorter);
   tsHC.sort(sorter);
   
-  renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks');
-  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists');
+  renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks', {useNormOdds: false});
+  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
@@ -147,7 +140,7 @@ function parseTime(s) {
   return h * 60 + min;
 }
 
-function renderPicksGrid(picks, gridId, sectionId, subtitleId, label) {
+function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {}) {
   const el = document.getElementById(gridId);
   if (!picks.length) { hide(sectionId); return; }
   const subtitle = document.getElementById(subtitleId);
@@ -156,7 +149,10 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label) {
   }
 
   el.innerHTML = picks.map(p => {
-    const ensOdds = p.ensemble_odds || p.implied_odds || 0;
+    const displayOdds = opts.useNormOdds
+      ? (p.implied_odds_norm || p.implied_odds || 0)
+      : (p.ensemble_odds || p.implied_odds || 0);
+    const oddsLabel = opts.useNormOdds ? 'ML implied' : 'ENS implied';
     const ensProb = p.ensemble_prob || p.probability || 0;
     const fastaiProb = p.fastai_prob || 0;
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
@@ -178,8 +174,8 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label) {
         </span>
       </div>
       <div>
-        <div class="hc-odds">$${ensOdds.toFixed(2)}</div>
-        <div style="font-size:0.7rem;color:var(--text-dim);text-align:right">ENS implied</div>
+        <div class="hc-odds">$${displayOdds.toFixed(2)}</div>
+        <div style="font-size:0.7rem;color:var(--text-dim);text-align:right">${oddsLabel}</div>
       </div>
     </div>
   `}).join('');
