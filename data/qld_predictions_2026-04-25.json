@@ -33,7 +33,8 @@
           "probability_norm": 0.2645245179270209,
           "implied_odds_norm": 3.7803679138577535,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "DOOGIE MCGRAW",
@@ -189,7 +190,8 @@
           "probability_norm": 0.24447101713005945,
           "implied_odds_norm": 4.090464431078129,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "NANGAR NUGGET",
@@ -327,7 +329,8 @@
           "probability_norm": 0.25213955464427823,
           "implied_odds_norm": 3.9660576120665123,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "STITCH RULES",
@@ -465,7 +468,8 @@
           "probability_norm": 0.2403483407675919,
           "implied_odds_norm": 4.16062784875625,
           "isFastEns": true,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "SHOUT OUT SHAZAM",
@@ -603,7 +607,8 @@
           "probability_norm": 0.18532186087418867,
           "implied_odds_norm": 5.39601747620525,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "MALAWI REBEL",
@@ -759,7 +764,8 @@
           "probability_norm": 0.23489795995557977,
           "implied_odds_norm": 4.257167666288393,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "PACKHAM PUNCH",
@@ -915,7 +921,8 @@
           "probability_norm": 0.2905221455943558,
           "implied_odds_norm": 3.4420783928680576,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "IDEA'S GIRL",
@@ -1071,7 +1078,8 @@
           "probability_norm": 0.26702268775317917,
           "implied_odds_norm": 3.745000128694473,
           "isFastEns": true,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "LIVING LEGEND",
@@ -1227,7 +1235,8 @@
           "probability_norm": 0.2679479773568863,
           "implied_odds_norm": 3.7320677314465267,
           "isFastEns": false,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "HARA'S PUMPKIN",
@@ -1365,7 +1374,8 @@
           "probability_norm": 0.19112201459782371,
           "implied_odds_norm": 5.232259622756127,
           "isFastEns": true,
-          "isEloEns": false
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "BETTER CALL",
@@ -1507,6 +1517,7 @@
       "box": 6,
       "probability": 0.3364192513758249,
       "implied_odds": 2.972481497150909,
+      "implied_odds_norm": 3.4420783928680576,
       "ensemble_prob": 0.2510213630993574,
       "ensemble_odds": 3.983724682445404,
       "fastai_prob": 0.2115205806043592,
@@ -1514,7 +1525,9 @@
       "elo_rating": 1325,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Mixed 4/5"
     },
     {
       "track": "QOT",
@@ -1525,6 +1538,7 @@
       "box": 7,
       "probability": 0.3797322675688091,
       "implied_odds": 2.633434357323336,
+      "implied_odds_norm": 3.7320677314465267,
       "ensemble_prob": 0.1723943577200579,
       "ensemble_odds": 5.800653880006022,
       "fastai_prob": 0.0768407380832295,
@@ -1532,7 +1546,9 @@
       "elo_rating": 1482,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Grade 5"
     },
     {
       "track": "QOT",
@@ -1543,6 +1559,7 @@
       "box": 1,
       "probability": 0.3161244275387752,
       "implied_odds": 3.1633113827540007,
+      "implied_odds_norm": 3.7803679138577535,
       "ensemble_prob": 0.1797776682206931,
       "ensemble_odds": 5.562426133886723,
       "fastai_prob": 0.0950308185143653,
@@ -1550,7 +1567,9 @@
       "elo_rating": 1297,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Grade 6"
     },
     {
       "track": "QOT",
@@ -1561,6 +1580,7 @@
       "box": 2,
       "probability": 0.1555804754058134,
       "implied_odds": 6.427541742571601,
+      "implied_odds_norm": 5.39601747620525,
       "ensemble_prob": 0.17064613837174852,
       "ensemble_odds": 5.860079867858035,
       "fastai_prob": 0.1559704158693085,
@@ -1568,7 +1588,9 @@
       "elo_rating": 1252,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Restricted Win"
     },
     {
       "track": "QOT",
@@ -1579,6 +1601,7 @@
       "box": 5,
       "probability": 0.23827153524756,
       "implied_odds": 4.196892419235127,
+      "implied_odds_norm": 4.257167666288393,
       "ensemble_prob": 0.16257269218779669,
       "ensemble_odds": 6.15109454449364,
       "fastai_prob": 0.0902474244200137,
@@ -1586,7 +1609,9 @@
       "elo_rating": 1212,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Restricted Win"
     },
     {
       "track": "QOT",
@@ -1597,6 +1622,7 @@
       "box": 4,
       "probability": 0.1668509963595778,
       "implied_odds": 5.993371462073361,
+      "implied_odds_norm": 5.232259622756127,
       "ensemble_prob": 0.274366033258977,
       "ensemble_odds": 3.644766037988709,
       "fastai_prob": 0.3576100519201304,
@@ -1604,7 +1630,9 @@
       "elo_rating": 1200,
       "isFastEns": true,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Masters Grade 5"
     },
     {
       "track": "QOT",
@@ -1615,6 +1643,7 @@
       "box": 1,
       "probability": 0.1786522250508559,
       "implied_odds": 5.59746736832041,
+      "implied_odds_norm": 4.090464431078129,
       "ensemble_prob": 0.21819554487067286,
       "ensemble_odds": 4.583044995683629,
       "fastai_prob": 0.1919200726112864,
@@ -1622,7 +1651,9 @@
       "elo_rating": 1456,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Grade 5"
     },
     {
       "track": "QOT",
@@ -1633,6 +1664,7 @@
       "box": 8,
       "probability": 0.2625520761449106,
       "implied_odds": 3.808768205847548,
+      "implied_odds_norm": 4.16062784875625,
       "ensemble_prob": 0.3419681131160348,
       "ensemble_odds": 2.9242492549610475,
       "fastai_prob": 0.4435878854644778,
@@ -1640,7 +1672,9 @@
       "elo_rating": 1433,
       "isFastEns": true,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Free For All"
     },
     {
       "track": "QOT",
@@ -1651,6 +1685,7 @@
       "box": 2,
       "probability": 0.4078085402787553,
       "implied_odds": 2.452131089055799,
+      "implied_odds_norm": 3.745000128694473,
       "ensemble_prob": 0.22072596674145617,
       "ensemble_odds": 4.530504565289022,
       "fastai_prob": 0.1744292457297332,
@@ -1658,7 +1693,9 @@
       "elo_rating": 1272,
       "isFastEns": true,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Group Listed"
     },
     {
       "track": "QOT",
@@ -1669,6 +1706,7 @@
       "box": 1,
       "probability": 0.1918689932767468,
       "implied_odds": 5.211889544641672,
+      "implied_odds_norm": 3.9660576120665123,
       "ensemble_prob": 0.1604475636427853,
       "ensemble_odds": 6.232565813379155,
       "fastai_prob": 0.0687555726412925,
@@ -1676,7 +1714,9 @@
       "elo_rating": 1350,
       "isFastEns": false,
       "isEloEns": false,
-      "elo_agrees": false
+      "elo_agrees": false,
+      "isMlSpecialist": false,
+      "grade": "Mixed 4/5"
     }
   ],
   "topPicks": [
