@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.111,
-      "ens_prob": 0.214,
-      "fastai_prob": 0.0966,
+      "ml_prob": 0.2434,
+      "ens_prob": 0.2452,
+      "fastai_prob": 0.2468,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 1,
       "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 450.8,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 5,
@@ -185,15 +185,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.097)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
