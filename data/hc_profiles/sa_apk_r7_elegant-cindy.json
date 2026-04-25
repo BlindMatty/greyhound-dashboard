@@ -1,18 +1,18 @@
 {
-  "dog": "SONALI",
+  "dog": "ELEGANT CINDY",
   "date": "2026-04-27",
-  "track": "WAG",
+  "track": "APK",
   "race": 7,
   "distance": 0,
-  "grade": "Mixed 4/5",
+  "grade": "Grade 5",
   "steps": {
-    "history_length": 15,
+    "history_length": 28,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3372,
-      "ens_prob": 0.2032,
-      "fastai_prob": 0.7039,
+      "ml_prob": 0.2522,
+      "ens_prob": 0.2648,
+      "fastai_prob": 0.5162,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,41 +21,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 348.3333333333333,
+      "avg_dist": 346.7142857142857,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 4/5 vs Field"
+      "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.9,
-      "fluctuation": -0.02857142857142847,
+      "last_weight": 28.5,
+      "fluctuation": 0.837499999999995,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 15,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 2.6,
+      "total_starts": 28,
+      "last_3_avg_place": 1.6666666666666667,
+      "last_5_avg_place": 1.8,
       "last_10_places": [
         4.0,
-        4.0,
-        4.0,
-        1.0,
+        6.0,
+        6.0,
         1.0,
         1.0,
         3.0,
-        4.0,
-        4.0,
-        1.0
+        1.0,
+        1.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701278
+      "races_with_same_dogs": 213805
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.059999999999999
+      "avg_run_home": 15.212727272727273
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 3.6769552621700474
+      "split_stdev": 1.5649510731878686
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,14 +92,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Clint Colaiacovo"
+      "trainer": "Marcello Calicchio"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 6
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,38 +111,38 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 9450.0
+      "career_prize": 6830.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 1.0
+      "avg_1st_split_pos": 3.5
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -400
+      "dist_diff_from_last": -342
     },
     "29_Live_Weather": {
       "status": "error",
-      "message": "Coordinates not mapped for track: WAG"
+      "message": "Coordinates not mapped for track: APK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.42857142857142855,
-      "place_rate": 0.5
+      "win_rate": 0.3333333333333333,
+      "place_rate": 0.5833333333333334
     },
     "31_Track_Archetypes": {
       "track_specialist": true
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Clint Colaiacovo"
+      "trainer_lookup": "Marcello Calicchio"
     },
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
-      "dam": "VAL ALI",
-      "total_offspring_runs_in_state": 23868,
-      "sire_win_rate": 0.13566281213340037
+      "dam": "FANTASTIC HOPE",
+      "total_offspring_runs_in_state": 4449,
+      "sire_win_rate": 0.15374241402562375
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 81,
-      "litter_wins": 15
+      "total_litter_runs": 165,
+      "litter_wins": 38
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -161,13 +161,13 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "NSW"
+      "home_state": "SA"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 15
+      "total_starts": 28
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.2743697735457484
+      "ewma_places": 1.8481950669404905
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,24 +191,26 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 13,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Quick Backup (< 4 days)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
+        "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.704)"
+        "FastAI Strong Conviction (Rank 1, prob 0.516)"
       ]
     }
   }
