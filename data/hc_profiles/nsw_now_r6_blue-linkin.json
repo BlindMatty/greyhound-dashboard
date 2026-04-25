@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3971,
-      "ens_prob": 0.2111,
-      "fastai_prob": 0.375,
-      "fastai_rank": 2,
+      "ml_prob": 0.3643,
+      "ens_prob": 0.1779,
+      "fastai_prob": 0.337,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700797
+      "races_with_same_dogs": 701278
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "SWEET NANGAR",
-      "total_offspring_runs_in_state": 11536,
-      "sire_win_rate": 0.15785367545076284
+      "total_offspring_runs_in_state": 11561,
+      "sire_win_rate": 0.15777181904679527
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,11 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
-      "decision": "PASS / CAUTION",
+      "final_score": 10,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

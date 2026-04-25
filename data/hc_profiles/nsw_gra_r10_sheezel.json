@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2442,
-      "ens_prob": 0.2113,
-      "fastai_prob": 0.3013,
+      "ml_prob": 0.2827,
+      "ens_prob": 0.2257,
+      "fastai_prob": 0.3847,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700797
+      "races_with_same_dogs": 701278
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "ISLA'S STYLE",
-      "total_offspring_runs_in_state": 10160,
-      "sire_win_rate": 0.13809055118110236
+      "total_offspring_runs_in_state": 10172,
+      "sire_win_rate": 0.1381242626818718
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -210,7 +210,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.301)"
+        "FastAI Strong Conviction (Rank 1, prob 0.385)"
       ]
     }
   }

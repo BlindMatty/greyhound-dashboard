@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2627,
-      "ens_prob": 0.338,
-      "fastai_prob": 0.625,
+      "ml_prob": 0.2878,
+      "ens_prob": 0.3028,
+      "fastai_prob": 0.6926,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700797
+      "races_with_same_dogs": 701278
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FLYING RICCIARDO",
       "dam": "REIKO LIVE WIRE",
-      "total_offspring_runs_in_state": 12370,
-      "sire_win_rate": 0.1294260307194826
+      "total_offspring_runs_in_state": 12382,
+      "sire_win_rate": 0.12954288483282184
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -205,7 +205,7 @@
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.625)"
+        "FastAI Strong Conviction (Rank 1, prob 0.693)"
       ]
     }
   }

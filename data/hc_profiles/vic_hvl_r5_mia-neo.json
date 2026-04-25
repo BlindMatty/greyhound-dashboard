@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1398,
-      "ens_prob": 0.1438,
-      "fastai_prob": 0.1144,
-      "fastai_rank": 3,
+      "ml_prob": 0.1583,
+      "ens_prob": 0.1227,
+      "fastai_prob": 0.0373,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775009
+      "races_with_same_dogs": 775185
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "GRAND NEO",
-      "total_offspring_runs_in_state": 8794,
-      "sire_win_rate": 0.14657721173527405
+      "total_offspring_runs_in_state": 8797,
+      "sire_win_rate": 0.1465272251904058
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -8,
+      "final_score": -9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,7 +201,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 3, prob 0.114)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

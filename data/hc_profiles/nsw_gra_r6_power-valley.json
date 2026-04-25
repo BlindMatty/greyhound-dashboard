@@ -9,12 +9,12 @@
     "history_length": 6,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3105,
-      "ens_prob": 0.2386,
-      "fastai_prob": 0.4991,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2889,
+      "ens_prob": 0.2061,
+      "fastai_prob": 0.5403,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700797
+      "races_with_same_dogs": 701278
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "EBBY JET POWER",
       "dam": "CANYA LILLY",
-      "total_offspring_runs_in_state": 1658,
-      "sire_win_rate": 0.10193003618817853
+      "total_offspring_runs_in_state": 1659,
+      "sire_win_rate": 0.10186859553948162
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,9 +201,7 @@
         "Professional Box Dog (Elite start consistency)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.499)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }
