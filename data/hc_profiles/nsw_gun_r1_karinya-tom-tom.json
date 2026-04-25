@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1608,
-      "ens_prob": 0.1569,
-      "fastai_prob": 0.0753,
-      "fastai_rank": 4,
+      "ml_prob": 0.1568,
+      "ens_prob": 0.1465,
+      "fastai_prob": 0.0493,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700400
+      "races_with_same_dogs": 700797
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "KARINYA GOZO",
-      "total_offspring_runs_in_state": 8569,
-      "sire_win_rate": 0.14762516046213095
+      "total_offspring_runs_in_state": 8604,
+      "sire_win_rate": 0.14760576476057646
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

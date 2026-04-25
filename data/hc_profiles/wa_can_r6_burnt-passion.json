@@ -9,12 +9,12 @@
     "history_length": 42,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.1152,
-      "ens_prob": 0.2691,
-      "fastai_prob": 0.4332,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "ens_prob": 0.2179,
+      "fastai_prob": 0.3379,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 9,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,9 +205,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.433)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

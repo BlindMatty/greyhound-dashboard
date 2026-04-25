@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2665,
-      "ens_prob": 0.1333,
-      "fastai_prob": 0.1526,
-      "fastai_rank": 4,
+      "ml_prob": 0.2466,
+      "ens_prob": 0.1252,
+      "fastai_prob": 0.1221,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700400
+      "races_with_same_dogs": 700797
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "GRAND AUDREY",
-      "total_offspring_runs_in_state": 24489,
-      "sire_win_rate": 0.12042141369594511
+      "total_offspring_runs_in_state": 24516,
+      "sire_win_rate": 0.12041116005873716
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

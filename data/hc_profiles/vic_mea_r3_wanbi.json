@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1517,
-      "ens_prob": 0.1181,
-      "fastai_prob": 0.1375,
-      "fastai_rank": 7,
+      "ml_prob": 0.1616,
+      "ens_prob": 0.1344,
+      "fastai_prob": 0.1201,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 774580
+      "races_with_same_dogs": 775009
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -117,7 +117,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 19.1,
-      "avg_temp_c": 18.0,
+      "avg_temp_c": 17.3,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "WEST SONG",
-      "total_offspring_runs_in_state": 37279,
-      "sire_win_rate": 0.14777756914080314
+      "total_offspring_runs_in_state": 37317,
+      "sire_win_rate": 0.14776107404132166
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -196,7 +196,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

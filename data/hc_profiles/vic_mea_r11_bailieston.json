@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2805,
-      "ens_prob": 0.1869,
-      "fastai_prob": 0.168,
+      "ml_prob": 0.267,
+      "ens_prob": 0.1704,
+      "fastai_prob": 0.1542,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 5,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
       "avg_dist": 461.71875,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
       "total_starts": 32,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 774580
+      "races_with_same_dogs": 775009
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,7 +122,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 19.1,
-      "avg_temp_c": 18.0,
+      "avg_temp_c": 17.3,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "YUKO GIRL",
-      "total_offspring_runs_in_state": 99611,
-      "sire_win_rate": 0.13247532902992643
+      "total_offspring_runs_in_state": 99647,
+      "sire_win_rate": 0.13247764609070017
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -171,7 +171,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -195,9 +195,10 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)"
@@ -208,8 +209,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }
