@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.301,
-      "ens_prob": 0.1543,
-      "fastai_prob": 0.0881,
-      "fastai_rank": 5,
+      "ml_prob": 0.3158,
+      "ens_prob": 0.1505,
+      "fastai_prob": 0.0599,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775185
+      "races_with_same_dogs": 775387
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.3,
-      "avg_temp_c": 14.3,
+      "max_wind_kmh": 8.5,
+      "avg_temp_c": 13.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "TESSA SAND",
-      "total_offspring_runs_in_state": 28046,
-      "sire_win_rate": 0.14137488411894744
+      "total_offspring_runs_in_state": 28057,
+      "sire_win_rate": 0.1413550985493816
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 149,
+      "total_litter_runs": 151,
       "litter_wins": 14
     },
     "35_Injury_History": {
@@ -205,7 +205,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -9,12 +9,12 @@
     "history_length": 85,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2301,
-      "ens_prob": 0.2027,
-      "fastai_prob": 0.2561,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2426,
+      "ens_prob": 0.2402,
+      "fastai_prob": 0.1852,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701278
+      "races_with_same_dogs": 701428
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MOTEL GIRL",
-      "total_offspring_runs_in_state": 101192,
-      "sire_win_rate": 0.13674994070677524
+      "total_offspring_runs_in_state": 101210,
+      "sire_win_rate": 0.1367453808912163
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -205,7 +205,8 @@
         "Strong Head-to-Head Experience over field",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

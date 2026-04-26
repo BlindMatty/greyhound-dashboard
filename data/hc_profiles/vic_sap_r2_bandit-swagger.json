@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3243,
-      "ens_prob": 0.3218,
-      "fastai_prob": 0.2606,
+      "ml_prob": 0.3432,
+      "ens_prob": 0.3473,
+      "fastai_prob": 0.2277,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775185
+      "races_with_same_dogs": 775387
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -116,8 +116,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.3,
-      "avg_temp_c": 14.3,
+      "max_wind_kmh": 8.5,
+      "avg_temp_c": 13.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "JUST TERMS",
-      "total_offspring_runs_in_state": 12220,
-      "sire_win_rate": 0.132569558101473
+      "total_offspring_runs_in_state": 12230,
+      "sire_win_rate": 0.13254292722812755
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -190,7 +190,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,8 +201,7 @@
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.261)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

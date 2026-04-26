@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1452,
-      "ens_prob": 0.1707,
-      "fastai_prob": 0.15,
-      "fastai_rank": 5,
+      "ml_prob": 0.1757,
+      "ens_prob": 0.2059,
+      "fastai_prob": 0.1528,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701278
+      "races_with_same_dogs": 701428
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 21.165392156862744
+      "avg_run_home": 21.165392156862747
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "ZIPPING OAKS",
-      "total_offspring_runs_in_state": 24610,
-      "sire_win_rate": 0.12039821210889882
+      "total_offspring_runs_in_state": 24615,
+      "sire_win_rate": 0.12041438147471054
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
@@ -201,7 +201,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

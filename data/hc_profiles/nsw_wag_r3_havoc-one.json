@@ -9,12 +9,12 @@
     "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2824,
-      "ens_prob": 0.1996,
-      "fastai_prob": 0.6115,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3044,
+      "ens_prob": 0.224,
+      "fastai_prob": 0.5682,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701278
+      "races_with_same_dogs": 701428
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -185,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 3,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -194,9 +194,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Professional Box Dog (Elite start consistency)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.612)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

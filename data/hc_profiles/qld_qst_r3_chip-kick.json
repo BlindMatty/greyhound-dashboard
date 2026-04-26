@@ -9,12 +9,12 @@
     "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1638,
-      "ens_prob": 0.1585,
-      "fastai_prob": 0.0689,
-      "fastai_rank": 6,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1671,
+      "ens_prob": 0.2471,
+      "fastai_prob": 0.234,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 399287
+      "races_with_same_dogs": 399524
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "WOLF STEELE",
-      "total_offspring_runs_in_state": 5803,
-      "sire_win_rate": 0.15095640186110632
+      "total_offspring_runs_in_state": 5824,
+      "sire_win_rate": 0.1507554945054945
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -182,22 +182,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -6,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

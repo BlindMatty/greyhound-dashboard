@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.1485,
-      "ens_prob": 0.2119,
-      "fastai_prob": 0.2157,
-      "fastai_rank": 2,
+      "ens_prob": 0.1812,
+      "fastai_prob": 0.1213,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,7 +199,8 @@
         "Distance Shock (>= 100m diff last run)",
         "Poor Sire Line (<8% state win rate)",
         "Injury Prone (Multiple 60+ day spells)",
-        "Wide Runner drawn Inside (Crash risk)"
+        "Wide Runner drawn Inside (Crash risk)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
