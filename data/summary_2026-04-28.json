@@ -1,15 +1,15 @@
 {
   "date": "2026-04-28",
-  "totalPredictions": 1076,
-  "totalHighConfidence": 44,
+  "totalPredictions": 1069,
+  "totalHighConfidence": 26,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 265,
-      "highConfidenceCount": 18,
-      "fastEnsCount": 18,
-      "eloEnsCount": 7,
+      "totalPredictions": 258,
+      "highConfidenceCount": 0,
+      "fastEnsCount": 0,
+      "eloEnsCount": 0,
       "topPicks": [
         {
           "track": "HOR",
@@ -19,16 +19,12 @@
           "dog": "DISTINCTION",
           "box": 5,
           "rug": 5,
-          "probability": 0.5949015871505424,
-          "implied_odds": 1.680950297661495,
+          "probability": 0.578535679529022,
+          "implied_odds": 1.7285018632110754,
           "grade": "Mixed 4/5",
           "distanceInMetres": 485,
-          "ensemble_prob": 0.6273706597165454,
-          "ensemble_odds": 1.5939540437734427,
-          "fastai_prob": 0.8037284356783226,
-          "fastai_rank": 1,
-          "elo_prob": 0.11348289771201102,
-          "elo_rating": 1200,
+          "ensemble_prob": 0.4916651722346658,
+          "ensemble_odds": 2.033904487183632,
           "tier": "green"
         },
         {
@@ -39,36 +35,28 @@
           "dog": "FIND THE SUN",
           "box": 1,
           "rug": 1,
-          "probability": 0.4245290146838469,
-          "implied_odds": 2.35555160050654,
+          "probability": 0.492698410111776,
+          "implied_odds": 2.029639185913214,
           "grade": "Grade 5 Heat",
           "distanceInMetres": 400,
-          "ensemble_prob": 0.2846014735601827,
-          "ensemble_odds": 3.5136852507846794,
-          "fastai_prob": 0.2523161393462202,
-          "fastai_rank": 1,
-          "elo_prob": 0.2511656075201645,
-          "elo_rating": 1410,
+          "ensemble_prob": 0.3446042302975963,
+          "ensemble_odds": 2.901879640700903,
           "tier": "green"
         },
         {
-          "track": "WGL",
-          "raceNumber": 5,
-          "raceId": 1291065003,
-          "raceStartTime": "8:05PM",
-          "dog": "MOTORSPORT",
-          "box": 1,
-          "rug": 1,
-          "probability": 0.3591858641585644,
-          "implied_odds": 2.7840739288073566,
-          "grade": "Grade 5 Heat",
-          "distanceInMetres": 400,
-          "ensemble_prob": 0.3682848273731445,
-          "ensemble_odds": 2.7152897042560067,
-          "fastai_prob": 0.4503587499196155,
-          "fastai_rank": 1,
-          "elo_prob": 0.16703875158082562,
-          "elo_rating": 1309,
+          "track": "HOR",
+          "raceNumber": 3,
+          "raceId": 1291178210,
+          "raceStartTime": "3:36PM",
+          "dog": "PROPOSITION",
+          "box": 2,
+          "rug": 2,
+          "probability": 0.36181799998039915,
+          "implied_odds": 2.7638204844816268,
+          "grade": "Grade 7",
+          "distanceInMetres": 410,
+          "ensemble_prob": 0.28015677136825845,
+          "ensemble_odds": 3.5694300555938634,
           "tier": "yellow"
         }
       ],
@@ -601,44 +589,44 @@
   ],
   "modelPerformance": {
     "startDate": "2026-04-08",
-    "resultsDate": "2026-04-26",
-    "settledRaces": 2610,
+    "resultsDate": "2026-04-27",
+    "settledRaces": 2663,
     "models": {
       "ml": {
-        "wins": 837,
-        "settled": 2610,
+        "wins": 852,
+        "settled": 2663,
         "label": "ML",
-        "strikeRate": 32.068965517241374
+        "strikeRate": 31.99399173864063
       },
       "fastai": {
-        "wins": 703,
-        "settled": 2608,
+        "wins": 720,
+        "settled": 2661,
         "label": "FastAI",
-        "strikeRate": 26.95552147239264
+        "strikeRate": 27.05749718151071
       },
       "elo": {
-        "wins": 389,
-        "settled": 1875,
+        "wins": 402,
+        "settled": 1928,
         "label": "ELO",
-        "strikeRate": 20.746666666666666
+        "strikeRate": 20.850622406639005
       },
       "ens": {
-        "wins": 851,
-        "settled": 2610,
+        "wins": 872,
+        "settled": 2663,
         "label": "ENS",
-        "strikeRate": 32.60536398467433
+        "strikeRate": 32.745024408561775
       },
       "fast_ens": {
-        "wins": 317,
-        "settled": 786,
+        "wins": 325,
+        "settled": 802,
         "label": "FAST ENS",
-        "strikeRate": 40.33078880407125
+        "strikeRate": 40.52369077306734
       },
       "elo_ens": {
-        "wins": 67,
-        "settled": 140,
+        "wins": 69,
+        "settled": 146,
         "label": "ELO ENS",
-        "strikeRate": 47.85714285714286
+        "strikeRate": 47.26027397260274
       }
     }
   },
