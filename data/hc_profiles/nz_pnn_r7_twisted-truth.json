@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2382,
-      "ens_prob": 0.172,
-      "fastai_prob": 0.5836,
-      "fastai_rank": 6,
+      "ml_prob": 0.2663,
+      "ens_prob": 0.1498,
+      "fastai_prob": 0.1995,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276190
+      "races_with_same_dogs": 276430
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "PEARLS ARE US",
-      "total_offspring_runs_in_state": 22363,
-      "sire_win_rate": 0.15275231409023834
+      "total_offspring_runs_in_state": 22388,
+      "sire_win_rate": 0.15262640700375202
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -199,7 +199,7 @@
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

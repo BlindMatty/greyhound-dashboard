@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.116,
-      "ens_prob": 0.1791,
-      "fastai_prob": 0.0684,
-      "fastai_rank": 7,
+      "ml_prob": 0.1212,
+      "ens_prob": 0.197,
+      "fastai_prob": 0.1812,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 399524
+      "races_with_same_dogs": 399653
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,12 +134,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SPANISH FLAME",
-      "total_offspring_runs_in_state": 5838,
-      "sire_win_rate": 0.15039397053785544
+      "total_offspring_runs_in_state": 5842,
+      "sire_win_rate": 0.15046217048955837
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 24,
+      "total_litter_runs": 26,
       "litter_wins": 2
     },
     "35_Injury_History": {
@@ -197,7 +197,7 @@
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

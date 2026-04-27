@@ -1,50 +1,49 @@
 {
   "dog": "LOCHINVAR THOR",
-  "date": "2026-04-15",
+  "date": "2026-04-29",
   "track": "BAL",
   "race": 7,
   "distance": 0,
-  "grade": "Grade 5 Heat",
+  "grade": "Grade 5",
   "steps": {
-    "history_length": 6,
+    "history_length": 8,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.2122,
-      "mc_win_pct": 100.0,
-      "ens_prob": 0.5016,
-      "fastai_prob": 0.1966,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
+      "ml_prob": 0.2871,
+      "ens_prob": 0.2247,
+      "fastai_prob": 0.1584,
       "fastai_rank": 1,
-      "is_four_way": true
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 407.5,
+      "avg_dist": 418.125,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 Heat vs Field"
+      "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 34.0,
-      "fluctuation": -0.14999999999999858,
+      "last_weight": 34.6,
+      "fluctuation": 0.38749999999999574,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 6,
-      "last_3_avg_place": 4.0,
+      "total_starts": 8,
+      "last_3_avg_place": 2.3333333333333335,
       "last_5_avg_place": 3.2,
       "last_10_places": [
         4.0,
@@ -52,7 +51,9 @@
         1.0,
         8.0,
         1.0,
-        3.0
+        3.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -65,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 771494
+      "races_with_same_dogs": 775825
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -92,11 +93,11 @@
       "trainer": "ADRIAN KENYON"
     },
     "21_Size_Bumping": {
-      "is_heavy": false,
+      "is_heavy": true,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 10
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -108,28 +109,28 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 8885.0
+      "career_prize": 9485.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -425
+      "dist_diff_from_last": -450
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 14.6,
-      "avg_temp_c": 13.1,
+      "max_wind_kmh": 14.0,
+      "avg_temp_c": 15.3,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3333333333333333,
-      "place_rate": 0.6666666666666666
+      "win_rate": 0.25,
+      "place_rate": 0.75
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "ADRIAN KENYON"
@@ -137,12 +138,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "LIGHTNING BLUE",
-      "total_offspring_runs_in_state": 36983,
-      "sire_win_rate": 0.1474190844442041
+      "total_offspring_runs_in_state": 37435,
+      "sire_win_rate": 0.14798984907172433
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 25,
+      "total_litter_runs": 29,
       "litter_wins": 6
     },
     "35_Injury_History": {
@@ -168,7 +169,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -177,13 +178,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 6
+      "total_starts": 8
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.015873015873016
+      "ewma_places": 2.2509803921568627
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,20 +193,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 9,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
+        "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

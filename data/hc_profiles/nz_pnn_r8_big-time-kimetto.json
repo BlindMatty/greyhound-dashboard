@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1413,
-      "ens_prob": 0.1904,
-      "fastai_prob": 0.5877,
-      "fastai_rank": 2,
+      "ml_prob": 0.1794,
+      "ens_prob": 0.1719,
+      "fastai_prob": 0.262,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276190
+      "races_with_same_dogs": 276430
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON KIMETTO",
       "dam": "BIGTIME VANESSA",
-      "total_offspring_runs_in_state": 1325,
-      "sire_win_rate": 0.17962264150943397
+      "total_offspring_runs_in_state": 1326,
+      "sire_win_rate": 0.1794871794871795
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 212,
+      "total_litter_runs": 213,
       "litter_wins": 47
     },
     "35_Injury_History": {
@@ -191,11 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
-      "decision": "PASS / CAUTION",
+      "final_score": 7,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

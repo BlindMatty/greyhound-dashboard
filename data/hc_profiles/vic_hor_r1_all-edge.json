@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3169,
-      "ens_prob": 0.3909,
-      "fastai_prob": 0.6443,
+      "ml_prob": 0.2925,
+      "ens_prob": 0.4699,
+      "fastai_prob": 0.5566,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 4
     },
     "08_Form_Trajectory": {
       "total_starts": 2,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775387
+      "races_with_same_dogs": 775825
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,7 +114,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 17.1,
-      "avg_temp_c": 17.4,
+      "avg_temp_c": 16.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "COOL EDGE",
-      "total_offspring_runs_in_state": 12095,
-      "sire_win_rate": 0.13253410500206697
+      "total_offspring_runs_in_state": 12124,
+      "sire_win_rate": 0.13254701418673706
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -203,7 +203,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.644)"
+        "FastAI Strong Conviction (Rank 1, prob 0.557)"
       ]
     }
   }

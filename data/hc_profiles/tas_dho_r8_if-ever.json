@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
       "ml_prob": 0.3935,
-      "ens_prob": 0.238,
-      "fastai_prob": 0.6022,
-      "fastai_rank": 1,
+      "ens_prob": 0.1969,
+      "fastai_prob": 0.3803,
+      "fastai_rank": 2,
       "is_three_way": true
     },
     "02_TDG_Medians": {
@@ -189,7 +189,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -205,8 +205,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.602)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

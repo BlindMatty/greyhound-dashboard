@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.5949,
-      "ens_prob": 0.6274,
-      "fastai_prob": 0.6291,
+      "ml_prob": 0.5785,
+      "ens_prob": 0.616,
+      "fastai_prob": 0.4345,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 17,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775387
+      "races_with_same_dogs": 775825
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,7 +122,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 17.1,
-      "avg_temp_c": 17.4,
+      "avg_temp_c": 16.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SHALLOW WITTS",
-      "total_offspring_runs_in_state": 37417,
-      "sire_win_rate": 0.14824812251115804
+      "total_offspring_runs_in_state": 37455,
+      "sire_win_rate": 0.14825790949138967
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 17,
+      "final_score": 18,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,6 +203,7 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
         "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
@@ -214,7 +215,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.629)"
+        "FastAI Strong Conviction (Rank 1, prob 0.434)"
       ]
     }
   }

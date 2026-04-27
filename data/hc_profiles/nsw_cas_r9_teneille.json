@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2348,
-      "ens_prob": 0.182,
-      "fastai_prob": 0.1227,
-      "fastai_rank": 8,
+      "ml_prob": 0.1913,
+      "ens_prob": 0.1633,
+      "fastai_prob": 0.1066,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701428
+      "races_with_same_dogs": 701606
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "COLLISION",
       "dam": "DIAMOND JILL",
-      "total_offspring_runs_in_state": 9664,
-      "sire_win_rate": 0.11330711920529801
+      "total_offspring_runs_in_state": 9666,
+      "sire_win_rate": 0.11328367473618871
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -201,7 +201,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

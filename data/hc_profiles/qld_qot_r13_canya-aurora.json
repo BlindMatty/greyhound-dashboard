@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1601,
-      "ens_prob": 0.166,
-      "fastai_prob": 0.3924,
-      "fastai_rank": 3,
+      "ml_prob": 0.2315,
+      "ens_prob": 0.1982,
+      "fastai_prob": 0.4036,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 399524
+      "races_with_same_dogs": 399653
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "JACKSLITTLETHING",
       "dam": "BALI SUNSET",
-      "total_offspring_runs_in_state": 453,
-      "sire_win_rate": 0.0706401766004415
+      "total_offspring_runs_in_state": 455,
+      "sire_win_rate": 0.07032967032967033
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,14 +191,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Poor Sire Line (<8% state win rate)"
+        "Poor Sire Line (<8% state win rate)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
