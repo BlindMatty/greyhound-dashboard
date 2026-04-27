@@ -1,33 +1,32 @@
 {
   "dog": "ZELDA'S PLANET",
-  "date": "2026-04-14",
+  "date": "2026-04-28",
   "track": "PNN",
   "race": 2,
   "distance": 0,
   "grade": "Class 1",
   "steps": {
-    "history_length": 23,
+    "history_length": 25,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.1442,
-      "mc_win_pct": 21.9,
-      "ens_prob": 0.2007,
-      "fastai_prob": 0.142,
-      "fastai_rank": 3,
-      "is_four_way": true
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.1123,
+      "ens_prob": 0.156,
+      "fastai_prob": 0.5844,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 4,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 331.7826086956522,
+      "avg_dist": 332.76,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,20 +34,18 @@
       "current_vs_historic_grade": "Class 1 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.2,
-      "fluctuation": 0.39090909090909065,
+      "last_weight": 28.6,
+      "fluctuation": 0.7291666666666643,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 23,
-      "last_3_avg_place": 6.0,
-      "last_5_avg_place": 6.4,
+      "total_starts": 25,
+      "last_3_avg_place": 5.0,
+      "last_5_avg_place": 5.2,
       "last_10_places": [
-        1.0,
-        1.0,
         3.0,
         6.0,
         4.0,
@@ -56,7 +53,9 @@
         7.0,
         7.0,
         4.0,
-        7.0
+        7.0,
+        3.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275079
+      "races_with_same_dogs": 276190
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -103,7 +102,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -112,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 8770.0
+      "career_prize": 9300.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -125,8 +124,8 @@
       "message": "Coordinates not mapped for track: PNN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.13636363636363635,
-      "place_rate": 0.3181818181818182
+      "win_rate": 0.125,
+      "place_rate": 0.3333333333333333
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -137,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "BIG TIME PLUTO",
-      "total_offspring_runs_in_state": 1255,
-      "sire_win_rate": 0.19123505976095617
+      "total_offspring_runs_in_state": 1294,
+      "sire_win_rate": 0.1893353941267388
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 260,
-      "litter_wins": 29
+      "total_litter_runs": 283,
+      "litter_wins": 31
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -177,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 23
+      "total_starts": 25
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 6.159106530930169
+      "ewma_places": 4.789776551114115
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,23 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 3, prob 0.142)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }
