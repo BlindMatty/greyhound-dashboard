@@ -157,6 +157,8 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const fastaiProb = p.fastai_prob || 0;
     const mlGapToSecondPct = Number(p.mlGapToSecondPct || 0);
     const showMlGap = opts.useNormOdds && mlGapToSecondPct >= 15;
+    const mlSpecialistSr = Number(p.mlSpecialistSr || 0);
+    const showMlSpecialistSr = opts.useNormOdds && mlSpecialistSr > 0;
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
@@ -167,7 +169,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
         <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
-          · ${esc(stateLabel)}
+          · ${esc(stateLabel)}${showMlSpecialistSr ? ' · TS SR ' + mlSpecialistSr.toFixed(1) + '%' : ''}
         </span>
         <span class="hc-meta">
           ML ${(p.probability * 100).toFixed(1)}%
