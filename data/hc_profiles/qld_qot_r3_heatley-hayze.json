@@ -9,12 +9,12 @@
     "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2704,
-      "ens_prob": 0.2722,
-      "fastai_prob": 0.4845,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2778,
+      "ens_prob": 0.217,
+      "fastai_prob": 0.1805,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 399653
+      "races_with_same_dogs": 399879
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "JUNGLE DEUCE",
       "dam": "DOLCETTO HAYZE",
-      "total_offspring_runs_in_state": 2235,
-      "sire_win_rate": 0.1337807606263982
+      "total_offspring_runs_in_state": 2237,
+      "sire_win_rate": 0.13366115333035314
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -182,7 +182,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -195,9 +195,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.484)"
+        "Proven Track Specialist Profile"
       ]
     }
   }

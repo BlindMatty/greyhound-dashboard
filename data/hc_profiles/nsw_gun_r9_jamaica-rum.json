@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1775,
-      "ens_prob": 0.1384,
-      "fastai_prob": 0.0919,
-      "fastai_rank": 6,
+      "ml_prob": 0.1507,
+      "ens_prob": 0.1155,
+      "fastai_prob": 0.0885,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701606
+      "races_with_same_dogs": 701951
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "AGNETHA",
-      "total_offspring_runs_in_state": 11522,
-      "sire_win_rate": 0.16090956431175144
+      "total_offspring_runs_in_state": 11549,
+      "sire_win_rate": 0.16096631743008052
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -198,7 +198,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

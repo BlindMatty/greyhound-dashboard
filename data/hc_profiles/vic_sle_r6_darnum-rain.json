@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1627,
-      "ens_prob": 0.1223,
-      "fastai_prob": 0.0261,
-      "fastai_rank": 8,
+      "ml_prob": 0.1549,
+      "ens_prob": 0.1208,
+      "fastai_prob": 0.0268,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775825
+      "races_with_same_dogs": 776098
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "DARNUM DASHER",
-      "total_offspring_runs_in_state": 99950,
-      "sire_win_rate": 0.13238619309654828
+      "total_offspring_runs_in_state": 99976,
+      "sire_win_rate": 0.13240177642634232
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

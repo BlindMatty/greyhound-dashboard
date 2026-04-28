@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1415,
-      "ens_prob": 0.286,
-      "fastai_prob": 0.3281,
-      "fastai_rank": 2,
+      "ml_prob": 0.1257,
+      "ens_prob": 0.2316,
+      "fastai_prob": 0.1208,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775825
+      "races_with_same_dogs": 776098
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 14.2,
-      "avg_temp_c": 17.1,
+      "max_wind_kmh": 14.3,
+      "avg_temp_c": 17.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "PUNK LASS ROCKS",
-      "total_offspring_runs_in_state": 12934,
-      "sire_win_rate": 0.12842121540126797
+      "total_offspring_runs_in_state": 12950,
+      "sire_win_rate": 0.12833976833976835
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -195,12 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Lukewarm (Rank 3, prob 0.121)"
       ],
       "green_flags": [
         "Small Field Advantage",

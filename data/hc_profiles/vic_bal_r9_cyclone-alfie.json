@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.418,
-      "ens_prob": 0.1635,
-      "fastai_prob": 0.0959,
-      "fastai_rank": 9,
+      "ml_prob": 0.3794,
+      "ens_prob": 0.1654,
+      "fastai_prob": 0.1051,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775825
+      "races_with_same_dogs": 776098
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 14.0,
-      "avg_temp_c": 15.5,
+      "max_wind_kmh": 13.2,
+      "avg_temp_c": 15.1,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "WHISKEY RIOT",
       "dam": "WILDASH BOOMER",
-      "total_offspring_runs_in_state": 4507,
-      "sire_win_rate": 0.11803860661193699
+      "total_offspring_runs_in_state": 4509,
+      "sire_win_rate": 0.11798624972277667
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -193,7 +193,7 @@
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

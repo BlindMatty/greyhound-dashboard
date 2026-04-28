@@ -1,28 +1,27 @@
 {
   "dog": "BOURBON AND COKE",
-  "date": "2026-04-16",
+  "date": "2026-04-30",
   "track": "QTT",
   "race": 1,
   "distance": 0,
   "grade": "Grade 6",
   "steps": {
-    "history_length": 2,
+    "history_length": 3,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.1836,
-      "mc_win_pct": 57.9,
-      "ens_prob": 0.3018,
-      "fastai_prob": 0.2179,
-      "fastai_rank": 6,
-      "is_four_way": true
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.1986,
+      "ens_prob": 0.2306,
+      "fastai_prob": 0.2523,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 5,
       "has_inside_pressure": true,
       "has_outside_pressure": false
     },
@@ -35,19 +34,20 @@
       "current_vs_historic_grade": "Grade 6 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.6,
-      "fluctuation": 0.0,
+      "last_weight": 27.9,
+      "fluctuation": 0.14999999999999858,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
+      "total_starts": 3,
       "last_3_avg_place": null,
       "last_5_avg_place": null,
       "last_10_places": [
-        1.0
+        1.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 397592
+      "races_with_same_dogs": 399879
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +69,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 24.67
+      "avg_run_home": 24.975
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": NaN
+      "split_stdev": 0.028284271247461926
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -91,7 +91,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 11
+      "days_since_last_run": 14
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -103,7 +103,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 2990.0
+      "career_prize": 3060.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -116,8 +116,8 @@
       "message": "Coordinates not mapped for track: QTT"
     },
     "30_Non_Chaser": {
-      "win_rate": 1.0,
-      "place_rate": 1.0
+      "win_rate": 0.5,
+      "place_rate": 0.5
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -128,12 +128,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "DISTINCT",
-      "total_offspring_runs_in_state": 7773,
-      "sire_win_rate": 0.12028817702302844
+      "total_offspring_runs_in_state": 7918,
+      "sire_win_rate": 0.11997979287698914
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 2,
+      "total_litter_runs": 3,
       "litter_wins": 1
     },
     "35_Injury_History": {
@@ -165,16 +165,16 @@
       "is_heat": false
     },
     "44_Second_Up": {
-      "is_second_up": true
+      "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 3
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0
+      "ewma_places": 4.333333333333333
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -184,20 +184,17 @@
     },
     "50_Final_Probability": {
       "final_score": 6,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Professional Box Dog (Elite start consistency)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "Second-Up Bounce Profile (Pinnacle fitness)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

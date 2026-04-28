@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2572,
-      "ens_prob": 0.2341,
-      "fastai_prob": 0.1362,
+      "ml_prob": 0.2623,
+      "ens_prob": 0.2668,
+      "fastai_prob": 0.1769,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775825
+      "races_with_same_dogs": 776098
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.7,
-      "avg_temp_c": 16.5,
+      "max_wind_kmh": 7.4,
+      "avg_temp_c": 16.1,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ARTIC ASSASSIN",
-      "total_offspring_runs_in_state": 99726,
-      "sire_win_rate": 0.13245292100354972
+      "total_offspring_runs_in_state": 99752,
+      "sire_win_rate": 0.13246852193439732
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,

@@ -9,12 +9,12 @@
     "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2871,
-      "ens_prob": 0.2247,
-      "fastai_prob": 0.1584,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3269,
+      "ens_prob": 0.2456,
+      "fastai_prob": 0.1812,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775825
+      "races_with_same_dogs": 776098
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -119,8 +119,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 14.0,
-      "avg_temp_c": 15.5,
+      "max_wind_kmh": 13.2,
+      "avg_temp_c": 15.1,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -138,8 +138,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "LIGHTNING BLUE",
-      "total_offspring_runs_in_state": 37435,
-      "sire_win_rate": 0.14798984907172433
+      "total_offspring_runs_in_state": 37462,
+      "sire_win_rate": 0.14804335059526988
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -193,7 +193,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 6,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,8 +205,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
