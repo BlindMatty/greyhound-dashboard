@@ -1,58 +1,59 @@
 {
-  "dog": "MEPUNGA FLYER",
-  "date": "2026-04-29",
-  "track": "BAL",
-  "race": 8,
+  "dog": "ARLO'S PET",
+  "date": "2026-04-28",
+  "track": "DHO",
+  "race": 10,
   "distance": 0,
-  "grade": "Mixed 4/5",
+  "grade": "Grade 5",
   "steps": {
-    "history_length": 11,
+    "history_length": 26,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3997,
-      "ens_prob": 0.2187,
-      "fastai_prob": 0.1348,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1895,
+      "ens_prob": 0.1598,
+      "fastai_prob": 0.1262,
+      "fastai_rank": 7,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
+      "own_box": 4,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 456.3636363636364,
+      "avg_dist": 362.8076923076923,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 4/5 vs Field"
+      "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 34.1,
-      "fluctuation": 0.04444444444443718,
+      "last_weight": 29.0,
+      "fluctuation": 0.5708333333333364,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 11,
-      "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": 1.6,
+      "total_starts": 26,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 2.8,
       "last_10_places": [
         1.0,
-        6.0,
+        5.0,
         1.0,
         1.0,
+        8.0,
         3.0,
         1.0,
-        1.0,
+        7.0,
         1.0,
         2.0
       ]
@@ -67,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775825
+      "races_with_same_dogs": 85152
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -76,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 19.595875
+      "avg_run_home": 17.8475
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.5582301112828446
+      "split_stdev": 0.07632168761236881
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -91,14 +92,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "JEFFREY BRITTON"
+      "trainer": "Eileen Thomas"
     },
     "21_Size_Bumping": {
-      "is_heavy": true,
+      "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 17
+      "days_since_last_run": 14
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -110,42 +111,38 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 22460.0
+      "career_prize": 30517.5
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 2.0
+      "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -350
+      "dist_diff_from_last": -340
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 13.6,
-      "avg_temp_c": 15.2,
-      "total_precip_mm": 0.0,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "Coordinates not mapped for track: DHO"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6666666666666666,
-      "place_rate": 0.8888888888888888
+      "win_rate": 0.375,
+      "place_rate": 0.75
     },
     "31_Track_Archetypes": {
       "track_specialist": true
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "JEFFREY BRITTON"
+      "trainer_lookup": "Eileen Thomas"
     },
     "33_Sire_Dam_Profile": {
-      "sire": "HOOKED ON SCOTCH",
-      "dam": "MEPUNGA ISLA",
-      "total_offspring_runs_in_state": 9615,
-      "sire_win_rate": 0.1516380655226209
+      "sire": "BERNARDO",
+      "dam": "RITZA MILLIE",
+      "total_offspring_runs_in_state": 3852,
+      "sire_win_rate": 0.11656282450674973
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 144,
-      "litter_wins": 46
+      "litter_size_racing": 1,
+      "total_litter_runs": 26,
+      "litter_wins": 9
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -164,13 +161,13 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "VIC"
+      "home_state": "TAS"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -179,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 11
+      "total_starts": 26
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.5831702544031312
+      "ewma_places": 2.430775131629415
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -194,24 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 15,
-      "decision": "PASS / CAUTION",
+      "final_score": 1,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Heavy Dog (+34kg) - Resistance in packs",
         "High Earnings Class / Classy Animal",
-        "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Proven Track Specialist Profile"
       ]
     }
   }
