@@ -152,11 +152,12 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const displayOdds = opts.useNormOdds
       ? (p.implied_odds_norm || p.implied_odds || 0)
       : (p.ensemble_odds || p.implied_odds || 0);
-    const oddsLabel = opts.useNormOdds ? 'ML implied' : 'ENS implied';
+    const oddsLabel = opts.useNormOdds ? '' : 'ENS implied';
     const ensProb = p.ensemble_prob || p.probability || 0;
     const fastaiProb = p.fastai_prob || 0;
     const mlGapToSecondPct = Number(p.mlGapToSecondPct || 0);
     const showMlGap = opts.useNormOdds && mlGapToSecondPct >= 15;
+    const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
@@ -166,19 +167,19 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
         <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
-          · ${esc(p.stateName)}
+          · ${esc(stateLabel)}
         </span>
         <span class="hc-meta">
           ML ${(p.probability * 100).toFixed(1)}%
           · ENS ${(ensProb * 100).toFixed(1)}%
           ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
           ${showMlGap ? '· Gap ' + mlGapToSecondPct.toFixed(1) + '%' : ''}
-          ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : (p.elo_prob ? ' · <span style="font-size:0.6rem;opacity:0.5">ELO no</span>' : '')}
+          ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : ''}
         </span>
       </div>
       <div>
         <div class="hc-odds">$${displayOdds.toFixed(2)}</div>
-        <div style="font-size:0.7rem;color:var(--text-dim);text-align:right">${oddsLabel}</div>
+        ${oddsLabel ? `<div style="font-size:0.7rem;color:var(--text-dim);text-align:right">${oddsLabel}</div>` : ''}
       </div>
     </div>
   `}).join('');
