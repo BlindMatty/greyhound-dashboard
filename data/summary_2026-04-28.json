@@ -1,7 +1,7 @@
 {
   "date": "2026-04-28",
-  "totalPredictions": 1060,
-  "totalHighConfidence": 49,
+  "totalPredictions": 1044,
+  "totalHighConfidence": 47,
   "states": [
     {
       "code": "vic",
@@ -27,7 +27,7 @@
           "ensemble_odds": 1.6233437040322354,
           "fastai_prob": 0.7403598111574435,
           "fastai_rank": 1,
-          "elo_prob": 0.1438821086377154,
+          "elo_prob": 0.14388210863771547,
           "elo_rating": 1200,
           "tier": "green"
         },
@@ -47,7 +47,7 @@
           "ensemble_odds": 3.3672931271225015,
           "fastai_prob": 0.2493446552005567,
           "fastai_rank": 1,
-          "elo_prob": 0.2510820585903656,
+          "elo_prob": 0.25108205859036564,
           "elo_rating": 1410,
           "tier": "green"
         },
@@ -67,7 +67,7 @@
           "ensemble_odds": 4.212678756345636,
           "fastai_prob": 0.1946005304999087,
           "fastai_rank": 2,
-          "elo_prob": 0.1281592067360707,
+          "elo_prob": 0.12815920673607073,
           "elo_rating": 1216,
           "tier": "yellow"
         }
@@ -88,9 +88,9 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 287,
-      "highConfidenceCount": 9,
-      "fastEnsCount": 9,
+      "totalPredictions": 271,
+      "highConfidenceCount": 7,
+      "fastEnsCount": 7,
       "eloEnsCount": 2,
       "topPicks": [
         {
@@ -109,28 +109,8 @@
           "ensemble_odds": 5.582397416269487,
           "fastai_prob": 0.1199585342151593,
           "fastai_rank": 4,
-          "elo_prob": 0.16712111592129944,
+          "elo_prob": 0.1671211159212994,
           "elo_rating": 1432,
-          "tier": "yellow"
-        },
-        {
-          "track": "GOS",
-          "raceNumber": 5,
-          "raceId": 1291076014,
-          "raceStartTime": "8:18PM",
-          "dog": "STEREOPHONIC",
-          "box": 3,
-          "rug": 3,
-          "probability": 0.3425360912074486,
-          "implied_odds": 2.919400395079461,
-          "grade": "Grade 5",
-          "distanceInMetres": 515,
-          "ensemble_prob": 0.3017175586399601,
-          "ensemble_odds": 3.3143579860173173,
-          "fastai_prob": 0.3196302554009437,
-          "fastai_rank": 1,
-          "elo_prob": 0.3252168202982613,
-          "elo_rating": 1448,
           "tier": "yellow"
         },
         {
@@ -151,6 +131,26 @@
           "fastai_rank": 2,
           "elo_prob": 0.1520827683174331,
           "elo_rating": 1461,
+          "tier": "yellow"
+        },
+        {
+          "track": "BUL",
+          "raceNumber": 11,
+          "raceId": 1291076032,
+          "raceStartTime": "10:11PM",
+          "dog": "LINKIN PARK",
+          "box": 3,
+          "rug": 3,
+          "probability": 0.3370735446726973,
+          "implied_odds": 2.966711614733849,
+          "grade": "Grade 5",
+          "distanceInMetres": 400,
+          "ensemble_prob": 0.19228757724844914,
+          "ensemble_odds": 5.200543968100078,
+          "fastai_prob": 0.1918084952318039,
+          "fastai_rank": 1,
+          "elo_prob": 0.0827441132934532,
+          "elo_rating": 1403,
           "tier": "yellow"
         }
       ],
@@ -183,15 +183,15 @@
           "dog": "PRECOCIOUS STORM",
           "box": 5,
           "rug": 5,
-          "probability": 0.37000404082396526,
-          "implied_odds": 2.7026731864146436,
+          "probability": 0.3700040408239652,
+          "implied_odds": 2.702673186414644,
           "grade": "Mixed 3/4",
           "distanceInMetres": 380,
-          "ensemble_prob": 0.33292145026866815,
-          "ensemble_odds": 3.0037115337356557,
-          "fastai_prob": 0.29583885971337115,
+          "ensemble_prob": 0.3329214502686681,
+          "ensemble_odds": 3.003711533735656,
+          "fastai_prob": 0.2958388597133711,
           "fastai_rank": 1,
-          "elo_prob": 0.1606230923231715,
+          "elo_prob": 0.17378572193746367,
           "elo_rating": 1498,
           "tier": "yellow"
         },
@@ -231,7 +231,7 @@
           "ensemble_odds": 3.2505673031214477,
           "fastai_prob": 0.2063034657913365,
           "fastai_rank": 2,
-          "elo_prob": 0.0953338494242285,
+          "elo_prob": 0.09533384942422855,
           "elo_rating": 1245,
           "tier": "yellow"
         }
