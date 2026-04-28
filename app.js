@@ -155,6 +155,8 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const oddsLabel = opts.useNormOdds ? 'ML implied' : 'ENS implied';
     const ensProb = p.ensemble_prob || p.probability || 0;
     const fastaiProb = p.fastai_prob || 0;
+    const mlGapToSecondPct = Number(p.mlGapToSecondPct || 0);
+    const showMlGap = opts.useNormOdds && mlGapToSecondPct >= 15;
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
@@ -170,6 +172,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
           ML ${(p.probability * 100).toFixed(1)}%
           · ENS ${(ensProb * 100).toFixed(1)}%
           ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
+          ${showMlGap ? '· Gap ' + mlGapToSecondPct.toFixed(1) + '%' : ''}
           ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : (p.elo_prob ? ' · <span style="font-size:0.6rem;opacity:0.5">ELO no</span>' : '')}
         </span>
       </div>
