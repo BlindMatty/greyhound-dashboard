@@ -179,7 +179,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
           ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : ''}
         </span>
       </div>
-      <div>
+      <div class="hc-right">
         <div class="hc-odds">$${displayOdds.toFixed(2)}</div>
         ${oddsLabel ? `<div style="font-size:0.7rem;color:var(--text-dim);text-align:right">${oddsLabel}</div>` : ''}
       </div>
