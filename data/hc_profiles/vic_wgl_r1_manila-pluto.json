@@ -141,8 +141,8 @@
       "cd_wins": 0
     },
     "39_NLP_Stewards": {
-      "status": "not_found",
-      "message": "Could not locate stewards div on page"
+      "status": "error",
+      "message": "HTTPSConnectionPool(host='fasttrack.grv.org.au', port=443): Read timed out. (read timeout=15)"
     },
     "40_Travel_Intent": {
       "home_state": "Unknown"
