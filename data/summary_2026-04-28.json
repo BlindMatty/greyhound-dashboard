@@ -1,7 +1,7 @@
 {
   "date": "2026-04-28",
-  "totalPredictions": 1042,
-  "totalHighConfidence": 47,
+  "totalPredictions": 1041,
+  "totalHighConfidence": 48,
   "states": [
     {
       "code": "vic",
@@ -252,11 +252,31 @@
     {
       "code": "wa",
       "name": "Western Australia",
-      "totalPredictions": 86,
-      "highConfidenceCount": 5,
-      "fastEnsCount": 5,
+      "totalPredictions": 85,
+      "highConfidenceCount": 6,
+      "fastEnsCount": 6,
       "eloEnsCount": 0,
       "topPicks": [
+        {
+          "track": "MAN",
+          "raceNumber": 5,
+          "raceId": 1290577545,
+          "raceStartTime": "9:31PM",
+          "dog": "BARK LIGHTYEAR",
+          "box": 2,
+          "rug": 2,
+          "probability": 0.2802804998314071,
+          "implied_odds": 3.5678543480602998,
+          "grade": "Novice Grade 5",
+          "distanceInMetres": 400,
+          "ensemble_prob": 0.25910306374344666,
+          "ensemble_odds": 3.8594680647626745,
+          "fastai_prob": 0.23792562765548633,
+          "fastai_rank": 1,
+          "elo_prob": 0.1356882422652595,
+          "elo_rating": 1258,
+          "tier": "other"
+        },
         {
           "track": "MAN",
           "raceNumber": 10,
@@ -273,7 +293,7 @@
           "ensemble_odds": 3.5400360995730384,
           "fastai_prob": 0.2235744400767763,
           "fastai_rank": 1,
-          "elo_prob": 0.10638166694734082,
+          "elo_prob": 0.1063816669473408,
           "elo_rating": 1177,
           "tier": "other"
         },
@@ -293,28 +313,8 @@
           "ensemble_odds": 3.938035975560615,
           "fastai_prob": 0.1428618360621927,
           "fastai_rank": 6,
-          "elo_prob": 0.18753581082338658,
+          "elo_prob": 0.1875358108233865,
           "elo_rating": 1200,
-          "tier": "other"
-        },
-        {
-          "track": "MAN",
-          "raceNumber": 10,
-          "raceId": 1290577550,
-          "raceStartTime": "11:17PM",
-          "dog": "ORANA REX",
-          "box": 2,
-          "rug": 2,
-          "probability": 0.2189228785356246,
-          "implied_odds": 4.567818615802064,
-          "grade": "Novice Grade 5",
-          "distanceInMetres": 300,
-          "ensemble_prob": 0.1971345288312148,
-          "ensemble_odds": 5.072678063700312,
-          "fastai_prob": 0.1158788486081296,
-          "fastai_rank": 6,
-          "elo_prob": 0.5146567474851463,
-          "elo_rating": 1451,
           "tier": "other"
         }
       ],
