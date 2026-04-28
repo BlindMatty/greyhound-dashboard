@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.0892,
-      "ens_prob": 0.27,
-      "fastai_prob": 0.5327,
+      "ml_prob": 0.248,
+      "ens_prob": 0.3672,
+      "fastai_prob": 0.4863,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -22,8 +22,8 @@
     },
     "03_Speed_Map": {
       "own_box": 2,
-      "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_inside_pressure": false,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 451.4,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 45,
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -191,10 +191,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
@@ -202,12 +201,14 @@
         "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
+        "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.533)"
+        "FastAI Strong Conviction (Rank 1, prob 0.486)"
       ]
     }
   }

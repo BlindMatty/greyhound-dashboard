@@ -1,14 +1,14 @@
 {
   "date": "2026-04-28",
-  "totalPredictions": 1065,
-  "totalHighConfidence": 50,
+  "totalPredictions": 1060,
+  "totalHighConfidence": 49,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 258,
-      "highConfidenceCount": 14,
-      "fastEnsCount": 14,
+      "totalPredictions": 257,
+      "highConfidenceCount": 13,
+      "fastEnsCount": 13,
       "eloEnsCount": 4,
       "topPicks": [
         {
@@ -27,7 +27,7 @@
           "ensemble_odds": 1.6233437040322354,
           "fastai_prob": 0.7403598111574435,
           "fastai_rank": 1,
-          "elo_prob": 0.14388210863771547,
+          "elo_prob": 0.1438821086377154,
           "elo_rating": 1200,
           "tier": "green"
         },
@@ -47,7 +47,7 @@
           "ensemble_odds": 3.3672931271225015,
           "fastai_prob": 0.2493446552005567,
           "fastai_rank": 1,
-          "elo_prob": 0.25108205859036564,
+          "elo_prob": 0.2510820585903656,
           "elo_rating": 1410,
           "tier": "green"
         },
@@ -67,7 +67,7 @@
           "ensemble_odds": 4.212678756345636,
           "fastai_prob": 0.1946005304999087,
           "fastai_rank": 2,
-          "elo_prob": 0.12815920673607073,
+          "elo_prob": 0.1281592067360707,
           "elo_rating": 1216,
           "tier": "yellow"
         }
@@ -170,11 +170,31 @@
     {
       "code": "qld",
       "name": "Queensland",
-      "totalPredictions": 200,
+      "totalPredictions": 196,
       "highConfidenceCount": 9,
       "fastEnsCount": 9,
       "eloEnsCount": 2,
       "topPicks": [
+        {
+          "track": "TOW",
+          "raceNumber": 10,
+          "raceId": 1291076063,
+          "raceStartTime": "10:21PM",
+          "dog": "PRECOCIOUS STORM",
+          "box": 5,
+          "rug": 5,
+          "probability": 0.37000404082396526,
+          "implied_odds": 2.7026731864146436,
+          "grade": "Mixed 3/4",
+          "distanceInMetres": 380,
+          "ensemble_prob": 0.33292145026866815,
+          "ensemble_odds": 3.0037115337356557,
+          "fastai_prob": 0.29583885971337115,
+          "fastai_rank": 1,
+          "elo_prob": 0.1606230923231715,
+          "elo_rating": 1498,
+          "tier": "yellow"
+        },
         {
           "track": "TOW",
           "raceNumber": 9,
@@ -211,29 +231,9 @@
           "ensemble_odds": 3.2505673031214477,
           "fastai_prob": 0.2063034657913365,
           "fastai_rank": 2,
-          "elo_prob": 0.09533384942422855,
+          "elo_prob": 0.0953338494242285,
           "elo_rating": 1245,
           "tier": "yellow"
-        },
-        {
-          "track": "TOW",
-          "raceNumber": 8,
-          "raceId": 1291076057,
-          "raceStartTime": "9:35PM",
-          "dog": "ON HOLIDAYS",
-          "box": 2,
-          "rug": 2,
-          "probability": 0.2581592420443867,
-          "implied_odds": 3.873578153084539,
-          "grade": "Open",
-          "distanceInMetres": 498,
-          "ensemble_prob": 0.24004135422798561,
-          "ensemble_odds": 4.165948835008753,
-          "fastai_prob": 0.2349538295578274,
-          "fastai_rank": 1,
-          "elo_prob": 0.2359190868952733,
-          "elo_rating": 1597,
-          "tier": "other"
         }
       ],
       "hasData": true,
