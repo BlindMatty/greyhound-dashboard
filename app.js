@@ -175,6 +175,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
           ML ${(p.probability * 100).toFixed(1)}%
           · ENS ${(ensProb * 100).toFixed(1)}%
           ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
+          ${showMlSpecialistSr ? ' · <span style="color:#ffffff;font-weight:700">TS SR ' + mlSpecialistSr.toFixed(1) + '%</span>' : ''}
           ${showMlGap ? '· <span style="color:#ffffff;font-weight:700">Gap ' + mlGapToSecondPct.toFixed(1) + '%</span>' : ''}
           ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : ''}
         </span>
