@@ -169,7 +169,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
         <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
-          · ${esc(stateLabel)}${showMlSpecialistSr ? ' · TS SR ' + mlSpecialistSr.toFixed(1) + '%' : ''}
+          · ${esc(stateLabel)}${showMlSpecialistSr ? ' · <span style="color:#ffffff;font-weight:700">TS SR ' + mlSpecialistSr.toFixed(1) + '%</span>' : ''}
         </span>
         <span class="hc-meta">
           ML ${(p.probability * 100).toFixed(1)}%
