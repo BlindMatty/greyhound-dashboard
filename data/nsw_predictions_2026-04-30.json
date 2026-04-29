@@ -1421,7 +1421,7 @@
           "implied_odds_norm": 5.300841966465716,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": true
         },
         {
           "dog": "IMPECCABLE",
@@ -5408,9 +5408,9 @@
       "isFastEns": false,
       "isEloEns": false,
       "elo_agrees": false,
-      "isMlSpecialist": false,
-      "mlSpecialistSr": null,
-      "mlSpecialistRaces": null,
+      "isMlSpecialist": true,
+      "mlSpecialistSr": 41.2,
+      "mlSpecialistRaces": 17,
       "mlGapToSecondPct": 4.335813773779656,
       "grade": "Mixed 4/5"
     },
