@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3211,
-      "ens_prob": 0.1827,
-      "fastai_prob": 0.163,
-      "fastai_rank": 8,
+      "ml_prob": 0.2578,
+      "ens_prob": 0.2024,
+      "fastai_prob": 0.2192,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276523
+      "races_with_same_dogs": 276626
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "SEDUCTIVE KIWI",
-      "total_offspring_runs_in_state": 781,
-      "sire_win_rate": 0.16261203585147246
+      "total_offspring_runs_in_state": 784,
+      "sire_win_rate": 0.16198979591836735
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 47,
+      "total_litter_runs": 50,
       "litter_wins": 7
     },
     "35_Injury_History": {
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

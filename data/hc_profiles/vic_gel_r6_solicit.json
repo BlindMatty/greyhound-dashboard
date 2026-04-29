@@ -1,53 +1,61 @@
 {
   "dog": "SOLICIT",
-  "date": "2026-04-03",
+  "date": "2026-05-01",
   "track": "GEL",
   "race": 6,
   "distance": 0,
-  "grade": "Mixed 4/5",
+  "grade": "Grade 5 Heat",
   "steps": {
-    "history_length": 53,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "history_length": 57,
+    "01_Shortlist": {
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.3562,
+      "ens_prob": 0.2103,
+      "fastai_prob": 0.1443,
+      "fastai_rank": 4,
+      "is_three_way": false
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
-      "has_inside_pressure": true,
+      "own_box": 6,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 420.8490566037736,
+      "avg_dist": 420.70175438596493,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 4/5 vs Field"
+      "current_vs_historic_grade": "Grade 5 Heat vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 36.2,
-      "fluctuation": 0.17884615384615188,
+      "last_weight": 36.0,
+      "fluctuation": -0.012500000000002842,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 53,
-      "last_3_avg_place": 2.6666666666666665,
-      "last_5_avg_place": 2.2,
+      "total_starts": 57,
+      "last_3_avg_place": 2.0,
+      "last_5_avg_place": 1.8,
       "last_10_places": [
-        2.0,
-        4.0,
-        1.0,
-        3.0,
         3.0,
         1.0,
         2.0,
         2.0,
         5.0,
-        1.0
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 767792
+      "races_with_same_dogs": 776464
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.438239130434784
+      "avg_run_home": 16.38019897959184
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.3031493222802293
+      "split_stdev": 1.3157857134980846
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -91,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 8
+      "days_since_last_run": 5
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": true
@@ -103,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 56117.5
+      "career_prize": 58877.5
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.324324324324324
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -450
+      "dist_diff_from_last": -435
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: GEL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3333333333333333,
-      "place_rate": 0.7058823529411765
+      "win_rate": 0.3090909090909091,
+      "place_rate": 0.7272727272727273
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -128,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "SHERBINI",
-      "total_offspring_runs_in_state": 4528,
-      "sire_win_rate": 0.1356007067137809
+      "total_offspring_runs_in_state": 4731,
+      "sire_win_rate": 0.1335869794969351
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 53,
+      "total_litter_runs": 57,
       "litter_wins": 17
     },
     "35_Injury_History": {
@@ -159,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -168,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 53
+      "total_starts": 57
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.2426745721819175
+      "ewma_places": 2.01516716076137
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,23 +191,23 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
-        "Benefiting from inside track bias",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense"
       ]
     }

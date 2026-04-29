@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.268,
-      "ens_prob": 0.3469,
-      "fastai_prob": 0.6124,
+      "ml_prob": 0.1981,
+      "ens_prob": 0.4107,
+      "fastai_prob": 0.587,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 399879
+      "races_with_same_dogs": 400172
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "LOOK FANCY NANCY",
-      "total_offspring_runs_in_state": 7768,
-      "sire_win_rate": 0.1399330587023687
+      "total_offspring_runs_in_state": 7794,
+      "sire_win_rate": 0.13997947138824737
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -210,7 +210,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.612)"
+        "FastAI Strong Conviction (Rank 1, prob 0.587)"
       ]
     }
   }
