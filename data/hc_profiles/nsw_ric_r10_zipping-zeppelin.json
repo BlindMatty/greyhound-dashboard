@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1755,
-      "ens_prob": 0.2651,
-      "fastai_prob": 0.6925,
+      "ml_prob": 0.3108,
+      "ens_prob": 0.3775,
+      "fastai_prob": 0.4464,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 4
     },
     "08_Form_Trajectory": {
       "total_starts": 26,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,6 +203,7 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
@@ -212,7 +213,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.693)"
+        "FastAI Strong Conviction (Rank 1, prob 0.446)"
       ]
     }
   }
