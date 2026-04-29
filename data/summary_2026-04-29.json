@@ -1,12 +1,12 @@
 {
   "date": "2026-04-29",
-  "totalPredictions": 1070,
+  "totalPredictions": 1064,
   "totalHighConfidence": 50,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 332,
+      "totalPredictions": 331,
       "highConfidenceCount": 18,
       "fastEnsCount": 18,
       "eloEnsCount": 3,
@@ -27,7 +27,7 @@
           "ensemble_odds": 2.886000792435687,
           "fastai_prob": 0.3515586100017017,
           "fastai_rank": 1,
-          "elo_prob": 0.22468491602818264,
+          "elo_prob": 0.2246849160281826,
           "elo_rating": 1358,
           "tier": "green"
         },
@@ -47,7 +47,7 @@
           "ensemble_odds": 3.7776045482498954,
           "fastai_prob": 0.2674549197983324,
           "fastai_rank": 1,
-          "elo_prob": 0.07088693522885593,
+          "elo_prob": 0.0708869352288559,
           "elo_rating": 1257,
           "tier": "yellow"
         },
@@ -67,7 +67,7 @@
           "ensemble_odds": 6.046304097562328,
           "fastai_prob": 0.0597845047154054,
           "fastai_rank": 5,
-          "elo_prob": 0.08191676013682912,
+          "elo_prob": 0.0819167601368291,
           "elo_rating": 1200,
           "tier": "yellow"
         }
@@ -88,7 +88,7 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 327,
+      "totalPredictions": 326,
       "highConfidenceCount": 21,
       "fastEnsCount": 21,
       "eloEnsCount": 4,
@@ -145,11 +145,11 @@
           "implied_odds": 2.5484862598532856,
           "grade": "Grade 5",
           "distanceInMetres": 330,
-          "ensemble_prob": 0.36279899442516084,
+          "ensemble_prob": 0.3627989944251608,
           "ensemble_odds": 2.756347220819772,
           "fastai_prob": 0.3332081942678822,
           "fastai_rank": 1,
-          "elo_prob": 0.1556979775028409,
+          "elo_prob": 0.1850738682357612,
           "elo_rating": 1333,
           "tier": "yellow"
         }
@@ -170,7 +170,7 @@
     {
       "code": "qld",
       "name": "Queensland",
-      "totalPredictions": 259,
+      "totalPredictions": 255,
       "highConfidenceCount": 10,
       "fastEnsCount": 10,
       "eloEnsCount": 2,
@@ -191,7 +191,7 @@
           "ensemble_odds": 4.6816857180158475,
           "fastai_prob": 0.1809195371956285,
           "fastai_rank": 2,
-          "elo_prob": 0.05881160889089661,
+          "elo_prob": 0.0588116088908966,
           "elo_rating": 1200,
           "tier": "green"
         },
@@ -217,23 +217,23 @@
         },
         {
           "track": "ROC",
-          "raceNumber": 8,
-          "raceId": 1292152153,
-          "raceStartTime": "9:24PM",
-          "dog": "ROXY CAMBLA",
-          "box": 3,
-          "rug": 3,
-          "probability": 0.3695401262130501,
-          "implied_odds": 2.706066077986541,
-          "grade": "Free For All",
-          "distanceInMetres": 407,
-          "ensemble_prob": 0.24395051012281205,
-          "ensemble_odds": 4.099192084068895,
-          "fastai_prob": 0.1697578828689638,
+          "raceNumber": 3,
+          "raceId": 1292152148,
+          "raceStartTime": "7:35PM",
+          "dog": "CAMBLA DIVA",
+          "box": 1,
+          "rug": 1,
+          "probability": 0.40091288165061384,
+          "implied_odds": 2.4943074811736197,
+          "grade": "Open",
+          "distanceInMetres": 510,
+          "ensemble_prob": 0.3283701616085441,
+          "ensemble_odds": 3.0453436910997955,
+          "fastai_prob": 0.2558274415664743,
           "fastai_rank": 2,
-          "elo_prob": 0.08982375585531512,
-          "elo_rating": 1372,
-          "tier": "yellow"
+          "elo_prob": 0.45067900782684,
+          "elo_rating": 1595,
+          "tier": "green"
         }
       ],
       "hasData": true,
