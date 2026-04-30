@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4752,
-      "ens_prob": 0.3292,
-      "fastai_prob": 0.211,
+      "ml_prob": 0.4683,
+      "ens_prob": 0.3375,
+      "fastai_prob": 0.1532,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 19,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 776860
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.7,
-      "avg_temp_c": 17.1,
+      "max_wind_kmh": 10.9,
+      "avg_temp_c": 16.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "DR. TUCKER",
       "dam": "BEATRICE",
-      "total_offspring_runs_in_state": 549,
-      "sire_win_rate": 0.13114754098360656
+      "total_offspring_runs_in_state": 550,
+      "sire_win_rate": 0.13090909090909092
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,

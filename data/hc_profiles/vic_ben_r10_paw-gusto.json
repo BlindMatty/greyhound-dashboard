@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2798,
-      "ens_prob": 0.2348,
-      "fastai_prob": 0.1465,
+      "ml_prob": 0.2769,
+      "ens_prob": 0.2204,
+      "fastai_prob": 0.1171,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 776860
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 13.8,
-      "avg_temp_c": 17.9,
+      "max_wind_kmh": 16.2,
+      "avg_temp_c": 17.5,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "KALANY BALE",
-      "total_offspring_runs_in_state": 17565,
-      "sire_win_rate": 0.12667235980643324
+      "total_offspring_runs_in_state": 17577,
+      "sire_win_rate": 0.12675655686408374
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -200,7 +200,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.146)"
+        "FastAI Lukewarm (Rank 2, prob 0.117)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

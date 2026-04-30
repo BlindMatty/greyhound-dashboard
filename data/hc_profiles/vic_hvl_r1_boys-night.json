@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2151,
-      "ens_prob": 0.1915,
-      "fastai_prob": 0.6086,
+      "ml_prob": 0.215,
+      "ens_prob": 0.3189,
+      "fastai_prob": 0.3074,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 776860
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,12 +129,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "LARA TARA",
-      "total_offspring_runs_in_state": 23309,
-      "sire_win_rate": 0.1285340426444721
+      "total_offspring_runs_in_state": 23344,
+      "sire_win_rate": 0.1286840301576422
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 161,
+      "total_litter_runs": 162,
       "litter_wins": 21
     },
     "35_Injury_History": {
@@ -204,7 +204,7 @@
         "Adjacent Vacant Box (Clean Air potential)",
         "Second-Up Bounce Profile (Pinnacle fitness)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.609)"
+        "FastAI Strong Conviction (Rank 1, prob 0.307)"
       ]
     }
   }

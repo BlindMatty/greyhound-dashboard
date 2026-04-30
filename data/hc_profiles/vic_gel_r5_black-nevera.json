@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3994,
-      "ens_prob": 0.2068,
-      "fastai_prob": 0.1154,
+      "ml_prob": 0.4227,
+      "ens_prob": 0.2245,
+      "fastai_prob": 0.1303,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 776860
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "BLACK ROBIN",
-      "total_offspring_runs_in_state": 99897,
-      "sire_win_rate": 0.1324764507442666
+      "total_offspring_runs_in_state": 99925,
+      "sire_win_rate": 0.13248936702526895
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 200,
-      "litter_wins": 44
+      "total_litter_runs": 201,
+      "litter_wins": 45
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -199,7 +199,7 @@
         "Major Weight Fluctuation (>1.5kg diff)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.115)"
+        "FastAI Lukewarm (Rank 3, prob 0.130)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

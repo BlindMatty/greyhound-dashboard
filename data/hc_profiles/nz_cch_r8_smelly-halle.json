@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.124,
-      "ens_prob": 0.3322,
-      "fastai_prob": 0.4319,
+      "ml_prob": 0.1778,
+      "ens_prob": 0.3554,
+      "fastai_prob": 0.1198,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276626
+      "races_with_same_dogs": 276821
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "FAIRLY ABLE",
-      "total_offspring_runs_in_state": 297,
-      "sire_win_rate": 0.28619528619528617
+      "total_offspring_runs_in_state": 305,
+      "sire_win_rate": 0.28524590163934427
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 80,
-      "litter_wins": 32
+      "total_litter_runs": 83,
+      "litter_wins": 33
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 9,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,8 +205,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.432)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

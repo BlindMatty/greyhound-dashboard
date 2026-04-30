@@ -1,58 +1,58 @@
 {
   "dog": "ASTON RULER",
-  "date": "2026-04-25",
+  "date": "2026-05-02",
   "track": "CAN",
   "race": 2,
   "distance": 0,
-  "grade": "Mixed 4/5/6",
+  "grade": "Grade 5",
   "steps": {
-    "history_length": 41,
+    "history_length": 42,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1923,
-      "ens_prob": 0.2389,
-      "fastai_prob": 0.485,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.241,
+      "ens_prob": 0.1753,
+      "fastai_prob": 0.0823,
+      "fastai_rank": 7,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
+      "own_box": 5,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 514.3658536585366,
+      "avg_dist": 516.4285714285714,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 4/5/6 vs Field"
+      "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.6,
-      "fluctuation": -0.06315789473684319,
+      "last_weight": 30.7,
+      "fluctuation": 0.03589743589743222,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 41,
+      "total_starts": 42,
       "last_3_avg_place": 1.0,
-      "last_5_avg_place": 2.2,
+      "last_5_avg_place": 1.8,
       "last_10_places": [
-        7.0,
         1.0,
         3.0,
         6.0,
         4.0,
         3.0,
         5.0,
+        1.0,
         1.0,
         1.0,
         1.0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 211949
+      "races_with_same_dogs": 212477
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 23.74297297297297
+      "avg_run_home": 23.778157894736843
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.102231288711137
+      "split_stdev": 1.2380316364532753
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 69432.0
+      "career_prize": 71521.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.0526315789473686
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: CAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.39473684210526316,
-      "place_rate": 0.6842105263157895
+      "win_rate": 0.41025641025641024,
+      "place_rate": 0.6923076923076923
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ASTON RHONE",
-      "total_offspring_runs_in_state": 27981,
-      "sire_win_rate": 0.1391658625495872
+      "total_offspring_runs_in_state": 28012,
+      "sire_win_rate": 0.13919034699414537
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 41,
-      "litter_wins": 15
+      "total_litter_runs": 42,
+      "litter_wins": 16
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 41
+      "total_starts": 42
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.4163233743835602
+      "ewma_places": 1.2081616871914014
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,11 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 17,
-      "decision": "PASS / CAUTION",
+      "final_score": 8,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -206,10 +208,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.485)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

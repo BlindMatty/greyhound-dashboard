@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3359,
-      "ens_prob": 0.1889,
-      "fastai_prob": 0.1016,
+      "ml_prob": 0.4306,
+      "ens_prob": 0.2016,
+      "fastai_prob": 0.1208,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 776860
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.7,
-      "avg_temp_c": 17.1,
+      "max_wind_kmh": 10.9,
+      "avg_temp_c": 16.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "MIDNIGHT MONARCH",
       "dam": "TAKERS TO VEGAS",
-      "total_offspring_runs_in_state": 336,
-      "sire_win_rate": 0.21428571428571427
+      "total_offspring_runs_in_state": 337,
+      "sire_win_rate": 0.21364985163204747
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 194,
+      "total_litter_runs": 195,
       "litter_wins": 38
     },
     "35_Injury_History": {
@@ -201,7 +201,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.102)"
+        "FastAI Lukewarm (Rank 3, prob 0.121)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

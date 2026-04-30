@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2166,
-      "ens_prob": 0.2375,
-      "fastai_prob": 0.5065,
-      "fastai_rank": 3,
+      "ml_prob": 0.1758,
+      "ens_prob": 0.2131,
+      "fastai_prob": 0.5415,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 702342
+      "races_with_same_dogs": 702665
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 8.2,
-      "avg_temp_c": 16.4,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 8.4,
+      "avg_temp_c": 16.6,
+      "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "UNO HERRERA",
-      "total_offspring_runs_in_state": 11126,
-      "sire_win_rate": 0.16016537839295344
+      "total_offspring_runs_in_state": 11154,
+      "sire_win_rate": 0.1601219293526986
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4469,
-      "ens_prob": 0.1812,
-      "fastai_prob": 0.1846,
-      "fastai_rank": 5,
+      "ml_prob": 0.5919,
+      "ens_prob": 0.2108,
+      "fastai_prob": 0.156,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214082
+      "races_with_same_dogs": 214213
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "GYPSIES LUCK",
-      "total_offspring_runs_in_state": 15446,
-      "sire_win_rate": 0.15589796711122622
+      "total_offspring_runs_in_state": 15455,
+      "sire_win_rate": 0.15593659010029118
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -193,7 +193,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

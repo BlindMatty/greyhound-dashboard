@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3591,
-      "ens_prob": 0.2061,
-      "fastai_prob": 0.1166,
+      "ml_prob": 0.4471,
+      "ens_prob": 0.2354,
+      "fastai_prob": 0.1149,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 776860
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.7,
-      "avg_temp_c": 17.1,
+      "max_wind_kmh": 10.9,
+      "avg_temp_c": 16.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -131,13 +131,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "MAGICAL MAVIS",
-      "total_offspring_runs_in_state": 37489,
-      "sire_win_rate": 0.14807010056283176
+      "total_offspring_runs_in_state": 37540,
+      "sire_win_rate": 0.14805540756526372
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 21,
-      "litter_wins": 7
+      "total_litter_runs": 22,
+      "litter_wins": 8
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -192,7 +192,7 @@
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.117)"
+        "FastAI Lukewarm (Rank 3, prob 0.115)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

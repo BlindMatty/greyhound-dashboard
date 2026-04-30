@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1751,
-      "ens_prob": 0.1111,
-      "fastai_prob": 0.0423,
-      "fastai_rank": 7,
+      "ml_prob": 0.1716,
+      "ens_prob": 0.1318,
+      "fastai_prob": 0.1294,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 776860
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "GLAMOROUS LASS",
-      "total_offspring_runs_in_state": 62474,
-      "sire_win_rate": 0.13088644876268526
+      "total_offspring_runs_in_state": 62480,
+      "sire_win_rate": 0.13090588988476312
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 131,
-      "litter_wins": 16
+      "total_litter_runs": 132,
+      "litter_wins": 17
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
