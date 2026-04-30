@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4892,
-      "ens_prob": 0.1871,
-      "fastai_prob": 0.0631,
+      "ml_prob": 0.3506,
+      "ens_prob": 0.2546,
+      "fastai_prob": 0.1451,
       "fastai_rank": 6,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 4
     },
     "08_Form_Trajectory": {
       "total_starts": 58,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -201,6 +201,7 @@
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
+        "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
         "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
