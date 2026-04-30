@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1042,
-      "ens_prob": 0.1552,
-      "fastai_prob": 0.0732,
+      "ml_prob": 0.1902,
+      "ens_prob": 0.1641,
+      "fastai_prob": 0.1379,
       "fastai_rank": 5,
       "is_three_way": false
     },
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 1,
       "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 400.92105263157896,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 38,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -202,6 +202,7 @@
         "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
