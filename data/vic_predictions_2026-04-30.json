@@ -6,7 +6,7 @@
   "totalDogs": 362,
   "highConfidenceCount": 51,
   "fastEnsCount": 51,
-  "eloEnsCount": 7,
+  "eloEnsCount": 8,
   "races": [
     {
       "track": "SAN",
@@ -6898,7 +6898,7 @@
           "probability_norm": 0.3262516518032858,
           "implied_odds_norm": 3.0651185809258443,
           "isFastEns": true,
-          "isEloEns": false,
+          "isEloEns": true,
           "isMlSpecialist": false
         },
         {
@@ -6908,7 +6908,7 @@
           "probability": 0.1472554162430657,
           "implied_odds": 6.790921689083135,
           "isHighConf": false,
-          "scratched": false,
+          "scratched": true,
           "ensemble_prob": 0.210150216290721,
           "ensemble_odds": 4.758500931622187,
           "ensemble_rank": 2,
@@ -6980,7 +6980,7 @@
           "probability": 0.0434660503234543,
           "implied_odds": 23.006461193470752,
           "isHighConf": false,
-          "scratched": false,
+          "scratched": true,
           "ensemble_prob": 0.050034709749637404,
           "ensemble_odds": 19.986125731592693,
           "ensemble_rank": 6,
@@ -8408,12 +8408,12 @@
       "elo_prob": 0.2101269572314928,
       "elo_rating": 1254,
       "isFastEns": true,
-      "isEloEns": false,
-      "elo_agrees": false,
+      "isEloEns": true,
+      "elo_agrees": true,
       "isMlSpecialist": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
-      "mlGapToSecondPct": 13.745156569998066,
+      "mlGapToSecondPct": 13.758668592155871,
       "grade": "Grade 5"
     },
     {
