@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2307,
-      "ens_prob": 0.2691,
-      "fastai_prob": 0.316,
+      "ml_prob": 0.2725,
+      "ens_prob": 0.3237,
+      "fastai_prob": 0.3752,
       "fastai_rank": 2,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 10,
@@ -189,7 +189,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,6 +199,7 @@
         "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
+        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
