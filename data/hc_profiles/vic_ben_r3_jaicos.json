@@ -120,12 +120,8 @@
       "dist_diff_from_last": -450
     },
     "29_Live_Weather": {
-      "status": "success",
-      "max_wind_kmh": 15.0,
-      "avg_temp_c": 17.2,
-      "total_precip_mm": 0.0,
-      "is_wet": false,
-      "is_hot": false
+      "status": "error",
+      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=-36.75&longitude=144.28&hourly=temperature_2m,precipitation,wind_speed_10m,wind_direction_10m&timezone=Australia%2FSydney&start_date=2026-05-01&end_date=2026-05-01 (Caused by NameResolutionError(\"HTTPSConnection(host='api.open-meteo.com', port=443): Failed to resolve 'api.open-meteo.com' ([Errno 11001] getaddrinfo failed)\"))"
     },
     "30_Non_Chaser": {
       "win_rate": 0.14285714285714285,
@@ -161,8 +157,8 @@
       "cd_wins": 0
     },
     "39_NLP_Stewards": {
-      "status": "not_found",
-      "message": "Could not locate stewards div on page"
+      "status": "error",
+      "message": "HTTPSConnectionPool(host='fasttrack.grv.org.au', port=443): Max retries exceeded with url: /RaceField/ViewRaces/1293058460 (Caused by NameResolutionError(\"HTTPSConnection(host='fasttrack.grv.org.au', port=443): Failed to resolve 'fasttrack.grv.org.au' ([Errno 11001] getaddrinfo failed)\"))"
     },
     "40_Travel_Intent": {
       "home_state": "VIC"
