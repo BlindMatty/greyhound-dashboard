@@ -1,6 +1,6 @@
 {
   "date": "2026-05-02",
-  "totalPredictions": 703,
+  "totalPredictions": 696,
   "totalHighConfidence": 27,
   "states": [
     {
@@ -88,31 +88,11 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 374,
+      "totalPredictions": 367,
       "highConfidenceCount": 15,
       "fastEnsCount": 15,
       "eloEnsCount": 1,
       "topPicks": [
-        {
-          "track": "TAR",
-          "raceNumber": 8,
-          "raceId": 1292987344,
-          "raceStartTime": "10:03AM",
-          "dog": "KINGSBRAE TED",
-          "box": 3,
-          "rug": 3,
-          "probability": 0.5385012513189036,
-          "implied_odds": 1.8570058984093127,
-          "grade": "Non Graded",
-          "distanceInMetres": 300,
-          "ensemble_prob": 0.2629165122357153,
-          "ensemble_odds": 3.803488763396722,
-          "fastai_prob": 0.1728445869316517,
-          "fastai_rank": 3,
-          "elo_prob": 0.4010979696326853,
-          "elo_rating": 1692,
-          "tier": "green"
-        },
         {
           "track": "GAR",
           "raceNumber": 4,
@@ -149,9 +129,29 @@
           "ensemble_odds": 4.794588414584207,
           "fastai_prob": 0.1572449560637135,
           "fastai_rank": 1,
-          "elo_prob": 0.14976606385558577,
+          "elo_prob": 0.1497660638555857,
           "elo_rating": 1487,
           "tier": "green"
+        },
+        {
+          "track": "TAR",
+          "raceNumber": 8,
+          "raceId": 1292987344,
+          "raceStartTime": "10:03AM",
+          "dog": "KINGSBRAE TED",
+          "box": 3,
+          "rug": 3,
+          "probability": 0.3816689205936748,
+          "implied_odds": 2.6200718634478526,
+          "grade": "Non Graded",
+          "distanceInMetres": 300,
+          "ensemble_prob": 0.29216183242612714,
+          "ensemble_odds": 3.422760569701893,
+          "fastai_prob": 0.20265474425857954,
+          "fastai_rank": 3,
+          "elo_prob": 0.4010979696326853,
+          "elo_rating": 1692,
+          "tier": "yellow"
         }
       ],
       "hasData": true,

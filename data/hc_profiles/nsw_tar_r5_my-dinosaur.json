@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2197,
-      "ens_prob": 0.2178,
-      "fastai_prob": 0.6787,
+      "ml_prob": 0.1987,
+      "ens_prob": 0.2325,
+      "fastai_prob": 0.2649,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 27,
@@ -204,7 +204,7 @@
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.679)"
+        "FastAI Strong Conviction (Rank 1, prob 0.265)"
       ]
     }
   }
