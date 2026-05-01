@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 15.0,
-      "avg_temp_c": 17.2,
+      "max_wind_kmh": 17.6,
+      "avg_temp_c": 17.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -161,8 +161,8 @@
       "cd_wins": 0
     },
     "39_NLP_Stewards": {
-      "status": "error",
-      "message": "HTTPSConnectionPool(host='fasttrack.grv.org.au', port=443): Read timed out. (read timeout=15)"
+      "status": "not_found",
+      "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
       "home_state": "VIC"
