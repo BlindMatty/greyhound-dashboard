@@ -180,8 +180,8 @@
           "rug": 3,
           "probability": 0.2667722478478961,
           "implied_odds": 3.7485158522567295,
-          "isHighConf": true,
-          "scratched": false,
+          "isHighConf": false,
+          "scratched": true,
           "ensemble_prob": 0.26504773930956466,
           "ensemble_odds": 3.7729052230550884,
           "ensemble_rank": 1,
@@ -190,10 +190,7 @@
           "elo_prob": 0.16961722014603026,
           "elo_rating": 1200,
           "probability_norm": 0.3261841076822242,
-          "implied_odds_norm": 3.06575328609885,
-          "isFastEns": false,
-          "isEloEns": false,
-          "isMlSpecialist": false
+          "implied_odds_norm": 3.06575328609885
         },
         {
           "dog": "SAM SEES ALL",
@@ -201,7 +198,7 @@
           "rug": 4,
           "probability": 0.1978424997342904,
           "implied_odds": 5.054525702733415,
-          "isHighConf": false,
+          "isHighConf": true,
           "scratched": false,
           "ensemble_prob": 0.20525416449878636,
           "ensemble_odds": 4.872008333871895,
@@ -211,7 +208,10 @@
           "elo_prob": 0.16961722014603026,
           "elo_rating": 1200,
           "probability_norm": 0.24190327051652175,
-          "implied_odds_norm": 4.133883753885423
+          "implied_odds_norm": 4.133883753885423,
+          "isFastEns": false,
+          "isEloEns": false,
+          "isMlSpecialist": false
         },
         {
           "dog": "YOU BET",
@@ -1042,7 +1042,7 @@
           "probability": 0.1057906444132321,
           "implied_odds": 9.452631709982487,
           "isHighConf": false,
-          "scratched": false,
+          "scratched": true,
           "ensemble_prob": 0.24288396680694935,
           "ensemble_odds": 4.117192308518358,
           "ensemble_rank": 2,
@@ -3679,7 +3679,7 @@
       "isMlSpecialist": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
-      "mlGapToSecondPct": 13.726340980490779,
+      "mlGapToSecondPct": 15.778544582408257,
       "grade": "Class 2"
     },
     {
@@ -3711,14 +3711,14 @@
       "raceNumber": 2,
       "raceId": 1292987314,
       "raceStartTime": "10:27AM",
-      "dog": "TIME TO LEAVE",
-      "box": 3,
-      "probability": 0.2667722478478961,
-      "implied_odds": 3.7485158522567295,
-      "implied_odds_norm": 3.06575328609885,
-      "ensemble_prob": 0.26504773930956466,
-      "ensemble_odds": 3.7729052230550884,
-      "fastai_prob": 0.2039113709369053,
+      "dog": "SAM SEES ALL",
+      "box": 4,
+      "probability": 0.1978424997342904,
+      "implied_odds": 5.054525702733415,
+      "implied_odds_norm": 4.133883753885423,
+      "ensemble_prob": 0.20525416449878636,
+      "ensemble_odds": 4.872008333871895,
+      "fastai_prob": 0.168605058481051,
       "elo_prob": 0.16961722014603026,
       "elo_rating": 1200,
       "isFastEns": false,
@@ -3727,7 +3727,7 @@
       "isMlSpecialist": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
-      "mlGapToSecondPct": 8.428083716570248,
+      "mlGapToSecondPct": 9.861706968104237,
       "grade": "Maiden"
     },
     {
