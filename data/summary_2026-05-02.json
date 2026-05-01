@@ -1,36 +1,16 @@
 {
   "date": "2026-05-02",
-  "totalPredictions": 708,
-  "totalHighConfidence": 22,
+  "totalPredictions": 694,
+  "totalHighConfidence": 17,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 188,
-      "highConfidenceCount": 5,
-      "fastEnsCount": 5,
+      "totalPredictions": 183,
+      "highConfidenceCount": 0,
+      "fastEnsCount": 0,
       "eloEnsCount": 0,
       "topPicks": [
-        {
-          "track": "MEA",
-          "raceNumber": 12,
-          "raceId": 1292980816,
-          "raceStartTime": "10:23PM",
-          "dog": "REPELLENT",
-          "box": 1,
-          "rug": 1,
-          "probability": 0.3695482360030581,
-          "implied_odds": 2.706006692971265,
-          "grade": "Grade 5",
-          "distanceInMetres": 525,
-          "ensemble_prob": 0.21592178193173028,
-          "ensemble_odds": 4.631306721598741,
-          "fastai_prob": 0.1385822652437945,
-          "fastai_rank": 2,
-          "elo_prob": 0.09665805496818654,
-          "elo_rating": 1263,
-          "tier": "yellow"
-        },
         {
           "track": "MEA",
           "raceNumber": 5,
@@ -39,36 +19,44 @@
           "dog": "PAW RAYNOR",
           "box": 1,
           "rug": 1,
-          "probability": 0.3439004895417786,
-          "implied_odds": 2.9078179020112023,
+          "probability": 0.40843088674605305,
+          "implied_odds": 2.4483946548875046,
           "grade": "Grade 5 Final",
           "distanceInMetres": 525,
-          "ensemble_prob": 0.2198272247647301,
-          "ensemble_odds": 4.549027087387603,
-          "fastai_prob": 0.1712207211264032,
-          "fastai_rank": 2,
-          "elo_prob": 0.13783401554321348,
-          "elo_rating": 1294,
+          "ensemble_prob": 0.31348226122511624,
+          "ensemble_odds": 3.189973161772893,
+          "tier": "green"
+        },
+        {
+          "track": "MEA",
+          "raceNumber": 12,
+          "raceId": 1292980816,
+          "raceStartTime": "10:23PM",
+          "dog": "REPELLENT",
+          "box": 1,
+          "rug": 1,
+          "probability": 0.39141390143850746,
+          "implied_odds": 2.5548402760475373,
+          "grade": "Grade 5",
+          "distanceInMetres": 525,
+          "ensemble_prob": 0.30627412323016573,
+          "ensemble_odds": 3.2650489354221337,
           "tier": "yellow"
         },
         {
           "track": "MEA",
-          "raceNumber": 5,
-          "raceId": 1291165687,
-          "raceStartTime": "7:52PM",
-          "dog": "BISCOTTINO",
-          "box": 3,
-          "rug": 3,
-          "probability": 0.3262393288562341,
-          "implied_odds": 3.0652343587939272,
-          "grade": "Grade 5 Final",
+          "raceNumber": 9,
+          "raceId": 1292980813,
+          "raceStartTime": "9:20PM",
+          "dog": "BAROOGA JIM",
+          "box": 4,
+          "rug": 4,
+          "probability": 0.35156279768202403,
+          "implied_odds": 2.844442035941653,
+          "grade": "Grade 5",
           "distanceInMetres": 525,
-          "ensemble_prob": 0.23798745399882754,
-          "ensemble_odds": 4.201902172561275,
-          "fastai_prob": 0.2213267116159774,
-          "fastai_rank": 1,
-          "elo_prob": 0.24421511717531083,
-          "elo_rating": 1393,
+          "ensemble_prob": 0.25320260013439183,
+          "ensemble_odds": 3.949406520585618,
           "tier": "yellow"
         }
       ],
@@ -88,31 +76,11 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 374,
+      "totalPredictions": 365,
       "highConfidenceCount": 12,
       "fastEnsCount": 12,
       "eloEnsCount": 2,
       "topPicks": [
-        {
-          "track": "TAR",
-          "raceNumber": 8,
-          "raceId": 1292987344,
-          "raceStartTime": "10:02AM",
-          "dog": "KINGSBRAE TED",
-          "box": 3,
-          "rug": 3,
-          "probability": 0.5413852237890276,
-          "implied_odds": 1.847113582083448,
-          "grade": "Non Graded",
-          "distanceInMetres": 300,
-          "ensemble_prob": 0.2615394138572335,
-          "ensemble_odds": 3.8235154895080936,
-          "fastai_prob": 0.1476560404739877,
-          "fastai_rank": 3,
-          "elo_prob": 0.40166714629358613,
-          "elo_rating": 1691,
-          "tier": "green"
-        },
         {
           "track": "WPK",
           "raceNumber": 4,
@@ -152,6 +120,26 @@
           "elo_prob": 0.1267869608263354,
           "elo_rating": 1290,
           "tier": "green"
+        },
+        {
+          "track": "TAR",
+          "raceNumber": 8,
+          "raceId": 1292987344,
+          "raceStartTime": "10:02AM",
+          "dog": "KINGSBRAE TED",
+          "box": 3,
+          "rug": 3,
+          "probability": 0.3968448675024979,
+          "implied_odds": 2.519876359478696,
+          "grade": "Non Graded",
+          "distanceInMetres": 300,
+          "ensemble_prob": 0.2754758216617952,
+          "ensemble_odds": 3.6300826474263554,
+          "fastai_prob": 0.15410677582109242,
+          "fastai_rank": 3,
+          "elo_prob": 0.4016671462935861,
+          "elo_rating": 1691,
+          "tier": "yellow"
         }
       ],
       "hasData": true,
@@ -418,44 +406,44 @@
   ],
   "modelPerformance": {
     "startDate": "2026-04-08",
-    "resultsDate": "2026-04-30",
-    "settledRaces": 3217,
+    "resultsDate": "2026-05-01",
+    "settledRaces": 3264,
     "models": {
       "ml": {
-        "wins": 1019,
-        "settled": 3217,
+        "wins": 1028,
+        "settled": 3264,
         "label": "ML",
-        "strikeRate": 31.675474044140508
+        "strikeRate": 31.495098039215684
       },
       "fastai": {
-        "wins": 881,
-        "settled": 3215,
+        "wins": 892,
+        "settled": 3262,
         "label": "FastAI",
-        "strikeRate": 27.402799377916022
+        "strikeRate": 27.34518700183936
       },
       "elo": {
-        "wins": 499,
-        "settled": 2482,
+        "wins": 507,
+        "settled": 2529,
         "label": "ELO",
-        "strikeRate": 20.104754230459307
+        "strikeRate": 20.047449584816132
       },
       "ens": {
-        "wins": 1043,
-        "settled": 3217,
+        "wins": 1054,
+        "settled": 3264,
         "label": "ENS",
-        "strikeRate": 32.421510724277276
+        "strikeRate": 32.29166666666667
       },
       "fast_ens": {
-        "wins": 403,
-        "settled": 987,
+        "wins": 407,
+        "settled": 998,
         "label": "FAST ENS",
-        "strikeRate": 40.83080040526849
+        "strikeRate": 40.78156312625251
       },
       "elo_ens": {
-        "wins": 92,
-        "settled": 194,
+        "wins": 93,
+        "settled": 200,
         "label": "ELO ENS",
-        "strikeRate": 47.42268041237113
+        "strikeRate": 46.5
       }
     }
   },

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1369,
-      "ens_prob": 0.1685,
-      "fastai_prob": 0.2664,
+      "ml_prob": 0.3149,
+      "ens_prob": 0.257,
+      "fastai_prob": 0.1836,
       "fastai_rank": 5,
       "is_three_way": false
     },
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 7,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 317.09090909090907,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 11,
@@ -165,7 +165,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -189,10 +189,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
@@ -206,6 +205,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "From an active winning litter (10+ wins)",
         "Wide Runner drawn Outside (Perfect Map)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "Second-Up Bounce Profile (Pinnacle fitness)"
       ]
     }
