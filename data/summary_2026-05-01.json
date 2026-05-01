@@ -1,12 +1,12 @@
 {
   "date": "2026-05-01",
-  "totalPredictions": 1260,
+  "totalPredictions": 1256,
   "totalHighConfidence": 49,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 364,
+      "totalPredictions": 363,
       "highConfidenceCount": 12,
       "fastEnsCount": 12,
       "eloEnsCount": 6,
@@ -27,7 +27,7 @@
           "ensemble_odds": 2.9625504746329505,
           "fastai_prob": 0.316369822782616,
           "fastai_rank": 1,
-          "elo_prob": 0.10197734335668662,
+          "elo_prob": 0.1019773433566866,
           "elo_rating": 1299,
           "tier": "green"
         },
@@ -47,7 +47,7 @@
           "ensemble_odds": 5.42845817291811,
           "fastai_prob": 0.0524494642014384,
           "fastai_rank": 8,
-          "elo_prob": 0.08714877148011184,
+          "elo_prob": 0.0871487714801118,
           "elo_rating": 1310,
           "tier": "green"
         },
@@ -67,7 +67,7 @@
           "ensemble_odds": 4.247868747954977,
           "fastai_prob": 0.1906987074356606,
           "fastai_rank": 3,
-          "elo_prob": 0.11567065793901302,
+          "elo_prob": 0.115670657939013,
           "elo_rating": 1200,
           "tier": "green"
         }
@@ -252,7 +252,7 @@
     {
       "code": "wa",
       "name": "Western Australia",
-      "totalPredictions": 102,
+      "totalPredictions": 99,
       "highConfidenceCount": 1,
       "fastEnsCount": 1,
       "eloEnsCount": 0,
@@ -293,7 +293,7 @@
           "ensemble_odds": 4.548725244413371,
           "fastai_prob": 0.15306657373868,
           "fastai_rank": 4,
-          "elo_prob": 0.14087680714249448,
+          "elo_prob": 0.1408768071424944,
           "elo_rating": 1221,
           "tier": "yellow"
         },
@@ -313,7 +313,7 @@
           "ensemble_odds": 5.277837826866066,
           "fastai_prob": 0.1420476358034597,
           "fastai_rank": 3,
-          "elo_prob": 0.17486634316624441,
+          "elo_prob": 0.1748663431662444,
           "elo_rating": 1310,
           "tier": "yellow"
         }
