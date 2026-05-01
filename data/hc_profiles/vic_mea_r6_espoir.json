@@ -9,12 +9,12 @@
     "history_length": 17,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2873,
-      "ens_prob": 0.2222,
-      "fastai_prob": 0.1708,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3461,
+      "ens_prob": 0.2223,
+      "fastai_prob": 0.1526,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776860
+      "races_with_same_dogs": 777280
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 22.7,
-      "avg_temp_c": 20.4,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 21.2,
+      "avg_temp_c": 20.0,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "DISTINCT",
-      "total_offspring_runs_in_state": 9501,
-      "sire_win_rate": 0.1469319019050626
+      "total_offspring_runs_in_state": 9520,
+      "sire_win_rate": 0.1467436974789916
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -211,8 +211,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2807,
-      "ens_prob": 0.3975,
-      "fastai_prob": 0.4039,
+      "ml_prob": 0.2512,
+      "ens_prob": 0.2698,
+      "fastai_prob": 0.5498,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 400332
+      "races_with_same_dogs": 400553
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "FAB TO FLY",
-      "total_offspring_runs_in_state": 11148,
-      "sire_win_rate": 0.12477574452816649
+      "total_offspring_runs_in_state": 11151,
+      "sire_win_rate": 0.12474217558963321
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -207,7 +207,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.404)"
+        "FastAI Strong Conviction (Rank 1, prob 0.550)"
       ]
     }
   }

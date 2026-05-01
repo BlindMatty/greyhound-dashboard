@@ -1,19 +1,19 @@
 {
   "dog": "PROJECT NEMESIS",
-  "date": "2026-04-25",
+  "date": "2026-05-02",
   "track": "GAR",
   "race": 1,
   "distance": 0,
   "grade": "Maiden",
   "steps": {
-    "history_length": 11,
+    "history_length": 12,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1552,
-      "ens_prob": 0.1899,
-      "fastai_prob": 0.4804,
-      "fastai_rank": 3,
+      "ml_prob": 0.1274,
+      "ens_prob": 0.2077,
+      "fastai_prob": 0.4677,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -34,17 +34,17 @@
       "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.1,
-      "fluctuation": -0.18888888888889,
+      "last_weight": 29.2,
+      "fluctuation": -0.08000000000000185,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 11,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 3.8,
+      "total_starts": 12,
+      "last_3_avg_place": 2.6666666666666665,
+      "last_5_avg_place": 3.0,
       "last_10_places": [
         3.0,
         8.0,
@@ -54,7 +54,8 @@
         5.0,
         2.0,
         2.0,
-        2.0
+        2.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -67,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700400
+      "races_with_same_dogs": 703037
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -76,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.268749999999999
+      "avg_run_home": 12.249999999999998
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.2871037642187428
+      "split_stdev": 0.286574597618142
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -110,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 1345.0
+      "career_prize": 1420.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,7 +125,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.4444444444444444
+      "place_rate": 0.4
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -135,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "ELLIE BELLES",
-      "total_offspring_runs_in_state": 8999,
-      "sire_win_rate": 0.14268252028003112
+      "total_offspring_runs_in_state": 9194,
+      "sire_win_rate": 0.14237546225799436
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 88,
-      "litter_wins": 7
+      "total_litter_runs": 99,
+      "litter_wins": 8
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -175,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 11
+      "total_starts": 12
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.4951076320939336
+      "ewma_places": 3.2482893450635384
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -190,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,7 +200,6 @@
         "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)"

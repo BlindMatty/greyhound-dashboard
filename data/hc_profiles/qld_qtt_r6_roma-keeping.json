@@ -1,18 +1,18 @@
 {
   "dog": "ROMA KEEPING",
-  "date": "2026-04-26",
+  "date": "2026-05-03",
   "track": "QTT",
   "race": 6,
   "distance": 0,
   "grade": "Restricted Win",
   "steps": {
-    "history_length": 2,
+    "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1723,
-      "ens_prob": 0.2133,
-      "fastai_prob": 0.4366,
+      "ml_prob": 0.1918,
+      "ens_prob": 0.2099,
+      "fastai_prob": 0.4787,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 520.0,
+      "avg_dist": 546.6666666666666,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,19 +35,20 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 30.4,
-      "fluctuation": -0.10000000000000142,
+      "fluctuation": -0.06666666666666998,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
-      "last_3_avg_place": null,
+      "total_starts": 3,
+      "last_3_avg_place": 2.3333333333333335,
       "last_5_avg_place": null,
       "last_10_places": [
         2.0,
-        2.0
+        2.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 399202
+      "races_with_same_dogs": 400553
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +70,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 24.9
+      "avg_run_home": 25.086666666666662
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.021213203435595972
+      "split_stdev": 2.485538171100979
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -91,7 +92,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 10
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -103,13 +104,13 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 9370.0
+      "career_prize": 14620.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -520
+      "dist_diff_from_last": -600
     },
     "29_Live_Weather": {
       "status": "error",
@@ -128,13 +129,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "GEORGIA KEEPING",
-      "total_offspring_runs_in_state": 11873,
-      "sire_win_rate": 0.13029562873747158
+      "total_offspring_runs_in_state": 11895,
+      "sire_win_rate": 0.13030685161832703
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 29,
-      "litter_wins": 6
+      "total_litter_runs": 32,
+      "litter_wins": 7
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -168,13 +169,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 3
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.0
+      "ewma_places": 2.5714285714285716
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,19 +184,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
+        "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Professional Box Dog (Elite start consistency)",
         "Benefiting from inside track bias"
       ]
     }

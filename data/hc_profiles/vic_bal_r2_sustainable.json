@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1523,
-      "ens_prob": 0.1001,
-      "fastai_prob": 0.0295,
-      "fastai_rank": 8,
+      "ml_prob": 0.157,
+      "ens_prob": 0.0996,
+      "fastai_prob": 0.0323,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776860
+      "races_with_same_dogs": 777280
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,9 +113,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 28.3,
-      "avg_temp_c": 17.0,
-      "total_precip_mm": 4.5,
+      "max_wind_kmh": 29.3,
+      "avg_temp_c": 16.5,
+      "total_precip_mm": 3.9,
       "is_wet": true,
       "is_hot": false
     },
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "THRIVING",
-      "total_offspring_runs_in_state": 9372,
-      "sire_win_rate": 0.1501280409731114
+      "total_offspring_runs_in_state": 9391,
+      "sire_win_rate": 0.14993078479395167
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 34,
+      "total_litter_runs": 37,
       "litter_wins": 7
     },
     "35_Injury_History": {
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -12,
+      "final_score": -13,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -197,11 +197,10 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field",
-        "Elite Sire Line (>15% state win rate)"
+        "Strong Head-to-Head Experience over field"
       ]
     }
   }

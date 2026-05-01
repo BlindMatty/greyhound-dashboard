@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2212,
-      "ens_prob": 0.2081,
-      "fastai_prob": 0.3942,
-      "fastai_rank": 2,
+      "ml_prob": 0.2035,
+      "ens_prob": 0.1295,
+      "fastai_prob": 0.1086,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776860
+      "races_with_same_dogs": 777280
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 22.7,
-      "avg_temp_c": 20.4,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 21.2,
+      "avg_temp_c": 20.0,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "FAITHY BALE",
-      "total_offspring_runs_in_state": 37994,
-      "sire_win_rate": 0.1474443333157867
+      "total_offspring_runs_in_state": 38035,
+      "sire_win_rate": 0.14739056132509532
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -195,13 +195,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

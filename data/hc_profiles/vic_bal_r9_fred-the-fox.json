@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1517,
-      "ens_prob": 0.1584,
-      "fastai_prob": 0.0713,
-      "fastai_rank": 4,
+      "ml_prob": 0.1724,
+      "ens_prob": 0.1868,
+      "fastai_prob": 0.0708,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776860
+      "races_with_same_dogs": 777280
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 28.3,
-      "avg_temp_c": 17.0,
-      "total_precip_mm": 4.5,
+      "max_wind_kmh": 29.3,
+      "avg_temp_c": 16.5,
+      "total_precip_mm": 3.9,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "CROWN ELLA",
-      "total_offspring_runs_in_state": 23344,
-      "sire_win_rate": 0.1286840301576422
+      "total_offspring_runs_in_state": 23384,
+      "sire_win_rate": 0.1287632569278139
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 171,
+      "total_litter_runs": 172,
       "litter_wins": 18
     },
     "35_Injury_History": {
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": -7,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,7 +205,7 @@
         "Heavy dog penalty on assumed wet track",
         "Wide Runner drawn Inside (Crash risk)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.071)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
