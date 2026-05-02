@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 80,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
       "ml_prob": 0.1496,
-      "ens_prob": 0.2188,
-      "fastai_prob": 0.534,
-      "fastai_rank": 3,
+      "ens_prob": 0.2937,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 11.495
+      "avg_run_home": 11.495000000000001
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -209,7 +209,8 @@
         "High Earnings Class / Classy Animal",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "2-Way Model Alignment"
       ]
     }
   }

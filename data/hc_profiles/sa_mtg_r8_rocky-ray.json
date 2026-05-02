@@ -9,12 +9,12 @@
     "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.217,
-      "ens_prob": 0.1666,
-      "fastai_prob": 0.3312,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "ens_prob": 0.1717,
+      "fastai_prob": 0.5024,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -184,7 +184,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,7 +199,9 @@
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Elite Sire Line (>15% state win rate)"
+        "Elite Sire Line (>15% state win rate)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.502)"
       ]
     }
   }

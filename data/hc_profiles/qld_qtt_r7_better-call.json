@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1074,
-      "ens_prob": 0.1821,
-      "fastai_prob": 0.5777,
+      "ml_prob": 0.1019,
+      "ens_prob": 0.2694,
+      "fastai_prob": 0.1597,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 400553
+      "races_with_same_dogs": 400639
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "WEST ON POPPY",
-      "total_offspring_runs_in_state": 10966,
-      "sire_win_rate": 0.1260258982308955
+      "total_offspring_runs_in_state": 10968,
+      "sire_win_rate": 0.12600291757840992
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -208,8 +208,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.578)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

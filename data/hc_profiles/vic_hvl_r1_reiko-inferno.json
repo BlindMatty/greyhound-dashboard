@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3854,
-      "ens_prob": 0.2416,
-      "fastai_prob": 0.1496,
-      "fastai_rank": 2,
+      "ml_prob": 0.3867,
+      "ens_prob": 0.2186,
+      "fastai_prob": 0.1338,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 777280
+      "races_with_same_dogs": 777498
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,12 +127,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "MOBILE LEGEND",
       "dam": "RAPID REIKO",
-      "total_offspring_runs_in_state": 57,
-      "sire_win_rate": 0.14035087719298245
+      "total_offspring_runs_in_state": 61,
+      "sire_win_rate": 0.13114754098360656
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 11,
-      "total_litter_runs": 57,
+      "total_litter_runs": 61,
       "litter_wins": 8
     },
     "35_Injury_History": {
@@ -189,7 +189,7 @@
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.150)"
+        "FastAI Lukewarm (Rank 3, prob 0.134)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
