@@ -156,7 +156,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const ensProb = p.ensemble_prob || p.probability || 0;
     const fastaiProb = p.fastai_prob || 0;
     const mlGapToSecondPct = Number(p.mlGapToSecondPct || 0);
-    const showMlGap = opts.useNormOdds && mlGapToSecondPct >= 15;
+    const showMlGap = p.mlGapToSecondPct !== undefined && p.mlGapToSecondPct !== null && p.mlGapToSecondPct !== '';
     const mlSpecialistSr = Number(p.mlSpecialistSr || 0);
     const showMlSpecialistSr = opts.useNormOdds && mlSpecialistSr > 0;
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
