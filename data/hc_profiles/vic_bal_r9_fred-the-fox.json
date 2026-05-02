@@ -9,12 +9,12 @@
     "history_length": 44,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1724,
-      "ens_prob": 0.1868,
-      "fastai_prob": 0.0708,
+      "alignment_count": 3,
+      "ml_prob": 0.283,
+      "ens_prob": 0.2801,
+      "fastai_prob": 0.2773,
       "fastai_rank": 2,
-      "is_three_way": false
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -39,7 +39,7 @@
       "major_fluctuation": true
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 44,
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 28.7,
-      "avg_temp_c": 17.2,
-      "total_precip_mm": 1.0,
+      "max_wind_kmh": 29.0,
+      "avg_temp_c": 17.3,
+      "total_precip_mm": 1.1,
       "is_wet": false,
       "is_hot": false
     },
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,15 +203,16 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 2, prob 0.071)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
+        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
