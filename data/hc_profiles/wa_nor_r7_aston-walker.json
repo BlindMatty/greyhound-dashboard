@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 19,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1895,
-      "ens_prob": 0.1967,
-      "fastai_prob": 0.5162,
-      "fastai_rank": 3,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.216,
+      "ens_prob": 0.2378,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 212591
+      "races_with_same_dogs": 212659
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "ASTON GENESIS",
-      "total_offspring_runs_in_state": 1594,
-      "sire_win_rate": 0.15056461731493098
+      "total_offspring_runs_in_state": 1597,
+      "sire_win_rate": 0.15028177833437695
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 7,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,7 +203,8 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "2-Way Model Alignment"
       ]
     }
   }

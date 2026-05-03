@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1424,
-      "ens_prob": 0.172,
-      "fastai_prob": 0.1245,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1518,
+      "ens_prob": 0.2799,
+      "fastai_prob": 0.3085,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 777498
+      "races_with_same_dogs": 777719
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "CAROLINE",
-      "total_offspring_runs_in_state": 37689,
-      "sire_win_rate": 0.14800074292233809
+      "total_offspring_runs_in_state": 37714,
+      "sire_win_rate": 0.1480882430927507
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -183,18 +183,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -9,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 3, prob 0.124)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field"
+        "Strong Head-to-Head Experience over field",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.308)"
       ]
     }
   }

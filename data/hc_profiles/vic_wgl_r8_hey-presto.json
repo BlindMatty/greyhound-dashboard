@@ -1,19 +1,19 @@
 {
   "dog": "HEY PRESTO",
-  "date": "2026-04-28",
+  "date": "2026-05-05",
   "track": "WGL",
   "race": 8,
   "distance": 0,
   "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 31,
+    "history_length": 32,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.312,
-      "ens_prob": 0.2144,
-      "fastai_prob": 0.0428,
-      "fastai_rank": 5,
+      "ml_prob": 0.3626,
+      "ens_prob": 0.1401,
+      "fastai_prob": 0.0774,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 480.96774193548384,
+      "avg_dist": 480.3125,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.0,
-      "fluctuation": -0.6230769230769262,
+      "last_weight": 30.3,
+      "fluctuation": -0.31111111111111,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 31,
-      "last_3_avg_place": 4.0,
-      "last_5_avg_place": 4.6,
+      "total_starts": 32,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        2.0,
         4.0,
         8.0,
         6.0,
@@ -55,7 +54,8 @@
         3.0,
         4.0,
         4.0,
-        4.0
+        4.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775825
+      "races_with_same_dogs": 777719
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 20.219045454545455
+      "avg_run_home": 20.18463043478261
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.2825066827247982
+      "split_stdev": 1.2531447701564076
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 9
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,25 +111,25 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 19440.0
+      "career_prize": 19515.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.2666666666666666
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -350
+      "dist_diff_from_last": -460
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.4,
-      "avg_temp_c": 14.9,
-      "total_precip_mm": 0.0,
-      "is_wet": false,
+      "max_wind_kmh": 31.6,
+      "avg_temp_c": 12.5,
+      "total_precip_mm": 3.4,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2692307692307692,
-      "place_rate": 0.46153846153846156
+      "win_rate": 0.25925925925925924,
+      "place_rate": 0.48148148148148145
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "PARTY LIGHTS",
-      "total_offspring_runs_in_state": 62464,
-      "sire_win_rate": 0.13089139344262296
+      "total_offspring_runs_in_state": 62494,
+      "sire_win_rate": 0.13095657183089576
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 184,
+      "total_litter_runs": 185,
       "litter_wins": 47
     },
     "35_Injury_History": {
@@ -180,13 +180,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 31
+      "total_starts": 32
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.044584915706291
+      "ewma_places": 3.0222924502364727
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -200,7 +200,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

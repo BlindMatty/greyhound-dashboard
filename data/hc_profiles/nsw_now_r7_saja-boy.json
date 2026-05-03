@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1932,
-      "ens_prob": 0.2889,
-      "fastai_prob": 0.6624,
+      "ml_prob": 0.279,
+      "ens_prob": 0.3197,
+      "fastai_prob": 0.7,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703353
+      "races_with_same_dogs": 703603
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "FOREVER THANKFUL",
-      "total_offspring_runs_in_state": 24135,
-      "sire_win_rate": 0.13598508390304537
+      "total_offspring_runs_in_state": 24159,
+      "sire_win_rate": 0.13597417111635415
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -205,7 +205,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.662)"
+        "FastAI Strong Conviction (Rank 1, prob 0.700)"
       ]
     }
   }

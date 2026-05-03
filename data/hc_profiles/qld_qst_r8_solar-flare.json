@@ -9,12 +9,12 @@
     "history_length": 27,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1937,
-      "ens_prob": 0.163,
-      "fastai_prob": 0.1206,
-      "fastai_rank": 2,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2282,
+      "ens_prob": 0.1521,
+      "fastai_prob": 0.1051,
+      "fastai_rank": 5,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 400639
+      "races_with_same_dogs": 400720
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON FASTNET",
       "dam": "BIMINI TWIST",
-      "total_offspring_runs_in_state": 487,
-      "sire_win_rate": 0.10472279260780287
+      "total_offspring_runs_in_state": 488,
+      "sire_win_rate": 0.10450819672131148
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 286,
+      "total_litter_runs": 287,
       "litter_wins": 26
     },
     "35_Injury_History": {
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 2, prob 0.121)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -209,8 +209,7 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

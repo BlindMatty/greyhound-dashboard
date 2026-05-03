@@ -1,18 +1,18 @@
 {
   "dog": "RIPSLINGER FERGI",
-  "date": "2026-04-27",
+  "date": "2026-05-04",
   "track": "CCH",
   "race": 8,
   "distance": 0,
   "grade": "Class 1",
   "steps": {
-    "history_length": 12,
+    "history_length": 13,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2247,
-      "ens_prob": 0.1812,
-      "fastai_prob": 0.6136,
+      "ml_prob": 0.1846,
+      "ens_prob": 0.1779,
+      "fastai_prob": 0.1237,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 351.4166666666667,
+      "avg_dist": 347.0769230769231,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,17 +34,17 @@
       "current_vs_historic_grade": "Class 1 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.1,
-      "fluctuation": -0.27777777777777857,
+      "last_weight": 29.2,
+      "fluctuation": -0.1600000000000037,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 12,
-      "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 3.4,
+      "total_starts": 13,
+      "last_3_avg_place": 5.333333333333333,
+      "last_5_avg_place": 4.4,
       "last_10_places": [
         4.0,
         3.0,
@@ -54,7 +54,8 @@
         1.0,
         5.0,
         5.0,
-        4.0
+        4.0,
+        7.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -67,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276190
+      "races_with_same_dogs": 277013
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -98,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -110,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 4770.0
+      "career_prize": 4920.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -123,8 +124,8 @@
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.1111111111111111,
-      "place_rate": 0.3333333333333333
+      "win_rate": 0.1,
+      "place_rate": 0.3
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -135,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "RIPSLINGER ROXY",
-      "total_offspring_runs_in_state": 1274,
-      "sire_win_rate": 0.1695447409733124
+      "total_offspring_runs_in_state": 1313,
+      "sire_win_rate": 0.16984006092916984
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 139,
-      "litter_wins": 23
+      "total_litter_runs": 145,
+      "litter_wins": 26
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -166,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -175,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 12
+      "total_starts": 13
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.136986301369863
+      "ewma_places": 5.56989247311828
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -190,18 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Lukewarm (Rank 3, prob 0.124)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
