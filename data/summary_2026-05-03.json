@@ -1,12 +1,12 @@
 {
   "date": "2026-05-03",
-  "totalPredictions": 822,
-  "totalHighConfidence": 44,
+  "totalPredictions": 820,
+  "totalHighConfidence": 47,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 183,
+      "totalPredictions": 181,
       "highConfidenceCount": 6,
       "fastEnsCount": 6,
       "eloEnsCount": 0,
@@ -27,7 +27,7 @@
           "ensemble_odds": 2.4234338334031538,
           "fastai_prob": 0.4131805914056742,
           "fastai_rank": 1,
-          "elo_prob": 0.29882074474574105,
+          "elo_prob": 0.298820744745741,
           "elo_rating": 1534,
           "tier": "green"
         },
@@ -47,7 +47,7 @@
           "ensemble_odds": 3.7057011429605415,
           "fastai_prob": 0.2393083817461287,
           "fastai_rank": 1,
-          "elo_prob": 0.14710186695002425,
+          "elo_prob": 0.1471018669500242,
           "elo_rating": 1410,
           "tier": "green"
         },
@@ -67,7 +67,7 @@
           "ensemble_odds": 5.573105792531138,
           "fastai_prob": 0.1288100741923747,
           "fastai_rank": 5,
-          "elo_prob": 0.10122117632823921,
+          "elo_prob": 0.1012211763282392,
           "elo_rating": 1389,
           "tier": "green"
         }
@@ -377,8 +377,8 @@
       "code": "nz",
       "name": "New Zealand",
       "totalPredictions": 79,
-      "highConfidenceCount": 0,
-      "fastEnsCount": 0,
+      "highConfidenceCount": 3,
+      "fastEnsCount": 3,
       "eloEnsCount": 0,
       "topPicks": [
         {
@@ -393,8 +393,10 @@
           "implied_odds": 3.0943154637965886,
           "grade": "Class 5",
           "distanceInMetres": 318,
-          "ensemble_prob": 0.2678381236731247,
-          "ensemble_odds": 3.733598437317389,
+          "ensemble_prob": 0.24375030336908404,
+          "ensemble_odds": 4.102558996555631,
+          "fastai_prob": 0.2196624830650434,
+          "fastai_rank": 2,
           "elo_prob": 0.16572174673228943,
           "elo_rating": 1611,
           "tier": "yellow"
@@ -411,8 +413,10 @@
           "implied_odds": 3.2574371549457752,
           "grade": "Class 3",
           "distanceInMetres": 318,
-          "ensemble_prob": 0.3065169297670572,
-          "ensemble_odds": 3.2624625359518222,
+          "ensemble_prob": 0.25163950892995224,
+          "ensemble_odds": 3.973938767613656,
+          "fastai_prob": 0.1967620880928473,
+          "fastai_rank": 1,
           "elo_prob": 0.13902535989093348,
           "elo_rating": 1291,
           "tier": "yellow"
@@ -429,8 +433,10 @@
           "implied_odds": 3.2805855253820844,
           "grade": "Class 1",
           "distanceInMetres": 318,
-          "ensemble_prob": 0.3545983578556113,
-          "ensemble_odds": 2.820092021991792,
+          "ensemble_prob": 0.23690702656130164,
+          "ensemble_odds": 4.221065176980902,
+          "fastai_prob": 0.119215695266992,
+          "fastai_rank": 4,
           "elo_prob": 0.1508000453620553,
           "elo_rating": 1323,
           "tier": "yellow"

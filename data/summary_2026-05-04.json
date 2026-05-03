@@ -1,7 +1,7 @@
 {
   "date": "2026-05-04",
   "totalPredictions": 1013,
-  "totalHighConfidence": 53,
+  "totalHighConfidence": 60,
   "states": [
     {
       "code": "vic",
@@ -499,8 +499,8 @@
       "code": "nz",
       "name": "New Zealand",
       "totalPredictions": 86,
-      "highConfidenceCount": 0,
-      "fastEnsCount": 0,
+      "highConfidenceCount": 7,
+      "fastEnsCount": 7,
       "eloEnsCount": 0,
       "topPicks": [
         {
@@ -515,10 +515,10 @@
           "implied_odds": 2.0237941572198497,
           "grade": "Class 1",
           "distanceInMetres": 295,
-          "ensemble_prob": 0.4566086628591996,
-          "ensemble_odds": 2.190059193660899,
-          "elo_prob": 0.1588637633706888,
-          "elo_rating": 1263,
+          "ensemble_prob": 0.3382894053760735,
+          "ensemble_odds": 2.9560488271523266,
+          "fastai_prob": 0.2199701478929474,
+          "fastai_rank": 1,
           "tier": "green"
         },
         {
@@ -533,10 +533,10 @@
           "implied_odds": 2.039687443426234,
           "grade": "Class 1",
           "distanceInMetres": 295,
-          "ensemble_prob": 0.4806641671770043,
-          "ensemble_odds": 2.080454646480337,
-          "elo_prob": 0.10390811713336925,
-          "elo_rating": 1200,
+          "ensemble_prob": 0.2793923862781179,
+          "ensemble_odds": 3.5791956012880095,
+          "fastai_prob": 0.0781206053792315,
+          "fastai_rank": 7,
           "tier": "green"
         },
         {
@@ -551,10 +551,10 @@
           "implied_odds": 2.052720908359888,
           "grade": "Class 1 final",
           "distanceInMetres": 525,
-          "ensemble_prob": 0.2752103902781617,
-          "ensemble_odds": 3.633583742929459,
-          "elo_prob": 0.16595440337986217,
-          "elo_rating": 1400,
+          "ensemble_prob": 0.18334093215991948,
+          "ensemble_odds": 5.4543193831247025,
+          "fastai_prob": 0.0914714740416773,
+          "fastai_rank": 5,
           "tier": "green"
         }
       ],
