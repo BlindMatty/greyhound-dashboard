@@ -139,6 +139,10 @@ main {
   justify-content: space-between;
   align-items: flex-start;
 }
+.hc-card.hc-card-new {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(91, 141, 239, 0.4);
+}
 .hc-card .hc-left { display: flex; flex-direction: column; gap: 2px; }
 .hc-card .hc-right { display: flex; flex-direction: column; align-items: flex-end; }
 .hc-card .hc-dog { font-weight: 700; font-size: 1rem; }

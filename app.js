@@ -123,8 +123,8 @@ async function loadHighConfidencePicks(states) {
   eloHC.sort(sorter);
   tsHC.sort(sorter);
   
-  renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks', {useNormOdds: false});
-  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true});
+  renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks', {useNormOdds: false, newFlag: 'isNewEloAddition'});
+  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
@@ -159,12 +159,13 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const showMlGap = p.mlGapToSecondPct !== undefined && p.mlGapToSecondPct !== null && p.mlGapToSecondPct !== '';
     const mlSpecialistSr = Number(p.mlSpecialistSr || 0);
     const showMlSpecialistSr = opts.useNormOdds && mlSpecialistSr > 0;
+    const showNewAddition = opts.newFlag ? Boolean(p[opts.newFlag]) : false;
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
-    <div class="hc-card" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
+    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
         <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
