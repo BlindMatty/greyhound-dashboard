@@ -121,8 +121,8 @@
       "status": "success",
       "max_wind_kmh": 31.4,
       "avg_temp_c": 12.7,
-      "total_precip_mm": 1.6,
-      "is_wet": false,
+      "total_precip_mm": 2.3,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -190,14 +190,15 @@
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": false
+      "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": 8,
-      "decision": "PASS / CAUTION",
+      "final_score": 7,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "Heavy dog penalty on assumed wet track"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

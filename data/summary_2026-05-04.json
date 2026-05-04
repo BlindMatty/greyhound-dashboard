@@ -1,6 +1,6 @@
 {
   "date": "2026-05-04",
-  "totalPredictions": 1005,
+  "totalPredictions": 1002,
   "totalHighConfidence": 37,
   "states": [
     {
@@ -88,7 +88,7 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 131,
+      "totalPredictions": 128,
       "highConfidenceCount": 6,
       "fastEnsCount": 6,
       "eloEnsCount": 2,
@@ -114,6 +114,26 @@
           "tier": "yellow"
         },
         {
+          "track": "NOW",
+          "raceNumber": 3,
+          "raceId": 1293944816,
+          "raceStartTime": "6:51PM",
+          "dog": "LOCO KADE",
+          "box": 1,
+          "rug": 1,
+          "probability": 0.3584814235859576,
+          "implied_odds": 2.7895448249362844,
+          "grade": "Mixed Maiden and Grade Five",
+          "distanceInMetres": 520,
+          "ensemble_prob": 0.36287225522385513,
+          "ensemble_odds": 2.755790737936418,
+          "fastai_prob": 0.3672630868617528,
+          "fastai_rank": 1,
+          "elo_prob": 0.1051534589134055,
+          "elo_rating": 1200,
+          "tier": "yellow"
+        },
+        {
           "track": "MAT",
           "raceNumber": 8,
           "raceId": 1293913669,
@@ -129,28 +149,8 @@
           "ensemble_odds": 4.7123090581436955,
           "fastai_prob": 0.1559877988440706,
           "fastai_rank": 1,
-          "elo_prob": 0.31583798387276324,
+          "elo_prob": 0.3158379838727632,
           "elo_rating": 1491,
-          "tier": "yellow"
-        },
-        {
-          "track": "NOW",
-          "raceNumber": 5,
-          "raceId": 1293944818,
-          "raceStartTime": "7:31PM",
-          "dog": "DARK CINNAMON",
-          "box": 8,
-          "rug": 8,
-          "probability": 0.3298803805423997,
-          "implied_odds": 3.031401862565359,
-          "grade": "Grade 5",
-          "distanceInMetres": 365,
-          "ensemble_prob": 0.20854831212898373,
-          "ensemble_odds": 4.795051994386395,
-          "fastai_prob": 0.1442536500688272,
-          "fastai_rank": 3,
-          "elo_prob": 0.06421157461196657,
-          "elo_rating": 1139,
           "tier": "yellow"
         }
       ],
