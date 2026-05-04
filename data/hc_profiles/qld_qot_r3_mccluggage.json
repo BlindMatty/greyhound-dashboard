@@ -9,12 +9,12 @@
     "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.202,
-      "ens_prob": 0.2206,
-      "fastai_prob": 0.1732,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2085,
+      "ens_prob": 0.2629,
+      "fastai_prob": 0.165,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 400720
+      "races_with_same_dogs": 400932
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "BLACK MAGIC ROSE",
-      "total_offspring_runs_in_state": 54607,
-      "sire_win_rate": 0.1321076052520739
+      "total_offspring_runs_in_state": 54632,
+      "sire_win_rate": 0.132120369014497
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -185,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -198,7 +198,8 @@
         "Optimal Racing Cadence (6-10 days)",
         "Group/Feature Race Caliber",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile"
+        "Proven Track Specialist Profile",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

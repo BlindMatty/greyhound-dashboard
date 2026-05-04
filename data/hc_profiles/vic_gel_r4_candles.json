@@ -9,12 +9,12 @@
     "history_length": 66,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1981,
-      "ens_prob": 0.1858,
-      "fastai_prob": 0.1316,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2031,
+      "ens_prob": 0.2651,
+      "fastai_prob": 0.1142,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 777719
+      "races_with_same_dogs": 778125
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "BLACK ROBIN",
-      "total_offspring_runs_in_state": 4792,
-      "sire_win_rate": 0.1371035058430718
+      "total_offspring_runs_in_state": 4802,
+      "sire_win_rate": 0.13702623906705538
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,21 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.132)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

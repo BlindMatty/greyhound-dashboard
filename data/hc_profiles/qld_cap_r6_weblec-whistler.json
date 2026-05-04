@@ -1,0 +1,214 @@
+{
+  "dog": "WEBLEC WHISTLER",
+  "date": "2026-05-06",
+  "track": "CAP",
+  "race": 6,
+  "distance": 0,
+  "grade": "Masters Grade 5",
+  "steps": {
+    "history_length": 61,
+    "01_Shortlist": {
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.1024,
+      "ens_prob": 0.1362,
+      "fastai_prob": 0.0741,
+      "fastai_rank": 5,
+      "is_three_way": false
+    },
+    "02_TDG_Medians": {
+      "status": "calculated",
+      "td_runs": 0
+    },
+    "03_Speed_Map": {
+      "own_box": 4,
+      "has_inside_pressure": true,
+      "has_outside_pressure": true
+    },
+    "04_Distance_Stamina": {
+      "avg_dist": 470.0163934426229,
+      "is_stepping_up": false,
+      "is_dropping_down": true
+    },
+    "05_Class_Analysis": {
+      "current_vs_historic_grade": "Masters Grade 5 vs Field"
+    },
+    "06_Geometry_Weight": {
+      "last_weight": 32.9,
+      "fluctuation": 0.08269230769230518,
+      "major_fluctuation": false
+    },
+    "07_Race_Pace": {
+      "field_size": 8
+    },
+    "08_Form_Trajectory": {
+      "total_starts": 61,
+      "last_3_avg_place": 6.0,
+      "last_5_avg_place": 5.4,
+      "last_10_places": [
+        8.0,
+        2.0,
+        4.0,
+        4.0,
+        2.0,
+        7.0,
+        2.0,
+        8.0,
+        5.0,
+        5.0
+      ]
+    },
+    "09_Pattern_Recognition": {
+      "consecutive_wins": false
+    },
+    "10_Forgive_Runs": {
+      "abnormal_runs": 0
+    },
+    "11_Surface_Bias": {
+      "track_type": "Sand/Loam assumed"
+    },
+    "12_Head_To_Head": {
+      "races_with_same_dogs": 400932
+    },
+    "13_Track_Topography": {
+      "distance_to_first_turn": "Map inferred"
+    },
+    "14_Biological_Sex_Flags": {
+      "is_bitch": false
+    },
+    "15_Run_Home": {
+      "avg_run_home": 22.100909090909088
+    },
+    "16_Field_Changes": {
+      "scratchings_in_race": 0
+    },
+    "17_Speed_Variance": {
+      "split_stdev": 1.7079873762350926
+    },
+    "18_Pedigree": {
+      "bloodline_check": true
+    },
+    "19_Lure_Mechanics": {
+      "lure_type": "Bramich baseline"
+    },
+    "20_Kennel_Form": {
+      "trainer": "Gary Keep"
+    },
+    "21_Size_Bumping": {
+      "is_heavy": false,
+      "is_light": false
+    },
+    "22_Quick_Backup": {
+      "days_since_last_run": 6
+    },
+    "23_Live_Track_Bias": {
+      "inside_bias_assumed": false
+    },
+    "24_Group_Feature_Races": {
+      "has_group_experience": false
+    },
+    "25_Public_Trials": {
+      "trials_on_record": 0
+    },
+    "26_Earnings_Class": {
+      "career_prize": 52410.0
+    },
+    "27_Acceleration_Profile": {
+      "avg_1st_split_pos": 3.58974358974359
+    },
+    "28_Distance_Switch": {
+      "dist_diff_from_last": -520
+    },
+    "29_Live_Weather": {
+      "status": "error",
+      "message": "Coordinates not mapped for track: CAP"
+    },
+    "30_Non_Chaser": {
+      "win_rate": 0.1346153846153846,
+      "place_rate": 0.4807692307692308
+    },
+    "31_Track_Archetypes": {
+      "track_specialist": false
+    },
+    "32_Trainer_Profile": {
+      "trainer_lookup": "Gary Keep"
+    },
+    "33_Sire_Dam_Profile": {
+      "sire": "KINLOCH BRAE",
+      "dam": "WEBLEC BELLE",
+      "total_offspring_runs_in_state": 5703,
+      "sire_win_rate": 0.08486761353673505
+    },
+    "34_Sibling_Profile": {
+      "litter_size_racing": 2,
+      "total_litter_runs": 138,
+      "litter_wins": 15
+    },
+    "35_Injury_History": {
+      "long_spells_count": 0
+    },
+    "36_Track_Compaction": {
+      "time_of_day": "Standard"
+    },
+    "37_Aggressor_Map": {
+      "wide_runner": false
+    },
+    "38_Course_Distance": {
+      "cd_wins": 0
+    },
+    "39_NLP_Stewards": {
+      "status": "not_found",
+      "message": "Could not locate stewards div on page"
+    },
+    "40_Travel_Intent": {
+      "home_state": "QLD"
+    },
+    "41_Kennel_Mates": {
+      "mates_in_race": -1
+    },
+    "42_Vacant_Box": {
+      "has_adjacent_vacant": false
+    },
+    "43_Calendar_Intent": {
+      "is_heat": false
+    },
+    "44_Second_Up": {
+      "is_second_up": false
+    },
+    "45_Experience_Disparity": {
+      "total_starts": 61
+    },
+    "46_Trial_Dropoff": {
+      "trial_count": 0
+    },
+    "47_Time_Decay": {
+      "ewma_places": 5.187232556131986
+    },
+    "48_Track_Renovations": {
+      "renovation_check": true
+    },
+    "49_Weight_Math": {
+      "weight_penalty_if_wet": false
+    },
+    "50_Final_Probability": {
+      "final_score": -5,
+      "decision": "LAY / FADE - SEVERE RISK",
+      "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
+        "Dropping distance (Speed shock risk)",
+        "Poor Recent Form (>4.5 avg)",
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)",
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+      ],
+      "green_flags": [
+        "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
+        "High Earnings Class / Classy Animal",
+        "From an active winning litter (10+ wins)",
+        "Veteran Dog (>50 starts) - Racing sense"
+      ]
+    }
+  }
+}

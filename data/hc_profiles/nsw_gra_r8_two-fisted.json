@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1362,
-      "ens_prob": 0.2196,
-      "fastai_prob": 0.5963,
-      "fastai_rank": 2,
+      "ml_prob": 0.1086,
+      "ens_prob": 0.1334,
+      "fastai_prob": 0.1113,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703603
+      "races_with_same_dogs": 703737
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "PIRATE'S CUT",
-      "total_offspring_runs_in_state": 24766,
-      "sire_win_rate": 0.12032625373495921
+      "total_offspring_runs_in_state": 24783,
+      "sire_win_rate": 0.12032441593027479
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,7 +199,8 @@
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

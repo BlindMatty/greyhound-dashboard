@@ -9,12 +9,12 @@
     "history_length": 19,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2072,
-      "ens_prob": 0.1899,
-      "fastai_prob": 0.2304,
-      "fastai_rank": 4,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2002,
+      "ens_prob": 0.2501,
+      "fastai_prob": 0.2825,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 400720
+      "races_with_same_dogs": 400932
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "WOLF STEELE",
-      "total_offspring_runs_in_state": 5880,
-      "sire_win_rate": 0.1510204081632653
+      "total_offspring_runs_in_state": 5891,
+      "sire_win_rate": 0.15107791546426752
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,12 +191,11 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 13,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -207,7 +206,9 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.282)"
       ]
     }
   }

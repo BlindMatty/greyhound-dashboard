@@ -9,12 +9,12 @@
     "history_length": 55,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3306,
-      "ens_prob": 0.2129,
-      "fastai_prob": 0.5622,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2713,
+      "ens_prob": 0.1537,
+      "fastai_prob": 0.1311,
+      "fastai_rank": 5,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703603
+      "races_with_same_dogs": 703737
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HARD STYLE RICO",
       "dam": "EL GRAND PARKING",
-      "total_offspring_runs_in_state": 4510,
-      "sire_win_rate": 0.12771618625277162
+      "total_offspring_runs_in_state": 4512,
+      "sire_win_rate": 0.12788120567375885
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,7 +199,8 @@
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -208,9 +209,7 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.562)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

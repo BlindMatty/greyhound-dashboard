@@ -1,52 +1,51 @@
 {
   "dog": "PRINCE TOMMY",
-  "date": "2026-04-29",
+  "date": "2026-05-06",
   "track": "RIC",
   "race": 12,
   "distance": 0,
-  "grade": "Non Graded",
+  "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 15,
+    "history_length": 16,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2966,
-      "ens_prob": 0.2987,
-      "fastai_prob": 0.3009,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2756,
+      "ens_prob": 0.2535,
+      "fastai_prob": 0.6324,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "own_box": 5,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 381.8,
+      "avg_dist": 383.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Non Graded vs Field"
+      "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 31.5,
-      "fluctuation": -0.31333333333333613,
+      "fluctuation": -0.2937499999999993,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 15,
-      "last_3_avg_place": 3.0,
+      "total_starts": 16,
+      "last_3_avg_place": 2.6666666666666665,
       "last_5_avg_place": 3.0,
       "last_10_places": [
-        4.0,
         3.0,
         1.0,
         2.0,
@@ -55,6 +54,7 @@
         5.0,
         2.0,
         6.0,
+        1.0,
         1.0
       ]
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701951
+      "races_with_same_dogs": 703737
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.766
+      "avg_run_home": 14.874545454545455
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.9108043681479623
+      "split_stdev": 1.8284091445844388
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 10
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 12955.0
+      "career_prize": 14655.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 1.5
@@ -121,15 +121,15 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 10.3,
-      "avg_temp_c": 15.7,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 6.9,
+      "avg_temp_c": 15.0,
+      "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.4666666666666667,
-      "place_rate": 0.8
+      "win_rate": 0.5,
+      "place_rate": 0.8125
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -140,13 +140,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "PRINCESS KIWI",
-      "total_offspring_runs_in_state": 8851,
-      "sire_win_rate": 0.14710202237035364
+      "total_offspring_runs_in_state": 8988,
+      "sire_win_rate": 0.14675122385402758
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 206,
-      "litter_wins": 60
+      "total_litter_runs": 212,
+      "litter_wins": 64
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -180,13 +180,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 15
+      "total_starts": 16
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.640003662221137
+      "ewma_places": 1.8199893186846723
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,17 +203,13 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.301)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

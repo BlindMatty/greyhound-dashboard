@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.255,
-      "ens_prob": 0.3129,
-      "fastai_prob": 0.459,
+      "ml_prob": 0.2889,
+      "ens_prob": 0.2993,
+      "fastai_prob": 0.3693,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 400720
+      "races_with_same_dogs": 400932
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "LAVISH DIAMOND",
-      "total_offspring_runs_in_state": 7753,
-      "sire_win_rate": 0.13968786276280148
+      "total_offspring_runs_in_state": 7761,
+      "sire_win_rate": 0.13980157196237597
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -208,7 +208,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.459)"
+        "FastAI Strong Conviction (Rank 1, prob 0.369)"
       ]
     }
   }

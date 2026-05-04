@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2577,
-      "ens_prob": 0.1461,
-      "fastai_prob": 0.0858,
+      "ml_prob": 0.2944,
+      "ens_prob": 0.1866,
+      "fastai_prob": 0.0817,
       "fastai_rank": 5,
       "is_three_way": false
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 777719
+      "races_with_same_dogs": 778125
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,10 +112,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 30.0,
+      "max_wind_kmh": 29.1,
       "avg_temp_c": 12.5,
-      "total_precip_mm": 2.3,
-      "is_wet": true,
+      "total_precip_mm": 1.2,
+      "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "STRADA",
-      "total_offspring_runs_in_state": 37795,
-      "sire_win_rate": 0.14832649821404947
+      "total_offspring_runs_in_state": 37830,
+      "sire_win_rate": 0.14832143801215966
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -183,16 +183,15 @@
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": true
+      "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Heavy dog penalty on assumed wet track",
         "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [

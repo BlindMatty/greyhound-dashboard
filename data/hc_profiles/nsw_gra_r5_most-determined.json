@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2533,
-      "ens_prob": 0.1796,
-      "fastai_prob": 0.3978,
-      "fastai_rank": 6,
+      "ml_prob": 0.2403,
+      "ens_prob": 0.2221,
+      "fastai_prob": 0.4469,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703603
+      "races_with_same_dogs": 703737
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "KOORINGA LUCY",
-      "total_offspring_runs_in_state": 4464,
-      "sire_win_rate": 0.16151433691756273
+      "total_offspring_runs_in_state": 4466,
+      "sire_win_rate": 0.1614420062695925
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
