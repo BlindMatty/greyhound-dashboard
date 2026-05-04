@@ -1,36 +1,16 @@
 {
   "date": "2026-05-04",
-  "totalPredictions": 1008,
+  "totalPredictions": 1007,
   "totalHighConfidence": 37,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 368,
+      "totalPredictions": 367,
       "highConfidenceCount": 16,
       "fastEnsCount": 16,
       "eloEnsCount": 5,
       "topPicks": [
-        {
-          "track": "SHP",
-          "raceNumber": 6,
-          "raceId": 1293629103,
-          "raceStartTime": "3:34PM",
-          "dog": "MANAGER",
-          "box": 1,
-          "rug": 1,
-          "probability": 0.4092136757154845,
-          "implied_odds": 2.4437110960467354,
-          "grade": "Mixed 4/5",
-          "distanceInMetres": 450,
-          "ensemble_prob": 0.3741265436047227,
-          "ensemble_odds": 2.672892413259332,
-          "fastai_prob": 0.4557098609633702,
-          "fastai_rank": 1,
-          "elo_prob": 0.2388975652707068,
-          "elo_rating": 1413,
-          "tier": "green"
-        },
         {
           "track": "SAP",
           "raceNumber": 11,
@@ -47,7 +27,7 @@
           "ensemble_odds": 4.379498133433496,
           "fastai_prob": 0.1554735259567368,
           "fastai_rank": 4,
-          "elo_prob": 0.20038198142597505,
+          "elo_prob": 0.200381981425975,
           "elo_rating": 1306,
           "tier": "yellow"
         },
@@ -69,6 +49,26 @@
           "fastai_rank": 4,
           "elo_prob": 0.1446337342635666,
           "elo_rating": 1361,
+          "tier": "yellow"
+        },
+        {
+          "track": "SHP",
+          "raceNumber": 5,
+          "raceId": 1293629094,
+          "raceStartTime": "3:19PM",
+          "dog": "CRIS TESSA",
+          "box": 8,
+          "rug": 8,
+          "probability": 0.3269602194960677,
+          "implied_odds": 3.0584760480686763,
+          "grade": "Grade 5",
+          "distanceInMetres": 450,
+          "ensemble_prob": 0.22597420795354733,
+          "ensemble_odds": 4.425283792589136,
+          "fastai_prob": 0.2266421518073481,
+          "fastai_rank": 2,
+          "elo_prob": 0.1021480149232007,
+          "elo_rating": 1301,
           "tier": "yellow"
         }
       ],
