@@ -9,12 +9,12 @@
     "history_length": 10,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1676,
-      "ens_prob": 0.2401,
-      "fastai_prob": 0.1285,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1459,
+      "ens_prob": 0.2686,
+      "fastai_prob": 0.1632,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778125
+      "races_with_same_dogs": 778402
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 20.7,
-      "avg_temp_c": 13.2,
-      "total_precip_mm": 4.9,
+      "max_wind_kmh": 20.1,
+      "avg_temp_c": 12.9,
+      "total_precip_mm": 8.1,
       "is_wet": true,
       "is_hot": false
     },
@@ -195,14 +195,13 @@
       "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "Heavy dog penalty on assumed wet track",
-        "FastAI Lukewarm (Rank 2, prob 0.129)"
+        "Heavy dog penalty on assumed wet track"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -211,7 +210,8 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Second-Up Bounce Profile (Pinnacle fitness)"
+        "Second-Up Bounce Profile (Pinnacle fitness)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

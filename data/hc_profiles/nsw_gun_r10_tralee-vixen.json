@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2243,
-      "ens_prob": 0.1386,
-      "fastai_prob": 0.0951,
-      "fastai_rank": 6,
+      "ml_prob": 0.2351,
+      "ens_prob": 0.1444,
+      "fastai_prob": 0.1041,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703737
+      "races_with_same_dogs": 703914
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "QUIRKY CASSIE",
-      "total_offspring_runs_in_state": 10384,
-      "sire_win_rate": 0.14339368258859783
+      "total_offspring_runs_in_state": 10395,
+      "sire_win_rate": 0.14324194324194325
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -199,7 +199,7 @@
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

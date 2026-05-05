@@ -9,12 +9,12 @@
     "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2742,
-      "ens_prob": 0.2119,
-      "fastai_prob": 0.1568,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3304,
+      "ens_prob": 0.327,
+      "fastai_prob": 0.1562,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -22,7 +22,7 @@
     },
     "03_Speed_Map": {
       "own_box": 3,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 4,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778125
+      "races_with_same_dogs": 778402
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,12 +128,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "LOCHINVAR MARLOW",
       "dam": "FANCY FRANCENE",
-      "total_offspring_runs_in_state": 1340,
-      "sire_win_rate": 0.13582089552238805
+      "total_offspring_runs_in_state": 1342,
+      "sire_win_rate": 0.13561847988077497
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 12,
-      "total_litter_runs": 129,
+      "total_litter_runs": 131,
       "litter_wins": 15
     },
     "35_Injury_History": {
@@ -159,7 +159,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -183,10 +183,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 13,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
@@ -198,7 +197,9 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Second-Up Bounce Profile (Pinnacle fitness)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "Second-Up Bounce Profile (Pinnacle fitness)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

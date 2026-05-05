@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1905,
-      "ens_prob": 0.1206,
-      "fastai_prob": 0.0287,
+      "ml_prob": 0.1786,
+      "ens_prob": 0.1235,
+      "fastai_prob": 0.0255,
       "fastai_rank": 6,
       "is_three_way": false
     },
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 6,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 379.7169811320755,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 53,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778125
+      "races_with_same_dogs": 778402
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,8 +122,8 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 22.5,
-      "avg_temp_c": 11.1,
-      "total_precip_mm": 2.0,
+      "avg_temp_c": 11.2,
+      "total_precip_mm": 1.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "DREAMING",
-      "total_offspring_runs_in_state": 23459,
-      "sire_win_rate": 0.1285221023914063
+      "total_offspring_runs_in_state": 23484,
+      "sire_win_rate": 0.12842786578095725
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -171,7 +171,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -195,10 +195,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Accident Prone / Frequent Faller",
         "Erratic Box Dog (High split variance > 1.5)",
@@ -208,6 +207,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense"
       ]
     }

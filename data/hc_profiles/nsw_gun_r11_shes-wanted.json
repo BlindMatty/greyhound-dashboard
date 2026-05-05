@@ -9,12 +9,12 @@
     "history_length": 0,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2066,
-      "ens_prob": 0.2818,
-      "fastai_prob": 0.5172,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2099,
+      "ens_prob": 0.17,
+      "fastai_prob": 0.2006,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -57,7 +57,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703737
+      "races_with_same_dogs": 703914
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -171,18 +171,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
-      "decision": "PASS / CAUTION",
+      "final_score": 0,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Inexperienced (< 3 starts)",
-        "Light/Frail Dog (<26kg) - Bump risk"
+        "Light/Frail Dog (<26kg) - Bump risk",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.517)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

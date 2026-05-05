@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1552,
-      "ens_prob": 0.3621,
-      "fastai_prob": 0.4035,
+      "ml_prob": 0.161,
+      "ens_prob": 0.3264,
+      "fastai_prob": 0.2299,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778125
+      "races_with_same_dogs": 778402
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "GOOD ODDS CARLA",
-      "total_offspring_runs_in_state": 99949,
-      "sire_win_rate": 0.13239752273659566
+      "total_offspring_runs_in_state": 99972,
+      "sire_win_rate": 0.1324070739807146
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,8 +203,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.404)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
