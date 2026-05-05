@@ -1,12 +1,12 @@
 {
   "date": "2026-05-05",
-  "totalPredictions": 1002,
+  "totalPredictions": 991,
   "totalHighConfidence": 55,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 252,
+      "totalPredictions": 251,
       "highConfidenceCount": 17,
       "fastEnsCount": 17,
       "eloEnsCount": 4,
@@ -27,7 +27,7 @@
           "ensemble_odds": 3.058595642921994,
           "fastai_prob": 0.3059794803398847,
           "fastai_rank": 1,
-          "elo_prob": 0.29051366571694837,
+          "elo_prob": 0.2905136657169483,
           "elo_rating": 1543,
           "tier": "green"
         },
@@ -67,7 +67,7 @@
           "ensemble_odds": 2.590893717719426,
           "fastai_prob": 0.4165972991862807,
           "fastai_rank": 2,
-          "elo_prob": 0.17199964992525366,
+          "elo_prob": 0.1719996499252536,
           "elo_rating": 1225,
           "tier": "green"
         }
@@ -88,10 +88,10 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 244,
+      "totalPredictions": 234,
       "highConfidenceCount": 13,
       "fastEnsCount": 13,
-      "eloEnsCount": 1,
+      "eloEnsCount": 2,
       "topPicks": [
         {
           "track": "BUL",
@@ -109,7 +109,7 @@
           "ensemble_odds": 7.432930983948118,
           "fastai_prob": 0.0828384304650346,
           "fastai_rank": 6,
-          "elo_prob": 0.07412873039218078,
+          "elo_prob": 0.0741287303921807,
           "elo_rating": 1412,
           "tier": "yellow"
         },
@@ -129,7 +129,7 @@
           "ensemble_odds": 3.906458615939152,
           "fastai_prob": 0.3304084736226955,
           "fastai_rank": 1,
-          "elo_prob": 0.35011892409412176,
+          "elo_prob": 0.3501189240941217,
           "elo_rating": 1682,
           "tier": "yellow"
         },
@@ -149,7 +149,7 @@
           "ensemble_odds": 4.707420566087888,
           "fastai_prob": 0.17869075084573,
           "fastai_rank": 1,
-          "elo_prob": 0.07367737490255172,
+          "elo_prob": 0.0736773749025517,
           "elo_rating": 1319,
           "tier": "yellow"
         }
