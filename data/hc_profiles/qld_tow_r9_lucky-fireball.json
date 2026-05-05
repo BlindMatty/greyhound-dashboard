@@ -1,20 +1,20 @@
 {
-  "dog": "FARMOR JACUZZIS",
+  "dog": "LUCKY FIREBALL",
   "date": "2026-05-05",
   "track": "TOW",
-  "race": 7,
+  "race": 9,
   "distance": 0,
-  "grade": "Free For All",
+  "grade": "Mixed 3/4",
   "steps": {
-    "history_length": 32,
+    "history_length": 33,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3049,
-      "ens_prob": 0.373,
-      "fastai_prob": 0.453,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2803,
+      "ens_prob": 0.2241,
+      "fastai_prob": 0.1772,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -22,40 +22,40 @@
     },
     "03_Speed_Map": {
       "own_box": 5,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 395.90625,
+      "avg_dist": 408.8181818181818,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Free For All vs Field"
+      "current_vs_historic_grade": "Mixed 3/4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 26.1,
-      "fluctuation": 0.17586206896551104,
+      "last_weight": 32.5,
+      "fluctuation": -0.3500000000000014,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 32,
-      "last_3_avg_place": 3.6666666666666665,
-      "last_5_avg_place": 2.6,
+      "total_starts": 33,
+      "last_3_avg_place": 2.6666666666666665,
+      "last_5_avg_place": 2.4,
       "last_10_places": [
+        1.0,
         2.0,
         1.0,
         5.0,
         2.0,
-        4.0,
+        2.0,
+        2.0,
+        2.0,
         1.0,
-        1.0,
-        4.0,
-        6.0,
-        1.0
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.895925925925926
+      "avg_run_home": 17.0948
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.6636576255818667
+      "split_stdev": 2.2455487822208036
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,7 +92,7 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Steven Scott"
+      "trainer": "Heath Ardle"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
@@ -111,10 +111,10 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 38985.0
+      "career_prize": 22075.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 1.6666666666666667
+      "avg_1st_split_pos": 4.0
     },
     "28_Distance_Switch": {
       "dist_diff_from_last": -380
@@ -124,28 +124,28 @@
       "message": "Coordinates not mapped for track: TOW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5517241379310345,
-      "place_rate": 0.7586206896551724
+      "win_rate": 0.2857142857142857,
+      "place_rate": 0.5714285714285714
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Steven Scott"
+      "trainer_lookup": "Heath Ardle"
     },
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
-      "dam": "LAVISH DIAMOND",
-      "total_offspring_runs_in_state": 7761,
-      "sire_win_rate": 0.13980157196237597
+      "dam": "ALLY OOP KEATS",
+      "total_offspring_runs_in_state": 7888,
+      "sire_win_rate": 0.14135395537525355
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 2,
-      "total_litter_runs": 43,
-      "litter_wins": 18
+      "litter_size_racing": 9,
+      "total_litter_runs": 368,
+      "litter_wins": 46
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 32
+      "total_starts": 33
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.698125067536021
+      "ewma_places": 3.2697544256961137
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -199,16 +199,13 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
-        "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.453)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
