@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3837,
-      "ens_prob": 0.2398,
-      "fastai_prob": 0.187,
+      "ml_prob": 0.4275,
+      "ens_prob": 0.2575,
+      "fastai_prob": 0.1755,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,9 +114,9 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 29.5,
-      "avg_temp_c": 5.7,
-      "total_precip_mm": 0.5,
-      "is_wet": false,
+      "avg_temp_c": 5.6,
+      "total_precip_mm": 2.1,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "JANNILA",
-      "total_offspring_runs_in_state": 37661,
-      "sire_win_rate": 0.14784525105546853
+      "total_offspring_runs_in_state": 37696,
+      "sire_win_rate": 0.14781409168081494
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1991,
-      "ens_prob": 0.1923,
-      "fastai_prob": 0.2297,
-      "fastai_rank": 2,
+      "ml_prob": 0.2295,
+      "ens_prob": 0.2078,
+      "fastai_prob": 0.3218,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214571
+      "races_with_same_dogs": 214613
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.281764705882354
+      "avg_run_home": 12.281764705882352
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.475460813436395
+      "split_stdev": 2.4754608134363956
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "PERSEVERANCE",
-      "total_offspring_runs_in_state": 4246,
-      "sire_win_rate": 0.15025906735751296
+      "total_offspring_runs_in_state": 4247,
+      "sire_win_rate": 0.15022368730868849
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

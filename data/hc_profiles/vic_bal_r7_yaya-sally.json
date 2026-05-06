@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2544,
-      "ens_prob": 0.2477,
-      "fastai_prob": 0.2108,
+      "ml_prob": 0.2841,
+      "ens_prob": 0.3652,
+      "fastai_prob": 0.4997,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,9 +122,9 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 29.5,
-      "avg_temp_c": 5.7,
-      "total_precip_mm": 0.5,
-      "is_wet": false,
+      "avg_temp_c": 5.6,
+      "total_precip_mm": 2.1,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "WAYPOINT WHISKY",
-      "total_offspring_runs_in_state": 12264,
-      "sire_win_rate": 0.13282778864970646
+      "total_offspring_runs_in_state": 12293,
+      "sire_win_rate": 0.13292117465224113
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -209,7 +209,8 @@
         "Elite Early Speed (<= 2.0 avg split pos)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.500)"
       ]
     }
   }

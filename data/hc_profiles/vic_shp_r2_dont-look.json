@@ -9,12 +9,12 @@
     "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1665,
-      "ens_prob": 0.2462,
-      "fastai_prob": 0.2158,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.175,
+      "ens_prob": 0.2147,
+      "fastai_prob": 0.2531,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "LOVE THE CITY",
-      "total_offspring_runs_in_state": 11680,
-      "sire_win_rate": 0.12183219178082191
+      "total_offspring_runs_in_state": 11683,
+      "sire_win_rate": 0.12180090730120688
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -184,7 +184,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -195,8 +195,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Benefiting from inside track bias"
       ]
     }
   }

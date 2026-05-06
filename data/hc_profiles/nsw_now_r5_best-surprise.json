@@ -9,12 +9,12 @@
     "history_length": 37,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2288,
-      "ens_prob": 0.2033,
-      "fastai_prob": 0.6573,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.241,
+      "ens_prob": 0.2401,
+      "fastai_prob": 0.5214,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703914
+      "races_with_same_dogs": 704228
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "WOW",
       "dam": "WAYANG ANGEL",
-      "total_offspring_runs_in_state": 6958,
-      "sire_win_rate": 0.12144294337453292
+      "total_offspring_runs_in_state": 6963,
+      "sire_win_rate": 0.12149935372684188
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,9 +203,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.657)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

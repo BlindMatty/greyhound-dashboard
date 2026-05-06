@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.248,
-      "ens_prob": 0.2733,
-      "fastai_prob": 0.1523,
+      "ml_prob": 0.2492,
+      "ens_prob": 0.2641,
+      "fastai_prob": 0.1216,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -115,9 +115,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 28.9,
-      "avg_temp_c": 7.4,
-      "total_precip_mm": 9.6,
+      "max_wind_kmh": 30.0,
+      "avg_temp_c": 7.1,
+      "total_precip_mm": 15.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "TIGER ISLA",
-      "total_offspring_runs_in_state": 37661,
-      "sire_win_rate": 0.14784525105546853
+      "total_offspring_runs_in_state": 37696,
+      "sire_win_rate": 0.14781409168081494
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -189,12 +189,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Lukewarm (Rank 2, prob 0.122)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

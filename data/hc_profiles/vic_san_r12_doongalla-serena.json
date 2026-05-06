@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3666,
-      "ens_prob": 0.358,
-      "fastai_prob": 0.156,
+      "ml_prob": 0.3272,
+      "ens_prob": 0.3629,
+      "fastai_prob": 0.1759,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 20.9,
-      "avg_temp_c": 8.5,
-      "total_precip_mm": 14.2,
+      "max_wind_kmh": 22.0,
+      "avg_temp_c": 8.3,
+      "total_precip_mm": 12.6,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "JOE'S DOLLY",
-      "total_offspring_runs_in_state": 9446,
-      "sire_win_rate": 0.1468346390006352
+      "total_offspring_runs_in_state": 9466,
+      "sire_win_rate": 0.1469469680963448
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 262,
+      "total_litter_runs": 263,
       "litter_wins": 50
     },
     "35_Injury_History": {

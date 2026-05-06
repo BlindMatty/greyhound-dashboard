@@ -9,12 +9,12 @@
     "history_length": 6,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1941,
-      "ens_prob": 0.3215,
-      "fastai_prob": 0.1105,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2142,
+      "ens_prob": 0.3711,
+      "fastai_prob": 0.141,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -117,9 +117,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 28.9,
-      "avg_temp_c": 7.4,
-      "total_precip_mm": 9.6,
+      "max_wind_kmh": 30.0,
+      "avg_temp_c": 7.1,
+      "total_precip_mm": 15.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "BUBBA JO",
-      "total_offspring_runs_in_state": 37661,
-      "sire_win_rate": 0.14784525105546853
+      "total_offspring_runs_in_state": 37696,
+      "sire_win_rate": 0.14781409168081494
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,17 +191,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 2, prob 0.111)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1576,
-      "ens_prob": 0.1613,
-      "fastai_prob": 0.0791,
-      "fastai_rank": 2,
+      "ml_prob": 0.2035,
+      "ens_prob": 0.19,
+      "fastai_prob": 0.0814,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 277228
+      "races_with_same_dogs": 277328
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "OPHELIA ALLEN",
-      "total_offspring_runs_in_state": 1498,
-      "sire_win_rate": 0.15287049399198932
+      "total_offspring_runs_in_state": 1506,
+      "sire_win_rate": 0.15338645418326693
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 383,
-      "litter_wins": 74
+      "total_litter_runs": 384,
+      "litter_wins": 75
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.079)"
+        "FastAI Lukewarm (Rank 3, prob 0.081)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

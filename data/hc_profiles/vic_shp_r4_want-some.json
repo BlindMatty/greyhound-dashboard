@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1744,
-      "ens_prob": 0.5004,
-      "fastai_prob": 0.483,
+      "ml_prob": 0.195,
+      "ens_prob": 0.3887,
+      "fastai_prob": 0.3551,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -22,7 +22,7 @@
     },
     "03_Speed_Map": {
       "own_box": 8,
-      "has_inside_pressure": false,
+      "has_inside_pressure": true,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
       "total_starts": 58,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "SH AVATAR",
       "dam": "ROCKIN' ROSIE",
-      "total_offspring_runs_in_state": 4315,
-      "sire_win_rate": 0.10590961761297799
+      "total_offspring_runs_in_state": 4319,
+      "sire_win_rate": 0.1058115304468627
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 368,
+      "total_litter_runs": 369,
       "litter_wins": 41
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -200,7 +200,6 @@
         "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
-        "Clean Early Run (No adjacent pressure)",
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
@@ -208,7 +207,7 @@
         "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.483)"
+        "FastAI Strong Conviction (Rank 1, prob 0.355)"
       ]
     }
   }

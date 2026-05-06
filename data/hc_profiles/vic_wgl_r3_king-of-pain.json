@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2472,
-      "ens_prob": 0.227,
-      "fastai_prob": 0.1545,
-      "fastai_rank": 2,
+      "ml_prob": 0.2142,
+      "ens_prob": 0.2016,
+      "fastai_prob": 0.0998,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778402
+      "races_with_same_dogs": 778780
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 28.9,
-      "avg_temp_c": 7.4,
-      "total_precip_mm": 9.6,
+      "max_wind_kmh": 30.0,
+      "avg_temp_c": 7.1,
+      "total_precip_mm": 15.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "NORWEGIAN WOOD",
-      "total_offspring_runs_in_state": 99972,
-      "sire_win_rate": 0.1324070739807146
+      "total_offspring_runs_in_state": 100008,
+      "sire_win_rate": 0.13238940884729222
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -195,12 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 3, prob 0.100)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
