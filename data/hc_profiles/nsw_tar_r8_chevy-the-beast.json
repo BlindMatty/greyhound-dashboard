@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1922,
-      "ens_prob": 0.1406,
-      "fastai_prob": 0.1775,
+      "ml_prob": 0.2251,
+      "ens_prob": 0.1663,
+      "fastai_prob": 0.1038,
       "fastai_rank": 4,
       "is_three_way": false
     },
@@ -22,7 +22,7 @@
     },
     "03_Speed_Map": {
       "own_box": 8,
-      "has_inside_pressure": true,
+      "has_inside_pressure": false,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 8,
@@ -186,7 +186,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -194,6 +194,7 @@
         "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",

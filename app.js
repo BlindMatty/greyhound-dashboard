@@ -152,7 +152,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const displayOdds = opts.useNormOdds
       ? (p.implied_odds_norm || p.implied_odds || 0)
       : (p.ensemble_odds || p.implied_odds || 0);
-    const oddsLabel = opts.useNormOdds ? '' : 'ENS implied';
+    const oddsLabel = opts.useNormOdds ? '' : 'ENS Odds';
     const ensProb = p.ensemble_prob || p.probability || 0;
     const fastaiProb = p.fastai_prob || 0;
     const mlGapToSecondPct = Number(p.mlGapToSecondPct || 0);
