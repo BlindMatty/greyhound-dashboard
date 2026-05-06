@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2188,
-      "ens_prob": 0.3723,
-      "fastai_prob": 0.4977,
+      "ml_prob": 0.27,
+      "ens_prob": 0.3882,
+      "fastai_prob": 0.4989,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 10,
@@ -207,7 +207,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.498)"
+        "FastAI Strong Conviction (Rank 1, prob 0.499)"
       ]
     }
   }
