@@ -120,8 +120,12 @@
       "dist_diff_from_last": -600
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      "status": "success",
+      "max_wind_kmh": 25.0,
+      "avg_temp_c": 8.5,
+      "total_precip_mm": 20.1,
+      "is_wet": true,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.14583333333333334,
@@ -188,10 +192,10 @@
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": false
+      "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -200,6 +204,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
+        "Heavy dog penalty on assumed wet track",
         "Wide Runner drawn Inside (Crash risk)",
         "FastAI Lukewarm (Rank 3, prob 0.120)"
       ],
