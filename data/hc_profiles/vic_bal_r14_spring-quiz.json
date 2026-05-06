@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2166,
-      "ens_prob": 0.243,
-      "fastai_prob": 0.1314,
+      "ml_prob": 0.287,
+      "ens_prob": 0.2658,
+      "fastai_prob": 0.2452,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 24,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,11 +203,11 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Heavy dog penalty on assumed wet track",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 2, prob 0.131)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
+        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
