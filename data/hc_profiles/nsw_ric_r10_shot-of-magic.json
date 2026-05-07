@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.5052,
-      "ens_prob": 0.2821,
-      "fastai_prob": 0.6641,
+      "ml_prob": 0.3451,
+      "ens_prob": 0.2215,
+      "fastai_prob": 0.7171,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704228
+      "races_with_same_dogs": 704586
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 11.7,
-      "avg_temp_c": 13.2,
+      "max_wind_kmh": 12.2,
+      "avg_temp_c": 13.5,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -212,7 +212,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.664)"
+        "FastAI Strong Conviction (Rank 1, prob 0.717)"
       ]
     }
   }

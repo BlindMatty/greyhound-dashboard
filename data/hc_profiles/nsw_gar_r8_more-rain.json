@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4365,
-      "ens_prob": 0.2183,
-      "fastai_prob": 0.2852,
-      "fastai_rank": 4,
+      "ml_prob": 0.3683,
+      "ens_prob": 0.2247,
+      "fastai_prob": 0.59,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704228
+      "races_with_same_dogs": 704586
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "SOFT RAIN",
-      "total_offspring_runs_in_state": 8092,
-      "sire_win_rate": 0.10294117647058823
+      "total_offspring_runs_in_state": 8098,
+      "sire_win_rate": 0.10286490491479378
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 275,
+      "total_litter_runs": 276,
       "litter_wins": 39
     },
     "35_Injury_History": {
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

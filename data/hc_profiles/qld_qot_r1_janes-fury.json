@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2331,
-      "ens_prob": 0.3217,
-      "fastai_prob": 0.2322,
-      "fastai_rank": 3,
+      "ml_prob": 0.1955,
+      "ens_prob": 0.2556,
+      "fastai_prob": 0.2259,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401297
+      "races_with_same_dogs": 401469
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "OUT OF RANGE",
       "dam": "BROCKIE MAGIC",
-      "total_offspring_runs_in_state": 3875,
-      "sire_win_rate": 0.1329032258064516
+      "total_offspring_runs_in_state": 3879,
+      "sire_win_rate": 0.13276617684970354
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -185,14 +185,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -6,
+      "final_score": -8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
