@@ -1,12 +1,12 @@
 {
   "date": "2026-05-07",
-  "totalPredictions": 1338,
-  "totalHighConfidence": 64,
+  "totalPredictions": 1329,
+  "totalHighConfidence": 65,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 380,
+      "totalPredictions": 379,
       "highConfidenceCount": 19,
       "fastEnsCount": 19,
       "eloEnsCount": 5,
@@ -67,7 +67,7 @@
           "ensemble_odds": 6.176363505462991,
           "fastai_prob": 0.1194808092413375,
           "fastai_rank": 2,
-          "elo_prob": 0.26981240610668855,
+          "elo_prob": 0.2698124061066885,
           "elo_rating": 1464,
           "tier": "yellow"
         }
@@ -88,9 +88,9 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 324,
-      "highConfidenceCount": 18,
-      "fastEnsCount": 18,
+      "totalPredictions": 316,
+      "highConfidenceCount": 19,
+      "fastEnsCount": 19,
       "eloEnsCount": 2,
       "topPicks": [
         {
@@ -114,23 +114,23 @@
           "tier": "green"
         },
         {
-          "track": "CAS",
-          "raceNumber": 11,
-          "raceId": 1295006888,
-          "raceStartTime": "6:22PM",
-          "dog": "VERSIFICATION",
-          "box": 1,
-          "rug": 1,
-          "probability": 0.4632063604086129,
-          "implied_odds": 2.1588650015899176,
+          "track": "NOW",
+          "raceNumber": 8,
+          "raceId": 1295446282,
+          "raceStartTime": "8:27PM",
+          "dog": "ZIPPING ALADDIN",
+          "box": 7,
+          "rug": 7,
+          "probability": 0.42353763197120536,
+          "implied_odds": 2.361065285617846,
           "grade": "Grade 5",
-          "distanceInMetres": 411,
-          "ensemble_prob": 0.28599641082299015,
-          "ensemble_odds": 3.4965473766694344,
-          "fastai_prob": 0.1860387001655256,
-          "fastai_rank": 1,
-          "elo_prob": 0.17878760252850304,
-          "elo_rating": 1490,
+          "distanceInMetres": 520,
+          "ensemble_prob": 0.34669284750186924,
+          "ensemble_odds": 2.8843975501819616,
+          "fastai_prob": 0.2698480630325331,
+          "fastai_rank": 2,
+          "elo_prob": 0.124904035843823,
+          "elo_rating": 1200,
           "tier": "green"
         },
         {
@@ -149,7 +149,7 @@
           "ensemble_odds": 6.042940340430267,
           "fastai_prob": 0.1319405440467582,
           "fastai_rank": 3,
-          "elo_prob": 0.24741021939365113,
+          "elo_prob": 0.2474102193936511,
           "elo_rating": 1677,
           "tier": "green"
         }
