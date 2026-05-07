@@ -1,7 +1,7 @@
 {
   "date": "2026-05-07",
-  "totalPredictions": 1327,
-  "totalHighConfidence": 65,
+  "totalPredictions": 1320,
+  "totalHighConfidence": 66,
   "states": [
     {
       "code": "vic",
@@ -416,9 +416,9 @@
     {
       "code": "tas",
       "name": "Tasmania",
-      "totalPredictions": 87,
-      "highConfidenceCount": 2,
-      "fastEnsCount": 2,
+      "totalPredictions": 80,
+      "highConfidenceCount": 3,
+      "fastEnsCount": 3,
       "eloEnsCount": 2,
       "topPicks": [
         {
@@ -437,7 +437,7 @@
           "ensemble_odds": 5.686835742185601,
           "fastai_prob": 0.0920485823593874,
           "fastai_rank": 5,
-          "elo_prob": 0.13566834481030574,
+          "elo_prob": 0.1356683448103057,
           "elo_rating": 1438,
           "tier": "green"
         },
@@ -457,29 +457,29 @@
           "ensemble_odds": 5.334624029932413,
           "fastai_prob": 0.1307968359215709,
           "fastai_rank": 3,
-          "elo_prob": 0.16515694452792876,
+          "elo_prob": 0.1651569445279287,
           "elo_rating": 1473,
           "tier": "green"
         },
         {
           "track": "HOB",
-          "raceNumber": 5,
-          "raceId": 1293913701,
-          "raceStartTime": "8:28PM",
-          "dog": "FAST FELIX",
+          "raceNumber": 10,
+          "raceId": 1293913706,
+          "raceStartTime": "10:15PM",
+          "dog": "ARLO'S PET",
           "box": 2,
           "rug": 2,
-          "probability": 0.3730808164512308,
-          "implied_odds": 2.680384399048082,
-          "grade": "Special Event",
-          "distanceInMetres": 461,
-          "ensemble_prob": 0.15366893007739874,
-          "ensemble_odds": 6.507496339672099,
-          "fastai_prob": 0.1242067871115815,
-          "fastai_rank": 3,
-          "elo_prob": 0.17271306373573608,
-          "elo_rating": 1479,
-          "tier": "yellow"
+          "probability": 0.2554957250585675,
+          "implied_odds": 3.913959811933327,
+          "grade": "Grade 4",
+          "distanceInMetres": 340,
+          "ensemble_prob": 0.1927742195255678,
+          "ensemble_odds": 5.187415632967297,
+          "fastai_prob": 0.1918246590669795,
+          "fastai_rank": 2,
+          "elo_prob": 0.1001656662171066,
+          "elo_rating": 1368,
+          "tier": "other"
         }
       ],
       "hasData": true,
