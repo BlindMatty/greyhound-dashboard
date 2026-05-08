@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2243,
-      "ens_prob": 0.1693,
-      "fastai_prob": 0.1456,
+      "ml_prob": 0.2737,
+      "ens_prob": 0.1877,
+      "fastai_prob": 0.1044,
       "fastai_rank": 4,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 42,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -199,6 +199,7 @@
         "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
