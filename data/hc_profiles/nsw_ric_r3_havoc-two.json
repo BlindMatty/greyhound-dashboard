@@ -9,12 +9,12 @@
     "history_length": 13,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1773,
-      "ens_prob": 0.2325,
-      "fastai_prob": 0.3561,
+      "alignment_count": 3,
+      "ml_prob": 0.2842,
+      "ens_prob": 0.2902,
+      "fastai_prob": 0.2978,
       "fastai_rank": 2,
-      "is_three_way": false
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 13,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,7 +203,8 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field"
+        "Strong Head-to-Head Experience over field",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
