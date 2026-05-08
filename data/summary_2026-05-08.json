@@ -1,16 +1,36 @@
 {
   "date": "2026-05-08",
-  "totalPredictions": 1175,
+  "totalPredictions": 1173,
   "totalHighConfidence": 55,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 370,
+      "totalPredictions": 369,
       "highConfidenceCount": 13,
       "fastEnsCount": 13,
       "eloEnsCount": 2,
       "topPicks": [
+        {
+          "track": "BEN",
+          "raceNumber": 1,
+          "raceId": 1295871579,
+          "raceStartTime": "7:12PM",
+          "dog": "CUMULATE",
+          "box": 2,
+          "rug": 2,
+          "probability": 0.5106228069099533,
+          "implied_odds": 1.9583927440521605,
+          "grade": "Maiden",
+          "distanceInMetres": 425,
+          "ensemble_prob": 0.42639869663434127,
+          "ensemble_odds": 2.345222928431114,
+          "fastai_prob": 0.3421745863587292,
+          "fastai_rank": 1,
+          "elo_prob": 0.15462100912087,
+          "elo_rating": 1225,
+          "tier": "green"
+        },
         {
           "track": "BEN",
           "raceNumber": 5,
@@ -47,28 +67,8 @@
           "ensemble_odds": 3.972692110224322,
           "fastai_prob": 0.2420486394367505,
           "fastai_rank": 1,
-          "elo_prob": 0.11460080480601599,
+          "elo_prob": 0.1146008048060159,
           "elo_rating": 1246,
-          "tier": "green"
-        },
-        {
-          "track": "BEN",
-          "raceNumber": 9,
-          "raceId": 1295871573,
-          "raceStartTime": "9:58PM",
-          "dog": "DIAMANTINA PEAR",
-          "box": 7,
-          "rug": 7,
-          "probability": 0.4036978884011059,
-          "implied_odds": 2.4770999025053624,
-          "grade": "Mixed 4/5",
-          "distanceInMetres": 425,
-          "ensemble_prob": 0.22021089845390276,
-          "ensemble_odds": 4.541101312518973,
-          "fastai_prob": 0.1774066051084237,
-          "fastai_rank": 3,
-          "elo_prob": 0.06494731005310064,
-          "elo_rating": 1227,
           "tier": "green"
         }
       ],
@@ -252,7 +252,7 @@
     {
       "code": "wa",
       "name": "Western Australia",
-      "totalPredictions": 69,
+      "totalPredictions": 68,
       "highConfidenceCount": 2,
       "fastEnsCount": 2,
       "eloEnsCount": 0,
@@ -273,7 +273,7 @@
           "ensemble_odds": 6.268913882586757,
           "fastai_prob": 0.1035602638478444,
           "fastai_rank": 5,
-          "elo_prob": 0.054151007493509276,
+          "elo_prob": 0.0541510074935092,
           "elo_rating": 1117,
           "tier": "yellow"
         },
@@ -293,7 +293,7 @@
           "ensemble_odds": 3.1376471339768197,
           "fastai_prob": 0.1592425507174102,
           "fastai_rank": 3,
-          "elo_prob": 0.16085208870400192,
+          "elo_prob": 0.1608520887040019,
           "elo_rating": 1341,
           "tier": "yellow"
         },
@@ -313,7 +313,7 @@
           "ensemble_odds": 7.884416425966513,
           "fastai_prob": 0.075020237214633,
           "fastai_rank": 9,
-          "elo_prob": 0.12668666645040885,
+          "elo_prob": 0.1266866664504088,
           "elo_rating": 1264,
           "tier": "other"
         }
