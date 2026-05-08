@@ -9,12 +9,12 @@
     "history_length": 6,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2064,
-      "ens_prob": 0.3455,
-      "fastai_prob": 0.3422,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2365,
+      "ens_prob": 0.2211,
+      "fastai_prob": 0.2358,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779206
+      "races_with_same_dogs": 779640
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "QUEEN AMAROK",
-      "total_offspring_runs_in_state": 24189,
-      "sire_win_rate": 0.12952168340981438
+      "total_offspring_runs_in_state": 24215,
+      "sire_win_rate": 0.1295890976667355
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 22,
+      "total_litter_runs": 23,
       "litter_wins": 6
     },
     "35_Injury_History": {
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -201,9 +201,7 @@
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.342)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

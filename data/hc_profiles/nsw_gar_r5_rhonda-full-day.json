@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.09,
-      "ens_prob": 0.1949,
-      "fastai_prob": 0.6212,
+      "ml_prob": 0.1239,
+      "ens_prob": 0.1703,
+      "fastai_prob": 0.6231,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704586
+      "races_with_same_dogs": 704948
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "ELLIE BELLES",
-      "total_offspring_runs_in_state": 9308,
-      "sire_win_rate": 0.14235066609368285
+      "total_offspring_runs_in_state": 9339,
+      "sire_win_rate": 0.14219937894849555
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 102,
+      "total_litter_runs": 104,
       "litter_wins": 8
     },
     "35_Injury_History": {
@@ -204,7 +204,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.621)"
+        "FastAI Strong Conviction (Rank 1, prob 0.623)"
       ]
     }
   }

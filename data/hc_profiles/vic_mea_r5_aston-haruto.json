@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1927,
-      "ens_prob": 0.1579,
-      "fastai_prob": 0.0865,
-      "fastai_rank": 5,
+      "ml_prob": 0.1896,
+      "ens_prob": 0.1841,
+      "fastai_prob": 0.1918,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 1,
       "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 424.03225806451616,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 31,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779206
+      "races_with_same_dogs": 779640
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 13.4,
-      "avg_temp_c": 13.2,
-      "total_precip_mm": 1.9,
+      "max_wind_kmh": 13.3,
+      "avg_temp_c": 13.3,
+      "total_precip_mm": 0.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON KIMETTO",
       "dam": "ASTON KOMUNI",
-      "total_offspring_runs_in_state": 6617,
-      "sire_win_rate": 0.12422547982469397
+      "total_offspring_runs_in_state": 6618,
+      "sire_win_rate": 0.1242067089755213
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -195,16 +195,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",

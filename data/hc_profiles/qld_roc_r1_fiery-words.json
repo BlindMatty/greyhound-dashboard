@@ -1,19 +1,19 @@
 {
   "dog": "FIERY WORDS",
-  "date": "2026-05-04",
+  "date": "2026-05-10",
   "track": "ROC",
   "race": 1,
   "distance": 0,
   "grade": "Maiden",
   "steps": {
-    "history_length": 5,
+    "history_length": 6,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1955,
-      "ens_prob": 0.1873,
-      "fastai_prob": 0.1745,
-      "fastai_rank": 4,
+      "ml_prob": 0.2185,
+      "ens_prob": 0.2701,
+      "fastai_prob": 0.3381,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,7 +21,7 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 2,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
@@ -34,22 +34,23 @@
       "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.1,
-      "fluctuation": -0.25999999999999446,
+      "last_weight": 30.3,
+      "fluctuation": -0.04999999999999716,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 5,
+      "total_starts": 6,
       "last_3_avg_place": 2.3333333333333335,
-      "last_5_avg_place": 2.4,
+      "last_5_avg_place": 2.2,
       "last_10_places": [
         3.0,
         2.0,
         2.0,
         3.0,
+        2.0,
         2.0
       ]
     },
@@ -63,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 400720
+      "races_with_same_dogs": 401691
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -72,13 +73,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.132
+      "avg_run_home": 15.081666666666665
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.1401071018899467
+      "split_stdev": 0.13876839217439463
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -94,7 +95,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 8
+      "days_since_last_run": 6
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -106,7 +107,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 1920.0
+      "career_prize": 2400.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -131,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SAY SOME WORDS",
-      "total_offspring_runs_in_state": 5880,
-      "sire_win_rate": 0.1510204081632653
+      "total_offspring_runs_in_state": 5925,
+      "sire_win_rate": 0.15105485232067511
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 13,
+      "total_litter_runs": 14,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -171,13 +172,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 5
+      "total_starts": 6
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.2903225806451615
+      "ewma_places": 2.142857142857143
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -186,14 +187,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

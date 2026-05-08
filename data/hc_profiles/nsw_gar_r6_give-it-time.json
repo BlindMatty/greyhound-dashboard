@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3212,
-      "ens_prob": 0.2458,
-      "fastai_prob": 0.6424,
+      "ml_prob": 0.3297,
+      "ens_prob": 0.2074,
+      "fastai_prob": 0.6489,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704586
+      "races_with_same_dogs": 704948
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,12 +130,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HARD STYLE RICO",
       "dam": "REALLY UNREAL",
-      "total_offspring_runs_in_state": 4798,
-      "sire_win_rate": 0.12817840766986244
+      "total_offspring_runs_in_state": 4809,
+      "sire_win_rate": 0.12871698897899772
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 89,
+      "total_litter_runs": 90,
       "litter_wins": 17
     },
     "35_Injury_History": {
@@ -203,7 +203,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.642)"
+        "FastAI Strong Conviction (Rank 1, prob 0.649)"
       ]
     }
   }

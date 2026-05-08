@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1554,
-      "ens_prob": 0.1301,
-      "fastai_prob": 0.0185,
-      "fastai_rank": 6,
+      "ml_prob": 0.1477,
+      "ens_prob": 0.1203,
+      "fastai_prob": 0.0426,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704586
+      "races_with_same_dogs": 704948
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "IVANA KEEPING",
-      "total_offspring_runs_in_state": 10409,
-      "sire_win_rate": 0.14304928427322508
+      "total_offspring_runs_in_state": 10410,
+      "sire_win_rate": 0.1430355427473583
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -198,7 +198,7 @@
         "Injury Prone (Multiple 60+ day spells)",
         "Wide Runner drawn Inside (Crash risk)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

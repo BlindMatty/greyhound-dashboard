@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1818,
-      "ens_prob": 0.4065,
-      "fastai_prob": 0.5616,
+      "ml_prob": 0.1776,
+      "ens_prob": 0.3625,
+      "fastai_prob": 0.596,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779206
+      "races_with_same_dogs": 779640
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 13.4,
-      "avg_temp_c": 13.2,
-      "total_precip_mm": 1.9,
+      "max_wind_kmh": 13.3,
+      "avg_temp_c": 13.3,
+      "total_precip_mm": 0.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "KNICKS BALE",
-      "total_offspring_runs_in_state": 62994,
-      "sire_win_rate": 0.1306473632409436
+      "total_offspring_runs_in_state": 63004,
+      "sire_win_rate": 0.13062662688083296
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 206,
+      "total_litter_runs": 207,
       "litter_wins": 28
     },
     "35_Injury_History": {
@@ -212,7 +212,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.562)"
+        "FastAI Strong Conviction (Rank 1, prob 0.596)"
       ]
     }
   }

@@ -9,12 +9,12 @@
     "history_length": 41,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.1767,
-      "ens_prob": 0.1847,
-      "fastai_prob": 0.0485,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "ens_prob": 0.3035,
+      "fastai_prob": 0.1718,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.049)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -208,7 +207,8 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

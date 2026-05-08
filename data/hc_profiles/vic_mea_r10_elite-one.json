@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3838,
-      "ens_prob": 0.1784,
-      "fastai_prob": 0.0694,
-      "fastai_rank": 4,
+      "ml_prob": 0.383,
+      "ens_prob": 0.1893,
+      "fastai_prob": 0.0763,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779206
+      "races_with_same_dogs": 779640
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 13.4,
-      "avg_temp_c": 13.2,
-      "total_precip_mm": 1.9,
+      "max_wind_kmh": 13.3,
+      "avg_temp_c": 13.3,
+      "total_precip_mm": 0.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "JUSTIFY",
-      "total_offspring_runs_in_state": 12481,
-      "sire_win_rate": 0.13396362470955853
+      "total_offspring_runs_in_state": 12504,
+      "sire_win_rate": 0.1339571337172105
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -200,7 +200,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

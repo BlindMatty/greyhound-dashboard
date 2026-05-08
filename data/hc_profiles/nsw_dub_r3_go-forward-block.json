@@ -9,12 +9,12 @@
     "history_length": 69,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3443,
-      "ens_prob": 0.2359,
-      "fastai_prob": 0.5974,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.4186,
+      "ens_prob": 0.2081,
+      "fastai_prob": 0.6707,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704586
+      "races_with_same_dogs": 704948
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "GO FORWARD BARBS",
-      "total_offspring_runs_in_state": 101346,
-      "sire_win_rate": 0.13663094744735854
+      "total_offspring_runs_in_state": 101379,
+      "sire_win_rate": 0.13661606447094565
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,7 +205,9 @@
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.671)"
       ]
     }
   }

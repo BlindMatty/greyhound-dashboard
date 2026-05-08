@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1627,
-      "ens_prob": 0.298,
-      "fastai_prob": 0.4075,
+      "ml_prob": 0.1491,
+      "ens_prob": 0.2469,
+      "fastai_prob": 0.7103,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -57,7 +57,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704586
+      "races_with_same_dogs": 704948
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -181,7 +181,7 @@
         "Strong Head-to-Head Experience over field",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.407)"
+        "FastAI Strong Conviction (Rank 1, prob 0.710)"
       ]
     }
   }

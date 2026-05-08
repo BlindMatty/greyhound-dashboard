@@ -1,19 +1,19 @@
 {
   "dog": "STIFLER",
-  "date": "2026-05-01",
+  "date": "2026-05-10",
   "track": "MBR",
   "race": 3,
   "distance": 0,
   "grade": "Open",
   "steps": {
-    "history_length": 6,
+    "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.5919,
-      "ens_prob": 0.2108,
-      "fastai_prob": 0.156,
-      "fastai_rank": 7,
+      "ml_prob": 0.3128,
+      "ens_prob": 0.2491,
+      "fastai_prob": 0.1148,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
-      "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "own_box": 7,
+      "has_inside_pressure": false,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 300.0,
+      "avg_dist": 306.25,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,30 @@
       "current_vs_historic_grade": "Open vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 34.3,
-      "fluctuation": -0.6666666666666714,
+      "last_weight": 34.5,
+      "fluctuation": -0.3499999999999943,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 4
     },
     "08_Form_Trajectory": {
-      "total_starts": 6,
-      "last_3_avg_place": 1.0,
-      "last_5_avg_place": 1.0,
+      "total_starts": 8,
+      "last_3_avg_place": 2.0,
+      "last_5_avg_place": 1.6,
       "last_10_places": [
         2.0,
         1.0,
         1.0,
         1.0,
         1.0,
+        1.0,
+        4.0,
         1.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": true
+      "consecutive_wins": false
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -64,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214213
+      "races_with_same_dogs": 214832
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -73,13 +75,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.218333333333334
+      "avg_run_home": 12.24375
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.16797817318528813
+      "split_stdev": 0.812047676292118
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -95,7 +97,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 9
+      "days_since_last_run": 4
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -107,7 +109,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 34745.0
+      "career_prize": 35325.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -120,8 +122,8 @@
       "message": "Coordinates not mapped for track: MBR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.8333333333333334,
-      "place_rate": 1.0
+      "win_rate": 0.75,
+      "place_rate": 0.875
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -132,13 +134,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "GYPSIES LUCK",
-      "total_offspring_runs_in_state": 15455,
-      "sire_win_rate": 0.15593659010029118
+      "total_offspring_runs_in_state": 15472,
+      "sire_win_rate": 0.15595915201654603
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 7,
-      "litter_wins": 6
+      "total_litter_runs": 9,
+      "litter_wins": 7
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -163,7 +165,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -172,13 +174,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 6
+      "total_starts": 8
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0158730158730158
+      "ewma_places": 1.7568627450980392
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -187,25 +189,25 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.115)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
+        "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
-        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
-        "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Elite Sire Line (>15% state win rate)"
+        "Elite Sire Line (>15% state win rate)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
