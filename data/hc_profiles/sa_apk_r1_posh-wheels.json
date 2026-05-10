@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.28,
-      "ens_prob": 0.2639,
-      "fastai_prob": 0.0964,
-      "fastai_rank": 2,
+      "ml_prob": 0.3055,
+      "ens_prob": 0.1931,
+      "fastai_prob": 0.0751,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214832
+      "races_with_same_dogs": 214960
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KINLOCH BRAE",
       "dam": "SHE'S GOT WHEELS",
-      "total_offspring_runs_in_state": 4170,
-      "sire_win_rate": 0.11151079136690648
+      "total_offspring_runs_in_state": 4171,
+      "sire_win_rate": 0.1114840565811556
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -189,7 +189,7 @@
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 2, prob 0.096)"
+        "FastAI Lukewarm (Rank 3, prob 0.075)"
       ],
       "green_flags": [
         "Small Field Advantage",

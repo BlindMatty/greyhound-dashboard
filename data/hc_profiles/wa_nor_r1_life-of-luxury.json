@@ -8,13 +8,13 @@
   "steps": {
     "history_length": 12,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
       "ml_prob": 0.2562,
-      "ens_prob": 0.2901,
-      "fastai_prob": 0.0862,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "ens_prob": 0.3478,
+      "fastai_prob": null,
+      "fastai_rank": null,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,7 +205,7 @@
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "2-Way Model Alignment"
       ]
     }
   }

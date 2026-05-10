@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2479,
-      "ens_prob": 0.3876,
-      "fastai_prob": 0.5718,
+      "ml_prob": 0.2407,
+      "ens_prob": 0.3375,
+      "fastai_prob": 0.6069,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401792
+      "races_with_same_dogs": 402085
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "CAWBOURNE ROSES",
-      "total_offspring_runs_in_state": 7142,
-      "sire_win_rate": 0.10305236628395407
+      "total_offspring_runs_in_state": 7156,
+      "sire_win_rate": 0.10299049748462828
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -198,7 +198,7 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.572)"
+        "FastAI Strong Conviction (Rank 1, prob 0.607)"
       ]
     }
   }

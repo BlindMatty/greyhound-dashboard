@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1796,
-      "ens_prob": 0.307,
-      "fastai_prob": 0.3408,
+      "ml_prob": 0.2222,
+      "ens_prob": 0.2515,
+      "fastai_prob": 0.3277,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214832
+      "races_with_same_dogs": 214960
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MEPUNGA BLAZER",
       "dam": "SHE'S GRAND",
-      "total_offspring_runs_in_state": 5465,
-      "sire_win_rate": 0.12442817932296432
+      "total_offspring_runs_in_state": 5466,
+      "sire_win_rate": 0.12440541529454811
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -212,7 +212,7 @@
         "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.341)"
+        "FastAI Strong Conviction (Rank 1, prob 0.328)"
       ]
     }
   }

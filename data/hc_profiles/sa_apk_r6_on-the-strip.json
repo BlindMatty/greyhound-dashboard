@@ -1,18 +1,18 @@
 {
   "dog": "ON THE STRIP",
-  "date": "2026-05-05",
+  "date": "2026-05-12",
   "track": "APK",
   "race": 6,
   "distance": 0,
-  "grade": "Restricted Win",
+  "grade": "Restricted Win Final",
   "steps": {
-    "history_length": 28,
+    "history_length": 29,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2631,
-      "ens_prob": 0.2439,
-      "fastai_prob": 0.1548,
+      "ml_prob": 0.2447,
+      "ens_prob": 0.2345,
+      "fastai_prob": 0.222,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -21,32 +21,31 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
-      "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "own_box": 1,
+      "has_inside_pressure": false,
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 351.07142857142856,
+      "avg_dist": 350.7586206896552,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Restricted Win vs Field"
+      "current_vs_historic_grade": "Restricted Win Final vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.8,
-      "fluctuation": -0.1652173913043491,
+      "last_weight": 25.7,
+      "fluctuation": -0.25416666666667,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 28,
+      "total_starts": 29,
       "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.2,
+      "last_5_avg_place": 3.0,
       "last_10_places": [
-        4.0,
         4.0,
         3.0,
         1.0,
@@ -55,6 +54,7 @@
         4.0,
         2.0,
         5.0,
+        2.0,
         2.0
       ]
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214499
+      "races_with_same_dogs": 214960
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.479545454545452
+      "avg_run_home": 14.514782608695654
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.9217916424220178
+      "split_stdev": 1.897838379271004
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -102,7 +102,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 5460.0
+      "career_prize": 5660.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.3333333333333335
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: APK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.17391304347826086,
-      "place_rate": 0.43478260869565216
+      "win_rate": 0.16666666666666666,
+      "place_rate": 0.4583333333333333
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "VEGAS TICKET",
-      "total_offspring_runs_in_state": 2500,
-      "sire_win_rate": 0.166
+      "total_offspring_runs_in_state": 2519,
+      "sire_win_rate": 0.16593886462882096
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 28,
+      "total_litter_runs": 29,
       "litter_wins": 4
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 28
+      "total_starts": 29
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.9745435684375248
+      "ewma_places": 2.487271755175099
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -202,6 +202,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)"
       ]

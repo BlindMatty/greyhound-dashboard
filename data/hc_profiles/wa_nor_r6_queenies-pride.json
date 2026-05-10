@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 72,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
       "ml_prob": 0.1762,
-      "ens_prob": 0.1804,
-      "fastai_prob": 0.0405,
-      "fastai_rank": 5,
+      "ens_prob": 0.2064,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -206,7 +205,8 @@
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "2-Way Model Alignment"
       ]
     }
   }

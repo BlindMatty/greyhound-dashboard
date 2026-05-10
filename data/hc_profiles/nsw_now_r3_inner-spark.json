@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2001,
-      "ens_prob": 0.1555,
-      "fastai_prob": 0.1455,
-      "fastai_rank": 6,
+      "ml_prob": 0.326,
+      "ens_prob": 0.2221,
+      "fastai_prob": 0.1308,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 705341
+      "races_with_same_dogs": 705509
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "ZULU ZEPHYR",
-      "total_offspring_runs_in_state": 2171,
-      "sire_win_rate": 0.13588208198986643
+      "total_offspring_runs_in_state": 2173,
+      "sire_win_rate": 0.13621721122871605
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,7 +195,7 @@
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

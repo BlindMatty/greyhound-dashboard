@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3285,
-      "ens_prob": 0.1661,
-      "fastai_prob": 0.1351,
-      "fastai_rank": 5,
+      "ml_prob": 0.2754,
+      "ens_prob": 0.1863,
+      "fastai_prob": 0.2355,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401792
+      "races_with_same_dogs": 402085
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "ALLY OOP KEATS",
-      "total_offspring_runs_in_state": 7967,
-      "sire_win_rate": 0.14133299861930462
+      "total_offspring_runs_in_state": 7990,
+      "sire_win_rate": 0.14105131414267835
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 372,
+      "total_litter_runs": 373,
       "litter_wins": 47
     },
     "35_Injury_History": {
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

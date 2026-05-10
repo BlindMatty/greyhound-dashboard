@@ -9,12 +9,12 @@
     "history_length": 78,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2143,
-      "ens_prob": 0.1699,
-      "fastai_prob": 0.0813,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2018,
+      "ens_prob": 0.2004,
+      "fastai_prob": 0.1266,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779810
+      "races_with_same_dogs": 780014
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "SNOOKY",
-      "total_offspring_runs_in_state": 12698,
-      "sire_win_rate": 0.13387935107891005
+      "total_offspring_runs_in_state": 12706,
+      "sire_win_rate": 0.13379505745317172
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -191,15 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 2, prob 0.081)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -208,7 +207,8 @@
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

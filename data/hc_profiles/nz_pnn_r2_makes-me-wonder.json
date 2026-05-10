@@ -1,6 +1,6 @@
 {
   "dog": "MAKES ME WONDER",
-  "date": "2026-05-08",
+  "date": "2026-05-12",
   "track": "PNN",
   "race": 2,
   "distance": 0,
@@ -9,19 +9,19 @@
     "history_length": 18,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1829,
-      "ens_prob": 0.1972,
-      "fastai_prob": 0.076,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1536,
+      "ens_prob": 0.252,
+      "fastai_prob": 0.0718,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 7,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 18,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 277521
+      "races_with_same_dogs": 277703
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -191,20 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.076)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
