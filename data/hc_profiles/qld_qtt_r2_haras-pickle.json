@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2992,
-      "ens_prob": 0.4288,
-      "fastai_prob": 0.6001,
+      "ml_prob": 0.3747,
+      "ens_prob": 0.338,
+      "fastai_prob": 0.5501,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401691
+      "races_with_same_dogs": 401792
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "HARA'S PANDORA",
-      "total_offspring_runs_in_state": 11181,
-      "sire_win_rate": 0.1245863518468831
+      "total_offspring_runs_in_state": 11182,
+      "sire_win_rate": 0.12457521015918441
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -198,7 +198,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.600)"
+        "FastAI Strong Conviction (Rank 1, prob 0.550)"
       ]
     }
   }

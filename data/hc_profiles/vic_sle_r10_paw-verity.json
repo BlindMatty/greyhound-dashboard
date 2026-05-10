@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1467,
-      "ens_prob": 0.127,
-      "fastai_prob": 0.0698,
-      "fastai_rank": 5,
+      "ml_prob": 0.1515,
+      "ens_prob": 0.1253,
+      "fastai_prob": 0.062,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779640
+      "races_with_same_dogs": 779810
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TIGGERLONG TONK",
       "dam": "DYNA ZESTY",
-      "total_offspring_runs_in_state": 1650,
-      "sire_win_rate": 0.1406060606060606
+      "total_offspring_runs_in_state": 1653,
+      "sire_win_rate": 0.14095583787053842
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 242,
-      "litter_wins": 58
+      "total_litter_runs": 243,
+      "litter_wins": 59
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

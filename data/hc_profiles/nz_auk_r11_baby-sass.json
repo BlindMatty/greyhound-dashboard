@@ -9,12 +9,12 @@
     "history_length": 11,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.1958,
-      "ens_prob": 0.2719,
-      "fastai_prob": 0.0962,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "ens_prob": 0.2907,
+      "fastai_prob": 0.0751,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,19 +191,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.096)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)"
+        "Optimal Racing Cadence (6-10 days)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

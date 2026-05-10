@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3842,
-      "ens_prob": 0.2287,
-      "fastai_prob": 0.5929,
+      "ml_prob": 0.3726,
+      "ens_prob": 0.2467,
+      "fastai_prob": 0.3667,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704948
+      "races_with_same_dogs": 705341
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "FEDERAL LILLY",
-      "total_offspring_runs_in_state": 2309,
-      "sire_win_rate": 0.13772195755738414
+      "total_offspring_runs_in_state": 2318,
+      "sire_win_rate": 0.13761863675582398
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 75,
-      "litter_wins": 25
+      "total_litter_runs": 76,
+      "litter_wins": 26
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -211,7 +211,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.593)"
+        "FastAI Strong Conviction (Rank 1, prob 0.367)"
       ]
     }
   }

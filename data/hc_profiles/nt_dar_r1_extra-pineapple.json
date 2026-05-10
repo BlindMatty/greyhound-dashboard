@@ -11,8 +11,8 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
       "ml_prob": 0.2466,
-      "ens_prob": 0.2422,
-      "fastai_prob": 0.3254,
+      "ens_prob": 0.2458,
+      "fastai_prob": 0.2325,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -171,7 +171,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 6,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Inexperienced (< 3 starts)",
@@ -182,8 +182,7 @@
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.325)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

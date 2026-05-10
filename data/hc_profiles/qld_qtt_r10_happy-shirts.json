@@ -9,12 +9,12 @@
     "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1443,
-      "ens_prob": 0.2578,
-      "fastai_prob": 0.5209,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2349,
+      "ens_prob": 0.1949,
+      "fastai_prob": 0.2119,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401691
+      "races_with_same_dogs": 401792
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "LOOK FANCY NANCY",
-      "total_offspring_runs_in_state": 8368,
-      "sire_win_rate": 0.13228967495219884
+      "total_offspring_runs_in_state": 8375,
+      "sire_win_rate": 0.13229850746268657
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -182,22 +182,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.521)"
+        "Proven Track Specialist Profile"
       ]
     }
   }

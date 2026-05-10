@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2278,
-      "ens_prob": 0.1437,
-      "fastai_prob": 0.5161,
-      "fastai_rank": 6,
+      "ml_prob": 0.2087,
+      "ens_prob": 0.1444,
+      "fastai_prob": 0.556,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704948
+      "races_with_same_dogs": 705341
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.7,
-      "avg_temp_c": 14.0,
+      "max_wind_kmh": 9.8,
+      "avg_temp_c": 13.6,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "SWIFT CURRENT",
-      "total_offspring_runs_in_state": 24431,
-      "sire_win_rate": 0.1357291965126274
+      "total_offspring_runs_in_state": 24476,
+      "sire_win_rate": 0.13576564798169635
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,7 +195,7 @@
         "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field"

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3932,
-      "ens_prob": 0.187,
-      "fastai_prob": 0.2449,
-      "fastai_rank": 3,
+      "ml_prob": 0.4082,
+      "ens_prob": 0.2325,
+      "fastai_prob": 0.2887,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 28,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779640
+      "races_with_same_dogs": 779810
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "CATCH",
-      "total_offspring_runs_in_state": 37846,
-      "sire_win_rate": 0.14778312106959784
+      "total_offspring_runs_in_state": 37867,
+      "sire_win_rate": 0.14780679747537434
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3021,
-      "ens_prob": 0.2086,
-      "fastai_prob": 0.2344,
-      "fastai_rank": 5,
+      "ml_prob": 0.5043,
+      "ens_prob": 0.2211,
+      "fastai_prob": 0.2352,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401691
+      "races_with_same_dogs": 401792
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "AYIA SOPHIA",
-      "total_offspring_runs_in_state": 7874,
-      "sire_win_rate": 0.14008128016256033
+      "total_offspring_runs_in_state": 7886,
+      "sire_win_rate": 0.13999492772001015
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -182,13 +182,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

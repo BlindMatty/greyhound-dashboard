@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.331,
-      "ens_prob": 0.1751,
-      "fastai_prob": 0.2365,
-      "fastai_rank": 4,
+      "ml_prob": 0.3226,
+      "ens_prob": 0.2458,
+      "fastai_prob": 0.1399,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 3,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 300.0,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 2,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779640
+      "races_with_same_dogs": 779810
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -159,7 +159,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -183,14 +183,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.140)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -199,7 +198,8 @@
         "Professional Box Dog (Elite start consistency)",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile"
+        "Proven Track Specialist Profile",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

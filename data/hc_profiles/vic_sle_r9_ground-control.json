@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2381,
-      "ens_prob": 0.1383,
-      "fastai_prob": 0.045,
-      "fastai_rank": 5,
+      "ml_prob": 0.2481,
+      "ens_prob": 0.1368,
+      "fastai_prob": 0.0442,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 779640
+      "races_with_same_dogs": 779810
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "SELF CONTROL",
-      "total_offspring_runs_in_state": 100082,
-      "sire_win_rate": 0.1323714554065666
+      "total_offspring_runs_in_state": 100102,
+      "sire_win_rate": 0.1323549979021398
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
