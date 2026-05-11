@@ -9,12 +9,12 @@
     "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2344,
-      "ens_prob": 0.1966,
-      "fastai_prob": 0.256,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.221,
+      "ens_prob": 0.2338,
+      "fastai_prob": 0.2994,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780014
+      "races_with_same_dogs": 780417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,7 +112,7 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 23.9,
+      "max_wind_kmh": 25.3,
       "avg_temp_c": 13.4,
       "total_precip_mm": 0.0,
       "is_wet": false,
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON KIMETTO",
       "dam": "ASTON SALMA",
-      "total_offspring_runs_in_state": 6616,
-      "sire_win_rate": 0.12424425634824668
+      "total_offspring_runs_in_state": 6618,
+      "sire_win_rate": 0.1242067089755213
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -186,7 +186,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -198,7 +198,9 @@
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias"
+        "Benefiting from inside track bias",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.299)"
       ]
     }
   }

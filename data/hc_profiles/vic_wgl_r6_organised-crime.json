@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4694,
-      "ens_prob": 0.4508,
-      "fastai_prob": 0.4047,
+      "ml_prob": 0.4519,
+      "ens_prob": 0.3196,
+      "fastai_prob": 0.2715,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780014
+      "races_with_same_dogs": 780417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -115,7 +115,7 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 23.9,
+      "max_wind_kmh": 25.3,
       "avg_temp_c": 13.4,
       "total_precip_mm": 0.0,
       "is_wet": false,
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "EASY CHOICE",
-      "total_offspring_runs_in_state": 38135,
-      "sire_win_rate": 0.1480267470827324
+      "total_offspring_runs_in_state": 38168,
+      "sire_win_rate": 0.1480035631942989
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -203,7 +203,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.405)"
+        "FastAI Strong Conviction (Rank 1, prob 0.272)"
       ]
     }
   }

@@ -1,19 +1,19 @@
 {
   "dog": "SASSY GAL",
-  "date": "2026-04-29",
+  "date": "2026-05-13",
   "track": "SLE",
   "race": 7,
   "distance": 0,
   "grade": "Grade 5 T3",
   "steps": {
-    "history_length": 33,
+    "history_length": 36,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1522,
-      "ens_prob": 0.1892,
-      "fastai_prob": 0.079,
-      "fastai_rank": 2,
+      "ml_prob": 0.1778,
+      "ens_prob": 0.1547,
+      "fastai_prob": 0.045,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 1,
       "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 426.06060606060606,
+      "avg_dist": 426.80555555555554,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,20 +34,18 @@
       "current_vs_historic_grade": "Grade 5 T3 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.3,
-      "fluctuation": 0.42758620689654947,
+      "last_weight": 28.2,
+      "fluctuation": 0.29999999999999716,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 33,
-      "last_3_avg_place": 5.0,
-      "last_5_avg_place": 4.6,
+      "total_starts": 36,
+      "last_3_avg_place": 4.666666666666667,
+      "last_5_avg_place": 4.8,
       "last_10_places": [
-        1.0,
-        3.0,
         7.0,
         4.0,
         8.0,
@@ -55,7 +53,9 @@
         5.0,
         7.0,
         3.0,
-        5.0
+        5.0,
+        1.0,
+        8.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776098
+      "races_with_same_dogs": 780417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.699176470588238
+      "avg_run_home": 16.84986111111111
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.8501692471518971
+      "split_stdev": 1.8572061142085428
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -102,7 +102,7 @@
       "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 10200.0
+      "career_prize": 11200.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.8461538461538463
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: SLE"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.1724137931034483,
-      "place_rate": 0.4482758620689655
+      "win_rate": 0.1935483870967742,
+      "place_rate": 0.45161290322580644
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "TESSA SAND",
-      "total_offspring_runs_in_state": 28067,
-      "sire_win_rate": 0.14134036412869205
+      "total_offspring_runs_in_state": 28151,
+      "sire_win_rate": 0.14123832190685945
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 152,
-      "litter_wins": 14
+      "total_litter_runs": 160,
+      "litter_wins": 15
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 33
+      "total_starts": 36
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.7239660298898185
+      "ewma_places": 5.430991507801689
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -199,10 +199,12 @@
         "Quick Backup (< 4 days)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.079)"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)"
       ]

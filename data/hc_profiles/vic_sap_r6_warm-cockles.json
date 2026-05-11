@@ -11,7 +11,7 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
       "ml_prob": 0.2512,
-      "ens_prob": 0.3365,
+      "ens_prob": 0.3296,
       "fastai_prob": 0.121,
       "fastai_rank": 1,
       "is_three_way": true
@@ -120,8 +120,12 @@
       "dist_diff_from_last": -600
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      "status": "success",
+      "max_wind_kmh": 10.3,
+      "avg_temp_c": 11.4,
+      "total_precip_mm": 0.0,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.16326530612244897,

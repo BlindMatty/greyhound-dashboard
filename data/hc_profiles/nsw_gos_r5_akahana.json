@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1666,
-      "ens_prob": 0.2422,
-      "fastai_prob": 0.5389,
+      "ml_prob": 0.1637,
+      "ens_prob": 0.2099,
+      "fastai_prob": 0.5671,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 705509
+      "races_with_same_dogs": 705655
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SEKORA",
-      "total_offspring_runs_in_state": 7881,
-      "sire_win_rate": 0.16876030960538002
+      "total_offspring_runs_in_state": 7886,
+      "sire_win_rate": 0.16890692366218615
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -200,7 +200,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.539)"
+        "FastAI Strong Conviction (Rank 1, prob 0.567)"
       ]
     }
   }

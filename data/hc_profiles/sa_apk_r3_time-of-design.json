@@ -9,12 +9,12 @@
     "history_length": 17,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.1873,
-      "ens_prob": 0.2625,
+      "ens_prob": 0.2234,
       "fastai_prob": 0.3239,
       "fastai_rank": 1,
-      "is_three_way": true
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,7 +203,6 @@
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
         "FastAI Strong Conviction (Rank 1, prob 0.324)"
       ]
     }

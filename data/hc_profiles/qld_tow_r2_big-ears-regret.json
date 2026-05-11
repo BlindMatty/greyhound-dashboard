@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1196,
-      "ens_prob": 0.1925,
-      "fastai_prob": 0.2241,
-      "fastai_rank": 2,
+      "ml_prob": 0.0736,
+      "ens_prob": 0.195,
+      "fastai_prob": 0.1161,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 402085
+      "races_with_same_dogs": 402221
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "NO REGRETS",
-      "total_offspring_runs_in_state": 5947,
-      "sire_win_rate": 0.15100050445602825
+      "total_offspring_runs_in_state": 5953,
+      "sire_win_rate": 0.15101629430539223
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

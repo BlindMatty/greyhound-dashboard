@@ -1,66 +1,65 @@
 {
   "dog": "DARCY MAC",
-  "date": "2026-04-15",
+  "date": "2026-05-13",
   "track": "TEM",
   "race": 8,
   "distance": 0,
-  "grade": "Grade 5 Heat",
+  "grade": "Non Graded",
   "steps": {
-    "history_length": 14,
+    "history_length": 17,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.2538,
-      "mc_win_pct": 60.2,
-      "ens_prob": 0.3099,
-      "fastai_prob": 0.6271,
-      "fastai_rank": 2,
-      "is_four_way": true
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.4352,
+      "ens_prob": 0.2574,
+      "fastai_prob": 0.2884,
+      "fastai_rank": 5,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 6,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 329.35714285714283,
+      "avg_dist": 329.47058823529414,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 Heat vs Field"
+      "current_vs_historic_grade": "Non Graded vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.4,
-      "fluctuation": 0.5727272727272705,
+      "last_weight": 33.7,
+      "fluctuation": 0.7285714285714349,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 14,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 3.4,
+      "total_starts": 17,
+      "last_3_avg_place": 1.0,
+      "last_5_avg_place": 1.0,
       "last_10_places": [
-        5.0,
-        1.0,
-        1.0,
         7.0,
         3.0,
         8.0,
         3.0,
         4.0,
         1.0,
+        1.0,
+        1.0,
+        1.0,
         1.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": false
+      "consecutive_wins": true
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -69,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 697467
+      "races_with_same_dogs": 705655
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -100,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 14
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -112,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 6450.0
+      "career_prize": 14450.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -125,8 +124,8 @@
       "message": "Coordinates not mapped for track: TEM"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.36363636363636365,
-      "place_rate": 0.5454545454545454
+      "win_rate": 0.5,
+      "place_rate": 0.6428571428571429
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -137,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "MONKEY TAIL",
-      "total_offspring_runs_in_state": 4246,
-      "sire_win_rate": 0.16062176165803108
+      "total_offspring_runs_in_state": 4482,
+      "sire_win_rate": 0.16086568496207052
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 40,
-      "litter_wins": 10
+      "litter_size_racing": 7,
+      "total_litter_runs": 51,
+      "litter_wins": 13
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -177,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 14
+      "total_starts": 17
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.8026380068392769
+      "ewma_places": 1.1002868827443082
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,24 +191,24 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Recent Form (<2.5 avg)",
+        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

@@ -9,12 +9,12 @@
     "history_length": 77,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1942,
-      "ens_prob": 0.1769,
-      "fastai_prob": 0.2735,
-      "fastai_rank": 4,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2446,
+      "ens_prob": 0.2351,
+      "fastai_prob": 0.6698,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 705509
+      "races_with_same_dogs": 705655
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "WINXETTE",
-      "total_offspring_runs_in_state": 13709,
-      "sire_win_rate": 0.11941060617112846
+      "total_offspring_runs_in_state": 13719,
+      "sire_win_rate": 0.11939645746774546
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -208,7 +207,9 @@
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.670)"
       ]
     }
   }

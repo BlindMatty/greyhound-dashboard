@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1316,
-      "ens_prob": 0.2222,
-      "fastai_prob": 0.2137,
-      "fastai_rank": 2,
+      "ml_prob": 0.1405,
+      "ens_prob": 0.144,
+      "fastai_prob": 0.1092,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780014
+      "races_with_same_dogs": 780417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "FAIRYTALE WISH",
-      "total_offspring_runs_in_state": 13682,
-      "sire_win_rate": 0.12622423622277446
+      "total_offspring_runs_in_state": 13710,
+      "sire_win_rate": 0.12603938730853392
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -187,13 +187,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

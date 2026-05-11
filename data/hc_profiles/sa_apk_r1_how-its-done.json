@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
       "ml_prob": 0.255,
-      "ens_prob": 0.2823,
-      "fastai_prob": 0.1287,
-      "fastai_rank": 1,
+      "ens_prob": 0.3651,
+      "fastai_prob": 0.1413,
+      "fastai_rank": 2,
       "is_three_way": true
     },
     "02_TDG_Medians": {
@@ -186,12 +186,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Lukewarm (Rank 2, prob 0.141)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

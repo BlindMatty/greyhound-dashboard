@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2859,
-      "ens_prob": 0.2683,
-      "fastai_prob": 0.1532,
-      "fastai_rank": 2,
+      "ml_prob": 0.3058,
+      "ens_prob": 0.3253,
+      "fastai_prob": 0.0599,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780014
+      "races_with_same_dogs": 780417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,7 +113,7 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 23.9,
+      "max_wind_kmh": 25.3,
       "avg_temp_c": 13.4,
       "total_precip_mm": 0.0,
       "is_wet": false,
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE SECRET",
       "dam": "WHAT A SURPRISE",
-      "total_offspring_runs_in_state": 966,
-      "sire_win_rate": 0.12939958592132506
+      "total_offspring_runs_in_state": 967,
+      "sire_win_rate": 0.12926577042399173
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 52,
+      "total_litter_runs": 53,
       "litter_wins": 13
     },
     "35_Injury_History": {
@@ -187,11 +187,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
-      "decision": "PASS / CAUTION",
+      "final_score": 3,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
