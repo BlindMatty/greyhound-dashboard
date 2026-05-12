@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2514,
-      "ens_prob": 0.2642,
-      "fastai_prob": 0.5279,
+      "ml_prob": 0.2682,
+      "ens_prob": 0.3102,
+      "fastai_prob": 0.5773,
       "fastai_rank": 1,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780417
+      "races_with_same_dogs": 780702
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.3,
-      "avg_temp_c": 13.5,
+      "max_wind_kmh": 9.7,
+      "avg_temp_c": 12.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "EYE WILL REIGN",
-      "total_offspring_runs_in_state": 24441,
-      "sire_win_rate": 0.13137760320772474
+      "total_offspring_runs_in_state": 24459,
+      "sire_win_rate": 0.13136268858089048
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 149,
+      "total_litter_runs": 152,
       "litter_wins": 48
     },
     "35_Injury_History": {
@@ -208,7 +208,7 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "From an active winning litter (10+ wins)",
-        "FastAI Strong Conviction (Rank 1, prob 0.528)"
+        "FastAI Strong Conviction (Rank 1, prob 0.577)"
       ]
     }
   }

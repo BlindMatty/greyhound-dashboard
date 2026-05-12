@@ -1,18 +1,18 @@
 {
   "dog": "OPAWA ARCHIE",
-  "date": "2026-04-30",
+  "date": "2026-05-14",
   "track": "CCH",
   "race": 14,
   "distance": 0,
-  "grade": "Class 5",
+  "grade": "Special conditions Final",
   "steps": {
-    "history_length": 19,
+    "history_length": 21,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4168,
-      "ens_prob": 0.2353,
-      "fastai_prob": 0.1573,
+      "ml_prob": 0.4502,
+      "ens_prob": 0.2267,
+      "fastai_prob": 0.086,
       "fastai_rank": 5,
       "is_three_way": false
     },
@@ -21,33 +21,32 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 7,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 367.63157894736844,
+      "avg_dist": 360.7142857142857,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 5 vs Field"
+      "current_vs_historic_grade": "Special conditions Final vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.7,
-      "fluctuation": -0.17999999999999972,
+      "last_weight": 33.8,
+      "fluctuation": -0.06470588235294628,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 19,
-      "last_3_avg_place": 1.0,
-      "last_5_avg_place": 1.0,
+      "total_starts": 21,
+      "last_3_avg_place": 1.3333333333333333,
+      "last_5_avg_place": 1.2,
       "last_10_places": [
         1.0,
-        3.0,
         1.0,
         1.0,
         1.0,
@@ -55,11 +54,12 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        1.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": true
+      "consecutive_wins": false
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276626
+      "races_with_same_dogs": 277932
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 16400.0
+      "career_prize": 19760.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6428571428571429,
-      "place_rate": 0.7142857142857143
+      "win_rate": 0.625,
+      "place_rate": 0.75
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "GO HAZEL",
-      "total_offspring_runs_in_state": 1610,
-      "sire_win_rate": 0.15590062111801242
+      "total_offspring_runs_in_state": 1631,
+      "sire_win_rate": 0.15634580012262417
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 183,
-      "litter_wins": 52
+      "total_litter_runs": 192,
+      "litter_wins": 54
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 19
+      "total_starts": 21
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0094610266739914
+      "ewma_places": 1.5023727779049363
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,7 +201,6 @@
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
-        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",

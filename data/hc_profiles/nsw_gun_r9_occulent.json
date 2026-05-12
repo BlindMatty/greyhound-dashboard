@@ -9,12 +9,12 @@
     "history_length": 31,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.182,
-      "ens_prob": 0.2035,
-      "fastai_prob": 0.6028,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1588,
+      "ens_prob": 0.1817,
+      "fastai_prob": 0.2127,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 705655
+      "races_with_same_dogs": 705937
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "STYLE SENSATION",
-      "total_offspring_runs_in_state": 8971,
-      "sire_win_rate": 0.14680637610076913
+      "total_offspring_runs_in_state": 9000,
+      "sire_win_rate": 0.14666666666666667
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,9 +203,7 @@
         "Strong Head-to-Head Experience over field",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.603)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

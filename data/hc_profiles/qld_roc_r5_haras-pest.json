@@ -9,12 +9,12 @@
     "history_length": 47,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.23,
-      "ens_prob": 0.2348,
-      "fastai_prob": 0.1528,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2715,
+      "ens_prob": 0.2642,
+      "fastai_prob": 0.1885,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 402221
+      "races_with_same_dogs": 402323
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -206,8 +206,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

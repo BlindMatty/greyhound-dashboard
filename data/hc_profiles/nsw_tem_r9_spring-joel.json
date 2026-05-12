@@ -9,12 +9,12 @@
     "history_length": 18,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3115,
-      "ens_prob": 0.266,
-      "fastai_prob": 0.5836,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2982,
+      "ens_prob": 0.2704,
+      "fastai_prob": 0.2449,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 705655
+      "races_with_same_dogs": 705937
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "SPRING CATCH",
-      "total_offspring_runs_in_state": 101491,
-      "sire_win_rate": 0.13677074814515572
+      "total_offspring_runs_in_state": 101509,
+      "sire_win_rate": 0.136766198071107
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -204,7 +204,8 @@
         "Benefiting from inside track bias",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

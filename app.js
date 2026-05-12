@@ -83,7 +83,6 @@ function renderSummary(data) {
     document.getElementById('statELO').textContent = mp.models.elo ? mp.models.elo.strikeRate.toFixed(1) + '%' : '-';
     document.getElementById('statENS').textContent = mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-';
     document.getElementById('statFASTENS').textContent = mp.models.fast_ens ? mp.models.fast_ens.strikeRate.toFixed(1) + '%' : '-';
-    document.getElementById('statELOENS').textContent = mp.models.elo_ens ? mp.models.elo_ens.strikeRate.toFixed(1) + '%' : '-';
     const meta = document.getElementById('summaryMeta');
     meta.textContent = `Cumulative SR from ${mp.startDate} to ${mp.resultsDate} over ${mp.settledRaces} settled races`;
     show('summaryMeta');
@@ -91,9 +90,8 @@ function renderSummary(data) {
   show('summaryBar');
 }
 
-// ── FAST ENS top picks (ELO ENS when confirmed by Elo) ──
+// ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
-  const eloHC = [];
   const tsHC = [];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
@@ -102,9 +100,6 @@ async function loadHighConfidencePicks(states) {
       stateDataCache[s.code] = data;
       for (const p of (data.highConfidencePicks || [])) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
-        if (p.isEloEns) {
-          eloHC.push(enhancedP);
-        }
         if (p.isMlSpecialist) {
           tsHC.push(enhancedP);
         }
@@ -120,11 +115,9 @@ async function loadHighConfidencePicks(states) {
     return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
   };
   
-  eloHC.sort(sorter);
   tsHC.sort(sorter);
-  
-  renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks', {useNormOdds: false, newFlag: 'isNewEloAddition'});
-  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
+
+  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'ML TS picks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
