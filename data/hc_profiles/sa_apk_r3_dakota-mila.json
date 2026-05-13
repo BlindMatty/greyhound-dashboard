@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3455,
-      "ens_prob": 0.2204,
-      "fastai_prob": 0.1098,
-      "fastai_rank": 3,
+      "ml_prob": 0.3215,
+      "ens_prob": 0.2066,
+      "fastai_prob": 0.1011,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215114
+      "races_with_same_dogs": 215164
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "DAKOTA ROXY",
-      "total_offspring_runs_in_state": 2502,
-      "sire_win_rate": 0.20103916866506794
+      "total_offspring_runs_in_state": 2503,
+      "sire_win_rate": 0.2009588493807431
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 3, prob 0.110)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

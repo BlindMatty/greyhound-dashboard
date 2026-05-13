@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1023,
-      "ens_prob": 0.3056,
-      "fastai_prob": 0.5012,
+      "ml_prob": 0.0969,
+      "ens_prob": 0.2705,
+      "fastai_prob": 0.3349,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 402323
+      "races_with_same_dogs": 402693
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "REGAL JADE",
-      "total_offspring_runs_in_state": 9288,
-      "sire_win_rate": 0.13006029285099052
+      "total_offspring_runs_in_state": 9302,
+      "sire_win_rate": 0.12997204902171575
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -196,7 +196,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.501)"
+        "FastAI Strong Conviction (Rank 1, prob 0.335)"
       ]
     }
   }

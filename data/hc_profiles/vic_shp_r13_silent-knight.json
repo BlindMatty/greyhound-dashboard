@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2688,
-      "ens_prob": 0.1933,
-      "fastai_prob": 0.054,
-      "fastai_rank": 5,
+      "ml_prob": 0.3154,
+      "ens_prob": 0.1912,
+      "fastai_prob": 0.0686,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780702
+      "races_with_same_dogs": 781122
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "SILENT ENEMY",
-      "total_offspring_runs_in_state": 100181,
-      "sire_win_rate": 0.13236042762599695
+      "total_offspring_runs_in_state": 100215,
+      "sire_win_rate": 0.13236541435912788
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.069)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

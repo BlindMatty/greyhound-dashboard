@@ -1,19 +1,19 @@
 {
   "dog": "GOLDMINE FIRE",
-  "date": "2026-05-07",
+  "date": "2026-05-14",
   "track": "QTT",
   "race": 5,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Open",
   "steps": {
-    "history_length": 28,
+    "history_length": 29,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2327,
-      "ens_prob": 0.2641,
-      "fastai_prob": 0.2596,
-      "fastai_rank": 2,
+      "ml_prob": 0.2023,
+      "ens_prob": 0.1652,
+      "fastai_prob": 0.1154,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,32 +21,31 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 623.2142857142857,
+      "avg_dist": 626.2068965517242,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Open vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 31.6,
-      "fluctuation": -0.20357142857142563,
+      "fluctuation": -0.19655172413792954,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 28,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 2.8,
+      "total_starts": 29,
+      "last_3_avg_place": 1.3333333333333333,
+      "last_5_avg_place": 2.0,
       "last_10_places": [
-        2.0,
         4.0,
         3.0,
         2.0,
@@ -55,6 +54,7 @@
         3.0,
         3.0,
         2.0,
+        1.0,
         1.0
       ]
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401297
+      "races_with_same_dogs": 402693
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 27.817200000000007
+      "avg_run_home": 28.16961538461539
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 3.0734260470469543
+      "split_stdev": 3.0937411755895905
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 110150.0
+      "career_prize": 117300.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.7142857142857144
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: QTT"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.17857142857142858,
-      "place_rate": 0.7142857142857143
+      "win_rate": 0.20689655172413793,
+      "place_rate": 0.7241379310344828
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "WOW",
       "dam": "SWEET FIRE ALL",
-      "total_offspring_runs_in_state": 1312,
-      "sire_win_rate": 0.16615853658536586
+      "total_offspring_runs_in_state": 1328,
+      "sire_win_rate": 0.16792168674698796
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 167,
-      "litter_wins": 48
+      "total_litter_runs": 170,
+      "litter_wins": 49
     },
     "35_Injury_History": {
       "long_spells_count": 2
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 28
+      "total_starts": 29
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.807462441949034
+      "ewma_places": 1.403731220222509
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -208,7 +208,8 @@
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

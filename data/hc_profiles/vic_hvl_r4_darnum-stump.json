@@ -1,18 +1,18 @@
 {
   "dog": "DARNUM STUMP",
-  "date": "2026-05-01",
+  "date": "2026-05-15",
   "track": "HVL",
   "race": 4,
   "distance": 0,
   "grade": "Tier 3 - Restricted Win",
   "steps": {
-    "history_length": 15,
+    "history_length": 16,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1865,
-      "ens_prob": 0.1052,
-      "fastai_prob": 0.0274,
+      "ml_prob": 0.1782,
+      "ens_prob": 0.1022,
+      "fastai_prob": 0.0165,
       "fastai_rank": 10,
       "is_three_way": false
     },
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 375.6666666666667,
+      "avg_dist": 374.0625,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Tier 3 - Restricted Win vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 43.4,
-      "fluctuation": -0.07857142857142208,
+      "last_weight": 43.6,
+      "fluctuation": 0.11333333333333684,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 15,
-      "last_3_avg_place": 4.0,
-      "last_5_avg_place": 4.2,
+      "total_starts": 16,
+      "last_3_avg_place": 2.6666666666666665,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        5.0,
         2.0,
         2.0,
         5.0,
@@ -55,7 +54,8 @@
         3.0,
         6.0,
         3.0,
-        3.0
+        3.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776464
+      "races_with_same_dogs": 781122
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.752428571428572
+      "avg_run_home": 13.699083333333334
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.9383414070336267
+      "split_stdev": 0.9330953024489947
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 14
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 4120.0
+      "career_prize": 4280.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 5.2727272727272725
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.14285714285714285,
-      "place_rate": 0.6428571428571429
+      "win_rate": 0.13333333333333333,
+      "place_rate": 0.6666666666666666
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "DARNUM DASHER",
-      "total_offspring_runs_in_state": 37568,
-      "sire_win_rate": 0.14783858603066438
+      "total_offspring_runs_in_state": 38083,
+      "sire_win_rate": 0.14772995824908752
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 224,
+      "total_litter_runs": 227,
       "litter_wins": 23
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 15
+      "total_starts": 16
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.4494903253372398
+      "ewma_places": 2.724723044526505
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -202,7 +202,6 @@
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "From an active winning litter (10+ wins)"
       ]

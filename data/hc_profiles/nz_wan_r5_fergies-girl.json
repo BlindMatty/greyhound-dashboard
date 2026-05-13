@@ -1,19 +1,19 @@
 {
   "dog": "FERGIE'S GIRL",
-  "date": "2026-05-01",
+  "date": "2026-05-15",
   "track": "WAN",
   "race": 5,
   "distance": 0,
-  "grade": "Class 5",
+  "grade": "Mixed grade 4/5",
   "steps": {
     "history_length": 33,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3299,
-      "ens_prob": 0.194,
-      "fastai_prob": 0.0952,
-      "fastai_rank": 4,
+      "ml_prob": 0.3258,
+      "ens_prob": 0.2411,
+      "fastai_prob": 0.0648,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,7 +21,7 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 5,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
@@ -31,7 +31,7 @@
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 5 vs Field"
+      "current_vs_historic_grade": "Mixed grade 4/5 vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 28.2,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 33,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276821
+      "races_with_same_dogs": 278036
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 28
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "THRILLING SAM",
       "dam": "TIGER CHURN",
-      "total_offspring_runs_in_state": 160,
-      "sire_win_rate": 0.175
+      "total_offspring_runs_in_state": 164,
+      "sire_win_rate": 0.17682926829268292
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 144,
-      "litter_wins": 27
+      "total_litter_runs": 148,
+      "litter_wins": 28
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -191,13 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.065)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

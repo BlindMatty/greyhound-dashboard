@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2744,
-      "ens_prob": 0.2938,
-      "fastai_prob": 0.6365,
+      "ml_prob": 0.2534,
+      "ens_prob": 0.3135,
+      "fastai_prob": 0.4152,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 6,
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780702
+      "races_with_same_dogs": 781122
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "FLOREY BALE",
-      "total_offspring_runs_in_state": 23703,
-      "sire_win_rate": 0.10365776483989368
+      "total_offspring_runs_in_state": 23715,
+      "sire_win_rate": 0.10368964790217162
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -199,7 +199,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.636)"
+        "FastAI Strong Conviction (Rank 1, prob 0.415)"
       ]
     }
   }

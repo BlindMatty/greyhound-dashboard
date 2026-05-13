@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2713,
-      "ens_prob": 0.2273,
-      "fastai_prob": 0.4836,
-      "fastai_rank": 1,
+      "ml_prob": 0.268,
+      "ens_prob": 0.1467,
+      "fastai_prob": 0.1167,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 780702
+      "races_with_same_dogs": 781122
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,12 +129,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "LOCHINVAR MARLOW",
       "dam": "FANCY FRANCENE",
-      "total_offspring_runs_in_state": 1349,
-      "sire_win_rate": 0.1356560415122313
+      "total_offspring_runs_in_state": 1351,
+      "sire_win_rate": 0.13545521835677277
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 12,
-      "total_litter_runs": 138,
+      "total_litter_runs": 140,
       "litter_wins": 16
     },
     "35_Injury_History": {
@@ -184,12 +184,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 3, prob 0.117)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -198,8 +199,7 @@
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "FastAI Strong Conviction (Rank 1, prob 0.484)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

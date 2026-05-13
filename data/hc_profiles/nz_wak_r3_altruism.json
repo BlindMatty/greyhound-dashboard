@@ -1,33 +1,32 @@
 {
   "dog": "ALTRUISM",
-  "date": "2026-04-16",
+  "date": "2026-05-14",
   "track": "WAK",
   "race": 3,
   "distance": 0,
   "grade": "Class 2",
   "steps": {
-    "history_length": 39,
+    "history_length": 44,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.1542,
-      "mc_win_pct": 33.5,
-      "ens_prob": 0.238,
-      "fastai_prob": 0.1139,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.1529,
+      "ens_prob": 0.175,
+      "fastai_prob": 0.0561,
       "fastai_rank": 2,
-      "is_four_way": true
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 7,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 374.6666666666667,
+      "avg_dist": 381.6136363636364,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,28 +34,28 @@
       "current_vs_historic_grade": "Class 2 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 26.6,
-      "fluctuation": 0.37647058823529633,
+      "last_weight": 26.2,
+      "fluctuation": -0.05263157894736992,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 39,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.6,
+      "total_starts": 44,
+      "last_3_avg_place": 2.6666666666666665,
+      "last_5_avg_place": 3.0,
       "last_10_places": [
-        4.0,
-        2.0,
-        3.0,
-        2.0,
         3.0,
         2.0,
         7.0,
         4.0,
         4.0,
-        1.0
+        1.0,
+        6.0,
+        4.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 275167
+      "races_with_same_dogs": 278036
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 15380.0
+      "career_prize": 17760.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 1.0
@@ -125,8 +124,8 @@
       "message": "Coordinates not mapped for track: WAK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.08823529411764706,
-      "place_rate": 0.5588235294117647
+      "win_rate": 0.07894736842105263,
+      "place_rate": 0.5526315789473685
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -137,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "DANISH DELIGHT",
-      "total_offspring_runs_in_state": 1465,
-      "sire_win_rate": 0.1726962457337884
+      "total_offspring_runs_in_state": 1592,
+      "sire_win_rate": 0.17399497487437185
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 324,
-      "litter_wins": 57
+      "total_litter_runs": 352,
+      "litter_wins": 61
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -177,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 39
+      "total_starts": 44
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.5859986701157176
+      "ewma_places": 2.5366249168820527
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,13 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.114)"
+        "FastAI Lukewarm (Rank 2, prob 0.056)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -207,8 +206,7 @@
         "High Earnings Class / Classy Animal",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

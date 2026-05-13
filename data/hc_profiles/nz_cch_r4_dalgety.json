@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1773,
-      "ens_prob": 0.1874,
-      "fastai_prob": 0.0624,
-      "fastai_rank": 3,
+      "ml_prob": 0.1744,
+      "ens_prob": 0.1763,
+      "fastai_prob": 0.0546,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 277932
+      "races_with_same_dogs": 278036
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MEPUNGA BLAZER",
       "dam": "CLASSY WITCH",
-      "total_offspring_runs_in_state": 7258,
-      "sire_win_rate": 0.12276109120969964
+      "total_offspring_runs_in_state": 7260,
+      "sire_win_rate": 0.12272727272727273
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -191,13 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.062)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
