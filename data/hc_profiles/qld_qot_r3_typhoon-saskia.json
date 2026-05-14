@@ -9,12 +9,12 @@
     "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1413,
-      "ens_prob": 0.2342,
-      "fastai_prob": 0.3085,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1527,
+      "ens_prob": 0.1739,
+      "fastai_prob": 0.2035,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 402693
+      "races_with_same_dogs": 402792
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TYPHOON SAMMY",
       "dam": "SASSY SASKIA",
-      "total_offspring_runs_in_state": 109,
-      "sire_win_rate": 0.22935779816513763
+      "total_offspring_runs_in_state": 110,
+      "sire_win_rate": 0.22727272727272727
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -185,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,9 +199,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.308)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2255,
-      "ens_prob": 0.2965,
-      "fastai_prob": 0.4136,
+      "ml_prob": 0.2252,
+      "ens_prob": 0.2303,
+      "fastai_prob": 0.4255,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781122
+      "races_with_same_dogs": 781557
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.2,
-      "avg_temp_c": 12.9,
+      "max_wind_kmh": 10.8,
+      "avg_temp_c": 12.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "LAKEVIEW WALTER",
       "dam": "SHE'S A BLAZIN'",
-      "total_offspring_runs_in_state": 842,
-      "sire_win_rate": 0.17695961995249407
+      "total_offspring_runs_in_state": 848,
+      "sire_win_rate": 0.17570754716981132
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 170,
+      "total_litter_runs": 172,
       "litter_wins": 43
     },
     "35_Injury_History": {
@@ -208,7 +208,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.414)"
+        "FastAI Strong Conviction (Rank 1, prob 0.425)"
       ]
     }
   }

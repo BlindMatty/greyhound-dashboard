@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1394,
-      "ens_prob": 0.1998,
-      "fastai_prob": 0.1708,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1586,
+      "ens_prob": 0.2075,
+      "fastai_prob": 0.5149,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706241
+      "races_with_same_dogs": 706491
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,13 +128,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "MONKEY TAIL",
-      "total_offspring_runs_in_state": 4508,
-      "sire_win_rate": 0.1603815439219166
+      "total_offspring_runs_in_state": 4520,
+      "sire_win_rate": 0.16061946902654867
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 52,
-      "litter_wins": 13
+      "total_litter_runs": 53,
+      "litter_wins": 14
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -197,7 +197,9 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.515)"
       ]
     }
   }

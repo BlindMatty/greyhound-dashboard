@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2118,
-      "ens_prob": 0.2649,
-      "fastai_prob": 0.0841,
-      "fastai_rank": 5,
+      "ml_prob": 0.214,
+      "ens_prob": 0.3109,
+      "fastai_prob": 0.3293,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781122
+      "races_with_same_dogs": 781557
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,12 +130,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "LARA TARA",
-      "total_offspring_runs_in_state": 23706,
-      "sire_win_rate": 0.12832194381169323
+      "total_offspring_runs_in_state": 23737,
+      "sire_win_rate": 0.12823861482074397
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 167,
+      "total_litter_runs": 168,
       "litter_wins": 23
     },
     "35_Injury_History": {
@@ -185,15 +185,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

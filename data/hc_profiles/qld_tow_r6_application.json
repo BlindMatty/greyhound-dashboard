@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2638,
-      "ens_prob": 0.2506,
-      "fastai_prob": 0.0984,
+      "ml_prob": 0.2532,
+      "ens_prob": 0.2343,
+      "fastai_prob": 0.1085,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 402693
+      "races_with_same_dogs": 402792
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SHE CAN MOVE",
-      "total_offspring_runs_in_state": 5977,
-      "sire_win_rate": 0.1509118286765936
+      "total_offspring_runs_in_state": 5980,
+      "sire_win_rate": 0.15100334448160535
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,7 +191,7 @@
         "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 3, prob 0.098)"
+        "FastAI Lukewarm (Rank 3, prob 0.108)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

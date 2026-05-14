@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3593,
-      "ens_prob": 0.235,
-      "fastai_prob": 0.6402,
+      "ml_prob": 0.3263,
+      "ens_prob": 0.2202,
+      "fastai_prob": 0.6952,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706241
+      "races_with_same_dogs": 706491
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "CAWBOURNE HELM",
-      "total_offspring_runs_in_state": 11453,
-      "sire_win_rate": 0.15978346284816206
+      "total_offspring_runs_in_state": 11473,
+      "sire_win_rate": 0.15950492460559576
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -204,7 +204,7 @@
         "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.640)"
+        "FastAI Strong Conviction (Rank 1, prob 0.695)"
       ]
     }
   }

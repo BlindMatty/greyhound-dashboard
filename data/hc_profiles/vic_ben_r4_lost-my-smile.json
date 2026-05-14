@@ -9,12 +9,12 @@
     "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3083,
-      "ens_prob": 0.3566,
-      "fastai_prob": 0.2864,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2926,
+      "ens_prob": 0.282,
+      "fastai_prob": 0.1906,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781122
+      "races_with_same_dogs": 781557
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,8 +114,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 11.8,
-      "avg_temp_c": 13.5,
+      "max_wind_kmh": 13.0,
+      "avg_temp_c": 13.7,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -133,12 +133,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "QUENA DEE AIR",
-      "total_offspring_runs_in_state": 38031,
-      "sire_win_rate": 0.14806342194525518
+      "total_offspring_runs_in_state": 38091,
+      "sire_win_rate": 0.14809272531569137
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 35,
+      "total_litter_runs": 36,
       "litter_wins": 7
     },
     "35_Injury_History": {
@@ -188,7 +188,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 14,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -204,9 +204,7 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.286)"
+        "Proven Track Specialist Profile"
       ]
     }
   }

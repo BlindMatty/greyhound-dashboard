@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3096,
-      "ens_prob": 0.1917,
-      "fastai_prob": 0.0261,
-      "fastai_rank": 5,
+      "ml_prob": 0.2226,
+      "ens_prob": 0.1832,
+      "fastai_prob": 0.0396,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213471
+      "races_with_same_dogs": 213572
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "MARGIE IRENE",
-      "total_offspring_runs_in_state": 14711,
-      "sire_win_rate": 0.12460063897763578
+      "total_offspring_runs_in_state": 14713,
+      "sire_win_rate": 0.12465166859240127
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -186,12 +186,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.040)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

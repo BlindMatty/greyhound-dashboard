@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4141,
-      "ens_prob": 0.4692,
-      "fastai_prob": 0.648,
+      "ml_prob": 0.3747,
+      "ens_prob": 0.4306,
+      "fastai_prob": 0.6373,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781122
+      "races_with_same_dogs": 781557
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 11.8,
-      "avg_temp_c": 13.5,
+      "max_wind_kmh": 13.0,
+      "avg_temp_c": 13.7,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "YAHIRO BALE",
-      "total_offspring_runs_in_state": 17656,
-      "sire_win_rate": 0.12703896692342548
+      "total_offspring_runs_in_state": 17664,
+      "sire_win_rate": 0.1269814311594203
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -210,7 +210,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.648)"
+        "FastAI Strong Conviction (Rank 1, prob 0.637)"
       ]
     }
   }
