@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2226,
-      "ens_prob": 0.141,
-      "fastai_prob": 0.1013,
-      "fastai_rank": 4,
+      "ml_prob": 0.2149,
+      "ens_prob": 0.1384,
+      "fastai_prob": 0.1386,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781557
+      "races_with_same_dogs": 781998
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.0,
+      "max_wind_kmh": 18.1,
       "avg_temp_c": 15.2,
-      "total_precip_mm": 1.5,
+      "total_precip_mm": 1.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "THANK YOU JILL",
-      "total_offspring_runs_in_state": 38030,
-      "sire_win_rate": 0.14783066000525902
+      "total_offspring_runs_in_state": 38073,
+      "sire_win_rate": 0.1478475560108213
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 258,
+      "total_litter_runs": 259,
       "litter_wins": 47
     },
     "35_Injury_History": {
@@ -201,7 +201,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

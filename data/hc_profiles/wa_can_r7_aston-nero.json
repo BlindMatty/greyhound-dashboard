@@ -11,8 +11,8 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
       "ml_prob": 0.2898,
-      "ens_prob": 0.4103,
-      "fastai_prob": 0.3517,
+      "ens_prob": 0.3047,
+      "fastai_prob": 0.1129,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -208,8 +208,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.352)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

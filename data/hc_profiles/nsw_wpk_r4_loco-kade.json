@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1941,
-      "ens_prob": 0.1965,
-      "fastai_prob": 0.6677,
+      "ml_prob": 0.1861,
+      "ens_prob": 0.1923,
+      "fastai_prob": 0.6619,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706491
+      "races_with_same_dogs": 706925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -133,12 +133,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "CARBON COBY",
-      "total_offspring_runs_in_state": 9046,
-      "sire_win_rate": 0.14658412558036701
+      "total_offspring_runs_in_state": 9073,
+      "sire_win_rate": 0.1465887798963959
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 19,
+      "total_litter_runs": 20,
       "litter_wins": 5
     },
     "35_Injury_History": {
@@ -201,7 +201,7 @@
         "Strong Head-to-Head Experience over field",
         "High Career Win Rate (>25%)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.668)"
+        "FastAI Strong Conviction (Rank 1, prob 0.662)"
       ]
     }
   }

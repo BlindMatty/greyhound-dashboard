@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2151,
-      "ens_prob": 0.1925,
-      "fastai_prob": 0.0619,
-      "fastai_rank": 6,
+      "ml_prob": 0.2132,
+      "ens_prob": 0.2097,
+      "fastai_prob": 0.1759,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781557
+      "races_with_same_dogs": 781998
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.0,
+      "max_wind_kmh": 18.1,
       "avg_temp_c": 15.2,
-      "total_precip_mm": 1.5,
+      "total_precip_mm": 1.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "GEMILLY",
-      "total_offspring_runs_in_state": 7966,
-      "sire_win_rate": 0.12076324378609089
+      "total_offspring_runs_in_state": 7968,
+      "sire_win_rate": 0.12073293172690763
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -200,7 +200,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

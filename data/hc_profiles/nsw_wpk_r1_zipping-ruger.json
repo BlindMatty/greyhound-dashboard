@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4477,
-      "ens_prob": 0.3984,
-      "fastai_prob": 0.6707,
+      "ml_prob": 0.4568,
+      "ens_prob": 0.3776,
+      "fastai_prob": 0.6692,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706491
+      "races_with_same_dogs": 706925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZIPPING KYRGIOS",
       "dam": "ZIPPING MITZY",
-      "total_offspring_runs_in_state": 983,
-      "sire_win_rate": 0.18413021363173956
+      "total_offspring_runs_in_state": 997,
+      "sire_win_rate": 0.18254764292878636
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -198,7 +198,7 @@
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.671)"
+        "FastAI Strong Conviction (Rank 1, prob 0.669)"
       ]
     }
   }

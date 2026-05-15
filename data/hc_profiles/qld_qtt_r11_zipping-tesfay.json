@@ -1,18 +1,18 @@
 {
   "dog": "ZIPPING TESFAY",
-  "date": "2026-05-10",
+  "date": "2026-05-17",
   "track": "QTT",
   "race": 11,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Grade 5 Heat",
   "steps": {
-    "history_length": 18,
+    "history_length": 19,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2274,
-      "ens_prob": 0.2312,
-      "fastai_prob": 0.4472,
+      "ml_prob": 0.2448,
+      "ens_prob": 0.2281,
+      "fastai_prob": 0.419,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -26,27 +26,26 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 467.0,
+      "avg_dist": 469.7894736842105,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Grade 5 Heat vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.5,
-      "fluctuation": 0.35882352941176165,
+      "last_weight": 29.4,
+      "fluctuation": 0.24444444444444002,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 18,
-      "last_3_avg_place": 4.333333333333333,
-      "last_5_avg_place": 3.6,
+      "total_starts": 19,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        2.0,
         5.0,
         3.0,
         1.0,
@@ -55,7 +54,8 @@
         2.0,
         5.0,
         3.0,
-        5.0
+        5.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401792
+      "races_with_same_dogs": 402979
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 22380.0
+      "career_prize": 23300.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: QTT"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.23529411764705882,
-      "place_rate": 0.7647058823529411
+      "win_rate": 0.2222222222222222,
+      "place_rate": 0.7777777777777778
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZIPPING KYRGIOS",
       "dam": "ZIPPING ZARBO",
-      "total_offspring_runs_in_state": 138,
-      "sire_win_rate": 0.2608695652173913
+      "total_offspring_runs_in_state": 146,
+      "sire_win_rate": 0.2671232876712329
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 129,
-      "litter_wins": 33
+      "total_litter_runs": 137,
+      "litter_wins": 36
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 18
+      "total_starts": 19
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.1428309847334654
+      "ewma_places": 3.0714114052253922
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,22 +191,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.447)"
+        "FastAI Strong Conviction (Rank 1, prob 0.419)"
       ]
     }
   }

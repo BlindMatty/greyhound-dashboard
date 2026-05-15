@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.503,
-      "ens_prob": 0.1674,
-      "fastai_prob": 0.2676,
-      "fastai_rank": 4,
+      "ml_prob": 0.5046,
+      "ens_prob": 0.1961,
+      "fastai_prob": 0.4616,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706491
+      "races_with_same_dogs": 706925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "KINGSBRAE MARTHA",
-      "total_offspring_runs_in_state": 12051,
-      "sire_win_rate": 0.15948883910048958
+      "total_offspring_runs_in_state": 12081,
+      "sire_win_rate": 0.15934111414617996
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 122,
+      "total_litter_runs": 123,
       "litter_wins": 34
     },
     "35_Injury_History": {
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

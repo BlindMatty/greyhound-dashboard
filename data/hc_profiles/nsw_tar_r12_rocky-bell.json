@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1681,
-      "ens_prob": 0.124,
-      "fastai_prob": 0.5498,
-      "fastai_rank": 6,
+      "ml_prob": 0.1782,
+      "ens_prob": 0.13,
+      "fastai_prob": 0.5521,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706491
+      "races_with_same_dogs": 706925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "OUT OF RANGE",
       "dam": "COSMIC BELLE",
-      "total_offspring_runs_in_state": 1567,
-      "sire_win_rate": 0.11933631142310147
+      "total_offspring_runs_in_state": 1570,
+      "sire_win_rate": 0.1197452229299363
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

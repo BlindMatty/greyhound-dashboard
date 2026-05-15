@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1505,
-      "ens_prob": 0.1439,
-      "fastai_prob": 0.0303,
-      "fastai_rank": 4,
+      "ml_prob": 0.158,
+      "ens_prob": 0.16,
+      "fastai_prob": 0.0861,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781557
+      "races_with_same_dogs": 781998
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.0,
+      "max_wind_kmh": 18.1,
       "avg_temp_c": 15.2,
-      "total_precip_mm": 1.5,
+      "total_precip_mm": 1.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "VALLETTA MIST",
-      "total_offspring_runs_in_state": 4969,
-      "sire_win_rate": 0.13081102837593078
+      "total_offspring_runs_in_state": 4979,
+      "sire_win_rate": 0.13054830287206268
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 166,
+      "total_litter_runs": 167,
       "litter_wins": 23
     },
     "35_Injury_History": {
@@ -195,12 +195,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.086)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

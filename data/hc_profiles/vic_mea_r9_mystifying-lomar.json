@@ -9,12 +9,12 @@
     "history_length": 19,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3157,
-      "ens_prob": 0.2461,
-      "fastai_prob": 0.3671,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3146,
+      "ens_prob": 0.1792,
+      "fastai_prob": 0.3285,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781557
+      "races_with_same_dogs": 781998
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.9,
-      "avg_temp_c": 17.2,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 18.9,
+      "avg_temp_c": 17.4,
+      "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "PERFECT LOMAR",
-      "total_offspring_runs_in_state": 23737,
-      "sire_win_rate": 0.12823861482074397
+      "total_offspring_runs_in_state": 23770,
+      "sire_win_rate": 0.1281447202355911
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -208,9 +208,7 @@
         "Benefiting from inside track bias",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.367)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }
