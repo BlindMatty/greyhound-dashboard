@@ -9,12 +9,12 @@
     "history_length": 40,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.373,
-      "ens_prob": 0.344,
-      "fastai_prob": 0.1219,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "ens_prob": 0.3945,
+      "fastai_prob": 0.3765,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.122)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
@@ -207,7 +206,9 @@
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.377)"
       ]
     }
   }

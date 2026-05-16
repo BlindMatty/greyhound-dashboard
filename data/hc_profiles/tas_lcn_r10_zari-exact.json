@@ -1,62 +1,61 @@
 {
   "dog": "ZARI EXACT",
-  "date": "2026-04-20",
+  "date": "2026-05-18",
   "track": "LCN",
   "race": 10,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Mixed 3/4",
   "steps": {
-    "history_length": 18,
+    "history_length": 23,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.5278,
-      "mc_win_pct": 45.6,
-      "ens_prob": 0.3436,
-      "fastai_prob": 0.4214,
-      "fastai_rank": 1,
-      "is_four_way": true
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 1,
+      "ml_prob": 0.184,
+      "ens_prob": 0.1942,
+      "fastai_prob": null,
+      "fastai_rank": null,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 4,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 355.94444444444446,
+      "avg_dist": 355.04347826086956,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Mixed 3/4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.7,
-      "fluctuation": 0.7882352941176478,
+      "last_weight": 33.3,
+      "fluctuation": 0.2545454545454504,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 18,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.2,
+      "total_starts": 23,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 2.4,
       "last_10_places": [
-        5.0,
-        2.0,
-        4.0,
-        3.0,
-        4.0,
         6.0,
         1.0,
         3.0,
         5.0,
-        1.0
+        1.0,
+        1.0,
+        4.0,
+        1.0,
+        1.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 84864
+      "races_with_same_dogs": 86002
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -103,7 +102,7 @@
       "days_since_last_run": 4
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -112,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 8746.25
+      "career_prize": 16396.25
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -125,8 +124,8 @@
       "message": "Coordinates not mapped for track: LCN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.11764705882352941,
-      "place_rate": 0.4117647058823529
+      "win_rate": 0.22727272727272727,
+      "place_rate": 0.45454545454545453
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -137,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BALLYMAC BEST",
       "dam": "TRENDING ZARI",
-      "total_offspring_runs_in_state": 18,
-      "sire_win_rate": 0.1111111111111111
+      "total_offspring_runs_in_state": 23,
+      "sire_win_rate": 0.21739130434782608
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 18,
-      "litter_wins": 2
+      "total_litter_runs": 23,
+      "litter_wins": 5
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -168,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -177,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 18
+      "total_starts": 23
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.4890021438762195
+      "ewma_places": 3.234031494624971
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,20 +191,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
-      "decision": "PASS / CAUTION",
+      "final_score": 4,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Positive Weight Gain (Strength build)",
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Professional Box Dog (Elite start consistency)",
-        "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.421)"
+        "High Earnings Class / Classy Animal",
+        "Elite Sire Line (>15% state win rate)"
       ]
     }
   }

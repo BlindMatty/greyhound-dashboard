@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.274,
-      "ens_prob": 0.3291,
-      "fastai_prob": 0.3614,
+      "ml_prob": 0.2559,
+      "ens_prob": 0.3582,
+      "fastai_prob": 0.5121,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 781998
+      "races_with_same_dogs": 782191
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "LAKEVIEW ALLY",
-      "total_offspring_runs_in_state": 12490,
-      "sire_win_rate": 0.13354683746997598
+      "total_offspring_runs_in_state": 12503,
+      "sire_win_rate": 0.13356794369351355
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -196,7 +196,7 @@
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.361)"
+        "FastAI Strong Conviction (Rank 1, prob 0.512)"
       ]
     }
   }

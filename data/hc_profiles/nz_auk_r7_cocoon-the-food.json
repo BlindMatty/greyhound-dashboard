@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 45,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
+      "status": "Validated (ML+ENS)",
       "alignment_count": 1,
       "ml_prob": 0.2354,
-      "ens_prob": 0.2236,
-      "fastai_prob": 0.1034,
-      "fastai_rank": 1,
+      "ens_prob": 0.2067,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
