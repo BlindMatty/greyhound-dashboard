@@ -150,6 +150,10 @@ main {
 #eloSection h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 16px; }
 #hcSection { margin-bottom: 24px; margin-top: 8px; }
 #hcSection h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 16px; }
+#hc45Section { margin-bottom: 28px; margin-top: 12px; }
+#hc45Section h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 18px; }
+#hc50Section { margin-bottom: 28px; margin-top: 12px; }
+#hc50Section h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 18px; }
 .picks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
