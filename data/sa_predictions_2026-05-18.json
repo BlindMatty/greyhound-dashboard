@@ -1589,7 +1589,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 7.910291577753842,
-      "grade": "Grade 6"
+      "grade": "Grade 6",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1613,7 +1615,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 3.5765649697729134,
-      "grade": "Masters Final"
+      "grade": "Masters Final",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1637,7 +1641,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 6.1932216759284096,
-      "grade": "Maiden"
+      "grade": "Maiden",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1661,7 +1667,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 2.2261065189009805,
-      "grade": "Grade 5"
+      "grade": "Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1685,7 +1693,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 3.784899248626952,
-      "grade": "Grade 6"
+      "grade": "Grade 6",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1709,7 +1719,14 @@
       "mlSpecialistSr": 44.4,
       "mlSpecialistRaces": 9,
       "mlGapToSecondPct": 2.4744900631140823,
-      "grade": "Masters"
+      "grade": "Masters",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": true,
+      "mlSpecialistSource": "morning",
+      "isDayBeforeMlSpecialist": false,
+      "isMorningMlSpecialistAddition": true,
+      "isHourlyMlSpecialistAddition": false,
+      "isRemovedMlSpecialist": false
     },
     {
       "track": "APK",
@@ -1733,7 +1750,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 6.508443730299707,
-      "grade": "Masters Final"
+      "grade": "Masters Final",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1757,7 +1776,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 18.59844077253149,
-      "grade": "Grade 6"
+      "grade": "Grade 6",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1781,7 +1802,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 4.2255004206894045,
-      "grade": "Special Event Non Penalty"
+      "grade": "Special Event Non Penalty",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1805,7 +1828,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 2.226334945543504,
-      "grade": "Mixed"
+      "grade": "Mixed",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "APK",
@@ -1829,7 +1854,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 6.178676799881705,
-      "grade": "Maiden"
+      "grade": "Maiden",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     }
   ],
   "topPicks": [
@@ -1847,6 +1874,7 @@
       "distanceInMetres": 530,
       "ensemble_prob": 0.37661928288098184,
       "ensemble_odds": 2.655201274747308,
+      "ensemble_rank": 1,
       "fastai_prob": 0.3639588454907492,
       "fastai_rank": 1,
       "elo_prob": 0.17747281569531478,
@@ -1872,6 +1900,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.271553929804096,
       "ensemble_odds": 3.6825097715264827,
+      "ensemble_rank": 1,
       "fastai_prob": 0.2405528913920767,
       "fastai_rank": 1,
       "elo_prob": 0.30451033180003484,
@@ -1897,6 +1926,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.30231787606925464,
       "ensemble_odds": 3.307776612491552,
+      "ensemble_rank": 1,
       "fastai_prob": 0.3064645970005809,
       "fastai_rank": 1,
       "elo_prob": 0.1894810489980965,
@@ -1922,6 +1952,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.25788505504282294,
       "ensemble_odds": 3.8776965956167784,
+      "ensemble_rank": 3,
       "fastai_prob": 0.198400134995396,
       "fastai_rank": 3,
       "elo_prob": 0.12788315446392176,
@@ -1947,6 +1978,7 @@
       "distanceInMetres": 595,
       "ensemble_prob": 0.27968805266852687,
       "ensemble_odds": 3.5754119293223905,
+      "ensemble_rank": 1,
       "fastai_prob": 0.306453781009945,
       "fastai_rank": 2,
       "elo_prob": 0.2444689398219904,
@@ -1972,6 +2004,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.1726394290625011,
       "ensemble_odds": 5.792419526816017,
+      "ensemble_rank": 2,
       "fastai_prob": 0.1218268056864254,
       "fastai_rank": 4,
       "elo_prob": 0.21578686845872816,
@@ -1997,6 +2030,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.2693684609601466,
       "ensemble_odds": 3.712387101428148,
+      "ensemble_rank": 2,
       "fastai_prob": 0.3023525347811818,
       "fastai_rank": 2,
       "elo_prob": 0.4522151476532375,
@@ -2022,6 +2056,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.45945142927087157,
       "ensemble_odds": 2.176508628097978,
+      "ensemble_rank": 1,
       "fastai_prob": 0.6413902140079321,
       "fastai_rank": 1,
       "elo_prob": 0.11479906420522906,
@@ -2047,6 +2082,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.2230499229087265,
       "ensemble_odds": 4.483301258118823,
+      "ensemble_rank": 1,
       "fastai_prob": 0.1969363888356733,
       "fastai_rank": 2,
       "elo_prob": 0.4614202053696615,
@@ -2072,6 +2108,7 @@
       "distanceInMetres": 342,
       "ensemble_prob": 0.2075214942359124,
       "ensemble_odds": 4.818777947228881,
+      "ensemble_rank": 1,
       "fastai_prob": 0.2209406677273597,
       "fastai_rank": 1,
       "elo_prob": 0.23215419974225315,

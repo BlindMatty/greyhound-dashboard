@@ -49,7 +49,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('hcSection'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -88,6 +88,10 @@ function renderSummary(data) {
     setStat('statENS', mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-');
     setStat('statFASTENS', mp.models.fast_ens ? mp.models.fast_ens.strikeRate.toFixed(1) + '%' : '-');
     setStat('statELOENS', mp.models.elo_ens ? mp.models.elo_ens.strikeRate.toFixed(1) + '%' : '-');
+    const mlTsTiers = mp.mlTsTiers && mp.mlTsTiers.models ? mp.mlTsTiers.models : null;
+    setStat('statMLTS', mlTsTiers && mlTsTiers.base_ml_ts ? mlTsTiers.base_ml_ts.strikeRate.toFixed(1) + '%' : '-');
+    setStat('statMLTS4510', mlTsTiers && mlTsTiers.ml_ts_45_10 ? mlTsTiers.ml_ts_45_10.strikeRate.toFixed(1) + '%' : '-');
+    setStat('statMLTS5010', mlTsTiers && mlTsTiers.ml_ts_50_10 ? mlTsTiers.ml_ts_50_10.strikeRate.toFixed(1) + '%' : '-');
     const meta = document.getElementById('summaryMeta');
     meta.textContent = `Cumulative SR from ${mp.startDate} to ${mp.resultsDate} over ${mp.settledRaces} settled races`;
     show('summaryMeta');
@@ -136,9 +140,33 @@ function renderSummary(data) {
   show('summaryBar');
 }
 
+function qualifiesMlTsTier(pick, minSr, minRaces) {
+  if (!pick || !pick.isMlSpecialist) return false;
+  const specialistSr = Number(pick.mlSpecialistSr);
+  const specialistRaces = Number(pick.mlSpecialistRaces);
+  if (!Number.isFinite(specialistSr) || !Number.isFinite(specialistRaces)) return false;
+  return specialistSr > minSr && specialistRaces >= minRaces;
+}
+
+function getMlTsCardClass(pick) {
+  if (pick.isRemovedMlSpecialist) return ' hc-card-removed';
+  if (pick.isHourlyMlSpecialistAddition) return ' hc-card-hourly';
+  if (pick.isMorningMlSpecialistAddition) return ' hc-card-morning';
+  return ' hc-card-day-before';
+}
+
+function getMlTsSourceLabel(pick) {
+  if (pick.isRemovedMlSpecialist) return 'Removed';
+  if (pick.isHourlyMlSpecialistAddition) return 'Hourly';
+  if (pick.isMorningMlSpecialistAddition) return 'Morning';
+  return 'Day Before';
+}
+
 // ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
   const tsHC = [];
+  const ts45HC = [];
+  const ts50HC = [];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
     try {
@@ -148,6 +176,12 @@ async function loadHighConfidencePicks(states) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
         if (p.isMlSpecialist) {
           tsHC.push(enhancedP);
+          if (qualifiesMlTsTier(enhancedP, 45, 10)) {
+            ts45HC.push(enhancedP);
+          }
+          if (qualifiesMlTsTier(enhancedP, 50, 10)) {
+            ts50HC.push(enhancedP);
+          }
         }
       }
     } catch { /* skip */ }
@@ -162,8 +196,12 @@ async function loadHighConfidencePicks(states) {
   };
 
   tsHC.sort(sorter);
+  ts45HC.sort(sorter);
+  ts50HC.sort(sorter);
 
   renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
+  renderPicksGrid(ts45HC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'top track specialists >45%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
+  renderPicksGrid(ts50HC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'top track specialists >50%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
@@ -201,17 +239,19 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const mlSpecialistSr = Number(p.mlSpecialistSr || 0);
     const showMlSpecialistSr = opts.useNormOdds && mlSpecialistSr > 0;
     const showNewAddition = opts.newFlag ? Boolean(p[opts.newFlag]) : false;
+    const sourceLabel = getMlTsSourceLabel(p);
+    const cardClass = opts.useNormOdds ? getMlTsCardClass(p) : '';
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
-    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
+    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
         <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
-          · ${esc(stateLabel)}
+          · ${esc(stateLabel)} · ${esc(sourceLabel)}
         </span>
         <span class="hc-meta">
           ML ${(p.probability * 100).toFixed(1)}%

@@ -25,12 +25,21 @@
 
     <!-- Model SR performance bar -->
     <section id="summaryBar" class="summary-bar" hidden>
-      <div class="stat"><span id="statML" class="stat-value">-</span><span class="stat-label">ML</span></div>
-      <div class="stat"><span id="statFA" class="stat-value">-</span><span class="stat-label">FA</span></div>
-      <div class="stat"><span id="statELO" class="stat-value">-</span><span class="stat-label">ELO</span></div>
-      <div class="stat"><span id="statENS" class="stat-value">-</span><span class="stat-label">ENS</span></div>
-      <div class="stat"><span id="statFASTENS" class="stat-value">-</span><span class="stat-label">FAST ENS</span></div>
-      <div class="stat"><span id="statELOENS" class="stat-value">-</span><span class="stat-label">ELO ENS</span></div>
+      <div class="summary-row">
+        <div class="stat"><span id="statML" class="stat-value">-</span><span class="stat-label">ML</span></div>
+        <div class="stat"><span id="statFA" class="stat-value">-</span><span class="stat-label">FA</span></div>
+        <div class="stat"><span id="statELO" class="stat-value">-</span><span class="stat-label">ELO</span></div>
+      </div>
+      <div class="summary-row">
+        <div class="stat"><span id="statENS" class="stat-value">-</span><span class="stat-label">ENS</span></div>
+        <div class="stat"><span id="statFASTENS" class="stat-value">-</span><span class="stat-label">FAST ENS</span></div>
+        <div class="stat"><span id="statELOENS" class="stat-value">-</span><span class="stat-label">ELO ENS</span></div>
+      </div>
+      <div class="summary-row">
+        <div class="stat"><span id="statMLTS" class="stat-value">-</span><span class="stat-label">ML TS</span></div>
+        <div class="stat"><span id="statMLTS4510" class="stat-value">-</span><span class="stat-label">ML TS &gt;45%, 10+</span></div>
+        <div class="stat"><span id="statMLTS5010" class="stat-value">-</span><span class="stat-label">ML TS &gt;50%, 10+</span></div>
+      </div>
     </section>
     <div id="summaryMeta" class="summary-meta" hidden></div>
 
@@ -55,6 +64,16 @@
     <section id="hcSection" hidden>
       <h2>⭐ ML TS Top Picks <span id="hcSubtitle" style="font-size:0.75rem;font-weight:400;color:#8b90a0"></span></h2>
       <div id="hcPicks" class="picks-grid"></div>
+    </section>
+
+    <section id="hc45Section" hidden>
+      <h2>⭐ ML TS Top Picks >45%, &gt;=10 <span id="hc45Subtitle" style="font-size:0.75rem;font-weight:400;color:#8b90a0"></span></h2>
+      <div id="hc45Picks" class="picks-grid"></div>
+    </section>
+
+    <section id="hc50Section" hidden>
+      <h2>⭐ ML TS Top Picks >50%, &gt;=10 <span id="hc50Subtitle" style="font-size:0.75rem;font-weight:400;color:#8b90a0"></span></h2>
+      <div id="hc50Picks" class="picks-grid"></div>
     </section>
 
     <!-- State tabs -->

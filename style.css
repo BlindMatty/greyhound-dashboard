@@ -13,6 +13,8 @@
   --green-bg: rgba(52, 211, 153, 0.1);
   --yellow: #fbbf24;
   --yellow-bg: rgba(251, 191, 36, 0.1);
+  --orange: #fb923c;
+  --orange-bg: rgba(251, 146, 60, 0.1);
   --red: #f87171;
   --red-bg: rgba(248, 113, 113, 0.1);
   --radius: 8px;
@@ -99,9 +101,14 @@ main {
 /* ── Summary Bar ─────────────────────────────── */
 .summary-bar {
   display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.summary-row {
+  display: flex;
   gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 24px;
 }
 .stat {
   background: var(--bg2);
@@ -156,6 +163,19 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+.hc-card-day-before { border-color: var(--green); }
+.hc-card-morning {
+  border-color: var(--accent);
+  background: rgba(91, 141, 239, 0.1);
+}
+.hc-card-hourly {
+  border-color: var(--orange);
+  background: var(--orange-bg);
+}
+.hc-card-removed {
+  border-color: var(--red);
+  background: var(--red-bg);
 }
 .hc-card .hc-left { display: flex; flex-direction: column; gap: 2px; }
 .hc-card .hc-right { display: flex; flex-direction: column; align-items: flex-end; }

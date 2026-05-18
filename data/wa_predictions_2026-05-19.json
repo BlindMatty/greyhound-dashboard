@@ -2293,7 +2293,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 9.458577815440194,
-      "grade": "Novice Grade 5"
+      "grade": "Novice Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2317,7 +2319,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 8.389021182667497,
-      "grade": "Novice Grade 5"
+      "grade": "Novice Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2341,7 +2345,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 11.917943916215673,
-      "grade": "Grade 5"
+      "grade": "Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2365,7 +2371,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 8.355469660933151,
-      "grade": "Maiden"
+      "grade": "Maiden",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2389,7 +2397,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 0.4089931615510106,
-      "grade": "Masters Grade 5"
+      "grade": "Masters Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2413,7 +2423,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 2.8098919590484965,
-      "grade": "Maiden"
+      "grade": "Maiden",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2437,7 +2449,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 10.832092799824231,
-      "grade": "Maiden"
+      "grade": "Maiden",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2461,7 +2475,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 5.583655417601357,
-      "grade": "Novice Grade 5"
+      "grade": "Novice Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2485,7 +2501,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 15.800869864661236,
-      "grade": "Maiden"
+      "grade": "Maiden",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2509,7 +2527,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 5.135964981767055,
-      "grade": "Grade 5"
+      "grade": "Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2533,7 +2553,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 1.993484176725782,
-      "grade": "Novice Grade 5"
+      "grade": "Novice Grade 5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     },
     {
       "track": "MAN",
@@ -2557,7 +2579,9 @@
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
       "mlGapToSecondPct": 0.2057566825945989,
-      "grade": "Mixed 6/5"
+      "grade": "Mixed 6/5",
+      "isNewEloAddition": false,
+      "isNewMlSpecialistAddition": false
     }
   ],
   "topPicks": [
@@ -2575,6 +2599,7 @@
       "distanceInMetres": 400,
       "ensemble_prob": 0.24435540025498403,
       "ensemble_odds": 4.0923998362896965,
+      "ensemble_rank": 1,
       "fastai_prob": 0.1861024602269148,
       "fastai_rank": 2,
       "elo_prob": 0.20443809194535703,
@@ -2600,6 +2625,7 @@
       "distanceInMetres": 400,
       "ensemble_prob": 0.1963633921809,
       "ensemble_odds": 5.092598925357477,
+      "ensemble_rank": 1,
       "fastai_prob": 0.0897398978099589,
       "fastai_rank": 7,
       "elo_prob": 0.1711490005313264,
@@ -2625,6 +2651,7 @@
       "distanceInMetres": 488,
       "ensemble_prob": 0.192101911182335,
       "ensemble_odds": 5.205570282176122,
+      "ensemble_rank": 1,
       "fastai_prob": 0.1322421865458904,
       "fastai_rank": 5,
       "elo_prob": 0.17993272566468807,
@@ -2650,6 +2677,7 @@
       "distanceInMetres": 400,
       "ensemble_prob": 0.17215864704284073,
       "ensemble_odds": 5.808595833999297,
+      "ensemble_rank": 3,
       "fastai_prob": 0.1255991656293031,
       "fastai_rank": 4,
       "elo_prob": 0.15617053676680878,
@@ -2675,6 +2703,7 @@
       "distanceInMetres": 488,
       "ensemble_prob": 0.18601756114040693,
       "ensemble_odds": 5.375836527849085,
+      "ensemble_rank": 1,
       "fastai_prob": 0.1154628630016208,
       "fastai_rank": 4,
       "elo_prob": 0.09478017015856416,
@@ -2700,6 +2729,7 @@
       "distanceInMetres": 400,
       "ensemble_prob": 0.15545891314202784,
       "ensemble_odds": 6.432567807073219,
+      "ensemble_rank": 2,
       "fastai_prob": 0.1001914822120842,
       "fastai_rank": 7,
       "elo_prob": 0.16037381671686152,
@@ -2725,6 +2755,7 @@
       "distanceInMetres": 400,
       "ensemble_prob": 0.23190846402774776,
       "ensemble_odds": 4.3120461523144336,
+      "ensemble_rank": 1,
       "fastai_prob": 0.1920461661515091,
       "fastai_rank": 1,
       "elo_prob": 0.17808597491260625,
@@ -2750,6 +2781,7 @@
       "distanceInMetres": 400,
       "ensemble_prob": 0.1372614124512487,
       "ensemble_odds": 7.285368714642734,
+      "ensemble_rank": 3,
       "fastai_prob": 0.0905647334130494,
       "fastai_rank": 6,
       "elo_prob": 0.11072575748733797,
@@ -2775,6 +2807,7 @@
       "distanceInMetres": 300,
       "ensemble_prob": 0.2078744989384027,
       "ensemble_odds": 4.810594878673982,
+      "ensemble_rank": 1,
       "fastai_prob": 0.1512270492283061,
       "fastai_rank": 2,
       "elo_prob": 0.1262602946203343,
@@ -2800,6 +2833,7 @@
       "distanceInMetres": 400,
       "ensemble_prob": 0.1130073716021689,
       "ensemble_odds": 8.84898025520317,
+      "ensemble_rank": 5,
       "fastai_prob": 0.0619914934821475,
       "fastai_rank": 8,
       "elo_prob": 0.14154402363785634,
