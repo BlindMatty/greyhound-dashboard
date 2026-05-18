@@ -8,13 +8,13 @@
   "steps": {
     "history_length": 110,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
       "ml_prob": 0.1864,
-      "ens_prob": 0.2163,
-      "fastai_prob": null,
-      "fastai_rank": null,
-      "is_three_way": false
+      "ens_prob": 0.1794,
+      "fastai_prob": 0.4333,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -206,7 +206,8 @@
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Veteran Dog (>50 starts) - Racing sense",
-        "2-Way Model Alignment"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.433)"
       ]
     }
   }

@@ -9,12 +9,12 @@
     "history_length": 11,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1602,
-      "ens_prob": 0.2891,
-      "fastai_prob": 0.59,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1914,
+      "ens_prob": 0.2695,
+      "fastai_prob": 0.5508,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782191
+      "races_with_same_dogs": 782406
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MA'S PLUM JAM",
-      "total_offspring_runs_in_state": 100865,
-      "sire_win_rate": 0.13240469935061716
+      "total_offspring_runs_in_state": 100886,
+      "sire_win_rate": 0.13239696290862954
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 9,
-      "total_litter_runs": 41,
+      "litter_size_racing": 10,
+      "total_litter_runs": 42,
       "litter_wins": 5
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -202,9 +202,7 @@
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.590)"
+        "Optimal Racing Cadence (6-10 days)"
       ]
     }
   }

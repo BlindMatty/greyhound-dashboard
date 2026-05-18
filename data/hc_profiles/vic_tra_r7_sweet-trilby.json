@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.157,
-      "ens_prob": 0.1504,
-      "fastai_prob": 0.0951,
-      "fastai_rank": 4,
+      "ml_prob": 0.1488,
+      "ens_prob": 0.229,
+      "fastai_prob": 0.2489,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 60,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782191
+      "races_with_same_dogs": 782406
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.8,
-      "avg_temp_c": 13.9,
-      "total_precip_mm": 7.1,
+      "max_wind_kmh": 7.6,
+      "avg_temp_c": 13.3,
+      "total_precip_mm": 5.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "MIRIAM",
-      "total_offspring_runs_in_state": 29077,
-      "sire_win_rate": 0.1390789971455102
+      "total_offspring_runs_in_state": 29085,
+      "sire_win_rate": 0.13907512463469143
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 239,
+      "total_litter_runs": 240,
       "litter_wins": 29
     },
     "35_Injury_History": {
@@ -195,15 +195,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

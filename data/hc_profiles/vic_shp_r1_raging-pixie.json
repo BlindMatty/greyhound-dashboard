@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1636,
-      "ens_prob": 0.1773,
-      "fastai_prob": 0.0627,
-      "fastai_rank": 3,
+      "ml_prob": 0.1617,
+      "ens_prob": 0.175,
+      "fastai_prob": 0.1525,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782191
+      "races_with_same_dogs": 782406
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,12 +128,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "PAUA OF BUDDY",
       "dam": "ALWAYS HO HO",
-      "total_offspring_runs_in_state": 30,
-      "sire_win_rate": 0.06666666666666667
+      "total_offspring_runs_in_state": 31,
+      "sire_win_rate": 0.06451612903225806
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 1,
-      "total_litter_runs": 3,
+      "litter_size_racing": 2,
+      "total_litter_runs": 4,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -183,13 +183,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 3, prob 0.063)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

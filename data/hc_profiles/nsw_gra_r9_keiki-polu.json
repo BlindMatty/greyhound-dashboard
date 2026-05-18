@@ -1,62 +1,61 @@
 {
   "dog": "KEIKI POLU",
-  "date": "2026-04-19",
+  "date": "2026-05-19",
   "track": "GRA",
   "race": 9,
   "distance": 0,
-  "grade": "Masters Grade 2/3",
+  "grade": "Masters Grade 3",
   "steps": {
-    "history_length": 66,
+    "history_length": 70,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.2296,
-      "mc_win_pct": 38.2,
-      "ens_prob": 0.2568,
-      "fastai_prob": 0.1543,
-      "fastai_rank": 2,
-      "is_four_way": true
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.1197,
+      "ens_prob": 0.1372,
+      "fastai_prob": 0.0919,
+      "fastai_rank": 6,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
-      "has_inside_pressure": false,
-      "has_outside_pressure": false
+      "own_box": 6,
+      "has_inside_pressure": true,
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 382.92424242424244,
+      "avg_dist": 380.3285714285714,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Masters Grade 2/3 vs Field"
+      "current_vs_historic_grade": "Masters Grade 3 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 23.8,
-      "fluctuation": -0.28571428571428115,
+      "last_weight": 23.9,
+      "fluctuation": -0.17761194029851168,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 66,
-      "last_3_avg_place": 2.3333333333333335,
-      "last_5_avg_place": 2.8,
+      "total_starts": 70,
+      "last_3_avg_place": 4.333333333333333,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        5.0,
-        8.0,
-        8.0,
-        1.0,
         6.0,
         4.0,
         3.0,
         4.0,
         1.0,
-        2.0
+        2.0,
+        2.0,
+        4.0,
+        4.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 699022
+      "races_with_same_dogs": 707461
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -78,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.15360655737705
+      "avg_run_home": 15.19876923076923
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.6363148646498527
+      "split_stdev": 2.674995210276086
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -112,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 30505.0
+      "career_prize": 31090.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.5961538461538463
@@ -125,8 +124,8 @@
       "message": "Coordinates not mapped for track: GRA"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.22580645161290322,
-      "place_rate": 0.4838709677419355
+      "win_rate": 0.21212121212121213,
+      "place_rate": 0.4696969696969697
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -137,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "KEIKI",
-      "total_offspring_runs_in_state": 100966,
-      "sire_win_rate": 0.13671929164273122
+      "total_offspring_runs_in_state": 101755,
+      "sire_win_rate": 0.13660262394968306
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 399,
+      "total_litter_runs": 408,
       "litter_wins": 58
     },
     "35_Injury_History": {
@@ -168,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -177,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 66
+      "total_starts": 70
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.2211771054931826
+      "ewma_places": 4.263823569093324
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,24 +191,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Clean Early Run (No adjacent pressure)",
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

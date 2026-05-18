@@ -1,28 +1,28 @@
 {
   "dog": "POSH WHEELS",
-  "date": "2026-05-11",
+  "date": "2026-05-18",
   "track": "APK",
   "race": 1,
   "distance": 0,
-  "grade": "Maiden Final",
+  "grade": "Maiden",
   "steps": {
-    "history_length": 1,
+    "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3055,
-      "ens_prob": 0.2238,
-      "fastai_prob": 0.0751,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2887,
+      "ens_prob": 0.3023,
+      "fastai_prob": 0.1512,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
-      "has_inside_pressure": true,
+      "own_box": 6,
+      "has_inside_pressure": false,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
@@ -31,7 +31,7 @@
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Maiden Final vs Field"
+      "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 26.1,
@@ -42,10 +42,11 @@
       "field_size": 5
     },
     "08_Form_Trajectory": {
-      "total_starts": 1,
+      "total_starts": 2,
       "last_3_avg_place": null,
       "last_5_avg_place": null,
       "last_10_places": [
+        2.0,
         2.0
       ]
     },
@@ -59,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214960
+      "races_with_same_dogs": 215522
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -68,13 +69,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.189999999999998
+      "avg_run_home": 15.254999999999999
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": NaN
+      "split_stdev": 0.10606601717798175
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -90,10 +91,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -102,7 +103,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 280.0
+      "career_prize": 600.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -127,12 +128,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "KINLOCH BRAE",
       "dam": "SHE'S GOT WHEELS",
-      "total_offspring_runs_in_state": 4171,
-      "sire_win_rate": 0.1114840565811556
+      "total_offspring_runs_in_state": 4174,
+      "sire_win_rate": 0.11140392908481073
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 1,
+      "total_litter_runs": 2,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -167,7 +168,7 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 1
+      "total_starts": 2
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
@@ -182,20 +183,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 3, prob 0.075)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Optimal Racing Cadence (6-10 days)",
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

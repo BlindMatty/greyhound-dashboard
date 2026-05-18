@@ -9,12 +9,12 @@
     "history_length": 109,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1088,
-      "ens_prob": 0.1409,
-      "fastai_prob": 0.0363,
-      "fastai_rank": 6,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1635,
+      "ens_prob": 0.2485,
+      "fastai_prob": 0.1947,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213660
+      "races_with_same_dogs": 213754
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -191,21 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

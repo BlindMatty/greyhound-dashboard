@@ -119,6 +119,24 @@ main {
 .stat-value { display: block; font-size: 1.4rem; font-weight: 700; }
 .stat-label { display: block; font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
 .summary-meta { text-align: center; color: var(--text-dim); font-size: 0.8rem; margin: -16px 0 20px; }
+.summary-subsection { margin: -4px 0 24px; }
+.summary-subhead {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.summary-bar-secondary { margin-bottom: 12px; }
+.stat-compare { min-width: 180px; }
+.stat-note {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+.summary-meta-secondary { margin: -8px 0 0; }
 
 /* ── High Confidence Picks ───────────────────── */
 #eloSection { margin-bottom: 24px; }
@@ -138,10 +156,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-.hc-card.hc-card-new {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px rgba(91, 141, 239, 0.4);
 }
 .hc-card .hc-left { display: flex; flex-direction: column; gap: 2px; }
 .hc-card .hc-right { display: flex; flex-direction: column; align-items: flex-end; }
@@ -295,6 +309,7 @@ footer {
   .summary-bar { gap: 8px; }
   .stat { padding: 8px 12px; min-width: 70px; }
   .stat-value { font-size: 1.1rem; }
+  .stat-note { font-size: 0.68rem; }
   .dog-table { font-size: 0.8rem; }
   .dog-table th, .dog-table td { padding: 6px 8px; }
   .picks-grid { grid-template-columns: 1fr; }

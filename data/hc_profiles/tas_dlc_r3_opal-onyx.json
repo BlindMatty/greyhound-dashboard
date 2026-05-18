@@ -1,33 +1,32 @@
 {
   "dog": "OPAL ONYX",
-  "date": "2026-04-21",
+  "date": "2026-05-19",
   "track": "DLC",
   "race": 3,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 12,
+    "history_length": 14,
     "01_Shortlist": {
-      "status": "Validated (ML+MC+ENS+FAI)",
-      "alignment_count": 4,
-      "ml_prob": 0.303,
-      "mc_win_pct": 38.2,
-      "ens_prob": 0.2833,
-      "fastai_prob": 0.484,
-      "fastai_rank": 1,
-      "is_four_way": true
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.2002,
+      "ens_prob": 0.1578,
+      "fastai_prob": 0.4022,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 4,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 328.75,
+      "avg_dist": 325.92857142857144,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,19 +34,18 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.8,
-      "fluctuation": 0.1999999999999993,
+      "last_weight": 25.6,
+      "fluctuation": 0.0,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 12,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 2.6,
+      "total_starts": 14,
+      "last_3_avg_place": 1.6666666666666667,
+      "last_5_avg_place": 2.8,
       "last_10_places": [
-        1.0,
         4.0,
         2.0,
         1.0,
@@ -56,7 +54,8 @@
         6.0,
         3.0,
         2.0,
-        1.0
+        1.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -69,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 84864
+      "races_with_same_dogs": 86002
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -100,7 +99,7 @@
       "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 8
+      "days_since_last_run": 21
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -112,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 11705.0
+      "career_prize": 12365.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -278
+      "dist_diff_from_last": -340
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: DLC"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.4,
-      "place_rate": 0.8
+      "win_rate": 0.36363636363636365,
+      "place_rate": 0.8181818181818182
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -137,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "LADIES GET GRACE",
-      "total_offspring_runs_in_state": 1318,
-      "sire_win_rate": 0.09787556904400607
+      "total_offspring_runs_in_state": 1385,
+      "sire_win_rate": 0.09819494584837545
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 12,
+      "total_litter_runs": 14,
       "litter_wins": 4
     },
     "35_Injury_History": {
@@ -174,16 +173,16 @@
       "is_heat": false
     },
     "44_Second_Up": {
-      "is_second_up": true
+      "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 12
+      "total_starts": 14
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.8387096774193548
+      "ewma_places": 1.9193942354665363
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -192,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,12 +202,8 @@
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "Second-Up Bounce Profile (Pinnacle fitness)",
-        "4-Way Model Alignment (ML+MC+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.484)"
+        "Proven Track Specialist Profile"
       ]
     }
   }

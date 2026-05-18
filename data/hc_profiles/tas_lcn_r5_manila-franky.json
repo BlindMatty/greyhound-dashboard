@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 8,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
       "ml_prob": 0.281,
-      "ens_prob": 0.2214,
-      "fastai_prob": null,
-      "fastai_rank": null,
+      "ens_prob": 0.1712,
+      "fastai_prob": 0.4165,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -188,7 +188,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,8 +201,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "2-Way Model Alignment"
+        "Proven Track Specialist Profile"
       ]
     }
   }

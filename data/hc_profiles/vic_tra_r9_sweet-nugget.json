@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1272,
-      "ens_prob": 0.121,
-      "fastai_prob": 0.0231,
+      "ml_prob": 0.1198,
+      "ens_prob": 0.1126,
+      "fastai_prob": 0.0215,
       "fastai_rank": 8,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782191
+      "races_with_same_dogs": 782406
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.8,
-      "avg_temp_c": 13.9,
-      "total_precip_mm": 7.1,
+      "max_wind_kmh": 7.6,
+      "avg_temp_c": 13.3,
+      "total_precip_mm": 5.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZAMBORA BROCKIE",
       "dam": "SHE'S A BLAZIN'",
-      "total_offspring_runs_in_state": 16006,
-      "sire_win_rate": 0.13682369111583156
+      "total_offspring_runs_in_state": 16009,
+      "sire_win_rate": 0.13686051595977264
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,

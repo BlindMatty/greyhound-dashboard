@@ -9,12 +9,12 @@
     "history_length": 7,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.187,
-      "ens_prob": 0.1658,
-      "fastai_prob": 0.1791,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2162,
+      "ens_prob": 0.2075,
+      "fastai_prob": 0.271,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215380
+      "races_with_same_dogs": 215522
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "ULTIMATE RUSH",
-      "total_offspring_runs_in_state": 4326,
-      "sire_win_rate": 0.14956079519186316
+      "total_offspring_runs_in_state": 4335,
+      "sire_win_rate": 0.14948096885813147
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -185,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -198,7 +198,9 @@
         "Optimal Racing Cadence (6-10 days)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.271)"
       ]
     }
   }

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1853,
-      "ens_prob": 0.3501,
-      "fastai_prob": 0.3746,
+      "ml_prob": 0.1955,
+      "ens_prob": 0.2562,
+      "fastai_prob": 0.3061,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -67,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215380
+      "races_with_same_dogs": 215522
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "UNDER SIEGE",
-      "total_offspring_runs_in_state": 2513,
-      "sire_win_rate": 0.20095503382411462
+      "total_offspring_runs_in_state": 2516,
+      "sire_win_rate": 0.20111287758346583
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -204,7 +204,7 @@
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.375)"
+        "FastAI Strong Conviction (Rank 1, prob 0.306)"
       ]
     }
   }
