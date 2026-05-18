@@ -149,6 +149,7 @@ function qualifiesMlTsTier(pick, minSr, minRaces) {
 }
 
 function getMlTsCardClass(pick) {
+  if (pick.isScratchedMlSpecialist) return ' hc-card-scratched';
   if (pick.isRemovedMlSpecialist) return ' hc-card-removed';
   if (pick.isHourlyMlSpecialistAddition) return ' hc-card-hourly';
   if (pick.isMorningMlSpecialistAddition) return ' hc-card-morning';
@@ -156,6 +157,7 @@ function getMlTsCardClass(pick) {
 }
 
 function getMlTsSourceLabel(pick) {
+  if (pick.isScratchedMlSpecialist) return 'Scratched';
   if (pick.isRemovedMlSpecialist) return 'Removed';
   if (pick.isHourlyMlSpecialistAddition) return 'Hourly';
   if (pick.isMorningMlSpecialistAddition) return 'Morning';

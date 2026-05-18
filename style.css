@@ -177,6 +177,10 @@ main {
   border-color: var(--orange);
   background: var(--orange-bg);
 }
+.hc-card-scratched {
+  border-color: var(--red);
+  background: var(--red-bg);
+}
 .hc-card-removed {
   border-color: var(--red);
   background: var(--red-bg);
