@@ -49,7 +49,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -100,9 +100,19 @@ function renderSummary(data) {
   const nz = data.nzChampionVsChallenger;
   const championCard = document.getElementById('nzChampionCard');
   const challengerCard = document.getElementById('nzChallengerCard');
+  const nzMeta = document.getElementById('nzCvCMeta');
   if (championCard && challengerCard) {
     championCard.classList.remove('highlight');
     challengerCard.classList.remove('highlight');
+    document.getElementById('nzChampionSR').textContent = '-';
+    document.getElementById('nzChallengerSR').textContent = '-';
+    document.getElementById('nzChampionNote').textContent = 'Awaiting scored NZ races';
+    document.getElementById('nzChallengerNote').textContent = 'Awaiting scored NZ races';
+    if (nzMeta) {
+      nzMeta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
+      show('nzCvCMeta');
+    }
+    show('nzCvCSection');
   }
 
   if (nz && nz.champion && nz.challenger && championCard && challengerCard) {
@@ -118,23 +128,10 @@ function renderSummary(data) {
     const leaderLabel = nz.leader === 'tie'
       ? 'Level on SR'
       : `${nz.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
-    const nzMeta = document.getElementById('nzCvCMeta');
     if (nzMeta) {
       nzMeta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
       show('nzCvCMeta');
     }
-    show('nzCvCSection');
-  } else if (championCard && challengerCard) {
-    document.getElementById('nzChampionSR').textContent = '-';
-    document.getElementById('nzChallengerSR').textContent = '-';
-    document.getElementById('nzChampionNote').textContent = 'Awaiting scored NZ races';
-    document.getElementById('nzChallengerNote').textContent = 'Awaiting scored NZ races';
-    const nzMeta = document.getElementById('nzCvCMeta');
-    if (nzMeta) {
-      nzMeta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
-      show('nzCvCMeta');
-    }
-    show('nzCvCSection');
   }
 
   show('summaryBar');

@@ -135,7 +135,13 @@ main {
   letter-spacing: 0.08em;
   margin-bottom: 10px;
 }
-.summary-bar-secondary { margin-bottom: 12px; }
+.summary-bar-secondary {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
 .stat-compare { min-width: 180px; }
 .stat-note {
   display: block;
