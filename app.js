@@ -136,9 +136,8 @@ function renderSummary(data) {
   show('summaryBar');
 }
 
-// ── FAST ENS top picks (ELO ENS when confirmed by Elo) ──
+// ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
-  const eloHC = [];
   const tsHC = [];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
@@ -147,9 +146,6 @@ async function loadHighConfidencePicks(states) {
       stateDataCache[s.code] = data;
       for (const p of (data.highConfidencePicks || [])) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
-        if (p.isEloEns) {
-          eloHC.push(enhancedP);
-        }
         if (p.isMlSpecialist) {
           tsHC.push(enhancedP);
         }
@@ -164,11 +160,9 @@ async function loadHighConfidencePicks(states) {
     if (ta !== tb) return ta - tb;
     return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
   };
-  
-  eloHC.sort(sorter);
+
   tsHC.sort(sorter);
 
-  renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks', {useNormOdds: false});
   renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
 }
 
