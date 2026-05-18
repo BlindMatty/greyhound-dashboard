@@ -96,10 +96,12 @@ function renderSummary(data) {
   const nz = data.nzChampionVsChallenger;
   const championCard = document.getElementById('nzChampionCard');
   const challengerCard = document.getElementById('nzChallengerCard');
-  championCard.classList.remove('highlight');
-  challengerCard.classList.remove('highlight');
+  if (championCard && challengerCard) {
+    championCard.classList.remove('highlight');
+    challengerCard.classList.remove('highlight');
+  }
 
-  if (nz && nz.champion && nz.challenger) {
+  if (nz && nz.champion && nz.challenger && championCard && challengerCard) {
     document.getElementById('nzChampionSR').textContent = nz.champion.strikeRate.toFixed(1) + '%';
     document.getElementById('nzChallengerSR').textContent = nz.challenger.strikeRate.toFixed(1) + '%';
     document.getElementById('nzChampionNote').textContent = `${nz.champion.winners}/${nz.champion.bets} wins`;
@@ -112,18 +114,22 @@ function renderSummary(data) {
     const leaderLabel = nz.leader === 'tie'
       ? 'Level on SR'
       : `${nz.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
-    const meta = document.getElementById('nzCvCMeta');
-    meta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
-    show('nzCvCMeta');
+    const nzMeta = document.getElementById('nzCvCMeta');
+    if (nzMeta) {
+      nzMeta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
+      show('nzCvCMeta');
+    }
     show('nzCvCSection');
-  } else {
+  } else if (championCard && challengerCard) {
     document.getElementById('nzChampionSR').textContent = '-';
     document.getElementById('nzChallengerSR').textContent = '-';
     document.getElementById('nzChampionNote').textContent = 'Awaiting scored NZ races';
     document.getElementById('nzChallengerNote').textContent = 'Awaiting scored NZ races';
-    const meta = document.getElementById('nzCvCMeta');
-    meta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
-    show('nzCvCMeta');
+    const nzMeta = document.getElementById('nzCvCMeta');
+    if (nzMeta) {
+      nzMeta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
+      show('nzCvCMeta');
+    }
     show('nzCvCSection');
   }
 
@@ -161,9 +167,9 @@ async function loadHighConfidencePicks(states) {
   
   eloHC.sort(sorter);
   tsHC.sort(sorter);
-  
+
   renderPicksGrid(eloHC, 'eloPicks', 'eloSection', 'eloSubtitle', 'ELO ENS picks', {useNormOdds: false});
-  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true});
+  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
@@ -181,6 +187,8 @@ function parseTime(s) {
 
 function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {}) {
   const el = document.getElementById(gridId);
+  const section = document.getElementById(sectionId);
+  if (!el || !section) return;
   if (!picks.length) { hide(sectionId); return; }
   const subtitle = document.getElementById(subtitleId);
   if (subtitle) {
@@ -191,19 +199,20 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const displayOdds = opts.useNormOdds
       ? (p.implied_odds_norm || p.implied_odds || 0)
       : (p.ensemble_odds || p.implied_odds || 0);
-    const oddsLabel = opts.useNormOdds ? '' : 'ENS implied';
+    const oddsLabel = opts.useNormOdds ? '' : 'ENS Odds';
     const ensProb = p.ensemble_prob || p.probability || 0;
     const fastaiProb = p.fastai_prob || 0;
     const mlGapToSecondPct = Number(p.mlGapToSecondPct || 0);
     const showMlGap = opts.useNormOdds && mlGapToSecondPct >= 15;
     const mlSpecialistSr = Number(p.mlSpecialistSr || 0);
     const showMlSpecialistSr = opts.useNormOdds && mlSpecialistSr > 0;
+    const showNewAddition = opts.newFlag ? Boolean(p[opts.newFlag]) : false;
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
-    <div class="hc-card" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
+    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
         <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
@@ -449,8 +458,14 @@ function esc(s) {
   return el.innerHTML;
 }
 
-function show(id) { document.getElementById(id).hidden = false; }
-function hide(id) { document.getElementById(id).hidden = true; }
+function show(id) {
+  const el = document.getElementById(id);
+  if (el) el.hidden = false;
+}
+function hide(id) {
+  const el = document.getElementById(id);
+  if (el) el.hidden = true;
+}
 function showError(msg) {
   hide('loading');
   const el = document.getElementById('error');
