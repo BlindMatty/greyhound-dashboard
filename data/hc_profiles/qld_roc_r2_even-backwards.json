@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2745,
-      "ens_prob": 0.2617,
-      "fastai_prob": 0.1372,
-      "fastai_rank": 3,
+      "ml_prob": 0.2299,
+      "ens_prob": 0.2891,
+      "fastai_prob": 0.1886,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 403580
+      "races_with_same_dogs": 403789
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "SKY'S THE LIMIT",
-      "total_offspring_runs_in_state": 8362,
-      "sire_win_rate": 0.1205453240851471
+      "total_offspring_runs_in_state": 8375,
+      "sire_win_rate": 0.1204776119402985
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -6,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -200,8 +200,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
         "Injury Prone (Multiple 60+ day spells)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 3, prob 0.137)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

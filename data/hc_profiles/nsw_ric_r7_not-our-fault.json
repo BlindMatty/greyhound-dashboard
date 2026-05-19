@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.239,
-      "ens_prob": 0.1908,
-      "fastai_prob": 0.3495,
-      "fastai_rank": 3,
+      "ml_prob": 0.3105,
+      "ens_prob": 0.1698,
+      "fastai_prob": 0.1837,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 707591
+      "races_with_same_dogs": 707845
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -118,7 +118,7 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 14.0,
+      "max_wind_kmh": 12.2,
       "avg_temp_c": 13.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
@@ -137,8 +137,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ZIPPING KELLY",
-      "total_offspring_runs_in_state": 101822,
-      "sire_win_rate": 0.1368270118441987
+      "total_offspring_runs_in_state": 101833,
+      "sire_win_rate": 0.13682205179067689
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -192,12 +192,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

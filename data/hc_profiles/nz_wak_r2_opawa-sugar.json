@@ -1,20 +1,20 @@
 {
   "dog": "OPAWA SUGAR",
-  "date": "2026-05-14",
+  "date": "2026-05-21",
   "track": "WAK",
   "race": 2,
   "distance": 0,
-  "grade": "Class 1 Distance",
+  "grade": "Class2 Distance",
   "steps": {
-    "history_length": 72,
+    "history_length": 73,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.239,
-      "ens_prob": 0.2501,
-      "fastai_prob": 0.0955,
+      "alignment_count": 3,
+      "ml_prob": 0.1759,
+      "ens_prob": 0.2805,
+      "fastai_prob": 0.0849,
       "fastai_rank": 1,
-      "is_three_way": false
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -26,27 +26,26 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 529.4444444444445,
+      "avg_dist": 531.0958904109589,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 1 Distance vs Field"
+      "current_vs_historic_grade": "Class2 Distance vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 26.0,
-      "fluctuation": -0.283333333333335,
+      "fluctuation": -0.27868852459016225,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 5
     },
     "08_Form_Trajectory": {
-      "total_starts": 72,
-      "last_3_avg_place": 1.3333333333333333,
+      "total_starts": 73,
+      "last_3_avg_place": 1.6666666666666667,
       "last_5_avg_place": 2.2,
       "last_10_places": [
-        3.0,
         7.0,
         7.0,
         3.0,
@@ -55,7 +54,8 @@
         5.0,
         1.0,
         2.0,
-        1.0
+        1.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 278036
+      "races_with_same_dogs": 278727
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 52610.0
+      "career_prize": 53960.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.875
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: WAK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.22033898305084745,
-      "place_rate": 0.3898305084745763
+      "win_rate": 0.21666666666666667,
+      "place_rate": 0.4
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "OPAWA TAB",
-      "total_offspring_runs_in_state": 5617,
-      "sire_win_rate": 0.21684173046110022
+      "total_offspring_runs_in_state": 5656,
+      "sire_win_rate": 0.21676096181046675
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 412,
+      "total_litter_runs": 416,
       "litter_wins": 117
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 72
+      "total_starts": 73
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.6202892705008325
+      "ewma_places": 1.8101446352504162
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -207,7 +207,8 @@
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

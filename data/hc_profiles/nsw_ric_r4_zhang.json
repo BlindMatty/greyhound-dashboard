@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1666,
-      "ens_prob": 0.2439,
-      "fastai_prob": 0.4918,
+      "ml_prob": 0.1872,
+      "ens_prob": 0.2257,
+      "fastai_prob": 0.5658,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 707591
+      "races_with_same_dogs": 707845
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -115,7 +115,7 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 14.0,
+      "max_wind_kmh": 12.2,
       "avg_temp_c": 13.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "NEWHAVEN NELLIE",
-      "total_offspring_runs_in_state": 9122,
-      "sire_win_rate": 0.1467879850909888
+      "total_offspring_runs_in_state": 9145,
+      "sire_win_rate": 0.14674685620557681
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -203,7 +203,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.492)"
+        "FastAI Strong Conviction (Rank 1, prob 0.566)"
       ]
     }
   }

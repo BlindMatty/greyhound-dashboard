@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1085,
-      "ens_prob": 0.1844,
-      "fastai_prob": 0.1727,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.0824,
+      "ens_prob": 0.1991,
+      "fastai_prob": 0.2454,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 403580
+      "races_with_same_dogs": 403789
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "BLUE CARAT",
-      "total_offspring_runs_in_state": 8229,
-      "sire_win_rate": 0.13671162960262487
+      "total_offspring_runs_in_state": 8247,
+      "sire_win_rate": 0.13677700982175336
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -7,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -194,7 +194,8 @@
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)"
+        "Optimal Racing Cadence (6-10 days)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

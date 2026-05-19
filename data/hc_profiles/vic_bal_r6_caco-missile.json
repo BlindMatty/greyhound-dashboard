@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.269,
-      "ens_prob": 0.3792,
-      "fastai_prob": 0.3982,
+      "ml_prob": 0.2644,
+      "ens_prob": 0.2555,
+      "fastai_prob": 0.1753,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782832
+      "races_with_same_dogs": 783167
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.0,
-      "avg_temp_c": 9.4,
-      "total_precip_mm": 0.4,
+      "max_wind_kmh": 17.4,
+      "avg_temp_c": 9.7,
+      "total_precip_mm": 0.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,13 +140,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "DEEP DIVE",
-      "total_offspring_runs_in_state": 23851,
-      "sire_win_rate": 0.12808687266781266
+      "total_offspring_runs_in_state": 23878,
+      "sire_win_rate": 0.1280676773599129
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 171,
-      "litter_wins": 51
+      "total_litter_runs": 174,
+      "litter_wins": 52
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -207,8 +207,7 @@
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.398)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

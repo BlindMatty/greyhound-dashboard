@@ -1,19 +1,19 @@
 {
   "dog": "IT'S MUFFIN TIME",
-  "date": "2026-04-30",
+  "date": "2026-05-21",
   "track": "MAN",
   "race": 1,
   "distance": 0,
-  "grade": "Maiden",
+  "grade": "Novice Grade 5",
   "steps": {
-    "history_length": 4,
+    "history_length": 7,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.434,
-      "ens_prob": 0.2786,
-      "fastai_prob": 0.1232,
-      "fastai_rank": 6,
+      "ml_prob": 0.2124,
+      "ens_prob": 0.1906,
+      "fastai_prob": 0.053,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,35 +21,38 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 350.0,
+      "avg_dist": 342.85714285714283,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Maiden vs Field"
+      "current_vs_historic_grade": "Novice Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.8,
-      "fluctuation": -0.3249999999999993,
+      "last_weight": 27.0,
+      "fluctuation": -0.7857142857142847,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 4,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": null,
+      "total_starts": 7,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 3.0,
       "last_10_places": [
         5.0,
         1.0,
         2.0,
-        6.0
+        6.0,
+        1.0,
+        5.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -62,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 212374
+      "races_with_same_dogs": 213955
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -71,13 +74,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.7625
+      "avg_run_home": 13.288571428571428
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.1268529332205868
+      "split_stdev": 0.16143699935858805
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -105,24 +108,24 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 798.0
+      "career_prize": 3477.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -400
+      "dist_diff_from_last": -300
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: MAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.25,
-      "place_rate": 0.5
+      "win_rate": 0.42857142857142855,
+      "place_rate": 0.5714285714285714
     },
     "31_Track_Archetypes": {
-      "track_specialist": false
+      "track_specialist": true
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "Margaret Hepple"
@@ -130,13 +133,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "KAREN",
-      "total_offspring_runs_in_state": 1521,
-      "sire_win_rate": 0.11834319526627218
+      "total_offspring_runs_in_state": 1600,
+      "sire_win_rate": 0.120625
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 29,
-      "litter_wins": 7
+      "total_litter_runs": 43,
+      "litter_wins": 10
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -161,7 +164,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -170,13 +173,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 4
+      "total_starts": 7
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.2
+      "ewma_places": 2.3858267716535435
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -185,17 +188,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)"
+        "Optimal Racing Cadence (6-10 days)",
+        "High Career Win Rate (>25%)",
+        "Proven Track Specialist Profile",
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

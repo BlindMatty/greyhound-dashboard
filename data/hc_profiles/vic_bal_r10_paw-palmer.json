@@ -9,12 +9,12 @@
     "history_length": 26,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3076,
-      "ens_prob": 0.1485,
-      "fastai_prob": 0.1039,
-      "fastai_rank": 7,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2898,
+      "ens_prob": 0.215,
+      "fastai_prob": 0.2183,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782832
+      "races_with_same_dogs": 783167
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.0,
-      "avg_temp_c": 9.4,
-      "total_precip_mm": 0.4,
+      "max_wind_kmh": 17.4,
+      "avg_temp_c": 9.7,
+      "total_precip_mm": 0.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "ZELZER ALLEN",
-      "total_offspring_runs_in_state": 25295,
-      "sire_win_rate": 0.12927456018976083
+      "total_offspring_runs_in_state": 25315,
+      "sire_win_rate": 0.12929093422871815
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 180,
+      "total_litter_runs": 182,
       "litter_wins": 35
     },
     "35_Injury_History": {
@@ -195,15 +195,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -212,7 +211,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

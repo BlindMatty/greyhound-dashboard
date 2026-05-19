@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2938,
-      "ens_prob": 0.3204,
-      "fastai_prob": 0.5026,
+      "ml_prob": 0.2769,
+      "ens_prob": 0.3476,
+      "fastai_prob": 0.5843,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 4,
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782832
+      "races_with_same_dogs": 783167
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "BABY JAYCEE",
-      "total_offspring_runs_in_state": 100400,
-      "sire_win_rate": 0.1323605577689243
+      "total_offspring_runs_in_state": 100427,
+      "sire_win_rate": 0.13234488733109623
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -198,7 +198,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.503)"
+        "FastAI Strong Conviction (Rank 1, prob 0.584)"
       ]
     }
   }

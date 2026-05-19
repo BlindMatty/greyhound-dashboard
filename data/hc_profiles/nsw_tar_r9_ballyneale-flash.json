@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2932,
-      "ens_prob": 0.2284,
-      "fastai_prob": 0.4617,
-      "fastai_rank": 3,
+      "ml_prob": 0.2452,
+      "ens_prob": 0.2195,
+      "fastai_prob": 0.627,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 707591
+      "races_with_same_dogs": 707845
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -133,12 +133,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "PESTANA",
       "dam": "KAPOW",
-      "total_offspring_runs_in_state": 252,
-      "sire_win_rate": 0.1626984126984127
+      "total_offspring_runs_in_state": 254,
+      "sire_win_rate": 0.16141732283464566
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 96,
+      "total_litter_runs": 97,
       "litter_wins": 27
     },
     "35_Injury_History": {
