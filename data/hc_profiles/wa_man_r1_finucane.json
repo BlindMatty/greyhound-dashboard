@@ -9,12 +9,12 @@
     "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1227,
-      "ens_prob": 0.216,
-      "fastai_prob": 0.0922,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1755,
+      "ens_prob": 0.2701,
+      "fastai_prob": 0.0514,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213754
+      "races_with_same_dogs": 213852
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUNSET SPITFIRE",
       "dam": "KIRRA MONELLI",
-      "total_offspring_runs_in_state": 2789,
-      "sire_win_rate": 0.17999282897095734
+      "total_offspring_runs_in_state": 2790,
+      "sire_win_rate": 0.17992831541218637
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -184,20 +184,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 3, prob 0.092)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

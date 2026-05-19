@@ -84,6 +84,7 @@ function renderSummary(data) {
     };
     setStat('statML', mp.models.ml ? mp.models.ml.strikeRate.toFixed(1) + '%' : '-');
     setStat('statFA', mp.models.fastai ? mp.models.fastai.strikeRate.toFixed(1) + '%' : '-');
+    setStat('statMC', mp.models.mc ? mp.models.mc.strikeRate.toFixed(1) + '%' : '-');
     setStat('statELO', mp.models.elo ? mp.models.elo.strikeRate.toFixed(1) + '%' : '-');
     setStat('statENS', mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-');
     setStat('statFASTENS', mp.models.fast_ens ? mp.models.fast_ens.strikeRate.toFixed(1) + '%' : '-');

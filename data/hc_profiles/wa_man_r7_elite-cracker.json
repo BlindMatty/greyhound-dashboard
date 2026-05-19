@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1722,
-      "ens_prob": 0.1555,
-      "fastai_prob": 0.0561,
-      "fastai_rank": 7,
+      "ml_prob": 0.2994,
+      "ens_prob": 0.1892,
+      "fastai_prob": 0.042,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213754
+      "races_with_same_dogs": 213852
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "ELITE WEAPON",
-      "total_offspring_runs_in_state": 6353,
-      "sire_win_rate": 0.1591374153943019
+      "total_offspring_runs_in_state": 6364,
+      "sire_win_rate": 0.15933375235700817
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

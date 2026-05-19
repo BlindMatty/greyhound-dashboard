@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1418,
-      "ens_prob": 0.17,
-      "fastai_prob": 0.0716,
-      "fastai_rank": 2,
+      "ml_prob": 0.1394,
+      "ens_prob": 0.1332,
+      "fastai_prob": 0.0577,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782406
+      "races_with_same_dogs": 782832
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 20.2,
-      "avg_temp_c": 12.3,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 19.4,
+      "avg_temp_c": 11.6,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZACK MONELLI",
       "dam": "ZIPPING MIRANDA",
-      "total_offspring_runs_in_state": 1299,
-      "sire_win_rate": 0.10392609699769054
+      "total_offspring_runs_in_state": 1300,
+      "sire_win_rate": 0.10384615384615385
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -195,14 +195,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.072)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

@@ -9,12 +9,12 @@
     "history_length": 30,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1994,
-      "ens_prob": 0.2728,
-      "fastai_prob": 0.2972,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2274,
+      "ens_prob": 0.2001,
+      "fastai_prob": 0.0847,
+      "fastai_rank": 5,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215522
+      "races_with_same_dogs": 215591
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.554583333333333
+      "avg_run_home": 14.554583333333335
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "VEGAS TICKET",
-      "total_offspring_runs_in_state": 2543,
-      "sire_win_rate": 0.1655524970507275
+      "total_offspring_runs_in_state": 2545,
+      "sire_win_rate": 0.16542239685658153
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,22 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.297)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
