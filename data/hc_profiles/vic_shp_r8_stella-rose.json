@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1679,
-      "ens_prob": 0.1134,
-      "fastai_prob": 0.0239,
-      "fastai_rank": 7,
+      "ml_prob": 0.1691,
+      "ens_prob": 0.1297,
+      "fastai_prob": 0.0391,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783167
+      "races_with_same_dogs": 783536
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "WHITE AMBUSH",
-      "total_offspring_runs_in_state": 28534,
-      "sire_win_rate": 0.14060419149085301
+      "total_offspring_runs_in_state": 28546,
+      "sire_win_rate": 0.1406151474812583
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 606,
+      "total_litter_runs": 608,
       "litter_wins": 61
     },
     "35_Injury_History": {
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

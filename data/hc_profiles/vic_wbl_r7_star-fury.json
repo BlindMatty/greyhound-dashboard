@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3239,
-      "ens_prob": 0.2878,
-      "fastai_prob": 0.5164,
+      "ml_prob": 0.3202,
+      "ens_prob": 0.3172,
+      "fastai_prob": 0.4792,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783167
+      "races_with_same_dogs": 783536
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "MIYAZAKI",
-      "total_offspring_runs_in_state": 24517,
-      "sire_win_rate": 0.12933882612065098
+      "total_offspring_runs_in_state": 24539,
+      "sire_win_rate": 0.12942662700191532
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 209,
+      "total_litter_runs": 210,
       "litter_wins": 50
     },
     "35_Injury_History": {
@@ -206,7 +206,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.516)"
+        "FastAI Strong Conviction (Rank 1, prob 0.479)"
       ]
     }
   }

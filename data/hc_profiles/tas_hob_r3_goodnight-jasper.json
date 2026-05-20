@@ -9,12 +9,12 @@
     "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.2168,
-      "ens_prob": 0.1933,
-      "fastai_prob": 0.4414,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "ens_prob": 0.1827,
+      "fastai_prob": 0.3302,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -189,7 +189,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -200,9 +200,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Professional Box Dog (Elite start consistency)",
-        "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.441)"
+        "Benefiting from inside track bias"
       ]
     }
   }

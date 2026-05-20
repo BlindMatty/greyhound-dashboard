@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.0687,
-      "ens_prob": 0.2068,
-      "fastai_prob": 0.083,
-      "fastai_rank": 2,
+      "ml_prob": 0.0667,
+      "ens_prob": 0.1942,
+      "fastai_prob": 0.1614,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 403789
+      "races_with_same_dogs": 403999
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "ABSOLUTE DELIGHT",
-      "total_offspring_runs_in_state": 5103,
-      "sire_win_rate": 0.11738193219674702
+      "total_offspring_runs_in_state": 5105,
+      "sire_win_rate": 0.11753183153770813
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 2, prob 0.083)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

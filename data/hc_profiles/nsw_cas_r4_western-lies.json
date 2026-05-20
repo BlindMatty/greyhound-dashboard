@@ -9,12 +9,12 @@
     "history_length": 58,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2685,
-      "ens_prob": 0.216,
-      "fastai_prob": 0.1996,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3866,
+      "ens_prob": 0.2579,
+      "fastai_prob": 0.2321,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 707845
+      "races_with_same_dogs": 708215
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "MAGIC LIAR",
-      "total_offspring_runs_in_state": 11448,
-      "sire_win_rate": 0.1445667365478686
+      "total_offspring_runs_in_state": 11455,
+      "sire_win_rate": 0.1445656918376255
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -208,7 +208,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

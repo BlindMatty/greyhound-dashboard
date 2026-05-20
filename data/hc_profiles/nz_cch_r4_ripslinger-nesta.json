@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1602,
-      "ens_prob": 0.1634,
-      "fastai_prob": 0.0757,
-      "fastai_rank": 5,
+      "ml_prob": 0.234,
+      "ens_prob": 0.16,
+      "fastai_prob": 0.0619,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 278727
+      "races_with_same_dogs": 278831
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "RIPSLINGER ROXY",
-      "total_offspring_runs_in_state": 1388,
-      "sire_win_rate": 0.16642651296829972
+      "total_offspring_runs_in_state": 1391,
+      "sire_win_rate": 0.16606757728253055
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

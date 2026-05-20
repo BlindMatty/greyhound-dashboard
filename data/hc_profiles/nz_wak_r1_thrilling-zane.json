@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1368,
-      "ens_prob": 0.1728,
-      "fastai_prob": 0.0495,
-      "fastai_rank": 4,
+      "ml_prob": 0.2259,
+      "ens_prob": 0.2192,
+      "fastai_prob": 0.0573,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 278727
+      "races_with_same_dogs": 278831
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MEPUNGA BLAZER",
       "dam": "CORINTH BALE",
-      "total_offspring_runs_in_state": 7656,
-      "sire_win_rate": 0.12617554858934169
+      "total_offspring_runs_in_state": 7660,
+      "sire_win_rate": 0.1262402088772846
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.057)"
       ],
       "green_flags": [
         "Small Field Advantage",

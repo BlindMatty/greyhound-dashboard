@@ -9,12 +9,12 @@
     "history_length": 28,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2324,
-      "ens_prob": 0.3077,
-      "fastai_prob": 0.102,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1284,
+      "ens_prob": 0.2436,
+      "fastai_prob": 0.1113,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215663
+      "races_with_same_dogs": 215712
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ROTHWELL GAL",
-      "total_offspring_runs_in_state": 31246,
-      "sire_win_rate": 0.15698009345196184
+      "total_offspring_runs_in_state": 31250,
+      "sire_win_rate": 0.15696
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,13 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Lukewarm (Rank 3, prob 0.111)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -205,8 +206,7 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

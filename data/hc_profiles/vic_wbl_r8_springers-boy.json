@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2241,
-      "ens_prob": 0.2996,
-      "fastai_prob": 0.5823,
+      "ml_prob": 0.2315,
+      "ens_prob": 0.2791,
+      "fastai_prob": 0.386,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 50,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783167
+      "races_with_same_dogs": 783536
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "MISS MOLLY LEE",
-      "total_offspring_runs_in_state": 4702,
-      "sire_win_rate": 0.1331348362398979
+      "total_offspring_runs_in_state": 4709,
+      "sire_win_rate": 0.13314928859630495
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 354,
+      "total_litter_runs": 355,
       "litter_wins": 67
     },
     "35_Injury_History": {
@@ -208,7 +208,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.582)"
+        "FastAI Strong Conviction (Rank 1, prob 0.386)"
       ]
     }
   }
