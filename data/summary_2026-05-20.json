@@ -745,6 +745,31 @@
         "label": "ELO ENS",
         "strikeRate": 46.73123486682809
       }
+    },
+    "mlTsTiers": {
+      "startDate": "2026-04-08",
+      "resultsDate": "2026-05-19",
+      "settledRaces": 935,
+      "models": {
+        "base_ml_ts": {
+          "wins": 448,
+          "settled": 935,
+          "label": "ML TS",
+          "strikeRate": 47.9144385026738
+        },
+        "ml_ts_45_10": {
+          "wins": 109,
+          "settled": 203,
+          "label": "ML TS >45%, 10+",
+          "strikeRate": 53.69458128078818
+        },
+        "ml_ts_50_10": {
+          "wins": 60,
+          "settled": 99,
+          "label": "ML TS >50%, 10+",
+          "strikeRate": 60.60606060606061
+        }
+      }
     }
   },
   "nzChampionVsChallenger": {

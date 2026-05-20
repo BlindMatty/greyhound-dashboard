@@ -706,50 +706,75 @@
   ],
   "modelPerformance": {
     "startDate": "2026-04-08",
-    "resultsDate": "2026-05-18",
-    "settledRaces": 5593,
+    "resultsDate": "2026-05-19",
+    "settledRaces": 5734,
     "models": {
       "ml": {
-        "wins": 1767,
-        "settled": 5593,
+        "wins": 1817,
+        "settled": 5734,
         "label": "ML",
-        "strikeRate": 31.593062757017698
+        "strikeRate": 31.68817579351238
       },
       "fastai": {
-        "wins": 1479,
-        "settled": 5528,
+        "wins": 1519,
+        "settled": 5669,
         "label": "FastAI",
-        "strikeRate": 26.754703328509404
+        "strikeRate": 26.794849179749512
       },
       "mc": {
-        "wins": 698,
-        "settled": 2682,
+        "wins": 741,
+        "settled": 2823,
         "label": "MC",
-        "strikeRate": 26.025354213273676
+        "strikeRate": 26.24867162592986
       },
       "elo": {
-        "wins": 1013,
-        "settled": 4858,
+        "wins": 1046,
+        "settled": 4999,
         "label": "ELO",
-        "strikeRate": 20.852202552490738
+        "strikeRate": 20.924184836967395
       },
       "ens": {
-        "wins": 1800,
-        "settled": 5593,
+        "wins": 1847,
+        "settled": 5734,
         "label": "ENS",
-        "strikeRate": 32.18308600035759
+        "strikeRate": 32.211370770840595
       },
       "fast_ens": {
-        "wins": 703,
-        "settled": 1778,
+        "wins": 725,
+        "settled": 1821,
         "label": "FAST ENS",
-        "strikeRate": 39.538807649043875
+        "strikeRate": 39.81328940142779
       },
       "elo_ens": {
-        "wins": 186,
-        "settled": 401,
+        "wins": 193,
+        "settled": 413,
         "label": "ELO ENS",
-        "strikeRate": 46.38403990024938
+        "strikeRate": 46.73123486682809
+      }
+    },
+    "mlTsTiers": {
+      "startDate": "2026-04-08",
+      "resultsDate": "2026-05-19",
+      "settledRaces": 935,
+      "models": {
+        "base_ml_ts": {
+          "wins": 448,
+          "settled": 935,
+          "label": "ML TS",
+          "strikeRate": 47.9144385026738
+        },
+        "ml_ts_45_10": {
+          "wins": 109,
+          "settled": 203,
+          "label": "ML TS >45%, 10+",
+          "strikeRate": 53.69458128078818
+        },
+        "ml_ts_50_10": {
+          "wins": 60,
+          "settled": 99,
+          "label": "ML TS >50%, 10+",
+          "strikeRate": 60.60606060606061
+        }
       }
     }
   },
