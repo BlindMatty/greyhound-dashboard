@@ -9,12 +9,12 @@
     "history_length": 16,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.2299,
-      "ens_prob": 0.2891,
-      "fastai_prob": 0.1886,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "ens_prob": 0.3352,
+      "fastai_prob": 0.2834,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -208,7 +208,9 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Second-Up Bounce Profile (Pinnacle fitness)"
+        "Second-Up Bounce Profile (Pinnacle fitness)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.283)"
       ]
     }
   }

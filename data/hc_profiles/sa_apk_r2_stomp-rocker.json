@@ -9,12 +9,12 @@
     "history_length": 0,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.1508,
-      "ens_prob": 0.3558,
-      "fastai_prob": 0.0913,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "ens_prob": 0.3135,
+      "fastai_prob": 0.067,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -171,19 +171,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
-      "decision": "PASS / CAUTION",
+      "final_score": 3,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Inexperienced (< 3 starts)",
-        "Light/Frail Dog (<26kg) - Bump risk"
+        "Light/Frail Dog (<26kg) - Bump risk",
+        "FastAI Lukewarm (Rank 2, prob 0.067)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

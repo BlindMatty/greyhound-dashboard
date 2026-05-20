@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.24,
-      "ens_prob": 0.2034,
-      "fastai_prob": 0.6617,
+      "ml_prob": 0.2372,
+      "ens_prob": 0.2154,
+      "fastai_prob": 0.1935,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 16,
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.2,
-      "avg_temp_c": 13.8,
+      "max_wind_kmh": 11.9,
+      "avg_temp_c": 13.7,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -210,8 +210,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.662)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

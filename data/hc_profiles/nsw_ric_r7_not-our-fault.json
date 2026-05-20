@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.3105,
-      "ens_prob": 0.1698,
-      "fastai_prob": 0.1837,
-      "fastai_rank": 6,
+      "ens_prob": 0.1895,
+      "fastai_prob": 0.4115,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -118,8 +118,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.2,
-      "avg_temp_c": 13.8,
+      "max_wind_kmh": 11.9,
+      "avg_temp_c": 13.7,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

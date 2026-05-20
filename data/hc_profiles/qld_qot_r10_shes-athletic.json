@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
       "ml_prob": 0.1138,
-      "ens_prob": 0.1759,
-      "fastai_prob": 0.1122,
-      "fastai_rank": 2,
+      "ens_prob": 0.1893,
+      "fastai_prob": 0.0949,
+      "fastai_rank": 1,
       "is_three_way": true
     },
     "02_TDG_Medians": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -199,8 +199,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 2, prob 0.112)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

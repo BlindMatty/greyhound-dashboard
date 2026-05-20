@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 17,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
       "ml_prob": 0.2194,
-      "ens_prob": 0.2785,
-      "fastai_prob": null,
-      "fastai_rank": null,
+      "ens_prob": 0.2542,
+      "fastai_prob": 0.2291,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 8,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,8 +205,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Professional Box Dog (Elite start consistency)",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "2-Way Model Alignment"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

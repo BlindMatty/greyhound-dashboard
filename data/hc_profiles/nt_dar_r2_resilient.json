@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 3,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
       "ml_prob": 0.2441,
-      "ens_prob": 0.2884,
-      "fastai_prob": null,
-      "fastai_rank": null,
+      "ens_prob": 0.2407,
+      "fastai_prob": 0.1959,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -198,8 +198,7 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "2-Way Model Alignment"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
