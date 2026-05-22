@@ -9,12 +9,12 @@
     "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1696,
-      "ens_prob": 0.3025,
-      "fastai_prob": 0.0693,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2242,
+      "ens_prob": 0.3723,
+      "fastai_prob": 0.0922,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215712
+      "races_with_same_dogs": 215845
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "INVICTUS NINA",
-      "total_offspring_runs_in_state": 3603,
-      "sire_win_rate": 0.18373577574243685
+      "total_offspring_runs_in_state": 3611,
+      "sire_win_rate": 0.18360564940459706
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -185,13 +185,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 2, prob 0.069)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
@@ -200,7 +199,8 @@
         "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

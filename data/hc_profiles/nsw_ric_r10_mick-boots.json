@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2483,
-      "ens_prob": 0.1717,
-      "fastai_prob": 0.5339,
-      "fastai_rank": 3,
+      "ml_prob": 0.221,
+      "ens_prob": 0.1573,
+      "fastai_prob": 0.395,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 708215
+      "races_with_same_dogs": 708524
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 16.3,
-      "avg_temp_c": 15.3,
+      "max_wind_kmh": 17.0,
+      "avg_temp_c": 15.6,
       "total_precip_mm": 0.2,
       "is_wet": false,
       "is_hot": false
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "NEWHAVEN NELLIE",
-      "total_offspring_runs_in_state": 9170,
-      "sire_win_rate": 0.14667393675027263
+      "total_offspring_runs_in_state": 9194,
+      "sire_win_rate": 0.14661735914726995
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 19,
+      "total_litter_runs": 20,
       "litter_wins": 5
     },
     "35_Injury_History": {
@@ -187,13 +187,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

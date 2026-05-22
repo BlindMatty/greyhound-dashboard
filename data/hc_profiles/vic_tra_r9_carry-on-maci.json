@@ -9,12 +9,12 @@
     "history_length": 30,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.4959,
-      "ens_prob": 0.3254,
-      "fastai_prob": 0.1891,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.5,
+      "ens_prob": 0.3511,
+      "fastai_prob": 0.1745,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783536
+      "races_with_same_dogs": 783920
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 15.9,
-      "avg_temp_c": 9.9,
+      "max_wind_kmh": 13.9,
+      "avg_temp_c": 9.3,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "COLDEN BROOKIE",
-      "total_offspring_runs_in_state": 38250,
-      "sire_win_rate": 0.14773856209150327
+      "total_offspring_runs_in_state": 38283,
+      "sire_win_rate": 0.14771569626204842
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 16,
+      "final_score": 13,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -212,8 +212,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

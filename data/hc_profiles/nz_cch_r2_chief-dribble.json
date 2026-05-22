@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.5645,
-      "ens_prob": 0.421,
-      "fastai_prob": 0.0813,
+      "ml_prob": 0.48,
+      "ens_prob": 0.4058,
+      "fastai_prob": 0.0783,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 278831
+      "races_with_same_dogs": 279029
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "SLINKY INKY",
-      "total_offspring_runs_in_state": 346,
-      "sire_win_rate": 0.33236994219653176
+      "total_offspring_runs_in_state": 347,
+      "sire_win_rate": 0.3314121037463977
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.081)"
+        "FastAI Lukewarm (Rank 2, prob 0.078)"
       ],
       "green_flags": [
         "Small Field Advantage",

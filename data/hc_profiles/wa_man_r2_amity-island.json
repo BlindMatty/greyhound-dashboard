@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3232,
-      "ens_prob": 0.2009,
-      "fastai_prob": 0.0447,
-      "fastai_rank": 4,
+      "ml_prob": 0.2568,
+      "ens_prob": 0.1569,
+      "fastai_prob": 0.0433,
+      "fastai_rank": 9,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -67,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214038
+      "races_with_same_dogs": 214130
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -135,12 +135,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "JIMARY MONEYBAGS",
-      "total_offspring_runs_in_state": 1671,
-      "sire_win_rate": 0.1478156792339916
+      "total_offspring_runs_in_state": 1674,
+      "sire_win_rate": 0.14755077658303464
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 44,
+      "total_litter_runs": 45,
       "litter_wins": 17
     },
     "35_Injury_History": {
@@ -199,7 +199,7 @@
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

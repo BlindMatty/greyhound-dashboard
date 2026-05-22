@@ -1,32 +1,32 @@
 {
   "dog": "BLAME ESMERALDA",
-  "date": "2026-05-01",
+  "date": "2026-05-22",
   "track": "HVL",
   "race": 5,
   "distance": 0,
   "grade": "Grade 5 T3",
   "steps": {
-    "history_length": 62,
+    "history_length": 65,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2469,
-      "ens_prob": 0.2542,
-      "fastai_prob": 0.2406,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1741,
+      "ens_prob": 0.1152,
+      "fastai_prob": 0.1151,
+      "fastai_rank": 6,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
+      "own_box": 6,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 357.8225806451613,
+      "avg_dist": 357.46153846153845,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,27 +35,27 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 27.0,
-      "fluctuation": 0.07307692307692193,
+      "fluctuation": 0.0636363636363626,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 62,
+      "total_starts": 65,
       "last_3_avg_place": 4.333333333333333,
-      "last_5_avg_place": 4.4,
+      "last_5_avg_place": 4.6,
       "last_10_places": [
-        1.0,
-        3.0,
-        5.0,
         7.0,
         8.0,
         3.0,
         6.0,
         3.0,
         2.0,
-        8.0
+        8.0,
+        5.0,
+        3.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 776860
+      "races_with_same_dogs": 783920
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.514796875
+      "avg_run_home": 13.492852941176471
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.0440484194966253
+      "split_stdev": 1.0130667829197415
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 16970.0
+      "career_prize": 17130.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.742857142857143
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2549019607843137,
-      "place_rate": 0.47058823529411764
+      "win_rate": 0.24074074074074073,
+      "place_rate": 0.46296296296296297
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ESMAY",
-      "total_offspring_runs_in_state": 100044,
-      "sire_win_rate": 0.13239174763104233
+      "total_offspring_runs_in_state": 100720,
+      "sire_win_rate": 0.1322875297855441
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 119,
+      "total_litter_runs": 122,
       "litter_wins": 19
     },
     "35_Injury_History": {
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 62
+      "total_starts": 65
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.551489389697449
+      "ewma_places": 4.5689361737121805
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,22 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
-        "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }
