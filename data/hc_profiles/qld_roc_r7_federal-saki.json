@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2464,
-      "ens_prob": 0.344,
-      "fastai_prob": 0.5417,
+      "ml_prob": 0.2382,
+      "ens_prob": 0.2592,
+      "fastai_prob": 0.2461,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 404386
+      "races_with_same_dogs": 404485
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "EL GRAND SENOR",
       "dam": "FLO JO FOCUS",
-      "total_offspring_runs_in_state": 1822,
-      "sire_win_rate": 0.13172338090010977
+      "total_offspring_runs_in_state": 1824,
+      "sire_win_rate": 0.13212719298245615
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,8 +203,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.542)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

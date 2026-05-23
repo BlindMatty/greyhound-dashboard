@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.1834,
-      "ens_prob": 0.1812,
-      "fastai_prob": 0.0487,
-      "fastai_rank": 2,
+      "ens_prob": 0.1829,
+      "fastai_prob": 0.039,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.049)"
+        "FastAI Lukewarm (Rank 3, prob 0.039)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
