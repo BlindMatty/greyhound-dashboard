@@ -9,12 +9,12 @@
     "history_length": 26,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2485,
-      "ens_prob": 0.3239,
-      "fastai_prob": 0.4416,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1929,
+      "ens_prob": 0.2431,
+      "fastai_prob": 0.2609,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 708524
+      "races_with_same_dogs": 708894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "CLEO'S COMPASS",
-      "total_offspring_runs_in_state": 24802,
-      "sire_win_rate": 0.1358761390210467
+      "total_offspring_runs_in_state": 24850,
+      "sire_win_rate": 0.1359758551307847
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 133,
+      "total_litter_runs": 134,
       "litter_wins": 13
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -204,9 +204,7 @@
         "Elite Run Home Time Strength",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.442)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

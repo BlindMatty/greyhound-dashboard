@@ -1,32 +1,32 @@
 {
   "dog": "SWEET",
-  "date": "2026-05-17",
+  "date": "2026-05-24",
   "track": "AUK",
   "race": 1,
   "distance": 0,
   "grade": "Special Conditions age  - penalty free",
   "steps": {
-    "history_length": 169,
+    "history_length": 170,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
-      "ml_prob": 0.3028,
-      "ens_prob": 0.3741,
-      "fastai_prob": null,
-      "fastai_rank": null,
-      "is_three_way": false
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
+      "ml_prob": 0.348,
+      "ens_prob": 0.3073,
+      "fastai_prob": 0.0774,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 8,
       "has_inside_pressure": true,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 340.59763313609466,
+      "avg_dist": 340.4647058823529,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Special Conditions age  - penalty free vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.4,
-      "fluctuation": 0.20514705882352757,
+      "last_weight": 25.2,
+      "fluctuation": 0.005109489051093874,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 169,
-      "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": 2.6,
+      "total_starts": 170,
+      "last_3_avg_place": 1.0,
+      "last_5_avg_place": 1.8,
       "last_10_places": [
-        4.0,
         4.0,
         7.0,
         2.0,
@@ -55,11 +54,12 @@
         4.0,
         2.0,
         1.0,
+        1.0,
         1.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": false
+      "consecutive_wins": true
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 278234
+      "races_with_same_dogs": 279129
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 41415.0
+      "career_prize": 43095.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.6
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: AUK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.09558823529411764,
-      "place_rate": 0.3088235294117647
+      "win_rate": 0.10218978102189781,
+      "place_rate": 0.31386861313868614
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "GEM",
-      "total_offspring_runs_in_state": 22543,
-      "sire_win_rate": 0.1525085392361265
+      "total_offspring_runs_in_state": 22622,
+      "sire_win_rate": 0.1525948192025462
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 585,
-      "litter_wins": 44
+      "total_litter_runs": 588,
+      "litter_wins": 45
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 169
+      "total_starts": 170
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.5757346478523384
+      "ewma_places": 1.2878673239261693
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -200,8 +200,8 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
+        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
@@ -210,7 +210,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
-        "2-Way Model Alignment"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

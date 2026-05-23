@@ -9,12 +9,12 @@
     "history_length": 26,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2551,
-      "ens_prob": 0.2324,
-      "fastai_prob": 0.6247,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2454,
+      "ens_prob": 0.1967,
+      "fastai_prob": 0.6317,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 708524
+      "races_with_same_dogs": 708894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "DRINK MOET",
-      "total_offspring_runs_in_state": 24938,
-      "sire_win_rate": 0.13613762130082604
+      "total_offspring_runs_in_state": 24988,
+      "sire_win_rate": 0.13622538818632943
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 8,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -202,7 +202,9 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.632)"
       ]
     }
   }

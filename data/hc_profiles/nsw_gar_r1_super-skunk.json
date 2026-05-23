@@ -9,12 +9,12 @@
     "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2751,
-      "ens_prob": 0.2916,
-      "fastai_prob": 0.4514,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2409,
+      "ens_prob": 0.2624,
+      "fastai_prob": 0.5905,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 708524
+      "races_with_same_dogs": 708894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "PRINCESS ZESTA",
-      "total_offspring_runs_in_state": 101687,
-      "sire_win_rate": 0.13646778840953122
+      "total_offspring_runs_in_state": 101716,
+      "sire_win_rate": 0.1364682055920406
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -184,7 +184,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -197,7 +197,9 @@
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.591)"
       ]
     }
   }
