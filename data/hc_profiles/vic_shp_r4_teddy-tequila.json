@@ -1,19 +1,19 @@
 {
   "dog": "TEDDY TEQUILA",
-  "date": "2026-05-18",
+  "date": "2026-05-25",
   "track": "SHP",
   "race": 4,
   "distance": 0,
-  "grade": "Mixed 6/7 Heat",
+  "grade": "Mixed 6/7 Final",
   "steps": {
-    "history_length": 3,
+    "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2789,
-      "ens_prob": 0.14,
-      "fastai_prob": 0.0893,
-      "fastai_rank": 4,
+      "ml_prob": 0.2081,
+      "ens_prob": 0.112,
+      "fastai_prob": 0.0531,
+      "fastai_rank": 8,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,34 +21,35 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 5,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 423.3333333333333,
+      "avg_dist": 415.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 6/7 Heat vs Field"
+      "current_vs_historic_grade": "Mixed 6/7 Final vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.6,
-      "fluctuation": -0.06666666666666643,
+      "last_weight": 28.0,
+      "fluctuation": 0.25,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 3,
-      "last_3_avg_place": 2.3333333333333335,
+      "total_starts": 4,
+      "last_3_avg_place": 2.0,
       "last_5_avg_place": null,
       "last_10_places": [
         3.0,
         1.0,
-        3.0
+        3.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -61,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782406
+      "races_with_same_dogs": 784732
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -70,13 +71,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.8175
+      "avg_run_home": 15.795833333333333
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.3992133085659564
+      "split_stdev": 1.9425634052285998
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,10 +93,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 8
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -104,24 +105,24 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 1940.0
+      "career_prize": 2840.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -435
+      "dist_diff_from_last": -390
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: SHP"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3333333333333333,
+      "win_rate": 0.25,
       "place_rate": 1.0
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "KATE GORMAN"
@@ -129,13 +130,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "BLUE TEQUILA",
-      "total_offspring_runs_in_state": 12514,
-      "sire_win_rate": 0.13353044590059135
+      "total_offspring_runs_in_state": 12667,
+      "sire_win_rate": 0.13357543222546775
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 7,
-      "litter_wins": 3
+      "total_litter_runs": 10,
+      "litter_wins": 4
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -160,7 +161,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -169,13 +170,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 3
+      "total_starts": 4
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.4285714285714284
+      "ewma_places": 2.2
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -184,22 +185,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Optimal Racing Cadence (6-10 days)"
       ]
     }
   }

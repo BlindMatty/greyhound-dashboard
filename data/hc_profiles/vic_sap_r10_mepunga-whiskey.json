@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3401,
-      "ens_prob": 0.1725,
-      "fastai_prob": 0.0544,
-      "fastai_rank": 6,
+      "ml_prob": 0.3446,
+      "ens_prob": 0.2026,
+      "fastai_prob": 0.0836,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 6,
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 784539
+      "races_with_same_dogs": 784732
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -116,8 +116,8 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 11.6,
-      "avg_temp_c": 13.8,
-      "total_precip_mm": 6.9,
+      "avg_temp_c": 13.7,
+      "total_precip_mm": 7.0,
       "is_wet": true,
       "is_hot": false
     },
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MEPUNGA ISLA",
-      "total_offspring_runs_in_state": 100955,
-      "sire_win_rate": 0.1329404189985637
+      "total_offspring_runs_in_state": 100965,
+      "sire_win_rate": 0.1329470608626752
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -189,12 +189,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.084)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

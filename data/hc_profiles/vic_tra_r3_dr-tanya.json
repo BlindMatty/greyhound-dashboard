@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1432,
-      "ens_prob": 0.1331,
-      "fastai_prob": 0.0487,
-      "fastai_rank": 6,
+      "ml_prob": 0.1342,
+      "ens_prob": 0.1194,
+      "fastai_prob": 0.0233,
+      "fastai_rank": 8,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 784539
+      "races_with_same_dogs": 784732
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.1,
-      "avg_temp_c": 13.3,
-      "total_precip_mm": 0.8,
+      "max_wind_kmh": 11.3,
+      "avg_temp_c": 13.5,
+      "total_precip_mm": 0.1,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "PAISLEY",
-      "total_offspring_runs_in_state": 24330,
-      "sire_win_rate": 0.126839293053843
+      "total_offspring_runs_in_state": 24351,
+      "sire_win_rate": 0.12677097449796723
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 231,
+      "total_litter_runs": 232,
       "litter_wins": 20
     },
     "35_Injury_History": {
@@ -203,7 +203,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

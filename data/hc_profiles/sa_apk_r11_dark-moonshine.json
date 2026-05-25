@@ -9,12 +9,12 @@
     "history_length": 91,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1935,
-      "ens_prob": 0.2829,
-      "fastai_prob": 0.3438,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2002,
+      "ens_prob": 0.2075,
+      "fastai_prob": 0.1349,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215900
+      "races_with_same_dogs": 216036
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "FIRETAIL",
-      "total_offspring_runs_in_state": 3603,
-      "sire_win_rate": 0.13127948931446018
+      "total_offspring_runs_in_state": 3607,
+      "sire_win_rate": 0.13113390629331856
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,13 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Lukewarm (Rank 3, prob 0.135)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -208,9 +209,7 @@
         "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.344)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

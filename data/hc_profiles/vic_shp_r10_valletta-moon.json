@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2497,
-      "ens_prob": 0.1664,
-      "fastai_prob": 0.1187,
-      "fastai_rank": 4,
+      "ml_prob": 0.2683,
+      "ens_prob": 0.1844,
+      "fastai_prob": 0.0965,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 784539
+      "races_with_same_dogs": 784732
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "VALLETTA MIST",
-      "total_offspring_runs_in_state": 5038,
-      "sire_win_rate": 0.13060738388249304
+      "total_offspring_runs_in_state": 5042,
+      "sire_win_rate": 0.1305037683458945
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,12 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.097)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

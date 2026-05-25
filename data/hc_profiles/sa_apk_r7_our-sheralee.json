@@ -1,18 +1,18 @@
 {
   "dog": "OUR SHERALEE",
-  "date": "2026-05-12",
+  "date": "2026-05-26",
   "track": "APK",
   "race": 7,
   "distance": 0,
   "grade": "Restricted Win Final",
   "steps": {
-    "history_length": 106,
+    "history_length": 109,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1613,
-      "ens_prob": 0.2195,
-      "fastai_prob": 0.1976,
+      "ml_prob": 0.2351,
+      "ens_prob": 0.2442,
+      "fastai_prob": 0.1118,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 346.33962264150944,
+      "avg_dist": 346.2201834862385,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,20 +34,18 @@
       "current_vs_historic_grade": "Restricted Win Final vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.5,
-      "fluctuation": -0.45238095238095255,
+      "last_weight": 25.4,
+      "fluctuation": -0.5383720930232592,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 106,
-      "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 4.8,
+      "total_starts": 109,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        3.0,
-        2.0,
         3.0,
         2.0,
         6.0,
@@ -55,7 +53,9 @@
         5.0,
         4.0,
         6.0,
-        4.0
+        4.0,
+        1.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214960
+      "races_with_same_dogs": 216036
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.54301204819277
+      "avg_run_home": 15.54435294117647
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.4045469693978854
+      "split_stdev": 1.3889745224767929
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 11620.0
+      "career_prize": 12400.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 4.0
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: APK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.10714285714285714,
-      "place_rate": 0.34523809523809523
+      "win_rate": 0.11627906976744186,
+      "place_rate": 0.36046511627906974
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FLYING RICCIARDO",
       "dam": "ROCK IT FABIO",
-      "total_offspring_runs_in_state": 2354,
-      "sire_win_rate": 0.1465590484282073
+      "total_offspring_runs_in_state": 2374,
+      "sire_win_rate": 0.14658803706823925
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 515,
-      "litter_wins": 42
+      "total_litter_runs": 527,
+      "litter_wins": 43
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 106
+      "total_starts": 109
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.599884733108628
+      "ewma_places": 2.399971183277157
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,15 +191,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",

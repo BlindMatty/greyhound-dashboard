@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.244,
-      "ens_prob": 0.1816,
-      "fastai_prob": 0.1619,
-      "fastai_rank": 4,
+      "ml_prob": 0.2702,
+      "ens_prob": 0.1669,
+      "fastai_prob": 0.0778,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 784539
+      "races_with_same_dogs": 784732
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SLICK LASS",
-      "total_offspring_runs_in_state": 38339,
-      "sire_win_rate": 0.14773468269907927
+      "total_offspring_runs_in_state": 38361,
+      "sire_win_rate": 0.14770209327181252
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -192,7 +192,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
