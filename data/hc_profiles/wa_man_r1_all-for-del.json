@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2523,
-      "ens_prob": 0.2117,
-      "fastai_prob": 0.0484,
-      "fastai_rank": 3,
+      "ml_prob": 0.3189,
+      "ens_prob": 0.2671,
+      "fastai_prob": 0.0494,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214303
+      "races_with_same_dogs": 214385
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "HOT SHOT HEATHER",
-      "total_offspring_runs_in_state": 3488,
-      "sire_win_rate": 0.14248853211009174
+      "total_offspring_runs_in_state": 3492,
+      "sire_win_rate": 0.14261168384879724
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -191,7 +191,7 @@
         "Inexperienced (< 3 starts)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.048)"
+        "FastAI Lukewarm (Rank 2, prob 0.049)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

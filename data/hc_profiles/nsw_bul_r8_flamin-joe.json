@@ -9,12 +9,12 @@
     "history_length": 31,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.181,
-      "ens_prob": 0.2366,
-      "fastai_prob": 0.6336,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1863,
+      "ens_prob": 0.2381,
+      "fastai_prob": 0.5116,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709276
+      "races_with_same_dogs": 709431
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "OUR AMELIA",
-      "total_offspring_runs_in_state": 11681,
-      "sire_win_rate": 0.15940416060268814
+      "total_offspring_runs_in_state": 11692,
+      "sire_win_rate": 0.15933971946630174
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -205,9 +205,7 @@
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.634)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

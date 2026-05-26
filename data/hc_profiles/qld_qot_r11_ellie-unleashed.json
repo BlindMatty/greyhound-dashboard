@@ -1,32 +1,32 @@
 {
   "dog": "ELLIE UNLEASHED",
-  "date": "2026-05-12",
+  "date": "2026-05-27",
   "track": "QOT",
   "race": 11,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 12,
+    "history_length": 14,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1906,
-      "ens_prob": 0.1541,
-      "fastai_prob": 0.2014,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1401,
+      "ens_prob": 0.2236,
+      "fastai_prob": 0.1807,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 3,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 343.3333333333333,
+      "avg_dist": 344.42857142857144,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,19 +35,17 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 26.5,
-      "fluctuation": 0.1599999999999966,
+      "fluctuation": 0.14999999999999503,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 12,
-      "last_3_avg_place": 4.333333333333333,
-      "last_5_avg_place": 3.0,
+      "total_starts": 14,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 4.0,
       "last_10_places": [
-        2.0,
-        1.0,
         4.0,
         4.0,
         1.0,
@@ -55,7 +53,9 @@
         1.0,
         6.0,
         5.0,
-        2.0
+        2.0,
+        1.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 402221
+      "races_with_same_dogs": 404882
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.368571428571428
+      "avg_run_home": 14.61111111111111
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.196041088639636
+      "split_stdev": 1.0825548484949852
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 6
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 7670.0
+      "career_prize": 9280.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.3333333333333335
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -352
+      "dist_diff_from_last": -350
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: QOT"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.4,
-      "place_rate": 0.6
+      "win_rate": 0.4166666666666667,
+      "place_rate": 0.5833333333333334
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "ELEGANT ELEANOR",
-      "total_offspring_runs_in_state": 4827,
-      "sire_win_rate": 0.0874249015951937
+      "total_offspring_runs_in_state": 4890,
+      "sire_win_rate": 0.08813905930470348
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 63,
-      "litter_wins": 16
+      "total_litter_runs": 71,
+      "litter_wins": 19
     },
     "35_Injury_History": {
       "long_spells_count": 2
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 12
+      "total_starts": 14
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.1632453567937437
+      "ewma_places": 4.041025641025641
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -194,6 +194,7 @@
       "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)"
@@ -205,7 +206,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

@@ -1,0 +1,216 @@
+{
+  "dog": "FARMOR BACARDI",
+  "date": "2026-05-26",
+  "track": "TOW",
+  "race": 9,
+  "distance": 0,
+  "grade": "Free For All",
+  "steps": {
+    "history_length": 61,
+    "01_Shortlist": {
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.2878,
+      "ens_prob": 0.2229,
+      "fastai_prob": 0.1112,
+      "fastai_rank": 2,
+      "is_three_way": false
+    },
+    "02_TDG_Medians": {
+      "status": "calculated",
+      "td_runs": 0
+    },
+    "03_Speed_Map": {
+      "own_box": 5,
+      "has_inside_pressure": true,
+      "has_outside_pressure": true
+    },
+    "04_Distance_Stamina": {
+      "avg_dist": 394.8524590163934,
+      "is_stepping_up": false,
+      "is_dropping_down": true
+    },
+    "05_Class_Analysis": {
+      "current_vs_historic_grade": "Free For All vs Field"
+    },
+    "06_Geometry_Weight": {
+      "last_weight": 28.1,
+      "fluctuation": 0.056363636363641945,
+      "major_fluctuation": false
+    },
+    "07_Race_Pace": {
+      "field_size": 8
+    },
+    "08_Form_Trajectory": {
+      "total_starts": 61,
+      "last_3_avg_place": 1.3333333333333333,
+      "last_5_avg_place": 1.6,
+      "last_10_places": [
+        8.0,
+        2.0,
+        4.0,
+        3.0,
+        3.0,
+        3.0,
+        1.0,
+        2.0,
+        1.0,
+        1.0
+      ]
+    },
+    "09_Pattern_Recognition": {
+      "consecutive_wins": false
+    },
+    "10_Forgive_Runs": {
+      "abnormal_runs": 0
+    },
+    "11_Surface_Bias": {
+      "track_type": "Sand/Loam assumed"
+    },
+    "12_Head_To_Head": {
+      "races_with_same_dogs": 404882
+    },
+    "13_Track_Topography": {
+      "distance_to_first_turn": "Map inferred"
+    },
+    "14_Biological_Sex_Flags": {
+      "is_bitch": false
+    },
+    "15_Run_Home": {
+      "avg_run_home": 15.427209302325585
+    },
+    "16_Field_Changes": {
+      "scratchings_in_race": 0
+    },
+    "17_Speed_Variance": {
+      "split_stdev": 2.0904192938069306
+    },
+    "18_Pedigree": {
+      "bloodline_check": true
+    },
+    "19_Lure_Mechanics": {
+      "lure_type": "Bramich baseline"
+    },
+    "20_Kennel_Form": {
+      "trainer": "Steven Scott"
+    },
+    "21_Size_Bumping": {
+      "is_heavy": false,
+      "is_light": false
+    },
+    "22_Quick_Backup": {
+      "days_since_last_run": 7
+    },
+    "23_Live_Track_Bias": {
+      "inside_bias_assumed": false
+    },
+    "24_Group_Feature_Races": {
+      "has_group_experience": false
+    },
+    "25_Public_Trials": {
+      "trials_on_record": 0
+    },
+    "26_Earnings_Class": {
+      "career_prize": 58785.0
+    },
+    "27_Acceleration_Profile": {
+      "avg_1st_split_pos": 2.84375
+    },
+    "28_Distance_Switch": {
+      "dist_diff_from_last": -380
+    },
+    "29_Live_Weather": {
+      "status": "error",
+      "message": "Coordinates not mapped for track: TOW"
+    },
+    "30_Non_Chaser": {
+      "win_rate": 0.36363636363636365,
+      "place_rate": 0.7272727272727273
+    },
+    "31_Track_Archetypes": {
+      "track_specialist": true
+    },
+    "32_Trainer_Profile": {
+      "trainer_lookup": "Steven Scott"
+    },
+    "33_Sire_Dam_Profile": {
+      "sire": "BERNARDO",
+      "dam": "GUNNELL",
+      "total_offspring_runs_in_state": 6515,
+      "sire_win_rate": 0.15042210283960092
+    },
+    "34_Sibling_Profile": {
+      "litter_size_racing": 9,
+      "total_litter_runs": 404,
+      "litter_wins": 76
+    },
+    "35_Injury_History": {
+      "long_spells_count": 0
+    },
+    "36_Track_Compaction": {
+      "time_of_day": "Standard"
+    },
+    "37_Aggressor_Map": {
+      "wide_runner": false
+    },
+    "38_Course_Distance": {
+      "cd_wins": 0
+    },
+    "39_NLP_Stewards": {
+      "status": "not_found",
+      "message": "Could not locate stewards div on page"
+    },
+    "40_Travel_Intent": {
+      "home_state": "QLD"
+    },
+    "41_Kennel_Mates": {
+      "mates_in_race": -1
+    },
+    "42_Vacant_Box": {
+      "has_adjacent_vacant": false
+    },
+    "43_Calendar_Intent": {
+      "is_heat": false
+    },
+    "44_Second_Up": {
+      "is_second_up": false
+    },
+    "45_Experience_Disparity": {
+      "total_starts": 61
+    },
+    "46_Trial_Dropoff": {
+      "trial_count": 0
+    },
+    "47_Time_Decay": {
+      "ewma_places": 1.2564186161162378
+    },
+    "48_Track_Renovations": {
+      "renovation_check": true
+    },
+    "49_Weight_Math": {
+      "weight_penalty_if_wet": false
+    },
+    "50_Final_Probability": {
+      "final_score": 5,
+      "decision": "LAY / FADE - SEVERE RISK",
+      "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
+        "Dropping distance (Speed shock risk)",
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.111)"
+      ],
+      "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
+        "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
+        "High Earnings Class / Classy Animal",
+        "High Career Win Rate (>25%)",
+        "Proven Track Specialist Profile",
+        "Elite Sire Line (>15% state win rate)",
+        "From an active winning litter (10+ wins)",
+        "Veteran Dog (>50 starts) - Racing sense"
+      ]
+    }
+  }
+}

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3148,
-      "ens_prob": 0.261,
-      "fastai_prob": 0.694,
+      "ml_prob": 0.3368,
+      "ens_prob": 0.2818,
+      "fastai_prob": 0.5962,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709276
+      "races_with_same_dogs": 709431
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "SPRITLEY EBONY",
-      "total_offspring_runs_in_state": 4777,
-      "sire_win_rate": 0.1599330123508478
+      "total_offspring_runs_in_state": 4780,
+      "sire_win_rate": 0.1598326359832636
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -213,7 +213,7 @@
         "Second-Up Bounce Profile (Pinnacle fitness)",
         "Veteran Dog (>50 starts) - Racing sense",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.694)"
+        "FastAI Strong Conviction (Rank 1, prob 0.596)"
       ]
     }
   }

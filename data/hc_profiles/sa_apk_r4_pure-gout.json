@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2602,
-      "ens_prob": 0.2466,
-      "fastai_prob": 0.2347,
-      "fastai_rank": 2,
+      "ml_prob": 0.2217,
+      "ens_prob": 0.2523,
+      "fastai_prob": 0.4253,
+      "fastai_rank": 1,
       "is_three_way": true
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216036
+      "races_with_same_dogs": 216100
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 17.042727272727276
+      "avg_run_home": 17.042727272727273
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "NANGAR DIVA",
-      "total_offspring_runs_in_state": 31346,
-      "sire_win_rate": 0.1572449435334652
+      "total_offspring_runs_in_state": 31351,
+      "sire_win_rate": 0.1572198653950432
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -204,7 +204,8 @@
         "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.425)"
       ]
     }
   }

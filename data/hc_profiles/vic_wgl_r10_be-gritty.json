@@ -9,12 +9,12 @@
     "history_length": 33,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3151,
-      "ens_prob": 0.2653,
-      "fastai_prob": 0.1236,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3155,
+      "ens_prob": 0.2318,
+      "fastai_prob": 0.1359,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 33,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 784732
+      "races_with_same_dogs": 785153
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.3,
-      "avg_temp_c": 13.9,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 25.1,
+      "avg_temp_c": 14.3,
+      "total_precip_mm": 0.5,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,13 +140,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "PYROCUMULUS",
-      "total_offspring_runs_in_state": 38653,
-      "sire_win_rate": 0.14850076320078648
+      "total_offspring_runs_in_state": 38703,
+      "sire_win_rate": 0.14848978115391573
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 133,
-      "litter_wins": 38
+      "total_litter_runs": 134,
+      "litter_wins": 39
     },
     "35_Injury_History": {
       "long_spells_count": 2
@@ -195,21 +195,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Lukewarm (Rank 3, prob 0.136)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

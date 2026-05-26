@@ -9,12 +9,12 @@
     "history_length": 131,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1814,
-      "ens_prob": 0.2501,
-      "fastai_prob": 0.1607,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2168,
+      "ens_prob": 0.3031,
+      "fastai_prob": 0.2565,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 404742
+      "races_with_same_dogs": 404882
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.960937499999998
+      "avg_run_home": 14.9609375
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.210833457457369
+      "split_stdev": 2.2108334574573685
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "NATURALLY GIFTED",
-      "total_offspring_runs_in_state": 11563,
-      "sire_win_rate": 0.12444867248983828
+      "total_offspring_runs_in_state": 11565,
+      "sire_win_rate": 0.1245136186770428
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -204,7 +204,9 @@
         "Strong Head-to-Head Experience over field",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.257)"
       ]
     }
   }
