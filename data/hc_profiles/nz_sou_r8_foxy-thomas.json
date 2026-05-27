@@ -9,12 +9,12 @@
     "history_length": 17,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2989,
-      "ens_prob": 0.2032,
-      "fastai_prob": 0.0888,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2364,
+      "ens_prob": 0.2022,
+      "fastai_prob": 0.0731,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 279320
+      "races_with_same_dogs": 279435
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -191,20 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.089)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
-        "Elite Sire Line (>15% state win rate)"
+        "Elite Sire Line (>15% state win rate)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

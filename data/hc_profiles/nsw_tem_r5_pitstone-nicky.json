@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1748,
-      "ens_prob": 0.1713,
-      "fastai_prob": 0.1715,
-      "fastai_rank": 4,
+      "ml_prob": 0.1722,
+      "ens_prob": 0.1783,
+      "fastai_prob": 0.3015,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709431
+      "races_with_same_dogs": 709712
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "NIKOLINA",
-      "total_offspring_runs_in_state": 25279,
-      "sire_win_rate": 0.13695161992167412
+      "total_offspring_runs_in_state": 25310,
+      "sire_win_rate": 0.1369024101145792
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -183,14 +183,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

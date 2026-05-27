@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.431,
-      "ens_prob": 0.1975,
-      "fastai_prob": 0.1983,
-      "fastai_rank": 3,
+      "ml_prob": 0.4254,
+      "ens_prob": 0.2181,
+      "fastai_prob": 0.2044,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785153
+      "races_with_same_dogs": 785419
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 16.3,
+      "max_wind_kmh": 17.3,
       "avg_temp_c": 11.5,
-      "total_precip_mm": 0.7,
+      "total_precip_mm": 2.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "SWIFTY",
-      "total_offspring_runs_in_state": 24380,
-      "sire_win_rate": 0.12940935192780967
+      "total_offspring_runs_in_state": 24395,
+      "sire_win_rate": 0.12937077269932362
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 102,
+      "total_litter_runs": 104,
       "litter_wins": 12
     },
     "35_Injury_History": {

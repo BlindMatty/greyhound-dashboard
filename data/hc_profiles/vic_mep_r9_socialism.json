@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3238,
-      "ens_prob": 0.3475,
-      "fastai_prob": 0.4843,
+      "ml_prob": 0.2411,
+      "ens_prob": 0.3333,
+      "fastai_prob": 0.3984,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785153
+      "races_with_same_dogs": 785419
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.5,
-      "avg_temp_c": 14.1,
-      "total_precip_mm": 2.4,
+      "max_wind_kmh": 12.7,
+      "avg_temp_c": 13.7,
+      "total_precip_mm": 3.4,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "THRIVING",
-      "total_offspring_runs_in_state": 9776,
-      "sire_win_rate": 0.1497545008183306
+      "total_offspring_runs_in_state": 9791,
+      "sire_win_rate": 0.1497293432744357
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 65,
+      "total_litter_runs": 67,
       "litter_wins": 9
     },
     "35_Injury_History": {
@@ -211,7 +211,7 @@
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.484)"
+        "FastAI Strong Conviction (Rank 1, prob 0.398)"
       ]
     }
   }

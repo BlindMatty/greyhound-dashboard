@@ -1,20 +1,20 @@
 {
   "dog": "ERAMOSA",
-  "date": "2026-05-14",
+  "date": "2026-05-28",
   "track": "MAN",
   "race": 9,
   "distance": 0,
   "grade": "Grade 4",
   "steps": {
-    "history_length": 23,
+    "history_length": 25,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2482,
-      "ens_prob": 0.2336,
-      "fastai_prob": 0.0722,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2604,
+      "ens_prob": 0.1824,
+      "fastai_prob": 0.102,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 304.0869565217391,
+      "avg_dist": 303.76,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,20 +34,18 @@
       "current_vs_historic_grade": "Grade 4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.9,
-      "fluctuation": -0.36363636363636687,
+      "last_weight": 30.4,
+      "fluctuation": 0.12916666666666643,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 23,
-      "last_3_avg_place": 3.3333333333333335,
-      "last_5_avg_place": 3.6,
+      "total_starts": 25,
+      "last_3_avg_place": 4.0,
+      "last_5_avg_place": 3.8,
       "last_10_places": [
-        1.0,
-        7.0,
         6.0,
         1.0,
         5.0,
@@ -55,7 +53,9 @@
         3.0,
         4.0,
         3.0,
-        3.0
+        3.0,
+        2.0,
+        7.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213471
+      "races_with_same_dogs": 214466
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 11.029
+      "avg_run_home": 10.995454545454546
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.12440489920967103
+      "split_stdev": 0.12197508793980052
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 11813.0
+      "career_prize": 12252.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: MAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2727272727272727,
-      "place_rate": 0.7272727272727273
+      "win_rate": 0.25,
+      "place_rate": 0.7083333333333334
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "GUELPH",
-      "total_offspring_runs_in_state": 28050,
-      "sire_win_rate": 0.13928698752228164
+      "total_offspring_runs_in_state": 28109,
+      "sire_win_rate": 0.1394215375858266
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 23,
+      "total_litter_runs": 25,
       "litter_wins": 6
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 23
+      "total_starts": 25
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.2201278734512027
+      "ewma_places": 4.805032062830452
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,20 +191,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
-      "decision": "PASS / CAUTION",
+      "final_score": 3,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.102)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "High Career Win Rate (>25%)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

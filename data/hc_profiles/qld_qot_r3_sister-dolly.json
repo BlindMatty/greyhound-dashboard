@@ -1,19 +1,19 @@
 {
   "dog": "SISTER DOLLY",
-  "date": "2026-05-06",
+  "date": "2026-05-27",
   "track": "QOT",
   "race": 3,
   "distance": 0,
-  "grade": "Maiden Heat",
+  "grade": "Maiden",
   "steps": {
-    "history_length": 0,
+    "history_length": 4,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.102,
-      "ens_prob": 0.2502,
-      "fastai_prob": 0.4219,
-      "fastai_rank": 2,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.0868,
+      "ens_prob": 0.2829,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,26 +26,30 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 0,
+      "avg_dist": 352.0,
       "is_stepping_up": false,
-      "is_dropping_down": false
+      "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Maiden Heat vs Maiden Heat"
+      "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 0.0,
-      "fluctuation": 0.0,
+      "last_weight": 25.4,
+      "fluctuation": 0.16666666666666785,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 0,
-      "last_3_avg_place": null,
+      "total_starts": 4,
+      "last_3_avg_place": 4.666666666666667,
       "last_5_avg_place": null,
-      "last_10_places": []
+      "last_10_places": [
+        3.0,
+        8.0,
+        3.0
+      ]
     },
     "09_Pattern_Recognition": {
       "consecutive_wins": false
@@ -57,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401161
+      "races_with_same_dogs": 405116
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -66,13 +70,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 0
+      "avg_run_home": 17.653333333333332
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0
+      "split_stdev": 0.08386497083606058
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -81,14 +85,14 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Unknown"
+      "trainer": "Kerry Hoggan"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 99
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -100,30 +104,39 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 0
+      "career_prize": 530.0
     },
     "27_Acceleration_Profile": {
-      "avg_1st_split_pos": 0
+      "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": 0
+      "dist_diff_from_last": -352
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: QOT"
     },
     "30_Non_Chaser": {
-      "win_rate": 0,
-      "place_rate": 0
+      "win_rate": 0.0,
+      "place_rate": 0.6666666666666666
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Unknown"
+      "trainer_lookup": "Kerry Hoggan"
     },
-    "33_Sire_Dam_Profile": {},
-    "34_Sibling_Profile": {},
+    "33_Sire_Dam_Profile": {
+      "sire": "FERAL FRANKY",
+      "dam": "HARA'S MOLLY",
+      "total_offspring_runs_in_state": 7362,
+      "sire_win_rate": 0.10296115186090736
+    },
+    "34_Sibling_Profile": {
+      "litter_size_racing": 3,
+      "total_litter_runs": 12,
+      "litter_wins": 2
+    },
     "35_Injury_History": {
       "long_spells_count": 0
     },
@@ -141,7 +154,7 @@
       "message": "Could not locate stewards div on page"
     },
     "40_Travel_Intent": {
-      "home_state": "Unknown"
+      "home_state": "QLD"
     },
     "41_Kennel_Mates": {
       "mates_in_race": -1
@@ -156,13 +169,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 0
+      "total_starts": 4
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 0
+      "ewma_places": 4.428571428571429
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -171,15 +184,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
-        "Inexperienced (< 3 starts)",
-        "Light/Frail Dog (<26kg) - Bump risk"
+        "Dropping distance (Speed shock risk)",
+        "Poor Recent Form (>4.5 avg)",
+        "Light/Frail Dog (<26kg) - Bump risk",
+        "Distance Shock (>= 100m diff last run)",
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field"
+        "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
+        "2-Way Model Alignment"
       ]
     }
   }

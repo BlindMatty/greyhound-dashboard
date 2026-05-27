@@ -1,19 +1,19 @@
 {
   "dog": "POPPER",
-  "date": "2026-05-20",
+  "date": "2026-05-27",
   "track": "SLE",
   "race": 1,
   "distance": 0,
-  "grade": "Rank Limit - Restricted Win",
+  "grade": "Tier 3 - Maiden",
   "steps": {
-    "history_length": 7,
+    "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2264,
-      "ens_prob": 0.1669,
-      "fastai_prob": 0.0319,
-      "fastai_rank": 4,
+      "ml_prob": 0.1972,
+      "ens_prob": 0.19,
+      "fastai_prob": 0.171,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,30 +26,31 @@
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 430.0,
+      "avg_dist": 430.625,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Rank Limit - Restricted Win vs Field"
+      "current_vs_historic_grade": "Tier 3 - Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.0,
-      "fluctuation": 0.5000000000000036,
+      "last_weight": 24.5,
+      "fluctuation": 0.0,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 7,
-      "last_3_avg_place": 3.0,
+      "total_starts": 8,
+      "last_3_avg_place": 3.3333333333333335,
       "last_5_avg_place": 3.8,
       "last_10_places": [
         4.0,
         6.0,
         3.0,
         2.0,
+        4.0,
         4.0
       ]
     },
@@ -63,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783167
+      "races_with_same_dogs": 785419
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -72,13 +73,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 18.00775
+      "avg_run_home": 18.4869375
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.783214705945417
+      "split_stdev": 1.5448450620126926
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -120,7 +121,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.4
+      "place_rate": 0.3333333333333333
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -131,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "TAKERS TO VEGAS",
-      "total_offspring_runs_in_state": 12843,
-      "sire_win_rate": 0.13524877365101612
+      "total_offspring_runs_in_state": 12998,
+      "sire_win_rate": 0.13494383751346362
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 4,
-      "total_litter_runs": 27,
+      "litter_size_racing": 5,
+      "total_litter_runs": 32,
       "litter_wins": 3
     },
     "35_Injury_History": {
@@ -171,13 +172,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 7
+      "total_starts": 8
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.4838709677419355
+      "ewma_places": 3.746031746031746
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -186,18 +187,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -7,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
-        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Adjacent Vacant Box (Clean Air potential)"

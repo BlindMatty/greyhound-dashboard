@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1843,
-      "ens_prob": 0.2211,
-      "fastai_prob": 0.0421,
+      "ml_prob": 0.1515,
+      "ens_prob": 0.1999,
+      "fastai_prob": 0.0369,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785153
+      "races_with_same_dogs": 785419
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,9 +114,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.5,
-      "avg_temp_c": 14.1,
-      "total_precip_mm": 2.4,
+      "max_wind_kmh": 12.7,
+      "avg_temp_c": 13.7,
+      "total_precip_mm": 3.4,
       "is_wet": true,
       "is_hot": false
     },
@@ -133,8 +133,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "WHITE WHALE",
-      "total_offspring_runs_in_state": 24380,
-      "sire_win_rate": 0.12940935192780967
+      "total_offspring_runs_in_state": 24395,
+      "sire_win_rate": 0.12937077269932362
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -196,7 +196,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 3, prob 0.042)"
+        "FastAI Lukewarm (Rank 3, prob 0.037)"
       ],
       "green_flags": [
         "Small Field Advantage",

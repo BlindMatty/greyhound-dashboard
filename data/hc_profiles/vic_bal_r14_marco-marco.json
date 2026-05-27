@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2491,
-      "ens_prob": 0.1239,
-      "fastai_prob": 0.0847,
-      "fastai_rank": 9,
+      "ml_prob": 0.1897,
+      "ens_prob": 0.1075,
+      "fastai_prob": 0.0731,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785153
+      "races_with_same_dogs": 785419
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 16.3,
+      "max_wind_kmh": 17.3,
       "avg_temp_c": 11.5,
-      "total_precip_mm": 0.7,
+      "total_precip_mm": 2.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "SPRING DRIVEN",
-      "total_offspring_runs_in_state": 13401,
-      "sire_win_rate": 0.1273039325423476
+      "total_offspring_runs_in_state": 13414,
+      "sire_win_rate": 0.1272551066050395
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 217,
+      "total_litter_runs": 219,
       "litter_wins": 19
     },
     "35_Injury_History": {
@@ -205,7 +205,7 @@
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

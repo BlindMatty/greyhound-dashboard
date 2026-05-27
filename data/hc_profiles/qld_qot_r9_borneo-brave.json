@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 48,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.4385,
-      "ens_prob": 0.2837,
-      "fastai_prob": 0.0847,
-      "fastai_rank": 4,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.4104,
+      "ens_prob": 0.393,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 404882
+      "races_with_same_dogs": 405116
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "BONNE CHANCE",
-      "total_offspring_runs_in_state": 8255,
-      "sire_win_rate": 0.12125984251968504
+      "total_offspring_runs_in_state": 8270,
+      "sire_win_rate": 0.12116082224909311
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,22 +191,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "2-Way Model Alignment"
       ]
     }
   }

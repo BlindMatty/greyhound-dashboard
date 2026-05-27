@@ -1,18 +1,18 @@
 {
   "dog": "EDDY SPAGHETTI",
-  "date": "2026-04-26",
+  "date": "2026-05-28",
   "track": "NOW",
   "race": 4,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Grade 5 Heat",
   "steps": {
-    "history_length": 30,
+    "history_length": 37,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2774,
-      "ens_prob": 0.1556,
-      "fastai_prob": 0.6038,
+      "ml_prob": 0.2488,
+      "ens_prob": 0.2598,
+      "fastai_prob": 0.5118,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -26,36 +26,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 350.9,
+      "avg_dist": 353.56756756756755,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Grade 5 Heat vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.0,
-      "fluctuation": 0.9370370370370402,
+      "last_weight": 29.2,
+      "fluctuation": 0.08181818181818201,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 30,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.0,
+      "total_starts": 37,
+      "last_3_avg_place": 4.0,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
         3.0,
-        7.0,
-        1.0,
-        4.0,
-        5.0,
-        3.0,
-        3.0,
         3.0,
         4.0,
-        2.0
+        2.0,
+        2.0,
+        3.0,
+        2.0,
+        2.0,
+        6.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 701278
+      "races_with_same_dogs": 709712
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.502272727272727
+      "avg_run_home": 13.212142857142856
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.766743635814556
+      "split_stdev": 2.5302159181762716
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 10
+      "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 7755.0
+      "career_prize": 10160.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.8
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: NOW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.07407407407407407,
-      "place_rate": 0.5925925925925926
+      "win_rate": 0.06060606060606061,
+      "place_rate": 0.6060606060606061
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO MICK",
       "dam": "CAPTAIN JACKIE",
-      "total_offspring_runs_in_state": 85,
-      "sire_win_rate": 0.15294117647058825
+      "total_offspring_runs_in_state": 92,
+      "sire_win_rate": 0.14130434782608695
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 30,
+      "total_litter_runs": 37,
       "litter_wins": 2
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 30
+      "total_starts": 37
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.7884771212076926
+      "ewma_places": 4.043569955164982
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,19 +191,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
+        "Quick Backup (< 4 days)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
