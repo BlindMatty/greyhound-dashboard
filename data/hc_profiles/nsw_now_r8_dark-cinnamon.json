@@ -9,12 +9,12 @@
     "history_length": 13,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.4897,
-      "ens_prob": 0.434,
-      "fastai_prob": 0.6072,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.4514,
+      "ens_prob": 0.2882,
+      "fastai_prob": 0.4781,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709712
+      "races_with_same_dogs": 710102
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "CINNAMON SCROLLS",
-      "total_offspring_runs_in_state": 11663,
-      "sire_win_rate": 0.15939295207065077
+      "total_offspring_runs_in_state": 11692,
+      "sire_win_rate": 0.1591686623332193
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -211,9 +211,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.607)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

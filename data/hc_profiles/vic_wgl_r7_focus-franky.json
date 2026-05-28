@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2118,
-      "ens_prob": 0.1535,
-      "fastai_prob": 0.0458,
-      "fastai_rank": 5,
+      "ml_prob": 0.1977,
+      "ens_prob": 0.1856,
+      "fastai_prob": 0.0685,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785419
+      "races_with_same_dogs": 785815
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -119,9 +119,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.9,
-      "avg_temp_c": 10.8,
-      "total_precip_mm": 1.0,
+      "max_wind_kmh": 10.3,
+      "avg_temp_c": 12.8,
+      "total_precip_mm": 0.2,
       "is_wet": false,
       "is_hot": false
     },
@@ -138,8 +138,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "DANI THRILLS",
-      "total_offspring_runs_in_state": 24387,
-      "sire_win_rate": 0.12748595563209908
+      "total_offspring_runs_in_state": 24414,
+      "sire_win_rate": 0.12742688621282872
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -198,7 +198,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3372,
-      "ens_prob": 0.2168,
-      "fastai_prob": 0.5939,
-      "fastai_rank": 3,
+      "ml_prob": 0.3889,
+      "ens_prob": 0.2299,
+      "fastai_prob": 0.4682,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709712
+      "races_with_same_dogs": 710102
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "MISS AMERICA",
-      "total_offspring_runs_in_state": 26712,
-      "sire_win_rate": 0.15296495956873316
+      "total_offspring_runs_in_state": 26720,
+      "sire_win_rate": 0.15303143712574852
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,14 +191,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

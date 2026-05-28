@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1439,
-      "ens_prob": 0.2057,
-      "fastai_prob": 0.0689,
-      "fastai_rank": 3,
+      "ml_prob": 0.1652,
+      "ens_prob": 0.2248,
+      "fastai_prob": 0.0228,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214466
+      "races_with_same_dogs": 214576
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -133,8 +133,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "SOUTH COAST ELLE",
-      "total_offspring_runs_in_state": 14764,
-      "sire_win_rate": 0.12422107829856407
+      "total_offspring_runs_in_state": 14765,
+      "sire_win_rate": 0.12421266508635286
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -188,14 +188,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Major Weight Fluctuation (>1.5kg diff)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 3, prob 0.069)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

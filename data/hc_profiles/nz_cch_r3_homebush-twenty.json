@@ -1,19 +1,19 @@
 {
   "dog": "HOMEBUSH TWENTY",
-  "date": "2026-05-15",
+  "date": "2026-05-29",
   "track": "CCH",
   "race": 3,
   "distance": 0,
   "grade": "Maiden Heat",
   "steps": {
-    "history_length": 6,
+    "history_length": 9,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2433,
-      "ens_prob": 0.1732,
-      "fastai_prob": 0.0595,
-      "fastai_rank": 4,
+      "ml_prob": 0.1591,
+      "ens_prob": 0.1943,
+      "fastai_prob": 0.0787,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
-      "has_inside_pressure": true,
+      "own_box": 2,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 342.5,
+      "avg_dist": 337.22222222222223,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,24 +34,27 @@
       "current_vs_historic_grade": "Maiden Heat vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.4,
-      "fluctuation": 1.0666666666666629,
+      "last_weight": 33.6,
+      "fluctuation": 0.9222222222222243,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 6,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.2,
+      "total_starts": 9,
+      "last_3_avg_place": 3.6666666666666665,
+      "last_5_avg_place": 3.6,
       "last_10_places": [
         2.0,
         2.0,
         5.0,
         2.0,
         4.0,
-        3.0
+        3.0,
+        4.0,
+        5.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -64,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 278036
+      "races_with_same_dogs": 279542
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -107,7 +110,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 2850.0
+      "career_prize": 4260.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -121,7 +124,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.6666666666666666
+      "place_rate": 0.5555555555555556
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -132,13 +135,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "DYNA STEAL",
       "dam": "DOUBLE QUEENIE",
-      "total_offspring_runs_in_state": 2693,
-      "sire_win_rate": 0.05384329743780171
+      "total_offspring_runs_in_state": 2709,
+      "sire_win_rate": 0.05426356589147287
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 39,
-      "litter_wins": 6
+      "total_litter_runs": 55,
+      "litter_wins": 8
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -163,7 +166,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -172,13 +175,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 6
+      "total_starts": 9
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.2063492063492065
+      "ewma_places": 3.1506849315068495
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -187,21 +190,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -10,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
         "Poor Sire Line (<8% state win rate)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.079)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias"
+        "Benefiting from inside track bias",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

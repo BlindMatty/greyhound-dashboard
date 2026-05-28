@@ -1,61 +1,61 @@
 {
   "dog": "RATHER CONVINCED",
-  "date": "2026-05-01",
+  "date": "2026-05-29",
   "track": "WAN",
   "race": 6,
   "distance": 0,
-  "grade": "Class 3",
+  "grade": "Mixed 3/4",
   "steps": {
-    "history_length": 20,
+    "history_length": 24,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2606,
-      "ens_prob": 0.2131,
-      "fastai_prob": 0.1643,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2114,
+      "ens_prob": 0.167,
+      "fastai_prob": 0.0803,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 4,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 453.4,
+      "avg_dist": 456.625,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 3 vs Field"
+      "current_vs_historic_grade": "Mixed 3/4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 36.1,
-      "fluctuation": 0.45000000000000284,
+      "last_weight": 35.5,
+      "fluctuation": -0.15500000000000114,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 20,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.2,
+      "total_starts": 24,
+      "last_3_avg_place": 4.0,
+      "last_5_avg_place": 4.2,
       "last_10_places": [
-        7.0,
-        1.0,
-        8.0,
-        6.0,
         8.0,
         1.0,
         6.0,
         3.0,
         1.0,
-        5.0
+        5.0,
+        4.0,
+        4.0,
+        7.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276821
+      "races_with_same_dogs": 279542
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -102,7 +102,7 @@
       "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 18240.0
+      "career_prize": 24930.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: WAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.375,
-      "place_rate": 0.5625
+      "win_rate": 0.35,
+      "place_rate": 0.5
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SH AVATAR",
       "dam": "BIG TIME GLORY",
-      "total_offspring_runs_in_state": 2402,
-      "sire_win_rate": 0.14904246461282264
+      "total_offspring_runs_in_state": 2461,
+      "sire_win_rate": 0.14790735473384803
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 83,
-      "litter_wins": 23
+      "total_litter_runs": 93,
+      "litter_wins": 26
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 20
+      "total_starts": 24
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.7459525444419013
+      "ewma_places": 3.234121545907541
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,23 +191,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 3, prob 0.080)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
-        "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

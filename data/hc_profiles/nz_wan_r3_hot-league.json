@@ -1,6 +1,6 @@
 {
   "dog": "HOT LEAGUE",
-  "date": "2026-05-22",
+  "date": "2026-05-29",
   "track": "WAN",
   "race": 3,
   "distance": 0,
@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1696,
-      "ens_prob": 0.2894,
-      "fastai_prob": 0.1094,
+      "ml_prob": 0.2424,
+      "ens_prob": 0.2105,
+      "fastai_prob": 0.1057,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,7 +21,7 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 6,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 24,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 279029
+      "races_with_same_dogs": 279542
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 10
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "BIG TIME IZZY",
-      "total_offspring_runs_in_state": 4817,
-      "sire_win_rate": 0.13971351463566536
+      "total_offspring_runs_in_state": 4853,
+      "sire_win_rate": 0.13970739748609107
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 133,
+      "total_litter_runs": 137,
       "litter_wins": 25
     },
     "35_Injury_History": {
@@ -191,16 +191,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]

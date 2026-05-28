@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.1888,
-      "ens_prob": 0.1224,
-      "fastai_prob": 0.1152,
-      "fastai_rank": 7,
+      "ens_prob": 0.1367,
+      "fastai_prob": 0.2743,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -194,7 +194,7 @@
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field"

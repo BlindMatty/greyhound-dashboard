@@ -9,12 +9,12 @@
     "history_length": 36,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2381,
-      "ens_prob": 0.3473,
-      "fastai_prob": 0.0533,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1841,
+      "ens_prob": 0.3303,
+      "fastai_prob": 0.0735,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 279435
+      "races_with_same_dogs": 279542
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "OUR ANNA",
-      "total_offspring_runs_in_state": 5238,
-      "sire_win_rate": 0.22164948453608246
+      "total_offspring_runs_in_state": 5240,
+      "sire_win_rate": 0.2215648854961832
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,20 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.053)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
