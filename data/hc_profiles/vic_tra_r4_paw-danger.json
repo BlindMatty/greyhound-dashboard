@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2529,
-      "ens_prob": 0.2473,
-      "fastai_prob": 0.1554,
+      "ml_prob": 0.2457,
+      "ens_prob": 0.2927,
+      "fastai_prob": 0.1805,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785815
+      "races_with_same_dogs": 786232
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 16.7,
-      "avg_temp_c": 12.2,
-      "total_precip_mm": 0.8,
+      "max_wind_kmh": 17.3,
+      "avg_temp_c": 12.6,
+      "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "KALANY BALE",
-      "total_offspring_runs_in_state": 17747,
-      "sire_win_rate": 0.12700738152927254
+      "total_offspring_runs_in_state": 17756,
+      "sire_win_rate": 0.12699932417211082
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 105,
+      "total_litter_runs": 106,
       "litter_wins": 25
     },
     "35_Injury_History": {

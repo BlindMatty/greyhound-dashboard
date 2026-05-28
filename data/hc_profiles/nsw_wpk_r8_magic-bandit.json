@@ -1,6 +1,6 @@
 {
   "dog": "MAGIC BANDIT",
-  "date": "2026-05-23",
+  "date": "2026-05-30",
   "track": "WPK",
   "race": 8,
   "distance": 0,
@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3753,
-      "ens_prob": 0.2456,
-      "fastai_prob": 0.6661,
+      "ml_prob": 0.2446,
+      "ens_prob": 0.1978,
+      "fastai_prob": 0.7304,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,9 +21,9 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 511.79487179487177,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 708894
+      "races_with_same_dogs": 710310
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 9
+      "days_since_last_run": 16
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": true
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "BANDIT JANE",
-      "total_offspring_runs_in_state": 8028,
-      "sire_win_rate": 0.17015445939212756
+      "total_offspring_runs_in_state": 8097,
+      "sire_win_rate": 0.17018648882302087
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 148,
+      "total_litter_runs": 150,
       "litter_wins": 37
     },
     "35_Injury_History": {
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -191,26 +191,24 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 14,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 15,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.666)"
+        "FastAI Strong Conviction (Rank 1, prob 0.730)"
       ]
     }
   }

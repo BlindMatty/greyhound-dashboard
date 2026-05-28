@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1778,
-      "ens_prob": 0.1396,
-      "fastai_prob": 0.0721,
-      "fastai_rank": 5,
+      "ml_prob": 0.1892,
+      "ens_prob": 0.1808,
+      "fastai_prob": 0.1655,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785815
+      "races_with_same_dogs": 786232
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "TIME TO TALK",
-      "total_offspring_runs_in_state": 100661,
-      "sire_win_rate": 0.1323948699098956
+      "total_offspring_runs_in_state": 100688,
+      "sire_win_rate": 0.1324189575719053
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -7,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,8 +199,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

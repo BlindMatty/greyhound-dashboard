@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3262,
-      "ens_prob": 0.2141,
-      "fastai_prob": 0.1552,
+      "ml_prob": 0.2827,
+      "ens_prob": 0.1993,
+      "fastai_prob": 0.1295,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785815
+      "races_with_same_dogs": 786232
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 16.7,
-      "avg_temp_c": 12.2,
-      "total_precip_mm": 0.8,
+      "max_wind_kmh": 17.3,
+      "avg_temp_c": 12.6,
+      "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "HADEEL BALE",
-      "total_offspring_runs_in_state": 25360,
-      "sire_win_rate": 0.1295347003154574
+      "total_offspring_runs_in_state": 25382,
+      "sire_win_rate": 0.1295406193365377
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 222,
+      "total_litter_runs": 223,
       "litter_wins": 40
     },
     "35_Injury_History": {
@@ -195,12 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.130)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

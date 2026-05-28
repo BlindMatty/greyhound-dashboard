@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1753,
-      "ens_prob": 0.1919,
-      "fastai_prob": 0.111,
+      "ml_prob": 0.1901,
+      "ens_prob": 0.2176,
+      "fastai_prob": 0.1454,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 785815
+      "races_with_same_dogs": 786232
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "WARATAH MISS",
-      "total_offspring_runs_in_state": 24419,
-      "sire_win_rate": 0.12944838035955608
+      "total_offspring_runs_in_state": 24441,
+      "sire_win_rate": 0.12945460496706354
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -197,7 +197,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 2, prob 0.111)"
+        "FastAI Lukewarm (Rank 2, prob 0.145)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

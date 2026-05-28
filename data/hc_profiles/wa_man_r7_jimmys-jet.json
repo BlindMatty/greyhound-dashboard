@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4521,
-      "ens_prob": 0.2079,
-      "fastai_prob": 0.033,
-      "fastai_rank": 4,
+      "ml_prob": 0.4255,
+      "ens_prob": 0.2076,
+      "fastai_prob": 0.0745,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214576
+      "races_with_same_dogs": 214672
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "AEROPLANE ANNIE",
-      "total_offspring_runs_in_state": 28124,
-      "sire_win_rate": 0.1394182904281041
+      "total_offspring_runs_in_state": 28130,
+      "sire_win_rate": 0.13942410238179878
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.074)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

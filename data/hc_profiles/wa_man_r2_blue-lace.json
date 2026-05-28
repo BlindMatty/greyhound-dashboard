@@ -6,15 +6,15 @@
   "distance": 0,
   "grade": "Grade 6",
   "steps": {
-    "history_length": 33,
+    "history_length": 34,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1584,
-      "ens_prob": 0.1859,
-      "fastai_prob": 0.0843,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1478,
+      "ens_prob": 0.1525,
+      "fastai_prob": 0.0796,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 303.030303030303,
+      "avg_dist": 302.94117647058823,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -42,7 +42,7 @@
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 33,
+      "total_starts": 34,
       "last_3_avg_place": 4.666666666666667,
       "last_5_avg_place": 4.8,
       "last_10_places": [
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214576
+      "races_with_same_dogs": 214672
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 1
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZIPPING KYRGIOS",
       "dam": "VELOCE NERO",
-      "total_offspring_runs_in_state": 126,
-      "sire_win_rate": 0.15079365079365079
+      "total_offspring_runs_in_state": 128,
+      "sire_win_rate": 0.1484375
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 63,
+      "total_litter_runs": 65,
       "litter_wins": 10
     },
     "35_Injury_History": {
@@ -176,7 +176,7 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 33
+      "total_starts": 34
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
@@ -191,24 +191,24 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
+        "Quick Backup (< 4 days)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Lukewarm (Rank 2, prob 0.080)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "High Career Win Rate (>25%)",
-        "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }
