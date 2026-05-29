@@ -1,18 +1,18 @@
 {
   "dog": "HE'S A FELON",
-  "date": "2026-05-16",
+  "date": "2026-05-31",
   "track": "BHL",
   "race": 4,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 18,
+    "history_length": 19,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2563,
-      "ens_prob": 0.2302,
-      "fastai_prob": 0.6982,
+      "ml_prob": 0.3583,
+      "ens_prob": 0.2803,
+      "fastai_prob": 0.5405,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
-      "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "own_box": 1,
+      "has_inside_pressure": false,
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 408.3333333333333,
+      "avg_dist": 406.57894736842104,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.6,
-      "fluctuation": 0.3133333333333326,
+      "last_weight": 34.3,
+      "fluctuation": 0.9499999999999957,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 18,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 2.2,
+      "total_starts": 19,
+      "last_3_avg_place": 2.0,
+      "last_5_avg_place": 2.0,
       "last_10_places": [
-        5.0,
         3.0,
         4.0,
         4.0,
@@ -55,7 +54,8 @@
         2.0,
         2.0,
         2.0,
-        1.0
+        1.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706925
+      "races_with_same_dogs": 710581
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -95,14 +95,14 @@
       "trainer": "Wade Hipwell"
     },
     "21_Size_Bumping": {
-      "is_heavy": false,
+      "is_heavy": true,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 15
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 8495.0
+      "career_prize": 8995.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: BHL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2,
-      "place_rate": 0.7333333333333333
+      "win_rate": 0.1875,
+      "place_rate": 0.75
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY BRO FABIO",
       "dam": "BALLINAKILL LOLA",
-      "total_offspring_runs_in_state": 17762,
-      "sire_win_rate": 0.086138948316631
+      "total_offspring_runs_in_state": 17773,
+      "sire_win_rate": 0.08619816575704721
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 68,
-      "litter_wins": 9
+      "total_litter_runs": 72,
+      "litter_wins": 10
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 18
+      "total_starts": 19
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.5901974547563098
+      "ewma_places": 2.2951094834821086
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,19 +191,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 11,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
+        "Heavy Dog (+34kg) - Resistance in packs",
+        "Benefiting from inside track bias",
+        "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.698)"
+        "FastAI Strong Conviction (Rank 1, prob 0.540)"
       ]
     }
   }

@@ -9,12 +9,12 @@
     "history_length": 69,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1442,
-      "ens_prob": 0.24,
-      "fastai_prob": 0.5353,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1398,
+      "ens_prob": 0.2279,
+      "fastai_prob": 0.3557,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710310
+      "races_with_same_dogs": 710581
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "SWEET NANGAR",
-      "total_offspring_runs_in_state": 12231,
-      "sire_win_rate": 0.15714168915051918
+      "total_offspring_runs_in_state": 12252,
+      "sire_win_rate": 0.1571988246816846
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 458,
+      "total_litter_runs": 460,
       "litter_wins": 79
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -207,9 +207,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.535)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

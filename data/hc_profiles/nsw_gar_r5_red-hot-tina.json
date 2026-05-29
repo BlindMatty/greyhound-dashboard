@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3294,
-      "ens_prob": 0.3478,
-      "fastai_prob": 0.6815,
+      "ml_prob": 0.3358,
+      "ens_prob": 0.3347,
+      "fastai_prob": 0.3292,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710310
+      "races_with_same_dogs": 710581
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "RED HOT CHEVY",
-      "total_offspring_runs_in_state": 24978,
-      "sire_win_rate": 0.13652013772119465
+      "total_offspring_runs_in_state": 25012,
+      "sire_win_rate": 0.13641452102990564
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -200,7 +200,7 @@
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.681)"
+        "FastAI Strong Conviction (Rank 1, prob 0.329)"
       ]
     }
   }

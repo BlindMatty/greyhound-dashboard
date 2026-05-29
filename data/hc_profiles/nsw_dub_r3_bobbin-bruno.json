@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1634,
-      "ens_prob": 0.1585,
-      "fastai_prob": 0.2179,
-      "fastai_rank": 7,
+      "ml_prob": 0.1918,
+      "ens_prob": 0.1847,
+      "fastai_prob": 0.1329,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710310
+      "races_with_same_dogs": 710581
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,12 +129,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "MIDNIGHT DARE",
-      "total_offspring_runs_in_state": 4920,
-      "sire_win_rate": 0.15691056910569107
+      "total_offspring_runs_in_state": 4925,
+      "sire_win_rate": 0.15695431472081217
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 36,
+      "total_litter_runs": 37,
       "litter_wins": 7
     },
     "35_Injury_History": {
@@ -184,14 +184,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.133)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

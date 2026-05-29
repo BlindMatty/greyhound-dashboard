@@ -9,12 +9,12 @@
     "history_length": 47,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2361,
-      "ens_prob": 0.2278,
-      "fastai_prob": 0.1378,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2515,
+      "ens_prob": 0.2048,
+      "fastai_prob": 0.2367,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786232
+      "races_with_same_dogs": 786658
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 11.8,
-      "avg_temp_c": 12.3,
-      "total_precip_mm": 3.4,
-      "is_wet": true,
+      "max_wind_kmh": 11.6,
+      "avg_temp_c": 12.4,
+      "total_precip_mm": 1.0,
+      "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "PHEME",
-      "total_offspring_runs_in_state": 100688,
-      "sire_win_rate": 0.1324189575719053
+      "total_offspring_runs_in_state": 100723,
+      "sire_win_rate": 0.13241265649355163
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,19 +195,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
-      "decision": "PASS / CAUTION",
+      "final_score": 2,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

@@ -9,12 +9,12 @@
     "history_length": 25,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1171,
-      "ens_prob": 0.1883,
-      "fastai_prob": 0.1145,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1104,
+      "ens_prob": 0.1567,
+      "fastai_prob": 0.1055,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 405596
+      "races_with_same_dogs": 405709
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "LOOK FANCY NANCY",
-      "total_offspring_runs_in_state": 8244,
-      "sire_win_rate": 0.14022319262493935
+      "total_offspring_runs_in_state": 8256,
+      "sire_win_rate": 0.14001937984496124
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,13 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Fresh (Needs Run / Missed work)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.105)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -208,8 +209,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

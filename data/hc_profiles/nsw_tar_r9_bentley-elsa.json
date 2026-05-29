@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.289,
-      "ens_prob": 0.2129,
-      "fastai_prob": 0.4874,
-      "fastai_rank": 5,
+      "ml_prob": 0.2249,
+      "ens_prob": 0.1698,
+      "fastai_prob": 0.1233,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710310
+      "races_with_same_dogs": 710581
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "AVA'S MISS",
-      "total_offspring_runs_in_state": 101779,
-      "sire_win_rate": 0.1365212863164307
+      "total_offspring_runs_in_state": 101805,
+      "sire_win_rate": 0.13654535631845194
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.123)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

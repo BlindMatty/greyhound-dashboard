@@ -9,12 +9,12 @@
     "history_length": 39,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1328,
-      "ens_prob": 0.1565,
-      "fastai_prob": 0.0396,
-      "fastai_rank": 5,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1429,
+      "ens_prob": 0.213,
+      "fastai_prob": 0.288,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786232
+      "races_with_same_dogs": 786658
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 17.6,
+      "max_wind_kmh": 17.7,
       "avg_temp_c": 9.4,
-      "total_precip_mm": 3.7,
+      "total_precip_mm": 4.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ASTON RHONE",
-      "total_offspring_runs_in_state": 100759,
-      "sire_win_rate": 0.13243481971833782
+      "total_offspring_runs_in_state": 100794,
+      "sire_win_rate": 0.13242851757049032
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -6,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,14 +203,15 @@
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.288)"
       ]
     }
   }

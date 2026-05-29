@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1734,
-      "ens_prob": 0.1537,
-      "fastai_prob": 0.2557,
-      "fastai_rank": 5,
+      "ml_prob": 0.1751,
+      "ens_prob": 0.1871,
+      "fastai_prob": 0.2203,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -67,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710310
+      "races_with_same_dogs": 710581
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "ELITE OPAL",
-      "total_offspring_runs_in_state": 10412,
-      "sire_win_rate": 0.13695735689588937
+      "total_offspring_runs_in_state": 10414,
+      "sire_win_rate": 0.13693105434991357
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -190,14 +190,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
