@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2194,
-      "ens_prob": 0.1225,
-      "fastai_prob": 0.1285,
-      "fastai_rank": 5,
+      "ml_prob": 0.2168,
+      "ens_prob": 0.1599,
+      "fastai_prob": 0.2538,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786658
+      "races_with_same_dogs": 786876
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "MAXIMUM SHIRLEY",
-      "total_offspring_runs_in_state": 12116,
-      "sire_win_rate": 0.12297788048861011
+      "total_offspring_runs_in_state": 12120,
+      "sire_win_rate": 0.12293729372937294
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,12 +191,11 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 8,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

@@ -1,18 +1,18 @@
 {
   "dog": "FIRST TRAIN OUT",
-  "date": "2026-05-11",
+  "date": "2026-06-01",
   "track": "NOW",
   "race": 10,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Grade 4",
   "steps": {
-    "history_length": 13,
+    "history_length": 14,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1446,
-      "ens_prob": 0.1889,
-      "fastai_prob": 0.6519,
+      "ml_prob": 0.2521,
+      "ens_prob": 0.2329,
+      "fastai_prob": 0.5958,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,32 +21,31 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 2,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 360.7692307692308,
+      "avg_dist": 361.07142857142856,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Grade 4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 36.1,
-      "fluctuation": 1.240000000000002,
+      "last_weight": 35.8,
+      "fluctuation": 0.8545454545454518,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 13,
-      "last_3_avg_place": 6.0,
-      "last_5_avg_place": 4.8,
+      "total_starts": 14,
+      "last_3_avg_place": 5.0,
+      "last_5_avg_place": 4.4,
       "last_10_places": [
-        1.0,
         1.0,
         1.0,
         7.0,
@@ -55,7 +54,8 @@
         3.0,
         4.0,
         7.0,
-        7.0
+        7.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 705341
+      "races_with_same_dogs": 710861
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.661666666666667
+      "avg_run_home": 12.574285714285713
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.0380879859947647
+      "split_stdev": 0.9510645664326947
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 10
+      "days_since_last_run": 21
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,24 +111,24 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 23695.0
+      "career_prize": 25195.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 1.5
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -350
+      "dist_diff_from_last": -365
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: NOW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3,
-      "place_rate": 0.5
+      "win_rate": 0.36363636363636365,
+      "place_rate": 0.5454545454545454
     },
     "31_Track_Archetypes": {
-      "track_specialist": false
+      "track_specialist": true
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "Sophie Soprano-Buckley"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "LEGENDARY LASS",
-      "total_offspring_runs_in_state": 11361,
-      "sire_win_rate": 0.15958102279728897
+      "total_offspring_runs_in_state": 11750,
+      "sire_win_rate": 0.15914893617021278
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 52,
-      "litter_wins": 9
+      "total_litter_runs": 54,
+      "litter_wins": 10
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 13
+      "total_starts": 14
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 6.223851417399804
+      "ewma_places": 3.610649731314118
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,28 +191,28 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
-        "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
-        "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
+        "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
+        "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.652)"
+        "FastAI Strong Conviction (Rank 1, prob 0.596)"
       ]
     }
   }

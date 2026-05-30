@@ -11,8 +11,8 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.3244,
-      "ens_prob": 0.2518,
-      "fastai_prob": 0.1706,
+      "ens_prob": 0.2415,
+      "fastai_prob": 0.0808,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 3, prob 0.081)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",

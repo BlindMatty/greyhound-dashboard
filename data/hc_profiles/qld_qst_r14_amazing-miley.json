@@ -1,19 +1,19 @@
 {
   "dog": "AMAZING MILEY",
-  "date": "2026-04-27",
+  "date": "2026-06-01",
   "track": "QST",
   "race": 14,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 34,
+    "history_length": 40,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1114,
-      "ens_prob": 0.1965,
-      "fastai_prob": 0.3054,
-      "fastai_rank": 5,
+      "ml_prob": 0.2221,
+      "ens_prob": 0.167,
+      "fastai_prob": 0.1301,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 7,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 338.05882352941177,
+      "avg_dist": 337.55,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,27 +35,27 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 28.3,
-      "fluctuation": -0.011999999999996902,
+      "fluctuation": 0.03225806451613167,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 34,
-      "last_3_avg_place": 3.3333333333333335,
-      "last_5_avg_place": 4.2,
+      "total_starts": 40,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 2.6,
       "last_10_places": [
-        1.0,
-        5.0,
-        6.0,
-        5.0,
-        4.0,
-        3.0,
         8.0,
         5.0,
         1.0,
-        4.0
+        4.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        5.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 399524
+      "races_with_same_dogs": 405798
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.035217391304348
+      "avg_run_home": 14.820689655172414
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.9936690902254962
+      "split_stdev": 1.05699033648779
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -102,7 +102,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 9150.0
+      "career_prize": 13345.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.727272727272727
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: QST"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.16,
-      "place_rate": 0.36
+      "win_rate": 0.1935483870967742,
+      "place_rate": 0.45161290322580644
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "BELVEDERE BABE",
-      "total_offspring_runs_in_state": 2038,
-      "sire_win_rate": 0.10549558390578999
+      "total_offspring_runs_in_state": 2193,
+      "sire_win_rate": 0.10579115367077063
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 163,
-      "litter_wins": 20
+      "total_litter_runs": 186,
+      "litter_wins": 23
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 34
+      "total_starts": 40
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.6105674091150584
+      "ewma_places": 2.7282901153565806
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,19 +191,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.130)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
-        "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

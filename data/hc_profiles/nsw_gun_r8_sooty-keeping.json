@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3762,
-      "ens_prob": 0.2272,
-      "fastai_prob": 0.2817,
+      "ml_prob": 0.353,
+      "ens_prob": 0.1893,
+      "fastai_prob": 0.2143,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710581
+      "races_with_same_dogs": 710861
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "REMA'S JADE",
-      "total_offspring_runs_in_state": 24964,
-      "sire_win_rate": 0.13579554558564333
+      "total_offspring_runs_in_state": 25003,
+      "sire_win_rate": 0.13574371075470942
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -210,8 +210,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.282)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
