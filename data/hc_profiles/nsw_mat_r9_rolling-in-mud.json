@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2822,
-      "ens_prob": 0.224,
-      "fastai_prob": 0.3232,
-      "fastai_rank": 3,
+      "ml_prob": 0.2546,
+      "ens_prob": 0.1689,
+      "fastai_prob": 0.2147,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710861
+      "races_with_same_dogs": 711159
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY BRO FABIO",
       "dam": "BALLINAKILL LOLA",
-      "total_offspring_runs_in_state": 17774,
-      "sire_win_rate": 0.08619331607966693
+      "total_offspring_runs_in_state": 17776,
+      "sire_win_rate": 0.08623987398739874
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 72,
-      "litter_wins": 10
+      "total_litter_runs": 73,
+      "litter_wins": 11
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -191,11 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
-      "decision": "PASS / CAUTION",
+      "final_score": 9,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

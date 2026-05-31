@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.233,
-      "ens_prob": 0.2133,
-      "fastai_prob": 0.2214,
-      "fastai_rank": 4,
+      "ml_prob": 0.2794,
+      "ens_prob": 0.2832,
+      "fastai_prob": 0.2753,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 1,
       "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 349.375,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 16,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786876
+      "races_with_same_dogs": 787064
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "GOLDEN QUEST",
-      "total_offspring_runs_in_state": 24483,
-      "sire_win_rate": 0.12960013070293674
+      "total_offspring_runs_in_state": 24489,
+      "sire_win_rate": 0.12960921229939973
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 60,
+      "total_litter_runs": 61,
       "litter_wins": 6
     },
     "35_Injury_History": {
@@ -191,17 +191,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -8,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
+        "Clean Early Run (No adjacent pressure)",
+        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)"

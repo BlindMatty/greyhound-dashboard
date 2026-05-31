@@ -9,12 +9,12 @@
     "history_length": 11,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2018,
-      "ens_prob": 0.1528,
-      "fastai_prob": 0.1347,
-      "fastai_rank": 6,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1868,
+      "ens_prob": 0.2185,
+      "fastai_prob": 0.2695,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
       "total_starts": 11,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786876
+      "races_with_same_dogs": 787064
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ARMATREE KAYCEE",
-      "total_offspring_runs_in_state": 100878,
-      "sire_win_rate": 0.13252641804952517
+      "total_offspring_runs_in_state": 100895,
+      "sire_win_rate": 0.13253382229050004
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,19 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.270)"
       ]
     }
   }

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1958,
-      "ens_prob": 0.1279,
-      "fastai_prob": 0.0468,
-      "fastai_rank": 5,
+      "ml_prob": 0.1955,
+      "ens_prob": 0.2033,
+      "fastai_prob": 0.1531,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786876
+      "races_with_same_dogs": 787064
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,8 +122,8 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 31.6,
-      "avg_temp_c": 9.4,
-      "total_precip_mm": 2.6,
+      "avg_temp_c": 9.5,
+      "total_precip_mm": 5.8,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ARATUZA BALE",
-      "total_offspring_runs_in_state": 100778,
-      "sire_win_rate": 0.13242969695766935
+      "total_offspring_runs_in_state": 100795,
+      "sire_win_rate": 0.1324371248573838
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -195,15 +195,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

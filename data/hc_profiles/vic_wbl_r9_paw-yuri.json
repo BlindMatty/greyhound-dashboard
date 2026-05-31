@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2174,
-      "ens_prob": 0.2223,
-      "fastai_prob": 0.5095,
+      "ml_prob": 0.2492,
+      "ens_prob": 0.269,
+      "fastai_prob": 0.4687,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786876
+      "races_with_same_dogs": 787064
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AMRON BOY",
       "dam": "FORTUNA BALE",
-      "total_offspring_runs_in_state": 560,
-      "sire_win_rate": 0.1767857142857143
+      "total_offspring_runs_in_state": 561,
+      "sire_win_rate": 0.17647058823529413
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -200,7 +200,7 @@
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.509)"
+        "FastAI Strong Conviction (Rank 1, prob 0.469)"
       ]
     }
   }
