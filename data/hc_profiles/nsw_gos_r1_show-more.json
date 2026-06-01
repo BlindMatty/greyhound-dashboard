@@ -9,12 +9,12 @@
     "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2603,
-      "ens_prob": 0.2958,
-      "fastai_prob": 0.3646,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2282,
+      "ens_prob": 0.2141,
+      "fastai_prob": 0.382,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 711159
+      "races_with_same_dogs": 711318
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,13 +130,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "JUNGLE DEUCE",
       "dam": "ZAKUSKA ZIPPER",
-      "total_offspring_runs_in_state": 3680,
-      "sire_win_rate": 0.13804347826086957
+      "total_offspring_runs_in_state": 3685,
+      "sire_win_rate": 0.1383989145183175
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 3,
-      "total_litter_runs": 10,
-      "litter_wins": 2
+      "litter_size_racing": 4,
+      "total_litter_runs": 11,
+      "litter_wins": 3
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -185,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -197,9 +197,7 @@
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.365)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

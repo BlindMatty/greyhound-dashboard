@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.12,
-      "ens_prob": 0.1411,
-      "fastai_prob": 0.0515,
-      "fastai_rank": 6,
+      "ml_prob": 0.1615,
+      "ens_prob": 0.1686,
+      "fastai_prob": 0.0414,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214849
+      "races_with_same_dogs": 214925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "JUST WINS BOSS",
-      "total_offspring_runs_in_state": 4537,
-      "sire_win_rate": 0.12695613841745648
+      "total_offspring_runs_in_state": 4540,
+      "sire_win_rate": 0.12687224669603525
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,13 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.041)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

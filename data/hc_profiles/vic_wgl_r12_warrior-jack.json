@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1497,
-      "ens_prob": 0.1334,
-      "fastai_prob": 0.0597,
-      "fastai_rank": 6,
+      "ml_prob": 0.1339,
+      "ens_prob": 0.1624,
+      "fastai_prob": 0.0804,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 7,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 444.2857142857143,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 77,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787064
+      "races_with_same_dogs": 787460
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -120,8 +120,12 @@
       "dist_diff_from_last": -435
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      "status": "success",
+      "max_wind_kmh": 33.7,
+      "avg_temp_c": 12.3,
+      "total_precip_mm": 6.3,
+      "is_wet": true,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 0.14754098360655737,
@@ -136,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "DIAMOND BANNER",
-      "total_offspring_runs_in_state": 13649,
-      "sire_win_rate": 0.12616308887097957
+      "total_offspring_runs_in_state": 13670,
+      "sire_win_rate": 0.12596927578639355
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 271,
+      "total_litter_runs": 272,
       "litter_wins": 23
     },
     "35_Injury_History": {
@@ -167,7 +171,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -188,17 +192,17 @@
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": false
+      "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Heavy dog penalty on assumed wet track",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -206,6 +210,7 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense"
       ]
     }

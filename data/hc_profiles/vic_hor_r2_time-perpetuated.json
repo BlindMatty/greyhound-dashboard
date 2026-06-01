@@ -9,12 +9,12 @@
     "history_length": 26,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1772,
-      "ens_prob": 0.2167,
-      "fastai_prob": 0.3583,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1969,
+      "ens_prob": 0.2269,
+      "fastai_prob": 0.4418,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787064
+      "races_with_same_dogs": 787460
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 25.5,
-      "avg_temp_c": 12.5,
-      "total_precip_mm": 11.6,
+      "max_wind_kmh": 25.8,
+      "avg_temp_c": 12.6,
+      "total_precip_mm": 2.9,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MY NAME'S STACEY",
-      "total_offspring_runs_in_state": 100766,
-      "sire_win_rate": 0.1324454677172856
+      "total_offspring_runs_in_state": 100811,
+      "sire_win_rate": 0.13242602493775482
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 4,
-      "total_litter_runs": 47,
+      "litter_size_racing": 5,
+      "total_litter_runs": 48,
       "litter_wins": 11
     },
     "35_Injury_History": {
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -206,7 +206,9 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.442)"
       ]
     }
   }

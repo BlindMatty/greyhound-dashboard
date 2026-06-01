@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2037,
-      "ens_prob": 0.1972,
-      "fastai_prob": 0.2063,
+      "ml_prob": 0.2029,
+      "ens_prob": 0.2793,
+      "fastai_prob": 0.2768,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 2,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787064
+      "races_with_same_dogs": 787460
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,12 +128,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "YOZO BALE",
       "dam": "ARATUZA BALE",
-      "total_offspring_runs_in_state": 1754,
-      "sire_win_rate": 0.13740022805017105
+      "total_offspring_runs_in_state": 1763,
+      "sire_win_rate": 0.13726602382302894
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 25,
+      "total_litter_runs": 28,
       "litter_wins": 3
     },
     "35_Injury_History": {
