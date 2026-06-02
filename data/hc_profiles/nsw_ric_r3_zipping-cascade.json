@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2621,
-      "ens_prob": 0.293,
-      "fastai_prob": 0.6255,
+      "ml_prob": 0.3057,
+      "ens_prob": 0.2593,
+      "fastai_prob": 0.6397,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 711318
+      "races_with_same_dogs": 711508
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.6,
-      "avg_temp_c": 14.8,
+      "max_wind_kmh": 19.5,
+      "avg_temp_c": 15.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -202,7 +202,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.625)"
+        "FastAI Strong Conviction (Rank 1, prob 0.640)"
       ]
     }
   }

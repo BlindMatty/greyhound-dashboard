@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1914,
-      "ens_prob": 0.2694,
-      "fastai_prob": 0.5351,
+      "ml_prob": 0.1658,
+      "ens_prob": 0.2425,
+      "fastai_prob": 0.6051,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 711318
+      "races_with_same_dogs": 711508
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "ROBELL MILLY",
-      "total_offspring_runs_in_state": 10321,
-      "sire_win_rate": 0.13593644026741594
+      "total_offspring_runs_in_state": 10330,
+      "sire_win_rate": 0.13581800580832526
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -205,7 +205,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.535)"
+        "FastAI Strong Conviction (Rank 1, prob 0.605)"
       ]
     }
   }

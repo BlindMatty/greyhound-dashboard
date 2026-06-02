@@ -1,19 +1,19 @@
 {
   "dog": "CRITICALLY",
-  "date": "2026-05-07",
+  "date": "2026-06-04",
   "track": "SHP",
   "race": 1,
   "distance": 0,
   "grade": "Tier 3 - Maiden",
   "steps": {
-    "history_length": 4,
+    "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1685,
-      "ens_prob": 0.155,
-      "fastai_prob": 0.1044,
-      "fastai_rank": 5,
+      "ml_prob": 0.1984,
+      "ens_prob": 0.1828,
+      "fastai_prob": 0.1808,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,7 +26,7 @@
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 405.0,
+      "avg_dist": 406.25,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,20 +35,24 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 29.9,
-      "fluctuation": 0.32499999999999574,
+      "fluctuation": 0.10000000000000142,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 4,
-      "last_3_avg_place": 3.6666666666666665,
-      "last_5_avg_place": null,
+      "total_starts": 8,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.2,
       "last_10_places": [
         7.0,
         5.0,
         4.0,
+        2.0,
+        4.0,
+        5.0,
+        3.0,
         2.0
       ]
     },
@@ -62,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778780
+      "races_with_same_dogs": 787748
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -71,13 +75,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.6985
+      "avg_run_home": 13.946124999999999
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.7656456326228092
+      "split_stdev": 1.2460940557732123
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -105,7 +109,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 50.0
+      "career_prize": 605.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -119,7 +123,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.25
+      "place_rate": 0.375
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -130,13 +134,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "THRIVING",
-      "total_offspring_runs_in_state": 9469,
-      "sire_win_rate": 0.15006864505227585
+      "total_offspring_runs_in_state": 9897,
+      "sire_win_rate": 0.1497423461655047
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 40,
-      "litter_wins": 8
+      "total_litter_runs": 74,
+      "litter_wins": 12
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -170,13 +174,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 4
+      "total_starts": 8
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.2666666666666666
+      "ewma_places": 2.827450980392157
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -185,18 +189,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Elite Sire Line (>15% state win rate)",
+        "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)"
       ]
     }

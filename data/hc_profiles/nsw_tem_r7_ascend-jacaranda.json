@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2768,
-      "ens_prob": 0.1723,
-      "fastai_prob": 0.3763,
-      "fastai_rank": 6,
+      "ml_prob": 0.2471,
+      "ens_prob": 0.1871,
+      "fastai_prob": 0.6105,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 711318
+      "races_with_same_dogs": 711508
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "PAT C SABBATH",
       "dam": "DAPH'S ASCEND",
-      "total_offspring_runs_in_state": 131,
-      "sire_win_rate": 0.2900763358778626
+      "total_offspring_runs_in_state": 132,
+      "sire_win_rate": 0.29545454545454547
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 64,
-      "litter_wins": 22
+      "total_litter_runs": 65,
+      "litter_wins": 23
     },
     "35_Injury_History": {
       "long_spells_count": 2
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

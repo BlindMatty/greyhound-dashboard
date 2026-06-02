@@ -1,19 +1,19 @@
 {
   "dog": "PORTLAND FLEET",
-  "date": "2026-05-07",
+  "date": "2026-06-04",
   "track": "WAK",
   "race": 4,
   "distance": 0,
-  "grade": "Mixed Grade 1/2",
+  "grade": "Class 3",
   "steps": {
-    "history_length": 35,
+    "history_length": 39,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1476,
-      "ens_prob": 0.1607,
-      "fastai_prob": 0.0626,
-      "fastai_rank": 3,
+      "ml_prob": 0.1748,
+      "ens_prob": 0.1641,
+      "fastai_prob": 0.1026,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,36 +26,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 345.6857142857143,
+      "avg_dist": 345.7692307692308,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed Grade 1/2 vs Field"
+      "current_vs_historic_grade": "Class 3 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.8,
-      "fluctuation": 0.6281250000000007,
+      "last_weight": 28.5,
+      "fluctuation": 0.28857142857143003,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 35,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.4,
+      "total_starts": 39,
+      "last_3_avg_place": 2.0,
+      "last_5_avg_place": 2.6,
       "last_10_places": [
-        3.0,
-        7.0,
-        6.0,
         5.0,
         2.0,
         5.0,
         3.0,
         2.0,
         4.0,
-        3.0
+        3.0,
+        4.0,
+        1.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 277228
+      "races_with_same_dogs": 280169
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 17150.0
+      "career_prize": 20820.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: WAK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.15625,
-      "place_rate": 0.59375
+      "win_rate": 0.2,
+      "place_rate": 0.6
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "PORTLAND DREAM",
-      "total_offspring_runs_in_state": 23010,
-      "sire_win_rate": 0.15423728813559323
+      "total_offspring_runs_in_state": 23278,
+      "sire_win_rate": 0.15443766646619125
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 11,
-      "total_litter_runs": 295,
-      "litter_wins": 75
+      "total_litter_runs": 327,
+      "litter_wins": 82
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 35
+      "total_starts": 39
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.2066208997756758
+      "ewma_places": 1.6508276124266799
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -196,10 +196,10 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.063)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Positive Weight Gain (Strength build)",
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",

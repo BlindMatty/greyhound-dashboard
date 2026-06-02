@@ -1,27 +1,27 @@
 {
   "dog": "HEAVEN ON EARTH",
-  "date": "2026-05-21",
+  "date": "2026-06-04",
   "track": "SHP",
   "race": 2,
   "distance": 0,
   "grade": "Tier 3 - Maiden",
   "steps": {
-    "history_length": 2,
+    "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1932,
-      "ens_prob": 0.2179,
-      "fastai_prob": 0.3007,
-      "fastai_rank": 4,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1765,
+      "ens_prob": 0.2017,
+      "fastai_prob": 0.5099,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
@@ -35,19 +35,20 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 31.6,
-      "fluctuation": 0.10000000000000142,
+      "fluctuation": 0.07500000000000284,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
-      "last_3_avg_place": null,
+      "total_starts": 4,
+      "last_3_avg_place": 3.6666666666666665,
       "last_5_avg_place": null,
       "last_10_places": [
         2.0,
-        6.0
+        6.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783536
+      "races_with_same_dogs": 787748
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -91,7 +92,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -103,7 +104,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 520.0
+      "career_prize": 840.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -117,7 +118,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.5
+      "place_rate": 0.6666666666666666
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -128,13 +129,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ALLEN DEED",
       "dam": "AMNESTY",
-      "total_offspring_runs_in_state": 13883,
-      "sire_win_rate": 0.10523662032701865
+      "total_offspring_runs_in_state": 13965,
+      "sire_win_rate": 0.10540637307554601
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 9,
-      "litter_wins": 0
+      "total_litter_runs": 14,
+      "litter_wins": 1
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -168,13 +169,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 4
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.666666666666667
+      "ewma_places": 3.7142857142857144
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,21 +184,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -9,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
-        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Professional Box Dog (Elite start consistency)",
-        "Benefiting from inside track bias"
+        "Benefiting from inside track bias",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.510)"
       ]
     }
   }

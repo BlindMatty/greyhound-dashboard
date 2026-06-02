@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1629,
-      "ens_prob": 0.1461,
-      "fastai_prob": 0.0668,
-      "fastai_rank": 7,
+      "ml_prob": 0.2236,
+      "ens_prob": 0.2386,
+      "fastai_prob": 0.1143,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 405998
+      "races_with_same_dogs": 406240
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "SHE WOLF",
-      "total_offspring_runs_in_state": 2084,
-      "sire_win_rate": 0.11036468330134357
+      "total_offspring_runs_in_state": 2090,
+      "sire_win_rate": 0.11004784688995216
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -193,7 +193,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
