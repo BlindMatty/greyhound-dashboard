@@ -755,26 +755,45 @@
     "mlTsTiers": {
       "startDate": "2026-04-08",
       "resultsDate": "2026-06-02",
-      "settledRaces": 1238,
+      "settledRaces": 1207,
       "models": {
         "base_ml_ts": {
-          "wins": 602,
-          "settled": 1238,
+          "wins": 590,
+          "settled": 1207,
           "label": "ML TS",
-          "strikeRate": 48.62681744749596
+          "strikeRate": 48.88152444076222
+        },
+        "ml_ts_fa_align": {
+          "wins": 242,
+          "settled": 430,
+          "label": "ML TS + FA Align",
+          "strikeRate": 56.27906976744186
         },
         "ml_ts_45_10": {
-          "wins": 170,
-          "settled": 328,
+          "wins": 255,
+          "settled": 494,
           "label": "ML TS >45%, 10+",
-          "strikeRate": 51.829268292682926
+          "strikeRate": 51.61943319838057
         },
         "ml_ts_50_10": {
-          "wins": 76,
-          "settled": 128,
+          "wins": 116,
+          "settled": 198,
           "label": "ML TS >50%, 10+",
-          "strikeRate": 59.375
+          "strikeRate": 58.58585858585859
         }
+      }
+    },
+    "mlTsFaSrAlign": {
+      "startDate": "2026-04-08",
+      "resultsDate": "2026-06-01",
+      "settledRaces": 88,
+      "minSettled": 5,
+      "threshold": 40.0,
+      "model": {
+        "wins": 65,
+        "settled": 88,
+        "label": "ML TS + FA 40%",
+        "strikeRate": 73.86363636363636
       }
     }
   },

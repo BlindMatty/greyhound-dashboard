@@ -4,9 +4,10 @@
   "stateName": "South Australia",
   "totalRaces": 9,
   "totalDogs": 45,
-  "highConfidenceCount": 10,
-  "fastEnsCount": 10,
+  "highConfidenceCount": 9,
+  "fastEnsCount": 9,
   "eloEnsCount": 4,
+  "mlTsFaSrAlignCount": 0,
   "races": [
     {
       "track": "MBS",
@@ -40,7 +41,8 @@
           "implied_odds_norm": 2.8849820319196953,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "AFIRE",
@@ -169,7 +171,8 @@
           "implied_odds_norm": 3.295008920342494,
           "isFastEns": true,
           "isEloEns": true,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "GET STOPS",
@@ -275,7 +278,8 @@
           "implied_odds_norm": 2.1894015274051815,
           "isFastEns": true,
           "isEloEns": true,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "RIPPIN' PEDRO",
@@ -404,7 +408,8 @@
           "implied_odds_norm": 2.178307383088671,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "MAKE SOME NOISE",
@@ -533,7 +538,8 @@
           "implied_odds_norm": 2.8201782405596414,
           "isFastEns": true,
           "isEloEns": true,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "GLENAGEARY",
@@ -662,7 +668,8 @@
           "implied_odds_norm": 2.813156124561656,
           "isFastEns": true,
           "isEloEns": true,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "SLICK ANGEL",
@@ -791,7 +798,8 @@
           "implied_odds_norm": 3.8612976241527557,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "TATAMAGOUCHE",
@@ -943,7 +951,8 @@
           "implied_odds_norm": 4.596894006168825,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": true
+          "isMlSpecialist": true,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "BINNAWAY PEARL",
@@ -1095,7 +1104,8 @@
           "implied_odds_norm": 2.586961431530171,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": true
+          "isMlSpecialist": true,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "SIR RICO",
@@ -1190,20 +1200,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": null,
+      "faTrackComboRaces": null,
       "mlGapToSecondPct": 24.853039794943673,
-      "grade": "Mixed",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Mixed"
     },
     {
       "track": "MBS",
@@ -1224,20 +1227,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": null,
+      "faTrackComboRaces": null,
       "mlGapToSecondPct": 12.607997595844173,
-      "grade": "Mixed",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Mixed"
     },
     {
       "track": "MBS",
@@ -1258,20 +1254,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 42.857142857142854,
+      "faTrackComboRaces": 7,
       "mlGapToSecondPct": 5.802557422382026,
-      "grade": "Restricted Win",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Restricted Win"
     },
     {
       "track": "MBS",
@@ -1292,20 +1281,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": true,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": 42.9,
       "mlSpecialistRaces": 14,
+      "faTrackComboSr": 50.0,
+      "faTrackComboRaces": 4,
       "mlGapToSecondPct": 0.8541208044063109,
-      "grade": "Open",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "mlSpecialistSource": "morning",
-      "mlSpecialistBaseSource": "morning",
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": true,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false,
-      "isNewMlSpecialistAddition": true
+      "grade": "Open"
     },
     {
       "track": "MBS",
@@ -1326,20 +1308,13 @@
       "isEloEns": true,
       "elo_agrees": true,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": null,
+      "faTrackComboRaces": null,
       "mlGapToSecondPct": 22.665028830245216,
-      "grade": "Mixed",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Mixed"
     },
     {
       "track": "MBS",
@@ -1360,20 +1335,13 @@
       "isEloEns": true,
       "elo_agrees": true,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": null,
+      "faTrackComboRaces": null,
       "mlGapToSecondPct": 15.355066935802434,
-      "grade": "Mixed",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Mixed"
     },
     {
       "track": "MBS",
@@ -1394,20 +1362,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": true,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": 43.1,
       "mlSpecialistRaces": 72,
+      "faTrackComboSr": 28.57142857142857,
+      "faTrackComboRaces": 7,
       "mlGapToSecondPct": 14.01073901433344,
-      "grade": "Grade 6",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "mlSpecialistSource": "day_before",
-      "mlSpecialistBaseSource": "day_before",
-      "isDayBeforeMlSpecialist": true,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false,
-      "isNewMlSpecialistAddition": false
+      "grade": "Grade 6"
     },
     {
       "track": "MBS",
@@ -1428,20 +1389,13 @@
       "isEloEns": true,
       "elo_agrees": true,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 42.857142857142854,
+      "faTrackComboRaces": 7,
       "mlGapToSecondPct": 6.962838960720486,
-      "grade": "Restricted Win",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Restricted Win"
     },
     {
       "track": "MBS",
@@ -1462,54 +1416,13 @@
       "isEloEns": true,
       "elo_agrees": true,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 0.0,
+      "faTrackComboRaces": 2,
       "mlGapToSecondPct": 1.607344898313695,
-      "grade": "Mixed Maiden/6",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
-    },
-    {
-      "track": "MBS",
-      "raceNumber": 8,
-      "raceId": 1304388624,
-      "raceStartTime": "2:36PM",
-      "dog": "BINNAWAY PEARL",
-      "box": 1,
-      "probability": 0.324283075588975,
-      "implied_odds": 3.083725532650024,
-      "implied_odds_norm": 4.185985476494399,
-      "ensemble_prob": 0.2172354114597546,
-      "ensemble_odds": 4.603301060726288,
-      "fastai_prob": 0.1955784508328623,
-      "elo_prob": 0.23856394369688677,
-      "elo_rating": 1669,
-      "isFastEns": false,
-      "isEloEns": false,
-      "elo_agrees": false,
-      "isMlSpecialist": true,
-      "mlSpecialistSr": 42.9,
-      "mlSpecialistRaces": 14,
-      "mlGapToSecondPct": 1.2781588685381289,
-      "grade": "Open",
-      "state": "SA",
-      "isNewEloAddition": false,
-      "mlSpecialistSource": "day_before",
-      "mlSpecialistBaseSource": "day_before",
-      "isDayBeforeMlSpecialist": true,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false,
-      "isNewMlSpecialistAddition": false
+      "grade": "Mixed Maiden/6"
     }
   ],
   "topPicks": [

@@ -49,7 +49,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('hcSection'); hide('hcFa40Section'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -89,8 +89,11 @@ function renderSummary(data) {
     setStat('statENS', mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-');
     setStat('statFASTENS', mp.models.fast_ens ? mp.models.fast_ens.strikeRate.toFixed(1) + '%' : '-');
     setStat('statELOENS', mp.models.elo_ens ? mp.models.elo_ens.strikeRate.toFixed(1) + '%' : '-');
+    const mlTsFaSrAlign = mp.mlTsFaSrAlign && mp.mlTsFaSrAlign.model ? mp.mlTsFaSrAlign.model : null;
+    setStat('statMLTSFA40', mlTsFaSrAlign ? mlTsFaSrAlign.strikeRate.toFixed(1) + '%' : '-');
     const mlTsTiers = mp.mlTsTiers && mp.mlTsTiers.models ? mp.mlTsTiers.models : null;
     setStat('statMLTS', mlTsTiers && mlTsTiers.base_ml_ts ? mlTsTiers.base_ml_ts.strikeRate.toFixed(1) + '%' : '-');
+    setStat('statMLTSFA', mlTsTiers && mlTsTiers.ml_ts_fa_align ? mlTsTiers.ml_ts_fa_align.strikeRate.toFixed(1) + '%' : '-');
     setStat('statMLTS4510', mlTsTiers && mlTsTiers.ml_ts_45_10 ? mlTsTiers.ml_ts_45_10.strikeRate.toFixed(1) + '%' : '-');
     setStat('statMLTS5010', mlTsTiers && mlTsTiers.ml_ts_50_10 ? mlTsTiers.ml_ts_50_10.strikeRate.toFixed(1) + '%' : '-');
     const meta = document.getElementById('summaryMeta');
@@ -165,6 +168,7 @@ function getMlTsSourceLabel(pick) {
 // ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
   const tsHC = [];
+  const tsFa40HC = [];
   const ts45HC = [];
   const ts50HC = [];
   
@@ -176,6 +180,9 @@ async function loadHighConfidencePicks(states) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
         if (p.isMlSpecialist) {
           tsHC.push(enhancedP);
+          if (p.isMlTsFaSrAlign) {
+            tsFa40HC.push(enhancedP);
+          }
           if (qualifiesMlTsTier(enhancedP, 45, 10)) {
             ts45HC.push(enhancedP);
           }
@@ -196,10 +203,12 @@ async function loadHighConfidencePicks(states) {
   };
 
   tsHC.sort(sorter);
+  tsFa40HC.sort(sorter);
   ts45HC.sort(sorter);
   ts50HC.sort(sorter);
 
   renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
+  renderPicksGrid(tsFa40HC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS + FA 40% aligned picks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'FA 40+', badgeClass: 'badge-fa40', cardClass: ' hc-card-fa40', showFaTrackComboSr: true});
   renderPicksGrid(ts45HC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'top track specialists >45%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
   renderPicksGrid(ts50HC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'top track specialists >50%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
 }
@@ -238,17 +247,22 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const showMlGap = opts.useNormOdds && mlGapToSecondPct >= 15;
     const mlSpecialistSr = Number(p.mlSpecialistSr || 0);
     const showMlSpecialistSr = opts.useNormOdds && mlSpecialistSr > 0;
+    const faTrackComboSr = Number(p.faTrackComboSr || 0);
+    const faTrackComboRaces = Number(p.faTrackComboRaces || 0);
+    const showFaTrackComboSr = Boolean(opts.showFaTrackComboSr) && faTrackComboSr > 0 && faTrackComboRaces > 0;
     const showNewAddition = opts.newFlag ? Boolean(p[opts.newFlag]) : false;
     const sourceLabel = getMlTsSourceLabel(p);
     const cardClass = opts.useNormOdds ? getMlTsCardClass(p) : '';
+    const extraCardClass = opts.cardClass || '';
+    const extraBadge = opts.badgeLabel ? ' <span class="badge ' + (opts.badgeClass || '') + '">' + esc(opts.badgeLabel) + '</span>' : '';
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
-    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
+    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}${extraCardClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
+        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${extraBadge}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           · ${esc(stateLabel)} · ${esc(sourceLabel)}
@@ -257,6 +271,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
           ML ${(p.probability * 100).toFixed(1)}%
           · ENS ${(ensProb * 100).toFixed(1)}%
           ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
+          ${showFaTrackComboSr ? ' · <span style="color:var(--lime);font-weight:700">FA ' + faTrackComboSr.toFixed(1) + '%</span>' : ''}
           ${showMlSpecialistSr ? ' · <span style="color:#ffffff;font-weight:700">' + mlSpecialistSr.toFixed(1) + '%</span>' : ''}
           ${showMlGap ? '· <span style="color:#ffffff;font-weight:700">Gap ' + mlGapToSecondPct.toFixed(1) + '%</span>' : ''}
           ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : ''}

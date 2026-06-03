@@ -11,6 +11,8 @@
   --accent: #5b8def;
   --green: #34d399;
   --green-bg: rgba(52, 211, 153, 0.1);
+  --lime: #a3e635;
+  --lime-bg: rgba(163, 230, 53, 0.12);
   --yellow: #fbbf24;
   --yellow-bg: rgba(251, 191, 36, 0.1);
   --orange: #fb923c;
@@ -110,6 +112,7 @@ main {
   gap: 16px;
   flex-wrap: wrap;
 }
+.summary-row-feature { justify-content: center; }
 .stat {
   background: var(--bg2);
   border: 1px solid var(--border);
@@ -122,6 +125,17 @@ main {
 .stat.highlight {
   border-color: var(--green);
   background: var(--green-bg);
+}
+.stat-feature-fa40 {
+  flex: 0 1 260px;
+  width: 100%;
+  max-width: 280px;
+  border-color: var(--lime);
+  background: var(--lime-bg);
+}
+.stat-feature-fa40 .stat-value,
+.stat-feature-fa40 .stat-label {
+  color: var(--lime);
 }
 .stat-value { display: block; font-size: 1.4rem; font-weight: 700; }
 .stat-label { display: block; font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
@@ -156,10 +170,13 @@ main {
 #eloSection h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 16px; }
 #hcSection { margin-bottom: 24px; margin-top: 8px; }
 #hcSection h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 16px; }
+#hcFa40Section { margin-bottom: 28px; margin-top: 12px; }
+#hcFa40Section h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 18px; }
 #hc45Section { margin-bottom: 28px; margin-top: 12px; }
 #hc45Section h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 18px; }
 #hc50Section { margin-bottom: 28px; margin-top: 12px; }
 #hc50Section h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 18px; }
+.section-title-fa40 { color: var(--lime); }
 .picks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -191,6 +208,10 @@ main {
   border-color: var(--red);
   background: var(--red-bg);
 }
+.hc-card-fa40 {
+  border-color: var(--lime);
+  background: var(--lime-bg);
+}
 .hc-card .hc-left { display: flex; flex-direction: column; gap: 2px; }
 .hc-card .hc-right { display: flex; flex-direction: column; align-items: flex-end; }
 .hc-card .hc-dog { font-weight: 700; font-size: 1rem; }
@@ -201,6 +222,8 @@ main {
   color: var(--green);
   white-space: nowrap;
 }
+.hc-card-fa40 .hc-odds { color: var(--lime); }
+.accent-fa40 { color: var(--lime); font-weight: 700; }
 
 /* ── State Tabs ──────────────────────────────── */
 .state-tabs {
@@ -314,6 +337,7 @@ main {
 .badge-fast-ens { background: #10b981; color: #fff; }
 .badge-elo-ens { background: #ec4899; color: #fff; }
 .badge-5way { background: #f97316; color: #fff; }
+.badge-fa40 { background: var(--lime); color: #152006; }
 
 .prob-bar {
   display: inline-block;

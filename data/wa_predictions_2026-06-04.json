@@ -7,6 +7,7 @@
   "highConfidenceCount": 12,
   "fastEnsCount": 12,
   "eloEnsCount": 1,
+  "mlTsFaSrAlignCount": 0,
   "races": [
     {
       "track": "MAN",
@@ -40,7 +41,8 @@
           "implied_odds_norm": 3.7105065288763495,
           "isFastEns": true,
           "isEloEns": true,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "IT'S MUFFIN TIME",
@@ -238,7 +240,8 @@
           "implied_odds_norm": 4.56634307137033,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "NYOTA",
@@ -390,7 +393,8 @@
           "implied_odds_norm": 5.472501677442249,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "SUNSET SKYLIGHT",
@@ -588,7 +592,8 @@
           "implied_odds_norm": 3.9762940933185487,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "JUNK YARD HIPPY",
@@ -786,7 +791,8 @@
           "implied_odds_norm": 3.71979877668649,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "BLUE AND BOUJEE",
@@ -984,7 +990,8 @@
           "implied_odds_norm": 5.680528896345856,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "CHAROS LEGEND",
@@ -1182,7 +1189,8 @@
           "implied_odds_norm": 6.257322565516204,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "ZATARA'S IMAGE",
@@ -1380,7 +1388,8 @@
           "implied_odds_norm": 4.971342233718435,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "GO BOY",
@@ -1578,7 +1587,8 @@
           "implied_odds_norm": 6.596747946445542,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "BLUEY BRANN",
@@ -1776,7 +1786,8 @@
           "implied_odds_norm": 4.3919829404209025,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "SALUTING CRAIG",
@@ -1974,7 +1985,8 @@
           "implied_odds_norm": 5.216052260804732,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": false
+          "isMlSpecialist": false,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "FASHION SQUARE",
@@ -2149,7 +2161,8 @@
           "implied_odds_norm": 4.462419327916671,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": true
+          "isMlSpecialist": true,
+          "isMlTsFaSrAlign": false
         },
         {
           "dog": "CYPHER MONELLI",
@@ -2313,20 +2326,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 25.0,
+      "faTrackComboRaces": 20,
       "mlGapToSecondPct": 0.2531193276517685,
-      "grade": "Grade 6",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Grade 6"
     },
     {
       "track": "MAN",
@@ -2347,20 +2353,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 27.27272727272727,
+      "faTrackComboRaces": 11,
       "mlGapToSecondPct": 0.49094970820733885,
-      "grade": "Mixed 6/5",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Mixed 6/5"
     },
     {
       "track": "MAN",
@@ -2381,20 +2380,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 14.285714285714285,
+      "faTrackComboRaces": 7,
       "mlGapToSecondPct": 0.2032269390117275,
-      "grade": "Free For All",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Free For All"
     },
     {
       "track": "MAN",
@@ -2415,20 +2407,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 20.0,
+      "faTrackComboRaces": 10,
       "mlGapToSecondPct": 2.2274873994044544,
-      "grade": "Grade 4",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Grade 4"
     },
     {
       "track": "MAN",
@@ -2449,20 +2434,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 33.33333333333333,
+      "faTrackComboRaces": 6,
       "mlGapToSecondPct": 2.7587437548197427,
-      "grade": "Grade 6",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Grade 6"
     },
     {
       "track": "MAN",
@@ -2483,20 +2461,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 9.090909090909092,
+      "faTrackComboRaces": 22,
       "mlGapToSecondPct": 10.175655928314258,
-      "grade": "Grade 5",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Grade 5"
     },
     {
       "track": "MAN",
@@ -2517,20 +2488,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 0.0,
+      "faTrackComboRaces": 6,
       "mlGapToSecondPct": 0.9191920601857029,
-      "grade": "Mixed 4/5",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Mixed 4/5"
     },
     {
       "track": "MAN",
@@ -2551,20 +2515,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": true,
-      "mlSpecialistSr": 47.8,
-      "mlSpecialistRaces": 23,
+      "isMlTsFaSrAlign": false,
+      "mlSpecialistSr": 50.0,
+      "mlSpecialistRaces": 22,
+      "faTrackComboSr": 50.0,
+      "faTrackComboRaces": 6,
       "mlGapToSecondPct": 6.176344775270231,
-      "grade": "Mixed 4/5",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "mlSpecialistSource": "day_before",
-      "mlSpecialistBaseSource": "day_before",
-      "isDayBeforeMlSpecialist": true,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false,
-      "isNewMlSpecialistAddition": false
+      "grade": "Mixed 4/5"
     },
     {
       "track": "MAN",
@@ -2585,20 +2542,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 7.142857142857142,
+      "faTrackComboRaces": 14,
       "mlGapToSecondPct": 3.0522065779310243,
-      "grade": "Grade 5",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Grade 5"
     },
     {
       "track": "MAN",
@@ -2619,20 +2569,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 25.0,
+      "faTrackComboRaces": 20,
       "mlGapToSecondPct": 2.32684409969707,
-      "grade": "Grade 6",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Grade 6"
     },
     {
       "track": "MAN",
@@ -2653,20 +2596,13 @@
       "isEloEns": false,
       "elo_agrees": false,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 8.695652173913043,
+      "faTrackComboRaces": 23,
       "mlGapToSecondPct": 0.9022904449060842,
-      "grade": "Novice Grade 5",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Novice Grade 5"
     },
     {
       "track": "MAN",
@@ -2687,20 +2623,13 @@
       "isEloEns": true,
       "elo_agrees": true,
       "isMlSpecialist": false,
+      "isMlTsFaSrAlign": false,
       "mlSpecialistSr": null,
       "mlSpecialistRaces": null,
+      "faTrackComboSr": 15.789473684210526,
+      "faTrackComboRaces": 19,
       "mlGapToSecondPct": 5.330644954595215,
-      "grade": "Novice Grade 5",
-      "state": "WA",
-      "isNewEloAddition": false,
-      "isNewMlSpecialistAddition": false,
-      "mlSpecialistSource": null,
-      "mlSpecialistBaseSource": null,
-      "isDayBeforeMlSpecialist": false,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false
+      "grade": "Novice Grade 5"
     }
   ],
   "topPicks": [
