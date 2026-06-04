@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.5731,
-      "ens_prob": 0.2341,
-      "fastai_prob": 0.2761,
+      "ml_prob": 0.5023,
+      "ens_prob": 0.2178,
+      "fastai_prob": 0.1472,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788077
+      "races_with_same_dogs": 788498
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.3,
-      "avg_temp_c": 9.2,
+      "max_wind_kmh": 21.3,
+      "avg_temp_c": 8.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "EMERALD HILL",
-      "total_offspring_runs_in_state": 9778,
-      "sire_win_rate": 0.14716710983841277
+      "total_offspring_runs_in_state": 9801,
+      "sire_win_rate": 0.14702581369248036
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -186,13 +186,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Lukewarm (Rank 3, prob 0.147)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

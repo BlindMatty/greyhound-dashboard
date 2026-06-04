@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.313,
-      "ens_prob": 0.3133,
-      "fastai_prob": 0.4126,
+      "ml_prob": 0.33,
+      "ens_prob": 0.3656,
+      "fastai_prob": 0.4958,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788077
+      "races_with_same_dogs": 788498
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,9 +112,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 23.1,
-      "avg_temp_c": 10.1,
-      "total_precip_mm": 1.2,
+      "max_wind_kmh": 22.3,
+      "avg_temp_c": 10.2,
+      "total_precip_mm": 0.8,
       "is_wet": false,
       "is_hot": false
     },
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MANILA FLASH",
-      "total_offspring_runs_in_state": 100862,
-      "sire_win_rate": 0.13243838115444864
+      "total_offspring_runs_in_state": 100905,
+      "sire_win_rate": 0.13243149497051682
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -200,7 +200,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.413)"
+        "FastAI Strong Conviction (Rank 1, prob 0.496)"
       ]
     }
   }

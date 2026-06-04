@@ -1,28 +1,28 @@
 {
   "dog": "RED ROCK LOTUS",
-  "date": "2026-05-30",
+  "date": "2026-06-06",
   "track": "DUB",
   "race": 9,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 12,
+    "history_length": 14,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2418,
-      "ens_prob": 0.2052,
-      "fastai_prob": 0.2019,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.4079,
+      "ens_prob": 0.2495,
+      "fastai_prob": 0.5637,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -34,20 +34,18 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 26.5,
-      "fluctuation": -0.018181818181815856,
+      "last_weight": 26.7,
+      "fluctuation": 0.1615384615384592,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 12,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 2.2,
+      "total_starts": 14,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 2.4,
       "last_10_places": [
-        2.0,
-        2.0,
         3.0,
         4.0,
         2.0,
@@ -55,7 +53,9 @@
         2.0,
         2.0,
         1.0,
-        3.0
+        3.0,
+        4.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710581
+      "races_with_same_dogs": 712206
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.492727272727272
+      "avg_run_home": 13.494615384615384
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.9951226511888327
+      "split_stdev": 0.973879369142311
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 6090.0
+      "career_prize": 6600.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -318
+      "dist_diff_from_last": -340
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: DUB"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.18181818181818182,
-      "place_rate": 0.9090909090909091
+      "win_rate": 0.15384615384615385,
+      "place_rate": 0.8461538461538461
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "KARINYA GOZO",
-      "total_offspring_runs_in_state": 9359,
-      "sire_win_rate": 0.14681055668340634
+      "total_offspring_runs_in_state": 9502,
+      "sire_win_rate": 0.14712692064828456
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 5,
-      "total_litter_runs": 37,
+      "litter_size_racing": 6,
+      "total_litter_runs": 41,
       "litter_wins": 8
     },
     "35_Injury_History": {
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 12
+      "total_starts": 14
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.300439667806546
+      "ewma_places": 2.5751434501281896
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,18 +191,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Benefiting from inside track bias",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

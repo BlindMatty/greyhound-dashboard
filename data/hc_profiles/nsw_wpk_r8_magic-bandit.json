@@ -1,18 +1,18 @@
 {
   "dog": "MAGIC BANDIT",
-  "date": "2026-05-30",
+  "date": "2026-06-06",
   "track": "WPK",
   "race": 8,
   "distance": 0,
   "grade": "Non Graded",
   "steps": {
-    "history_length": 39,
+    "history_length": 40,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2911,
-      "ens_prob": 0.2447,
-      "fastai_prob": 0.722,
+      "ml_prob": 0.2926,
+      "ens_prob": 0.262,
+      "fastai_prob": 0.7335,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
-      "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "own_box": 1,
+      "has_inside_pressure": false,
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 511.79487179487177,
+      "avg_dist": 512.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Non Graded vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 26.4,
-      "fluctuation": 0.34722222222222143,
+      "last_weight": 26.6,
+      "fluctuation": 0.532432432432433,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 39,
-      "last_3_avg_place": 1.3333333333333333,
+      "total_starts": 40,
+      "last_3_avg_place": 2.0,
       "last_5_avg_place": 1.8,
       "last_10_places": [
-        1.0,
         4.0,
         5.0,
         2.0,
@@ -55,7 +54,8 @@
         2.0,
         1.0,
         1.0,
-        2.0
+        2.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 710581
+      "races_with_same_dogs": 712206
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 24.29294117647059
+      "avg_run_home": 24.294285714285717
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.21399705963628754
+      "split_stdev": 0.2109860802290525
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 16
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 137805.0
+      "career_prize": 139280.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.642857142857143
@@ -124,11 +124,11 @@
       "message": "Coordinates not mapped for track: WPK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3055555555555556,
-      "place_rate": 0.6666666666666666
+      "win_rate": 0.2972972972972973,
+      "place_rate": 0.6756756756756757
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "Jodie Lord"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "BANDIT JANE",
-      "total_offspring_runs_in_state": 8112,
-      "sire_win_rate": 0.17024161735700197
+      "total_offspring_runs_in_state": 8193,
+      "sire_win_rate": 0.16953496887586963
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 151,
+      "total_litter_runs": 154,
       "litter_wins": 37
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 39
+      "total_starts": 40
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.659638713414601
+      "ewma_places": 2.3298193567121768
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,24 +191,26 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 15,
+      "final_score": 17,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.722)"
+        "FastAI Strong Conviction (Rank 1, prob 0.734)"
       ]
     }
   }

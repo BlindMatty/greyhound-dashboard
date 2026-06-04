@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2894,
-      "ens_prob": 0.2285,
-      "fastai_prob": 0.1308,
-      "fastai_rank": 2,
+      "ml_prob": 0.2519,
+      "ens_prob": 0.1726,
+      "fastai_prob": 0.1525,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 711910
+      "races_with_same_dogs": 712206
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MOTEL GIRL",
-      "total_offspring_runs_in_state": 102147,
-      "sire_win_rate": 0.13669515502168444
+      "total_offspring_runs_in_state": 102165,
+      "sire_win_rate": 0.13672001174570547
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 2, prob 0.131)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

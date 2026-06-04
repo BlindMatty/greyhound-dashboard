@@ -9,12 +9,12 @@
     "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2253,
-      "ens_prob": 0.2225,
-      "fastai_prob": 0.1117,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2162,
+      "ens_prob": 0.2594,
+      "fastai_prob": 0.1715,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 280268
+      "races_with_same_dogs": 280344
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "BIG TIME LANTAO",
-      "total_offspring_runs_in_state": 3513,
-      "sire_win_rate": 0.20324508966695132
+      "total_offspring_runs_in_state": 3515,
+      "sire_win_rate": 0.20312944523470838
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -183,12 +183,11 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 11,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.112)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -198,7 +197,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.0794,
-      "ens_prob": 0.1177,
-      "fastai_prob": 0.0395,
-      "fastai_rank": 7,
+      "ml_prob": 0.065,
+      "ens_prob": 0.1337,
+      "fastai_prob": 0.0331,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 406514
+      "races_with_same_dogs": 406623
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FLYING RICCIARDO",
       "dam": "JAYDAH'S JET",
-      "total_offspring_runs_in_state": 2299,
-      "sire_win_rate": 0.13092648977816443
+      "total_offspring_runs_in_state": 2301,
+      "sire_win_rate": 0.13081269013472405
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -200,7 +200,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -9,12 +9,12 @@
     "history_length": 22,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1913,
-      "ens_prob": 0.2904,
-      "fastai_prob": 0.3031,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1589,
+      "ens_prob": 0.222,
+      "fastai_prob": 0.1724,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788077
+      "races_with_same_dogs": 788498
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.3,
-      "avg_temp_c": 9.2,
+      "max_wind_kmh": 21.3,
+      "avg_temp_c": 8.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "ROSIE POSIE",
-      "total_offspring_runs_in_state": 24266,
-      "sire_win_rate": 0.12746229292013517
+      "total_offspring_runs_in_state": 24306,
+      "sire_win_rate": 0.1273759565539373
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 155,
+      "total_litter_runs": 156,
       "litter_wins": 15
     },
     "35_Injury_History": {
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -207,9 +207,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.303)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

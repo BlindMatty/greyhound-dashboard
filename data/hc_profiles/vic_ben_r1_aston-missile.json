@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.5108,
-      "ens_prob": 0.2099,
-      "fastai_prob": 0.246,
-      "fastai_rank": 2,
+      "ml_prob": 0.4505,
+      "ens_prob": 0.201,
+      "fastai_prob": 0.3164,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788077
+      "races_with_same_dogs": 788498
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.3,
-      "avg_temp_c": 9.2,
+      "max_wind_kmh": 21.3,
+      "avg_temp_c": 8.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "ASTON FLAME",
-      "total_offspring_runs_in_state": 12947,
-      "sire_win_rate": 0.133467212481656
+      "total_offspring_runs_in_state": 12968,
+      "sire_win_rate": 0.13355953115360888
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,

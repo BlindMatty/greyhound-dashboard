@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3027,
-      "ens_prob": 0.2359,
-      "fastai_prob": 0.33,
+      "ml_prob": 0.2948,
+      "ens_prob": 0.2338,
+      "fastai_prob": 0.4138,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788077
+      "races_with_same_dogs": 788498
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.3,
-      "avg_temp_c": 9.2,
+      "max_wind_kmh": 21.3,
+      "avg_temp_c": 8.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOUDINI BOY",
       "dam": "MY REFLECTION",
-      "total_offspring_runs_in_state": 1974,
-      "sire_win_rate": 0.10688956433637285
+      "total_offspring_runs_in_state": 1976,
+      "sire_win_rate": 0.10678137651821862
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -213,7 +213,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.330)"
+        "FastAI Strong Conviction (Rank 1, prob 0.414)"
       ]
     }
   }
