@@ -490,7 +490,8 @@ function toggleRace(headerEl) {
 
 // ── Helpers ─────────────────────────────────────────
 async function fetchJSON(url) {
-  const r = await fetch(url);
+  const cacheBustedUrl = `${url}${url.includes('?') ? '&' : '?'}cb=${Date.now()}`;
+  const r = await fetch(cacheBustedUrl, { cache: 'no-store' });
   if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
   return r.json();
 }
