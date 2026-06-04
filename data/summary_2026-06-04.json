@@ -29,9 +29,9 @@
           "fastai_rank": 4,
           "elo_prob": 0.19758034965044458,
           "elo_rating": 1518,
-          "mc_win_pct": 0.13,
-          "mc_place_pct": 1.17,
-          "mc_show_pct": 5.33,
+          "mc_win_pct": 0.11,
+          "mc_place_pct": 1.2,
+          "mc_show_pct": 5.5,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 8,
           "tier": "green"
@@ -54,9 +54,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.6809617448407213,
           "elo_rating": 1663,
-          "mc_win_pct": 53.93,
-          "mc_place_pct": 71.4,
-          "mc_show_pct": 81.45,
+          "mc_win_pct": 54.54,
+          "mc_place_pct": 72.15,
+          "mc_show_pct": 81.12,
           "mc_method": "dog_relative",
           "mc_n_runs": 13,
           "tier": "green"
@@ -79,9 +79,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.22363249639473418,
           "elo_rating": 1354,
-          "mc_win_pct": 34.62,
-          "mc_place_pct": 67.75,
-          "mc_show_pct": 88.34,
+          "mc_win_pct": 34.48,
+          "mc_place_pct": 67.36,
+          "mc_show_pct": 87.8,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 3,
           "tier": "green"
@@ -605,9 +605,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.6166959101905327,
           "elo_rating": 1905,
-          "mc_win_pct": 59.78,
-          "mc_place_pct": 85.74,
-          "mc_show_pct": 94.74,
+          "mc_win_pct": 60.26,
+          "mc_place_pct": 85.35,
+          "mc_show_pct": 95.18,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 34,
           "tier": "green"
@@ -630,9 +630,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.2400936709463304,
           "elo_rating": 1648,
-          "mc_win_pct": 28.62,
-          "mc_place_pct": 64.24,
-          "mc_show_pct": 82.73,
+          "mc_win_pct": 28.34,
+          "mc_place_pct": 63.82,
+          "mc_show_pct": 82.36,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 13,
           "tier": "green"
@@ -655,9 +655,9 @@
           "fastai_rank": 2,
           "elo_prob": 0.1367766744334808,
           "elo_rating": 1551,
-          "mc_win_pct": 53.58,
-          "mc_place_pct": 76.2,
-          "mc_show_pct": 87.32,
+          "mc_win_pct": 53.82,
+          "mc_place_pct": 76.54,
+          "mc_show_pct": 87.05,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 12,
           "tier": "green"
@@ -818,6 +818,115 @@
       "auc": 68.22865001041927
     }
   },
+  "qldChampionVsChallenger": {
+    "state": "qld",
+    "title": "QLD Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-03",
+    "comparedDates": 1,
+    "leader": "challenger",
+    "deltaStrikeRate": 16.965352449223417,
+    "champion": {
+      "bets": 27,
+      "winners": 5,
+      "strikeRate": 18.51851851851852,
+      "raceTop1": 25.806451612903224,
+      "logloss": 0.3437289164790418,
+      "brier": 0.1010008220420396,
+      "auc": 71.84493491794001
+    },
+    "challenger": {
+      "bets": 31,
+      "winners": 11,
+      "strikeRate": 35.483870967741936,
+      "raceTop1": 35.483870967741936,
+      "logloss": 0.35128021061275305,
+      "brier": 0.10131082109027045,
+      "auc": 69.2840973401245
+    }
+  },
+  "saChampionVsChallenger": {
+    "state": "sa",
+    "title": "SA Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-03",
+    "comparedDates": 1,
+    "leader": "champion",
+    "deltaStrikeRate": -11.11111111111111,
+    "champion": {
+      "bets": 9,
+      "winners": 2,
+      "strikeRate": 22.22222222222222,
+      "raceTop1": 22.22222222222222,
+      "logloss": 0.5095697365895493,
+      "brier": 0.16530541731226084,
+      "auc": 61.43790849673203
+    },
+    "challenger": {
+      "bets": 9,
+      "winners": 1,
+      "strikeRate": 11.11111111111111,
+      "raceTop1": 11.11111111111111,
+      "logloss": 0.5157958223081067,
+      "brier": 0.17120522651256864,
+      "auc": 66.99346405228758
+    }
+  },
+  "waChampionVsChallenger": {
+    "state": "wa",
+    "title": "WA Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-03",
+    "comparedDates": 1,
+    "leader": "champion",
+    "deltaStrikeRate": -11.363636363636367,
+    "champion": {
+      "bets": 11,
+      "winners": 4,
+      "strikeRate": 36.36363636363637,
+      "raceTop1": 33.33333333333333,
+      "logloss": 0.3778912373684036,
+      "brier": 0.11464323042697365,
+      "auc": 74.37810945273633
+    },
+    "challenger": {
+      "bets": 12,
+      "winners": 3,
+      "strikeRate": 25.0,
+      "raceTop1": 25.0,
+      "logloss": 0.37618255917200405,
+      "brier": 0.11622094228330404,
+      "auc": 76.61691542288557
+    }
+  },
+  "ntChampionVsChallenger": {
+    "state": "nt",
+    "title": "NT Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-03",
+    "comparedDates": 1,
+    "leader": "challenger",
+    "deltaStrikeRate": 16.666666666666664,
+    "champion": {
+      "bets": 6,
+      "winners": 0,
+      "strikeRate": 0.0,
+      "raceTop1": 0.0,
+      "logloss": 0.47681141675223365,
+      "brier": 0.14998091231470534,
+      "auc": 54.93827160493827
+    },
+    "challenger": {
+      "bets": 6,
+      "winners": 1,
+      "strikeRate": 16.666666666666664,
+      "raceTop1": 16.666666666666664,
+      "logloss": 0.487580457816387,
+      "brier": 0.1532357237356836,
+      "auc": 49.382716049382715
+    }
+  },
+  "tasChampionVsChallenger": null,
   "cumulative": {
     "bets": 9237,
     "wins": 2842,
