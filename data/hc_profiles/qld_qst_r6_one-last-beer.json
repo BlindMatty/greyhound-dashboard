@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2888,
-      "ens_prob": 0.3706,
-      "fastai_prob": 0.3627,
+      "ml_prob": 0.4197,
+      "ens_prob": 0.345,
+      "fastai_prob": 0.2905,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 406240
+      "races_with_same_dogs": 406514
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "JOKARE",
-      "total_offspring_runs_in_state": 6262,
-      "sire_win_rate": 0.15027147876077931
+      "total_offspring_runs_in_state": 6272,
+      "sire_win_rate": 0.15035076530612246
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -204,7 +204,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.363)"
+        "FastAI Strong Conviction (Rank 1, prob 0.290)"
       ]
     }
   }

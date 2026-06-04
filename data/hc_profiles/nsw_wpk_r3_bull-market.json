@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2141,
-      "ens_prob": 0.2023,
-      "fastai_prob": 0.5478,
-      "fastai_rank": 4,
+      "ml_prob": 0.2069,
+      "ens_prob": 0.1877,
+      "fastai_prob": 0.2078,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 711508
+      "races_with_same_dogs": 711910
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SUPER ROAD",
-      "total_offspring_runs_in_state": 8143,
-      "sire_win_rate": 0.16983912562937492
+      "total_offspring_runs_in_state": 8168,
+      "sire_win_rate": 0.1694417238001959
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -183,13 +183,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1684,
-      "ens_prob": 0.1198,
-      "fastai_prob": 0.0959,
-      "fastai_rank": 5,
+      "ml_prob": 0.2515,
+      "ens_prob": 0.1561,
+      "fastai_prob": 0.1575,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787748
+      "races_with_same_dogs": 788077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ALLEN DEED",
       "dam": "XAMIRA BALE",
-      "total_offspring_runs_in_state": 14296,
-      "sire_win_rate": 0.10646334639059876
+      "total_offspring_runs_in_state": 14299,
+      "sire_win_rate": 0.10644100986082942
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

@@ -9,12 +9,12 @@
     "history_length": 27,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.0926,
-      "ens_prob": 0.2261,
-      "fastai_prob": 0.2835,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.126,
+      "ens_prob": 0.2027,
+      "fastai_prob": 0.2308,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216653
+      "races_with_same_dogs": 216698
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "ROCK IT BARCIA",
-      "total_offspring_runs_in_state": 3324,
-      "sire_win_rate": 0.1838146811070999
+      "total_offspring_runs_in_state": 3326,
+      "sire_win_rate": 0.18370414912808178
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 11,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -208,9 +208,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.283)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

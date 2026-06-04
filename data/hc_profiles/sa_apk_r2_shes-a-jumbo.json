@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2358,
-      "ens_prob": 0.2749,
-      "fastai_prob": 0.2449,
+      "ml_prob": 0.3467,
+      "ens_prob": 0.2917,
+      "fastai_prob": 0.2963,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216653
+      "races_with_same_dogs": 216698
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "RHONDA LILY",
-      "total_offspring_runs_in_state": 4533,
-      "sire_win_rate": 0.19236708581513345
+      "total_offspring_runs_in_state": 4535,
+      "sire_win_rate": 0.19228224917309814
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -207,7 +207,8 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.296)"
       ]
     }
   }

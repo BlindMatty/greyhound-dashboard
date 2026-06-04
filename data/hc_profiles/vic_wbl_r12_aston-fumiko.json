@@ -9,12 +9,12 @@
     "history_length": 27,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2214,
-      "ens_prob": 0.2442,
-      "fastai_prob": 0.5567,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2077,
+      "ens_prob": 0.1973,
+      "fastai_prob": 0.3225,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787748
+      "races_with_same_dogs": 788077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON KIMETTO",
       "dam": "ASTON KOMUNI",
-      "total_offspring_runs_in_state": 6696,
-      "sire_win_rate": 0.12395459976105137
+      "total_offspring_runs_in_state": 6697,
+      "sire_win_rate": 0.12393609078691951
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 4,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -202,9 +202,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.557)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

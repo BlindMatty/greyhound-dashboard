@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1331,
-      "ens_prob": 0.1073,
-      "fastai_prob": 0.0609,
-      "fastai_rank": 7,
+      "ml_prob": 0.1411,
+      "ens_prob": 0.128,
+      "fastai_prob": 0.1244,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787748
+      "races_with_same_dogs": 788077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "SODA EXTREME",
-      "total_offspring_runs_in_state": 9151,
-      "sire_win_rate": 0.14501147415582996
+      "total_offspring_runs_in_state": 9153,
+      "sire_win_rate": 0.14497978804763464
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,7 +191,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

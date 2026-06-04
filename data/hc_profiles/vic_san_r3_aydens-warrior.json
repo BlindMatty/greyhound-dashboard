@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4257,
-      "ens_prob": 0.5245,
-      "fastai_prob": 0.3751,
+      "ml_prob": 0.445,
+      "ens_prob": 0.5139,
+      "fastai_prob": 0.4098,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787748
+      "races_with_same_dogs": 788077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 31.2,
-      "avg_temp_c": 10.1,
-      "total_precip_mm": 29.6,
+      "max_wind_kmh": 23.4,
+      "avg_temp_c": 10.0,
+      "total_precip_mm": 27.0,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "BOOK OF LUCK",
-      "total_offspring_runs_in_state": 100955,
-      "sire_win_rate": 0.1324154326184934
+      "total_offspring_runs_in_state": 100982,
+      "sire_win_rate": 0.13241963914360974
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -214,7 +214,7 @@
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.375)"
+        "FastAI Strong Conviction (Rank 1, prob 0.410)"
       ]
     }
   }

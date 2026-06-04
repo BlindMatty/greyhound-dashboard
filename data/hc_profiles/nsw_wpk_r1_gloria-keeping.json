@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2108,
-      "ens_prob": 0.1672,
-      "fastai_prob": 0.7033,
+      "ml_prob": 0.2252,
+      "ens_prob": 0.214,
+      "fastai_prob": 0.6595,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 711508
+      "races_with_same_dogs": 711910
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "GEORGIA KEEPING",
-      "total_offspring_runs_in_state": 27021,
-      "sire_win_rate": 0.1527700677251027
+      "total_offspring_runs_in_state": 27025,
+      "sire_win_rate": 0.15278445883441258
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -208,7 +208,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.703)"
+        "FastAI Strong Conviction (Rank 1, prob 0.659)"
       ]
     }
   }
