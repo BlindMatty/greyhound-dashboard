@@ -49,7 +49,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('qldCvCSection'); hide('qldCvCMeta'); hide('saCvCSection'); hide('saCvCMeta'); hide('waCvCSection'); hide('waCvCMeta'); hide('ntCvCSection'); hide('ntCvCMeta'); hide('tasCvCSection'); hide('tasCvCMeta'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -75,6 +75,40 @@ async function loadDate(dateStr) {
 }
 
 // ── Render summary bar ──────────────────────────────
+function renderCvCSection(prefix, data, pendingLabel) {
+  const championCard = document.getElementById(`${prefix}ChampionCard`);
+  const challengerCard = document.getElementById(`${prefix}ChallengerCard`);
+  const meta = document.getElementById(`${prefix}CvCMeta`);
+  if (!championCard || !challengerCard || !meta) return;
+
+  championCard.classList.remove('highlight');
+  challengerCard.classList.remove('highlight');
+  document.getElementById(`${prefix}ChampionSR`).textContent = '-';
+  document.getElementById(`${prefix}ChallengerSR`).textContent = '-';
+  document.getElementById(`${prefix}ChampionNote`).textContent = `Awaiting scored ${pendingLabel} races`;
+  document.getElementById(`${prefix}ChallengerNote`).textContent = `Awaiting scored ${pendingLabel} races`;
+  meta.textContent = `Live ${pendingLabel} Champion vs Challenger scoreboard will populate after the first ${pendingLabel} result day scored for both models.`;
+  show(`${prefix}CvCMeta`);
+  show(`${prefix}CvCSection`);
+
+  if (!(data && data.champion && data.challenger)) return;
+
+  document.getElementById(`${prefix}ChampionSR`).textContent = data.champion.strikeRate.toFixed(1) + '%';
+  document.getElementById(`${prefix}ChallengerSR`).textContent = data.challenger.strikeRate.toFixed(1) + '%';
+  document.getElementById(`${prefix}ChampionNote`).textContent = `${data.champion.winners}/${data.champion.bets} wins`;
+  document.getElementById(`${prefix}ChallengerNote`).textContent = `${data.challenger.winners}/${data.challenger.bets} wins`;
+
+  if (data.leader === 'champion') championCard.classList.add('highlight');
+  if (data.leader === 'challenger') challengerCard.classList.add('highlight');
+
+  const delta = Math.abs(Number(data.deltaStrikeRate || 0)).toFixed(1);
+  const leaderLabel = data.leader === 'tie'
+    ? 'Level on SR'
+    : `${data.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
+  meta.textContent = `${leaderLabel} · Compared over ${data.comparedDates} ${pendingLabel} result day${data.comparedDates === 1 ? '' : 's'} from ${data.startDate} to ${data.resultsDate}`;
+  show(`${prefix}CvCMeta`);
+}
+
 function renderSummary(data) {
   const mp = data.modelPerformance;
   if (mp && mp.models) {
@@ -98,42 +132,12 @@ function renderSummary(data) {
     show('summaryMeta');
   }
 
-  const nz = data.nzChampionVsChallenger;
-  const championCard = document.getElementById('nzChampionCard');
-  const challengerCard = document.getElementById('nzChallengerCard');
-  const nzMeta = document.getElementById('nzCvCMeta');
-  if (championCard && challengerCard) {
-    championCard.classList.remove('highlight');
-    challengerCard.classList.remove('highlight');
-    document.getElementById('nzChampionSR').textContent = '-';
-    document.getElementById('nzChallengerSR').textContent = '-';
-    document.getElementById('nzChampionNote').textContent = 'Awaiting scored NZ races';
-    document.getElementById('nzChallengerNote').textContent = 'Awaiting scored NZ races';
-    if (nzMeta) {
-      nzMeta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
-      show('nzCvCMeta');
-    }
-    show('nzCvCSection');
-  }
-
-  if (nz && nz.champion && nz.challenger && championCard && challengerCard) {
-    document.getElementById('nzChampionSR').textContent = nz.champion.strikeRate.toFixed(1) + '%';
-    document.getElementById('nzChallengerSR').textContent = nz.challenger.strikeRate.toFixed(1) + '%';
-    document.getElementById('nzChampionNote').textContent = `${nz.champion.winners}/${nz.champion.bets} wins`;
-    document.getElementById('nzChallengerNote').textContent = `${nz.challenger.winners}/${nz.challenger.bets} wins`;
-
-    if (nz.leader === 'champion') championCard.classList.add('highlight');
-    if (nz.leader === 'challenger') challengerCard.classList.add('highlight');
-
-    const delta = Math.abs(Number(nz.deltaStrikeRate || 0)).toFixed(1);
-    const leaderLabel = nz.leader === 'tie'
-      ? 'Level on SR'
-      : `${nz.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
-    if (nzMeta) {
-      nzMeta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
-      show('nzCvCMeta');
-    }
-  }
+  renderCvCSection('nz', data.nzChampionVsChallenger, 'NZ');
+  renderCvCSection('qld', data.qldChampionVsChallenger, 'QLD');
+  renderCvCSection('sa', data.saChampionVsChallenger, 'SA');
+  renderCvCSection('wa', data.waChampionVsChallenger, 'WA');
+  renderCvCSection('nt', data.ntChampionVsChallenger, 'NT');
+  renderCvCSection('tas', data.tasChampionVsChallenger, 'TAS');
 
   show('summaryBar');
 }

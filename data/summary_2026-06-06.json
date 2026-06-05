@@ -527,25 +527,25 @@
     "mlTsTiers": {
       "startDate": "2026-04-08",
       "resultsDate": "2026-06-05",
-      "settledRaces": 1353,
+      "settledRaces": 1342,
       "models": {
         "base_ml_ts": {
-          "wins": 651,
-          "settled": 1353,
+          "wins": 648,
+          "settled": 1342,
           "label": "ML TS",
-          "strikeRate": 48.11529933481153
+          "strikeRate": 48.28614008941878
         },
         "ml_ts_45_10": {
-          "wins": 188,
-          "settled": 367,
+          "wins": 183,
+          "settled": 345,
           "label": "ML TS >45%, 10+",
-          "strikeRate": 51.22615803814714
+          "strikeRate": 53.04347826086957
         },
         "ml_ts_50_10": {
-          "wins": 103,
-          "settled": 174,
+          "wins": 98,
+          "settled": 164,
           "label": "ML TS >50%, 10+",
-          "strikeRate": 59.195402298850574
+          "strikeRate": 59.756097560975604
         }
       }
     }
@@ -577,6 +577,115 @@
       "auc": 68.90658446181516
     }
   },
+  "qldChampionVsChallenger": {
+    "state": "qld",
+    "title": "QLD Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-05",
+    "comparedDates": 3,
+    "leader": "challenger",
+    "deltaStrikeRate": 5.314553990610328,
+    "champion": {
+      "bets": 71,
+      "winners": 18,
+      "strikeRate": 25.352112676056336,
+      "raceTop1": 28.57142857142857,
+      "logloss": 0.33589288887518437,
+      "brier": 0.09885086268300611,
+      "auc": 72.61026836945189
+    },
+    "challenger": {
+      "bets": 75,
+      "winners": 23,
+      "strikeRate": 30.666666666666664,
+      "raceTop1": 31.16883116883117,
+      "logloss": 0.3437480593308492,
+      "brier": 0.10061241914507373,
+      "auc": 70.17421051106805
+    }
+  },
+  "saChampionVsChallenger": {
+    "state": "sa",
+    "title": "SA Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-05",
+    "comparedDates": 3,
+    "leader": "champion",
+    "deltaStrikeRate": -4.409672830725455,
+    "champion": {
+      "bets": 38,
+      "winners": 14,
+      "strikeRate": 36.84210526315789,
+      "raceTop1": 37.5,
+      "logloss": 0.4566357140526221,
+      "brier": 0.14567819680938332,
+      "auc": 68.64732731605797
+    },
+    "challenger": {
+      "bets": 37,
+      "winners": 12,
+      "strikeRate": 32.432432432432435,
+      "raceTop1": 35.0,
+      "logloss": 0.4727080466409425,
+      "brier": 0.15169300122763096,
+      "auc": 66.68215640351862
+    }
+  },
+  "waChampionVsChallenger": {
+    "state": "wa",
+    "title": "WA Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-04",
+    "comparedDates": 2,
+    "leader": "champion",
+    "deltaStrikeRate": -6.439393939393934,
+    "champion": {
+      "bets": 22,
+      "winners": 6,
+      "strikeRate": 27.27272727272727,
+      "raceTop1": 25.0,
+      "logloss": 0.38733670928581226,
+      "brier": 0.11656113534173997,
+      "auc": 67.81968535699878
+    },
+    "challenger": {
+      "bets": 24,
+      "winners": 5,
+      "strikeRate": 20.833333333333336,
+      "raceTop1": 20.833333333333336,
+      "logloss": 0.3806376565699568,
+      "brier": 0.11665510467621801,
+      "auc": 73.04944870243378
+    }
+  },
+  "ntChampionVsChallenger": {
+    "state": "nt",
+    "title": "NT Champion vs Challenger",
+    "startDate": "2026-06-03",
+    "resultsDate": "2026-06-03",
+    "comparedDates": 1,
+    "leader": "challenger",
+    "deltaStrikeRate": 16.666666666666664,
+    "champion": {
+      "bets": 6,
+      "winners": 0,
+      "strikeRate": 0.0,
+      "raceTop1": 0.0,
+      "logloss": 0.47681141675223365,
+      "brier": 0.14998091231470534,
+      "auc": 54.93827160493827
+    },
+    "challenger": {
+      "bets": 6,
+      "winners": 1,
+      "strikeRate": 16.666666666666664,
+      "raceTop1": 16.666666666666664,
+      "logloss": 0.487580457816387,
+      "brier": 0.1532357237356836,
+      "auc": 49.382716049382715
+    }
+  },
+  "tasChampionVsChallenger": null,
   "cumulative": {
     "bets": 9516,
     "wins": 2930,
