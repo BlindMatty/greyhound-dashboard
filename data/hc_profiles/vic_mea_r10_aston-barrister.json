@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2843,
-      "ens_prob": 0.3408,
-      "fastai_prob": 0.4498,
+      "ml_prob": 0.2772,
+      "ens_prob": 0.2966,
+      "fastai_prob": 0.3739,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788498
+      "races_with_same_dogs": 788925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.1,
-      "avg_temp_c": 12.4,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 12.8,
+      "avg_temp_c": 12.6,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON FASTNET",
       "dam": "ASTON GENESIS",
-      "total_offspring_runs_in_state": 1225,
-      "sire_win_rate": 0.12897959183673469
+      "total_offspring_runs_in_state": 1227,
+      "sire_win_rate": 0.12876935615321924
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 40,
+      "total_litter_runs": 41,
       "litter_wins": 4
     },
     "35_Injury_History": {
@@ -210,7 +210,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.450)"
+        "FastAI Strong Conviction (Rank 1, prob 0.374)"
       ]
     }
   }

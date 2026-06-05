@@ -1,19 +1,19 @@
 {
   "dog": "TARYN'S BLUE",
-  "date": "2026-04-26",
+  "date": "2026-06-07",
   "track": "HVL",
   "race": 3,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 127,
+    "history_length": 133,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2117,
-      "ens_prob": 0.1625,
-      "fastai_prob": 0.1132,
-      "fastai_rank": 5,
+      "ml_prob": 0.1967,
+      "ens_prob": 0.1288,
+      "fastai_prob": 0.1135,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 5,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 318.4251968503937,
+      "avg_dist": 317.593984962406,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.2,
-      "fluctuation": 1.4036697247706442,
+      "last_weight": 28.6,
+      "fluctuation": 0.7486956521739145,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 127,
-      "last_3_avg_place": 6.333333333333333,
-      "last_5_avg_place": 4.8,
+      "total_starts": 133,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        7.0,
-        1.0,
-        6.0,
-        6.0,
-        3.0,
         1.0,
         4.0,
         7.0,
         5.0,
-        7.0
+        7.0,
+        3.0,
+        4.0,
+        3.0,
+        1.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775185
+      "races_with_same_dogs": 788925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.57725952380952
+      "avg_run_home": 13.557298165137615
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.2649988855206908
+      "split_stdev": 1.2472428806857363
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 2
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 42083.125
+      "career_prize": 43618.125
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.9130434782608696
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.17142857142857143,
-      "place_rate": 0.4380952380952381
+      "win_rate": 0.17272727272727273,
+      "place_rate": 0.44545454545454544
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "NOLEN",
       "dam": "MUZA'S ANGEL",
-      "total_offspring_runs_in_state": 1018,
-      "sire_win_rate": 0.0618860510805501
+      "total_offspring_runs_in_state": 1024,
+      "sire_win_rate": 0.0625
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 301,
-      "litter_wins": 30
+      "total_litter_runs": 307,
+      "litter_wins": 31
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 127
+      "total_starts": 133
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 6.036021136342586
+      "ewma_places": 4.157375660510706
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,24 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
-        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
         "Poor Sire Line (<8% state win rate)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias",
+        "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense"
       ]
     }

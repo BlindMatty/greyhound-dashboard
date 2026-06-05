@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3013,
-      "ens_prob": 0.1694,
-      "fastai_prob": 0.0634,
-      "fastai_rank": 7,
+      "ml_prob": 0.3297,
+      "ens_prob": 0.1925,
+      "fastai_prob": 0.065,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788498
+      "races_with_same_dogs": 788925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.1,
-      "avg_temp_c": 12.4,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 12.8,
+      "avg_temp_c": 12.6,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "JARICK BALE",
       "dam": "QUAIL BALE",
-      "total_offspring_runs_in_state": 870,
-      "sire_win_rate": 0.15172413793103448
+      "total_offspring_runs_in_state": 872,
+      "sire_win_rate": 0.15137614678899083
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -200,7 +200,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

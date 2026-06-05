@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4943,
-      "ens_prob": 0.318,
-      "fastai_prob": 0.4769,
+      "ml_prob": 0.5047,
+      "ens_prob": 0.297,
+      "fastai_prob": 0.3599,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788498
+      "races_with_same_dogs": 788925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -133,12 +133,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "AUSPICIOUS QUEEN",
-      "total_offspring_runs_in_state": 38822,
-      "sire_win_rate": 0.1479058265931688
+      "total_offspring_runs_in_state": 38883,
+      "sire_win_rate": 0.14780238150348482
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 39,
+      "total_litter_runs": 40,
       "litter_wins": 12
     },
     "35_Injury_History": {
@@ -206,7 +206,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.477)"
+        "FastAI Strong Conviction (Rank 1, prob 0.360)"
       ]
     }
   }

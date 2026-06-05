@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1749,
-      "ens_prob": 0.1781,
-      "fastai_prob": 0.1985,
-      "fastai_rank": 3,
+      "ml_prob": 0.2668,
+      "ens_prob": 0.2026,
+      "fastai_prob": 0.2315,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 406623
+      "races_with_same_dogs": 406935
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "JILLIBY EMMIE",
-      "total_offspring_runs_in_state": 1906,
-      "sire_win_rate": 0.12329485834207765
+      "total_offspring_runs_in_state": 1916,
+      "sire_win_rate": 0.12265135699373696
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -185,11 +185,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
-      "decision": "PASS / CAUTION",
+      "final_score": 7,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

@@ -1,19 +1,19 @@
 {
   "dog": "LADY GUNAI",
-  "date": "2026-04-26",
+  "date": "2026-06-07",
   "track": "HVL",
   "race": 9,
   "distance": 0,
-  "grade": "Mixed 3/4",
+  "grade": "Free For All",
   "steps": {
-    "history_length": 30,
+    "history_length": 36,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2666,
-      "ens_prob": 0.1863,
-      "fastai_prob": 0.5216,
-      "fastai_rank": 2,
+      "ml_prob": 0.311,
+      "ens_prob": 0.1498,
+      "fastai_prob": 0.0833,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,41 +21,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
-      "has_inside_pressure": false,
+      "own_box": 7,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 343.8333333333333,
+      "avg_dist": 342.0833333333333,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 3/4 vs Field"
+      "current_vs_historic_grade": "Free For All vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.1,
-      "fluctuation": 0.05925925925925668,
+      "last_weight": 27.2,
+      "fluctuation": 0.07878787878787818,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 30,
-      "last_3_avg_place": 4.0,
-      "last_5_avg_place": 3.4,
+      "total_starts": 36,
+      "last_3_avg_place": 2.0,
+      "last_5_avg_place": 2.2,
       "last_10_places": [
-        5.0,
-        3.0,
-        2.0,
-        1.0,
-        4.0,
-        2.0,
         3.0,
         6.0,
         5.0,
-        1.0
+        1.0,
+        3.0,
+        3.0,
+        2.0,
+        3.0,
+        1.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 775009
+      "races_with_same_dogs": 788925
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.159229166666668
+      "avg_run_home": 13.077758620689657
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.1391218624219768
+      "split_stdev": 2.018280666520535
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 19395.0
+      "career_prize": 25620.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.3
@@ -124,11 +124,11 @@
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3076923076923077,
-      "place_rate": 0.5769230769230769
+      "win_rate": 0.28125,
+      "place_rate": 0.65625
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "ANDREA CHAPPLE"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "GUNAI WHISPER",
-      "total_offspring_runs_in_state": 9132,
-      "sire_win_rate": 0.14739378011388524
+      "total_offspring_runs_in_state": 9825,
+      "sire_win_rate": 0.14707379134860052
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 59,
-      "litter_wins": 13
+      "total_litter_runs": 67,
+      "litter_wins": 14
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 30
+      "total_starts": 36
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.843256322193985
+      "ewma_places": 1.935050879822823
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,21 +191,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

@@ -49,7 +49,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('qldCvCSection'); hide('qldCvCMeta'); hide('saCvCSection'); hide('saCvCMeta'); hide('waCvCSection'); hide('waCvCMeta'); hide('ntCvCSection'); hide('ntCvCMeta'); hide('tasCvCSection'); hide('tasCvCMeta'); hide('hcSection'); hide('hcFa40Section'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -75,40 +75,6 @@ async function loadDate(dateStr) {
 }
 
 // ── Render summary bar ──────────────────────────────
-function renderCvCSection(prefix, data, pendingLabel) {
-  const championCard = document.getElementById(`${prefix}ChampionCard`);
-  const challengerCard = document.getElementById(`${prefix}ChallengerCard`);
-  const meta = document.getElementById(`${prefix}CvCMeta`);
-  if (!championCard || !challengerCard || !meta) return;
-
-  championCard.classList.remove('highlight');
-  challengerCard.classList.remove('highlight');
-  document.getElementById(`${prefix}ChampionSR`).textContent = '-';
-  document.getElementById(`${prefix}ChallengerSR`).textContent = '-';
-  document.getElementById(`${prefix}ChampionNote`).textContent = `Awaiting scored ${pendingLabel} races`;
-  document.getElementById(`${prefix}ChallengerNote`).textContent = `Awaiting scored ${pendingLabel} races`;
-  meta.textContent = `Live ${pendingLabel} Champion vs Challenger scoreboard will populate after the first ${pendingLabel} result day scored for both models.`;
-  show(`${prefix}CvCMeta`);
-  show(`${prefix}CvCSection`);
-
-  if (!(data && data.champion && data.challenger)) return;
-
-  document.getElementById(`${prefix}ChampionSR`).textContent = data.champion.strikeRate.toFixed(1) + '%';
-  document.getElementById(`${prefix}ChallengerSR`).textContent = data.challenger.strikeRate.toFixed(1) + '%';
-  document.getElementById(`${prefix}ChampionNote`).textContent = `${data.champion.winners}/${data.champion.bets} wins`;
-  document.getElementById(`${prefix}ChallengerNote`).textContent = `${data.challenger.winners}/${data.challenger.bets} wins`;
-
-  if (data.leader === 'champion') championCard.classList.add('highlight');
-  if (data.leader === 'challenger') challengerCard.classList.add('highlight');
-
-  const delta = Math.abs(Number(data.deltaStrikeRate || 0)).toFixed(1);
-  const leaderLabel = data.leader === 'tie'
-    ? 'Level on SR'
-    : `${data.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
-  meta.textContent = `${leaderLabel} · Compared over ${data.comparedDates} ${pendingLabel} result day${data.comparedDates === 1 ? '' : 's'} from ${data.startDate} to ${data.resultsDate}`;
-  show(`${prefix}CvCMeta`);
-}
-
 function renderSummary(data) {
   const mp = data.modelPerformance;
   if (mp && mp.models) {
@@ -123,11 +89,8 @@ function renderSummary(data) {
     setStat('statENS', mp.models.ens ? mp.models.ens.strikeRate.toFixed(1) + '%' : '-');
     setStat('statFASTENS', mp.models.fast_ens ? mp.models.fast_ens.strikeRate.toFixed(1) + '%' : '-');
     setStat('statELOENS', mp.models.elo_ens ? mp.models.elo_ens.strikeRate.toFixed(1) + '%' : '-');
-    const mlTsFaSrAlign = mp.mlTsFaSrAlign && mp.mlTsFaSrAlign.model ? mp.mlTsFaSrAlign.model : null;
-    setStat('statMLTSFA40', mlTsFaSrAlign ? mlTsFaSrAlign.strikeRate.toFixed(1) + '%' : '-');
     const mlTsTiers = mp.mlTsTiers && mp.mlTsTiers.models ? mp.mlTsTiers.models : null;
     setStat('statMLTS', mlTsTiers && mlTsTiers.base_ml_ts ? mlTsTiers.base_ml_ts.strikeRate.toFixed(1) + '%' : '-');
-    setStat('statMLTSFA', mlTsTiers && mlTsTiers.ml_ts_fa_align ? mlTsTiers.ml_ts_fa_align.strikeRate.toFixed(1) + '%' : '-');
     setStat('statMLTS4510', mlTsTiers && mlTsTiers.ml_ts_45_10 ? mlTsTiers.ml_ts_45_10.strikeRate.toFixed(1) + '%' : '-');
     setStat('statMLTS5010', mlTsTiers && mlTsTiers.ml_ts_50_10 ? mlTsTiers.ml_ts_50_10.strikeRate.toFixed(1) + '%' : '-');
     const meta = document.getElementById('summaryMeta');
@@ -135,12 +98,42 @@ function renderSummary(data) {
     show('summaryMeta');
   }
 
-  renderCvCSection('nz', data.nzChampionVsChallenger, 'NZ');
-  renderCvCSection('qld', data.qldChampionVsChallenger, 'QLD');
-  renderCvCSection('sa', data.saChampionVsChallenger, 'SA');
-  renderCvCSection('wa', data.waChampionVsChallenger, 'WA');
-  renderCvCSection('nt', data.ntChampionVsChallenger, 'NT');
-  renderCvCSection('tas', data.tasChampionVsChallenger, 'TAS');
+  const nz = data.nzChampionVsChallenger;
+  const championCard = document.getElementById('nzChampionCard');
+  const challengerCard = document.getElementById('nzChallengerCard');
+  const nzMeta = document.getElementById('nzCvCMeta');
+  if (championCard && challengerCard) {
+    championCard.classList.remove('highlight');
+    challengerCard.classList.remove('highlight');
+    document.getElementById('nzChampionSR').textContent = '-';
+    document.getElementById('nzChallengerSR').textContent = '-';
+    document.getElementById('nzChampionNote').textContent = 'Awaiting scored NZ races';
+    document.getElementById('nzChallengerNote').textContent = 'Awaiting scored NZ races';
+    if (nzMeta) {
+      nzMeta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
+      show('nzCvCMeta');
+    }
+    show('nzCvCSection');
+  }
+
+  if (nz && nz.champion && nz.challenger && championCard && challengerCard) {
+    document.getElementById('nzChampionSR').textContent = nz.champion.strikeRate.toFixed(1) + '%';
+    document.getElementById('nzChallengerSR').textContent = nz.challenger.strikeRate.toFixed(1) + '%';
+    document.getElementById('nzChampionNote').textContent = `${nz.champion.winners}/${nz.champion.bets} wins`;
+    document.getElementById('nzChallengerNote').textContent = `${nz.challenger.winners}/${nz.challenger.bets} wins`;
+
+    if (nz.leader === 'champion') championCard.classList.add('highlight');
+    if (nz.leader === 'challenger') challengerCard.classList.add('highlight');
+
+    const delta = Math.abs(Number(nz.deltaStrikeRate || 0)).toFixed(1);
+    const leaderLabel = nz.leader === 'tie'
+      ? 'Level on SR'
+      : `${nz.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
+    if (nzMeta) {
+      nzMeta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
+      show('nzCvCMeta');
+    }
+  }
 
   show('summaryBar');
 }
@@ -172,7 +165,6 @@ function getMlTsSourceLabel(pick) {
 // ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
   const tsHC = [];
-  const tsFa40HC = [];
   const ts45HC = [];
   const ts50HC = [];
   
@@ -184,9 +176,6 @@ async function loadHighConfidencePicks(states) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
         if (p.isMlSpecialist) {
           tsHC.push(enhancedP);
-          if (p.isMlTsFaSrAlign) {
-            tsFa40HC.push(enhancedP);
-          }
           if (qualifiesMlTsTier(enhancedP, 45, 10)) {
             ts45HC.push(enhancedP);
           }
@@ -207,12 +196,10 @@ async function loadHighConfidencePicks(states) {
   };
 
   tsHC.sort(sorter);
-  tsFa40HC.sort(sorter);
   ts45HC.sort(sorter);
   ts50HC.sort(sorter);
 
   renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
-  renderPicksGrid(tsFa40HC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS + FA 40% aligned picks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'FA 40+', badgeClass: 'badge-fa40', cardClass: ' hc-card-fa40', showFaTrackComboSr: true});
   renderPicksGrid(ts45HC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'top track specialists >45%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
   renderPicksGrid(ts50HC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'top track specialists >50%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
 }
@@ -251,22 +238,17 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const showMlGap = opts.useNormOdds && mlGapToSecondPct >= 15;
     const mlSpecialistSr = Number(p.mlSpecialistSr || 0);
     const showMlSpecialistSr = opts.useNormOdds && mlSpecialistSr > 0;
-    const faTrackComboSr = Number(p.faTrackComboSr || 0);
-    const faTrackComboRaces = Number(p.faTrackComboRaces || 0);
-    const showFaTrackComboSr = Boolean(opts.showFaTrackComboSr) && faTrackComboSr > 0 && faTrackComboRaces > 0;
     const showNewAddition = opts.newFlag ? Boolean(p[opts.newFlag]) : false;
     const sourceLabel = getMlTsSourceLabel(p);
     const cardClass = opts.useNormOdds ? getMlTsCardClass(p) : '';
-    const extraCardClass = opts.cardClass || '';
-    const extraBadge = opts.badgeLabel ? ' <span class="badge ' + (opts.badgeClass || '') + '">' + esc(opts.badgeLabel) + '</span>' : '';
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
-    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}${extraCardClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
+    <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${extraBadge}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
+        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           · ${esc(stateLabel)} · ${esc(sourceLabel)}
@@ -275,7 +257,6 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
           ML ${(p.probability * 100).toFixed(1)}%
           · ENS ${(ensProb * 100).toFixed(1)}%
           ${fastaiProb ? '· FAI ' + (fastaiProb * 100).toFixed(1) + '%' : ''}
-          ${showFaTrackComboSr ? ' · <span style="color:var(--lime);font-weight:700">FA ' + faTrackComboSr.toFixed(1) + '%</span>' : ''}
           ${showMlSpecialistSr ? ' · <span style="color:#ffffff;font-weight:700">' + mlSpecialistSr.toFixed(1) + '%</span>' : ''}
           ${showMlGap ? '· <span style="color:#ffffff;font-weight:700">Gap ' + mlGapToSecondPct.toFixed(1) + '%</span>' : ''}
           ${p.isEloEns ? ' · <span class="badge badge-elo-ens" style="font-size:0.6rem">ELO ENS</span>' : ''}

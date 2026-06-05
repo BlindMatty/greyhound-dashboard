@@ -1,18 +1,18 @@
 {
   "dog": "ROXY CAMBLA",
-  "date": "2026-05-06",
+  "date": "2026-06-07",
   "track": "ROC",
   "race": 3,
   "distance": 0,
-  "grade": "Open",
+  "grade": "Mixed 6/5",
   "steps": {
-    "history_length": 14,
+    "history_length": 15,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4543,
-      "ens_prob": 0.523,
-      "fastai_prob": 0.5917,
+      "ml_prob": 0.2399,
+      "ens_prob": 0.2233,
+      "fastai_prob": 0.4003,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,32 +21,31 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
+      "own_box": 6,
       "has_inside_pressure": false,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 418.7857142857143,
+      "avg_dist": 424.8666666666667,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Open vs Field"
+      "current_vs_historic_grade": "Mixed 6/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 26.7,
-      "fluctuation": -0.2666666666666657,
+      "last_weight": 27.1,
+      "fluctuation": 0.12307692307692619,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 4
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 14,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 1.8,
+      "total_starts": 15,
+      "last_3_avg_place": 1.0,
+      "last_5_avg_place": 1.4,
       "last_10_places": [
-        1.0,
         5.0,
         1.0,
         2.0,
@@ -55,11 +54,12 @@
         1.0,
         3.0,
         1.0,
+        1.0,
         1.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": false
+      "consecutive_wins": true
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 401161
+      "races_with_same_dogs": 406935
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.677272727272726
+      "avg_run_home": 17.379166666666666
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.7413641465555363
+      "split_stdev": 1.9543021694960505
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 25
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 13760.0
+      "career_prize": 17670.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -407
+      "dist_diff_from_last": -510
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: ROC"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5833333333333334,
-      "place_rate": 0.8333333333333334
+      "win_rate": 0.6153846153846154,
+      "place_rate": 0.8461538461538461
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "MOUNT CAMBLA",
       "dam": "CARDI ROCKS",
-      "total_offspring_runs_in_state": 21,
-      "sire_win_rate": 0.3333333333333333
+      "total_offspring_runs_in_state": 22,
+      "sire_win_rate": 0.36363636363636365
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 21,
-      "litter_wins": 7
+      "total_litter_runs": 22,
+      "litter_wins": 8
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 14
+      "total_starts": 15
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.3316239316239316
+      "ewma_places": 1.1657917226223904
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -199,18 +199,16 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Clean Early Run (No adjacent pressure)",
-        "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
+        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
+        "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.592)"
+        "FastAI Strong Conviction (Rank 1, prob 0.400)"
       ]
     }
   }

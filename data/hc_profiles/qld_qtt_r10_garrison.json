@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1441,
-      "ens_prob": 0.2431,
-      "fastai_prob": 0.0791,
-      "fastai_rank": 3,
+      "ml_prob": 0.1157,
+      "ens_prob": 0.1913,
+      "fastai_prob": 0.1006,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 406623
+      "races_with_same_dogs": 406935
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "FLYING YUNA",
-      "total_offspring_runs_in_state": 8507,
-      "sire_win_rate": 0.1278946749735512
+      "total_offspring_runs_in_state": 8527,
+      "sire_win_rate": 0.12794652280989796
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 382,
+      "total_litter_runs": 383,
       "litter_wins": 43
     },
     "35_Injury_History": {
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.079)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
