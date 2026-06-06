@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1963,
-      "ens_prob": 0.1998,
-      "fastai_prob": 0.2312,
+      "ml_prob": 0.1858,
+      "ens_prob": 0.1811,
+      "fastai_prob": 0.0925,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 406935
+      "races_with_same_dogs": 407011
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "QUEST FOR GLORY",
-      "total_offspring_runs_in_state": 8476,
-      "sire_win_rate": 0.10747994336951393
+      "total_offspring_runs_in_state": 8477,
+      "sire_win_rate": 0.10746726436239236
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,13 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Lukewarm (Rank 3, prob 0.092)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

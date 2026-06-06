@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 5,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
       "ml_prob": 0.1793,
-      "ens_prob": 0.1752,
-      "fastai_prob": null,
-      "fastai_rank": null,
+      "ens_prob": 0.1561,
+      "fastai_prob": 0.2575,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -186,19 +186,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "2-Way Model Alignment"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

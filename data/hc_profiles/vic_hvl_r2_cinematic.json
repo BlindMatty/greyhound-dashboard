@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3971,
-      "ens_prob": 0.2676,
-      "fastai_prob": 0.455,
+      "ml_prob": 0.4148,
+      "ens_prob": 0.4028,
+      "fastai_prob": 0.5942,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 2,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788925
+      "races_with_same_dogs": 789128
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "COSMIC BLEND",
-      "total_offspring_runs_in_state": 13627,
-      "sire_win_rate": 0.1266603067439642
+      "total_offspring_runs_in_state": 13637,
+      "sire_win_rate": 0.1266407567646843
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -192,13 +192,14 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.455)"
+        "FastAI Strong Conviction (Rank 1, prob 0.594)"
       ]
     }
   }

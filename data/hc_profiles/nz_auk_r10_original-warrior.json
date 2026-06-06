@@ -9,12 +9,12 @@
     "history_length": 73,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.4749,
-      "ens_prob": 0.1965,
-      "fastai_prob": 0.0898,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "ens_prob": 0.1944,
+      "fastai_prob": 0.0924,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.092)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -207,8 +208,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

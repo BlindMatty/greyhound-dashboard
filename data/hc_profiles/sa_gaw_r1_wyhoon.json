@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 2,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
       "ml_prob": 0.2183,
-      "ens_prob": 0.2395,
-      "fastai_prob": 0.0585,
-      "fastai_rank": 3,
+      "ens_prob": 0.3084,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -183,21 +183,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 3, prob 0.059)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "2-Way Model Alignment"
       ]
     }
   }

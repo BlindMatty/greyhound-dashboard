@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1857,
-      "ens_prob": 0.297,
-      "fastai_prob": 0.4269,
+      "ml_prob": 0.1853,
+      "ens_prob": 0.2432,
+      "fastai_prob": 0.2099,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 13,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 788925
+      "races_with_same_dogs": 789128
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,8 +203,7 @@
         "Strong Head-to-Head Experience over field",
         "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.427)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
