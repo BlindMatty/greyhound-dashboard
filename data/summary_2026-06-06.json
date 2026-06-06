@@ -685,7 +685,33 @@
       "auc": 49.382716049382715
     }
   },
-  "tasChampionVsChallenger": null,
+  "tasChampionVsChallenger": {
+    "state": "tas",
+    "title": "TAS Champion vs Challenger",
+    "startDate": "2026-06-04",
+    "resultsDate": "2026-06-04",
+    "comparedDates": 1,
+    "leader": "challenger",
+    "deltaStrikeRate": 3.636363636363633,
+    "champion": {
+      "bets": 11,
+      "winners": 4,
+      "strikeRate": 36.36363636363637,
+      "raceTop1": 36.36363636363637,
+      "logloss": 0.3581078680317952,
+      "brier": 0.1048697760584342,
+      "auc": 67.46411483253588
+    },
+    "challenger": {
+      "bets": 10,
+      "winners": 4,
+      "strikeRate": 40.0,
+      "raceTop1": 36.36363636363637,
+      "logloss": 0.36229612352157237,
+      "brier": 0.10401826897006825,
+      "auc": 66.98564593301435
+    }
+  },
   "cumulative": {
     "bets": 9516,
     "wins": 2930,
