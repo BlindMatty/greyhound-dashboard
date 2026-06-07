@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2429,
-      "ens_prob": 0.1929,
-      "fastai_prob": 0.0525,
-      "fastai_rank": 2,
+      "ml_prob": 0.2181,
+      "ens_prob": 0.1403,
+      "fastai_prob": 0.0383,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215191
+      "races_with_same_dogs": 215265
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "INCAPACITATED",
       "dam": "FIRE FLY CHARLEE",
-      "total_offspring_runs_in_state": 305,
-      "sire_win_rate": 0.1377049180327869
+      "total_offspring_runs_in_state": 306,
+      "sire_win_rate": 0.13725490196078433
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,13 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.052)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.254,
-      "ens_prob": 0.5225,
-      "fastai_prob": 0.5001,
+      "ml_prob": 0.2361,
+      "ens_prob": 0.5523,
+      "fastai_prob": 0.5829,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789128
+      "races_with_same_dogs": 789341
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,8 +114,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 15.2,
-      "avg_temp_c": 11.1,
+      "max_wind_kmh": 16.1,
+      "avg_temp_c": 11.3,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -133,13 +133,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "LAKEVIEW ALLY",
-      "total_offspring_runs_in_state": 12921,
-      "sire_win_rate": 0.132961845058432
+      "total_offspring_runs_in_state": 12929,
+      "sire_win_rate": 0.1331116095599041
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 6,
-      "total_litter_runs": 18,
-      "litter_wins": 2
+      "litter_size_racing": 7,
+      "total_litter_runs": 21,
+      "litter_wins": 4
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -201,7 +201,7 @@
         "Strong Head-to-Head Experience over field",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.500)"
+        "FastAI Strong Conviction (Rank 1, prob 0.583)"
       ]
     }
   }
