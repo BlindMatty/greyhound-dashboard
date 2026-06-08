@@ -49,7 +49,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('qldCvCSection'); hide('qldCvCMeta'); hide('saCvCSection'); hide('saCvCMeta'); hide('waCvCSection'); hide('waCvCMeta'); hide('ntCvCSection'); hide('ntCvCMeta'); hide('tasCvCSection'); hide('tasCvCMeta'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('vicCvCSection'); hide('vicCvCMeta'); hide('nswCvCSection'); hide('nswCvCMeta'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('qldCvCSection'); hide('qldCvCMeta'); hide('saCvCSection'); hide('saCvCMeta'); hide('waCvCSection'); hide('waCvCMeta'); hide('ntCvCSection'); hide('ntCvCMeta'); hide('tasCvCSection'); hide('tasCvCMeta'); hide('hcSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -132,6 +132,8 @@ function renderSummary(data) {
     show('summaryMeta');
   }
 
+  renderCvCSection('vic', data.vicChampionVsChallenger, 'VIC');
+  renderCvCSection('nsw', data.nswChampionVsChallenger, 'NSW');
   renderCvCSection('nz', data.nzChampionVsChallenger, 'NZ');
   renderCvCSection('qld', data.qldChampionVsChallenger, 'QLD');
   renderCvCSection('sa', data.saChampionVsChallenger, 'SA');

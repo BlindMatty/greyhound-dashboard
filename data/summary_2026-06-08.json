@@ -1,14 +1,14 @@
 {
   "date": "2026-06-08",
-  "totalPredictions": 906,
-  "totalHighConfidence": 35,
+  "totalPredictions": 904,
+  "totalHighConfidence": 36,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 359,
-      "highConfidenceCount": 9,
-      "fastEnsCount": 9,
+      "totalPredictions": 357,
+      "highConfidenceCount": 10,
+      "fastEnsCount": 10,
       "eloEnsCount": 3,
       "topPicks": [
         {
@@ -27,11 +27,11 @@
           "ensemble_odds": 2.284815686555806,
           "fastai_prob": 0.3365578484849559,
           "fastai_rank": 2,
-          "elo_prob": 0.18243683375474096,
+          "elo_prob": 0.1824368337547409,
           "elo_rating": 1190,
-          "mc_win_pct": 16.61,
-          "mc_place_pct": 29.64,
-          "mc_show_pct": 46.19,
+          "mc_win_pct": 16.42,
+          "mc_place_pct": 29.1,
+          "mc_show_pct": 45.79,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 1,
           "tier": "yellow"
@@ -54,9 +54,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.3829614495415852,
           "elo_rating": 1250,
-          "mc_win_pct": 48.16,
-          "mc_place_pct": 79.21,
-          "mc_show_pct": 93.88,
+          "mc_win_pct": 47.86,
+          "mc_place_pct": 78.63,
+          "mc_show_pct": 93.73,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 1,
           "tier": "yellow"
@@ -77,11 +77,11 @@
           "ensemble_odds": 3.1158000239891144,
           "fastai_prob": 0.2271323452967858,
           "fastai_rank": 2,
-          "elo_prob": 0.19229509575867096,
+          "elo_prob": 0.1922950957586709,
           "elo_rating": 1228,
-          "mc_win_pct": 40.96,
-          "mc_place_pct": 64.64,
-          "mc_show_pct": 79.48,
+          "mc_win_pct": 40.55,
+          "mc_place_pct": 64.68,
+          "mc_show_pct": 79.24,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 2,
           "tier": "yellow"
@@ -611,9 +611,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.1589390738169159,
           "elo_rating": 1510,
-          "mc_win_pct": 29.23,
-          "mc_place_pct": 61.65,
-          "mc_show_pct": 82.15,
+          "mc_win_pct": 30.23,
+          "mc_place_pct": 62.49,
+          "mc_show_pct": 82.48,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 12,
           "tier": "green"
@@ -636,9 +636,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.054381000128390325,
           "elo_rating": 1258,
-          "mc_win_pct": 33.28,
-          "mc_place_pct": 63.92,
-          "mc_show_pct": 83.67,
+          "mc_win_pct": 33.23,
+          "mc_place_pct": 64.46,
+          "mc_show_pct": 83.8,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 2,
           "tier": "green"
@@ -661,9 +661,9 @@
           "fastai_rank": 4,
           "elo_prob": 0.26176437480835574,
           "elo_rating": 1596,
-          "mc_win_pct": 11.86,
-          "mc_place_pct": 27.62,
-          "mc_show_pct": 41.19,
+          "mc_win_pct": 12.34,
+          "mc_place_pct": 26.51,
+          "mc_show_pct": 40.05,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 17,
           "tier": "green"
@@ -755,27 +755,81 @@
     "mlTsTiers": {
       "startDate": "2026-04-08",
       "resultsDate": "2026-06-07",
-      "settledRaces": 1387,
+      "settledRaces": 1403,
       "models": {
         "base_ml_ts": {
-          "wins": 666,
-          "settled": 1387,
+          "wins": 677,
+          "settled": 1403,
           "label": "ML TS",
-          "strikeRate": 48.01730353280461
+          "strikeRate": 48.25374198146829
         },
         "ml_ts_45_10": {
-          "wins": 192,
-          "settled": 362,
+          "wins": 184,
+          "settled": 343,
           "label": "ML TS >45%, 10+",
-          "strikeRate": 53.03867403314917
+          "strikeRate": 53.64431486880466
         },
         "ml_ts_50_10": {
-          "wins": 98,
-          "settled": 166,
+          "wins": 100,
+          "settled": 163,
           "label": "ML TS >50%, 10+",
-          "strikeRate": 59.036144578313255
+          "strikeRate": 61.34969325153374
         }
       }
+    }
+  },
+  "vicChampionVsChallenger": {
+    "state": "vic",
+    "title": "VIC Champion vs Challenger",
+    "startDate": "2026-06-05",
+    "resultsDate": "2026-06-07",
+    "comparedDates": 3,
+    "leader": "challenger",
+    "deltaStrikeRate": 3.2624113475177303,
+    "champion": {
+      "bets": 90,
+      "winners": 21,
+      "strikeRate": 23.333333333333332,
+      "raceTop1": 22.916666666666664,
+      "logloss": 0.33426314700893683,
+      "brier": 0.09914327584357856,
+      "auc": 73.1177002929443
+    },
+    "challenger": {
+      "bets": 94,
+      "winners": 25,
+      "strikeRate": 26.595744680851062,
+      "raceTop1": 27.083333333333332,
+      "logloss": 0.34289101769026775,
+      "brier": 0.09998819370792084,
+      "auc": 68.9987872643262
+    }
+  },
+  "nswChampionVsChallenger": {
+    "state": "nsw",
+    "title": "NSW Champion vs Challenger",
+    "startDate": "2025-12-30",
+    "resultsDate": "2026-01-11",
+    "comparedDates": 11,
+    "leader": "champion",
+    "deltaStrikeRate": -2.4047767950206946,
+    "champion": {
+      "bets": 369,
+      "winners": 92,
+      "strikeRate": 24.932249322493224,
+      "raceTop1": 24.42159383033419,
+      "logloss": 0.41258545206417657,
+      "brier": 0.11282586114350729,
+      "auc": 63.0744546357583
+    },
+    "challenger": {
+      "bets": 364,
+      "winners": 82,
+      "strikeRate": 22.52747252747253,
+      "raceTop1": 23.65038560411311,
+      "logloss": 0.46978484673655796,
+      "brier": 0.1248026704269238,
+      "auc": 65.80330327428614
     }
   },
   "nzChampionVsChallenger": {
