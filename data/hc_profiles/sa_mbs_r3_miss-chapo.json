@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2223,
-      "ens_prob": 0.3169,
-      "fastai_prob": 0.0626,
-      "fastai_rank": 2,
+      "ml_prob": 0.1517,
+      "ens_prob": 0.221,
+      "fastai_prob": 0.0824,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -57,7 +57,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 217093
+      "races_with_same_dogs": 217189
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -176,7 +176,7 @@
       "red_flags": [
         "Inexperienced (< 3 starts)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "FastAI Lukewarm (Rank 2, prob 0.063)"
+        "FastAI Lukewarm (Rank 3, prob 0.082)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",

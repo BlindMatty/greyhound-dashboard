@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2036,
-      "ens_prob": 0.3183,
-      "fastai_prob": 0.4917,
+      "ml_prob": 0.1877,
+      "ens_prob": 0.2162,
+      "fastai_prob": 0.2557,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789744
+      "races_with_same_dogs": 790043
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ACOUSTIC LEE",
-      "total_offspring_runs_in_state": 101377,
-      "sire_win_rate": 0.13234757390729654
+      "total_offspring_runs_in_state": 101401,
+      "sire_win_rate": 0.13233597301801758
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -207,7 +207,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.492)"
+        "FastAI Strong Conviction (Rank 1, prob 0.256)"
       ]
     }
   }

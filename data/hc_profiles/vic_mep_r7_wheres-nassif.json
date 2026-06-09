@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1999,
-      "ens_prob": 0.1064,
-      "fastai_prob": 0.0234,
+      "ml_prob": 0.201,
+      "ens_prob": 0.1174,
+      "fastai_prob": 0.0339,
       "fastai_rank": 7,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789744
+      "races_with_same_dogs": 790043
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.1,
-      "avg_temp_c": 13.9,
-      "total_precip_mm": 3.0,
-      "is_wet": true,
+      "max_wind_kmh": 25.3,
+      "avg_temp_c": 13.8,
+      "total_precip_mm": 2.0,
+      "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "FORREST ELBOW",
-      "total_offspring_runs_in_state": 4870,
-      "sire_win_rate": 0.13305954825462013
+      "total_offspring_runs_in_state": 4873,
+      "sire_win_rate": 0.1329776318489637
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,

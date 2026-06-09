@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2782,
-      "ens_prob": 0.2113,
-      "fastai_prob": 0.1526,
+      "ml_prob": 0.2647,
+      "ens_prob": 0.2132,
+      "fastai_prob": 0.208,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789744
+      "races_with_same_dogs": 790043
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,9 +114,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 30.2,
-      "avg_temp_c": 10.7,
-      "total_precip_mm": 3.1,
+      "max_wind_kmh": 30.1,
+      "avg_temp_c": 10.8,
+      "total_precip_mm": 5.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -133,13 +133,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "BLUE TEQUILA",
-      "total_offspring_runs_in_state": 12950,
-      "sire_win_rate": 0.13320463320463322
+      "total_offspring_runs_in_state": 12961,
+      "sire_win_rate": 0.133245891520716
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 14,
-      "litter_wins": 4
+      "total_litter_runs": 15,
+      "litter_wins": 5
     },
     "35_Injury_History": {
       "long_spells_count": 0

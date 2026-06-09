@@ -9,12 +9,12 @@
     "history_length": 36,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2145,
-      "ens_prob": 0.1729,
-      "fastai_prob": 0.0346,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2282,
+      "ens_prob": 0.1944,
+      "fastai_prob": 0.0452,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215353
+      "races_with_same_dogs": 215447
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "ELITE WEAPON",
-      "total_offspring_runs_in_state": 6509,
-      "sire_win_rate": 0.1591642341373483
+      "total_offspring_runs_in_state": 6522,
+      "sire_win_rate": 0.1590003066544005
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 3, prob 0.035)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -208,7 +207,8 @@
         "High Earnings Class / Classy Animal",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

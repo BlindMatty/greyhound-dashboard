@@ -9,12 +9,12 @@
     "history_length": 34,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1642,
-      "ens_prob": 0.2954,
-      "fastai_prob": 0.3959,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1832,
+      "ens_prob": 0.1917,
+      "fastai_prob": 0.1568,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789744
+      "races_with_same_dogs": 790043
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.1,
-      "avg_temp_c": 13.9,
-      "total_precip_mm": 3.0,
-      "is_wet": true,
+      "max_wind_kmh": 25.3,
+      "avg_temp_c": 13.8,
+      "total_precip_mm": 2.0,
+      "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -192,17 +192,16 @@
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": true
+      "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "Heavy dog penalty on assumed wet track",
         "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
@@ -211,9 +210,7 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.396)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
