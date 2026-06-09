@@ -7,11 +7,130 @@ const STATE_NAMES = {
   sa:'South Australia', tas:'Tasmania', nz:'New Zealand', nt:'Northern Territory'
 };
 
+const SHORTLIST_RULES = [
+  { state: 'SA', trackCode: 'GAW', distance: 400, grade: 'Grade 6', mode: 'bet', reason: 'Strong ML TS combo. ELO is a bonus.' },
+  { state: 'NZ', trackCode: 'SOU', distance: 390, grade: 'Class 2', mode: 'bet_if_elo', reason: 'Only bet this combo when ELO agrees.' },
+  { state: 'NZ', trackCode: 'WAK', distance: 375, grade: 'Class 4', mode: 'bet_if_elo', reason: 'Only bet this combo when ELO agrees.' },
+  { state: 'QLD', trackCode: 'ROC', distance: 407, grade: 'Grade 6', mode: 'bet_if_elo', reason: 'Only bet this combo when ELO agrees.' },
+  { state: 'NSW', trackCode: 'GBN', distance: 350, grade: 'Non Graded', mode: 'bet', reason: 'Positive ML TS combo. ELO improves it further.' },
+  { state: 'NZ', trackCode: 'CCH', distance: 295, grade: 'Class 5', mode: 'bet', reason: 'Positive ML TS combo without needing ELO.' },
+  { state: 'NZ', trackCode: 'AUK', distance: 318, grade: 'Class 1', mode: 'bet', reason: 'Positive ML TS combo. ELO sample too thin to require.' },
+  { state: 'NSW', trackCode: 'GRA', distance: 350, grade: 'Grade 5 Heat', mode: 'bet', reason: 'Positive ML TS combo. ELO sample too thin to require.' },
+  { state: 'NZ', trackCode: 'CCH', distance: 295, grade: 'Class 1 heats', mode: 'bet', reason: 'Positive ML TS combo. ELO sample too thin to require.' },
+  { state: 'NSW', trackCode: 'TEM', distance: 330, grade: 'Mixed 4/5', mode: 'bet', reason: 'Positive ML TS combo. ELO sample too thin to require.' },
+  { state: 'NZ', trackCode: 'CCH', distance: 525, grade: 'Class 5', mode: 'avoid', reason: 'Avoid this combo based on recent ML TS and ELO results.' },
+  { state: 'NZ', trackCode: 'SOU', distance: 457, grade: 'Class 1', mode: 'avoid', reason: 'Avoid this combo based on recent ML TS and ELO results.' }
+];
+
+const SHORTLIST_RULE_MAP = new Map(
+  SHORTLIST_RULES.map(rule => [makeShortlistKey(rule.state, rule.trackCode, rule.distance, rule.grade), rule])
+);
+
 // ── State ───────────────────────────────────────────
 let currentDate = '';
 let summaryData = null;
 let stateDataCache = {};   // { state: data }
 let activeState = null;
+
+function normalizeShortlistText(value) {
+  return String(value || '').trim().toUpperCase();
+}
+
+function normalizeShortlistDistance(value) {
+  const num = Number(value);
+  return Number.isFinite(num) ? num : null;
+}
+
+function makeShortlistKey(state, trackCode, distance, grade) {
+  return [
+    normalizeShortlistText(state),
+    normalizeShortlistText(trackCode),
+    normalizeShortlistDistance(distance),
+    normalizeShortlistText(grade)
+  ].join('|');
+}
+
+function shortlistClassNameFromTag(tag) {
+  if (tag === 'Bet') return 'shortlist-tag-bet';
+  if (tag === 'Bet If ELO') return 'shortlist-tag-conditional';
+  return 'shortlist-tag-avoid';
+}
+
+function buildRaceMetaLookup(races) {
+  const byRaceId = new Map();
+  const byTrackRace = new Map();
+
+  (races || []).forEach(race => {
+    const meta = {
+      trackCode: race.track,
+      distanceInMetres: normalizeShortlistDistance(race.distanceInMetres),
+      grade: race.grade || ''
+    };
+    if (race.raceId != null) {
+      byRaceId.set(String(race.raceId), meta);
+    }
+    byTrackRace.set(`${normalizeShortlistText(race.track)}|${race.raceNumber}`, meta);
+  });
+
+  return { byRaceId, byTrackRace };
+}
+
+function getShortlistDecision(pick) {
+  if (pick.shortlistTag) {
+    return {
+      label: pick.shortlistTag,
+      className: shortlistClassNameFromTag(pick.shortlistTag),
+      reason: pick.shortlistReason || 'Stored shortlist decision from daily data.'
+    };
+  }
+
+  const trackCode = pick.trackCode || pick.track;
+  const rule = SHORTLIST_RULE_MAP.get(
+    makeShortlistKey(pick.state, trackCode, pick.distanceInMetres, pick.grade)
+  );
+
+  if (!rule) {
+    return {
+      label: 'Avoid',
+      className: 'shortlist-tag-avoid',
+      reason: 'Not on the current ML TS shortlist.'
+    };
+  }
+
+  if (rule.mode === 'avoid') {
+    return {
+      label: 'Avoid',
+      className: 'shortlist-tag-avoid',
+      reason: rule.reason
+    };
+  }
+
+  if (rule.mode === 'bet_if_elo') {
+    if (pick.isEloEns || pick.elo_agrees) {
+      return {
+        label: 'Bet',
+        className: 'shortlist-tag-bet',
+        reason: 'ELO agrees on a combo that requires ELO confirmation.'
+      };
+    }
+    return {
+      label: 'Bet If ELO',
+      className: 'shortlist-tag-conditional',
+      reason: rule.reason
+    };
+  }
+
+  return {
+    label: 'Bet',
+    className: 'shortlist-tag-bet',
+    reason: rule.reason
+  };
+}
+
+function renderShortlistTag(decision) {
+  if (!decision) return '';
+  return `<span class="shortlist-tag ${decision.className}" title="${esc(decision.reason)}">${esc(decision.label)}</span>`;
+}
 
 // ── Init ────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', init);
@@ -178,8 +297,20 @@ async function loadHighConfidencePicks(states) {
     try {
       const data = await fetchJSON(`${DATA_DIR}/${s.code}_predictions_${currentDate}.json`);
       stateDataCache[s.code] = data;
+      const raceMetaLookup = buildRaceMetaLookup(data.races || []);
       for (const p of (data.highConfidencePicks || [])) {
-        const enhancedP = { ...p, state: s.code, stateName: s.name };
+        const raceMeta = raceMetaLookup.byRaceId.get(String(p.raceId))
+          || raceMetaLookup.byTrackRace.get(`${normalizeShortlistText(p.track)}|${p.raceNumber}`)
+          || null;
+        const enhancedP = {
+          ...p,
+          state: s.code,
+          stateName: s.name,
+          trackCode: p.track,
+          distanceInMetres: p.distanceInMetres != null ? p.distanceInMetres : (raceMeta ? raceMeta.distanceInMetres : null),
+          grade: p.grade || (raceMeta ? raceMeta.grade : ''),
+        };
+        enhancedP.shortlistDecision = getShortlistDecision(enhancedP);
         if (p.isMlSpecialist) {
           tsHC.push(enhancedP);
           if (qualifiesMlTsTier(enhancedP, 45, 10)) {
@@ -248,15 +379,18 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const sourceLabel = getMlTsSourceLabel(p);
     const cardClass = opts.useNormOdds ? getMlTsCardClass(p) : '';
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
+    const shortlistTag = opts.useNormOdds ? renderShortlistTag(p.shortlistDecision) : '';
+    const distanceLabel = p.distanceInMetres ? `${p.distanceInMetres}m` : '';
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
     <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
+        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}${shortlistTag ? ' ' + shortlistTag : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
+          ${distanceLabel ? ' · ' + esc(distanceLabel) : ''}${p.grade ? ' · ' + esc(p.grade) : ''}
           · ${esc(stateLabel)} · ${esc(sourceLabel)}
         </span>
         <span class="hc-meta">
