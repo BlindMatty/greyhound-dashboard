@@ -61,10 +61,16 @@ function buildRaceMetaLookup(races) {
   const byTrackRace = new Map();
 
   (races || []).forEach(race => {
+    const activeDogs = (race.dogs || []).filter(d => !d.scratched && Number(d.mc_win_pct || 0) > 0);
+    const mcTopDog = activeDogs.reduce((best, dog) => {
+      if (!best || Number(dog.mc_win_pct || 0) > Number(best.mc_win_pct || 0)) return dog;
+      return best;
+    }, null);
     const meta = {
       trackCode: race.track,
       distanceInMetres: normalizeShortlistDistance(race.distanceInMetres),
-      grade: race.grade || ''
+      grade: race.grade || '',
+      mcTopDog: mcTopDog ? mcTopDog.dog : null
     };
     if (race.raceId != null) {
       byRaceId.set(String(race.raceId), meta);
@@ -309,6 +315,7 @@ async function loadHighConfidencePicks(states) {
           trackCode: p.track,
           distanceInMetres: p.distanceInMetres != null ? p.distanceInMetres : (raceMeta ? raceMeta.distanceInMetres : null),
           grade: p.grade || (raceMeta ? raceMeta.grade : ''),
+          isMcSystem: p.isMcSystem != null ? p.isMcSystem : Boolean(raceMeta && raceMeta.mcTopDog === p.dog),
         };
         enhancedP.shortlistDecision = getShortlistDecision(enhancedP);
         if (p.isMlSpecialist) {
@@ -381,13 +388,14 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const shortlistTag = opts.useNormOdds ? renderShortlistTag(p.shortlistDecision) : '';
     const distanceLabel = p.distanceInMetres ? `${p.distanceInMetres}m` : '';
+    const mcBadge = p.isMcSystem || p.mc_agrees ? ' <span class="badge badge-mc">MC</span>' : '';
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
       const slug = `${p.state}_${String(p.track).toLowerCase()}_r${p.raceNumber}_${safeDog}.json`;
       return `
     
     <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}${shortlistTag ? ' ' + shortlistTag : ''}</span>
+        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}${mcBadge}${shortlistTag ? ' ' + shortlistTag : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           ${distanceLabel ? ' · ' + esc(distanceLabel) : ''}${p.grade ? ' · ' + esc(p.grade) : ''}
@@ -525,10 +533,11 @@ function renderRaces(data) {
     const ensTop = dogs.reduce((best, d) => (!best || (d.ensemble_prob || 0) > (best.ensemble_prob || 0)) ? d : best, null);
     const fastaiTop = dogs.reduce((best, d) => (!best || (d.fastai_prob || 0) > (best.fastai_prob || 0)) ? d : best, null);
     const eloTop = dogs.reduce((best, d) => (!best || (d.elo_prob || 0) > (best.elo_prob || 0)) ? d : best, null);
+    const mcTop = dogs.reduce((best, d) => (!best || (d.mc_win_pct || 0) > (best.mc_win_pct || 0)) ? d : best, null);
     const topDog = ensTop || mlTop;
 
     // Tag each dog with which models pick it as #1
-    const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, fastai: fastaiTop?.dog, elo: eloTop?.dog };
+    const topNames = { ml: mlTop?.dog, ens: ensTop?.dog, fastai: fastaiTop?.dog, elo: eloTop?.dog, mc: (mcTop && Number(mcTop.mc_win_pct || 0) > 0) ? mcTop.dog : null };
       const totalProb = race.dogs.reduce((s, d) => s + (d.probability || 0), 0) * 100;
 
     return `
@@ -583,6 +592,7 @@ function dogRow(d, isTop, topNames) {
   if (topNames.ml && d.dog === topNames.ml) badges.push('<span class="badge badge-ml">ML</span>');
   if (topNames.fastai && d.dog === topNames.fastai) badges.push('<span class="badge badge-fastai">FAI</span>');
   if (topNames.elo && d.dog === topNames.elo) badges.push('<span class="badge badge-elo">ELO</span>');
+  if (topNames.mc && d.dog === topNames.mc) badges.push('<span class="badge badge-mc">MC</span>');
   const fastEnsDog = (topNames.ens && topNames.ml && topNames.fastai && topNames.ens === topNames.ml && topNames.ens === topNames.fastai)
     ? topNames.ens
     : null;
