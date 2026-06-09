@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.186,
-      "ens_prob": 0.1371,
-      "fastai_prob": 0.0799,
-      "fastai_rank": 5,
+      "ml_prob": 0.1815,
+      "ens_prob": 0.2005,
+      "fastai_prob": 0.4436,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789341
+      "races_with_same_dogs": 789744
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.3,
-      "avg_temp_c": 11.6,
+      "max_wind_kmh": 23.7,
+      "avg_temp_c": 11.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "LOXTON BALE",
-      "total_offspring_runs_in_state": 38896,
-      "sire_win_rate": 0.14775298231180584
+      "total_offspring_runs_in_state": 38919,
+      "sire_win_rate": 0.14769135897633548
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -11,
+      "final_score": -9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -196,8 +196,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

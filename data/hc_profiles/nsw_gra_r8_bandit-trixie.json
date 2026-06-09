@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1152,
-      "ens_prob": 0.1245,
-      "fastai_prob": 0.3119,
-      "fastai_rank": 5,
+      "ml_prob": 0.165,
+      "ens_prob": 0.1671,
+      "fastai_prob": 0.3282,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 713250
+      "races_with_same_dogs": 713385
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "BOMBSHELL BANDIT",
-      "total_offspring_runs_in_state": 46294,
-      "sire_win_rate": 0.11921631312913121
+      "total_offspring_runs_in_state": 46295,
+      "sire_win_rate": 0.11921373798466357
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -14,
+      "final_score": -12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -202,8 +202,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -805,7 +805,33 @@
       "auc": 68.9987872643262
     }
   },
-  "nswChampionVsChallenger": null,
+  "nswChampionVsChallenger": {
+    "state": "nsw",
+    "title": "NSW Champion vs Challenger",
+    "startDate": "2025-12-30",
+    "resultsDate": "2026-01-11",
+    "comparedDates": 11,
+    "leader": "champion",
+    "deltaStrikeRate": -2.4047767950206946,
+    "champion": {
+      "bets": 369,
+      "winners": 92,
+      "strikeRate": 24.932249322493224,
+      "raceTop1": 24.42159383033419,
+      "logloss": 0.41258545206417657,
+      "brier": 0.11282586114350729,
+      "auc": 63.0744546357583
+    },
+    "challenger": {
+      "bets": 364,
+      "winners": 82,
+      "strikeRate": 22.52747252747253,
+      "raceTop1": 23.65038560411311,
+      "logloss": 0.46978484673655796,
+      "brier": 0.1248026704269238,
+      "auc": 65.80330327428614
+    }
+  },
   "nzChampionVsChallenger": {
     "state": "nz",
     "title": "NZ Champion vs Challenger",

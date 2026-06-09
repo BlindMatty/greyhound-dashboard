@@ -1,18 +1,18 @@
 {
   "dog": "HAYDEN'S MILK",
-  "date": "2026-05-06",
+  "date": "2026-06-10",
   "track": "MBS",
   "race": 4,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Open",
   "steps": {
-    "history_length": 53,
+    "history_length": 58,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.181,
-      "ens_prob": 0.3291,
-      "fastai_prob": 0.2447,
+      "ml_prob": 0.2156,
+      "ens_prob": 0.2684,
+      "fastai_prob": 0.1219,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -21,41 +21,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 1,
       "has_inside_pressure": false,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 371.1509433962264,
+      "avg_dist": 366.4655172413793,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Open vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.7,
-      "fluctuation": -0.2975609756097519,
+      "last_weight": 27.9,
+      "fluctuation": -0.14130434782608603,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 4
     },
     "08_Form_Trajectory": {
-      "total_starts": 53,
-      "last_3_avg_place": 3.0,
+      "total_starts": 58,
+      "last_3_avg_place": 3.3333333333333335,
       "last_5_avg_place": 2.6,
       "last_10_places": [
-        2.0,
-        5.0,
-        6.0,
-        2.0,
-        3.0,
         3.0,
         1.0,
         3.0,
         2.0,
-        4.0
+        4.0,
+        2.0,
+        1.0,
+        6.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214571
+      "races_with_same_dogs": 217093
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.33731707317073
+      "avg_run_home": 14.256086956521738
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.015695607101381
+      "split_stdev": 2.055451347404237
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 23
+      "days_since_last_run": 5
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 10420.0
+      "career_prize": 12270.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.9
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -342
+      "dist_diff_from_last": -300
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: MBS"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.24390243902439024,
-      "place_rate": 0.6585365853658537
+      "win_rate": 0.2391304347826087,
+      "place_rate": 0.6739130434782609
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "GOOD ODDS DIANA",
-      "total_offspring_runs_in_state": 3185,
-      "sire_win_rate": 0.18304552590266876
+      "total_offspring_runs_in_state": 3356,
+      "sire_win_rate": 0.18414779499404052
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 184,
-      "litter_wins": 62
+      "total_litter_runs": 190,
+      "litter_wins": 63
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 53
+      "total_starts": 58
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.132818033685968
+      "ewma_places": 2.472900563552677
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -196,12 +196,14 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.122)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
+        "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3859,
-      "ens_prob": 0.1797,
-      "fastai_prob": 0.1329,
-      "fastai_rank": 4,
+      "ml_prob": 0.3611,
+      "ens_prob": 0.2669,
+      "fastai_prob": 0.2355,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789341
+      "races_with_same_dogs": 789744
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.3,
-      "avg_temp_c": 11.6,
+      "max_wind_kmh": 23.7,
+      "avg_temp_c": 11.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BLACK MAGIC OPAL",
       "dam": "SHE'S GOT WHEELS",
-      "total_offspring_runs_in_state": 3580,
-      "sire_win_rate": 0.15865921787709497
+      "total_offspring_runs_in_state": 3581,
+      "sire_win_rate": 0.1586149120357442
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,12 +195,11 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 11,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

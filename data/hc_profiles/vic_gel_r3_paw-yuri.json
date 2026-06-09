@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2548,
-      "ens_prob": 0.1676,
-      "fastai_prob": 0.1405,
-      "fastai_rank": 4,
+      "ml_prob": 0.2579,
+      "ens_prob": 0.1332,
+      "fastai_prob": 0.066,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789341
+      "races_with_same_dogs": 789744
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -133,12 +133,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AMRON BOY",
       "dam": "FORTUNA BALE",
-      "total_offspring_runs_in_state": 571,
-      "sire_win_rate": 0.17513134851138354
+      "total_offspring_runs_in_state": 574,
+      "sire_win_rate": 0.1759581881533101
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 16,
+      "total_litter_runs": 17,
       "litter_wins": 2
     },
     "35_Injury_History": {
@@ -195,7 +195,7 @@
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -9,12 +9,12 @@
     "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3388,
-      "ens_prob": 0.2285,
-      "fastai_prob": 0.4496,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.356,
+      "ens_prob": 0.1989,
+      "fastai_prob": 0.1541,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 789341
+      "races_with_same_dogs": 789744
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -117,8 +117,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.3,
-      "avg_temp_c": 11.6,
+      "max_wind_kmh": 23.7,
+      "avg_temp_c": 11.9,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "LOCHINVAR MARLOW",
       "dam": "FANCY FRANCENE",
-      "total_offspring_runs_in_state": 1374,
-      "sire_win_rate": 0.13609898107714702
+      "total_offspring_runs_in_state": 1377,
+      "sire_win_rate": 0.1365286855482934
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 12,
-      "total_litter_runs": 159,
-      "litter_wins": 20
+      "total_litter_runs": 162,
+      "litter_wins": 21
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 7,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -204,9 +204,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.450)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
