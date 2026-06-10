@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2158,
-      "ens_prob": 0.3312,
-      "fastai_prob": 0.4691,
+      "ml_prob": 0.2244,
+      "ens_prob": 0.3944,
+      "fastai_prob": 0.5665,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790043
+      "races_with_same_dogs": 790372
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON DEE BEE",
       "dam": "NICE AND EASY",
-      "total_offspring_runs_in_state": 28637,
-      "sire_win_rate": 0.1421238258197437
+      "total_offspring_runs_in_state": 28646,
+      "sire_win_rate": 0.14211408224533967
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -197,7 +197,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.469)"
+        "FastAI Strong Conviction (Rank 1, prob 0.567)"
       ]
     }
   }

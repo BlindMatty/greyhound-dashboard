@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1541,
-      "ens_prob": 0.1633,
-      "fastai_prob": 0.1289,
-      "fastai_rank": 3,
+      "ml_prob": 0.1513,
+      "ens_prob": 0.1718,
+      "fastai_prob": 0.1438,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790043
+      "races_with_same_dogs": 790372
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.1,
-      "avg_temp_c": 12.2,
-      "total_precip_mm": 0.6,
+      "max_wind_kmh": 10.5,
+      "avg_temp_c": 11.5,
+      "total_precip_mm": 0.2,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "MAXIMUM SHIRLEY",
-      "total_offspring_runs_in_state": 10034,
-      "sire_win_rate": 0.14869443890771378
+      "total_offspring_runs_in_state": 10048,
+      "sire_win_rate": 0.14848726114649682
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -202,7 +202,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 3, prob 0.129)"
+        "FastAI Lukewarm (Rank 2, prob 0.144)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

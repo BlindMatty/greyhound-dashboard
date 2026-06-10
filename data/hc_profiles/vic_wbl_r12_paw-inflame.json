@@ -9,12 +9,12 @@
     "history_length": 50,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1741,
-      "ens_prob": 0.1913,
-      "fastai_prob": 0.1274,
-      "fastai_rank": 4,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1625,
+      "ens_prob": 0.3216,
+      "fastai_prob": 0.1823,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 50,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790043
+      "races_with_same_dogs": 790372
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 17.204901315789474
+      "avg_run_home": 17.20490131578947
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ALLEN DEED",
       "dam": "QUINTANA BALE",
-      "total_offspring_runs_in_state": 14090,
-      "sire_win_rate": 0.1056777856635912
+      "total_offspring_runs_in_state": 14095,
+      "sire_win_rate": 0.10564029797800638
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 286,
+      "total_litter_runs": 287,
       "litter_wins": 44
     },
     "35_Injury_History": {
@@ -191,19 +191,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 7,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Wide Runner drawn Outside (Perfect Map)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

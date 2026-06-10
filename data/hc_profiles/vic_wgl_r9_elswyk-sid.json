@@ -9,12 +9,12 @@
     "history_length": 59,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1617,
-      "ens_prob": 0.1916,
-      "fastai_prob": 0.1353,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1409,
+      "ens_prob": 0.2833,
+      "fastai_prob": 0.2894,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790043
+      "races_with_same_dogs": 790372
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 15.2,
-      "avg_temp_c": 12.0,
-      "total_precip_mm": 2.4,
-      "is_wet": true,
+      "max_wind_kmh": 14.6,
+      "avg_temp_c": 11.3,
+      "total_precip_mm": 0.8,
+      "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MR. AUDACIOUS",
       "dam": "CHATTERBOX TILLY",
-      "total_offspring_runs_in_state": 252,
-      "sire_win_rate": 0.0992063492063492
+      "total_offspring_runs_in_state": 253,
+      "sire_win_rate": 0.09881422924901186
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -195,14 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 2, prob 0.135)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -210,7 +209,9 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.289)"
       ]
     }
   }

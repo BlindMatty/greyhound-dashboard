@@ -1,61 +1,61 @@
 {
   "dog": "AUSSIE GEM",
-  "date": "2026-05-15",
+  "date": "2026-06-12",
   "track": "MAN",
   "race": 7,
   "distance": 0,
-  "grade": "Open",
+  "grade": "Free For All",
   "steps": {
-    "history_length": 86,
+    "history_length": 90,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2766,
-      "ens_prob": 0.1358,
-      "fastai_prob": 0.0415,
-      "fastai_rank": 5,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1621,
+      "ens_prob": 0.1936,
+      "fastai_prob": 0.0982,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 3,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 398.36046511627904,
+      "avg_dist": 398.43333333333334,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Open vs Field"
+      "current_vs_historic_grade": "Free For All vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.7,
-      "fluctuation": -0.1782051282051178,
+      "last_weight": 27.6,
+      "fluctuation": -0.27317073170731376,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 86,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 1.4,
+      "total_starts": 90,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 2.6,
       "last_10_places": [
-        3.0,
-        1.0,
-        1.0,
-        6.0,
         2.0,
         1.0,
         1.0,
         3.0,
         1.0,
-        1.0
+        1.0,
+        3.0,
+        1.0,
+        2.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213572
+      "races_with_same_dogs": 215518
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.342337662337663
+      "avg_run_home": 16.34525
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.07091627634168958
+      "split_stdev": 0.07152896200185828
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 107533.0
+      "career_prize": 113322.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.6792452830188678
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: MAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2948717948717949,
-      "place_rate": 0.782051282051282
+      "win_rate": 0.2926829268292683,
+      "place_rate": 0.7804878048780488
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "FABS GEM",
-      "total_offspring_runs_in_state": 6484,
-      "sire_win_rate": 0.15946946329426281
+      "total_offspring_runs_in_state": 6686,
+      "sire_win_rate": 0.1592880646126234
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 260,
-      "litter_wins": 61
+      "total_litter_runs": 264,
+      "litter_wins": 62
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 86
+      "total_starts": 90
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.3075426358887927
+      "ewma_places": 3.8942214147430496
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -194,12 +194,11 @@
       "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
@@ -207,8 +206,8 @@
         "High Career Win Rate (>25%)",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

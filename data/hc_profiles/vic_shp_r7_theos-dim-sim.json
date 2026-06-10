@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1047,
-      "ens_prob": 0.1484,
-      "fastai_prob": 0.0653,
-      "fastai_rank": 6,
+      "ml_prob": 0.1074,
+      "ens_prob": 0.1944,
+      "fastai_prob": 0.1026,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790043
+      "races_with_same_dogs": 790372
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "DROOPYS BUICK",
       "dam": "DIM SIM",
-      "total_offspring_runs_in_state": 2032,
-      "sire_win_rate": 0.08021653543307086
+      "total_offspring_runs_in_state": 2033,
+      "sire_win_rate": 0.08017707820954255
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 236,
+      "total_litter_runs": 237,
       "litter_wins": 25
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -6,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -200,7 +200,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.103)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
