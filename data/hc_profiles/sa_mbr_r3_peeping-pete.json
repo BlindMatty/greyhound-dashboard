@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2209,
-      "ens_prob": 0.2313,
-      "fastai_prob": 0.0941,
+      "ml_prob": 0.2428,
+      "ens_prob": 0.2575,
+      "fastai_prob": 0.2102,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -57,7 +57,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 217230
+      "races_with_same_dogs": 217368
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -171,12 +171,11 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 3,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Inexperienced (< 3 starts)",
-        "Light/Frail Dog (<26kg) - Bump risk",
-        "FastAI Lukewarm (Rank 3, prob 0.094)"
+        "Light/Frail Dog (<26kg) - Bump risk"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",

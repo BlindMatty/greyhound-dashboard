@@ -1,19 +1,19 @@
 {
   "dog": "SPIN ME ROUND",
-  "date": "2026-05-29",
+  "date": "2026-06-12",
   "track": "WAN",
   "race": 10,
   "distance": 0,
-  "grade": "Class 3",
+  "grade": "Mixed Grade 1/2",
   "steps": {
-    "history_length": 37,
+    "history_length": 38,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3296,
-      "ens_prob": 0.1715,
-      "fastai_prob": 0.0605,
-      "fastai_rank": 6,
+      "ml_prob": 0.2385,
+      "ens_prob": 0.2396,
+      "fastai_prob": 0.0764,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,27 +26,26 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 389.2162162162162,
+      "avg_dist": 387.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 3 vs Field"
+      "current_vs_historic_grade": "Mixed Grade 1/2 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.8,
-      "fluctuation": -0.9366666666666603,
+      "last_weight": 25.4,
+      "fluctuation": -1.2935483870967666,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 37,
-      "last_3_avg_place": 2.6666666666666665,
+      "total_starts": 38,
+      "last_3_avg_place": 3.6666666666666665,
       "last_5_avg_place": 2.6,
       "last_10_places": [
-        6.0,
         5.0,
         5.0,
         6.0,
@@ -55,7 +54,8 @@
         1.0,
         1.0,
         1.0,
-        6.0
+        6.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 279734
+      "races_with_same_dogs": 281070
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 14
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 20800.0
+      "career_prize": 21200.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -375
+      "dist_diff_from_last": -305
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: WAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.16666666666666666,
-      "place_rate": 0.3333333333333333
+      "win_rate": 0.16129032258064516,
+      "place_rate": 0.3225806451612903
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "ALL ABOUT SPACE",
-      "total_offspring_runs_in_state": 2142,
-      "sire_win_rate": 0.19747899159663865
+      "total_offspring_runs_in_state": 2180,
+      "sire_win_rate": 0.1944954128440367
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 122,
+      "total_litter_runs": 126,
       "litter_wins": 24
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 37
+      "total_starts": 38
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.712217664078081
+      "ewma_places": 3.856108832106045
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,15 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Quick Backup (< 4 days)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.076)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -1,0 +1,219 @@
+{
+  "dog": "BAREFOOT ZULU",
+  "date": "2026-06-13",
+  "track": "MEA",
+  "race": 6,
+  "distance": 0,
+  "grade": "Mixed 4/5",
+  "steps": {
+    "history_length": 20,
+    "01_Shortlist": {
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.3947,
+      "ens_prob": 0.2273,
+      "fastai_prob": 0.159,
+      "fastai_rank": 3,
+      "is_three_way": false
+    },
+    "02_TDG_Medians": {
+      "status": "calculated",
+      "td_runs": 0
+    },
+    "03_Speed_Map": {
+      "own_box": 3,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
+    },
+    "04_Distance_Stamina": {
+      "avg_dist": 524.5,
+      "is_stepping_up": false,
+      "is_dropping_down": true
+    },
+    "05_Class_Analysis": {
+      "current_vs_historic_grade": "Mixed 4/5 vs Field"
+    },
+    "06_Geometry_Weight": {
+      "last_weight": 30.6,
+      "fluctuation": -0.04736842105262795,
+      "major_fluctuation": false
+    },
+    "07_Race_Pace": {
+      "field_size": 7
+    },
+    "08_Form_Trajectory": {
+      "total_starts": 20,
+      "last_3_avg_place": 1.6666666666666667,
+      "last_5_avg_place": 2.2,
+      "last_10_places": [
+        1.0,
+        2.0,
+        1.0,
+        5.0,
+        6.0,
+        1.0,
+        5.0,
+        2.0,
+        1.0,
+        2.0
+      ]
+    },
+    "09_Pattern_Recognition": {
+      "consecutive_wins": false
+    },
+    "10_Forgive_Runs": {
+      "abnormal_runs": 0
+    },
+    "11_Surface_Bias": {
+      "track_type": "Sand/Loam assumed"
+    },
+    "12_Head_To_Head": {
+      "races_with_same_dogs": 790801
+    },
+    "13_Track_Topography": {
+      "distance_to_first_turn": "Map inferred"
+    },
+    "14_Biological_Sex_Flags": {
+      "is_bitch": false
+    },
+    "15_Run_Home": {
+      "avg_run_home": 22.50785
+    },
+    "16_Field_Changes": {
+      "scratchings_in_race": 0
+    },
+    "17_Speed_Variance": {
+      "split_stdev": 2.1132603433016546
+    },
+    "18_Pedigree": {
+      "bloodline_check": true
+    },
+    "19_Lure_Mechanics": {
+      "lure_type": "Bramich baseline"
+    },
+    "20_Kennel_Form": {
+      "trainer": "DAVID GEALL"
+    },
+    "21_Size_Bumping": {
+      "is_heavy": false,
+      "is_light": false
+    },
+    "22_Quick_Backup": {
+      "days_since_last_run": 7
+    },
+    "23_Live_Track_Bias": {
+      "inside_bias_assumed": true
+    },
+    "24_Group_Feature_Races": {
+      "has_group_experience": true
+    },
+    "25_Public_Trials": {
+      "trials_on_record": 0
+    },
+    "26_Earnings_Class": {
+      "career_prize": 119472.625
+    },
+    "27_Acceleration_Profile": {
+      "avg_1st_split_pos": 3.5555555555555554
+    },
+    "28_Distance_Switch": {
+      "dist_diff_from_last": -600
+    },
+    "29_Live_Weather": {
+      "status": "success",
+      "max_wind_kmh": 27.6,
+      "avg_temp_c": 13.7,
+      "total_precip_mm": 8.8,
+      "is_wet": true,
+      "is_hot": false
+    },
+    "30_Non_Chaser": {
+      "win_rate": 0.47058823529411764,
+      "place_rate": 0.7058823529411765
+    },
+    "31_Track_Archetypes": {
+      "track_specialist": true
+    },
+    "32_Trainer_Profile": {
+      "trainer_lookup": "DAVID GEALL"
+    },
+    "33_Sire_Dam_Profile": {
+      "sire": "SENNACHIE",
+      "dam": "KOORINGA MAIZIE",
+      "total_offspring_runs_in_state": 5049,
+      "sire_win_rate": 0.11249752426223014
+    },
+    "34_Sibling_Profile": {
+      "litter_size_racing": 1,
+      "total_litter_runs": 20,
+      "litter_wins": 8
+    },
+    "35_Injury_History": {
+      "long_spells_count": 2
+    },
+    "36_Track_Compaction": {
+      "time_of_day": "Standard"
+    },
+    "37_Aggressor_Map": {
+      "wide_runner": false
+    },
+    "38_Course_Distance": {
+      "cd_wins": 0
+    },
+    "39_NLP_Stewards": {
+      "status": "not_found",
+      "message": "Could not locate stewards div on page"
+    },
+    "40_Travel_Intent": {
+      "home_state": "VIC"
+    },
+    "41_Kennel_Mates": {
+      "mates_in_race": -1
+    },
+    "42_Vacant_Box": {
+      "has_adjacent_vacant": true
+    },
+    "43_Calendar_Intent": {
+      "is_heat": false
+    },
+    "44_Second_Up": {
+      "is_second_up": false
+    },
+    "45_Experience_Disparity": {
+      "total_starts": 20
+    },
+    "46_Trial_Dropoff": {
+      "trial_count": 0
+    },
+    "47_Time_Decay": {
+      "ewma_places": 1.9866408282533894
+    },
+    "48_Track_Renovations": {
+      "renovation_check": true
+    },
+    "49_Weight_Math": {
+      "weight_penalty_if_wet": false
+    },
+    "50_Final_Probability": {
+      "final_score": 7,
+      "decision": "LAY / FADE - SEVERE RISK",
+      "red_flags": [
+        "Dropping distance (Speed shock risk)",
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)",
+        "Injury Prone (Multiple 60+ day spells)"
+      ],
+      "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
+        "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
+        "Group/Feature Race Caliber",
+        "High Earnings Class / Classy Animal",
+        "High Career Win Rate (>25%)",
+        "Proven Track Specialist Profile",
+        "Adjacent Vacant Box (Clean Air potential)"
+      ]
+    }
+  }
+}

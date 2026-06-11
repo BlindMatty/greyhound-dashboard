@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2263,
-      "ens_prob": 0.1536,
-      "fastai_prob": 0.0722,
-      "fastai_rank": 6,
+      "ml_prob": 0.1886,
+      "ens_prob": 0.1652,
+      "fastai_prob": 0.0643,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215518
+      "races_with_same_dogs": 215619
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "ASTON DOTTY",
-      "total_offspring_runs_in_state": 1272,
-      "sire_win_rate": 0.12342767295597484
+      "total_offspring_runs_in_state": 1273,
+      "sire_win_rate": 0.12333071484681854
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 374,
+      "total_litter_runs": 375,
       "litter_wins": 51
     },
     "35_Injury_History": {
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.064)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

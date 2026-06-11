@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2326,
-      "ens_prob": 0.2141,
-      "fastai_prob": 0.1187,
-      "fastai_rank": 2,
+      "ml_prob": 0.2563,
+      "ens_prob": 0.1426,
+      "fastai_prob": 0.0849,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790372
+      "races_with_same_dogs": 790801
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 18.072103260869568
+      "avg_run_home": 18.072103260869564
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.0,
-      "avg_temp_c": 11.8,
+      "max_wind_kmh": 9.5,
+      "avg_temp_c": 11.7,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "TWO PHONES",
-      "total_offspring_runs_in_state": 13782,
-      "sire_win_rate": 0.1271948918879698
+      "total_offspring_runs_in_state": 13798,
+      "sire_win_rate": 0.12726482098854908
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -195,13 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.119)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1825,
-      "ens_prob": 0.3395,
-      "fastai_prob": 0.6237,
+      "ml_prob": 0.2019,
+      "ens_prob": 0.2898,
+      "fastai_prob": 0.5114,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 6,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 350.0,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 1,
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790372
+      "races_with_same_dogs": 790801
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.0,
-      "avg_temp_c": 11.8,
+      "max_wind_kmh": 9.5,
+      "avg_temp_c": 11.7,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON KIMETTO",
       "dam": "WHISTLING BULLET",
-      "total_offspring_runs_in_state": 7036,
-      "sire_win_rate": 0.12251279135872654
+      "total_offspring_runs_in_state": 7048,
+      "sire_win_rate": 0.12230419977298525
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -162,7 +162,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -186,10 +186,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
@@ -198,8 +197,9 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Heavy Dog (+34kg) - Resistance in packs",
+        "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.624)"
+        "FastAI Strong Conviction (Rank 1, prob 0.511)"
       ]
     }
   }

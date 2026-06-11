@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.5278,
-      "ens_prob": 0.2148,
-      "fastai_prob": 0.4903,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.4605,
+      "ens_prob": 0.1726,
+      "fastai_prob": 0.2075,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 790372
+      "races_with_same_dogs": 790801
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,9 +113,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 14.6,
-      "avg_temp_c": 12.2,
-      "total_precip_mm": 2.0,
+      "max_wind_kmh": 13.0,
+      "avg_temp_c": 12.3,
+      "total_precip_mm": 0.1,
       "is_wet": false,
       "is_hot": false
     },
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SUBMISSION",
-      "total_offspring_runs_in_state": 39398,
-      "sire_win_rate": 0.1483324026600335
+      "total_offspring_runs_in_state": 39450,
+      "sire_win_rate": 0.1482636248415716
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,9 +199,7 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.490)"
+        "Proven Track Specialist Profile"
       ]
     }
   }

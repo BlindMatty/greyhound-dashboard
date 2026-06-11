@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1079,
-      "ens_prob": 0.1754,
-      "fastai_prob": 0.1309,
-      "fastai_rank": 3,
+      "ml_prob": 0.1337,
+      "ens_prob": 0.2135,
+      "fastai_prob": 0.1677,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 407917
+      "races_with_same_dogs": 408116
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "SEQUANA",
-      "total_offspring_runs_in_state": 8066,
-      "sire_win_rate": 0.10711629060252914
+      "total_offspring_runs_in_state": 8078,
+      "sire_win_rate": 0.10732854666996781
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 11,
-      "total_litter_runs": 172,
+      "total_litter_runs": 173,
       "litter_wins": 35
     },
     "35_Injury_History": {
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.131)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
