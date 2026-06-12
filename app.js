@@ -6,11 +6,16 @@ const STATE_NAMES = {
   vic:'Victoria', nsw:'New South Wales', qld:'Queensland', wa:'Western Australia',
   sa:'South Australia', tas:'Tasmania', nz:'New Zealand', nt:'Northern Territory'
 };
-const GREAT_POT_TRACKS = new Set(['CAN', 'GAW', 'CCH']);
+const GREAT_POT_TRACKS = new Set(['QTT', 'GAW', 'CAN', 'BHL', 'WAN', 'MBS']);
 const TRACK_CODE_ALIASES = {
+  'Q2 PARKLANDS': 'QTT',
   CANNINGTON: 'CAN',
   GAWLER: 'GAW',
-  ADDINGTON: 'CCH'
+  BULLI: 'BHL',
+  WANGANUI: 'WAN',
+  HATRICK: 'WAN',
+  'MURRAY BRIDGE STRAIGHT': 'MBS',
+  'MURRAY BRIDGE': 'MBS'
 };
 
 // ── State ───────────────────────────────────────────
