@@ -176,6 +176,11 @@ function getMlTsSourceLabel(pick) {
   return 'Day Before';
 }
 
+function getRaceCardClass(race) {
+  if (race && race.topPickChangedFromDayBefore) return ' race-card-changed';
+  return '';
+}
+
 function normalizeTrackCode(track) {
   const raw = String(track || '').trim().toUpperCase();
   return TRACK_CODE_ALIASES[raw] || raw;
@@ -422,6 +427,7 @@ function renderRaces(data) {
     const fastaiTop = dogs.reduce((best, d) => (!best || (d.fastai_prob || 0) > (best.fastai_prob || 0)) ? d : best, null);
     const eloTop = dogs.reduce((best, d) => (!best || (d.elo_prob || 0) > (best.elo_prob || 0)) ? d : best, null);
     const topDog = ensTop || mlTop;
+    const raceCardClass = getRaceCardClass(race);
     const greatPotClass = isGreatPotTrack(race.track) ? ' great-pot-card' : '';
 
     // Tag each dog with which models pick it as #1
@@ -429,7 +435,7 @@ function renderRaces(data) {
       const totalProb = race.dogs.reduce((s, d) => s + (d.probability || 0), 0) * 100;
 
     return `
-      <div class="race-card${greatPotClass}">
+      <div class="race-card${raceCardClass}${greatPotClass}">
         <div class="race-header" onclick="toggleRace(this)">
           <div>
             <span class="race-title">${esc(race.track)} R${race.raceNumber}</span>
