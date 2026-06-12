@@ -11,8 +11,8 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.1697,
-      "ens_prob": 0.2931,
-      "fastai_prob": 0.0649,
+      "ens_prob": 0.2411,
+      "fastai_prob": 0.0186,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.065)"
+        "FastAI Lukewarm (Rank 2, prob 0.019)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",

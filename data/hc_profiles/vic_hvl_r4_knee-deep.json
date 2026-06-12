@@ -1,19 +1,19 @@
 {
   "dog": "KNEE DEEP",
-  "date": "2026-05-31",
+  "date": "2026-06-14",
   "track": "HVL",
   "race": 4,
   "distance": 0,
   "grade": "Free For All",
   "steps": {
-    "history_length": 47,
+    "history_length": 48,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3137,
-      "ens_prob": 0.1565,
-      "fastai_prob": 0.1633,
-      "fastai_rank": 3,
+      "ml_prob": 0.3215,
+      "ens_prob": 0.2469,
+      "fastai_prob": 0.3339,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 320.8510638297872,
+      "avg_dist": 320.4166666666667,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Free For All vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 38.9,
-      "fluctuation": -0.2044444444444551,
+      "last_weight": 38.6,
+      "fluctuation": -0.4934782608695656,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 47,
-      "last_3_avg_place": 4.0,
+      "total_starts": 48,
+      "last_3_avg_place": 3.0,
       "last_5_avg_place": 3.4,
       "last_10_places": [
-        2.0,
         4.0,
         5.0,
         1.0,
@@ -55,7 +54,8 @@
         3.0,
         5.0,
         1.0,
-        6.0
+        6.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 786876
+      "races_with_same_dogs": 791261
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.796774390243902
+      "avg_run_home": 12.792625000000001
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.729281221871157
+      "split_stdev": 1.716726888182913
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3488372093023256,
-      "place_rate": 0.6976744186046512
+      "win_rate": 0.3409090909090909,
+      "place_rate": 0.7045454545454546
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "MAGICAL MIA",
-      "total_offspring_runs_in_state": 9741,
-      "sire_win_rate": 0.14711015296170823
+      "total_offspring_runs_in_state": 9934,
+      "sire_win_rate": 0.1471713307831689
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 142,
+      "total_litter_runs": 143,
       "litter_wins": 45
     },
     "35_Injury_History": {
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 47
+      "total_starts": 48
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.210779465090037
+      "ewma_places": 3.1053897325449555
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,10 +191,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)"
@@ -206,7 +205,9 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Wide Runner drawn Outside (Perfect Map)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

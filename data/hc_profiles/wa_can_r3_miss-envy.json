@@ -9,12 +9,12 @@
     "history_length": 44,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.2254,
-      "ens_prob": 0.184,
-      "fastai_prob": 0.0781,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "ens_prob": 0.4174,
+      "fastai_prob": 0.1979,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,15 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 2, prob 0.078)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -212,7 +211,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
