@@ -1,63 +1,65 @@
 {
   "dog": "DARK CINNAMON",
-  "date": "2026-05-04",
+  "date": "2026-06-15",
   "track": "NOW",
   "race": 5,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Mixed 3/4",
   "steps": {
-    "history_length": 10,
+    "history_length": 15,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3299,
-      "ens_prob": 0.2085,
-      "fastai_prob": 0.5934,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.4746,
+      "ens_prob": 0.3196,
+      "fastai_prob": 0.4478,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
+      "own_box": 2,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 346.5,
+      "avg_dist": 352.6666666666667,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Mixed 3/4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.2,
-      "fluctuation": 0.1374999999999993,
+      "last_weight": 25.3,
+      "fluctuation": 0.03846153846153655,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 10,
-      "last_3_avg_place": 2.6666666666666665,
-      "last_5_avg_place": 2.6,
+      "total_starts": 15,
+      "last_3_avg_place": 1.0,
+      "last_5_avg_place": 1.0,
       "last_10_places": [
-        4.0,
-        8.0,
-        6.0,
         1.0,
         4.0,
         6.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
         1.0,
         1.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": false
+      "consecutive_wins": true
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -66,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 703603
+      "races_with_same_dogs": 715108
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -75,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.324285714285713
+      "avg_run_home": 13.376666666666667
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 3.277355931961298
+      "split_stdev": 2.716526302378674
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -97,10 +99,10 @@
       "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 18
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -109,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 4325.0
+      "career_prize": 12725.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 5.0
@@ -122,8 +124,8 @@
       "message": "Coordinates not mapped for track: NOW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.375,
-      "place_rate": 0.375
+      "win_rate": 0.6153846153846154,
+      "place_rate": 0.6153846153846154
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -134,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "CINNAMON SCROLLS",
-      "total_offspring_runs_in_state": 11235,
-      "sire_win_rate": 0.16003560302625724
+      "total_offspring_runs_in_state": 12028,
+      "sire_win_rate": 0.15804788826072497
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 27,
-      "litter_wins": 6
+      "total_litter_runs": 34,
+      "litter_wins": 11
     },
     "35_Injury_History": {
       "long_spells_count": 2
@@ -165,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -174,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 10
+      "total_starts": 15
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.9607843137254901
+      "ewma_places": 1.0299108777926993
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -189,23 +191,30 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
+        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "Wide Runner drawn Outside (Perfect Map)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.448)"
       ]
     }
   }

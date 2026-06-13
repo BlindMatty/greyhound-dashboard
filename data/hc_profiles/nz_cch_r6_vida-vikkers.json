@@ -1,52 +1,51 @@
 {
   "dog": "VIDA VIKKERS",
-  "date": "2026-06-08",
+  "date": "2026-06-15",
   "track": "CCH",
   "race": 6,
   "distance": 0,
-  "grade": "Class 1",
+  "grade": "Class 1 heats",
   "steps": {
-    "history_length": 18,
+    "history_length": 19,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2898,
-      "ens_prob": 0.1851,
-      "fastai_prob": 0.1147,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1366,
+      "ens_prob": 0.1572,
+      "fastai_prob": 0.1259,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 300.27777777777777,
+      "avg_dist": 300.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 1 vs Field"
+      "current_vs_historic_grade": "Class 1 heats vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 26.0,
-      "fluctuation": 0.0,
+      "last_weight": 25.6,
+      "fluctuation": -0.37894736842105203,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 18,
+      "total_starts": 19,
       "last_3_avg_place": 4.0,
       "last_5_avg_place": 4.4,
       "last_10_places": [
-        4.0,
         6.0,
         1.0,
         3.0,
@@ -55,7 +54,8 @@
         6.0,
         4.0,
         5.0,
-        3.0
+        3.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 280672
+      "races_with_same_dogs": 281300
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -96,13 +96,13 @@
     },
     "21_Size_Bumping": {
       "is_heavy": false,
-      "is_light": false
+      "is_light": true
     },
     "22_Quick_Backup": {
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 9550.0
+      "career_prize": 9900.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.16666666666666666,
-      "place_rate": 0.4444444444444444
+      "win_rate": 0.15789473684210525,
+      "place_rate": 0.42105263157894735
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "DYNA VIKKERS",
       "dam": "DALISHA BALE",
-      "total_offspring_runs_in_state": 2504,
-      "sire_win_rate": 0.06669329073482429
+      "total_offspring_runs_in_state": 2509,
+      "sire_win_rate": 0.06656038262255878
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 92,
+      "total_litter_runs": 97,
       "litter_wins": 9
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 18
+      "total_starts": 19
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.810771220288163
+      "ewma_places": 3.905385790607053
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,18 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Poor Sire Line (<8% state win rate)"
+        "Poor Sire Line (<8% state win rate)",
+        "FastAI Lukewarm (Rank 3, prob 0.126)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Benefiting from inside track bias"
       ]
     }
   }

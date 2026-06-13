@@ -1,32 +1,32 @@
 {
   "dog": "BLAZING BLUE ICE",
-  "date": "2026-06-01",
+  "date": "2026-06-15",
   "track": "WBL",
   "race": 8,
   "distance": 0,
   "grade": "Bottom Up - Grade 5",
   "steps": {
-    "history_length": 4,
+    "history_length": 7,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1518,
-      "ens_prob": 0.2281,
-      "fastai_prob": 0.2772,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1846,
+      "ens_prob": 0.1669,
+      "fastai_prob": 0.0964,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 2,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 420.0,
+      "avg_dist": 443.57142857142856,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,20 +34,22 @@
       "current_vs_historic_grade": "Bottom Up - Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.4,
-      "fluctuation": -0.06666666666666998,
+      "last_weight": 29.0,
+      "fluctuation": 0.3999999999999986,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 4,
-      "last_3_avg_place": null,
+      "total_starts": 7,
+      "last_3_avg_place": 3.6666666666666665,
       "last_5_avg_place": null,
       "last_10_places": [
         7.0,
-        3.0
+        3.0,
+        7.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 787064
+      "races_with_same_dogs": 791463
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +71,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 18.895000000000003
+      "avg_run_home": 19.092416666666665
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": NaN
+      "split_stdev": 0.0789526493116814
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -91,7 +93,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 5
+      "days_since_last_run": 2
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -103,20 +105,20 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 5445.0
+      "career_prize": 6745.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -450
+      "dist_diff_from_last": -525
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: WBL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.0,
+      "win_rate": 0.25,
       "place_rate": 0.5
     },
     "31_Track_Archetypes": {
@@ -128,13 +130,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "BANG BANG BYE",
-      "total_offspring_runs_in_state": 24489,
-      "sire_win_rate": 0.12960921229939973
+      "total_offspring_runs_in_state": 24727,
+      "sire_win_rate": 0.1297771666599264
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 4,
-      "litter_wins": 0
+      "total_litter_runs": 7,
+      "litter_wins": 1
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -168,13 +170,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 4
+      "total_starts": 7
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.333333333333333
+      "ewma_places": 3.2666666666666666
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,19 +185,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.277)"
+        "Benefiting from inside track bias"
       ]
     }
   }

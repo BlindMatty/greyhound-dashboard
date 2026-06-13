@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.162,
-      "ens_prob": 0.1928,
-      "fastai_prob": 0.2249,
+      "ml_prob": 0.1925,
+      "ens_prob": 0.2036,
+      "fastai_prob": 0.1647,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 714597
+      "races_with_same_dogs": 715108
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,10 +113,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.1,
-      "avg_temp_c": 14.7,
-      "total_precip_mm": 1.2,
-      "is_wet": false,
+      "max_wind_kmh": 8.3,
+      "avg_temp_c": 14.3,
+      "total_precip_mm": 7.0,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "FEDERAL LILLY",
-      "total_offspring_runs_in_state": 9895,
-      "sire_win_rate": 0.14845881758463872
+      "total_offspring_runs_in_state": 9935,
+      "sire_win_rate": 0.14846502264720685
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,

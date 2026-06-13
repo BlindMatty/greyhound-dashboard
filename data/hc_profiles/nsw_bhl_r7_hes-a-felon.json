@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3397,
-      "ens_prob": 0.3669,
-      "fastai_prob": 0.7281,
+      "ml_prob": 0.4239,
+      "ens_prob": 0.3762,
+      "fastai_prob": 0.7185,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 714597
+      "races_with_same_dogs": 715108
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY BRO FABIO",
       "dam": "BALLINAKILL LOLA",
-      "total_offspring_runs_in_state": 17780,
-      "sire_win_rate": 0.08627671541057368
+      "total_offspring_runs_in_state": 17781,
+      "sire_win_rate": 0.08627186322479051
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -206,7 +206,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.728)"
+        "FastAI Strong Conviction (Rank 1, prob 0.719)"
       ]
     }
   }

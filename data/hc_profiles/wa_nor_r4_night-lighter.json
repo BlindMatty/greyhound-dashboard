@@ -1,19 +1,19 @@
 {
   "dog": "NIGHT LIGHTER",
-  "date": "2026-05-25",
+  "date": "2026-06-15",
   "track": "NOR",
   "race": 4,
   "distance": 0,
   "grade": "Free For All",
   "steps": {
-    "history_length": 50,
+    "history_length": 52,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4794,
-      "ens_prob": 0.2187,
-      "fastai_prob": 0.0302,
-      "fastai_rank": 5,
+      "ml_prob": 0.5715,
+      "ens_prob": 0.3382,
+      "fastai_prob": 0.0573,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
+      "own_box": 6,
       "has_inside_pressure": false,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 301.22,
+      "avg_dist": 301.0576923076923,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,24 +34,24 @@
       "current_vs_historic_grade": "Free For All vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.2,
-      "fluctuation": 0.32599999999999696,
+      "last_weight": 29.4,
+      "fluctuation": 0.5115384615384606,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 5
     },
     "08_Form_Trajectory": {
-      "total_starts": 50,
+      "total_starts": 52,
       "last_3_avg_place": 1.0,
-      "last_5_avg_place": 2.4,
+      "last_5_avg_place": 1.0,
       "last_10_places": [
-        7.0,
-        1.0,
         1.0,
         1.0,
         1.0,
         8.0,
+        1.0,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214303
+      "races_with_same_dogs": 215705
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 93330.0
+      "career_prize": 96644.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.0
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: NOR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.7,
-      "place_rate": 0.84
+      "win_rate": 0.7115384615384616,
+      "place_rate": 0.8461538461538461
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "JAYDA ROSE",
-      "total_offspring_runs_in_state": 6405,
-      "sire_win_rate": 0.15956284153005465
+      "total_offspring_runs_in_state": 6547,
+      "sire_win_rate": 0.15869864059874753
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 50,
-      "litter_wins": 35
+      "total_litter_runs": 52,
+      "litter_wins": 37
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 50
+      "total_starts": 52
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.2264407951158776
+      "ewma_places": 1.0566101987789693
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,15 +191,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 15,
+      "final_score": 18,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.057)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
+        "Positive Weight Gain (Strength build)",
         "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
         "Flying (3+ consecutive wins)",
@@ -212,7 +213,8 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

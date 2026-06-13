@@ -9,12 +9,12 @@
     "history_length": 42,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1998,
-      "ens_prob": 0.2451,
-      "fastai_prob": 0.5272,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2328,
+      "ens_prob": 0.1808,
+      "fastai_prob": 0.2281,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 714597
+      "races_with_same_dogs": 715108
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.1,
-      "avg_temp_c": 14.7,
-      "total_precip_mm": 1.2,
-      "is_wet": false,
+      "max_wind_kmh": 8.3,
+      "avg_temp_c": 14.3,
+      "total_precip_mm": 7.0,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "NICMAC PADDYWACK",
-      "total_offspring_runs_in_state": 102239,
-      "sire_win_rate": 0.13658193057443832
+      "total_offspring_runs_in_state": 102282,
+      "sire_win_rate": 0.13655384134060733
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -207,9 +207,7 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.527)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
