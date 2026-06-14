@@ -1,19 +1,19 @@
 {
   "dog": "BATTLE SPEED",
-  "date": "2026-05-26",
+  "date": "2026-06-16",
   "track": "BUL",
   "race": 10,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 4,
+    "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2031,
-      "ens_prob": 0.205,
-      "fastai_prob": 0.3802,
-      "fastai_rank": 2,
+      "ml_prob": 0.2541,
+      "ens_prob": 0.1561,
+      "fastai_prob": 0.5005,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,7 +26,7 @@
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 332.0,
+      "avg_dist": 333.6,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,21 +34,22 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 31.3,
-      "fluctuation": -0.36666666666666714,
+      "last_weight": 31.2,
+      "fluctuation": -0.3500000000000014,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 4,
+      "total_starts": 5,
       "last_3_avg_place": 2.3333333333333335,
       "last_5_avg_place": null,
       "last_10_places": [
         1.0,
         3.0,
-        3.0
+        3.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -61,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709431
+      "races_with_same_dogs": 715365
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -70,13 +71,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.46
+      "avg_run_home": 14.320000000000002
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.5526554800834367
+      "split_stdev": 2.0900318976832226
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,7 +93,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 21
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -104,7 +105,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 1850.0
+      "career_prize": 3350.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -117,7 +118,7 @@
       "message": "Coordinates not mapped for track: BUL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3333333333333333,
+      "win_rate": 0.5,
       "place_rate": 1.0
     },
     "31_Track_Archetypes": {
@@ -129,13 +130,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "ANGELIC SHADOW",
-      "total_offspring_runs_in_state": 9279,
-      "sire_win_rate": 0.14624420734992996
+      "total_offspring_runs_in_state": 9741,
+      "sire_win_rate": 0.14639154090955753
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 6,
-      "litter_wins": 1
+      "total_litter_runs": 8,
+      "litter_wins": 2
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -169,13 +170,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 4
+      "total_starts": 5
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.7142857142857144
+      "ewma_places": 1.8
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -184,12 +185,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

@@ -1,19 +1,19 @@
 {
   "dog": "RAVEN ZAYLEE",
-  "date": "2026-05-12",
+  "date": "2026-06-16",
   "track": "APK",
   "race": 3,
   "distance": 0,
-  "grade": "Restricted Win Final",
+  "grade": "Restricted Win",
   "steps": {
-    "history_length": 5,
+    "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2669,
-      "ens_prob": 0.1616,
-      "fastai_prob": 0.1587,
-      "fastai_rank": 5,
+      "ml_prob": 0.1955,
+      "ens_prob": 0.1508,
+      "fastai_prob": 0.1169,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,36 +21,39 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 5,
       "has_inside_pressure": true,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 417.2,
+      "avg_dist": 383.75,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Restricted Win Final vs Field"
+      "current_vs_historic_grade": "Restricted Win vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.3,
-      "fluctuation": 0.37999999999999545,
+      "last_weight": 26.8,
+      "fluctuation": -0.07499999999999929,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 5,
-      "last_3_avg_place": 2.6666666666666665,
-      "last_5_avg_place": 3.6,
+      "total_starts": 8,
+      "last_3_avg_place": 3.6666666666666665,
+      "last_5_avg_place": 3.2,
       "last_10_places": [
         4.0,
         6.0,
         3.0,
         4.0,
-        1.0
+        1.0,
+        2.0,
+        4.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -63,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214960
+      "races_with_same_dogs": 217564
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -72,13 +75,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 18.4
+      "avg_run_home": 17.033749999999998
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 3.4127379037951333
+      "split_stdev": 2.7369948979544287
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -94,10 +97,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 21
+      "days_since_last_run": 27
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -106,21 +109,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 8975.0
+      "career_prize": 9160.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -342
+      "dist_diff_from_last": -300
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: APK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2,
-      "place_rate": 0.4
+      "win_rate": 0.125,
+      "place_rate": 0.375
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -131,12 +134,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BALLYMAC ANTON",
       "dam": "MY BLACK RAVEN",
-      "total_offspring_runs_in_state": 72,
-      "sire_win_rate": 0.16666666666666666
+      "total_offspring_runs_in_state": 75,
+      "sire_win_rate": 0.16
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 5,
+      "total_litter_runs": 8,
       "litter_wins": 1
     },
     "35_Injury_History": {
@@ -171,13 +174,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 5
+      "total_starts": 8
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.4516129032258065
+      "ewma_places": 4.0627450980392155
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -186,17 +189,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)"
       ]

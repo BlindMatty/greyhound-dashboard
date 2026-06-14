@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3319,
-      "ens_prob": 0.2156,
-      "fastai_prob": 0.1871,
-      "fastai_rank": 2,
+      "ml_prob": 0.3581,
+      "ens_prob": 0.1778,
+      "fastai_prob": 0.1031,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 791463
+      "races_with_same_dogs": 791655
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -119,8 +119,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 17.8,
-      "avg_temp_c": 10.9,
+      "max_wind_kmh": 16.8,
+      "avg_temp_c": 10.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -138,8 +138,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "HALLOWEEN",
-      "total_offspring_runs_in_state": 39131,
-      "sire_win_rate": 0.14747898085916536
+      "total_offspring_runs_in_state": 39151,
+      "sire_win_rate": 0.14742918443973335
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -193,12 +193,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
