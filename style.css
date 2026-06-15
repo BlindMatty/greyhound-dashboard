@@ -177,6 +177,7 @@ main {
 #hc50Section { margin-bottom: 28px; margin-top: 12px; }
 #hc50Section h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 18px; }
 .section-title-fa40 { color: var(--lime); }
+.section-title-green { color: var(--green); }
 .picks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -225,6 +226,9 @@ main {
 }
 .hc-card-fa40 .hc-odds { color: var(--lime); }
 .accent-fa40 { color: var(--lime); font-weight: 700; }
+.great-pot-card {
+  box-shadow: 0 0 0 1px rgba(52, 211, 153, 0.45), var(--shadow);
+}
 
 /* ── State Tabs ──────────────────────────────── */
 .state-tabs {
@@ -362,6 +366,9 @@ main {
 .badge-elo { background: #8b5cf6; color: #fff; }
 .badge-fast-ens { background: #10b981; color: #fff; }
 .badge-elo-ens { background: #ec4899; color: #fff; }
+.badge-green-dot { background: var(--green); color: #062013; }
+.badge-bet { background: var(--lime); color: #203100; }
+.badge-green-bet { background: linear-gradient(135deg, var(--green), var(--lime)); color: #062013; }
 .badge-5way { background: #f97316; color: #fff; }
 .badge-fa40 { background: var(--lime); color: #152006; }
 

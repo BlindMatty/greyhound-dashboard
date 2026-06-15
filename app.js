@@ -190,12 +190,31 @@ function isGreatPotTrack(track) {
   return GREAT_POT_TRACKS.has(normalizeTrackCode(track));
 }
 
+function isGreenDotPick(pick) {
+  if (pick && typeof pick.isGreenDotTrack === 'boolean') {
+    return pick.isGreenDotTrack;
+  }
+  return isGreatPotTrack(pick?.track);
+}
+
+function getShortlistMode(pick) {
+  return String(pick?.shortlistResolvedMode || '').trim().toLowerCase();
+}
+
+function hasBetBadge(pick) {
+  return getShortlistMode(pick) === 'bet';
+}
+
+function hasBetIfEloBadge(pick) {
+  return getShortlistMode(pick) === 'bet_if_elo';
+}
+
 // ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
-  const tsHC = [];
-  const tsFa40HC = [];
-  const ts45HC = [];
-  const ts50HC = [];
+  const tsEloHC = [];
+  const tsGreenHC = [];
+  const tsBetHC = [];
+  const tsGreenBetHC = [];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
     try {
@@ -204,15 +223,17 @@ async function loadHighConfidencePicks(states) {
       for (const p of (data.highConfidencePicks || [])) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
         if (p.isMlSpecialist) {
-          tsHC.push(enhancedP);
-          if (p.isMlTsFaSrAlign) {
-            tsFa40HC.push(enhancedP);
+          if (p.isEloEns) {
+            tsEloHC.push(enhancedP);
           }
-          if (qualifiesMlTsTier(enhancedP, 45, 10)) {
-            ts45HC.push(enhancedP);
+          if (isGreenDotPick(enhancedP)) {
+            tsGreenHC.push(enhancedP);
           }
-          if (qualifiesMlTsTier(enhancedP, 50, 10)) {
-            ts50HC.push(enhancedP);
+          if (hasBetBadge(p)) {
+            tsBetHC.push(enhancedP);
+          }
+          if (isGreenDotPick(enhancedP) && hasBetBadge(p)) {
+            tsGreenBetHC.push(enhancedP);
           }
         }
       }
@@ -227,15 +248,15 @@ async function loadHighConfidencePicks(states) {
     return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
   };
 
-  tsHC.sort(sorter);
-  tsFa40HC.sort(sorter);
-  ts45HC.sort(sorter);
-  ts50HC.sort(sorter);
+  tsEloHC.sort(sorter);
+  tsGreenHC.sort(sorter);
+  tsBetHC.sort(sorter);
+  tsGreenBetHC.sort(sorter);
 
-  renderPicksGrid(tsHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'top track specialists', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
-  renderPicksGrid(tsFa40HC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS + FA 40% aligned picks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'FA 40+', badgeClass: 'badge-fa40', cardClass: ' hc-card-fa40', showFaTrackComboSr: true});
-  renderPicksGrid(ts45HC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'top track specialists >45%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
-  renderPicksGrid(ts50HC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'top track specialists >50%, >=10 races', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
+  renderPicksGrid(tsEloHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'ML TS picks with ELO aligned', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
+  renderPicksGrid(tsGreenHC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS picks on green-dot tracks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN DOT', badgeClass: 'badge-green-dot'});
+  renderPicksGrid(tsBetHC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'ML TS picks with Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'BET', badgeClass: 'badge-bet'});
+  renderPicksGrid(tsGreenBetHC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'ML TS picks with green dot + Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN + BET', badgeClass: 'badge-green-bet'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
@@ -279,7 +300,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const sourceLabel = getMlTsSourceLabel(p);
     const cardClass = opts.useNormOdds ? getMlTsCardClass(p) : '';
     const extraCardClass = opts.cardClass || '';
-    const greatPotClass = isGreatPotTrack(p.track) ? ' great-pot-card' : '';
+    const greatPotClass = isGreenDotPick(p) ? ' great-pot-card' : '';
     const extraBadge = opts.badgeLabel ? ' <span class="badge ' + (opts.badgeClass || '') + '">' + esc(opts.badgeLabel) + '</span>' : '';
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
