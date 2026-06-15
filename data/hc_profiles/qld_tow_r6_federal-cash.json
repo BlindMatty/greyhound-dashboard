@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2367,
-      "ens_prob": 0.2055,
-      "fastai_prob": 0.1473,
-      "fastai_rank": 3,
+      "ml_prob": 0.2669,
+      "ens_prob": 0.2309,
+      "fastai_prob": 0.1387,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 408693
+      "races_with_same_dogs": 408829
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "COSMIC RUMBLE",
       "dam": "JILLIBY EMMIE",
-      "total_offspring_runs_in_state": 6319,
-      "sire_win_rate": 0.09289444532362716
+      "total_offspring_runs_in_state": 6320,
+      "sire_win_rate": 0.09287974683544303
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -198,7 +198,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 3, prob 0.147)"
+        "FastAI Lukewarm (Rank 2, prob 0.139)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

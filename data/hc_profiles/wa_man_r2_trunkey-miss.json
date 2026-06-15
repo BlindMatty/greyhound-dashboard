@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 1,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
-      "ml_prob": 0.1797,
-      "ens_prob": 0.2134,
-      "fastai_prob": null,
-      "fastai_rank": null,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.1537,
+      "ens_prob": 0.1372,
+      "fastai_prob": 0.0291,
+      "fastai_rank": 8,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215779
+      "races_with_same_dogs": 215856
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "RILEY'S MARIAH",
-      "total_offspring_runs_in_state": 3802,
-      "sire_win_rate": 0.14255654918463967
+      "total_offspring_runs_in_state": 3808,
+      "sire_win_rate": 0.14285714285714285
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -182,19 +182,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "2-Way Model Alignment"
+        "Proven Track Specialist Profile"
       ]
     }
   }

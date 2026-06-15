@@ -9,12 +9,12 @@
     "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2818,
-      "ens_prob": 0.2711,
-      "fastai_prob": 0.5854,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2716,
+      "ens_prob": 0.3412,
+      "fastai_prob": 0.5912,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715365
+      "races_with_same_dogs": 715489
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON FASTNET",
       "dam": "PAUA OF CHLOE",
-      "total_offspring_runs_in_state": 158,
-      "sire_win_rate": 0.13924050632911392
+      "total_offspring_runs_in_state": 159,
+      "sire_win_rate": 0.13836477987421383
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -182,7 +182,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 10,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -194,7 +194,9 @@
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.591)"
       ]
     }
   }

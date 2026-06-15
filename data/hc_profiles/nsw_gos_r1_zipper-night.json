@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1338,
-      "ens_prob": 0.2868,
-      "fastai_prob": 0.6035,
+      "ml_prob": 0.1355,
+      "ens_prob": 0.3275,
+      "fastai_prob": 0.5925,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715365
+      "races_with_same_dogs": 715489
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "TINY HANDS JOHNS",
-      "total_offspring_runs_in_state": 8337,
-      "sire_win_rate": 0.16948542641237854
+      "total_offspring_runs_in_state": 8345,
+      "sire_win_rate": 0.1695626123427202
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -200,7 +200,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.604)"
+        "FastAI Strong Conviction (Rank 1, prob 0.593)"
       ]
     }
   }

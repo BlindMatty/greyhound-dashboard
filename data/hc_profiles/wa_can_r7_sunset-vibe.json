@@ -1,19 +1,19 @@
 {
   "dog": "SUNSET VIBE",
-  "date": "2026-05-27",
+  "date": "2026-06-17",
   "track": "CAN",
   "race": 7,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Free For All",
   "steps": {
-    "history_length": 24,
+    "history_length": 27,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2212,
-      "ens_prob": 0.1419,
-      "fastai_prob": 0.0986,
-      "fastai_rank": 2,
+      "ml_prob": 0.4051,
+      "ens_prob": 0.2337,
+      "fastai_prob": 0.0421,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,36 +26,36 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 302.0833333333333,
+      "avg_dist": 299.0740740740741,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Free For All vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.6,
-      "fluctuation": -0.05000000000000071,
+      "last_weight": 27.5,
+      "fluctuation": -0.14800000000000324,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 24,
-      "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 6.0,
+      "total_starts": 27,
+      "last_3_avg_place": 2.0,
+      "last_5_avg_place": 3.6,
       "last_10_places": [
+        2.0,
+        2.0,
+        8.0,
+        8.0,
+        2.0,
+        5.0,
+        7.0,
         1.0,
-        3.0,
-        5.0,
-        2.0,
-        2.0,
-        8.0,
-        8.0,
-        2.0,
-        5.0,
-        7.0
+        1.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214466
+      "races_with_same_dogs": 215856
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 11.00952380952381
+      "avg_run_home": 10.986666666666666
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.3686177527182428
+      "split_stdev": 0.49535651778304574
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 11059.0
+      "career_prize": 14177.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.6
@@ -124,11 +124,11 @@
       "message": "Coordinates not mapped for track: CAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2727272727272727,
-      "place_rate": 0.6363636363636364
+      "win_rate": 0.32,
+      "place_rate": 0.64
     },
     "31_Track_Archetypes": {
-      "track_specialist": false
+      "track_specialist": true
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "David Hobby"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUNSET SPITFIRE",
       "dam": "RUBY MONELLI",
-      "total_offspring_runs_in_state": 2200,
-      "sire_win_rate": 0.16863636363636364
+      "total_offspring_runs_in_state": 2232,
+      "sire_win_rate": 0.1689068100358423
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 97,
-      "litter_wins": 25
+      "total_litter_runs": 107,
+      "litter_wins": 28
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 24
+      "total_starts": 27
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.827678400916672
+      "ewma_places": 3.1034597189265405
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,22 +191,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 2, prob 0.099)"
+        "FastAI Lukewarm (Rank 3, prob 0.042)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
+        "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)"
       ]

@@ -8,13 +8,13 @@
   "steps": {
     "history_length": 49,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
-      "ml_prob": 0.1532,
-      "ens_prob": 0.1687,
-      "fastai_prob": null,
-      "fastai_rank": null,
-      "is_three_way": false
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
+      "ml_prob": 0.1995,
+      "ens_prob": 0.193,
+      "fastai_prob": 0.0736,
+      "fastai_rank": 2,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215779
+      "races_with_same_dogs": 215856
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "STARLIGHT YOYO",
-      "total_offspring_runs_in_state": 4392,
-      "sire_win_rate": 0.1545992714025501
+      "total_offspring_runs_in_state": 4395,
+      "sire_win_rate": 0.15449374288964732
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,14 +191,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Lukewarm (Rank 2, prob 0.074)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -208,7 +209,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "Second-Up Bounce Profile (Pinnacle fitness)",
-        "2-Way Model Alignment"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

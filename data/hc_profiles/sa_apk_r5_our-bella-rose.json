@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2041,
-      "ens_prob": 0.2612,
-      "fastai_prob": 0.5193,
+      "ml_prob": 0.1965,
+      "ens_prob": 0.2826,
+      "fastai_prob": 0.3319,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 217564
+      "races_with_same_dogs": 217629
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "ANNIE ROSE",
-      "total_offspring_runs_in_state": 4523,
-      "sire_win_rate": 0.148352863143931
+      "total_offspring_runs_in_state": 4533,
+      "sire_win_rate": 0.1484667990293404
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -207,7 +207,7 @@
         "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.519)"
+        "FastAI Strong Conviction (Rank 1, prob 0.332)"
       ]
     }
   }

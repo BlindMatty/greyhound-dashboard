@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1041,
-      "ens_prob": 0.1117,
-      "fastai_prob": 0.0798,
-      "fastai_rank": 8,
+      "ml_prob": 0.1719,
+      "ens_prob": 0.1458,
+      "fastai_prob": 0.0855,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 408693
+      "races_with_same_dogs": 408829
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -83,7 +83,7 @@
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.9337724795089692
+      "split_stdev": 1.933772479508969
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "CAYENNE MODEL",
-      "total_offspring_runs_in_state": 55430,
-      "sire_win_rate": 0.13189608515244453
+      "total_offspring_runs_in_state": 55444,
+      "sire_win_rate": 0.1318988528966164
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

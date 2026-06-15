@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1116,
-      "ens_prob": 0.1434,
-      "fastai_prob": 0.1004,
-      "fastai_rank": 4,
+      "ml_prob": 0.1279,
+      "ens_prob": 0.2861,
+      "fastai_prob": 0.3915,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715365
+      "races_with_same_dogs": 715489
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "JUNGLE DEUCE",
       "dam": "STEAL THE GLORY",
-      "total_offspring_runs_in_state": 4009,
-      "sire_win_rate": 0.12322274881516587
+      "total_offspring_runs_in_state": 4011,
+      "sire_win_rate": 0.12316130640737971
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -182,13 +182,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -9,12 +9,12 @@
     "history_length": 40,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3433,
-      "ens_prob": 0.205,
-      "fastai_prob": 0.6027,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2571,
+      "ens_prob": 0.1779,
+      "fastai_prob": 0.3243,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715365
+      "races_with_same_dogs": 715489
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FLYING RICCIARDO",
       "dam": "CAWBOURNE BORA",
-      "total_offspring_runs_in_state": 12742,
-      "sire_win_rate": 0.12886517030293518
+      "total_offspring_runs_in_state": 12744,
+      "sire_win_rate": 0.12884494664155682
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -207,9 +207,7 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.603)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

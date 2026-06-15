@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.37,
-      "ens_prob": 0.2292,
-      "fastai_prob": 0.2223,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3726,
+      "ens_prob": 0.2511,
+      "fastai_prob": 0.2737,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 791655
+      "races_with_same_dogs": 792066
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,10 +113,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.8,
-      "avg_temp_c": 14.3,
-      "total_precip_mm": 1.0,
-      "is_wet": false,
+      "max_wind_kmh": 11.9,
+      "avg_temp_c": 14.6,
+      "total_precip_mm": 3.4,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "FUNKY GIRL",
-      "total_offspring_runs_in_state": 62711,
-      "sire_win_rate": 0.13098180542488558
+      "total_offspring_runs_in_state": 62713,
+      "sire_win_rate": 0.13097762824294804
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -200,7 +200,9 @@
         "Optimal Racing Cadence (6-10 days)",
         "Professional Box Dog (Elite start consistency)",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile"
+        "Proven Track Specialist Profile",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.274)"
       ]
     }
   }
