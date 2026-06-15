@@ -209,6 +209,19 @@ function hasBetIfEloBadge(pick) {
   return getShortlistMode(pick) === 'bet_if_elo';
 }
 
+function getShortlistBadgeHtml(pick) {
+  const mode = getShortlistMode(pick);
+  const tag = String(pick?.shortlistTag || '').trim();
+  if (!tag) return '';
+  if (mode === 'bet') {
+    return ' <span class="badge badge-bet">' + esc(tag) + '</span>';
+  }
+  if (mode === 'bet_if_elo') {
+    return ' <span class="badge badge-bet-if-elo">' + esc(tag) + '</span>';
+  }
+  return '';
+}
+
 // ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
   const tsEloHC = [];
@@ -255,8 +268,8 @@ async function loadHighConfidencePicks(states) {
 
   renderPicksGrid(tsEloHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'ML TS picks with ELO aligned', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
   renderPicksGrid(tsGreenHC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS picks on green-dot tracks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN DOT', badgeClass: 'badge-green-dot'});
-  renderPicksGrid(tsBetHC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'ML TS picks with Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'BET', badgeClass: 'badge-bet'});
-  renderPicksGrid(tsGreenBetHC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'ML TS picks with green dot + Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN + BET', badgeClass: 'badge-green-bet'});
+  renderPicksGrid(tsBetHC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'ML TS picks with Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
+  renderPicksGrid(tsGreenBetHC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'ML TS picks with green dot + Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN DOT', badgeClass: 'badge-green-dot'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
@@ -301,6 +314,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     const cardClass = opts.useNormOdds ? getMlTsCardClass(p) : '';
     const extraCardClass = opts.cardClass || '';
     const greatPotClass = isGreenDotPick(p) ? ' great-pot-card' : '';
+    const shortlistBadge = getShortlistBadgeHtml(p);
     const extraBadge = opts.badgeLabel ? ' <span class="badge ' + (opts.badgeClass || '') + '">' + esc(opts.badgeLabel) + '</span>' : '';
     const stateLabel = p.state ? String(p.state).toUpperCase() : esc(p.stateName || '');
     const safeDog = p.dog ? String(p.dog).toLowerCase().replace(/[^a-z0-9\s]/g, '').trim().replace(/\s+/g, '-') : 'unknown';
@@ -309,7 +323,7 @@ function renderPicksGrid(picks, gridId, sectionId, subtitleId, label, opts = {})
     
     <div class="hc-card${showNewAddition ? ' hc-card-new' : ''}${cardClass}${extraCardClass}${greatPotClass}" onclick="openHCModal('${slug}')" style="cursor:pointer" title="Click for Full 50-step Assessment">
       <div class="hc-left">
-        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${extraBadge}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
+        <span class="hc-dog">${esc(p.dog)} ${p.isFastEns ? '<span class="badge badge-fast-ens">FAST ENS</span>' : '<span class="badge badge-ml">ML</span>'}${shortlistBadge}${extraBadge}${p.isEloEns ? ' <span class="badge badge-elo-ens">ELO ENS</span>' : ''}</span>
         <span class="hc-meta">
           Box ${p.box} · ${esc(p.track)} R${p.raceNumber} · ${esc(p.raceStartTime || '')}
           · ${esc(stateLabel)} · ${esc(sourceLabel)}
