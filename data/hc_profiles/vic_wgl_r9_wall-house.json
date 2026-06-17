@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1478,
-      "ens_prob": 0.2661,
-      "fastai_prob": 0.2909,
+      "ml_prob": 0.1251,
+      "ens_prob": 0.2569,
+      "fastai_prob": 0.3248,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 792361
+      "races_with_same_dogs": 792769
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 23.0,
-      "avg_temp_c": 15.6,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 26.6,
+      "avg_temp_c": 14.7,
+      "total_precip_mm": 1.2,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "SWEET IMPALA",
-      "total_offspring_runs_in_state": 4921,
-      "sire_win_rate": 0.1326966063808169
+      "total_offspring_runs_in_state": 4935,
+      "sire_win_rate": 0.1325227963525836
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,

@@ -1,52 +1,51 @@
 {
   "dog": "CAWBOURNE LADY",
-  "date": "2026-05-22",
+  "date": "2026-06-19",
   "track": "WAG",
   "race": 2,
   "distance": 0,
-  "grade": "Mixed Maiden and Grade Five",
+  "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 19,
+    "history_length": 20,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.4205,
-      "ens_prob": 0.2526,
-      "fastai_prob": 0.7001,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2609,
+      "ens_prob": 0.2185,
+      "fastai_prob": 0.5712,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "own_box": 8,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 393.42105263157896,
+      "avg_dist": 400.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed Maiden and Grade Five vs Field"
+      "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.7,
-      "fluctuation": -0.33750000000000213,
+      "last_weight": 27.5,
+      "fluctuation": -0.5058823529411782,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 19,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 2.4,
+      "total_starts": 20,
+      "last_3_avg_place": 1.3333333333333333,
+      "last_5_avg_place": 2.2,
       "last_10_places": [
-        5.0,
         5.0,
         5.0,
         3.0,
@@ -55,7 +54,8 @@
         5.0,
         2.0,
         1.0,
-        2.0
+        2.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 708524
+      "races_with_same_dogs": 715983
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 25.080000000000002
+      "avg_run_home": 25.015
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.07496665925596523
+      "split_stdev": 0.06920982589199308
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 28
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 7580.0
+      "career_prize": 9580.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: WAG"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.1875,
-      "place_rate": 0.5625
+      "win_rate": 0.23529411764705882,
+      "place_rate": 0.5882352941176471
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "CAWBOURNE HELM",
-      "total_offspring_runs_in_state": 11622,
-      "sire_win_rate": 0.15961108242987437
+      "total_offspring_runs_in_state": 12125,
+      "sire_win_rate": 0.15760824742268043
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 30,
-      "litter_wins": 10
+      "total_litter_runs": 34,
+      "litter_wins": 11
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 19
+      "total_starts": 20
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.9519035629816128
+      "ewma_places": 1.4759481502391834
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 5,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -200,13 +200,9 @@
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.700)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

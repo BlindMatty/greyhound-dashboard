@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.238,
-      "ens_prob": 0.1331,
-      "fastai_prob": 0.097,
-      "fastai_rank": 8,
+      "ml_prob": 0.2737,
+      "ens_prob": 0.1629,
+      "fastai_prob": 0.0742,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 281599
+      "races_with_same_dogs": 281703
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "CARAMEL ROSE",
-      "total_offspring_runs_in_state": 22848,
-      "sire_win_rate": 0.15292366946778713
+      "total_offspring_runs_in_state": 22854,
+      "sire_win_rate": 0.1528835214842041
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,13 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.074)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

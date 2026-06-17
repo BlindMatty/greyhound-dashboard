@@ -1,49 +1,61 @@
 {
   "dog": "SUNSET GODDESS",
-  "date": "2026-04-07",
+  "date": "2026-06-19",
   "track": "MAN",
   "race": 9,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 6,
-    "01_Shortlist": "Complete (ENS+MC+ML Validated)",
+    "history_length": 15,
+    "01_Shortlist": {
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.1777,
+      "ens_prob": 0.2055,
+      "fastai_prob": 0.0588,
+      "fastai_rank": 2,
+      "is_three_way": false
+    },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 2,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 473.3333333333333,
+      "avg_dist": 470.4,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.4,
-      "fluctuation": -3.552713678800501e-15,
+      "last_weight": 27.7,
+      "fluctuation": 0.29333333333333655,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 6,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 2.2,
+      "total_starts": 15,
+      "last_3_avg_place": 3.6666666666666665,
+      "last_5_avg_place": 3.2,
       "last_10_places": [
         1.0,
         1.0,
+        3.0,
+        7.0,
+        2.0,
         1.0,
+        4.0,
         6.0,
         2.0,
-        1.0
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -56,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 210605
+      "races_with_same_dogs": 216036
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -65,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 21.2
+      "avg_run_home": 20.926428571428573
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.2584569596664017
+      "split_stdev": 0.2595558336258902
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 16133.0
+      "career_prize": 26837.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -112,8 +124,8 @@
       "message": "Coordinates not mapped for track: MAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6666666666666666,
-      "place_rate": 0.8333333333333334
+      "win_rate": 0.4,
+      "place_rate": 0.7333333333333333
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -124,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUNSET SPITFIRE",
       "dam": "SUNSET OCTAVIA",
-      "total_offspring_runs_in_state": 1952,
-      "sire_win_rate": 0.17008196721311475
+      "total_offspring_runs_in_state": 2063,
+      "sire_win_rate": 0.1711100339311682
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 33,
-      "litter_wins": 15
+      "total_litter_runs": 72,
+      "litter_wins": 27
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -155,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -164,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 6
+      "total_starts": 15
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.8888888888888888
+      "ewma_places": 3.134586626789148
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -179,11 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
-      "decision": "PASS / CAUTION",
+      "final_score": 5,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.059)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -193,8 +207,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

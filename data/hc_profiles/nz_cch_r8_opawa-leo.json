@@ -1,19 +1,19 @@
 {
   "dog": "OPAWA LEO",
-  "date": "2026-04-24",
+  "date": "2026-06-19",
   "track": "CCH",
   "race": 8,
   "distance": 0,
-  "grade": "Class 1",
+  "grade": "Class 2 Final",
   "steps": {
-    "history_length": 2,
+    "history_length": 10,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4282,
-      "ens_prob": 0.1734,
-      "fastai_prob": 0.4618,
-      "fastai_rank": 8,
+      "ml_prob": 0.4965,
+      "ens_prob": 0.2151,
+      "fastai_prob": 0.0623,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,32 +21,40 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 2,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 491.0,
+      "avg_dist": 511.4,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 1 vs Field"
+      "current_vs_historic_grade": "Class 2 Final vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.8,
-      "fluctuation": -0.25,
+      "last_weight": 31.7,
+      "fluctuation": 0.5500000000000007,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
-      "last_3_avg_place": null,
-      "last_5_avg_place": null,
+      "total_starts": 10,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 4.4,
       "last_10_places": [
         1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        7.0,
+        6.0,
+        3.0,
+        5.0,
         1.0
       ]
     },
@@ -60,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276067
+      "races_with_same_dogs": 281703
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -91,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 9
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -103,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 5630.0
+      "career_prize": 16360.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -457
+      "dist_diff_from_last": -525
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 1.0,
-      "place_rate": 1.0
+      "win_rate": 0.6,
+      "place_rate": 0.7
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -128,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "OUR ANNA",
-      "total_offspring_runs_in_state": 6392,
-      "sire_win_rate": 0.1304755944931164
+      "total_offspring_runs_in_state": 6652,
+      "sire_win_rate": 0.13168971737823212
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 20,
-      "litter_wins": 3
+      "total_litter_runs": 95,
+      "litter_wins": 25
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -168,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 10
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0
+      "ewma_places": 2.7517106549364616
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,20 +191,23 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
+        "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile"
+        "Proven Track Specialist Profile",
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

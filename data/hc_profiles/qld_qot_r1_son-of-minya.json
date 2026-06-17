@@ -1,18 +1,18 @@
 {
   "dog": "SON OF MINYA",
-  "date": "2026-05-22",
+  "date": "2026-06-19",
   "track": "QOT",
   "race": 1,
   "distance": 0,
   "grade": "MAIDEN  PATHWAY PENALTY",
   "steps": {
-    "history_length": 23,
+    "history_length": 29,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.0372,
-      "ens_prob": 0.1877,
-      "fastai_prob": 0.0971,
+      "ml_prob": 0.0766,
+      "ens_prob": 0.2416,
+      "fastai_prob": 0.1224,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 4,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 360.6521739130435,
+      "avg_dist": 357.41379310344826,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "MAIDEN  PATHWAY PENALTY vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.6,
-      "fluctuation": -1.0111111111111093,
+      "last_weight": 29.2,
+      "fluctuation": -1.2818181818181849,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 23,
-      "last_3_avg_place": 5.0,
-      "last_5_avg_place": 4.2,
+      "total_starts": 29,
+      "last_3_avg_place": 2.6666666666666665,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        3.0,
-        2.0,
-        6.0,
-        2.0,
         3.0,
         3.0,
         3.0,
         5.0,
         4.0,
-        6.0
+        6.0,
+        3.0,
+        4.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 404168
+      "races_with_same_dogs": 409321
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.993333333333334
+      "avg_run_home": 13.855
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.6396775366645797
+      "split_stdev": 1.4132321111551351
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 9
+      "days_since_last_run": 4
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,13 +111,13 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 3285.0
+      "career_prize": 4575.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 5.5
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -352
+      "dist_diff_from_last": -300
     },
     "29_Live_Weather": {
       "status": "error",
@@ -125,7 +125,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.47058823529411764
+      "place_rate": 0.5238095238095238
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "MARSEILLE",
-      "total_offspring_runs_in_state": 7420,
-      "sire_win_rate": 0.1032345013477089
+      "total_offspring_runs_in_state": 7768,
+      "sire_win_rate": 0.10453141091658084
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 87,
+      "total_litter_runs": 93,
       "litter_wins": 4
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 23
+      "total_starts": 29
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.002937339304652
+      "ewma_places": 2.500182390299983
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,22 +191,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -13,
+      "final_score": -9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
-        "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 3, prob 0.097)"
+        "FastAI Lukewarm (Rank 3, prob 0.122)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)"
+        "Strong Head-to-Head Experience over field"
       ]
     }
   }
