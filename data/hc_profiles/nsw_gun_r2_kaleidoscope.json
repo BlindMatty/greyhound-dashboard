@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1633,
-      "ens_prob": 0.2044,
-      "fastai_prob": 0.0221,
-      "fastai_rank": 6,
+      "ml_prob": 0.1701,
+      "ens_prob": 0.2189,
+      "fastai_prob": 0.0297,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715489
+      "races_with_same_dogs": 715772
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "AURORA BLUE",
-      "total_offspring_runs_in_state": 25544,
-      "sire_win_rate": 0.12112433448167867
+      "total_offspring_runs_in_state": 25555,
+      "sire_win_rate": 0.12111132850714146
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -192,7 +192,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3241,
-      "ens_prob": 0.2007,
-      "fastai_prob": 0.143,
-      "fastai_rank": 5,
+      "ml_prob": 0.338,
+      "ens_prob": 0.1909,
+      "fastai_prob": 0.0826,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 792066
+      "races_with_same_dogs": 792361
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -115,9 +115,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 21.4,
-      "avg_temp_c": 15.7,
-      "total_precip_mm": 0.4,
+      "max_wind_kmh": 24.9,
+      "avg_temp_c": 16.4,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "BIG BERTHA",
-      "total_offspring_runs_in_state": 101251,
-      "sire_win_rate": 0.1324431363640853
+      "total_offspring_runs_in_state": 101267,
+      "sire_win_rate": 0.1324419603622108
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -194,7 +194,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

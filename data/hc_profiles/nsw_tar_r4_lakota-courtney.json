@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2117,
-      "ens_prob": 0.1395,
-      "fastai_prob": 0.2077,
-      "fastai_rank": 7,
+      "ml_prob": 0.2126,
+      "ens_prob": 0.1669,
+      "fastai_prob": 0.1213,
+      "fastai_rank": 9,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 47,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715489
+      "races_with_same_dogs": 715772
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "KEONA",
-      "total_offspring_runs_in_state": 8567,
-      "sire_win_rate": 0.10482082409244776
+      "total_offspring_runs_in_state": 8576,
+      "sire_win_rate": 0.10482742537313433
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 287,
+      "total_litter_runs": 289,
       "litter_wins": 43
     },
     "35_Injury_History": {
@@ -198,7 +198,7 @@
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1632,
-      "ens_prob": 0.1422,
-      "fastai_prob": 0.0692,
-      "fastai_rank": 6,
+      "ml_prob": 0.1667,
+      "ens_prob": 0.1826,
+      "fastai_prob": 0.1346,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 76,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 792066
+      "races_with_same_dogs": 792361
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "AVATAR MINTY",
-      "total_offspring_runs_in_state": 24444,
-      "sire_win_rate": 0.10268368515791196
+      "total_offspring_runs_in_state": 24452,
+      "sire_win_rate": 0.10265008997219041
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -7,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -200,7 +200,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.135)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

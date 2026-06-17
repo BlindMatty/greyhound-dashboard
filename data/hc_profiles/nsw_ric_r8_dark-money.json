@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1521,
-      "ens_prob": 0.1721,
-      "fastai_prob": 0.0963,
-      "fastai_rank": 6,
+      "ml_prob": 0.169,
+      "ens_prob": 0.2111,
+      "fastai_prob": 0.4441,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715489
+      "races_with_same_dogs": 715772
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 4.2,
-      "avg_temp_c": 14.1,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 3.9,
+      "avg_temp_c": 13.5,
+      "total_precip_mm": 1.4,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "OUR AMELIA",
-      "total_offspring_runs_in_state": 9848,
-      "sire_win_rate": 0.14662875710804224
+      "total_offspring_runs_in_state": 9877,
+      "sire_win_rate": 0.14680571023590158
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -202,7 +202,7 @@
         "Quick Backup (< 4 days)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

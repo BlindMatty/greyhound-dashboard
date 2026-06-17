@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2608,
-      "ens_prob": 0.2268,
-      "fastai_prob": 0.5772,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3249,
+      "ens_prob": 0.2001,
+      "fastai_prob": 0.5536,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715489
+      "races_with_same_dogs": 715772
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "ALFIE'S ANGEL",
-      "total_offspring_runs_in_state": 4794,
-      "sire_win_rate": 0.16040884438881936
+      "total_offspring_runs_in_state": 4803,
+      "sire_win_rate": 0.16073287528627941
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -182,22 +182,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Elite Sire Line (>15% state win rate)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.577)"
+        "Elite Sire Line (>15% state win rate)"
       ]
     }
   }

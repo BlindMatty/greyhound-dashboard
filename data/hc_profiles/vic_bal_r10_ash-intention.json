@@ -9,12 +9,12 @@
     "history_length": 16,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3491,
-      "ens_prob": 0.2263,
-      "fastai_prob": 0.2113,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3472,
+      "ens_prob": 0.222,
+      "fastai_prob": 0.2403,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
       "total_starts": 16,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 792066
+      "races_with_same_dogs": 792361
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.7,
-      "avg_temp_c": 12.9,
-      "total_precip_mm": 0.7,
+      "max_wind_kmh": 27.1,
+      "avg_temp_c": 14.0,
+      "total_precip_mm": 0.1,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SLICK LASS",
-      "total_offspring_runs_in_state": 39187,
-      "sire_win_rate": 0.1473447827085513
+      "total_offspring_runs_in_state": 39219,
+      "sire_win_rate": 0.14747953797904076
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 84,
+      "total_litter_runs": 85,
       "litter_wins": 27
     },
     "35_Injury_History": {
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 13,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -210,7 +210,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
