@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3063,
-      "ens_prob": 0.1915,
-      "fastai_prob": 0.0767,
-      "fastai_rank": 2,
+      "ml_prob": 0.346,
+      "ens_prob": 0.1857,
+      "fastai_prob": 0.0795,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 281703
+      "races_with_same_dogs": 281781
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "JELLY FISH",
-      "total_offspring_runs_in_state": 22854,
-      "sire_win_rate": 0.1528835214842041
+      "total_offspring_runs_in_state": 22868,
+      "sire_win_rate": 0.15278992478572678
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -198,7 +198,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 2, prob 0.077)"
+        "FastAI Lukewarm (Rank 3, prob 0.080)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.196,
-      "ens_prob": 0.27,
-      "fastai_prob": 0.5877,
+      "ml_prob": 0.1905,
+      "ens_prob": 0.254,
+      "fastai_prob": 0.6371,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 792769
+      "races_with_same_dogs": 793182
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -129,8 +129,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "ELITE OPAL",
-      "total_offspring_runs_in_state": 9373,
-      "sire_win_rate": 0.14349727941960952
+      "total_offspring_runs_in_state": 9381,
+      "sire_win_rate": 0.14348150517002453
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -196,7 +196,7 @@
         "Strong Head-to-Head Experience over field",
         "Professional Box Dog (Elite start consistency)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.588)"
+        "FastAI Strong Conviction (Rank 1, prob 0.637)"
       ]
     }
   }

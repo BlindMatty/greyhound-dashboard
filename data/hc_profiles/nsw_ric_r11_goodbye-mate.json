@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.157,
-      "ens_prob": 0.1896,
-      "fastai_prob": 0.2448,
+      "ml_prob": 0.1586,
+      "ens_prob": 0.1721,
+      "fastai_prob": 0.14,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715983
+      "races_with_same_dogs": 716533
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 17.2,
-      "avg_temp_c": 16.2,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 18.7,
+      "avg_temp_c": 16.4,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "LUCKY WHIP",
-      "total_offspring_runs_in_state": 102287,
-      "sire_win_rate": 0.13665470685424344
+      "total_offspring_runs_in_state": 102335,
+      "sire_win_rate": 0.13663946841256658
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -195,12 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.140)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

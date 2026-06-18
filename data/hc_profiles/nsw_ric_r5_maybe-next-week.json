@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4227,
-      "ens_prob": 0.2199,
-      "fastai_prob": 0.3547,
-      "fastai_rank": 5,
+      "ml_prob": 0.4553,
+      "ens_prob": 0.239,
+      "fastai_prob": 0.3494,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715983
+      "races_with_same_dogs": 716533
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 17.2,
-      "avg_temp_c": 16.2,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 18.7,
+      "avg_temp_c": 16.4,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "POCO DORADO",
-      "total_offspring_runs_in_state": 5792,
-      "sire_win_rate": 0.1640193370165746
+      "total_offspring_runs_in_state": 5807,
+      "sire_win_rate": 0.16376786636817633
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -201,7 +201,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3199,
-      "ens_prob": 0.2064,
-      "fastai_prob": 0.6131,
+      "ml_prob": 0.2776,
+      "ens_prob": 0.2221,
+      "fastai_prob": 0.7171,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715983
+      "races_with_same_dogs": 716533
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 17.2,
-      "avg_temp_c": 16.2,
-      "total_precip_mm": 0.0,
+      "max_wind_kmh": 18.7,
+      "avg_temp_c": 16.4,
+      "total_precip_mm": 0.3,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,13 +140,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "RITZA VONNIE",
-      "total_offspring_runs_in_state": 26088,
-      "sire_win_rate": 0.13695952161913524
+      "total_offspring_runs_in_state": 26140,
+      "sire_win_rate": 0.13699311400153022
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 80,
-      "litter_wins": 17
+      "total_litter_runs": 81,
+      "litter_wins": 18
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -214,7 +214,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.613)"
+        "FastAI Strong Conviction (Rank 1, prob 0.717)"
       ]
     }
   }

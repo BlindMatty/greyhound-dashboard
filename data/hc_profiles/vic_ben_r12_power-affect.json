@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1916,
-      "ens_prob": 0.1853,
-      "fastai_prob": 0.3693,
+      "ml_prob": 0.1895,
+      "ens_prob": 0.1717,
+      "fastai_prob": 0.4918,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 792769
+      "races_with_same_dogs": 793182
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 16.3,
-      "avg_temp_c": 9.1,
-      "total_precip_mm": 1.7,
-      "is_wet": false,
+      "max_wind_kmh": 22.5,
+      "avg_temp_c": 9.6,
+      "total_precip_mm": 4.4,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZAMBORA BROCKIE",
       "dam": "SWEET IMITATED",
-      "total_offspring_runs_in_state": 15635,
-      "sire_win_rate": 0.1339302846178446
+      "total_offspring_runs_in_state": 15640,
+      "sire_win_rate": 0.1340153452685422
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 73,
+      "total_litter_runs": 74,
       "litter_wins": 19
     },
     "35_Injury_History": {
