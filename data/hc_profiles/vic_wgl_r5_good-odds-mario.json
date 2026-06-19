@@ -9,12 +9,12 @@
     "history_length": 60,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1859,
-      "ens_prob": 0.2173,
-      "fastai_prob": 0.1794,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1929,
+      "ens_prob": 0.2681,
+      "fastai_prob": 0.5081,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793182
+      "races_with_same_dogs": 793583
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 20.8,
-      "avg_temp_c": 10.8,
-      "total_precip_mm": 11.6,
+      "max_wind_kmh": 20.0,
+      "avg_temp_c": 10.6,
+      "total_precip_mm": 10.3,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD ODDS HARADA",
       "dam": "BLOW MY MIND",
-      "total_offspring_runs_in_state": 1904,
-      "sire_win_rate": 0.10609243697478991
+      "total_offspring_runs_in_state": 1905,
+      "sire_win_rate": 0.10603674540682415
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -211,7 +211,9 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.508)"
       ]
     }
   }

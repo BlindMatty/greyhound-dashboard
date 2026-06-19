@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2131,
-      "ens_prob": 0.241,
-      "fastai_prob": 0.5223,
+      "ml_prob": 0.1942,
+      "ens_prob": 0.2926,
+      "fastai_prob": 0.5497,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 716533
+      "races_with_same_dogs": 716861
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "JUNGLE DEUCE",
       "dam": "ZAKUSKA ZIPPER",
-      "total_offspring_runs_in_state": 3765,
-      "sire_win_rate": 0.13784860557768924
+      "total_offspring_runs_in_state": 3768,
+      "sire_win_rate": 0.13800424628450106
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -195,7 +195,7 @@
         "Strong Head-to-Head Experience over field",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.522)"
+        "FastAI Strong Conviction (Rank 1, prob 0.550)"
       ]
     }
   }

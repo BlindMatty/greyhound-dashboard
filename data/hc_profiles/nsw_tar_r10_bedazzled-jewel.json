@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2025,
-      "ens_prob": 0.177,
-      "fastai_prob": 0.1617,
+      "ml_prob": 0.2012,
+      "ens_prob": 0.1489,
+      "fastai_prob": 0.1163,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 716533
+      "races_with_same_dogs": 716861
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "BEDAZZLED BABE",
-      "total_offspring_runs_in_state": 102455,
-      "sire_win_rate": 0.1367917622370797
+      "total_offspring_runs_in_state": 102479,
+      "sire_win_rate": 0.1368085168668703
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,13 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 3, prob 0.116)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

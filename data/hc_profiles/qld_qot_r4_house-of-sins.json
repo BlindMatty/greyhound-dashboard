@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3477,
-      "ens_prob": 0.4169,
-      "fastai_prob": 0.2423,
+      "ml_prob": 0.2831,
+      "ens_prob": 0.4333,
+      "fastai_prob": 0.5304,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409502
+      "races_with_same_dogs": 409736
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "LEGENDARY LASS",
-      "total_offspring_runs_in_state": 6325,
-      "sire_win_rate": 0.15209486166007904
+      "total_offspring_runs_in_state": 6340,
+      "sire_win_rate": 0.1523659305993691
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -187,7 +187,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 14,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,7 +203,8 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.530)"
       ]
     }
   }
