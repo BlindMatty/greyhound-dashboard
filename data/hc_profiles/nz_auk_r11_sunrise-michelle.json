@@ -9,12 +9,12 @@
     "history_length": 16,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
+      "alignment_count": 1,
       "ml_prob": 0.3212,
-      "ens_prob": 0.2316,
-      "fastai_prob": 0.0712,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "ens_prob": 0.2171,
+      "fastai_prob": 0.1066,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.107)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -205,8 +206,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

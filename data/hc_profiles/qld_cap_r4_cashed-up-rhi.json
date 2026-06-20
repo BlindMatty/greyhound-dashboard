@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1516,
-      "ens_prob": 0.3569,
-      "fastai_prob": 0.3684,
+      "ml_prob": 0.172,
+      "ens_prob": 0.3178,
+      "fastai_prob": 0.2684,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409736
+      "races_with_same_dogs": 409829
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "WHISKEY RIOT",
       "dam": "WILDASH BOOMER",
-      "total_offspring_runs_in_state": 2878,
-      "sire_win_rate": 0.11431549687282835
+      "total_offspring_runs_in_state": 2879,
+      "sire_win_rate": 0.11427579020493227
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 176,
+      "total_litter_runs": 177,
       "litter_wins": 38
     },
     "35_Injury_History": {
@@ -207,7 +207,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.368)"
+        "FastAI Strong Conviction (Rank 1, prob 0.268)"
       ]
     }
   }

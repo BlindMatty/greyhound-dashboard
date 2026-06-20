@@ -11,8 +11,8 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.4883,
-      "ens_prob": 0.3385,
-      "fastai_prob": 0.0589,
+      "ens_prob": 0.315,
+      "fastai_prob": 0.0625,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -198,7 +198,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.059)"
+        "FastAI Lukewarm (Rank 2, prob 0.062)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
