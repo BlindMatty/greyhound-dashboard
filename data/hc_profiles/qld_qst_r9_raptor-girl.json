@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1849,
-      "ens_prob": 0.2205,
-      "fastai_prob": 0.2768,
-      "fastai_rank": 4,
+      "ml_prob": 0.1498,
+      "ens_prob": 0.2277,
+      "fastai_prob": 0.2182,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409829
+      "races_with_same_dogs": 409987
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "BABS KRAMER",
-      "total_offspring_runs_in_state": 11761,
-      "sire_win_rate": 0.12813536263923136
+      "total_offspring_runs_in_state": 11772,
+      "sire_win_rate": 0.12810057764186206
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 11,
@@ -191,15 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

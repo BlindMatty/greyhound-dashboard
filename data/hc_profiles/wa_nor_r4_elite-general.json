@@ -8,13 +8,13 @@
   "steps": {
     "history_length": 96,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.4348,
-      "ens_prob": 0.3466,
-      "fastai_prob": 0.0933,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.4111,
+      "ens_prob": 0.3552,
+      "fastai_prob": null,
+      "fastai_rank": null,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216228
+      "races_with_same_dogs": 216304
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "LITTLE TUBBSY",
-      "total_offspring_runs_in_state": 6690,
-      "sire_win_rate": 0.1585949177877429
+      "total_offspring_runs_in_state": 6696,
+      "sire_win_rate": 0.1587514934289128
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 13,
+      "final_score": 11,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -208,7 +208,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "2-Way Model Alignment"
       ]
     }
   }

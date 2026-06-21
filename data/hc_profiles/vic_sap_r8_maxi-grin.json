@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3118,
-      "ens_prob": 0.1936,
-      "fastai_prob": 0.0414,
-      "fastai_rank": 6,
+      "ml_prob": 0.2768,
+      "ens_prob": 0.2123,
+      "fastai_prob": 0.0448,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 18,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793779
+      "races_with_same_dogs": 793986
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,7 +121,7 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.6,
+      "max_wind_kmh": 6.7,
       "avg_temp_c": 8.5,
       "total_precip_mm": 0.0,
       "is_wet": false,
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MADAM MAXIMUS",
-      "total_offspring_runs_in_state": 101399,
-      "sire_win_rate": 0.13244706555291472
+      "total_offspring_runs_in_state": 101424,
+      "sire_win_rate": 0.13245385707524845
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -195,12 +195,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.045)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

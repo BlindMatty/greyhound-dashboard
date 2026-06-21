@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2867,
-      "ens_prob": 0.1712,
-      "fastai_prob": 0.4142,
-      "fastai_rank": 8,
+      "ml_prob": 0.2934,
+      "ens_prob": 0.1639,
+      "fastai_prob": 0.3538,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 717235
+      "races_with_same_dogs": 717498
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "COLLISION",
       "dam": "NINO DE ORO",
-      "total_offspring_runs_in_state": 10151,
-      "sire_win_rate": 0.1151610678750862
+      "total_offspring_runs_in_state": 10153,
+      "sire_win_rate": 0.11513838274401654
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

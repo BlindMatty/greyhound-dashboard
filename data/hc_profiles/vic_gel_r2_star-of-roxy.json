@@ -1,28 +1,28 @@
 {
   "dog": "STAR OF ROXY",
-  "date": "2026-05-20",
+  "date": "2026-06-23",
   "track": "GEL",
   "race": 2,
   "distance": 0,
-  "grade": "Maiden Heat",
+  "grade": "Tier 3 - Maiden",
   "steps": {
-    "history_length": 2,
+    "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2236,
-      "ens_prob": 0.2149,
-      "fastai_prob": 0.6273,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2497,
+      "ens_prob": 0.1942,
+      "fastai_prob": 0.228,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -31,23 +31,26 @@
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Maiden Heat vs Field"
+      "current_vs_historic_grade": "Tier 3 - Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.2,
-      "fluctuation": 0.05000000000000071,
+      "last_weight": 28.0,
+      "fluctuation": 0.020000000000003126,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
-      "last_3_avg_place": null,
-      "last_5_avg_place": null,
+      "total_starts": 5,
+      "last_3_avg_place": 3.6666666666666665,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
         3.0,
-        3.0
+        3.0,
+        2.0,
+        7.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783167
+      "races_with_same_dogs": 793986
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +72,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.571499999999999
+      "avg_run_home": 14.5892
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.2262741699796954
+      "split_stdev": 0.16886325828906673
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -91,7 +94,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 5
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -103,7 +106,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 260.0
+      "career_prize": 1360.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -117,7 +120,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 1.0
+      "place_rate": 0.8
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -128,12 +131,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "STAR IMPACT",
-      "total_offspring_runs_in_state": 23878,
-      "sire_win_rate": 0.1280676773599129
+      "total_offspring_runs_in_state": 24751,
+      "sire_win_rate": 0.1269443658842067
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 1,
-      "total_litter_runs": 2,
+      "litter_size_racing": 4,
+      "total_litter_runs": 10,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -159,7 +162,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -168,13 +171,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 5
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.0
+      "ewma_places": 3.3870967741935485
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,20 +186,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.627)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

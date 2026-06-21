@@ -1,32 +1,32 @@
 {
   "dog": "LONG GULLY LARRY",
-  "date": "2026-05-11",
+  "date": "2026-06-22",
   "track": "APK",
   "race": 2,
   "distance": 0,
   "grade": "Juvenile",
   "steps": {
-    "history_length": 3,
+    "history_length": 7,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.4295,
-      "ens_prob": 0.3502,
-      "fastai_prob": 0.373,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2845,
+      "ens_prob": 0.1866,
+      "fastai_prob": 0.2274,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 5,
       "has_inside_pressure": true,
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 380.6666666666667,
+      "avg_dist": 385.57142857142856,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,21 +34,25 @@
       "current_vs_historic_grade": "Juvenile vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 31.8,
-      "fluctuation": 0.23333333333333428,
+      "last_weight": 30.7,
+      "fluctuation": -0.5,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 3,
-      "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": null,
+      "total_starts": 7,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 2.4,
       "last_10_places": [
         1.0,
         2.0,
-        1.0
+        1.0,
+        4.0,
+        1.0,
+        1.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -61,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 214960
+      "races_with_same_dogs": 218095
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -70,13 +74,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.516666666666666
+      "avg_run_home": 16.75142857142857
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.326807541102902
+      "split_stdev": 2.1362494949705444
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,10 +96,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 8
+      "days_since_last_run": 15
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -104,21 +108,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 2365.0
+      "career_prize": 4965.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -400
+      "dist_diff_from_last": -531
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: APK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6666666666666666,
-      "place_rate": 1.0
+      "win_rate": 0.5714285714285714,
+      "place_rate": 0.7142857142857143
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -129,13 +133,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "LAWRIE ROAD",
-      "total_offspring_runs_in_state": 6561,
-      "sire_win_rate": 0.14159426916628562
+      "total_offspring_runs_in_state": 6673,
+      "sire_win_rate": 0.14086617713172486
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 1,
-      "total_litter_runs": 3,
-      "litter_wins": 2
+      "litter_size_racing": 7,
+      "total_litter_runs": 30,
+      "litter_wins": 4
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -169,13 +173,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 3
+      "total_starts": 7
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.2857142857142858
+      "ewma_places": 3.220472440944882
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -184,23 +188,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.373)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

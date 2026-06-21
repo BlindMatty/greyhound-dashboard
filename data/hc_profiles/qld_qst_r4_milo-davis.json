@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2517,
-      "ens_prob": 0.2962,
-      "fastai_prob": 0.4269,
+      "ml_prob": 0.2326,
+      "ens_prob": 0.3688,
+      "fastai_prob": 0.5072,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409829
+      "races_with_same_dogs": 409987
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "KOORINGA MAIZIE",
-      "total_offspring_runs_in_state": 8370,
-      "sire_win_rate": 0.13691756272401434
+      "total_offspring_runs_in_state": 8373,
+      "sire_win_rate": 0.13686850591185956
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -206,7 +206,7 @@
         "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.427)"
+        "FastAI Strong Conviction (Rank 1, prob 0.507)"
       ]
     }
   }

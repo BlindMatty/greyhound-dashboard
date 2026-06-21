@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2374,
-      "ens_prob": 0.2081,
-      "fastai_prob": 0.0666,
-      "fastai_rank": 6,
+      "ml_prob": 0.2284,
+      "ens_prob": 0.2424,
+      "fastai_prob": 0.0746,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 5
     },
     "08_Form_Trajectory": {
       "total_starts": 3,
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793779
+      "races_with_same_dogs": 793986
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,7 +114,7 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.6,
+      "max_wind_kmh": 6.7,
       "avg_temp_c": 8.5,
       "total_precip_mm": 0.0,
       "is_wet": false,
@@ -133,13 +133,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SIMPLY LIMELIGHT",
       "dam": "SHANTELLE ROSE",
-      "total_offspring_runs_in_state": 471,
-      "sire_win_rate": 0.1040339702760085
+      "total_offspring_runs_in_state": 474,
+      "sire_win_rate": 0.10548523206751055
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 135,
-      "litter_wins": 21
+      "total_litter_runs": 137,
+      "litter_wins": 22
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -188,15 +188,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",

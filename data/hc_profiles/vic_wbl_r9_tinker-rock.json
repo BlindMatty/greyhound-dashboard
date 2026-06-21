@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1632,
-      "ens_prob": 0.1284,
-      "fastai_prob": 0.0902,
-      "fastai_rank": 8,
+      "ml_prob": 0.1572,
+      "ens_prob": 0.1275,
+      "fastai_prob": 0.0954,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793779
+      "races_with_same_dogs": 793986
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -10,
+      "final_score": -9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,7 +201,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Poor Sire Line (<8% state win rate)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.095)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field"

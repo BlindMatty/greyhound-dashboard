@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3706,
-      "ens_prob": 0.2799,
-      "fastai_prob": 0.1181,
+      "ml_prob": 0.3803,
+      "ens_prob": 0.291,
+      "fastai_prob": 0.0853,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 63,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793779
+      "races_with_same_dogs": 793986
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "MIAMI FERNANDO",
-      "total_offspring_runs_in_state": 24905,
-      "sire_win_rate": 0.127765508933949
+      "total_offspring_runs_in_state": 24927,
+      "sire_win_rate": 0.12765274601837365
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.118)"
+        "FastAI Lukewarm (Rank 2, prob 0.085)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
