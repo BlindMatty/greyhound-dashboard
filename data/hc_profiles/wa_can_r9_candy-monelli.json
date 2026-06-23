@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2554,
-      "ens_prob": 0.2383,
-      "fastai_prob": 0.1273,
+      "ml_prob": 0.2443,
+      "ens_prob": 0.2341,
+      "fastai_prob": 0.0438,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216381
+      "races_with_same_dogs": 216480
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AMRON BOY",
       "dam": "SUNSET WILDFIRE",
-      "total_offspring_runs_in_state": 399,
-      "sire_win_rate": 0.18295739348370926
+      "total_offspring_runs_in_state": 400,
+      "sire_win_rate": 0.1825
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -198,7 +198,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 2, prob 0.127)"
+        "FastAI Lukewarm (Rank 2, prob 0.044)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

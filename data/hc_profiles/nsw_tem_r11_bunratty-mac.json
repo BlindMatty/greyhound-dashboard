@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1923,
-      "ens_prob": 0.1065,
-      "fastai_prob": 0.0834,
-      "fastai_rank": 8,
+      "ml_prob": 0.1669,
+      "ens_prob": 0.0997,
+      "fastai_prob": 0.0781,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 717648
+      "races_with_same_dogs": 717913
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -193,7 +193,7 @@
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

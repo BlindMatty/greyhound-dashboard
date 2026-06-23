@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1892,
-      "ens_prob": 0.3375,
-      "fastai_prob": 0.483,
+      "ml_prob": 0.191,
+      "ens_prob": 0.2863,
+      "fastai_prob": 0.4066,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 218155
+      "races_with_same_dogs": 218247
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "TANGELO FIRE",
-      "total_offspring_runs_in_state": 3818,
-      "sire_win_rate": 0.1888423258250393
+      "total_offspring_runs_in_state": 3828,
+      "sire_win_rate": 0.18861024033437826
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 71,
+      "total_litter_runs": 72,
       "litter_wins": 17
     },
     "35_Injury_History": {
@@ -207,7 +207,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.483)"
+        "FastAI Strong Conviction (Rank 1, prob 0.407)"
       ]
     }
   }

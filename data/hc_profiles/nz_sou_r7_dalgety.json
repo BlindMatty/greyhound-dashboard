@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3589,
-      "ens_prob": 0.2566,
-      "fastai_prob": 0.1269,
-      "fastai_rank": 3,
+      "ml_prob": 0.462,
+      "ens_prob": 0.2679,
+      "fastai_prob": 0.0749,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282343
+      "races_with_same_dogs": 282417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MEPUNGA BLAZER",
       "dam": "CLASSY WITCH",
-      "total_offspring_runs_in_state": 7426,
-      "sire_win_rate": 0.12361971451656342
+      "total_offspring_runs_in_state": 7433,
+      "sire_win_rate": 0.12350329611193327
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -196,7 +196,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.127)"
+        "FastAI Lukewarm (Rank 2, prob 0.075)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

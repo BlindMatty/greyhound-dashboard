@@ -9,12 +9,12 @@
     "history_length": 34,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1067,
-      "ens_prob": 0.2059,
-      "fastai_prob": 0.1452,
-      "fastai_rank": 2,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.0632,
+      "ens_prob": 0.1478,
+      "fastai_prob": 0.074,
+      "fastai_rank": 6,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410227
+      "races_with_same_dogs": 410464
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "TAIEPA",
-      "total_offspring_runs_in_state": 7714,
-      "sire_win_rate": 0.10409644801659321
+      "total_offspring_runs_in_state": 7735,
+      "sire_win_rate": 0.1039431157078216
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,13 +201,12 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 2, prob 0.145)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "From an active winning litter (10+ wins)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

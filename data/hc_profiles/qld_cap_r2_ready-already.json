@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2042,
-      "ens_prob": 0.1569,
-      "fastai_prob": 0.1944,
-      "fastai_rank": 4,
+      "ml_prob": 0.1973,
+      "ens_prob": 0.1594,
+      "fastai_prob": 0.1117,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410227
+      "races_with_same_dogs": 410464
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "THEN CAME YOU",
-      "total_offspring_runs_in_state": 11364,
-      "sire_win_rate": 0.12425202393523407
+      "total_offspring_runs_in_state": 11366,
+      "sire_win_rate": 0.12423016012669365
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -189,7 +189,7 @@
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

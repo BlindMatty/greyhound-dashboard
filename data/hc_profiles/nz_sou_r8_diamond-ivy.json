@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4264,
-      "ens_prob": 0.1835,
-      "fastai_prob": 0.1098,
-      "fastai_rank": 2,
+      "ml_prob": 0.5123,
+      "ens_prob": 0.1845,
+      "fastai_prob": 0.0606,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282343
+      "races_with_same_dogs": 282417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -199,7 +199,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 2, prob 0.110)"
+        "FastAI Lukewarm (Rank 3, prob 0.061)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

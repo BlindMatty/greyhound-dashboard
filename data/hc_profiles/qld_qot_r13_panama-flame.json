@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.0868,
-      "ens_prob": 0.1641,
-      "fastai_prob": 0.0975,
-      "fastai_rank": 5,
+      "ml_prob": 0.0766,
+      "ens_prob": 0.2088,
+      "fastai_prob": 0.1467,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410227
+      "races_with_same_dogs": 410464
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "REMI MONELLI",
-      "total_offspring_runs_in_state": 8536,
-      "sire_win_rate": 0.10754451733833177
+      "total_offspring_runs_in_state": 8549,
+      "sire_win_rate": 0.10738098023160604
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -200,7 +200,7 @@
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 3, prob 0.147)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

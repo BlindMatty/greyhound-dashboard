@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2427,
-      "ens_prob": 0.2108,
-      "fastai_prob": 0.0491,
-      "fastai_rank": 4,
+      "ml_prob": 0.2567,
+      "ens_prob": 0.1894,
+      "fastai_prob": 0.0132,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216381
+      "races_with_same_dogs": 216480
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,12 +127,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "JELLY MONELLI",
-      "total_offspring_runs_in_state": 6616,
-      "sire_win_rate": 0.15900846432889965
+      "total_offspring_runs_in_state": 6621,
+      "sire_win_rate": 0.15888838544026582
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 2,
-      "total_litter_runs": 2,
+      "litter_size_racing": 3,
+      "total_litter_runs": 3,
       "litter_wins": 1
     },
     "35_Injury_History": {
@@ -189,7 +189,7 @@
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

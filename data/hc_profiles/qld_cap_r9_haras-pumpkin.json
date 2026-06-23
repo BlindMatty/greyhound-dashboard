@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4226,
-      "ens_prob": 0.2747,
-      "fastai_prob": 0.2667,
-      "fastai_rank": 2,
+      "ml_prob": 0.3731,
+      "ens_prob": 0.2292,
+      "fastai_prob": 0.1978,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410227
+      "races_with_same_dogs": 410464
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "REJUVENATE",
       "dam": "HARA'S INDI",
-      "total_offspring_runs_in_state": 415,
-      "sire_win_rate": 0.13734939759036144
+      "total_offspring_runs_in_state": 416,
+      "sire_win_rate": 0.13701923076923078
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 65,
+      "total_litter_runs": 66,
       "litter_wins": 21
     },
     "35_Injury_History": {
@@ -191,11 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
-      "decision": "PASS / CAUTION",
+      "final_score": 7,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

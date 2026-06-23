@@ -1,61 +1,61 @@
 {
   "dog": "HURRICANE",
-  "date": "2026-05-22",
+  "date": "2026-06-25",
   "track": "SAN",
   "race": 6,
   "distance": 0,
-  "grade": "S/E Group 1",
+  "grade": "S/E Heat",
   "steps": {
-    "history_length": 11,
+    "history_length": 15,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.4199,
-      "ens_prob": 0.1552,
-      "fastai_prob": 0.191,
-      "fastai_rank": 4,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3606,
+      "ens_prob": 0.2542,
+      "fastai_prob": 0.1741,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 2,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 533.6363636363636,
+      "avg_dist": 524.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "S/E Group 1 vs Field"
+      "current_vs_historic_grade": "S/E Heat vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.2,
-      "fluctuation": -0.10909090909090224,
+      "last_weight": 33.0,
+      "fluctuation": 0.6000000000000014,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 11,
-      "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": 1.2,
+      "total_starts": 15,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 2.4,
       "last_10_places": [
-        3.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
         2.0,
-        8.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        1.0,
-        2.0
+        6.0,
+        2.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 783920
+      "races_with_same_dogs": 794709
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 24.774968750000003
+      "avg_run_home": 24.7708
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.7879671689094896
+      "split_stdev": 1.6288265501751733
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,37 +99,37 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 8
+      "days_since_last_run": 5
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
-      "has_group_experience": false
+      "has_group_experience": true
     },
     "25_Public_Trials": {
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 40560.0
+      "career_prize": 41250.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -515
+      "dist_diff_from_last": -525
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 9.0,
-      "avg_temp_c": 9.7,
+      "max_wind_kmh": 6.9,
+      "avg_temp_c": 9.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5454545454545454,
-      "place_rate": 0.9090909090909091
+      "win_rate": 0.5,
+      "place_rate": 0.8571428571428571
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -140,13 +140,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "MAGICAL MAVIS",
-      "total_offspring_runs_in_state": 38316,
-      "sire_win_rate": 0.14787556112329053
+      "total_offspring_runs_in_state": 39507,
+      "sire_win_rate": 0.14759409724858885
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 26,
-      "litter_wins": 9
+      "total_litter_runs": 34,
+      "litter_wins": 10
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -171,7 +171,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -180,13 +180,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 11
+      "total_starts": 15
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.532486565705911
+      "ewma_places": 1.9415857901483244
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -195,23 +195,24 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
+        "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

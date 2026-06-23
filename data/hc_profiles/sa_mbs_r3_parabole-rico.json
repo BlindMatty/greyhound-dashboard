@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2557,
-      "ens_prob": 0.252,
-      "fastai_prob": 0.4396,
+      "ml_prob": 0.2835,
+      "ens_prob": 0.2678,
+      "fastai_prob": 0.3609,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 218155
+      "races_with_same_dogs": 218247
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -202,7 +202,7 @@
         "Elite Sire Line (>15% state win rate)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.440)"
+        "FastAI Strong Conviction (Rank 1, prob 0.361)"
       ]
     }
   }

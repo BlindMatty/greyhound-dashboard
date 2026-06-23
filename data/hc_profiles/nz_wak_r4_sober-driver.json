@@ -1,18 +1,18 @@
 {
   "dog": "SOBER DRIVER",
-  "date": "2026-06-18",
+  "date": "2026-06-25",
   "track": "WAK",
   "race": 4,
   "distance": 0,
   "grade": "Mixed Grade 1/2",
   "steps": {
-    "history_length": 109,
+    "history_length": 110,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2524,
-      "ens_prob": 0.1811,
-      "fastai_prob": 0.0275,
+      "ml_prob": 0.1493,
+      "ens_prob": 0.1567,
+      "fastai_prob": 0.0209,
       "fastai_rank": 6,
       "is_three_way": false
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 4,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 366.72477064220186,
+      "avg_dist": 367.54545454545456,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,18 +35,17 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 26.2,
-      "fluctuation": 0.32921348314606647,
+      "fluctuation": 0.3255555555555567,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 109,
+      "total_starts": 110,
       "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 3.6,
+      "last_5_avg_place": 4.4,
       "last_10_places": [
-        3.0,
         6.0,
         3.0,
         6.0,
@@ -55,7 +54,8 @@
         2.0,
         6.0,
         5.0,
-        3.0
+        3.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 281703
+      "races_with_same_dogs": 282417
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 4
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -117,15 +117,15 @@
       "avg_1st_split_pos": 3.3333333333333335
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -318
+      "dist_diff_from_last": -457
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: WAK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.056179775280898875,
-      "place_rate": 0.3595505617977528
+      "win_rate": 0.05555555555555555,
+      "place_rate": 0.35555555555555557
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "SPRING GUN",
       "dam": "MISS POTENTIAL",
-      "total_offspring_runs_in_state": 12017,
-      "sire_win_rate": 0.10851294000166431
+      "total_offspring_runs_in_state": 12023,
+      "sire_win_rate": 0.1084587873242951
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 265,
+      "total_litter_runs": 266,
       "litter_wins": 30
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 109
+      "total_starts": 110
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.8564931793142945
+      "ewma_places": 4.928246589657148
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,6 +203,7 @@
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Veteran Dog (>50 starts) - Racing sense"
