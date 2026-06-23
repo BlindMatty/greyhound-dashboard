@@ -9,12 +9,12 @@
     "history_length": 140,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2089,
-      "ens_prob": 0.223,
-      "fastai_prob": 0.404,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2168,
+      "ens_prob": 0.1777,
+      "fastai_prob": 0.2133,
+      "fastai_rank": 6,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 218095
+      "races_with_same_dogs": 218155
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.489444444444443
+      "avg_run_home": 15.489444444444446
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -204,9 +205,7 @@
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.404)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

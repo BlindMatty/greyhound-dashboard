@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1392,
-      "ens_prob": 0.1631,
-      "fastai_prob": 0.1525,
-      "fastai_rank": 3,
+      "ml_prob": 0.1612,
+      "ens_prob": 0.1391,
+      "fastai_prob": 0.1513,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409987
+      "races_with_same_dogs": 410227
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "NANDO DREAMER",
-      "total_offspring_runs_in_state": 8501,
-      "sire_win_rate": 0.13786613339607104
+      "total_offspring_runs_in_state": 8514,
+      "sire_win_rate": 0.13789053323937045
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 188,
-      "litter_wins": 29
+      "total_litter_runs": 190,
+      "litter_wins": 30
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

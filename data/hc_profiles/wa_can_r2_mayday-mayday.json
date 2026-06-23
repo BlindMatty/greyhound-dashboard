@@ -1,19 +1,19 @@
 {
   "dog": "MAYDAY MAYDAY",
-  "date": "2026-06-10",
+  "date": "2026-06-24",
   "track": "CAN",
   "race": 2,
   "distance": 0,
-  "grade": "Grade 6",
+  "grade": "Mixed 6/5",
   "steps": {
-    "history_length": 82,
+    "history_length": 84,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3161,
-      "ens_prob": 0.2519,
-      "fastai_prob": 0.067,
-      "fastai_rank": 2,
+      "ml_prob": 0.185,
+      "ens_prob": 0.1813,
+      "fastai_prob": 0.0806,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,28 +26,26 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 334.5487804878049,
+      "avg_dist": 335.6547619047619,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 6 vs Field"
+      "current_vs_historic_grade": "Mixed 6/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.1,
-      "fluctuation": -0.4046153846153757,
+      "last_weight": 32.9,
+      "fluctuation": 0.3940298507462714,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 82,
-      "last_3_avg_place": 4.333333333333333,
-      "last_5_avg_place": 3.8,
+      "total_starts": 84,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 3.6,
       "last_10_places": [
-        1.0,
-        1.0,
         4.0,
         7.0,
         5.0,
@@ -55,7 +53,9 @@
         4.0,
         5.0,
         4.0,
-        4.0
+        4.0,
+        3.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215447
+      "races_with_same_dogs": 216381
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.439607843137255
+      "avg_run_home": 13.527924528301886
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.3592846924043362
+      "split_stdev": 0.35271783251759065
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 23625.0
+      "career_prize": 24283.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 4.517241379310345
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -275
+      "dist_diff_from_last": -381
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: CAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.09230769230769231,
-      "place_rate": 0.4307692307692308
+      "win_rate": 0.08955223880597014,
+      "place_rate": 0.44776119402985076
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "PHILADELPHIA PIP",
-      "total_offspring_runs_in_state": 3566,
-      "sire_win_rate": 0.1430173864273696
+      "total_offspring_runs_in_state": 3628,
+      "sire_win_rate": 0.1422271223814774
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 82,
+      "total_litter_runs": 84,
       "litter_wins": 6
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 82
+      "total_starts": 84
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.091540300557469
+      "ewma_places": 2.772885075139367
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 2, prob 0.067)"
+        "FastAI Lukewarm (Rank 3, prob 0.081)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

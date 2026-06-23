@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1129,
-      "ens_prob": 0.1377,
-      "fastai_prob": 0.057,
-      "fastai_rank": 6,
+      "ml_prob": 0.1108,
+      "ens_prob": 0.1787,
+      "fastai_prob": 0.1864,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -67,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793986
+      "races_with_same_dogs": 794389
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AMRON BOY",
       "dam": "THYBULLE BALE",
-      "total_offspring_runs_in_state": 58,
-      "sire_win_rate": 0.13793103448275862
+      "total_offspring_runs_in_state": 62,
+      "sire_win_rate": 0.14516129032258066
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -190,14 +190,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

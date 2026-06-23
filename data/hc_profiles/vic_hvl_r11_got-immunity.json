@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2037,
-      "ens_prob": 0.2088,
-      "fastai_prob": 0.116,
-      "fastai_rank": 3,
+      "ml_prob": 0.1887,
+      "ens_prob": 0.2179,
+      "fastai_prob": 0.3798,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793986
+      "races_with_same_dogs": 794389
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BLACK MAGIC OPAL",
       "dam": "IMMUNITY",
-      "total_offspring_runs_in_state": 3674,
-      "sire_win_rate": 0.15351115949918345
+      "total_offspring_runs_in_state": 3676,
+      "sire_win_rate": 0.15342763873775844
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.116)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

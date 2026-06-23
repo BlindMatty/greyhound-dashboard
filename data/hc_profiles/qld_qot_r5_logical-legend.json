@@ -9,12 +9,12 @@
     "history_length": 0,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1335,
-      "ens_prob": 0.2723,
-      "fastai_prob": 0.1491,
-      "fastai_rank": 2,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.188,
+      "ens_prob": 0.2674,
+      "fastai_prob": 0.1627,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -57,7 +57,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409987
+      "races_with_same_dogs": 410227
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -171,18 +171,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 2,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Inexperienced (< 3 starts)",
-        "Light/Frail Dog (<26kg) - Bump risk",
-        "FastAI Lukewarm (Rank 2, prob 0.149)"
+        "Light/Frail Dog (<26kg) - Bump risk"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

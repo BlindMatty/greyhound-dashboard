@@ -9,12 +9,12 @@
     "history_length": 60,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1099,
-      "ens_prob": 0.3464,
-      "fastai_prob": 0.4956,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1101,
+      "ens_prob": 0.2307,
+      "fastai_prob": 0.3627,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 793986
+      "races_with_same_dogs": 794389
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "DROOPYS BUICK",
       "dam": "DIM SIM",
-      "total_offspring_runs_in_state": 2043,
-      "sire_win_rate": 0.08027410670582477
+      "total_offspring_runs_in_state": 2044,
+      "sire_win_rate": 0.08023483365949119
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 247,
+      "total_litter_runs": 248,
       "litter_wins": 26
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -206,9 +206,7 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "From an active winning litter (10+ wins)",
         "Wide Runner drawn Outside (Perfect Map)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.496)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

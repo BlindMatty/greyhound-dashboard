@@ -1,18 +1,18 @@
 {
   "dog": "SAIF",
-  "date": "2026-06-21",
+  "date": "2026-06-24",
   "track": "CAP",
   "race": 3,
   "distance": 0,
   "grade": "Grade 6",
   "steps": {
-    "history_length": 2,
+    "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1826,
-      "ens_prob": 0.2121,
-      "fastai_prob": 0.2598,
+      "ml_prob": 0.2286,
+      "ens_prob": 0.2423,
+      "fastai_prob": 0.3264,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -34,20 +34,21 @@
       "current_vs_historic_grade": "Grade 6 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.1,
-      "fluctuation": 0.5,
+      "last_weight": 32.3,
+      "fluctuation": 0.466666666666665,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
-      "last_3_avg_place": null,
+      "total_starts": 3,
+      "last_3_avg_place": 2.3333333333333335,
       "last_5_avg_place": null,
       "last_10_places": [
         2.0,
-        2.0
+        2.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -60,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409829
+      "races_with_same_dogs": 410227
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -91,7 +92,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -103,7 +104,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 3370.0
+      "career_prize": 3640.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -128,12 +129,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "KEIKI",
-      "total_offspring_runs_in_state": 11535,
-      "sire_win_rate": 0.12535760728218465
+      "total_offspring_runs_in_state": 11545,
+      "sire_win_rate": 0.1252490255521871
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 2,
+      "total_litter_runs": 3,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -168,13 +169,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 3
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.0
+      "ewma_places": 2.5714285714285716
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -188,13 +189,13 @@
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
+        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)"
+        "Strong Recent Form (<2.5 avg)",
+        "Strong Head-to-Head Experience over field"
       ]
     }
   }

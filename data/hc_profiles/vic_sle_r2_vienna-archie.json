@@ -1,19 +1,19 @@
 {
   "dog": "VIENNA ARCHIE",
-  "date": "2026-05-20",
+  "date": "2026-06-24",
   "track": "SLE",
   "race": 2,
   "distance": 0,
   "grade": "Rank Limit - Restricted Win",
   "steps": {
-    "history_length": 19,
+    "history_length": 24,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1548,
-      "ens_prob": 0.1673,
-      "fastai_prob": 0.1091,
-      "fastai_rank": 4,
+      "ml_prob": 0.1788,
+      "ens_prob": 0.1237,
+      "fastai_prob": 0.0456,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "own_box": 2,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 433.1578947368421,
+      "avg_dist": 433.5416666666667,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Rank Limit - Restricted Win vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 39.5,
-      "fluctuation": -7.105427357601002e-15,
+      "last_weight": 39.4,
+      "fluctuation": -0.06521739130435122,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 19,
-      "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 3.8,
+      "total_starts": 24,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 3.6,
       "last_10_places": [
-        3.0,
-        3.0,
-        4.0,
-        5.0,
-        3.0,
         3.0,
         2.0,
         4.0,
         4.0,
-        6.0
+        6.0,
+        5.0,
+        4.0,
+        2.0,
+        3.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 782832
+      "races_with_same_dogs": 794389
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 19.132194444444444
+      "avg_run_home": 19.203437499999996
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.0696563026985713
+      "split_stdev": 0.926415204003223
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 2730.0
+      "career_prize": 3310.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 8.0
@@ -125,7 +125,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.4117647058823529
+      "place_rate": 0.4090909090909091
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "BELLA EDITION",
-      "total_offspring_runs_in_state": 4934,
-      "sire_win_rate": 0.112484799351439
+      "total_offspring_runs_in_state": 5086,
+      "sire_win_rate": 0.11207235548564687
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 5,
-      "total_litter_runs": 49,
-      "litter_wins": 3
+      "litter_size_racing": 6,
+      "total_litter_runs": 70,
+      "litter_wins": 6
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 19
+      "total_starts": 24
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.833311716550572
+      "ewma_places": 3.5572906869150844
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,19 +191,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -9,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)"

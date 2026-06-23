@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3497,
-      "ens_prob": 0.3444,
-      "fastai_prob": 0.5611,
+      "ml_prob": 0.3073,
+      "ens_prob": 0.2699,
+      "fastai_prob": 0.61,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -67,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 87324
+      "races_with_same_dogs": 87413
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "ZIPPING SHEBA",
-      "total_offspring_runs_in_state": 2236,
-      "sire_win_rate": 0.12656529516994633
+      "total_offspring_runs_in_state": 2243,
+      "sire_win_rate": 0.12617030762371823
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -206,7 +206,7 @@
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.561)"
+        "FastAI Strong Conviction (Rank 1, prob 0.610)"
       ]
     }
   }

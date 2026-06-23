@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2054,
-      "ens_prob": 0.1723,
-      "fastai_prob": 0.2292,
-      "fastai_rank": 8,
+      "ml_prob": 0.2265,
+      "ens_prob": 0.1538,
+      "fastai_prob": 0.1585,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 218095
+      "races_with_same_dogs": 218155
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "BUZZ ALONG",
-      "total_offspring_runs_in_state": 15613,
-      "sire_win_rate": 0.1570486133350413
+      "total_offspring_runs_in_state": 15617,
+      "sire_win_rate": 0.15707242107959274
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -198,7 +198,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

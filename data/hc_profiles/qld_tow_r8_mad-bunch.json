@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.193,
-      "ens_prob": 0.1635,
-      "fastai_prob": 0.0756,
-      "fastai_rank": 7,
+      "ml_prob": 0.1434,
+      "ens_prob": 0.1267,
+      "fastai_prob": 0.0739,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 409987
+      "races_with_same_dogs": 410227
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "FLYRITE",
-      "total_offspring_runs_in_state": 8830,
-      "sire_win_rate": 0.13669309173272934
+      "total_offspring_runs_in_state": 8844,
+      "sire_win_rate": 0.13681592039800994
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
