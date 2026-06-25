@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2613,
-      "ens_prob": 0.1604,
-      "fastai_prob": 0.0621,
-      "fastai_rank": 4,
+      "ml_prob": 0.2329,
+      "ens_prob": 0.1416,
+      "fastai_prob": 0.0512,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282417
+      "races_with_same_dogs": 282518
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "OPAWA TAB",
-      "total_offspring_runs_in_state": 5900,
-      "sire_win_rate": 0.21457627118644068
+      "total_offspring_runs_in_state": 5905,
+      "sire_win_rate": 0.21439458086367486
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

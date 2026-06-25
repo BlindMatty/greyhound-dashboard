@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 19,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.173,
-      "ens_prob": 0.1856,
-      "fastai_prob": 0.3897,
-      "fastai_rank": 2,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.1761,
+      "ens_prob": 0.2092,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 87413
+      "races_with_same_dogs": 87495
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "LALA REINDEER",
-      "total_offspring_runs_in_state": 2243,
-      "sire_win_rate": 0.12617030762371823
+      "total_offspring_runs_in_state": 2249,
+      "sire_win_rate": 0.12627834593152512
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -6,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,7 +201,8 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field"
+        "Strong Head-to-Head Experience over field",
+        "2-Way Model Alignment"
       ]
     }
   }

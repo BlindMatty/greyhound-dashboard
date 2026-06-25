@@ -1,19 +1,19 @@
 {
   "dog": "HOMEBUSH JOJO",
-  "date": "2026-06-05",
+  "date": "2026-06-25",
   "track": "CCH",
   "race": 12,
   "distance": 0,
-  "grade": "Class 3",
+  "grade": "Class 4",
   "steps": {
-    "history_length": 10,
+    "history_length": 13,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3275,
-      "ens_prob": 0.1849,
-      "fastai_prob": 0.1027,
-      "fastai_rank": 3,
+      "ml_prob": 0.22,
+      "ens_prob": 0.155,
+      "fastai_prob": 0.0605,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,40 +21,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 314.0,
+      "avg_dist": 309.61538461538464,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 3 vs Field"
+      "current_vs_historic_grade": "Class 4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.0,
-      "fluctuation": 0.155555555555555,
+      "last_weight": 24.7,
+      "fluctuation": -0.17499999999999716,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 10,
-      "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": 2.6,
+      "total_starts": 13,
+      "last_3_avg_place": 5.0,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        2.0,
-        4.0,
         1.0,
         1.0,
         6.0,
         3.0,
         2.0,
         1.0,
-        1.0
+        1.0,
+        1.0,
+        7.0,
+        7.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -67,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 280268
+      "races_with_same_dogs": 282518
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -101,7 +102,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -110,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 8970.0
+      "career_prize": 11400.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -123,8 +124,8 @@
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.4444444444444444,
-      "place_rate": 0.7777777777777778
+      "win_rate": 0.4166666666666667,
+      "place_rate": 0.6666666666666666
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -135,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "DYNA VILLA",
       "dam": "HOMEBUSH FANTA",
-      "total_offspring_runs_in_state": 4446,
-      "sire_win_rate": 0.1329284750337382
+      "total_offspring_runs_in_state": 4513,
+      "sire_win_rate": 0.1333924218923111
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 82,
-      "litter_wins": 14
+      "total_litter_runs": 115,
+      "litter_wins": 21
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -175,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 10
+      "total_starts": 13
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.4207436399217221
+      "ewma_places": 5.553601953601953
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -190,19 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Poor Recent Form (>4.5 avg)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.103)"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)"

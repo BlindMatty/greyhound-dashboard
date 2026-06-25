@@ -9,12 +9,12 @@
     "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3041,
-      "ens_prob": 0.2048,
-      "fastai_prob": 0.1392,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.334,
+      "ens_prob": 0.2776,
+      "fastai_prob": 0.4292,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 794709
+      "races_with_same_dogs": 795054
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 6.9,
-      "avg_temp_c": 9.0,
+      "max_wind_kmh": 7.3,
+      "avg_temp_c": 10.3,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MEPUNGA BLAZER",
       "dam": "BLACK GEMSTONE",
-      "total_offspring_runs_in_state": 19445,
-      "sire_win_rate": 0.11612239650295705
+      "total_offspring_runs_in_state": 19449,
+      "sire_win_rate": 0.11609851406241967
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -187,13 +187,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 3, prob 0.139)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Clean Early Run (No adjacent pressure)",
@@ -201,7 +200,9 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.429)"
       ]
     }
   }

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2858,
-      "ens_prob": 0.311,
-      "fastai_prob": 0.6455,
+      "ml_prob": 0.3017,
+      "ens_prob": 0.2102,
+      "fastai_prob": 0.6513,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 717913
+      "races_with_same_dogs": 718332
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "ZIGGY STAR",
-      "total_offspring_runs_in_state": 8519,
-      "sire_win_rate": 0.16926869350862778
+      "total_offspring_runs_in_state": 8547,
+      "sire_win_rate": 0.16953316953316952
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -207,7 +207,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.645)"
+        "FastAI Strong Conviction (Rank 1, prob 0.651)"
       ]
     }
   }

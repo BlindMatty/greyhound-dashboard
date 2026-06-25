@@ -1,32 +1,32 @@
 {
   "dog": "MAJESTIC PEARL",
-  "date": "2026-05-21",
+  "date": "2026-06-25",
   "track": "NOW",
   "race": 7,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 13,
+    "history_length": 17,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1101,
-      "ens_prob": 0.2382,
-      "fastai_prob": 0.3863,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1518,
+      "ens_prob": 0.1708,
+      "fastai_prob": 0.3704,
+      "fastai_rank": 6,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 401.53846153846155,
+      "avg_dist": 420.29411764705884,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 24.1,
-      "fluctuation": 0.3090909090909122,
+      "last_weight": 23.8,
+      "fluctuation": 0.013333333333331865,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 13,
-      "last_3_avg_place": 6.333333333333333,
-      "last_5_avg_place": 5.4,
+      "total_starts": 17,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 3.6,
       "last_10_places": [
-        2.0,
-        5.0,
-        2.0,
-        2.0,
         2.0,
         1.0,
         7.0,
         7.0,
         6.0,
-        6.0
+        6.0,
+        3.0,
+        5.0,
+        1.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 708215
+      "races_with_same_dogs": 718332
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.544999999999998
+      "avg_run_home": 18.28142857142857
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.8299365502054379
+      "split_stdev": 2.123778123176599
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 10
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 2560.0
+      "career_prize": 5310.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: NOW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.09090909090909091,
-      "place_rate": 0.45454545454545453
+      "win_rate": 0.13333333333333333,
+      "place_rate": 0.5333333333333333
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "FEDERAL LILLY",
-      "total_offspring_runs_in_state": 9383,
-      "sire_win_rate": 0.1488862837045721
+      "total_offspring_runs_in_state": 10212,
+      "sire_win_rate": 0.1479631805718762
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 3,
-      "total_litter_runs": 17,
-      "litter_wins": 2
+      "litter_size_racing": 6,
+      "total_litter_runs": 37,
+      "litter_wins": 3
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 13
+      "total_starts": 17
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.916463116756229
+      "ewma_places": 2.9321878719443344
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -194,20 +194,17 @@
       "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.386)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

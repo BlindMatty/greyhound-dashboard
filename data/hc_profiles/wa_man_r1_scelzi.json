@@ -1,32 +1,32 @@
 {
   "dog": "SCELZI",
-  "date": "2026-05-15",
+  "date": "2026-06-26",
   "track": "MAN",
   "race": 1,
   "distance": 0,
   "grade": "Grade 6",
   "steps": {
-    "history_length": 33,
+    "history_length": 38,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1889,
-      "ens_prob": 0.2792,
-      "fastai_prob": 0.137,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1851,
+      "ens_prob": 0.1382,
+      "fastai_prob": 0.0339,
+      "fastai_rank": 9,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
-      "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "own_box": 1,
+      "has_inside_pressure": false,
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 381.75757575757575,
+      "avg_dist": 375.2631578947368,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 6 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.5,
-      "fluctuation": 0.06666666666666998,
+      "last_weight": 31.5,
+      "fluctuation": -0.9064516129032256,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 33,
-      "last_3_avg_place": 5.666666666666667,
-      "last_5_avg_place": 4.6,
+      "total_starts": 38,
+      "last_3_avg_place": 6.333333333333333,
+      "last_5_avg_place": 4.8,
       "last_10_places": [
-        2.0,
-        5.0,
-        5.0,
-        1.0,
         3.0,
         4.0,
         2.0,
         5.0,
         8.0,
-        4.0
+        4.0,
+        1.0,
+        6.0,
+        6.0,
+        7.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 213471
+      "races_with_same_dogs": 216556
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.980833333333331
+      "avg_run_home": 15.409642857142854
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.31895862027741995
+      "split_stdev": 0.301658554657221
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,17 +92,17 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Kody Charles"
+      "trainer": "Tracey Hine"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 2
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,38 +111,38 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 12743.0
+      "career_prize": 14050.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.4444444444444446
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -381
+      "dist_diff_from_last": -300
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: MAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.07407407407407407,
-      "place_rate": 0.48148148148148145
+      "win_rate": 0.0967741935483871,
+      "place_rate": 0.45161290322580644
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Kody Charles"
+      "trainer_lookup": "Tracey Hine"
     },
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "JORDAN SPARKLES",
-      "total_offspring_runs_in_state": 1575,
-      "sire_win_rate": 0.12063492063492064
+      "total_offspring_runs_in_state": 1708,
+      "sire_win_rate": 0.11826697892271663
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 130,
-      "litter_wins": 16
+      "total_litter_runs": 149,
+      "litter_wins": 20
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 33
+      "total_starts": 38
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.964046559959997
+      "ewma_places": 6.122752910537065
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,19 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
-        "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

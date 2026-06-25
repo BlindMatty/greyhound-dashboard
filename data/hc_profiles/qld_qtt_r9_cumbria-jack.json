@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3049,
-      "ens_prob": 0.5393,
-      "fastai_prob": 0.3793,
+      "ml_prob": 0.2386,
+      "ens_prob": 0.5674,
+      "fastai_prob": 0.5124,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410464
+      "races_with_same_dogs": 410755
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "CUMBRIA NINNO",
-      "total_offspring_runs_in_state": 55612,
-      "sire_win_rate": 0.1317701215564986
+      "total_offspring_runs_in_state": 55646,
+      "sire_win_rate": 0.13181540452143908
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -213,7 +213,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.379)"
+        "FastAI Strong Conviction (Rank 1, prob 0.512)"
       ]
     }
   }

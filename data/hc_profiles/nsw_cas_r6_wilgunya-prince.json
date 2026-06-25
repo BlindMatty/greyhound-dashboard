@@ -9,12 +9,12 @@
     "history_length": 25,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2647,
-      "ens_prob": 0.2678,
-      "fastai_prob": 0.4098,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2877,
+      "ens_prob": 0.348,
+      "fastai_prob": 0.5962,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 717913
+      "races_with_same_dogs": 718332
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "KNOW ALL JAMIE",
-      "total_offspring_runs_in_state": 12214,
-      "sire_win_rate": 0.1571966595709841
+      "total_offspring_runs_in_state": 12236,
+      "sire_win_rate": 0.15699575024517817
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -206,7 +206,9 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.596)"
       ]
     }
   }
