@@ -1,19 +1,19 @@
 {
   "dog": "HARA'S PUMPKIN",
-  "date": "2026-06-14",
+  "date": "2026-06-28",
   "track": "CAP",
   "race": 7,
   "distance": 0,
   "grade": "Free For All",
   "steps": {
-    "history_length": 30,
+    "history_length": 32,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2374,
-      "ens_prob": 0.2206,
-      "fastai_prob": 0.1791,
-      "fastai_rank": 3,
+      "ml_prob": 0.365,
+      "ens_prob": 0.2473,
+      "fastai_prob": 0.1896,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
-      "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "own_box": 6,
+      "has_inside_pressure": false,
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 397.4,
+      "avg_dist": 395.4375,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,19 +35,17 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 27.0,
-      "fluctuation": -0.2962962962962905,
+      "fluctuation": -0.27586206896551246,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 30,
+      "total_starts": 32,
       "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": 2.8,
+      "last_5_avg_place": 1.4,
       "last_10_places": [
-        1.0,
-        2.0,
         3.0,
         1.0,
         3.0,
@@ -55,6 +53,8 @@
         3.0,
         2.0,
         1.0,
+        1.0,
+        2.0,
         1.0
       ]
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 408347
+      "races_with_same_dogs": 411141
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,7 +77,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 19.08416666666667
+      "avg_run_home": 19.084166666666665
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 4
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 35345.0
+      "career_prize": 38320.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.5
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: CAP"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.4444444444444444,
-      "place_rate": 0.8148148148148148
+      "win_rate": 0.4482758620689655,
+      "place_rate": 0.8275862068965517
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "REJUVENATE",
       "dam": "HARA'S INDI",
-      "total_offspring_runs_in_state": 412,
-      "sire_win_rate": 0.1383495145631068
+      "total_offspring_runs_in_state": 417,
+      "sire_win_rate": 0.13908872901678657
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 63,
-      "litter_wins": 21
+      "total_litter_runs": 67,
+      "litter_wins": 22
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 30
+      "total_starts": 32
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.479674685594996
+      "ewma_places": 1.3699186711943125
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 8,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -200,7 +200,6 @@
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",

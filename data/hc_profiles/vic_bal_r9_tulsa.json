@@ -9,12 +9,12 @@
     "history_length": 12,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1873,
-      "ens_prob": 0.1258,
-      "fastai_prob": 0.1248,
-      "fastai_rank": 7,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1822,
+      "ens_prob": 0.1771,
+      "fastai_prob": 0.1494,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795425
+      "races_with_same_dogs": 795852
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.1,
-      "avg_temp_c": 7.4,
+      "max_wind_kmh": 13.5,
+      "avg_temp_c": 7.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -195,14 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "Wide Runner drawn Inside (Crash risk)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -211,7 +210,8 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

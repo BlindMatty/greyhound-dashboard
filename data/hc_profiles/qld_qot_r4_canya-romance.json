@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.294,
-      "ens_prob": 0.2904,
-      "fastai_prob": 0.1528,
-      "fastai_rank": 3,
+      "ml_prob": 0.2818,
+      "ens_prob": 0.2617,
+      "fastai_prob": 0.1172,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410921
+      "races_with_same_dogs": 411141
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "OPAL ROCKS",
-      "total_offspring_runs_in_state": 6423,
-      "sire_win_rate": 0.15304374902693446
+      "total_offspring_runs_in_state": 6435,
+      "sire_win_rate": 0.15322455322455322
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,11 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 15,
-      "decision": "PASS / CAUTION",
+      "final_score": 13,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

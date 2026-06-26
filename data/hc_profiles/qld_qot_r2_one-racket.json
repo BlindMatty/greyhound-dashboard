@@ -9,12 +9,12 @@
     "history_length": 19,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2189,
-      "ens_prob": 0.2933,
-      "fastai_prob": 0.4668,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2859,
+      "ens_prob": 0.2308,
+      "fastai_prob": 0.149,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410921
+      "races_with_same_dogs": 411141
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "JUST TERMS",
-      "total_offspring_runs_in_state": 8812,
-      "sire_win_rate": 0.12857467090331368
+      "total_offspring_runs_in_state": 8826,
+      "sire_win_rate": 0.12837072286426468
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -191,13 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 3, prob 0.149)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -206,9 +207,7 @@
         "Benefiting from inside track bias",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.467)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

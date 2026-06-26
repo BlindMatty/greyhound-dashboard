@@ -1,18 +1,18 @@
 {
   "dog": "BABY SASS",
-  "date": "2026-06-21",
+  "date": "2026-06-28",
   "track": "AUK",
   "race": 8,
   "distance": 0,
-  "grade": "Class 3",
+  "grade": "Class 4",
   "steps": {
-    "history_length": 16,
+    "history_length": 17,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3239,
-      "ens_prob": 0.33,
-      "fastai_prob": 0.136,
+      "ml_prob": 0.5731,
+      "ens_prob": 0.3356,
+      "fastai_prob": 0.1346,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -26,33 +26,33 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 332.25,
+      "avg_dist": 331.4117647058824,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 3 vs Field"
+      "current_vs_historic_grade": "Class 4 vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 24.4,
-      "fluctuation": 0.8062499999999986,
+      "fluctuation": 0.7588235294117638,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 16,
+      "total_starts": 17,
       "last_3_avg_place": 1.0,
-      "last_5_avg_place": 2.0,
+      "last_5_avg_place": 1.2,
       "last_10_places": [
-        1.0,
         2.0,
         1.0,
         7.0,
         2.0,
         5.0,
         2.0,
+        1.0,
         1.0,
         1.0,
         1.0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282095
+      "races_with_same_dogs": 282713
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 11560.0
+      "career_prize": 13390.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: AUK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3125,
-      "place_rate": 0.5625
+      "win_rate": 0.35294117647058826,
+      "place_rate": 0.5882352941176471
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "THRILLING BORIS",
       "dam": "ZOE STAR",
-      "total_offspring_runs_in_state": 4494,
-      "sire_win_rate": 0.12861593235425012
+      "total_offspring_runs_in_state": 4508,
+      "sire_win_rate": 0.12888198757763975
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 29,
-      "litter_wins": 5
+      "total_litter_runs": 34,
+      "litter_wins": 7
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 16
+      "total_starts": 17
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.2545662623025864
+      "ewma_places": 1.1272821600506595
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -201,7 +201,6 @@
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
-        "Small Field Advantage",
         "Strong Recent Form (<2.5 avg)",
         "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",

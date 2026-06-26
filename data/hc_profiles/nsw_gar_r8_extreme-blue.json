@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.341,
-      "ens_prob": 0.1757,
-      "fastai_prob": 0.5158,
-      "fastai_rank": 4,
+      "ml_prob": 0.2796,
+      "ens_prob": 0.1653,
+      "fastai_prob": 0.5794,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 718650
+      "races_with_same_dogs": 719039
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "LEVITATION",
-      "total_offspring_runs_in_state": 46037,
-      "sire_win_rate": 0.11846992636357712
+      "total_offspring_runs_in_state": 46040,
+      "sire_win_rate": 0.11848392701998263
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -189,14 +189,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
