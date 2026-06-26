@@ -9,12 +9,12 @@
     "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.11,
-      "ens_prob": 0.1741,
-      "fastai_prob": 0.5618,
-      "fastai_rank": 2,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1102,
+      "ens_prob": 0.1908,
+      "fastai_prob": 0.5141,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 718332
+      "races_with_same_dogs": 718650
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -115,9 +115,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 8.4,
-      "avg_temp_c": 11.8,
-      "total_precip_mm": 3.1,
+      "max_wind_kmh": 8.6,
+      "avg_temp_c": 12.0,
+      "total_precip_mm": 2.1,
       "is_wet": true,
       "is_hot": false
     },
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "HUNCA MUNCA",
-      "total_offspring_runs_in_state": 12236,
-      "sire_win_rate": 0.15699575024517817
+      "total_offspring_runs_in_state": 12259,
+      "sire_win_rate": 0.15702749000734154
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -189,7 +189,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -203,8 +203,7 @@
         "Professional Box Dog (Elite start consistency)",
         "Benefiting from inside track bias",
         "Elite Sire Line (>15% state win rate)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

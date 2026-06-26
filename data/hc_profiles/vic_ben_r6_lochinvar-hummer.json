@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3888,
-      "ens_prob": 0.2638,
-      "fastai_prob": 0.3529,
-      "fastai_rank": 2,
+      "ml_prob": 0.293,
+      "ens_prob": 0.2045,
+      "fastai_prob": 0.2447,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795054
+      "races_with_same_dogs": 795425
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,7 +122,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 9.8,
-      "avg_temp_c": 7.7,
+      "avg_temp_c": 8.2,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "CHILL EASY",
-      "total_offspring_runs_in_state": 63088,
-      "sire_win_rate": 0.13095992898808015
+      "total_offspring_runs_in_state": 63093,
+      "sire_win_rate": 0.13094955066330655
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -195,14 +195,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)"
+        "Wide Runner drawn Inside (Crash risk)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2794,
-      "ens_prob": 0.3017,
-      "fastai_prob": 0.6208,
+      "ml_prob": 0.2613,
+      "ens_prob": 0.2982,
+      "fastai_prob": 0.6382,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795054
+      "races_with_same_dogs": 795425
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -116,8 +116,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 5.6,
-      "avg_temp_c": 5.9,
+      "max_wind_kmh": 7.6,
+      "avg_temp_c": 7.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -135,12 +135,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "MEPUNGA BLAZER",
       "dam": "MEPUNGA RUBY",
-      "total_offspring_runs_in_state": 19539,
-      "sire_win_rate": 0.1168944162956139
+      "total_offspring_runs_in_state": 19541,
+      "sire_win_rate": 0.11693362673353462
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 26,
+      "total_litter_runs": 27,
       "litter_wins": 5
     },
     "35_Injury_History": {
@@ -203,7 +203,7 @@
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.621)"
+        "FastAI Strong Conviction (Rank 1, prob 0.638)"
       ]
     }
   }

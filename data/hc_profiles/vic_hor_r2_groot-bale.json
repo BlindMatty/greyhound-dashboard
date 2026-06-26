@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1937,
+      "ml_prob": 0.2004,
       "ens_prob": 0.3068,
-      "fastai_prob": 0.6012,
+      "fastai_prob": 0.5257,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -61,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795054
+      "races_with_same_dogs": 795425
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,8 +114,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 5.6,
-      "avg_temp_c": 5.9,
+      "max_wind_kmh": 7.6,
+      "avg_temp_c": 7.8,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -133,12 +133,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "KELSEY BALE",
-      "total_offspring_runs_in_state": 39589,
-      "sire_win_rate": 0.14736416681401399
+      "total_offspring_runs_in_state": 39644,
+      "sire_win_rate": 0.14731106850973666
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 38,
+      "total_litter_runs": 39,
       "litter_wins": 7
     },
     "35_Injury_History": {
@@ -201,7 +201,7 @@
         "Group/Feature Race Caliber",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.601)"
+        "FastAI Strong Conviction (Rank 1, prob 0.526)"
       ]
     }
   }

@@ -9,12 +9,12 @@
     "history_length": 28,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3019,
-      "ens_prob": 0.235,
-      "fastai_prob": 0.3752,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3104,
+      "ens_prob": 0.2286,
+      "fastai_prob": 0.3228,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795054
+      "races_with_same_dogs": 795425
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,7 +122,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 9.8,
-      "avg_temp_c": 7.7,
+      "avg_temp_c": 8.2,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "KALANY BALE",
-      "total_offspring_runs_in_state": 17913,
-      "sire_win_rate": 0.12700273544353263
+      "total_offspring_runs_in_state": 17920,
+      "sire_win_rate": 0.12700892857142856
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 127,
+      "total_litter_runs": 129,
       "litter_wins": 29
     },
     "35_Injury_History": {
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 3,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -205,9 +205,7 @@
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.375)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1235,
-      "ens_prob": 0.1901,
-      "fastai_prob": 0.1117,
+      "ml_prob": 0.135,
+      "ens_prob": 0.1992,
+      "fastai_prob": 0.1012,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410755
+      "races_with_same_dogs": 410921
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "RED HOT MOUSE",
-      "total_offspring_runs_in_state": 55746,
-      "sire_win_rate": 0.13186596347720017
+      "total_offspring_runs_in_state": 55770,
+      "sire_win_rate": 0.1318630087860857
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -199,7 +199,7 @@
         "Quick Backup (< 4 days)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.112)"
+        "FastAI Lukewarm (Rank 3, prob 0.101)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field"

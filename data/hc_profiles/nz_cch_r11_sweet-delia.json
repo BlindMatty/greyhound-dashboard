@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2841,
-      "ens_prob": 0.1623,
-      "fastai_prob": 0.087,
-      "fastai_rank": 3,
+      "ml_prob": 0.2707,
+      "ens_prob": 0.1567,
+      "fastai_prob": 0.1231,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282518
+      "races_with_same_dogs": 282713
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "FAIRLY ABLE",
-      "total_offspring_runs_in_state": 443,
-      "sire_win_rate": 0.2708803611738149
+      "total_offspring_runs_in_state": 449,
+      "sire_win_rate": 0.26948775055679286
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 145,
-      "litter_wins": 53
+      "total_litter_runs": 148,
+      "litter_wins": 54
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.087)"
+        "FastAI Lukewarm (Rank 2, prob 0.123)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

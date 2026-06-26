@@ -1,18 +1,18 @@
 {
   "dog": "WHERE'S THE LUCK",
-  "date": "2026-05-27",
+  "date": "2026-06-27",
   "track": "TAR",
   "race": 4,
   "distance": 0,
-  "grade": "Mixed 4/5",
+  "grade": "Non Graded",
   "steps": {
-    "history_length": 11,
+    "history_length": 15,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4246,
-      "ens_prob": 0.271,
-      "fastai_prob": 0.6793,
+      "ml_prob": 0.2885,
+      "ens_prob": 0.2299,
+      "fastai_prob": 0.4809,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,45 +21,45 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 5,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 307.27272727272725,
+      "avg_dist": 305.3333333333333,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed 4/5 vs Field"
+      "current_vs_historic_grade": "Non Graded vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 31.2,
-      "fluctuation": 0.07272727272727408,
+      "last_weight": 30.9,
+      "fluctuation": -0.29999999999999716,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 11,
-      "last_3_avg_place": 1.0,
-      "last_5_avg_place": 1.6,
+      "total_starts": 15,
+      "last_3_avg_place": 3.0,
+      "last_5_avg_place": 2.2,
       "last_10_places": [
-        6.0,
-        2.0,
-        1.0,
         1.0,
         1.0,
         3.0,
         2.0,
         1.0,
         1.0,
+        1.0,
+        2.0,
+        6.0,
         1.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": true
+      "consecutive_wins": false
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709712
+      "races_with_same_dogs": 718650
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.087
+      "avg_run_home": 11.85153846153846
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.2264714518578175
+      "split_stdev": 1.0975170111408705
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 3
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 9775.0
+      "career_prize": 11950.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: TAR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5454545454545454,
-      "place_rate": 0.8181818181818182
+      "win_rate": 0.5,
+      "place_rate": 0.7857142857142857
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "WHERE'S BONBON",
-      "total_offspring_runs_in_state": 101705,
-      "sire_win_rate": 0.13652229487242515
+      "total_offspring_runs_in_state": 102521,
+      "sire_win_rate": 0.1366549292340106
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 11,
-      "litter_wins": 6
+      "total_litter_runs": 15,
+      "litter_wins": 7
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 11
+      "total_starts": 15
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.1333659013190034
+      "ewma_places": 2.391747543185009
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,23 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
-        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
-        "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.679)"
+        "FastAI Strong Conviction (Rank 1, prob 0.481)"
       ]
     }
   }
