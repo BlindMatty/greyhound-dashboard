@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1671,
-      "ens_prob": 0.2417,
-      "fastai_prob": 0.2802,
+      "ml_prob": 0.1629,
+      "ens_prob": 0.2342,
+      "fastai_prob": 0.3068,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -22,7 +22,7 @@
     },
     "03_Speed_Map": {
       "own_box": 2,
-      "has_inside_pressure": false,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
       "total_starts": 1,
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795852
+      "races_with_same_dogs": 796077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "MEPUNGA ROXY",
-      "total_offspring_runs_in_state": 101591,
-      "sire_win_rate": 0.13249205146125148
+      "total_offspring_runs_in_state": 101620,
+      "sire_win_rate": 0.13250344420389687
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -158,7 +158,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -182,9 +182,10 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
@@ -194,8 +195,7 @@
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Benefiting from inside track bias"
       ]
     }
   }

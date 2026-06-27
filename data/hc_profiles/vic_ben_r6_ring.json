@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.418,
-      "ens_prob": 0.187,
-      "fastai_prob": 0.1491,
-      "fastai_rank": 5,
+      "ml_prob": 0.5057,
+      "ens_prob": 0.233,
+      "fastai_prob": 0.1408,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 5,
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795852
+      "races_with_same_dogs": 796077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -114,8 +114,12 @@
       "dist_diff_from_last": -390
     },
     "29_Live_Weather": {
-      "status": "error",
-      "message": "HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)"
+      "status": "success",
+      "max_wind_kmh": 13.0,
+      "avg_temp_c": 8.0,
+      "total_precip_mm": 0.1,
+      "is_wet": false,
+      "is_hot": false
     },
     "30_Non_Chaser": {
       "win_rate": 1.0,
@@ -130,13 +134,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "ZITA",
-      "total_offspring_runs_in_state": 39731,
-      "sire_win_rate": 0.14744154438599583
+      "total_offspring_runs_in_state": 39752,
+      "sire_win_rate": 0.14748943449386195
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 8,
-      "litter_wins": 4
+      "total_litter_runs": 9,
+      "litter_wins": 5
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -190,7 +194,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

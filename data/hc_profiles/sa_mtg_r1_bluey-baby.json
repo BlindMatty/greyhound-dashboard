@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 0,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
       "ml_prob": 0.2215,
-      "ens_prob": 0.2867,
-      "fastai_prob": 0.1679,
-      "fastai_rank": 2,
+      "ens_prob": 0.286,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -171,7 +171,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Inexperienced (< 3 starts)",
@@ -181,7 +181,8 @@
         "Clean Early Run (No adjacent pressure)",
         "Small Field Advantage",
         "Strong Head-to-Head Experience over field",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "2-Way Model Alignment"
       ]
     }
   }

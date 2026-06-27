@@ -9,12 +9,12 @@
     "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "alignment_count": 3,
       "ml_prob": 0.3483,
-      "ens_prob": 0.234,
-      "fastai_prob": 0.2,
-      "fastai_rank": 5,
-      "is_three_way": false
+      "ens_prob": 0.2465,
+      "fastai_prob": 0.2794,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -182,14 +182,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -198,7 +197,9 @@
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.279)"
       ]
     }
   }

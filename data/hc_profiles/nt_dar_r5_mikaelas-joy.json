@@ -11,9 +11,9 @@
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
       "ml_prob": 0.1642,
-      "ens_prob": 0.1869,
-      "fastai_prob": 0.193,
-      "fastai_rank": 4,
+      "ens_prob": 0.191,
+      "fastai_prob": 0.2421,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -182,15 +182,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Fresh (Needs Run / Missed work)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

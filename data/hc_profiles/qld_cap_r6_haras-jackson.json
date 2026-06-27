@@ -9,12 +9,12 @@
     "history_length": 37,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.359,
-      "ens_prob": 0.207,
-      "fastai_prob": 0.2904,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.3245,
+      "ens_prob": 0.1743,
+      "fastai_prob": 0.2551,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 411141
+      "races_with_same_dogs": 411217
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "HARA'S PENNY",
-      "total_offspring_runs_in_state": 6842,
-      "sire_win_rate": 0.1544869921075709
+      "total_offspring_runs_in_state": 6848,
+      "sire_win_rate": 0.15449766355140188
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -191,11 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
-      "decision": "PASS / CAUTION",
+      "final_score": 4,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -203,9 +204,7 @@
         "High Career Win Rate (>25%)",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.290)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

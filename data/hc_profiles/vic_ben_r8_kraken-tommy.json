@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1632,
-      "ens_prob": 0.2238,
-      "fastai_prob": 0.0986,
+      "ml_prob": 0.1896,
+      "ens_prob": 0.2448,
+      "fastai_prob": 0.0848,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 38,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795852
+      "races_with_same_dogs": 796077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 13.4,
+      "max_wind_kmh": 13.0,
       "avg_temp_c": 8.0,
-      "total_precip_mm": 0.3,
+      "total_precip_mm": 0.1,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "KRAKEN DOLL",
-      "total_offspring_runs_in_state": 14101,
-      "sire_win_rate": 0.12807602297709383
+      "total_offspring_runs_in_state": 14118,
+      "sire_win_rate": 0.1279926335174954
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -200,7 +200,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.099)"
+        "FastAI Lukewarm (Rank 2, prob 0.085)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

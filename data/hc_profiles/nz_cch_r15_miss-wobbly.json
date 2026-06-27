@@ -1,19 +1,19 @@
 {
   "dog": "MISS WOBBLY",
-  "date": "2026-06-15",
+  "date": "2026-06-29",
   "track": "CCH",
   "race": 15,
   "distance": 0,
   "grade": "Class 1",
   "steps": {
-    "history_length": 23,
+    "history_length": 26,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1693,
-      "ens_prob": 0.1649,
-      "fastai_prob": 0.106,
-      "fastai_rank": 4,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.4583,
+      "ens_prob": 0.3004,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 295.0,
+      "avg_dist": 298.65384615384613,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,20 +34,18 @@
       "current_vs_historic_grade": "Class 1 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 25.0,
-      "fluctuation": 0.17999999999999972,
+      "last_weight": 24.2,
+      "fluctuation": -0.55833333333333,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 23,
-      "last_3_avg_place": 5.333333333333333,
-      "last_5_avg_place": 5.2,
+      "total_starts": 26,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 4.0,
       "last_10_places": [
-        5.0,
-        1.0,
         7.0,
         7.0,
         5.0,
@@ -55,7 +53,9 @@
         7.0,
         6.0,
         4.0,
-        6.0
+        6.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 281378
+      "races_with_same_dogs": 282713
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -92,17 +92,17 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Tayla J MacMillan"
+      "trainer": "David J MacMillan"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
       "is_light": true
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 21
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 3570.0
+      "career_prize": 5150.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 1.0
@@ -124,25 +124,25 @@
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.1,
-      "place_rate": 0.2
+      "win_rate": 0.08333333333333333,
+      "place_rate": 0.3333333333333333
     },
     "31_Track_Archetypes": {
       "track_specialist": false
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Tayla J MacMillan"
+      "trainer_lookup": "David J MacMillan"
     },
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "THRILLING IZZY",
-      "total_offspring_runs_in_state": 689,
-      "sire_win_rate": 0.1988388969521045
+      "total_offspring_runs_in_state": 723,
+      "sire_win_rate": 0.20055325034578148
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 171,
-      "litter_wins": 47
+      "total_litter_runs": 180,
+      "litter_wins": 50
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 23
+      "total_starts": 26
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.453567937438905
+      "ewma_places": 2.862759462759463
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,23 +191,23 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Light/Frail Dog (<26kg) - Bump risk",
-        "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
+        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "2-Way Model Alignment"
       ]
     }
   }

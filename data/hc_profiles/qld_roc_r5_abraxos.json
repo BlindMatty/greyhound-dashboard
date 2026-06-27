@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1766,
-      "ens_prob": 0.2523,
-      "fastai_prob": 0.3113,
+      "ml_prob": 0.145,
+      "ens_prob": 0.2232,
+      "fastai_prob": 0.2989,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 411141
+      "races_with_same_dogs": 411217
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "SUPER ESTRELLA",
-      "total_offspring_runs_in_state": 8586,
-      "sire_win_rate": 0.13789890519450268
+      "total_offspring_runs_in_state": 8590,
+      "sire_win_rate": 0.1378346915017462
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -207,7 +207,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.311)"
+        "FastAI Strong Conviction (Rank 1, prob 0.299)"
       ]
     }
   }

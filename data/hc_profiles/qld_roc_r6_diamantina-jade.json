@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1348,
-      "ens_prob": 0.1849,
-      "fastai_prob": 0.1076,
+      "ml_prob": 0.0919,
+      "ens_prob": 0.1687,
+      "fastai_prob": 0.1493,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 411141
+      "races_with_same_dogs": 411217
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "DIAMANTINA ROSE",
-      "total_offspring_runs_in_state": 55691,
-      "sire_win_rate": 0.1318166310534916
+      "total_offspring_runs_in_state": 55700,
+      "sire_win_rate": 0.13179533213644523
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 2, prob 0.108)"
+        "FastAI Lukewarm (Rank 2, prob 0.149)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

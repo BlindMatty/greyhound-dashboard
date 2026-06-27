@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3703,
-      "ens_prob": 0.1996,
-      "fastai_prob": 0.116,
-      "fastai_rank": 2,
+      "ml_prob": 0.3741,
+      "ens_prob": 0.1398,
+      "fastai_prob": 0.0435,
+      "fastai_rank": 9,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 795852
+      "races_with_same_dogs": 796077
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -133,8 +133,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "EYE WILL REIGN",
-      "total_offspring_runs_in_state": 25294,
-      "sire_win_rate": 0.13177038032735036
+      "total_offspring_runs_in_state": 25302,
+      "sire_win_rate": 0.13176823966484863
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -188,13 +188,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.116)"
+        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1615,
-      "ens_prob": 0.2336,
-      "fastai_prob": 0.201,
+      "ml_prob": 0.1307,
+      "ens_prob": 0.2324,
+      "fastai_prob": 0.3295,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 411141
+      "races_with_same_dogs": 411217
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "LILLY BANNER",
-      "total_offspring_runs_in_state": 11600,
-      "sire_win_rate": 0.1264655172413793
+      "total_offspring_runs_in_state": 11608,
+      "sire_win_rate": 0.12655065472088214
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 11,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -204,7 +204,8 @@
         "Professional Box Dog (Elite start consistency)",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.330)"
       ]
     }
   }
