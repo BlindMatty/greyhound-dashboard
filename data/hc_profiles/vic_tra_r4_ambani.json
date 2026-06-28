@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2874,
-      "ens_prob": 0.1619,
-      "fastai_prob": 0.0626,
+      "ml_prob": 0.29,
+      "ens_prob": 0.15,
+      "fastai_prob": 0.047,
       "fastai_rank": 7,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796077
+      "races_with_same_dogs": 796294
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.9,
-      "avg_temp_c": 8.4,
-      "total_precip_mm": 10.1,
-      "is_wet": true,
+      "max_wind_kmh": 10.3,
+      "avg_temp_c": 8.8,
+      "total_precip_mm": 1.9,
+      "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "ZHENG",
-      "total_offspring_runs_in_state": 10177,
-      "sire_win_rate": 0.145819003635649
+      "total_offspring_runs_in_state": 10186,
+      "sire_win_rate": 0.14578833693304535
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,

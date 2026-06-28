@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 16,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
-      "ml_prob": 0.5574,
-      "ens_prob": 0.3697,
-      "fastai_prob": null,
-      "fastai_rank": null,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
+      "ml_prob": 0.2636,
+      "ens_prob": 0.24,
+      "fastai_prob": 0.08,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282713
+      "races_with_same_dogs": 283005
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "KEYBOW",
       "dam": "LADY SOBERS",
-      "total_offspring_runs_in_state": 2414,
-      "sire_win_rate": 0.08864954432477216
+      "total_offspring_runs_in_state": 2418,
+      "sire_win_rate": 0.08850289495450786
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 99,
+      "total_litter_runs": 101,
       "litter_wins": 20
     },
     "35_Injury_History": {
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.080)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
@@ -204,8 +205,7 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
-        "From an active winning litter (10+ wins)",
-        "2-Way Model Alignment"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

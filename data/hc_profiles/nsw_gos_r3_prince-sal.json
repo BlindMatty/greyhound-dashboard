@@ -1,19 +1,19 @@
 {
   "dog": "PRINCE SAL",
-  "date": "2026-04-23",
+  "date": "2026-06-30",
   "track": "GOS",
   "race": 3,
   "distance": 0,
   "grade": "Masters Grade 3",
   "steps": {
-    "history_length": 74,
+    "history_length": 78,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1282,
-      "ens_prob": 0.1133,
-      "fastai_prob": 0.04,
-      "fastai_rank": 6,
+      "ml_prob": 0.2453,
+      "ens_prob": 0.1531,
+      "fastai_prob": 0.0472,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 347.27027027027026,
+      "avg_dist": 349.35897435897436,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Masters Grade 3 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.2,
-      "fluctuation": 0.7062500000000007,
+      "last_weight": 30.0,
+      "fluctuation": 0.49104477611940567,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 74,
-      "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 4.0,
+      "total_starts": 78,
+      "last_3_avg_place": 4.0,
+      "last_5_avg_place": 4.8,
       "last_10_places": [
-        5.0,
-        6.0,
-        4.0,
         6.0,
         4.0,
         2.0,
         4.0,
         2.0,
         8.0,
-        4.0
+        4.0,
+        2.0,
+        8.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 699729
+      "races_with_same_dogs": 719639
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.62586206896552
+      "avg_run_home": 15.47737704918033
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.0874002216681995
+      "split_stdev": 2.388233634029632
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 21
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 17975.0
+      "career_prize": 18845.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 4.076923076923077
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -324
+      "dist_diff_from_last": -388
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: GOS"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.09375,
-      "place_rate": 0.390625
+      "win_rate": 0.08955223880597014,
+      "place_rate": 0.40298507462686567
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "SUPERIOR PANAMA",
       "dam": "DUCHESS ANNETTS",
-      "total_offspring_runs_in_state": 13374,
-      "sire_win_rate": 0.11806490204875131
+      "total_offspring_runs_in_state": 13908,
+      "sire_win_rate": 0.11691113028472822
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 189,
+      "total_litter_runs": 193,
       "litter_wins": 19
     },
     "35_Injury_History": {
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 74
+      "total_starts": 78
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.709037275272867
+      "ewma_places": 3.8386296594091083
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,23 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Wide Runner drawn Inside (Crash risk)",
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Wide Runner drawn Outside (Perfect Map)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense"
       ]
     }

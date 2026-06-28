@@ -8,13 +8,13 @@
   "steps": {
     "history_length": 12,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
-      "ml_prob": 0.3992,
-      "ens_prob": 0.2589,
-      "fastai_prob": null,
-      "fastai_rank": null,
-      "is_three_way": false
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 3,
+      "ml_prob": 0.304,
+      "ens_prob": 0.2326,
+      "fastai_prob": 0.0855,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282713
+      "races_with_same_dogs": 283005
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "KOBLENZ",
       "dam": "FAIRLY ABLE",
-      "total_offspring_runs_in_state": 449,
-      "sire_win_rate": 0.26948775055679286
+      "total_offspring_runs_in_state": 453,
+      "sire_win_rate": 0.271523178807947
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 148,
-      "litter_wins": 54
+      "total_litter_runs": 150,
+      "litter_wins": 55
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -204,7 +204,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "2-Way Model Alignment"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

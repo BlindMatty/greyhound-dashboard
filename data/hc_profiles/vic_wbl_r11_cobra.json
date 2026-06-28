@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1881,
-      "ens_prob": 0.2294,
-      "fastai_prob": 0.1117,
-      "fastai_rank": 2,
+      "ml_prob": 0.1874,
+      "ens_prob": 0.225,
+      "fastai_prob": 0.0728,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 19,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796077
+      "races_with_same_dogs": 796294
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "THANK YOU JILL",
-      "total_offspring_runs_in_state": 39639,
-      "sire_win_rate": 0.14753147153056334
+      "total_offspring_runs_in_state": 39661,
+      "sire_win_rate": 0.14747484934822622
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.112)"
+        "FastAI Lukewarm (Rank 3, prob 0.073)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

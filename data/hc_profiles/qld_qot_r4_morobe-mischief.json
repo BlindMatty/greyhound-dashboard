@@ -1,19 +1,19 @@
 {
   "dog": "MOROBE MISCHIEF",
-  "date": "2026-06-02",
+  "date": "2026-06-30",
   "track": "QOT",
   "race": 4,
   "distance": 0,
   "grade": "Grade 6",
   "steps": {
-    "history_length": 1,
+    "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1507,
-      "ens_prob": 0.1458,
-      "fastai_prob": 0.1145,
-      "fastai_rank": 8,
+      "ml_prob": 0.0991,
+      "ens_prob": 0.2505,
+      "fastai_prob": 0.2942,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -34,19 +34,20 @@
       "current_vs_historic_grade": "Grade 6 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.4,
-      "fluctuation": 0.0,
+      "last_weight": 29.6,
+      "fluctuation": -0.3999999999999986,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 1,
+      "total_starts": 2,
       "last_3_avg_place": null,
       "last_5_avg_place": null,
       "last_10_places": [
-        1.0
+        1.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -59,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 405998
+      "races_with_same_dogs": 411217
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -68,13 +69,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.18
+      "avg_run_home": 16.285
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": NaN
+      "split_stdev": 0.0424264068711932
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -90,7 +91,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 6
+      "days_since_last_run": 28
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -102,7 +103,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 1560.0
+      "career_prize": 1610.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -115,8 +116,8 @@
       "message": "Coordinates not mapped for track: QOT"
     },
     "30_Non_Chaser": {
-      "win_rate": 1.0,
-      "place_rate": 1.0
+      "win_rate": 0.5,
+      "place_rate": 0.5
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -127,13 +128,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "TUNGSTEN MISS",
-      "total_offspring_runs_in_state": 8329,
-      "sire_win_rate": 0.12126305678953056
+      "total_offspring_runs_in_state": 8665,
+      "sire_win_rate": 0.12233121754183497
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 3,
-      "litter_wins": 1
+      "total_litter_runs": 13,
+      "litter_wins": 3
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,13 +168,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 1
+      "total_starts": 2
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0
+      "ewma_places": 4.333333333333333
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -182,18 +183,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
+        "Professional Box Dog (Elite start consistency)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile"
       ]

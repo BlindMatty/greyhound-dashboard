@@ -9,12 +9,12 @@
     "history_length": 16,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2401,
-      "ens_prob": 0.2779,
-      "fastai_prob": 0.4483,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2197,
+      "ens_prob": 0.2462,
+      "fastai_prob": 0.4214,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796077
+      "races_with_same_dogs": 796294
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ALLEN DEED",
       "dam": "XAMIRA BALE",
-      "total_offspring_runs_in_state": 14467,
-      "sire_win_rate": 0.10644916015760006
+      "total_offspring_runs_in_state": 14471,
+      "sire_win_rate": 0.10641973602377168
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 176,
+      "total_litter_runs": 177,
       "litter_wins": 15
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 4,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -202,9 +202,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.448)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
