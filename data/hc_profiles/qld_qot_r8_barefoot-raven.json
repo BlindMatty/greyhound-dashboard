@@ -1,18 +1,18 @@
 {
   "dog": "BAREFOOT RAVEN",
-  "date": "2026-05-26",
+  "date": "2026-07-01",
   "track": "QOT",
   "race": 8,
   "distance": 0,
-  "grade": "Grade 6",
+  "grade": "Open",
   "steps": {
-    "history_length": 4,
+    "history_length": 11,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2038,
-      "ens_prob": 0.4394,
-      "fastai_prob": 0.4869,
+      "ml_prob": 0.2566,
+      "ens_prob": 0.3301,
+      "fastai_prob": 0.4343,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,32 +21,38 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 1,
       "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 384.75,
+      "avg_dist": 375.90909090909093,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 6 vs Field"
+      "current_vs_historic_grade": "Open vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.1,
-      "fluctuation": -0.22500000000000142,
+      "last_weight": 27.2,
+      "fluctuation": -0.009090909090911481,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 4,
+      "total_starts": 11,
       "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": null,
+      "last_5_avg_place": 1.6,
       "last_10_places": [
-        4.0,
+        2.0,
+        1.0,
+        2.0,
+        1.0,
+        3.0,
+        1.0,
+        2.0,
         2.0,
         1.0,
         2.0
@@ -62,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 404882
+      "races_with_same_dogs": 411764
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -71,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.692499999999999
+      "avg_run_home": 15.725714285714286
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.342897067023361
+      "split_stdev": 1.8765875818572797
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -93,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 5
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -105,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 3150.0
+      "career_prize": 10525.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -118,11 +124,11 @@
       "message": "Coordinates not mapped for track: QOT"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.25,
-      "place_rate": 0.75
+      "win_rate": 0.36363636363636365,
+      "place_rate": 0.9090909090909091
     },
     "31_Track_Archetypes": {
-      "track_specialist": false
+      "track_specialist": true
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "John Thompson"
@@ -130,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "PRIMO UNO",
       "dam": "TARKS TAMMY ROSE",
-      "total_offspring_runs_in_state": 425,
-      "sire_win_rate": 0.0988235294117647
+      "total_offspring_runs_in_state": 463,
+      "sire_win_rate": 0.1079913606911447
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 20,
-      "litter_wins": 6
+      "total_litter_runs": 42,
+      "litter_wins": 14
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -170,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 4
+      "total_starts": 11
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.8666666666666667
+      "ewma_places": 1.7254518808011725
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -185,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -195,10 +201,13 @@
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
+        "High Career Win Rate (>25%)",
+        "Proven Track Specialist Profile",
+        "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.487)"
+        "FastAI Strong Conviction (Rank 1, prob 0.434)"
       ]
     }
   }

@@ -1,18 +1,18 @@
 {
   "dog": "ROCKY BELL",
-  "date": "2026-05-16",
+  "date": "2026-07-01",
   "track": "TAR",
   "race": 12,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 50,
+    "history_length": 55,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1782,
-      "ens_prob": 0.13,
-      "fastai_prob": 0.5521,
+      "ml_prob": 0.1138,
+      "ens_prob": 0.1627,
+      "fastai_prob": 0.15,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -21,8 +21,8 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 4,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.9,
-      "fluctuation": -0.331707317073171,
-      "major_fluctuation": false
+      "last_weight": 27.4,
+      "fluctuation": -1.7288888888888927,
+      "major_fluctuation": true
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 50,
-      "last_3_avg_place": 4.0,
-      "last_5_avg_place": 3.2,
+      "total_starts": 55,
+      "last_3_avg_place": 6.0,
+      "last_5_avg_place": 6.0,
       "last_10_places": [
-        2.0,
-        4.0,
-        7.0,
-        7.0,
         4.0,
         1.0,
         3.0,
         2.0,
         3.0,
-        7.0
+        7.0,
+        5.0,
+        6.0,
+        6.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 706925
+      "races_with_same_dogs": 720063
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 11.373
+      "avg_run_home": 11.372272727272728
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.08920410189487815
+      "split_stdev": 0.09052349513384557
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 11
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: TAR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.125,
-      "place_rate": 0.4
+      "win_rate": 0.11363636363636363,
+      "place_rate": 0.36363636363636365
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "OUT OF RANGE",
       "dam": "COSMIC BELLE",
-      "total_offspring_runs_in_state": 1570,
-      "sire_win_rate": 0.1197452229299363
+      "total_offspring_runs_in_state": 1694,
+      "sire_win_rate": 0.11983471074380166
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 145,
+      "total_litter_runs": 158,
       "litter_wins": 18
     },
     "35_Injury_History": {
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 50
+      "total_starts": 55
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.879033223351943
+      "ewma_places": 5.867439576459553
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,19 +191,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": -5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)"
+        "Major Weight Fluctuation (>1.5kg diff)",
+        "Poor Recent Form (>4.5 avg)",
+        "Distance Shock (>= 100m diff last run)",
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
-        "Benefiting from inside track bias",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

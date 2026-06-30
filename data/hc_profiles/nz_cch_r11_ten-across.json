@@ -1,18 +1,18 @@
 {
   "dog": "TEN ACROSS",
-  "date": "2026-05-28",
+  "date": "2026-07-02",
   "track": "CCH",
   "race": 11,
   "distance": 0,
   "grade": "Class 5",
   "steps": {
-    "history_length": 8,
+    "history_length": 13,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.5938,
-      "ens_prob": 0.265,
-      "fastai_prob": 0.1118,
+      "ml_prob": 0.6702,
+      "ens_prob": 0.2897,
+      "fastai_prob": 0.1236,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 7,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 317.5,
+      "avg_dist": 310.61538461538464,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,22 +34,24 @@
       "current_vs_historic_grade": "Class 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 26.3,
-      "fluctuation": 0.2375000000000007,
+      "last_weight": 27.1,
+      "fluctuation": 0.76923076923077,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 8,
+      "total_starts": 13,
       "last_3_avg_place": 1.0,
-      "last_5_avg_place": 1.0,
+      "last_5_avg_place": 1.2,
       "last_10_places": [
         1.0,
         1.0,
         1.0,
         1.0,
+        1.0,
+        2.0,
         1.0,
         1.0,
         1.0,
@@ -66,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 279542
+      "races_with_same_dogs": 283237
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -109,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 15330.0
+      "career_prize": 29030.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -122,7 +124,7 @@
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 1.0,
+      "win_rate": 0.9230769230769231,
       "place_rate": 1.0
     },
     "31_Track_Archetypes": {
@@ -134,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "WHISKEY RIOT",
       "dam": "ISAVANA",
-      "total_offspring_runs_in_state": 2066,
-      "sire_win_rate": 0.25411423039690223
+      "total_offspring_runs_in_state": 2114,
+      "sire_win_rate": 0.2563859981078524
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 122,
-      "litter_wins": 47
+      "total_litter_runs": 142,
+      "litter_wins": 55
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -174,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 8
+      "total_starts": 13
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0
+      "ewma_places": 1.0312538151629838
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -189,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 13,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -197,6 +199,7 @@
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Recent Form (<2.5 avg)",
         "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",

@@ -1,20 +1,20 @@
 {
   "dog": "BILLY BOY REUBEN",
-  "date": "2026-05-07",
+  "date": "2026-07-02",
   "track": "SHP",
   "race": 10,
   "distance": 0,
   "grade": "Tier 3 - Grade 7",
   "steps": {
-    "history_length": 6,
+    "history_length": 13,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1769,
-      "ens_prob": 0.1326,
-      "fastai_prob": 0.1103,
-      "fastai_rank": 6,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1874,
+      "ens_prob": 0.2062,
+      "fastai_prob": 0.3848,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 368.3333333333333,
+      "avg_dist": 383.46153846153845,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,20 +34,26 @@
       "current_vs_historic_grade": "Tier 3 - Grade 7 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 34.1,
-      "fluctuation": 0.20000000000000284,
+      "last_weight": 34.7,
+      "fluctuation": 0.5000000000000071,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 6,
-      "last_3_avg_place": 5.333333333333333,
-      "last_5_avg_place": null,
+      "total_starts": 13,
+      "last_3_avg_place": 5.0,
+      "last_5_avg_place": 4.6,
       "last_10_places": [
         1.0,
         7.0,
+        6.0,
+        3.0,
+        4.0,
+        4.0,
+        4.0,
+        6.0,
         6.0,
         3.0
       ]
@@ -62,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 778780
+      "races_with_same_dogs": 796980
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -71,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.586875
+      "avg_run_home": 13.867750000000001
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.1909214718545558
+      "split_stdev": 1.7009722219954093
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -105,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 1680.0
+      "career_prize": 2175.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -118,8 +124,8 @@
       "message": "Coordinates not mapped for track: SHP"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.25,
-      "place_rate": 0.5
+      "win_rate": 0.1,
+      "place_rate": 0.3
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -130,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SLICK LASS",
-      "total_offspring_runs_in_state": 37696,
-      "sire_win_rate": 0.14781409168081494
+      "total_offspring_runs_in_state": 39738,
+      "sire_win_rate": 0.147516231315114
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 59,
-      "litter_wins": 18
+      "total_litter_runs": 97,
+      "litter_wins": 31
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -170,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 6
+      "total_starts": 13
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.2
+      "ewma_places": 4.253176930596285
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -185,22 +191,24 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.385)"
       ]
     }
   }

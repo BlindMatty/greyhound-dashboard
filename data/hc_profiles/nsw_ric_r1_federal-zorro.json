@@ -1,19 +1,19 @@
 {
   "dog": "FEDERAL ZORRO",
-  "date": "2026-06-17",
+  "date": "2026-07-01",
   "track": "RIC",
   "race": 1,
   "distance": 0,
   "grade": "Maiden",
   "steps": {
-    "history_length": 2,
+    "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1638,
-      "ens_prob": 0.1434,
-      "fastai_prob": 0.2781,
-      "fastai_rank": 5,
+      "ml_prob": 0.2065,
+      "ens_prob": 0.1389,
+      "fastai_prob": 0.2794,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,7 +21,7 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 6,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
@@ -34,18 +34,19 @@
       "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.7,
-      "fluctuation": -0.05000000000000071,
+      "last_weight": 27.4,
+      "fluctuation": -0.23333333333333783,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
-      "last_3_avg_place": null,
+      "total_starts": 5,
+      "last_3_avg_place": 3.0,
       "last_5_avg_place": null,
       "last_10_places": [
+        3.0,
         3.0,
         3.0
       ]
@@ -60,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 715772
+      "races_with_same_dogs": 720063
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +70,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.305
+      "avg_run_home": 16.27
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.1131370849898477
+      "split_stdev": 0.08020806277010649
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -103,7 +104,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 500.0
+      "career_prize": 750.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -113,9 +114,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 3.9,
-      "avg_temp_c": 13.5,
-      "total_precip_mm": 1.4,
+      "max_wind_kmh": 13.4,
+      "avg_temp_c": 15.3,
+      "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
     },
@@ -132,12 +133,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "FEDERAL LILLY",
-      "total_offspring_runs_in_state": 9994,
-      "sire_win_rate": 0.14848909345607364
+      "total_offspring_runs_in_state": 10350,
+      "sire_win_rate": 0.1472463768115942
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 29,
+      "total_litter_runs": 39,
       "litter_wins": 3
     },
     "35_Injury_History": {
@@ -172,7 +173,7 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 5
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
@@ -187,15 +188,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -9,
+      "final_score": -8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
