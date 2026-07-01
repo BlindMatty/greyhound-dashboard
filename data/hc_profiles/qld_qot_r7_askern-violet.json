@@ -1,18 +1,18 @@
 {
   "dog": "ASKERN VIOLET",
-  "date": "2026-06-26",
+  "date": "2026-07-03",
   "track": "QOT",
   "race": 7,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Open",
   "steps": {
-    "history_length": 12,
+    "history_length": 13,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2001,
-      "ens_prob": 0.2155,
-      "fastai_prob": 0.5367,
+      "ml_prob": 0.2867,
+      "ens_prob": 0.31,
+      "fastai_prob": 0.4787,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -26,25 +26,25 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 431.0,
+      "avg_dist": 427.84615384615387,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Open vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.6,
-      "fluctuation": -0.18888888888888644,
+      "last_weight": 27.9,
+      "fluctuation": 0.09999999999999787,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 12,
-      "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": 1.6,
+      "total_starts": 13,
+      "last_3_avg_place": 1.0,
+      "last_5_avg_place": 1.4,
       "last_10_places": [
         5.0,
         1.0,
@@ -54,11 +54,12 @@
         2.0,
         2.0,
         1.0,
+        1.0,
         1.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": false
+      "consecutive_wins": true
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -67,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410921
+      "races_with_same_dogs": 411830
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -76,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 19.261111111111113
+      "avg_run_home": 18.908
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.9198369420718
+      "split_stdev": 0.9260093592039625
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -98,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 6
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -110,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 19530.0
+      "career_prize": 21480.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -457
+      "dist_diff_from_last": -390
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: QOT"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3333333333333333,
-      "place_rate": 0.7777777777777778
+      "win_rate": 0.4,
+      "place_rate": 0.8
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -135,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "FLYING SEPTEMBER",
-      "total_offspring_runs_in_state": 7990,
-      "sire_win_rate": 0.10588235294117647
+      "total_offspring_runs_in_state": 8055,
+      "sire_win_rate": 0.10602110490378647
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 53,
-      "litter_wins": 17
+      "total_litter_runs": 55,
+      "litter_wins": 18
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -175,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 12
+      "total_starts": 13
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.289628180039139
+      "ewma_places": 1.144672531769306
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -190,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,6 +200,7 @@
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
+        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
@@ -206,7 +208,7 @@
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.537)"
+        "FastAI Strong Conviction (Rank 1, prob 0.479)"
       ]
     }
   }

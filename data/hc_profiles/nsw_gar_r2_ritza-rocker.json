@@ -1,19 +1,19 @@
 {
   "dog": "RITZA ROCKER",
-  "date": "2026-05-07",
+  "date": "2026-07-03",
   "track": "GAR",
   "race": 2,
   "distance": 0,
-  "grade": "Masters Grade 3",
+  "grade": "Masters Grade 1/2",
   "steps": {
-    "history_length": 56,
+    "history_length": 63,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.147,
-      "ens_prob": 0.1766,
-      "fastai_prob": 0.1778,
-      "fastai_rank": 3,
+      "ml_prob": 0.2333,
+      "ens_prob": 0.154,
+      "fastai_prob": 0.1501,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,41 +21,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 488.94642857142856,
+      "avg_dist": 479.06349206349205,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Masters Grade 3 vs Field"
+      "current_vs_historic_grade": "Masters Grade 1/2 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 31.0,
-      "fluctuation": -0.7958333333333307,
+      "last_weight": 31.4,
+      "fluctuation": -0.3781818181818153,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 56,
-      "last_3_avg_place": 2.6666666666666665,
-      "last_5_avg_place": 2.4,
+      "total_starts": 63,
+      "last_3_avg_place": 6.333333333333333,
+      "last_5_avg_place": 4.2,
       "last_10_places": [
-        3.0,
-        2.0,
-        7.0,
-        2.0,
-        6.0,
-        2.0,
-        2.0,
         2.0,
         4.0,
-        2.0
+        2.0,
+        1.0,
+        5.0,
+        1.0,
+        1.0,
+        7.0,
+        6.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 704228
+      "races_with_same_dogs": 720341
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 22.01255319148936
+      "avg_run_home": 20.704814814814817
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.5623858021529333
+      "split_stdev": 2.872737495800196
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,10 +99,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 33
+      "days_since_last_run": 13
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 29880.0
+      "career_prize": 34815.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.58974358974359
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: GAR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.08333333333333333,
-      "place_rate": 0.6041666666666666
+      "win_rate": 0.12727272727272726,
+      "place_rate": 0.5818181818181818
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "RITZA VONNIE",
-      "total_offspring_runs_in_state": 101573,
-      "sire_win_rate": 0.1368080100026582
+      "total_offspring_runs_in_state": 103019,
+      "sire_win_rate": 0.13679030081829566
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 221,
-      "litter_wins": 46
+      "total_litter_runs": 228,
+      "litter_wins": 49
     },
     "35_Injury_History": {
       "long_spells_count": 2
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 56
+      "total_starts": 63
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.584224424125152
+      "ewma_places": 5.574876753313478
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -194,17 +194,20 @@
       "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Fresh (Needs Run / Missed work)",
+        "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "Veteran Dog (>50 starts) - Racing sense"
       ]
     }

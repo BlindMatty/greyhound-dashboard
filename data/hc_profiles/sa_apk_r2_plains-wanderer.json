@@ -1,29 +1,29 @@
 {
   "dog": "PLAINS WANDERER",
-  "date": "2026-06-25",
+  "date": "2026-07-02",
   "track": "APK",
   "race": 2,
   "distance": 0,
   "grade": "Maiden",
   "steps": {
-    "history_length": 1,
+    "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.189,
-      "ens_prob": 0.176,
-      "fastai_prob": 0.07,
-      "fastai_rank": 4,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2384,
+      "ens_prob": 0.3004,
+      "fastai_prob": 0.0505,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "own_box": 5,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 530.0,
@@ -31,10 +31,10 @@
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Maiden vs Reserve"
+      "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 0.0,
+      "last_weight": 32.3,
       "fluctuation": 0.0,
       "major_fluctuation": false
     },
@@ -42,10 +42,12 @@
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 1,
+      "total_starts": 2,
       "last_3_avg_place": null,
       "last_5_avg_place": null,
-      "last_10_places": []
+      "last_10_places": [
+        2.0
+      ]
     },
     "09_Pattern_Recognition": {
       "consecutive_wins": false
@@ -57,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 218288
+      "races_with_same_dogs": 218707
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -66,7 +68,7 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": NaN
+      "avg_run_home": 25.56
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
@@ -85,13 +87,13 @@
     },
     "21_Size_Bumping": {
       "is_heavy": false,
-      "is_light": true
+      "is_light": false
     },
     "22_Quick_Backup": {
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -100,7 +102,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 0.0
+      "career_prize": 560.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -113,8 +115,8 @@
       "message": "Coordinates not mapped for track: APK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0,
-      "place_rate": 0
+      "win_rate": 0.0,
+      "place_rate": 1.0
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -125,12 +127,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BELLA INFRARED",
       "dam": "WOW SHE'S FAST",
-      "total_offspring_runs_in_state": 479,
-      "sire_win_rate": 0.14613778705636743
+      "total_offspring_runs_in_state": 481,
+      "sire_win_rate": 0.14553014553014554
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 5,
+      "total_litter_runs": 6,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -165,13 +167,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 1
+      "total_starts": 2
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 0
+      "ewma_places": 2.0
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -185,15 +187,14 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Non-Chaser Profile (Low Win / High Place)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

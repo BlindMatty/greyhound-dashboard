@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.18,
-      "ens_prob": 0.1511,
-      "fastai_prob": 0.0789,
+      "ml_prob": 0.1799,
+      "ens_prob": 0.1313,
+      "fastai_prob": 0.0841,
       "fastai_rank": 5,
       "is_three_way": false
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796980
+      "races_with_same_dogs": 797331
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -115,9 +115,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 40.2,
-      "avg_temp_c": 10.7,
-      "total_precip_mm": 12.7,
+      "max_wind_kmh": 33.7,
+      "avg_temp_c": 10.8,
+      "total_precip_mm": 12.9,
       "is_wet": true,
       "is_hot": false
     },
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "DAWN JUAN",
-      "total_offspring_runs_in_state": 13360,
-      "sire_win_rate": 0.13211077844311378
+      "total_offspring_runs_in_state": 13384,
+      "sire_win_rate": 0.13217274357441722
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,

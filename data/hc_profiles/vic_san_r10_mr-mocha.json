@@ -9,12 +9,12 @@
     "history_length": 18,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2847,
-      "ens_prob": 0.2243,
-      "fastai_prob": 0.1481,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2834,
+      "ens_prob": 0.2985,
+      "fastai_prob": 0.5053,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796980
+      "races_with_same_dogs": 797331
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 33.5,
-      "avg_temp_c": 10.7,
-      "total_precip_mm": 8.3,
+      "max_wind_kmh": 27.1,
+      "avg_temp_c": 10.8,
+      "total_precip_mm": 7.9,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "LOUD HOUSE",
-      "total_offspring_runs_in_state": 10201,
-      "sire_win_rate": 0.14577002254680912
+      "total_offspring_runs_in_state": 10218,
+      "sire_win_rate": 0.1456253669994128
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -195,20 +195,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.148)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "Group/Feature Race Caliber",
-        "High Career Win Rate (>25%)"
+        "High Career Win Rate (>25%)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.505)"
       ]
     }
   }

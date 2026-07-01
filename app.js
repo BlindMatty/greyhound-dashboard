@@ -60,16 +60,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); 
-  hide('nzCvCSection'); hide('nzCvCMeta'); 
-  hide('vicCvCSection'); hide('vicCvCMeta');
-  hide('nswCvCSection'); hide('nswCvCMeta');
-  hide('qldCvCSection'); hide('qldCvCMeta');
-  hide('waCvCSection'); hide('waCvCMeta');
-  hide('saCvCSection'); hide('saCvCMeta');
-  hide('tasCvCSection'); hide('tasCvCMeta');
-  hide('ntCvCSection'); hide('ntCvCMeta');
-  hide('hcSection'); hide('hcFa40Section'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('hcSection'); hide('hcFa40Section'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -121,68 +112,40 @@ function renderSummary(data) {
     show('summaryMeta');
   }
 
-  // Render Champion vs Challenger for all states
-  STATES.forEach(state => {
-    const cvc = data.championVsChallenger && data.championVsChallenger[state];
-    const stateName = STATE_NAMES[state] || state.toUpperCase();
-    const championCard = document.getElementById(`${state}ChampionCard`);
-    const challengerCard = document.getElementById(`${state}ChallengerCard`);
-    const meta = document.getElementById(`${state}CvCMeta`);
-    const section = document.getElementById(`${state}CvCSection`);
-    
-    if (championCard && challengerCard && section) {
-      // Reset
-      championCard.classList.remove('highlight');
-      challengerCard.classList.remove('highlight');
-      document.getElementById(`${state}ChampionSR`).textContent = '-';
-      document.getElementById(`${state}ChallengerSR`).textContent = '-';
-      document.getElementById(`${state}ChampionNote`).textContent = `Awaiting scored ${stateName} races`;
-      document.getElementById(`${state}ChallengerNote`).textContent = `Awaiting scored ${stateName} races`;
-      if (meta) {
-        meta.textContent = `Live ${stateName} Champion vs Challenger scoreboard will populate after the first ${state.toUpperCase()} result day scored for both models.`;
-        show(`${state}CvCMeta`);
-      }
-      show(`${state}CvCSection`);
-
-      // Populate with data if available
-      if (cvc && cvc.champion && cvc.challenger && championCard && challengerCard) {
-        document.getElementById(`${state}ChampionSR`).textContent = cvc.champion.strikeRate.toFixed(1) + '%';
-        document.getElementById(`${state}ChallengerSR`).textContent = cvc.challenger.strikeRate.toFixed(1) + '%';
-        document.getElementById(`${state}ChampionNote`).textContent = `${cvc.champion.winners}/${cvc.champion.bets} wins`;
-        document.getElementById(`${state}ChallengerNote`).textContent = `${cvc.challenger.winners}/${cvc.challenger.bets} wins`;
-
-        if (cvc.leader === 'champion') championCard.classList.add('highlight');
-        if (cvc.leader === 'challenger') challengerCard.classList.add('highlight');
-
-        const delta = Math.abs(Number(cvc.deltaStrikeRate || 0)).toFixed(1);
-        const leaderLabel = cvc.leader === 'tie'
-          ? 'Level on SR'
-          : `${cvc.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
-        if (meta) {
-          meta.textContent = `${leaderLabel} · Compared over ${cvc.comparedDates} ${state.toUpperCase()} result day${cvc.comparedDates === 1 ? '' : 's'} from ${cvc.startDate} to ${cvc.resultsDate}`;
-          show(`${state}CvCMeta`);
-        }
-      }
-    }
-  });
-
-  // Keep legacy NZ-only code for backward compatibility
   const nz = data.nzChampionVsChallenger;
-  if (!data.championVsChallenger || !data.championVsChallenger.nz) {
-    // Fallback to legacy NZ data if new format not present
-    const championCard = document.getElementById('nzChampionCard');
-    const challengerCard = document.getElementById('nzChallengerCard');
-    const nzMeta = document.getElementById('nzCvCMeta');
-    if (nz && nz.champion && nz.challenger && championCard && challengerCard) {
-      document.getElementById('nzChampionSR').textContent = nz.champion.strikeRate.toFixed(1) + '%';
-      document.getElementById('nzChallengerSR').textContent = nz.challenger.strikeRate.toFixed(1) + '%';
-      document.getElementById('nzChampionNote').textContent = `${nz.champion.winners}/${nz.champion.bets} wins`;
-      document.getElementById('nzChallengerNote').textContent = `${nz.challenger.winners}/${nz.challenger.bets} wins`;
-      if (nz.leader === 'champion') championCard.classList.add('highlight');
-      if (nz.leader === 'challenger') challengerCard.classList.add('highlight');
-      const delta = Math.abs(Number(nz.deltaStrikeRate || 0)).toFixed(1);
-      const leaderLabel = nz.leader === 'tie' ? 'Level on SR' : `${nz.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
-      if (nzMeta) nzMeta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
+  const championCard = document.getElementById('nzChampionCard');
+  const challengerCard = document.getElementById('nzChallengerCard');
+  const nzMeta = document.getElementById('nzCvCMeta');
+  if (championCard && challengerCard) {
+    championCard.classList.remove('highlight');
+    challengerCard.classList.remove('highlight');
+    document.getElementById('nzChampionSR').textContent = '-';
+    document.getElementById('nzChallengerSR').textContent = '-';
+    document.getElementById('nzChampionNote').textContent = 'Awaiting scored NZ races';
+    document.getElementById('nzChallengerNote').textContent = 'Awaiting scored NZ races';
+    if (nzMeta) {
+      nzMeta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
+      show('nzCvCMeta');
+    }
+    show('nzCvCSection');
+  }
+
+  if (nz && nz.champion && nz.challenger && championCard && challengerCard) {
+    document.getElementById('nzChampionSR').textContent = nz.champion.strikeRate.toFixed(1) + '%';
+    document.getElementById('nzChallengerSR').textContent = nz.challenger.strikeRate.toFixed(1) + '%';
+    document.getElementById('nzChampionNote').textContent = `${nz.champion.winners}/${nz.champion.bets} wins`;
+    document.getElementById('nzChallengerNote').textContent = `${nz.challenger.winners}/${nz.challenger.bets} wins`;
+
+    if (nz.leader === 'champion') championCard.classList.add('highlight');
+    if (nz.leader === 'challenger') challengerCard.classList.add('highlight');
+
+    const delta = Math.abs(Number(nz.deltaStrikeRate || 0)).toFixed(1);
+    const leaderLabel = nz.leader === 'tie'
+      ? 'Level on SR'
+      : `${nz.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
+    if (nzMeta) {
+      nzMeta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
+      show('nzCvCMeta');
     }
   }
 

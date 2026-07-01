@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1666,
-      "ens_prob": 0.0941,
-      "fastai_prob": 0.0826,
-      "fastai_rank": 10,
+      "ml_prob": 0.1983,
+      "ens_prob": 0.1174,
+      "fastai_prob": 0.0842,
+      "fastai_rank": 8,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 720063
+      "races_with_same_dogs": 720341
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "TANGELO FIRE",
-      "total_offspring_runs_in_state": 102720,
-      "sire_win_rate": 0.13666277258566978
+      "total_offspring_runs_in_state": 102741,
+      "sire_win_rate": 0.13663483906132898
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -199,7 +199,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 10 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -9,12 +9,12 @@
     "history_length": 72,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1383,
-      "ens_prob": 0.2194,
-      "fastai_prob": 0.1065,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1469,
+      "ens_prob": 0.2638,
+      "fastai_prob": 0.1859,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796980
+      "races_with_same_dogs": 797331
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 40.2,
-      "avg_temp_c": 10.7,
-      "total_precip_mm": 12.7,
+      "max_wind_kmh": 33.7,
+      "avg_temp_c": 10.8,
+      "total_precip_mm": 12.9,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "SILKY RIOT",
-      "total_offspring_runs_in_state": 14092,
-      "sire_win_rate": 0.12744819755889866
+      "total_offspring_runs_in_state": 14115,
+      "sire_win_rate": 0.1273822174991144
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -195,15 +195,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.106)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -211,7 +210,8 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

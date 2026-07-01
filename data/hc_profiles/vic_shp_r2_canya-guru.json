@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2726,
-      "ens_prob": 0.209,
-      "fastai_prob": 0.5306,
+      "alignment_count": 1,
+      "ml_prob": 0.2523,
+      "ens_prob": 0.2167,
+      "fastai_prob": 0.5112,
       "fastai_rank": 2,
-      "is_three_way": true
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796980
+      "races_with_same_dogs": 797331
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "CAYENNE MODEL",
-      "total_offspring_runs_in_state": 39810,
-      "sire_win_rate": 0.1477769404672193
+      "total_offspring_runs_in_state": 39842,
+      "sire_win_rate": 0.14775864665428443
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": -4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -194,8 +194,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }
