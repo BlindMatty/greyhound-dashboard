@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.209,
-      "ens_prob": 0.2144,
-      "fastai_prob": 0.1461,
+      "ml_prob": 0.2101,
+      "ens_prob": 0.2108,
+      "fastai_prob": 0.1095,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 797331
+      "races_with_same_dogs": 797738
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -83,7 +83,7 @@
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.8324085724715493
+      "split_stdev": 0.8324085724715494
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 37.4,
-      "avg_temp_c": 10.3,
-      "total_precip_mm": 2.1,
+      "max_wind_kmh": 36.1,
+      "avg_temp_c": 9.8,
+      "total_precip_mm": 3.5,
       "is_wet": true,
       "is_hot": false
     },

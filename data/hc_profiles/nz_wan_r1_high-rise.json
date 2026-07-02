@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1859,
-      "ens_prob": 0.1795,
-      "fastai_prob": 0.0638,
-      "fastai_rank": 3,
+      "ml_prob": 0.2081,
+      "ens_prob": 0.1791,
+      "fastai_prob": 0.0543,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -67,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 283347
+      "races_with_same_dogs": 283524
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "KEYBOW",
       "dam": "LADY SOBERS",
-      "total_offspring_runs_in_state": 2433,
-      "sire_win_rate": 0.08877928483353884
+      "total_offspring_runs_in_state": 2437,
+      "sire_win_rate": 0.08863356585966352
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -197,7 +197,7 @@
         "Dropping distance (Speed shock risk)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.064)"
+        "FastAI Lukewarm (Rank 2, prob 0.054)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

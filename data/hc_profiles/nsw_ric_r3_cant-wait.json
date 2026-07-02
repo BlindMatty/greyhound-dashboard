@@ -9,12 +9,12 @@
     "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.4909,
-      "ens_prob": 0.2395,
-      "fastai_prob": 0.6027,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.509,
+      "ens_prob": 0.2625,
+      "fastai_prob": 0.5707,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 720341
+      "races_with_same_dogs": 720723
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,7 +113,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 18.5,
-      "avg_temp_c": 13.3,
+      "avg_temp_c": 13.6,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "RED HOT MOUSE",
-      "total_offspring_runs_in_state": 8741,
-      "sire_win_rate": 0.17114746596499256
+      "total_offspring_runs_in_state": 8762,
+      "sire_win_rate": 0.17085140378908925
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -186,7 +186,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -200,7 +200,9 @@
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Elite Sire Line (>15% state win rate)"
+        "Elite Sire Line (>15% state win rate)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.571)"
       ]
     }
   }

@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2058,
-      "ens_prob": 0.2769,
-      "fastai_prob": 0.1551,
+      "ml_prob": 0.1787,
+      "ens_prob": 0.2504,
+      "fastai_prob": 0.141,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 411830
+      "races_with_same_dogs": 412228
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -131,12 +131,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "HARA'S PANDORA",
-      "total_offspring_runs_in_state": 11398,
-      "sire_win_rate": 0.12423232145990525
+      "total_offspring_runs_in_state": 11409,
+      "sire_win_rate": 0.12411254272942414
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 25,
+      "total_litter_runs": 26,
       "litter_wins": 4
     },
     "35_Injury_History": {
@@ -186,13 +186,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -7,
+      "final_score": -8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Non-Chaser Profile (Low Win / High Place)"
+        "Non-Chaser Profile (Low Win / High Place)",
+        "FastAI Lukewarm (Rank 2, prob 0.141)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field"

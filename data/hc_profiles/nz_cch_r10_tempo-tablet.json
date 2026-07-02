@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4488,
-      "ens_prob": 0.2435,
-      "fastai_prob": 0.0963,
+      "ml_prob": 0.527,
+      "ens_prob": 0.2717,
+      "fastai_prob": 0.0974,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 283347
+      "races_with_same_dogs": 283524
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZAMBORA BROCKIE",
       "dam": "PRETTY BUSY",
-      "total_offspring_runs_in_state": 3633,
-      "sire_win_rate": 0.18414533443435177
+      "total_offspring_runs_in_state": 3639,
+      "sire_win_rate": 0.1838417147568013
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 197,
+      "total_litter_runs": 198,
       "litter_wins": 48
     },
     "35_Injury_History": {
@@ -197,7 +197,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.096)"
+        "FastAI Lukewarm (Rank 2, prob 0.097)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

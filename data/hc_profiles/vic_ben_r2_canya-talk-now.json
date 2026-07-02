@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.4975,
-      "ens_prob": 0.2933,
-      "fastai_prob": 0.491,
+      "ml_prob": 0.5125,
+      "ens_prob": 0.3613,
+      "fastai_prob": 0.3396,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 797331
+      "races_with_same_dogs": 797738
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,9 +112,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.4,
-      "avg_temp_c": 8.7,
-      "total_precip_mm": 0.8,
+      "max_wind_kmh": 25.5,
+      "avg_temp_c": 8.5,
+      "total_precip_mm": 1.4,
       "is_wet": false,
       "is_hot": false
     },
@@ -131,8 +131,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "MODERN TALKING",
-      "total_offspring_runs_in_state": 13372,
-      "sire_win_rate": 0.1321417888124439
+      "total_offspring_runs_in_state": 13399,
+      "sire_win_rate": 0.13209941040376147
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -199,7 +199,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.491)"
+        "FastAI Strong Conviction (Rank 1, prob 0.340)"
       ]
     }
   }

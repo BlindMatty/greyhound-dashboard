@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1071,
-      "ens_prob": 0.1411,
-      "fastai_prob": 0.1752,
-      "fastai_rank": 4,
+      "ml_prob": 0.1037,
+      "ens_prob": 0.1318,
+      "fastai_prob": 0.0757,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 797331
+      "races_with_same_dogs": 797738
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "PERSUASION",
-      "total_offspring_runs_in_state": 24044,
-      "sire_win_rate": 0.10360173016137082
+      "total_offspring_runs_in_state": 24052,
+      "sire_win_rate": 0.10360884749708964
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 184,
+      "total_litter_runs": 186,
       "litter_wins": 13
     },
     "35_Injury_History": {
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",

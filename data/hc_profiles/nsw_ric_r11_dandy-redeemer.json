@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1517,
-      "ens_prob": 0.1232,
-      "fastai_prob": 0.0817,
-      "fastai_rank": 6,
+      "ml_prob": 0.1608,
+      "ens_prob": 0.1444,
+      "fastai_prob": 0.061,
+      "fastai_rank": 8,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 720341
+      "races_with_same_dogs": 720723
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -122,7 +122,7 @@
     "29_Live_Weather": {
       "status": "success",
       "max_wind_kmh": 18.5,
-      "avg_temp_c": 13.3,
+      "avg_temp_c": 13.6,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "CHAMPNESS MISS",
-      "total_offspring_runs_in_state": 12707,
-      "sire_win_rate": 0.09994491225308885
+      "total_offspring_runs_in_state": 12708,
+      "sire_win_rate": 0.09993704752911552
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -204,7 +204,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
