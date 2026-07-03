@@ -27,22 +27,49 @@ let activeState = null;
 // ── Init ────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', init);
 
+function getSydneyDateString() {
+  // Use Australia/Sydney to avoid stale latest.json pointer issues across cache/CDN delays.
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Australia/Sydney',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(new Date());
+}
+
+async function resolveInitialDate() {
+  const todaySydney = getSydneyDateString();
+
+  try {
+    const latest = await fetchJSON(`${DATA_DIR}/latest.json`);
+    const latestDate = String(latest?.date || '').trim();
+    if (!latestDate) return todaySydney;
+
+    // If latest is older than today (string compare works for YYYY-MM-DD),
+    // prefer today when today's summary file is available.
+    if (latestDate < todaySydney) {
+      try {
+        await fetchJSON(`${DATA_DIR}/summary_${todaySydney}.json`);
+        return todaySydney;
+      } catch {
+        return latestDate;
+      }
+    }
+
+    return latestDate;
+  } catch {
+    return todaySydney;
+  }
+}
+
 async function init() {
   const picker = document.getElementById('datePicker');
   document.getElementById('prevDay').addEventListener('click', () => shiftDay(-1));
   document.getElementById('nextDay').addEventListener('click', () => shiftDay(1));
   picker.addEventListener('change', () => loadDate(picker.value));
 
-  // Load latest.json to find default date
-  try {
-    const latest = await fetchJSON(`${DATA_DIR}/latest.json`);
-    loadDate(latest.date);
-  } catch {
-    // Fallback: today in AEST (UTC+11)
-    const now = new Date();
-    const aest = new Date(now.getTime() + (11 * 60 * 60 * 1000));
-    loadDate(aest.toISOString().slice(0, 10));
-  }
+  const initialDate = await resolveInitialDate();
+  loadDate(initialDate);
 }
 
 // ── Date navigation ─────────────────────────────────
