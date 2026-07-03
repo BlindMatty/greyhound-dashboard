@@ -1,18 +1,18 @@
 {
   "dog": "DYNAMIC KIWI",
-  "date": "2026-05-03",
+  "date": "2026-07-05",
   "track": "AUK",
   "race": 1,
   "distance": 0,
   "grade": "Special Conditions age  - penalty free",
   "steps": {
-    "history_length": 110,
+    "history_length": 117,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.111,
-      "ens_prob": 0.1705,
-      "fastai_prob": 0.38,
+      "ml_prob": 0.1565,
+      "ens_prob": 0.1777,
+      "fastai_prob": 0.0368,
       "fastai_rank": 4,
       "is_three_way": false
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 4,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 340.07272727272726,
+      "avg_dist": 339.2393162393162,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Special Conditions age  - penalty free vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.6,
-      "fluctuation": 0.08484848484848939,
+      "last_weight": 29.2,
+      "fluctuation": 0.6462264150943398,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 110,
-      "last_3_avg_place": 2.6666666666666665,
-      "last_5_avg_place": 3.8,
+      "total_starts": 117,
+      "last_3_avg_place": 4.333333333333333,
+      "last_5_avg_place": 4.2,
       "last_10_places": [
         3.0,
-        7.0,
-        7.0,
-        4.0,
-        4.0,
-        4.0,
-        7.0,
-        3.0,
         1.0,
-        4.0
+        4.0,
+        4.0,
+        3.0,
+        3.0,
+        5.0,
+        3.0,
+        7.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 276924
+      "races_with_same_dogs": 283524
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -102,7 +102,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 36590.0
+      "career_prize": 39560.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.810810810810811
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: AUK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.08080808080808081,
-      "place_rate": 0.47474747474747475
+      "win_rate": 0.07547169811320754,
+      "place_rate": 0.4811320754716981
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "PINNY MACK",
       "dam": "KIWI GAL",
-      "total_offspring_runs_in_state": 1983,
-      "sire_win_rate": 0.10237014624306606
+      "total_offspring_runs_in_state": 2061,
+      "sire_win_rate": 0.10043668122270742
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 110,
+      "total_litter_runs": 117,
       "litter_wins": 8
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 110
+      "total_starts": 117
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.328099445245659
+      "ewma_places": 4.135375776915982
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -201,10 +201,10 @@
         "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Veteran Dog (>50 starts) - Racing sense"
       ]

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2269,
-      "ens_prob": 0.1833,
-      "fastai_prob": 0.1286,
-      "fastai_rank": 5,
+      "ml_prob": 0.2317,
+      "ens_prob": 0.1847,
+      "fastai_prob": 0.2805,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 412228
+      "races_with_same_dogs": 412338
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "PRINCESS KIWI",
-      "total_offspring_runs_in_state": 9038,
-      "sire_win_rate": 0.1271298959946891
+      "total_offspring_runs_in_state": 9052,
+      "sire_win_rate": 0.12726469288555015
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

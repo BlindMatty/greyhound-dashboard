@@ -1,18 +1,18 @@
 {
   "dog": "LADY GUNAI",
-  "date": "2026-05-24",
+  "date": "2026-07-05",
   "track": "HVL",
   "race": 8,
   "distance": 0,
   "grade": "Free For All",
   "steps": {
-    "history_length": 34,
+    "history_length": 39,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3564,
-      "ens_prob": 0.1479,
-      "fastai_prob": 0.132,
+      "ml_prob": 0.3058,
+      "ens_prob": 0.1503,
+      "fastai_prob": 0.1271,
       "fastai_rank": 4,
       "is_three_way": false
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
-      "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "own_box": 1,
+      "has_inside_pressure": false,
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 341.61764705882354,
+      "avg_dist": 341.4102564102564,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Free For All vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.6,
-      "fluctuation": 0.4870967741935459,
+      "last_weight": 27.4,
+      "fluctuation": 0.2555555555555564,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 34,
-      "last_3_avg_place": 2.6666666666666665,
+      "total_starts": 39,
+      "last_3_avg_place": 3.0,
       "last_5_avg_place": 2.4,
       "last_10_places": [
-        4.0,
-        2.0,
-        3.0,
-        6.0,
-        5.0,
         1.0,
         3.0,
         3.0,
         2.0,
-        3.0
+        3.0,
+        1.0,
+        2.0,
+        5.0,
+        2.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 784539
+      "races_with_same_dogs": 798137
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 13.092500000000001
+      "avg_run_home": 13.058096774193551
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.0486592614562564
+      "split_stdev": 1.9824809373829282
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -102,7 +102,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": false
+      "inside_bias_assumed": true
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 23370.0
+      "career_prize": 27000.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 2.3
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.26666666666666666,
-      "place_rate": 0.6333333333333333
+      "win_rate": 0.2571428571428571,
+      "place_rate": 0.6571428571428571
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "GUNAI WHISPER",
-      "total_offspring_runs_in_state": 9627,
-      "sire_win_rate": 0.14708631972577127
+      "total_offspring_runs_in_state": 10259,
+      "sire_win_rate": 0.14562822887220978
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 4,
-      "total_litter_runs": 64,
-      "litter_wins": 13
+      "litter_size_racing": 5,
+      "total_litter_runs": 75,
+      "litter_wins": 16
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 34
+      "total_starts": 39
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.7402035200411485
+      "ewma_places": 2.366881359990421
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -202,6 +202,7 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
+        "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "From an active winning litter (10+ wins)",

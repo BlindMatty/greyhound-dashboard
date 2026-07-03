@@ -1,19 +1,19 @@
 {
   "dog": "ANGRY FRIENDSHIP",
-  "date": "2026-04-23",
+  "date": "2026-07-05",
   "track": "NOW",
   "race": 5,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Grade 4",
   "steps": {
-    "history_length": 24,
+    "history_length": 39,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.0979,
-      "ens_prob": 0.1393,
-      "fastai_prob": 0.1774,
-      "fastai_rank": 5,
+      "ml_prob": 0.1803,
+      "ens_prob": 0.1781,
+      "fastai_prob": 0.14,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,41 +21,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
-      "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "own_box": 4,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 403.75,
+      "avg_dist": 413.61538461538464,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Grade 4 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.5,
-      "fluctuation": 0.20000000000000284,
+      "last_weight": 27.8,
+      "fluctuation": 0.2852941176470587,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 24,
+      "total_starts": 39,
       "last_3_avg_place": 4.333333333333333,
-      "last_5_avg_place": 3.8,
+      "last_5_avg_place": 5.4,
       "last_10_places": [
         7.0,
+        3.0,
         4.0,
-        4.0,
-        8.0,
-        8.0,
-        1.0,
         5.0,
+        1.0,
+        7.0,
+        7.0,
         4.0,
-        2.0,
-        7.0
+        7.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 700152
+      "races_with_same_dogs": 721075
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.669473684210526
+      "avg_run_home": 17.20875
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.087835836346374
+      "split_stdev": 2.140001130539346
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 3
+      "days_since_last_run": 6
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 4735.0
+      "career_prize": 7720.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 4.0
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -520
+      "dist_diff_from_last": -365
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: NOW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.09523809523809523,
-      "place_rate": 0.2857142857142857
+      "win_rate": 0.08823529411764706,
+      "place_rate": 0.2647058823529412
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "SPRING AGATHA",
-      "total_offspring_runs_in_state": 100865,
-      "sire_win_rate": 0.13664799484459425
+      "total_offspring_runs_in_state": 102740,
+      "sire_win_rate": 0.1366167023554604
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 7,
-      "total_litter_runs": 110,
-      "litter_wins": 14
+      "litter_size_racing": 8,
+      "total_litter_runs": 168,
+      "litter_wins": 18
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 24
+      "total_starts": 39
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.066690953584172
+      "ewma_places": 3.995491539360693
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,18 +191,17 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Quick Backup (< 4 days)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)"
       ]

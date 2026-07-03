@@ -1,32 +1,32 @@
 {
   "dog": "PORTLAND FONZIE",
-  "date": "2026-06-21",
+  "date": "2026-07-05",
   "track": "AUK",
   "race": 9,
   "distance": 0,
   "grade": "Mixed grade 4/5",
   "steps": {
-    "history_length": 35,
+    "history_length": 37,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.5163,
-      "ens_prob": 0.2429,
-      "fastai_prob": 0.1467,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.7445,
+      "ens_prob": 0.286,
+      "fastai_prob": 0.113,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 5,
+      "own_box": 6,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 429.42857142857144,
+      "avg_dist": 434.7027027027027,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,23 +34,23 @@
       "current_vs_historic_grade": "Mixed grade 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.6,
-      "fluctuation": -0.4090909090908994,
+      "last_weight": 34.0,
+      "fluctuation": -0.01999999999999602,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 6
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 35,
+      "total_starts": 37,
       "last_3_avg_place": 1.0,
       "last_5_avg_place": 1.0,
       "last_10_places": [
-        2.0,
-        6.0,
         1.0,
         1.0,
         6.0,
+        1.0,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282095
+      "races_with_same_dogs": 283524
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 72180.0
+      "career_prize": 79380.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: AUK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.5757575757575758,
-      "place_rate": 0.7878787878787878
+      "win_rate": 0.6,
+      "place_rate": 0.8
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "PORTLAND DREAM",
-      "total_offspring_runs_in_state": 23476,
-      "sire_win_rate": 0.15415743738285909
+      "total_offspring_runs_in_state": 23626,
+      "sire_win_rate": 0.15398290019470076
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 11,
-      "total_litter_runs": 354,
-      "litter_wins": 86
+      "total_litter_runs": 376,
+      "litter_wins": 89
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 35
+      "total_starts": 37
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0890565216644965
+      "ewma_places": 1.0222641304141802
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 12,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.147)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -208,7 +207,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
