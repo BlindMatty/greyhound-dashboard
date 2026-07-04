@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3058,
-      "ens_prob": 0.1503,
-      "fastai_prob": 0.1271,
-      "fastai_rank": 4,
+      "ml_prob": 0.2849,
+      "ens_prob": 0.1906,
+      "fastai_prob": 0.1362,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 39,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 798137
+      "races_with_same_dogs": 798355
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "GUNAI WHISPER",
-      "total_offspring_runs_in_state": 10259,
-      "sire_win_rate": 0.14562822887220978
+      "total_offspring_runs_in_state": 10269,
+      "sire_win_rate": 0.14558379589054435
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,13 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Lukewarm (Rank 2, prob 0.136)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

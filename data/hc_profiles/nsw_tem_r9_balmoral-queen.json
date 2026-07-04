@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4475,
-      "ens_prob": 0.2289,
-      "fastai_prob": 0.3588,
-      "fastai_rank": 4,
+      "ml_prob": 0.4716,
+      "ens_prob": 0.2082,
+      "fastai_prob": 0.3722,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 721075
+      "races_with_same_dogs": 721424
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BLASTER",
       "dam": "LOLLOBRIGIDA",
-      "total_offspring_runs_in_state": 1206,
-      "sire_win_rate": 0.11857379767827529
+      "total_offspring_runs_in_state": 1207,
+      "sire_win_rate": 0.11847555923777962
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -196,7 +196,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

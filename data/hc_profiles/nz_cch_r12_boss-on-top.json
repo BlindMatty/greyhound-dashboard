@@ -1,18 +1,18 @@
 {
   "dog": "BOSS ON TOP",
-  "date": "2026-07-03",
+  "date": "2026-07-06",
   "track": "CCH",
   "race": 12,
   "distance": 0,
-  "grade": "Class 5",
+  "grade": "Special Conditions age  - penalty free",
   "steps": {
     "history_length": 26,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.5343,
-      "ens_prob": 0.3329,
-      "fastai_prob": 0.1065,
+      "ml_prob": 0.5922,
+      "ens_prob": 0.2747,
+      "fastai_prob": 0.0879,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,9 +21,9 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 7,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 312.6923076923077,
@@ -31,7 +31,7 @@
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Class 5 vs Field"
+      "current_vs_historic_grade": "Special Conditions age  - penalty free vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 33.2,
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 10
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -191,10 +191,9 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 14,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
@@ -208,6 +207,7 @@
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }

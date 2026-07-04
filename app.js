@@ -2,6 +2,7 @@
 
 const DATA_DIR = './data';
 const STATES = ['vic','nsw','qld','wa','sa','tas','nz','nt'];
+const CVC_STATES = ['vic','nsw','qld','wa','sa','tas','nz','nt'];
 const STATE_NAMES = {
   vic:'Victoria', nsw:'New South Wales', qld:'Queensland', wa:'Western Australia',
   sa:'South Australia', tas:'Tasmania', nz:'New Zealand', nt:'Northern Territory'
@@ -27,49 +28,22 @@ let activeState = null;
 // ── Init ────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', init);
 
-function getSydneyDateString() {
-  // Use Australia/Sydney to avoid stale latest.json pointer issues across cache/CDN delays.
-  return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Australia/Sydney',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  }).format(new Date());
-}
-
-async function resolveInitialDate() {
-  const todaySydney = getSydneyDateString();
-
-  try {
-    const latest = await fetchJSON(`${DATA_DIR}/latest.json`);
-    const latestDate = String(latest?.date || '').trim();
-    if (!latestDate) return todaySydney;
-
-    // If latest is older than today (string compare works for YYYY-MM-DD),
-    // prefer today when today's summary file is available.
-    if (latestDate < todaySydney) {
-      try {
-        await fetchJSON(`${DATA_DIR}/summary_${todaySydney}.json`);
-        return todaySydney;
-      } catch {
-        return latestDate;
-      }
-    }
-
-    return latestDate;
-  } catch {
-    return todaySydney;
-  }
-}
-
 async function init() {
   const picker = document.getElementById('datePicker');
   document.getElementById('prevDay').addEventListener('click', () => shiftDay(-1));
   document.getElementById('nextDay').addEventListener('click', () => shiftDay(1));
   picker.addEventListener('change', () => loadDate(picker.value));
 
-  const initialDate = await resolveInitialDate();
-  loadDate(initialDate);
+  // Load latest.json to find default date
+  try {
+    const latest = await fetchJSON(`${DATA_DIR}/latest.json`);
+    loadDate(latest.date);
+  } catch {
+    // Fallback: today in AEST (UTC+11)
+    const now = new Date();
+    const aest = new Date(now.getTime() + (11 * 60 * 60 * 1000));
+    loadDate(aest.toISOString().slice(0, 10));
+  }
 }
 
 // ── Date navigation ─────────────────────────────────
@@ -87,7 +61,11 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('nzCvCSection'); hide('nzCvCMeta'); hide('hcSection'); hide('hcFa40Section'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('hcSection'); hide('hcFa40Section'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  CVC_STATES.forEach((code) => {
+    hide(`${code}CvCSection`);
+    hide(`${code}CvCMeta`);
+  });
 
   try {
     summaryData = await fetchJSON(`${DATA_DIR}/summary_${dateStr}.json`);
@@ -139,44 +117,61 @@ function renderSummary(data) {
     show('summaryMeta');
   }
 
-  const nz = data.nzChampionVsChallenger;
-  const championCard = document.getElementById('nzChampionCard');
-  const challengerCard = document.getElementById('nzChallengerCard');
-  const nzMeta = document.getElementById('nzCvCMeta');
-  if (championCard && challengerCard) {
-    championCard.classList.remove('highlight');
-    challengerCard.classList.remove('highlight');
-    document.getElementById('nzChampionSR').textContent = '-';
-    document.getElementById('nzChallengerSR').textContent = '-';
-    document.getElementById('nzChampionNote').textContent = 'Awaiting scored NZ races';
-    document.getElementById('nzChallengerNote').textContent = 'Awaiting scored NZ races';
-    if (nzMeta) {
-      nzMeta.textContent = 'Live NZ Champion vs Challenger scoreboard will populate after the first NZ result day scored for both models.';
-      show('nzCvCMeta');
-    }
-    show('nzCvCSection');
-  }
-
-  if (nz && nz.champion && nz.challenger && championCard && challengerCard) {
-    document.getElementById('nzChampionSR').textContent = nz.champion.strikeRate.toFixed(1) + '%';
-    document.getElementById('nzChallengerSR').textContent = nz.challenger.strikeRate.toFixed(1) + '%';
-    document.getElementById('nzChampionNote').textContent = `${nz.champion.winners}/${nz.champion.bets} wins`;
-    document.getElementById('nzChallengerNote').textContent = `${nz.challenger.winners}/${nz.challenger.bets} wins`;
-
-    if (nz.leader === 'champion') championCard.classList.add('highlight');
-    if (nz.leader === 'challenger') challengerCard.classList.add('highlight');
-
-    const delta = Math.abs(Number(nz.deltaStrikeRate || 0)).toFixed(1);
-    const leaderLabel = nz.leader === 'tie'
-      ? 'Level on SR'
-      : `${nz.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
-    if (nzMeta) {
-      nzMeta.textContent = `${leaderLabel} · Compared over ${nz.comparedDates} NZ result day${nz.comparedDates === 1 ? '' : 's'} from ${nz.startDate} to ${nz.resultsDate}`;
-      show('nzCvCMeta');
-    }
-  }
+  const allStateCvC = data.stateChampionVsChallenger || {};
+  CVC_STATES.forEach((stateCode) => {
+    const summary = allStateCvC[stateCode] || (stateCode === 'nz' ? data.nzChampionVsChallenger : null);
+    renderStateCvC(stateCode, summary);
+  });
 
   show('summaryBar');
+}
+
+function renderStateCvC(stateCode, summary) {
+  const championCard = document.getElementById(`${stateCode}ChampionCard`);
+  const challengerCard = document.getElementById(`${stateCode}ChallengerCard`);
+  const championSr = document.getElementById(`${stateCode}ChampionSR`);
+  const challengerSr = document.getElementById(`${stateCode}ChallengerSR`);
+  const championNote = document.getElementById(`${stateCode}ChampionNote`);
+  const challengerNote = document.getElementById(`${stateCode}ChallengerNote`);
+  const meta = document.getElementById(`${stateCode}CvCMeta`);
+
+  if (!championCard || !challengerCard || !championSr || !challengerSr || !championNote || !challengerNote) {
+    return;
+  }
+
+  championCard.classList.remove('highlight');
+  challengerCard.classList.remove('highlight');
+  championSr.textContent = '-';
+  challengerSr.textContent = '-';
+  championNote.textContent = `Awaiting scored ${stateCode.toUpperCase()} races`;
+  challengerNote.textContent = `Awaiting scored ${stateCode.toUpperCase()} races`;
+
+  if (meta) {
+    meta.textContent = `Live ${stateCode.toUpperCase()} Champion vs Challenger scoreboard will populate after the first ${stateCode.toUpperCase()} result day scored for both models.`;
+    show(`${stateCode}CvCMeta`);
+  }
+  show(`${stateCode}CvCSection`);
+
+  if (!summary || !summary.champion || !summary.challenger) {
+    return;
+  }
+
+  championSr.textContent = summary.champion.strikeRate.toFixed(1) + '%';
+  challengerSr.textContent = summary.challenger.strikeRate.toFixed(1) + '%';
+  championNote.textContent = `${summary.champion.winners}/${summary.champion.bets} wins`;
+  challengerNote.textContent = `${summary.challenger.winners}/${summary.challenger.bets} wins`;
+
+  if (summary.leader === 'champion') championCard.classList.add('highlight');
+  if (summary.leader === 'challenger') challengerCard.classList.add('highlight');
+
+  const delta = Math.abs(Number(summary.deltaStrikeRate || 0)).toFixed(1);
+  const leaderLabel = summary.leader === 'tie'
+    ? 'Level on SR'
+    : `${summary.leader === 'champion' ? 'Champion' : 'Challenger'} leads by ${delta} pts`;
+  if (meta) {
+    meta.textContent = `${leaderLabel} · Compared over ${summary.comparedDates} ${stateCode.toUpperCase()} result day${summary.comparedDates === 1 ? '' : 's'} from ${summary.startDate} to ${summary.resultsDate}`;
+    show(`${stateCode}CvCMeta`);
+  }
 }
 
 function qualifiesMlTsTier(pick, minSr, minRaces) {

@@ -1,50 +1,50 @@
 {
   "dog": "PAW MINTY",
-  "date": "2026-06-29",
+  "date": "2026-07-06",
   "track": "WBL",
   "race": 2,
   "distance": 0,
-  "grade": "Bottom Up - Maiden",
+  "grade": "Bottom Up - Grade 7",
   "steps": {
-    "history_length": 7,
+    "history_length": 8,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1755,
-      "ens_prob": 0.2429,
-      "fastai_prob": 0.5879,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1486,
+      "ens_prob": 0.271,
+      "fastai_prob": 0.4595,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 391.42857142857144,
+      "avg_dist": 391.25,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Bottom Up - Maiden vs Field"
+      "current_vs_historic_grade": "Bottom Up - Grade 7 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 24.1,
-      "fluctuation": 0.02857142857142847,
+      "last_weight": 24.0,
+      "fluctuation": -0.0625,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 7,
-      "last_3_avg_place": 4.666666666666667,
-      "last_5_avg_place": 4.4,
+      "total_starts": 8,
+      "last_3_avg_place": 3.6666666666666665,
+      "last_5_avg_place": 3.8,
       "last_10_places": [
         4.0,
         5.0,
@@ -52,7 +52,8 @@
         4.0,
         4.0,
         7.0,
-        3.0
+        3.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -65,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 796294
+      "races_with_same_dogs": 798355
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -74,13 +75,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.138150000000001
+      "avg_run_home": 14.077291666666667
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.2712224409963162
+      "split_stdev": 0.25834965405434585
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +100,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -108,7 +109,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 225.0
+      "career_prize": 1385.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -121,8 +122,8 @@
       "message": "Coordinates not mapped for track: WBL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.0,
-      "place_rate": 0.14285714285714285
+      "win_rate": 0.125,
+      "place_rate": 0.25
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -133,13 +134,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "YOZO BALE",
       "dam": "ARATUZA BALE",
-      "total_offspring_runs_in_state": 1902,
-      "sire_win_rate": 0.13722397476340695
+      "total_offspring_runs_in_state": 1943,
+      "sire_win_rate": 0.13690169840452907
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 53,
-      "litter_wins": 5
+      "total_litter_runs": 61,
+      "litter_wins": 6
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -164,7 +165,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -173,13 +174,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 7
+      "total_starts": 8
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.267716535433071
+      "ewma_places": 2.627450980392157
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,18 +192,14 @@
       "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.588)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

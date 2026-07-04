@@ -9,12 +9,12 @@
     "history_length": 7,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.29,
-      "ens_prob": 0.3355,
-      "fastai_prob": 0.283,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2556,
+      "ens_prob": 0.2351,
+      "fastai_prob": 0.237,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -65,7 +65,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 798137
+      "races_with_same_dogs": 798355
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -133,8 +133,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "STRADA",
-      "total_offspring_runs_in_state": 40082,
-      "sire_win_rate": 0.1478219649718078
+      "total_offspring_runs_in_state": 40102,
+      "sire_win_rate": 0.14784798763153958
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -188,7 +188,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 11,
+      "final_score": 7,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -200,9 +200,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.283)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

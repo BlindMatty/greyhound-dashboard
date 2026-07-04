@@ -1,18 +1,18 @@
 {
   "dog": "DOTTIE KEEPING",
-  "date": "2026-06-06",
+  "date": "2026-07-06",
   "track": "DUB",
   "race": 5,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Non Graded",
   "steps": {
-    "history_length": 17,
+    "history_length": 22,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2225,
-      "ens_prob": 0.2412,
-      "fastai_prob": 0.6354,
+      "ml_prob": 0.4661,
+      "ens_prob": 0.2342,
+      "fastai_prob": 0.1985,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -21,41 +21,41 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 7,
+      "own_box": 5,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 443.7647058823529,
+      "avg_dist": 425.54545454545456,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Non Graded vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.3,
-      "fluctuation": 0.1687499999999993,
+      "last_weight": 28.2,
+      "fluctuation": -0.014285714285719564,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 17,
-      "last_3_avg_place": 2.0,
-      "last_5_avg_place": 2.8,
+      "total_starts": 22,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 2.0,
       "last_10_places": [
-        1.0,
-        1.0,
-        6.0,
-        5.0,
-        2.0,
         7.0,
         1.0,
         1.0,
         2.0,
-        3.0
+        3.0,
+        1.0,
+        2.0,
+        5.0,
+        1.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 712560
+      "races_with_same_dogs": 721424
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 19.961875
+      "avg_run_home": 18.669999999999998
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.6896735338791343
+      "split_stdev": 1.3197371671951164
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 2
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 15180.0
+      "career_prize": 21080.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 1.0
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: DUB"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.375,
-      "place_rate": 0.8125
+      "win_rate": 0.42857142857142855,
+      "place_rate": 0.8095238095238095
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "HOPE KEEPING",
-      "total_offspring_runs_in_state": 9653,
-      "sire_win_rate": 0.1473117165647985
+      "total_offspring_runs_in_state": 10372,
+      "sire_win_rate": 0.1455842653297339
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 90,
-      "litter_wins": 24
+      "total_litter_runs": 101,
+      "litter_wins": 31
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 17
+      "total_starts": 22
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.505699244678416
+      "ewma_places": 1.6095526740802164
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -194,19 +194,19 @@
       "final_score": 8,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

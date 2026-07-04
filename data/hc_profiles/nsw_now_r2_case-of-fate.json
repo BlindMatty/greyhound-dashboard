@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1328,
-      "ens_prob": 0.1776,
-      "fastai_prob": 0.0448,
+      "ml_prob": 0.143,
+      "ens_prob": 0.1997,
+      "fastai_prob": 0.046,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 721075
+      "races_with_same_dogs": 721424
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "WOW",
       "dam": "MISS COVER GIRL",
-      "total_offspring_runs_in_state": 6240,
-      "sire_win_rate": 0.12227564102564102
+      "total_offspring_runs_in_state": 6246,
+      "sire_win_rate": 0.12215818123599104
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -200,7 +200,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Lukewarm (Rank 3, prob 0.045)"
+        "FastAI Lukewarm (Rank 3, prob 0.046)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
