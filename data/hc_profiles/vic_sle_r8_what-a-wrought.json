@@ -1,19 +1,19 @@
 {
   "dog": "WHAT A WROUGHT",
-  "date": "2026-06-17",
+  "date": "2026-07-08",
   "track": "SLE",
   "race": 8,
   "distance": 0,
   "grade": "Bottom Up - Grade 5",
   "steps": {
-    "history_length": 27,
+    "history_length": 31,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2049,
-      "ens_prob": 0.17,
-      "fastai_prob": 0.2272,
-      "fastai_rank": 3,
+      "ml_prob": 0.2106,
+      "ens_prob": 0.2554,
+      "fastai_prob": 0.4542,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 392.22222222222223,
+      "avg_dist": 400.64516129032256,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,25 +35,25 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 28.5,
-      "fluctuation": 0.2521739130434817,
+      "fluctuation": 0.22592592592592808,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 27,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 4.4,
+      "total_starts": 31,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        6.0,
-        2.0,
-        3.0,
         1.0,
         3.0,
         5.0,
         8.0,
         2.0,
+        3.0,
+        4.0,
+        3.0,
         3.0,
         4.0
       ]
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 792361
+      "races_with_same_dogs": 798994
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.247434210526313
+      "avg_run_home": 15.83513636363636
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.014903174954268
+      "split_stdev": 1.9103619672328598
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 6205.0
+      "career_prize": 6625.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 5.714285714285714
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -435
+      "dist_diff_from_last": -510
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: SLE"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.045454545454545456,
-      "place_rate": 0.4090909090909091
+      "win_rate": 0.04,
+      "place_rate": 0.44
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ACOUSTIC LEE",
-      "total_offspring_runs_in_state": 101618,
-      "sire_win_rate": 0.13229939577633884
+      "total_offspring_runs_in_state": 102261,
+      "sire_win_rate": 0.13234762030490607
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 132,
-      "litter_wins": 15
+      "total_litter_runs": 149,
+      "litter_wins": 16
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 27
+      "total_starts": 31
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.738388237568912
+      "ewma_places": 3.592298525342301
     },
     "48_Track_Renovations": {
       "renovation_check": true

@@ -1,19 +1,19 @@
 {
   "dog": "PUMP FAKE",
-  "date": "2026-07-01",
+  "date": "2026-07-08",
   "track": "CAN",
   "race": 9,
   "distance": 0,
   "grade": "Grade 6",
   "steps": {
-    "history_length": 54,
+    "history_length": 55,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1811,
-      "ens_prob": 0.2456,
-      "fastai_prob": 0.0235,
-      "fastai_rank": 5,
+      "ml_prob": 0.2235,
+      "ens_prob": 0.2308,
+      "fastai_prob": 0.0785,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "own_box": 2,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 314.98148148148147,
+      "avg_dist": 316.1818181818182,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,18 +35,17 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 34.4,
-      "fluctuation": 1.83541666666666,
+      "fluctuation": 1.7979591836734627,
       "major_fluctuation": true
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 54,
-      "last_3_avg_place": 5.333333333333333,
-      "last_5_avg_place": 5.0,
+      "total_starts": 55,
+      "last_3_avg_place": 4.333333333333333,
+      "last_5_avg_place": 4.2,
       "last_10_places": [
-        3.0,
         1.0,
         1.0,
         2.0,
@@ -55,7 +54,8 @@
         3.0,
         5.0,
         8.0,
-        3.0
+        3.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216978
+      "races_with_same_dogs": 217315
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.227804878048781
+      "avg_run_home": 12.307380952380955
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.5459144264219529
+      "split_stdev": 0.5397963331672538
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 12579.0
+      "career_prize": 13018.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 4.923076923076923
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -275
+      "dist_diff_from_last": -381
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: CAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.10416666666666667,
-      "place_rate": 0.4583333333333333
+      "win_rate": 0.10204081632653061,
+      "place_rate": 0.46938775510204084
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "CYCLONE RUBY LEE",
-      "total_offspring_runs_in_state": 3958,
-      "sire_win_rate": 0.11369378473976756
+      "total_offspring_runs_in_state": 3961,
+      "sire_win_rate": 0.11360767482958849
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 201,
+      "total_litter_runs": 203,
       "litter_wins": 21
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 54
+      "total_starts": 55
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.606446340276831
+      "ewma_places": 3.303223170138413
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,15 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Major Weight Fluctuation (>1.5kg diff)",
-        "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

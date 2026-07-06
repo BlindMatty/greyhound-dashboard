@@ -1,19 +1,19 @@
 {
   "dog": "THUMANI",
-  "date": "2026-06-30",
+  "date": "2026-07-07",
   "track": "MAN",
   "race": 7,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 2,
+    "history_length": 3,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2103,
-      "ens_prob": 0.1839,
-      "fastai_prob": 0.0615,
-      "fastai_rank": 2,
+      "ml_prob": 0.1985,
+      "ens_prob": 0.1461,
+      "fastai_prob": 0.0753,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,8 +21,8 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
-      "has_inside_pressure": true,
+      "own_box": 1,
+      "has_inside_pressure": false,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -35,18 +35,19 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 31.6,
-      "fluctuation": 0.0,
+      "fluctuation": -3.552713678800501e-15,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 2,
-      "last_3_avg_place": null,
+      "total_starts": 3,
+      "last_3_avg_place": 3.3333333333333335,
       "last_5_avg_place": null,
       "last_10_places": [
         4.0,
+        3.0,
         3.0
       ]
     },
@@ -60,7 +61,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 216821
+      "races_with_same_dogs": 217315
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -69,13 +70,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.445
+      "avg_run_home": 16.403333333333332
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.042426406871192576
+      "split_stdev": 0.05033222956847147
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -103,7 +104,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 15503.0
+      "career_prize": 15955.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -117,7 +118,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.5
+      "place_rate": 0.6666666666666666
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -128,12 +129,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "LITTLE NANGAR",
-      "total_offspring_runs_in_state": 3662,
-      "sire_win_rate": 0.14172583287820864
+      "total_offspring_runs_in_state": 3699,
+      "sire_win_rate": 0.14165990808326576
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 2,
+      "total_litter_runs": 3,
       "litter_wins": 0
     },
     "35_Injury_History": {
@@ -159,7 +160,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -168,13 +169,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 2
+      "total_starts": 3
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.3333333333333335
+      "ewma_places": 3.142857142857143
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -183,22 +184,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "FastAI Lukewarm (Rank 2, prob 0.061)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "Professional Box Dog (Elite start consistency)",
         "Benefiting from inside track bias",
-        "High Earnings Class / Classy Animal"
+        "High Earnings Class / Classy Animal",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

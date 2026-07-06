@@ -61,7 +61,7 @@ async function loadDate(dateStr) {
   stateDataCache = {};
   activeState = null;
 
-  show('loading'); hide('error'); hide('summaryBar'); hide('hcSection'); hide('hcFa40Section'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
+  show('loading'); hide('error'); hide('summaryBar'); hide('hcSection'); hide('hcFa40Section'); hide('hcFaSrAlignSection'); hide('hc45Section'); hide('hc50Section'); hide('statesSection');
   CVC_STATES.forEach((code) => {
     hide(`${code}CvCSection`);
     hide(`${code}CvCMeta`);
@@ -164,6 +164,15 @@ function renderStateCvC(stateCode, summary) {
   if (summary.leader === 'champion') championCard.classList.add('highlight');
   if (summary.leader === 'challenger') challengerCard.classList.add('highlight');
 
+  if (summary.leader === 'pending') {
+    if (meta) {
+      const required = Number(summary.minBetsRequirement || 0);
+      meta.textContent = `Assessment pending · Requires both models to reach ${required} ${stateCode.toUpperCase()} settled race predictions. Current: Champion ${summary.champion.bets}, Challenger ${summary.challenger.bets} · Compared over ${summary.comparedDates} ${stateCode.toUpperCase()} result day${summary.comparedDates === 1 ? '' : 's'} from ${summary.startDate} to ${summary.resultsDate}`;
+      show(`${stateCode}CvCMeta`);
+    }
+    return;
+  }
+
   const delta = Math.abs(Number(summary.deltaStrikeRate || 0)).toFixed(1);
   const leaderLabel = summary.leader === 'tie'
     ? 'Level on SR'
@@ -248,8 +257,7 @@ function getShortlistBadgeHtml(pick) {
 async function loadHighConfidencePicks(states) {
   const tsEloHC = [];
   const tsGreenHC = [];
-  const tsBetHC = [];
-  const tsGreenBetHC = [];
+  const tsFaSrAlignHC = [];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
     try {
@@ -264,11 +272,8 @@ async function loadHighConfidencePicks(states) {
           if (isGreenDotPick(enhancedP)) {
             tsGreenHC.push(enhancedP);
           }
-          if (hasBetBadge(p)) {
-            tsBetHC.push(enhancedP);
-          }
-          if (isGreenDotPick(enhancedP) && hasBetBadge(p)) {
-            tsGreenBetHC.push(enhancedP);
+          if (p.isMlTsFaSrAlign) {
+            tsFaSrAlignHC.push(enhancedP);
           }
         }
       }
@@ -285,13 +290,11 @@ async function loadHighConfidencePicks(states) {
 
   tsEloHC.sort(sorter);
   tsGreenHC.sort(sorter);
-  tsBetHC.sort(sorter);
-  tsGreenBetHC.sort(sorter);
+  tsFaSrAlignHC.sort(sorter);
 
   renderPicksGrid(tsEloHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'ML TS picks with ELO aligned', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
   renderPicksGrid(tsGreenHC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS picks on green-dot tracks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN DOT', badgeClass: 'badge-green-dot'});
-  renderPicksGrid(tsBetHC, 'hc45Picks', 'hc45Section', 'hc45Subtitle', 'ML TS picks with Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
-  renderPicksGrid(tsGreenBetHC, 'hc50Picks', 'hc50Section', 'hc50Subtitle', 'ML TS picks with green dot + Bet badge', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN DOT', badgeClass: 'badge-green-dot'});
+  renderPicksGrid(tsFaSrAlignHC, 'hcFaSrAlignPicks', 'hcFaSrAlignSection', 'hcFaSrAlignSubtitle', 'ML TS + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'FAI 40%', badgeClass: 'badge-fa40'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */
