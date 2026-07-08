@@ -1005,7 +1005,7 @@
           "implied_odds_norm": 4.12812528574206,
           "isFastEns": false,
           "isEloEns": false,
-          "isMlSpecialist": true,
+          "isMlSpecialist": false,
           "isMlTsFaSrAlign": false
         },
         {
@@ -5613,10 +5613,10 @@
       "isFastEns": false,
       "isEloEns": false,
       "elo_agrees": false,
-      "isMlSpecialist": true,
+      "isMlSpecialist": false,
       "isMlTsFaSrAlign": false,
-      "mlSpecialistSr": 41.7,
-      "mlSpecialistRaces": 24,
+      "mlSpecialistSr": null,
+      "mlSpecialistRaces": null,
       "faTrackComboSr": 27.27272727272727,
       "faTrackComboRaces": 11,
       "mlGapToSecondPct": 4.138423955609561,
@@ -5625,21 +5625,11 @@
       "isGreenDotTrack": false,
       "shortlistResolvedMode": "avoid",
       "shortlistTag": "Avoid",
-      "shortlistReason": "Not profitable since 2026-05-05.",
+      "shortlistReason": "Not on the current ML TS shortlist.",
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-06",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
-      "state": "NSW",
-      "mlSpecialistSource": "day_before",
-      "mlSpecialistBaseSource": "day_before",
-      "isDayBeforeMlSpecialist": true,
-      "isMorningMlSpecialistAddition": false,
-      "isHourlyMlSpecialistAddition": false,
-      "isRemovedMlSpecialist": false,
-      "isScratchedMlSpecialist": false,
-      "isNewMlSpecialistAddition": false,
-      "isNewEloAddition": false
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
     }
   ],
   "topPicks": [
