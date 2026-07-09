@@ -9,12 +9,12 @@
     "history_length": 4,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2161,
-      "ens_prob": 0.2613,
-      "fastai_prob": 0.5295,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2078,
+      "ens_prob": 0.2389,
+      "fastai_prob": 0.4824,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 799595
+      "races_with_same_dogs": 800021
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "PAUA OF BUDDY",
       "dam": "ALWAYS HO HO",
-      "total_offspring_runs_in_state": 57,
-      "sire_win_rate": 0.05263157894736842
+      "total_offspring_runs_in_state": 58,
+      "sire_win_rate": 0.05172413793103448
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
@@ -183,7 +183,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -196,9 +196,7 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.529)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

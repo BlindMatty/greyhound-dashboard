@@ -1,19 +1,19 @@
 {
   "dog": "NANGAR LADY",
-  "date": "2026-07-03",
+  "date": "2026-07-10",
   "track": "MBR",
   "race": 2,
   "distance": 0,
   "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 29,
+    "history_length": 30,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4662,
-      "ens_prob": 0.2393,
-      "fastai_prob": 0.2049,
-      "fastai_rank": 2,
+      "ml_prob": 0.3212,
+      "ens_prob": 0.1885,
+      "fastai_prob": 0.1514,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -26,7 +26,7 @@
       "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 506.17241379310343,
+      "avg_dist": 499.3,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 27.4,
-      "fluctuation": -1.0461538461538424,
+      "last_weight": 27.9,
+      "fluctuation": -0.5259259259259217,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 29,
-      "last_3_avg_place": 1.3333333333333333,
+      "total_starts": 30,
+      "last_3_avg_place": 2.0,
       "last_5_avg_place": 2.8,
       "last_10_places": [
-        2.0,
         2.0,
         3.0,
         6.0,
@@ -55,7 +54,8 @@
         7.0,
         1.0,
         2.0,
-        1.0
+        1.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 218836
+      "races_with_same_dogs": 219334
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 24.296153846153842
+      "avg_run_home": 23.857037037037035
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.5289847813299062
+      "split_stdev": 1.5116505761542463
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 15
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 86405.0
+      "career_prize": 86575.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.0
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -342
+      "dist_diff_from_last": -300
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: MBR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.34615384615384615,
-      "place_rate": 0.6538461538461539
+      "win_rate": 0.3333333333333333,
+      "place_rate": 0.6666666666666666
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "JUNGLE DEUCE",
       "dam": "LITTLE NANGAR",
-      "total_offspring_runs_in_state": 546,
-      "sire_win_rate": 0.1575091575091575
+      "total_offspring_runs_in_state": 550,
+      "sire_win_rate": 0.15636363636363637
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 2,
-      "total_litter_runs": 37,
+      "total_litter_runs": 38,
       "litter_wins": 10
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 29
+      "total_starts": 30
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.7697870548037746
+      "ewma_places": 2.3848935319847877
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,16 +191,18 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2295,
-      "ens_prob": 0.1581,
-      "fastai_prob": 0.0701,
-      "fastai_rank": 4,
+      "ml_prob": 0.2501,
+      "ens_prob": 0.2045,
+      "fastai_prob": 0.2412,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 799595
+      "races_with_same_dogs": 800021
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,8 +113,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 8.6,
-      "avg_temp_c": 6.7,
+      "max_wind_kmh": 8.7,
+      "avg_temp_c": 6.5,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "MIDNIGHT SNOOZE",
-      "total_offspring_runs_in_state": 40157,
-      "sire_win_rate": 0.14809373210150162
+      "total_offspring_runs_in_state": 40204,
+      "sire_win_rate": 0.14806984379663715
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -187,14 +187,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

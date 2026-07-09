@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1636,
-      "ens_prob": 0.1767,
-      "fastai_prob": 0.0619,
-      "fastai_rank": 3,
+      "ml_prob": 0.1471,
+      "ens_prob": 0.1653,
+      "fastai_prob": 0.0611,
+      "fastai_rank": 7,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 217492
+      "races_with_same_dogs": 217587
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "RAGE ON ZATARA",
       "dam": "MANADO MAGIC",
-      "total_offspring_runs_in_state": 212,
-      "sire_win_rate": 0.1320754716981132
+      "total_offspring_runs_in_state": 214,
+      "sire_win_rate": 0.13551401869158877
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 212,
-      "litter_wins": 28
+      "total_litter_runs": 214,
+      "litter_wins": 29
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -191,14 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.062)"
+        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

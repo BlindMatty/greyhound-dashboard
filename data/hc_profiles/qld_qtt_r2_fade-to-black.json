@@ -1,18 +1,18 @@
 {
   "dog": "FADE TO BLACK",
-  "date": "2026-06-25",
+  "date": "2026-07-11",
   "track": "QTT",
   "race": 2,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Open",
   "steps": {
-    "history_length": 3,
+    "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3066,
-      "ens_prob": 0.1962,
-      "fastai_prob": 0.1307,
+      "ml_prob": 0.2882,
+      "ens_prob": 0.1919,
+      "fastai_prob": 0.0618,
       "fastai_rank": 6,
       "is_three_way": false
     },
@@ -21,34 +21,36 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 8,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 710.0,
+      "avg_dist": 688.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Open vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.5,
-      "fluctuation": 0.1999999999999993,
+      "last_weight": 30.4,
+      "fluctuation": 0.13999999999999702,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 3,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": null,
+      "total_starts": 5,
+      "last_3_avg_place": 3.6666666666666665,
+      "last_5_avg_place": 3.0,
       "last_10_places": [
         2.0,
         2.0,
-        1.0
+        1.0,
+        6.0,
+        4.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -61,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410755
+      "races_with_same_dogs": 413398
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -70,13 +72,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 36.656666666666666
+      "avg_run_home": 34.55
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.10503967504392486
+      "split_stdev": 2.2475253057529745
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,10 +94,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 140
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": true
@@ -104,7 +106,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 215460.0
+      "career_prize": 238000.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -117,11 +119,11 @@
       "message": "Coordinates not mapped for track: QTT"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.3333333333333333,
-      "place_rate": 1.0
+      "win_rate": 0.2,
+      "place_rate": 0.6
     },
     "31_Track_Archetypes": {
-      "track_specialist": true
+      "track_specialist": false
     },
     "32_Trainer_Profile": {
       "trainer_lookup": "Tony Brett"
@@ -129,16 +131,16 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ZIPPING KELLY",
-      "total_offspring_runs_in_state": 55678,
-      "sire_win_rate": 0.13179352706634578
+      "total_offspring_runs_in_state": 55963,
+      "sire_win_rate": 0.13167628611761342
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 46,
+      "total_litter_runs": 49,
       "litter_wins": 8
     },
     "35_Injury_History": {
-      "long_spells_count": 0
+      "long_spells_count": 1
     },
     "36_Track_Compaction": {
       "time_of_day": "Standard"
@@ -160,7 +162,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -169,13 +171,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 3
+      "total_starts": 5
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.4285714285714286
+      "ewma_places": 3.935483870967742
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -184,22 +186,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
+        "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
-        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias",
+        "Optimal Racing Cadence (6-10 days)",
         "Group/Feature Race Caliber",
         "High Earnings Class / Classy Animal",
-        "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2934,
-      "ens_prob": 0.1448,
-      "fastai_prob": 0.1161,
-      "fastai_rank": 4,
+      "ml_prob": 0.2912,
+      "ens_prob": 0.1663,
+      "fastai_prob": 0.1936,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 799595
+      "races_with_same_dogs": 800021
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,8 +121,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 4.6,
-      "avg_temp_c": 6.9,
+      "max_wind_kmh": 6.4,
+      "avg_temp_c": 7.0,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "YOZO BALE",
       "dam": "IDRIA BALE",
-      "total_offspring_runs_in_state": 2635,
-      "sire_win_rate": 0.13586337760910816
+      "total_offspring_runs_in_state": 2640,
+      "sire_win_rate": 0.13560606060606062
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 251,
+      "total_litter_runs": 252,
       "litter_wins": 53
     },
     "35_Injury_History": {
@@ -195,12 +195,11 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 8,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
