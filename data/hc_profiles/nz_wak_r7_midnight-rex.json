@@ -1,20 +1,20 @@
 {
   "dog": "MIDNIGHT REX",
-  "date": "2026-05-28",
+  "date": "2026-07-09",
   "track": "WAK",
   "race": 7,
   "distance": 0,
   "grade": "Class 5",
   "steps": {
-    "history_length": 18,
+    "history_length": 26,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2872,
-      "ens_prob": 0.2182,
-      "fastai_prob": 0.0916,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2255,
+      "ens_prob": 0.2325,
+      "fastai_prob": 0.089,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 378.1111111111111,
+      "avg_dist": 372.7692307692308,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,27 +34,27 @@
       "current_vs_historic_grade": "Class 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 33.6,
-      "fluctuation": 0.25,
+      "last_weight": 34.2,
+      "fluctuation": 0.6807692307692363,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 18,
-      "last_3_avg_place": 1.3333333333333333,
-      "last_5_avg_place": 1.6,
+      "total_starts": 26,
+      "last_3_avg_place": 2.0,
+      "last_5_avg_place": 2.4,
       "last_10_places": [
         1.0,
         1.0,
-        2.0,
-        3.0,
-        3.0,
+        1.0,
         1.0,
         3.0,
-        2.0,
         1.0,
+        5.0,
+        3.0,
+        2.0,
         1.0
       ]
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 279542
+      "races_with_same_dogs": 284177
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -95,7 +95,7 @@
       "trainer": "Tracey & Lisa Craik"
     },
     "21_Size_Bumping": {
-      "is_heavy": false,
+      "is_heavy": true,
       "is_light": false
     },
     "22_Quick_Backup": {
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 25280.0
+      "career_prize": 38580.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: WAK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6111111111111112,
-      "place_rate": 0.9444444444444444
+      "win_rate": 0.5769230769230769,
+      "place_rate": 0.9230769230769231
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "GEORGIA'S GIRL",
-      "total_offspring_runs_in_state": 22649,
-      "sire_win_rate": 0.15267782242041592
+      "total_offspring_runs_in_state": 23079,
+      "sire_win_rate": 0.15256293600242646
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 92,
-      "litter_wins": 41
+      "total_litter_runs": 123,
+      "litter_wins": 53
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 18
+      "total_starts": 26
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.302979671400724
+      "ewma_places": 1.7824335214858282
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,24 +191,26 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 13,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.092)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
         "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
+        "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }
