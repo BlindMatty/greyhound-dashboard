@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1202,
-      "ens_prob": 0.1477,
-      "fastai_prob": 0.3551,
-      "fastai_rank": 7,
+      "ml_prob": 0.1259,
+      "ens_prob": 0.177,
+      "fastai_prob": 0.3003,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 722739
+      "races_with_same_dogs": 723004
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "SKEDADDLE TESS",
-      "total_offspring_runs_in_state": 12522,
-      "sire_win_rate": 0.15596550071873502
+      "total_offspring_runs_in_state": 12533,
+      "sire_win_rate": 0.15598819117529722
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -191,15 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

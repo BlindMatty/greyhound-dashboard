@@ -1,61 +1,61 @@
 {
   "dog": "ZIPPING DELORIS",
-  "date": "2026-05-14",
+  "date": "2026-07-11",
   "track": "GAR",
   "race": 6,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Mixed 4/5",
   "steps": {
-    "history_length": 36,
+    "history_length": 44,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1743,
-      "ens_prob": 0.1382,
-      "fastai_prob": 0.5286,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1693,
+      "ens_prob": 0.2208,
+      "fastai_prob": 0.4931,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 4,
+      "own_box": 7,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 350.75,
+      "avg_dist": 359.15909090909093,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Mixed 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.2,
-      "fluctuation": -0.11212121212121318,
+      "last_weight": 30.3,
+      "fluctuation": -0.009756097560977395,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 36,
-      "last_3_avg_place": 4.333333333333333,
-      "last_5_avg_place": 4.0,
+      "total_starts": 44,
+      "last_3_avg_place": 4.0,
+      "last_5_avg_place": 3.4,
       "last_10_places": [
-        4.0,
-        2.0,
-        2.0,
-        4.0,
-        3.0,
-        4.0,
-        3.0,
-        1.0,
         8.0,
-        4.0
+        4.0,
+        2.0,
+        1.0,
+        5.0,
+        3.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 705937
+      "races_with_same_dogs": 723004
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 12.975714285714286
+      "avg_run_home": 12.789705882352942
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.927217176231616
+      "split_stdev": 2.959351066433797
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 6
+      "days_since_last_run": 11
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 22215.0
+      "career_prize": 25480.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.5454545454545454
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -400
+      "dist_diff_from_last": -388
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: GAR"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.2727272727272727,
-      "place_rate": 0.6666666666666666
+      "win_rate": 0.24390243902439024,
+      "place_rate": 0.6585365853658537
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "ZIPPING FLEUR",
-      "total_offspring_runs_in_state": 11816,
-      "sire_win_rate": 0.1596140825998646
+      "total_offspring_runs_in_state": 12957,
+      "sire_win_rate": 0.1558231072007409
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 59,
-      "litter_wins": 13
+      "total_litter_runs": 68,
+      "litter_wins": 15
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 36
+      "total_starts": 44
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.535744925441191
+      "ewma_places": 4.205217753614854
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -202,11 +202,11 @@
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
-        "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
-        "High Career Win Rate (>25%)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.493)"
       ]
     }
   }

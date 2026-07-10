@@ -1,18 +1,18 @@
 {
   "dog": "PORTLAND FONZIE",
-  "date": "2026-07-05",
+  "date": "2026-07-12",
   "track": "AUK",
   "race": 9,
   "distance": 0,
   "grade": "Mixed grade 4/5",
   "steps": {
-    "history_length": 37,
+    "history_length": 38,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.7445,
-      "ens_prob": 0.2825,
-      "fastai_prob": 0.0967,
+      "ml_prob": 0.4067,
+      "ens_prob": 0.3608,
+      "fastai_prob": 0.1143,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 5,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 434.7027027027027,
+      "avg_dist": 437.13157894736844,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,21 +34,21 @@
       "current_vs_historic_grade": "Mixed grade 4/5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 34.0,
-      "fluctuation": -0.01999999999999602,
+      "last_weight": 34.2,
+      "fluctuation": 0.17500000000000426,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 37,
+      "total_starts": 38,
       "last_3_avg_place": 1.0,
       "last_5_avg_place": 1.0,
       "last_10_places": [
         1.0,
-        1.0,
         6.0,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 283524
+      "races_with_same_dogs": 284241
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -95,7 +95,7 @@
       "trainer": "Tracey & Lisa Craik"
     },
     "21_Size_Bumping": {
-      "is_heavy": false,
+      "is_heavy": true,
       "is_light": false
     },
     "22_Quick_Backup": {
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 79380.0
+      "career_prize": 82980.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: AUK"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6,
-      "place_rate": 0.8
+      "win_rate": 0.6111111111111112,
+      "place_rate": 0.8055555555555556
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "PORTLAND DREAM",
-      "total_offspring_runs_in_state": 23626,
-      "sire_win_rate": 0.15398290019470076
+      "total_offspring_runs_in_state": 23673,
+      "sire_win_rate": 0.1540996071473831
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 11,
-      "total_litter_runs": 376,
-      "litter_wins": 89
+      "total_litter_runs": 384,
+      "litter_wins": 92
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 37
+      "total_starts": 38
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.0222641304141802
+      "ewma_places": 1.0111320652069282
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 12,
+      "final_score": 13,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -203,6 +203,7 @@
         "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
+        "Heavy Dog (+34kg) - Resistance in packs",
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
