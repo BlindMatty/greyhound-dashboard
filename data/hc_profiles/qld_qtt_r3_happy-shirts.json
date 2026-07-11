@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1264,
-      "ens_prob": 0.2756,
-      "fastai_prob": 0.3944,
-      "fastai_rank": 2,
+      "ml_prob": 0.0965,
+      "ens_prob": 0.2129,
+      "fastai_prob": 0.1278,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 413606
+      "races_with_same_dogs": 413712
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,12 +134,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "LOOK FANCY NANCY",
-      "total_offspring_runs_in_state": 9287,
-      "sire_win_rate": 0.13115107139011523
+      "total_offspring_runs_in_state": 9295,
+      "sire_win_rate": 0.1310381925766541
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 33,
+      "total_litter_runs": 34,
       "litter_wins": 6
     },
     "35_Injury_History": {
@@ -189,12 +189,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 3, prob 0.128)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

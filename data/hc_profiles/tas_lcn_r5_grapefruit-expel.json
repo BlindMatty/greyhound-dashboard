@@ -1,19 +1,19 @@
 {
   "dog": "GRAPEFRUIT EXPEL",
-  "date": "2026-07-06",
+  "date": "2026-07-13",
   "track": "LCN",
   "race": 5,
   "distance": 0,
   "grade": "Special Event",
   "steps": {
-    "history_length": 16,
+    "history_length": 18,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3787,
-      "ens_prob": 0.2399,
-      "fastai_prob": 0.194,
-      "fastai_rank": 5,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.3309,
+      "ens_prob": 0.2265,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 2,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 454.6875,
+      "avg_dist": 458.3888888888889,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Special Event vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.2,
-      "fluctuation": 0.02142857142857224,
+      "last_weight": 28.3,
+      "fluctuation": 0.11333333333333329,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 16,
-      "last_3_avg_place": 1.6666666666666667,
-      "last_5_avg_place": 1.6,
+      "total_starts": 18,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 2.0,
       "last_10_places": [
-        5.0,
         2.0,
         7.0,
         1.0,
@@ -55,7 +54,8 @@
         2.0,
         1.0,
         3.0,
-        1.0
+        1.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 87835
+      "races_with_same_dogs": 88085
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 23.588
+      "avg_run_home": 23.863333333333333
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.04086563348340524
+      "split_stdev": 0.0366969571853945
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -92,7 +92,7 @@
       "lure_type": "Bramich baseline"
     },
     "20_Kennel_Form": {
-      "trainer": "Jamie Brazendale"
+      "trainer": "Leon Brazendale"
     },
     "21_Size_Bumping": {
       "is_heavy": false,
@@ -117,31 +117,31 @@
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -340
+      "dist_diff_from_last": -461
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: LCN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.42857142857142855,
-      "place_rate": 0.7142857142857143
+      "win_rate": 0.4,
+      "place_rate": 0.7333333333333333
     },
     "31_Track_Archetypes": {
       "track_specialist": true
     },
     "32_Trainer_Profile": {
-      "trainer_lookup": "Jamie Brazendale"
+      "trainer_lookup": "Leon Brazendale"
     },
     "33_Sire_Dam_Profile": {
       "sire": "VULTURI",
       "dam": "LALA GRAPEFRUIT",
-      "total_offspring_runs_in_state": 52,
-      "sire_win_rate": 0.3269230769230769
+      "total_offspring_runs_in_state": 54,
+      "sire_win_rate": 0.3148148148148148
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
-      "total_litter_runs": 52,
+      "total_litter_runs": 54,
       "litter_wins": 17
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 16
+      "total_starts": 18
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.5952511749984741
+      "ewma_places": 2.2976470229194006
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,13 +191,12 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 7,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -208,7 +207,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "2-Way Model Alignment"
       ]
     }
   }

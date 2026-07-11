@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1728,
-      "ens_prob": 0.1036,
-      "fastai_prob": 0.0401,
-      "fastai_rank": 10,
+      "ml_prob": 0.2085,
+      "ens_prob": 0.1354,
+      "fastai_prob": 0.0666,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800429
+      "races_with_same_dogs": 800634
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -128,8 +128,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "DESIREE DEVERE",
-      "total_offspring_runs_in_state": 102044,
-      "sire_win_rate": 0.1324722668652738
+      "total_offspring_runs_in_state": 102065,
+      "sire_win_rate": 0.13245480821045413
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -189,7 +189,7 @@
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 10 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 27,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
       "ml_prob": 0.4934,
-      "ens_prob": 0.2173,
-      "fastai_prob": 0.2297,
-      "fastai_rank": 2,
+      "ens_prob": 0.2742,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -207,7 +207,8 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "2-Way Model Alignment"
       ]
     }
   }

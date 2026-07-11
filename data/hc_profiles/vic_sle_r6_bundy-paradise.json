@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1828,
-      "ens_prob": 0.1637,
-      "fastai_prob": 0.0457,
-      "fastai_rank": 7,
+      "ml_prob": 0.1835,
+      "ens_prob": 0.1482,
+      "fastai_prob": 0.0313,
+      "fastai_rank": 9,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800429
+      "races_with_same_dogs": 800634
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "MEPUNGA MOLLY",
-      "total_offspring_runs_in_state": 13136,
-      "sire_win_rate": 0.12446711327649208
+      "total_offspring_runs_in_state": 13141,
+      "sire_win_rate": 0.12441975496537554
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -199,7 +199,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
