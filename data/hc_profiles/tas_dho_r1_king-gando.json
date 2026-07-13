@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 2,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS)",
-      "alignment_count": 2,
+      "status": "Validated (ML+ENS+FAI)",
+      "alignment_count": 1,
       "ml_prob": 0.3101,
-      "ens_prob": 0.2773,
-      "fastai_prob": null,
-      "fastai_rank": null,
+      "ens_prob": 0.1931,
+      "fastai_prob": 0.317,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -183,19 +183,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "High Career Win Rate (>25%)",
-        "Proven Track Specialist Profile",
-        "2-Way Model Alignment"
+        "Proven Track Specialist Profile"
       ]
     }
   }

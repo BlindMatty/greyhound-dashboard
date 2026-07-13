@@ -9,12 +9,12 @@
     "history_length": 28,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3538,
-      "ens_prob": 0.1917,
-      "fastai_prob": 0.1626,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3421,
+      "ens_prob": 0.2878,
+      "fastai_prob": 0.3953,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800836
+      "races_with_same_dogs": 801229
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 27.0,
-      "avg_temp_c": 11.0,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 25.7,
+      "avg_temp_c": 11.5,
+      "total_precip_mm": 0.5,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "KALANY BALE",
-      "total_offspring_runs_in_state": 18030,
-      "sire_win_rate": 0.1271214642262895
+      "total_offspring_runs_in_state": 18039,
+      "sire_win_rate": 0.12716891180220632
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -209,7 +209,9 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.395)"
       ]
     }
   }

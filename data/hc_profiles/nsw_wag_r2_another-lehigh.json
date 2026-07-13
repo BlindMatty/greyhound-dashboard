@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3776,
-      "ens_prob": 0.261,
-      "fastai_prob": 0.5464,
+      "ml_prob": 0.2323,
+      "ens_prob": 0.2207,
+      "fastai_prob": 0.5265,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 723668
+      "races_with_same_dogs": 723917
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZIPPING KYRGIOS",
       "dam": "MAKO MERMAID",
-      "total_offspring_runs_in_state": 998,
-      "sire_win_rate": 0.15130260521042085
+      "total_offspring_runs_in_state": 999,
+      "sire_win_rate": 0.15115115115115116
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -204,7 +204,7 @@
         "Strong Head-to-Head Experience over field",
         "Elite Sire Line (>15% state win rate)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.546)"
+        "FastAI Strong Conviction (Rank 1, prob 0.526)"
       ]
     }
   }

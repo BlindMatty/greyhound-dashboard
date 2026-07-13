@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2243,
-      "ens_prob": 0.3262,
-      "fastai_prob": 0.5863,
+      "ml_prob": 0.2602,
+      "ens_prob": 0.4448,
+      "fastai_prob": 0.374,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 3,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800836
+      "races_with_same_dogs": 801229
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -113,9 +113,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 36.1,
-      "avg_temp_c": 9.9,
-      "total_precip_mm": 6.6,
+      "max_wind_kmh": 32.7,
+      "avg_temp_c": 10.3,
+      "total_precip_mm": 6.4,
       "is_wet": true,
       "is_hot": false
     },
@@ -132,8 +132,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "JEMIMA ROCKS",
-      "total_offspring_runs_in_state": 13584,
-      "sire_win_rate": 0.13184628975265017
+      "total_offspring_runs_in_state": 13613,
+      "sire_win_rate": 0.131859252185411
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -202,7 +202,7 @@
         "Professional Box Dog (Elite start consistency)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.586)"
+        "FastAI Strong Conviction (Rank 1, prob 0.374)"
       ]
     }
   }

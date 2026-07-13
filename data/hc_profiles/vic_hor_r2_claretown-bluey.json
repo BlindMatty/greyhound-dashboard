@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2359,
-      "ens_prob": 0.154,
-      "fastai_prob": 0.1041,
-      "fastai_rank": 6,
+      "ml_prob": 0.2414,
+      "ens_prob": 0.1972,
+      "fastai_prob": 0.1219,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 6,
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800836
+      "races_with_same_dogs": 801229
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -116,9 +116,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 27.0,
-      "avg_temp_c": 11.0,
-      "total_precip_mm": 0.1,
+      "max_wind_kmh": 25.7,
+      "avg_temp_c": 11.5,
+      "total_precip_mm": 0.5,
       "is_wet": false,
       "is_hot": false
     },
@@ -135,8 +135,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "GOOD NEWS",
       "dam": "CLARETOWN ANN",
-      "total_offspring_runs_in_state": 411,
-      "sire_win_rate": 0.09975669099756691
+      "total_offspring_runs_in_state": 413,
+      "sire_win_rate": 0.09927360774818401
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
@@ -195,7 +195,7 @@
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

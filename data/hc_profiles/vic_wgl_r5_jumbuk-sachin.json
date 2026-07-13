@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1572,
-      "ens_prob": 0.2029,
-      "fastai_prob": 0.0964,
+      "ml_prob": 0.1691,
+      "ens_prob": 0.263,
+      "fastai_prob": 0.1282,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 70,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800836
+      "races_with_same_dogs": 801229
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 36.1,
-      "avg_temp_c": 9.9,
-      "total_precip_mm": 6.6,
+      "max_wind_kmh": 32.7,
+      "avg_temp_c": 10.3,
+      "total_precip_mm": 6.4,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "TWO PHONES",
-      "total_offspring_runs_in_state": 14440,
-      "sire_win_rate": 0.12707756232686981
+      "total_offspring_runs_in_state": 14464,
+      "sire_win_rate": 0.1270741150442478
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,

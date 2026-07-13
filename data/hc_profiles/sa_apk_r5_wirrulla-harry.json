@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1803,
-      "ens_prob": 0.1944,
-      "fastai_prob": 0.2215,
-      "fastai_rank": 4,
+      "ml_prob": 0.1301,
+      "ens_prob": 0.1744,
+      "fastai_prob": 0.1442,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 219561
+      "races_with_same_dogs": 219640
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -83,7 +83,7 @@
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.7482088091541128
+      "split_stdev": 1.7482088091541124
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HARD STYLE RICO",
       "dam": "SPECIAL NANGAR",
-      "total_offspring_runs_in_state": 1498,
-      "sire_win_rate": 0.1321762349799733
+      "total_offspring_runs_in_state": 1499,
+      "sire_win_rate": 0.13208805870580387
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -198,7 +198,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
