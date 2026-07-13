@@ -1,19 +1,19 @@
 {
   "dog": "FEDERAL CASH",
-  "date": "2026-06-23",
+  "date": "2026-07-14",
   "track": "TOW",
   "race": 4,
   "distance": 0,
   "grade": "Open",
   "steps": {
-    "history_length": 47,
+    "history_length": 48,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2437,
-      "ens_prob": 0.1479,
-      "fastai_prob": 0.1546,
-      "fastai_rank": 4,
+      "ml_prob": 0.1706,
+      "ens_prob": 0.2173,
+      "fastai_prob": 0.1679,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -23,10 +23,10 @@
     "03_Speed_Map": {
       "own_box": 4,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 488.6170212765957,
+      "avg_dist": 491.8333333333333,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -35,18 +35,17 @@
     },
     "06_Geometry_Weight": {
       "last_weight": 31.2,
-      "fluctuation": -0.8170731707317067,
+      "fluctuation": -0.797619047619051,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 47,
-      "last_3_avg_place": 1.0,
-      "last_5_avg_place": 1.8,
+      "total_starts": 48,
+      "last_3_avg_place": 1.6666666666666667,
+      "last_5_avg_place": 1.6,
       "last_10_places": [
-        7.0,
         4.0,
         5.0,
         5.0,
@@ -55,11 +54,12 @@
         2.0,
         1.0,
         1.0,
-        1.0
+        1.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": true
+      "consecutive_wins": false
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 410227
+      "races_with_same_dogs": 413963
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 22.016388888888894
+      "avg_run_home": 22.25648648648649
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.8023671824721372
+      "split_stdev": 2.7633422173538715
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 21
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 48120.0
+      "career_prize": 48610.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.2
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -498
+      "dist_diff_from_last": -643
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: TOW"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.21951219512195122,
-      "place_rate": 0.5609756097560976
+      "win_rate": 0.21428571428571427,
+      "place_rate": 0.5714285714285714
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "COSMIC RUMBLE",
       "dam": "JILLIBY EMMIE",
-      "total_offspring_runs_in_state": 6327,
-      "sire_win_rate": 0.09309309309309309
+      "total_offspring_runs_in_state": 6339,
+      "sire_win_rate": 0.09307461744754693
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 181,
+      "total_litter_runs": 183,
       "litter_wins": 17
     },
     "35_Injury_History": {
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 47
+      "total_starts": 48
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.2187299639073075
+      "ewma_places": 2.1093649819538562
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,23 +191,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -1,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
-        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 64,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2855,
-      "ens_prob": 0.177,
-      "fastai_prob": 0.0525,
-      "fastai_rank": 4,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.2878,
+      "ens_prob": 0.2513,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 217677
+      "races_with_same_dogs": 217742
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BEAST UNLEASHED",
       "dam": "CHAROS SPECIAL",
-      "total_offspring_runs_in_state": 2338,
-      "sire_win_rate": 0.12489307100085544
+      "total_offspring_runs_in_state": 2341,
+      "sire_win_rate": 0.12516018795386588
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -207,7 +206,8 @@
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
-        "Veteran Dog (>50 starts) - Racing sense"
+        "Veteran Dog (>50 starts) - Racing sense",
+        "2-Way Model Alignment"
       ]
     }
   }

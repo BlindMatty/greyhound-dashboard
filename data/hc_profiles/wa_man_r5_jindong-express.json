@@ -1,6 +1,6 @@
 {
   "dog": "JINDONG EXPRESS",
-  "date": "2026-07-07",
+  "date": "2026-07-14",
   "track": "MAN",
   "race": 5,
   "distance": 0,
@@ -8,12 +8,12 @@
   "steps": {
     "history_length": 6,
     "01_Shortlist": {
-      "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1945,
-      "ens_prob": 0.1293,
-      "fastai_prob": 0.0768,
-      "fastai_rank": 8,
+      "status": "Validated (ML+ENS)",
+      "alignment_count": 2,
+      "ml_prob": 0.1807,
+      "ens_prob": 0.1951,
+      "fastai_prob": null,
+      "fastai_rank": null,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 217315
+      "races_with_same_dogs": 217742
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -95,7 +95,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 21
+      "days_since_last_run": 28
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -132,12 +132,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "TOMMY SHELBY",
       "dam": "BELLA CAN BROWSE",
-      "total_offspring_runs_in_state": 6747,
-      "sire_win_rate": 0.1496961612568549
+      "total_offspring_runs_in_state": 6796,
+      "sire_win_rate": 0.15008828722778106
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 34,
+      "total_litter_runs": 35,
       "litter_wins": 5
     },
     "35_Injury_History": {
@@ -187,19 +187,20 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 3,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 7,
+      "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Elite Sire Line (>15% state win rate)",
+        "Adjacent Vacant Box (Clean Air potential)",
+        "2-Way Model Alignment"
       ]
     }
   }

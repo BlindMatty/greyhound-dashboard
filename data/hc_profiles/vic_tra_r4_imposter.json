@@ -9,12 +9,12 @@
     "history_length": 66,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1421,
-      "ens_prob": 0.3335,
-      "fastai_prob": 0.2511,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1342,
+      "ens_prob": 0.1767,
+      "fastai_prob": 0.1846,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800634
+      "races_with_same_dogs": 800836
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 31.7,
-      "avg_temp_c": 13.2,
-      "total_precip_mm": 0.8,
+      "max_wind_kmh": 33.0,
+      "avg_temp_c": 12.9,
+      "total_precip_mm": 1.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "PATRIOT EARHART",
-      "total_offspring_runs_in_state": 102142,
-      "sire_win_rate": 0.13252139178790312
+      "total_offspring_runs_in_state": 102156,
+      "sire_win_rate": 0.13252280825404283
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,13 +195,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -209,9 +210,7 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.251)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

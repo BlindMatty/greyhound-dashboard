@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1856,
-      "ens_prob": 0.2295,
-      "fastai_prob": 0.3192,
+      "ml_prob": 0.1674,
+      "ens_prob": 0.2381,
+      "fastai_prob": 0.2723,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 723457
+      "races_with_same_dogs": 723668
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "VERSTAPPEN",
-      "total_offspring_runs_in_state": 102954,
-      "sire_win_rate": 0.13655613186471627
+      "total_offspring_runs_in_state": 102984,
+      "sire_win_rate": 0.13656490328594734
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 12,
@@ -211,7 +211,7 @@
         "From an active winning litter (10+ wins)",
         "Veteran Dog (>50 starts) - Racing sense",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.319)"
+        "FastAI Strong Conviction (Rank 1, prob 0.272)"
       ]
     }
   }

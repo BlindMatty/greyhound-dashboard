@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.24,
-      "ens_prob": 0.3091,
-      "fastai_prob": 0.4105,
+      "ml_prob": 0.216,
+      "ens_prob": 0.3127,
+      "fastai_prob": 0.6337,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800634
+      "races_with_same_dogs": 800836
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 31.7,
-      "avg_temp_c": 13.2,
-      "total_precip_mm": 0.8,
+      "max_wind_kmh": 33.0,
+      "avg_temp_c": 12.9,
+      "total_precip_mm": 1.6,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "DOUBLE SUPREME",
-      "total_offspring_runs_in_state": 25464,
-      "sire_win_rate": 0.13081212692428526
+      "total_offspring_runs_in_state": 25477,
+      "sire_win_rate": 0.13082388036268006
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -210,7 +210,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.410)"
+        "FastAI Strong Conviction (Rank 1, prob 0.634)"
       ]
     }
   }

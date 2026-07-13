@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.278,
-      "ens_prob": 0.2427,
-      "fastai_prob": 0.4981,
+      "ml_prob": 0.2368,
+      "ens_prob": 0.2178,
+      "fastai_prob": 0.6035,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 723457
+      "races_with_same_dogs": 723668
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "HOOKS AND RIDE",
-      "total_offspring_runs_in_state": 12560,
-      "sire_win_rate": 0.15597133757961784
+      "total_offspring_runs_in_state": 12572,
+      "sire_win_rate": 0.1560610881323576
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -205,7 +205,7 @@
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.498)"
+        "FastAI Strong Conviction (Rank 1, prob 0.604)"
       ]
     }
   }

@@ -9,12 +9,12 @@
     "history_length": 1,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2693,
-      "ens_prob": 0.2267,
-      "fastai_prob": 0.1855,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.275,
+      "ens_prob": 0.3589,
+      "fastai_prob": 0.6007,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 1,
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800634
+      "races_with_same_dogs": 800836
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "PAUA OF BUDDY",
       "dam": "BLAZING LISA",
-      "total_offspring_runs_in_state": 34,
-      "sire_win_rate": 0.058823529411764705
+      "total_offspring_runs_in_state": 35,
+      "sire_win_rate": 0.05714285714285714
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
@@ -182,7 +182,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -3,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -193,7 +193,9 @@
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias"
+        "Benefiting from inside track bias",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.601)"
       ]
     }
   }

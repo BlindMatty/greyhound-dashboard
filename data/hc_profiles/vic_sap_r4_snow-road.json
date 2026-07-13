@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2717,
-      "ens_prob": 0.3409,
-      "fastai_prob": 0.3499,
+      "ml_prob": 0.277,
+      "ens_prob": 0.4039,
+      "fastai_prob": 0.4397,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800634
+      "races_with_same_dogs": 800836
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 26.1,
-      "avg_temp_c": 11.8,
-      "total_precip_mm": 2.8,
+      "max_wind_kmh": 25.8,
+      "avg_temp_c": 11.3,
+      "total_precip_mm": 4.7,
       "is_wet": true,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "VAN EVIE",
-      "total_offspring_runs_in_state": 40147,
-      "sire_win_rate": 0.1475079084364959
+      "total_offspring_runs_in_state": 40164,
+      "sire_win_rate": 0.14752016731401255
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -210,7 +210,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.350)"
+        "FastAI Strong Conviction (Rank 1, prob 0.440)"
       ]
     }
   }

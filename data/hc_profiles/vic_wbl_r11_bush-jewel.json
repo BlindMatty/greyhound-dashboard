@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.0994,
-      "ens_prob": 0.1456,
-      "fastai_prob": 0.1249,
-      "fastai_rank": 3,
+      "ml_prob": 0.1048,
+      "ens_prob": 0.1354,
+      "fastai_prob": 0.0526,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800634
+      "races_with_same_dogs": 800836
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "ORSON ALLEN",
       "dam": "DELLY VEDOVA",
-      "total_offspring_runs_in_state": 18023,
-      "sire_win_rate": 0.12711535260500473
+      "total_offspring_runs_in_state": 18030,
+      "sire_win_rate": 0.1271214642262895
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -2,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,7 +199,7 @@
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
         "Time Decay - Recent forms tumbling backwards",
-        "FastAI Lukewarm (Rank 3, prob 0.125)"
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
