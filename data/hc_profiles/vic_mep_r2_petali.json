@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.186,
-      "ens_prob": 0.2047,
-      "fastai_prob": 0.1872,
-      "fastai_rank": 2,
+      "ml_prob": 0.1685,
+      "ens_prob": 0.1515,
+      "fastai_prob": 0.185,
+      "fastai_rank": 4,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801229
+      "races_with_same_dogs": 801515
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -112,8 +112,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 13.3,
-      "avg_temp_c": 10.3,
+      "max_wind_kmh": 13.1,
+      "avg_temp_c": 10.6,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -186,13 +186,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Time Decay - Recent forms tumbling backwards",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

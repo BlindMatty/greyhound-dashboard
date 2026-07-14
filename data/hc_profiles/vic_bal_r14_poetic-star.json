@@ -1,19 +1,19 @@
 {
   "dog": "POETIC STAR",
-  "date": "2026-06-24",
+  "date": "2026-07-15",
   "track": "BAL",
   "race": 14,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 33,
+    "history_length": 37,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.19,
-      "ens_prob": 0.1566,
-      "fastai_prob": 0.1073,
-      "fastai_rank": 3,
+      "ml_prob": 0.1747,
+      "ens_prob": 0.1695,
+      "fastai_prob": 0.0765,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 3,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 395.90909090909093,
+      "avg_dist": 396.0810810810811,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.8,
-      "fluctuation": 0.6612903225806406,
+      "last_weight": 32.7,
+      "fluctuation": 0.5200000000000031,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 33,
-      "last_3_avg_place": 3.3333333333333335,
-      "last_5_avg_place": 3.2,
+      "total_starts": 37,
+      "last_3_avg_place": 4.0,
+      "last_5_avg_place": 4.0,
       "last_10_places": [
-        5.0,
-        7.0,
-        1.0,
         5.0,
         2.0,
         2.0,
         4.0,
         2.0,
         1.0,
-        7.0
+        7.0,
+        4.0,
+        7.0,
+        1.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 794709
+      "races_with_same_dogs": 801515
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 14.08379411764706
+      "avg_run_home": 14.1147
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.47084120698778315
+      "split_stdev": 0.43712107365776176
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -111,25 +111,25 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 10737.5
+      "career_prize": 10972.5
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 6.5
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -390
+      "dist_diff_from_last": -400
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 11.6,
-      "avg_temp_c": 8.6,
-      "total_precip_mm": 0.7,
+      "max_wind_kmh": 15.7,
+      "avg_temp_c": 7.6,
+      "total_precip_mm": 0.1,
       "is_wet": false,
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.10714285714285714,
-      "place_rate": 0.5714285714285714
+      "win_rate": 0.12903225806451613,
+      "place_rate": 0.5483870967741935
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -140,13 +140,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "KISS YOUR LIPS",
-      "total_offspring_runs_in_state": 5171,
-      "sire_win_rate": 0.11158383291432991
+      "total_offspring_runs_in_state": 5263,
+      "sire_win_rate": 0.11172335170055102
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
-      "total_litter_runs": 199,
-      "litter_wins": 21
+      "total_litter_runs": 216,
+      "litter_wins": 24
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -171,7 +171,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -180,13 +180,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 33
+      "total_starts": 37
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.4078791082198885
+      "ewma_places": 3.3009848880120485
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -195,22 +195,22 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Lukewarm (Rank 3, prob 0.107)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)"
       ]
     }
   }

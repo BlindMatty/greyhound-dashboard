@@ -9,12 +9,12 @@
     "history_length": 2,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.2714,
-      "ens_prob": 0.3456,
-      "fastai_prob": 0.4154,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2158,
+      "ens_prob": 0.2781,
+      "fastai_prob": 0.1915,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 219640
+      "races_with_same_dogs": 219698
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -182,7 +182,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 9,
+      "final_score": 5,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -195,9 +195,7 @@
         "Optimal Racing Cadence (6-10 days)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.415)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

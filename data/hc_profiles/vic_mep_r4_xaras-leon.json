@@ -9,12 +9,12 @@
     "history_length": 6,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.3884,
-      "ens_prob": 0.257,
-      "fastai_prob": 0.2664,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.3924,
+      "ens_prob": 0.2834,
+      "fastai_prob": 0.3649,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -64,7 +64,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801229
+      "races_with_same_dogs": 801515
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -117,8 +117,8 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 13.3,
-      "avg_temp_c": 10.3,
+      "max_wind_kmh": 13.1,
+      "avg_temp_c": 10.6,
       "total_precip_mm": 0.0,
       "is_wet": false,
       "is_hot": false
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "DROOPYS SYDNEY",
       "dam": "TRENDING XARA",
-      "total_offspring_runs_in_state": 1961,
-      "sire_win_rate": 0.12799592044875063
+      "total_offspring_runs_in_state": 1962,
+      "sire_win_rate": 0.12793068297655455
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 8,
+      "final_score": 12,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -204,7 +204,9 @@
         "Heavy Dog (+34kg) - Resistance in packs",
         "Benefiting from inside track bias",
         "Group/Feature Race Caliber",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.365)"
       ]
     }
   }
