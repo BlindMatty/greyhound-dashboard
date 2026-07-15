@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3507,
-      "ens_prob": 0.1795,
-      "fastai_prob": 0.7295,
+      "ml_prob": 0.4595,
+      "ens_prob": 0.234,
+      "fastai_prob": 0.7225,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 724198
+      "races_with_same_dogs": 724507
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "RITZA RAIN",
-      "total_offspring_runs_in_state": 8855,
-      "sire_win_rate": 0.1712027103331451
+      "total_offspring_runs_in_state": 8889,
+      "sire_win_rate": 0.17088536393295084
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -209,7 +209,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.730)"
+        "FastAI Strong Conviction (Rank 1, prob 0.723)"
       ]
     }
   }

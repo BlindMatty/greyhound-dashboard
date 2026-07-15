@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.4519,
-      "ens_prob": 0.3627,
-      "fastai_prob": 0.2092,
+      "ml_prob": 0.3753,
+      "ens_prob": 0.2892,
+      "fastai_prob": 0.1485,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 414349
+      "races_with_same_dogs": 414435
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "RUMBLING AWAY",
-      "total_offspring_runs_in_state": 10158,
-      "sire_win_rate": 0.09775546367395156
+      "total_offspring_runs_in_state": 10159,
+      "sire_win_rate": 0.09774584112609509
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
@@ -191,12 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 9,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Lukewarm (Rank 2, prob 0.148)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

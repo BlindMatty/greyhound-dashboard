@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1678,
-      "ens_prob": 0.2172,
-      "fastai_prob": 0.2711,
-      "fastai_rank": 2,
+      "ml_prob": 0.1804,
+      "ens_prob": 0.1503,
+      "fastai_prob": 0.1309,
+      "fastai_rank": 3,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801515
+      "races_with_same_dogs": 801894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 10.9,
-      "avg_temp_c": 11.2,
-      "total_precip_mm": 0.2,
+      "max_wind_kmh": 13.2,
+      "avg_temp_c": 11.5,
+      "total_precip_mm": 0.7,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "ACOUSTIC LEE",
-      "total_offspring_runs_in_state": 102493,
-      "sire_win_rate": 0.13230171816611866
+      "total_offspring_runs_in_state": 102527,
+      "sire_win_rate": 0.13226759780350542
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -9,
+      "final_score": -10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -204,7 +204,8 @@
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
         "Non-Chaser Profile (Low Win / High Place)",
-        "Wide Runner drawn Inside (Crash risk)"
+        "Wide Runner drawn Inside (Crash risk)",
+        "FastAI Lukewarm (Rank 3, prob 0.131)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

@@ -1,18 +1,18 @@
 {
   "dog": "HIGHWAY TO HELL",
-  "date": "2026-07-10",
+  "date": "2026-07-17",
   "track": "HVL",
   "race": 3,
   "distance": 0,
   "grade": "Tier 3 - Restricted Win",
   "steps": {
-    "history_length": 23,
+    "history_length": 24,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1394,
-      "ens_prob": 0.2304,
-      "fastai_prob": 0.3588,
+      "ml_prob": 0.1354,
+      "ens_prob": 0.2743,
+      "fastai_prob": 0.4738,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -21,12 +21,12 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 8,
+      "own_box": 7,
       "has_inside_pressure": true,
-      "has_outside_pressure": false
+      "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 371.5217391304348,
+      "avg_dist": 368.5416666666667,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Tier 3 - Restricted Win vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 34.8,
-      "fluctuation": -0.15263157894737134,
+      "last_weight": 34.9,
+      "fluctuation": -0.05000000000000426,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 23,
-      "last_3_avg_place": 6.0,
-      "last_5_avg_place": 4.8,
+      "total_starts": 24,
+      "last_3_avg_place": 5.0,
+      "last_5_avg_place": 5.0,
       "last_10_places": [
-        7.0,
         3.0,
         5.0,
         7.0,
@@ -55,7 +54,8 @@
         5.0,
         5.0,
         8.0,
-        5.0
+        5.0,
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 800021
+      "races_with_same_dogs": 801894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.050013888888891
+      "avg_run_home": 14.954684210526317
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.462471028217032
+      "split_stdev": 1.5366812241242565
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 17
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 2580.0
+      "career_prize": 2900.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 4.75
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.10526315789473684,
-      "place_rate": 0.2631578947368421
+      "win_rate": 0.1,
+      "place_rate": 0.3
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "CHRISTO BALE",
       "dam": "HOT JEAN",
-      "total_offspring_runs_in_state": 4120,
-      "sire_win_rate": 0.14223300970873787
+      "total_offspring_runs_in_state": 4138,
+      "sire_win_rate": 0.1418559690671822
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 107,
-      "litter_wins": 11
+      "total_litter_runs": 114,
+      "litter_wins": 12
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -167,7 +167,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 23
+      "total_starts": 24
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.653899486350033
+      "ewma_places": 3.826948000858308
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,22 +191,23 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 5,
+      "final_score": 2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Poor Recent Form (>4.5 avg)",
-        "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Erratic Box Dog (High split variance > 1.5)",
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "From an active winning litter (10+ wins)",
         "Wide Runner drawn Outside (Perfect Map)",
-        "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.359)"
+        "FastAI Strong Conviction (Rank 1, prob 0.474)"
       ]
     }
   }

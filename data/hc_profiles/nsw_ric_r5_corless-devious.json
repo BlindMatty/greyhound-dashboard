@@ -1,20 +1,20 @@
 {
   "dog": "CORLESS DEVIOUS",
-  "date": "2026-06-07",
+  "date": "2026-07-17",
   "track": "RIC",
   "race": 5,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 16,
+    "history_length": 23,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2571,
-      "ens_prob": 0.1805,
-      "fastai_prob": 0.4785,
-      "fastai_rank": 6,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2253,
+      "ens_prob": 0.269,
+      "fastai_prob": 0.4601,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 361.5,
+      "avg_dist": 364.0869565217391,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 28.3,
-      "fluctuation": 0.5714285714285765,
+      "last_weight": 29.2,
+      "fluctuation": 1.1380952380952358,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 16,
-      "last_3_avg_place": 3.0,
-      "last_5_avg_place": 3.6,
+      "total_starts": 23,
+      "last_3_avg_place": 4.333333333333333,
+      "last_5_avg_place": 4.2,
       "last_10_places": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
         1.0,
-        6.0,
+        2.0,
         6.0,
         4.0,
-        5.0,
-        3.0,
-        6.0,
-        3.0,
-        3.0,
-        3.0
+        4.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 712837
+      "races_with_same_dogs": 724507
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 15.867142857142856
+      "avg_run_home": 15.812999999999999
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 2.6493706488833975
+      "split_stdev": 2.690178824030692
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 9
+      "days_since_last_run": 5
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,25 +111,25 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 3350.0
+      "career_prize": 5760.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -320
+      "dist_diff_from_last": -400
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 7.1,
-      "avg_temp_c": 10.2,
-      "total_precip_mm": 0.0,
-      "is_wet": false,
+      "max_wind_kmh": 12.1,
+      "avg_temp_c": 13.0,
+      "total_precip_mm": 3.7,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
-      "win_rate": 0.07142857142857142,
-      "place_rate": 0.5
+      "win_rate": 0.09523809523809523,
+      "place_rate": 0.47619047619047616
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -140,13 +140,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ZACK MONELLI",
       "dam": "FENCE LADY",
-      "total_offspring_runs_in_state": 1468,
-      "sire_win_rate": 0.12806539509536785
+      "total_offspring_runs_in_state": 1537,
+      "sire_win_rate": 0.1262199089134678
     },
     "34_Sibling_Profile": {
-      "litter_size_racing": 5,
-      "total_litter_runs": 60,
-      "litter_wins": 8
+      "litter_size_racing": 6,
+      "total_litter_runs": 96,
+      "litter_wins": 11
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -180,13 +180,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 16
+      "total_starts": 23
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 3.2421412439724104
+      "ewma_places": 4.5018923291646615
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -195,20 +195,21 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)"
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.460)"
       ]
     }
   }

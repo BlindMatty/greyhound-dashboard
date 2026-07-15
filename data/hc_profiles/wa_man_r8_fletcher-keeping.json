@@ -1,20 +1,20 @@
 {
   "dog": "FLETCHER KEEPING",
-  "date": "2026-06-11",
+  "date": "2026-07-16",
   "track": "MAN",
   "race": 8,
   "distance": 0,
   "grade": "Grade 5",
   "steps": {
-    "history_length": 69,
+    "history_length": 73,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1805,
-      "ens_prob": 0.2036,
-      "fastai_prob": 0.1468,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.0738,
+      "ens_prob": 0.1676,
+      "fastai_prob": 0.0754,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -26,7 +26,7 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 410.39130434782606,
+      "avg_dist": 409.82191780821915,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,28 +34,28 @@
       "current_vs_historic_grade": "Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.2,
-      "fluctuation": 0.23620689655172455,
+      "last_weight": 32.4,
+      "fluctuation": 0.4096774193548356,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 69,
-      "last_3_avg_place": 4.0,
-      "last_5_avg_place": 3.6,
+      "total_starts": 73,
+      "last_3_avg_place": 3.3333333333333335,
+      "last_5_avg_place": 4.0,
       "last_10_places": [
-        6.0,
-        3.0,
-        3.0,
-        5.0,
         2.0,
         3.0,
         3.0,
         2.0,
         4.0,
-        6.0
+        6.0,
+        4.0,
+        2.0,
+        3.0,
+        5.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 215518
+      "races_with_same_dogs": 217907
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 17.38290909090909
+      "avg_run_home": 17.233050847457626
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 0.7941009358364315
+      "split_stdev": 1.0473677450896224
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 6
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 25439.0
+      "career_prize": 26234.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 4.090909090909091
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: MAN"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.10344827586206896,
-      "place_rate": 0.4827586206896552
+      "win_rate": 0.0967741935483871,
+      "place_rate": 0.4838709677419355
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERNANDO BALE",
       "dam": "GEORGIA KEEPING",
-      "total_offspring_runs_in_state": 28190,
-      "sire_win_rate": 0.13948208584604468
+      "total_offspring_runs_in_state": 28353,
+      "sire_win_rate": 0.1394208725708038
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 255,
+      "total_litter_runs": 263,
       "litter_wins": 24
     },
     "35_Injury_History": {
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 69
+      "total_starts": 73
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 4.6273648485754375
+      "ewma_places": 4.039210303035965
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,13 +191,14 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "Wide Runner drawn Inside (Crash risk)"
+        "Wide Runner drawn Inside (Crash risk)",
+        "FastAI Lukewarm (Rank 2, prob 0.075)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
@@ -205,8 +206,7 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

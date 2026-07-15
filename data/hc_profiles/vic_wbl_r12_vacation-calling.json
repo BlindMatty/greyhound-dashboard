@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.1703,
-      "ens_prob": 0.1086,
-      "fastai_prob": 0.0794,
-      "fastai_rank": 7,
+      "ml_prob": 0.1695,
+      "ens_prob": 0.1047,
+      "fastai_prob": 0.0785,
+      "fastai_rank": 9,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801515
+      "races_with_same_dogs": 801894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "EQUALIZER",
       "dam": "CRIMSON CRUSADER",
-      "total_offspring_runs_in_state": 470,
-      "sire_win_rate": 0.14042553191489363
+      "total_offspring_runs_in_state": 471,
+      "sire_win_rate": 0.14012738853503184
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -198,7 +198,7 @@
         "Dropping distance (Speed shock risk)",
         "Midfield/Slow Beginner (>= 5.0 avg split pos)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 9 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

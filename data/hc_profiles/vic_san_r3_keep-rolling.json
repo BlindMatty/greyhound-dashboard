@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3125,
-      "ens_prob": 0.1848,
-      "fastai_prob": 0.1105,
+      "ml_prob": 0.2967,
+      "ens_prob": 0.1823,
+      "fastai_prob": 0.1387,
       "fastai_rank": 3,
       "is_three_way": false
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 7
     },
     "08_Form_Trajectory": {
       "total_starts": 44,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801515
+      "races_with_same_dogs": 801894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 6.7,
-      "avg_temp_c": 11.6,
-      "total_precip_mm": 1.5,
+      "max_wind_kmh": 7.6,
+      "avg_temp_c": 11.2,
+      "total_precip_mm": 0.8,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,8 +140,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "MA'S PLUM JAM",
-      "total_offspring_runs_in_state": 26305,
-      "sire_win_rate": 0.12571754419311917
+      "total_offspring_runs_in_state": 26342,
+      "sire_win_rate": 0.12557892339230126
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 10,
@@ -201,7 +201,7 @@
         "Dropping distance (Speed shock risk)",
         "Accident Prone / Frequent Faller",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 3, prob 0.111)"
+        "FastAI Lukewarm (Rank 3, prob 0.139)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",

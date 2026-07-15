@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2057,
-      "ens_prob": 0.1458,
-      "fastai_prob": 0.1725,
-      "fastai_rank": 4,
+      "ml_prob": 0.2107,
+      "ens_prob": 0.1798,
+      "fastai_prob": 0.3027,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801515
+      "races_with_same_dogs": 801894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 6.7,
-      "avg_temp_c": 11.6,
-      "total_precip_mm": 1.5,
+      "max_wind_kmh": 7.6,
+      "avg_temp_c": 11.2,
+      "total_precip_mm": 0.8,
       "is_wet": false,
       "is_hot": false
     },
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "KNICKS BALE",
-      "total_offspring_runs_in_state": 63360,
-      "sire_win_rate": 0.1305713383838384
+      "total_offspring_runs_in_state": 63364,
+      "sire_win_rate": 0.13057887759611136
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 290,
+      "total_litter_runs": 291,
       "litter_wins": 39
     },
     "35_Injury_History": {
@@ -195,14 +195,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 4,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

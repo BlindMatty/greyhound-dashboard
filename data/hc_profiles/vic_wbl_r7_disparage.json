@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2944,
-      "ens_prob": 0.3899,
-      "fastai_prob": 0.5806,
+      "ml_prob": 0.271,
+      "ens_prob": 0.3386,
+      "fastai_prob": 0.5677,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801515
+      "races_with_same_dogs": 801894
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "HALLOWEEN",
-      "total_offspring_runs_in_state": 40228,
-      "sire_win_rate": 0.14748433926618276
+      "total_offspring_runs_in_state": 40266,
+      "sire_win_rate": 0.14736998956936373
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -205,7 +205,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.581)"
+        "FastAI Strong Conviction (Rank 1, prob 0.568)"
       ]
     }
   }

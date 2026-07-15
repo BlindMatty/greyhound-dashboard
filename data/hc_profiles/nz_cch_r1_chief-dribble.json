@@ -1,18 +1,18 @@
 {
   "dog": "CHIEF DRIBBLE",
-  "date": "2026-06-26",
+  "date": "2026-07-17",
   "track": "CCH",
   "race": 1,
   "distance": 0,
-  "grade": "Mixed Grade 1/2",
+  "grade": "Class2 Distance",
   "steps": {
-    "history_length": 73,
+    "history_length": 75,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.7095,
-      "ens_prob": 0.362,
-      "fastai_prob": 0.1217,
+      "ml_prob": 0.401,
+      "ens_prob": 0.2581,
+      "fastai_prob": 0.1385,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -26,25 +26,25 @@
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 668.1369863013699,
+      "avg_dist": 667.8,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Mixed Grade 1/2 vs Field"
+      "current_vs_historic_grade": "Class2 Distance vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 32.4,
-      "fluctuation": 0.08805970149252573,
+      "last_weight": 33.0,
+      "fluctuation": 0.673913043478251,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 5
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 73,
-      "last_3_avg_place": 1.0,
-      "last_5_avg_place": 1.0,
+      "total_starts": 75,
+      "last_3_avg_place": 1.3333333333333333,
+      "last_5_avg_place": 1.2,
       "last_10_places": [
         1.0,
         1.0,
@@ -55,11 +55,11 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        2.0
       ]
     },
     "09_Pattern_Recognition": {
-      "consecutive_wins": true
+      "consecutive_wins": false
     },
     "10_Forgive_Runs": {
       "abnormal_runs": 0
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 282713
+      "races_with_same_dogs": 284828
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 8
+      "days_since_last_run": 16
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -111,21 +111,21 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 408273.25
+      "career_prize": 416053.25
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 1.0869565217391304
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -681
+      "dist_diff_from_last": -630
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: CCH"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.6268656716417911,
-      "place_rate": 0.8805970149253731
+      "win_rate": 0.6231884057971014,
+      "place_rate": 0.8840579710144928
     },
     "31_Track_Archetypes": {
       "track_specialist": true
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SHIMA SHINE",
       "dam": "SLINKY INKY",
-      "total_offspring_runs_in_state": 356,
-      "sire_win_rate": 0.3398876404494382
+      "total_offspring_runs_in_state": 361,
+      "sire_win_rate": 0.3379501385041551
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 1,
-      "total_litter_runs": 73,
-      "litter_wins": 42
+      "total_litter_runs": 75,
+      "litter_wins": 43
     },
     "35_Injury_History": {
       "long_spells_count": 1
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 73
+      "total_starts": 75
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 1.000819032218752
+      "ewma_places": 1.500204758054688
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,21 +191,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.122)"
+        "FastAI Lukewarm (Rank 2, prob 0.139)"
       ],
       "green_flags": [
-        "Small Field Advantage",
+        "Positive Weight Gain (Strength build)",
         "Strong Recent Form (<2.5 avg)",
-        "Flying (3+ consecutive wins)",
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
         "High Earnings Class / Classy Animal",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
