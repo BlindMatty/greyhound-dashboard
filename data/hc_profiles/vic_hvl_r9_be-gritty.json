@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2053,
-      "ens_prob": 0.1899,
-      "fastai_prob": 0.4173,
-      "fastai_rank": 2,
+      "ml_prob": 0.2047,
+      "ens_prob": 0.1485,
+      "fastai_prob": 0.3305,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801894
+      "races_with_same_dogs": 802283
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,8 +136,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "PYROCUMULUS",
-      "total_offspring_runs_in_state": 40562,
-      "sire_win_rate": 0.14811892904689117
+      "total_offspring_runs_in_state": 40616,
+      "sire_win_rate": 0.14804510537719126
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": -6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -199,7 +199,8 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Light/Frail Dog (<26kg) - Bump risk",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)"
+        "Injury Prone (Multiple 60+ day spells)",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

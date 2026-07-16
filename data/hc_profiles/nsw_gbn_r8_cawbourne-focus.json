@@ -9,12 +9,12 @@
     "history_length": 34,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.5127,
-      "ens_prob": 0.396,
-      "fastai_prob": 0.5087,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.5865,
+      "ens_prob": 0.3166,
+      "fastai_prob": 0.4505,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 724507
+      "races_with_same_dogs": 724857
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "CAWBOURNE TABER",
-      "total_offspring_runs_in_state": 26937,
-      "sire_win_rate": 0.13531573671901104
+      "total_offspring_runs_in_state": 26984,
+      "sire_win_rate": 0.13522828342721613
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 128,
+      "total_litter_runs": 129,
       "litter_wins": 50
     },
     "35_Injury_History": {
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 17,
+      "final_score": 13,
       "decision": "PASS / CAUTION",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
@@ -207,9 +207,7 @@
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "From an active winning litter (10+ wins)",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.509)"
+        "Adjacent Vacant Box (Clean Air potential)"
       ]
     }
   }

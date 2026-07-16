@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.2756,
-      "ens_prob": 0.3602,
-      "fastai_prob": 0.4876,
+      "ml_prob": 0.2849,
+      "ens_prob": 0.3804,
+      "fastai_prob": 0.602,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -66,7 +66,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 724507
+      "races_with_same_dogs": 724857
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -134,8 +134,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "WOW",
       "dam": "MY MATE KATE",
-      "total_offspring_runs_in_state": 6318,
-      "sire_win_rate": 0.12155745489078823
+      "total_offspring_runs_in_state": 6327,
+      "sire_win_rate": 0.12138454243717402
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
@@ -205,7 +205,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.488)"
+        "FastAI Strong Conviction (Rank 1, prob 0.602)"
       ]
     }
   }

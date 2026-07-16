@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1992,
-      "ens_prob": 0.2234,
-      "fastai_prob": 0.5925,
+      "ml_prob": 0.2014,
+      "ens_prob": 0.2658,
+      "fastai_prob": 0.558,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801894
+      "races_with_same_dogs": 802283
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "ADELONG",
-      "total_offspring_runs_in_state": 10437,
-      "sire_win_rate": 0.14429433745329118
+      "total_offspring_runs_in_state": 10458,
+      "sire_win_rate": 0.14448269267546376
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
@@ -200,7 +200,7 @@
         "Elite Early Speed (<= 2.0 avg split pos)",
         "From an active winning litter (10+ wins)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.593)"
+        "FastAI Strong Conviction (Rank 1, prob 0.558)"
       ]
     }
   }

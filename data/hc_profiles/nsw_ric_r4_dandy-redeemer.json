@@ -9,12 +9,12 @@
     "history_length": 94,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1388,
-      "ens_prob": 0.2669,
-      "fastai_prob": 0.2268,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1657,
+      "ens_prob": 0.2767,
+      "fastai_prob": 0.2876,
+      "fastai_rank": 2,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 724507
+      "races_with_same_dogs": 724857
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,9 +121,9 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 12.1,
-      "avg_temp_c": 13.0,
-      "total_precip_mm": 3.7,
+      "max_wind_kmh": 11.3,
+      "avg_temp_c": 12.9,
+      "total_precip_mm": 3.6,
       "is_wet": true,
       "is_hot": false
     },
@@ -195,7 +195,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 1,
+      "final_score": -2,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -212,8 +212,7 @@
         "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }

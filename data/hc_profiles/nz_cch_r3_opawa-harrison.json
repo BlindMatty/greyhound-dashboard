@@ -9,12 +9,12 @@
     "history_length": 18,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.2613,
-      "ens_prob": 0.1858,
-      "fastai_prob": 0.0911,
-      "fastai_rank": 5,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.2475,
+      "ens_prob": 0.202,
+      "fastai_prob": 0.078,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 284828
+      "races_with_same_dogs": 285023
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "MY REDEEMER",
       "dam": "OUR ANNA",
-      "total_offspring_runs_in_state": 6796,
-      "sire_win_rate": 0.13272513243084166
+      "total_offspring_runs_in_state": 6806,
+      "sire_win_rate": 0.13253012048192772
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 138,
+      "total_litter_runs": 140,
       "litter_wins": 39
     },
     "35_Injury_History": {
@@ -191,14 +191,13 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 7,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Quick Backup (< 4 days)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Recent Form (<2.5 avg)",
@@ -207,7 +206,8 @@
         "High Earnings Class / Classy Animal",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)"
       ]
     }
   }

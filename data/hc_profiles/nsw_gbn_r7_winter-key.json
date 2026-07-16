@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1583,
-      "ens_prob": 0.3513,
-      "fastai_prob": 0.4982,
+      "ml_prob": 0.1608,
+      "ens_prob": 0.3608,
+      "fastai_prob": 0.6423,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -67,7 +67,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 724507
+      "races_with_same_dogs": 724857
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -135,13 +135,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "FERAL FRANKY",
       "dam": "SUMMER KEY",
-      "total_offspring_runs_in_state": 26555,
-      "sire_win_rate": 0.13541705893428732
+      "total_offspring_runs_in_state": 26602,
+      "sire_win_rate": 0.1353281708142245
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 9,
-      "total_litter_runs": 105,
-      "litter_wins": 26
+      "total_litter_runs": 108,
+      "litter_wins": 27
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -207,7 +207,7 @@
         "From an active winning litter (10+ wins)",
         "Adjacent Vacant Box (Clean Air potential)",
         "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.498)"
+        "FastAI Strong Conviction (Rank 1, prob 0.642)"
       ]
     }
   }

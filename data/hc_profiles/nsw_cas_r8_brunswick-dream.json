@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.3023,
-      "ens_prob": 0.2022,
-      "fastai_prob": 0.1561,
+      "ml_prob": 0.2018,
+      "ens_prob": 0.1996,
+      "fastai_prob": 0.2958,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -62,7 +62,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 724507
+      "races_with_same_dogs": 724857
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -130,8 +130,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "AUSSIE INFRARED",
       "dam": "RUMBLING AWAY",
-      "total_offspring_runs_in_state": 25979,
-      "sire_win_rate": 0.12055891296816659
+      "total_offspring_runs_in_state": 25994,
+      "sire_win_rate": 0.1206047549434485
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
@@ -185,7 +185,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 11,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -202,7 +202,8 @@
         "Elite Early Speed (<= 2.0 avg split pos)",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.296)"
       ]
     }
   }

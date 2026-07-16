@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.22,
-      "ens_prob": 0.1345,
-      "fastai_prob": 0.0813,
-      "fastai_rank": 7,
+      "ml_prob": 0.1987,
+      "ens_prob": 0.1307,
+      "fastai_prob": 0.0512,
+      "fastai_rank": 8,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 284828
+      "races_with_same_dogs": 285023
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "DYNA STEAL",
       "dam": "DOUBLE QUEENIE",
-      "total_offspring_runs_in_state": 2779,
-      "sire_win_rate": 0.05577545879812882
+      "total_offspring_runs_in_state": 2780,
+      "sire_win_rate": 0.05575539568345324
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 8,
-      "total_litter_runs": 125,
+      "total_litter_runs": 126,
       "litter_wins": 16
     },
     "35_Injury_History": {
@@ -198,7 +198,7 @@
         "Quick Backup (< 4 days)",
         "Distance Shock (>= 100m diff last run)",
         "Poor Sire Line (<8% state win rate)",
-        "FastAI Disagrees (Rank 7 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 8 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
