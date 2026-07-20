@@ -1,32 +1,32 @@
 {
   "dog": "BIG PLAYER",
-  "date": "2026-07-15",
+  "date": "2026-07-22",
   "track": "HVL",
   "race": 9,
   "distance": 0,
   "grade": "Bottom Up - Grade 5",
   "steps": {
-    "history_length": 32,
+    "history_length": 33,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1555,
-      "ens_prob": 0.2271,
+      "alignment_count": 3,
+      "ml_prob": 0.1973,
+      "ens_prob": 0.2332,
       "fastai_prob": 0.2574,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 6,
+      "own_box": 7,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 418.59375,
+      "avg_dist": 416.5151515151515,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,19 +34,18 @@
       "current_vs_historic_grade": "Bottom Up - Grade 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 38.5,
-      "fluctuation": 0.3857142857142932,
+      "last_weight": 38.4,
+      "fluctuation": 0.275862068965516,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 32,
-      "last_3_avg_place": 7.0,
-      "last_5_avg_place": 6.2,
+      "total_starts": 33,
+      "last_3_avg_place": 5.333333333333333,
+      "last_5_avg_place": 5.4,
       "last_10_places": [
-        4.0,
         1.0,
         5.0,
         1.0,
@@ -55,7 +54,8 @@
         3.0,
         8.0,
         7.0,
-        6.0
+        6.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 801515
+      "races_with_same_dogs": 803575
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 17.40422
+      "avg_run_home": 17.237201923076924
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.6643212470979474
+      "split_stdev": 1.630975332932603
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 5
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": false
@@ -117,15 +117,15 @@
       "avg_1st_split_pos": 4.8125
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -300
+      "dist_diff_from_last": -350
     },
     "29_Live_Weather": {
       "status": "error",
       "message": "Coordinates not mapped for track: HVL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.14285714285714285,
-      "place_rate": 0.4642857142857143
+      "win_rate": 0.13793103448275862,
+      "place_rate": 0.4827586206896552
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "SMOKIN' CINDY",
-      "total_offspring_runs_in_state": 40703,
-      "sire_win_rate": 0.14728644080288922
+      "total_offspring_runs_in_state": 40959,
+      "sire_win_rate": 0.14724480578139115
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 232,
+      "total_litter_runs": 235,
       "litter_wins": 39
     },
     "35_Injury_History": {
@@ -173,16 +173,16 @@
       "is_heat": false
     },
     "44_Second_Up": {
-      "is_second_up": true
+      "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 32
+      "total_starts": 33
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 6.271051202979129
+      "ewma_places": 4.635525598443161
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,7 +191,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -5,
+      "final_score": 0,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -199,14 +199,16 @@
         "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Injury Prone (Multiple 60+ day spells)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Injury Prone (Multiple 60+ day spells)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Heavy Dog (+34kg) - Resistance in packs",
         "From an active winning litter (10+ wins)",
-        "Second-Up Bounce Profile (Pinnacle fitness)"
+        "Wide Runner drawn Outside (Perfect Map)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.257)"
       ]
     }
   }

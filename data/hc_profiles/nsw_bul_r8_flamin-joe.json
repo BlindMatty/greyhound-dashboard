@@ -1,61 +1,61 @@
 {
   "dog": "FLAMIN' JOE",
-  "date": "2026-05-26",
+  "date": "2026-07-21",
   "track": "BUL",
   "race": 8,
   "distance": 0,
-  "grade": "Grade 5",
+  "grade": "Non Graded",
   "steps": {
-    "history_length": 31,
+    "history_length": 38,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1863,
-      "ens_prob": 0.2381,
-      "fastai_prob": 0.5116,
-      "fastai_rank": 2,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.346,
+      "ens_prob": 0.3022,
+      "fastai_prob": 0.6118,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 2,
+      "own_box": 3,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 401.96774193548384,
+      "avg_dist": 393.7105263157895,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Grade 5 vs Field"
+      "current_vs_historic_grade": "Non Graded vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 30.0,
-      "fluctuation": -0.12142857142857366,
+      "last_weight": 30.7,
+      "fluctuation": 0.5314285714285667,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 8
     },
     "08_Form_Trajectory": {
-      "total_starts": 31,
-      "last_3_avg_place": 6.333333333333333,
-      "last_5_avg_place": 5.6,
+      "total_starts": 38,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 2.8,
       "last_10_places": [
-        5.0,
-        1.0,
-        1.0,
         7.0,
         4.0,
+        8.0,
+        1.0,
         4.0,
+        2.0,
         5.0,
-        7.0,
-        4.0,
-        8.0
+        1.0,
+        3.0,
+        3.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 709431
+      "races_with_same_dogs": 725973
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -77,13 +77,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 18.678928571428575
+      "avg_run_home": 18.219117647058823
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": 1.6748952427164134
+      "split_stdev": 1.6562240412656466
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -99,7 +99,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 14
+      "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 12665.0
+      "career_prize": 18655.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 3.7
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: BUL"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.25,
-      "place_rate": 0.39285714285714285
+      "win_rate": 0.2571428571428571,
+      "place_rate": 0.45714285714285713
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "OUR AMELIA",
-      "total_offspring_runs_in_state": 11692,
-      "sire_win_rate": 0.15933971946630174
+      "total_offspring_runs_in_state": 12796,
+      "sire_win_rate": 0.15512660206314474
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 5,
-      "total_litter_runs": 94,
-      "litter_wins": 16
+      "total_litter_runs": 115,
+      "litter_wins": 21
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 31
+      "total_starts": 38
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 6.443435156507176
+      "ewma_places": 2.8706518370562306
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,21 +191,26 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": -4,
+      "final_score": 10,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Poor Recent Form (>4.5 avg)",
         "Erratic Box Dog (High split variance > 1.5)",
-        "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
+        "Positive Weight Gain (Strength build)",
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
+        "High Earnings Class / Classy Animal",
+        "High Career Win Rate (>25%)",
         "Elite Sire Line (>15% state win rate)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.612)"
       ]
     }
   }

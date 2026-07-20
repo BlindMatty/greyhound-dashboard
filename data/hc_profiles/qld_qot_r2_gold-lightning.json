@@ -1,28 +1,28 @@
 {
   "dog": "GOLD LIGHTNING",
-  "date": "2026-07-15",
+  "date": "2026-07-22",
   "track": "QOT",
   "race": 2,
   "distance": 0,
-  "grade": "Maiden Heat",
+  "grade": "Maiden",
   "steps": {
     "history_length": 0,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.1311,
-      "ens_prob": 0.3431,
-      "fastai_prob": 0.4402,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.1068,
+      "ens_prob": 0.1826,
+      "fastai_prob": 0.0494,
+      "fastai_rank": 3,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
+      "own_box": 5,
+      "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
@@ -31,7 +31,7 @@
       "is_dropping_down": false
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Maiden Heat vs Maiden Heat"
+      "current_vs_historic_grade": "Maiden vs Maiden"
     },
     "06_Geometry_Weight": {
       "last_weight": 0.0,
@@ -57,7 +57,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 414349
+      "races_with_same_dogs": 415282
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -91,7 +91,7 @@
       "days_since_last_run": 99
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -147,7 +147,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": true
+      "has_adjacent_vacant": false
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -171,18 +171,16 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 6,
-      "decision": "PASS / CAUTION",
+      "final_score": -3,
+      "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
+        "Sandwiched (Inside & Outside Pressure)",
         "Inexperienced (< 3 starts)",
-        "Light/Frail Dog (<26kg) - Bump risk"
+        "Light/Frail Dog (<26kg) - Bump risk",
+        "FastAI Lukewarm (Rank 3, prob 0.049)"
       ],
       "green_flags": [
-        "Strong Head-to-Head Experience over field",
-        "Benefiting from inside track bias",
-        "Adjacent Vacant Box (Clean Air potential)",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)",
-        "FastAI Strong Conviction (Rank 1, prob 0.440)"
+        "Strong Head-to-Head Experience over field"
       ]
     }
   }

@@ -1,6 +1,6 @@
 {
   "dog": "FARMOR WHISKY",
-  "date": "2026-07-15",
+  "date": "2026-07-22",
   "track": "ROC",
   "race": 3,
   "distance": 0,
@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2565,
-      "ens_prob": 0.2425,
-      "fastai_prob": 0.1337,
+      "ml_prob": 0.1044,
+      "ens_prob": 0.2304,
+      "fastai_prob": 0.2033,
       "fastai_rank": 2,
       "is_three_way": false
     },
@@ -21,7 +21,7 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
+      "own_box": 4,
       "has_inside_pressure": false,
       "has_outside_pressure": true
     },
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 8
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 2,
@@ -60,7 +60,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 414349
+      "races_with_same_dogs": 415282
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -91,10 +91,10 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 7
+      "days_since_last_run": 14
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -128,12 +128,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "HOOKED ON SCOTCH",
       "dam": "VELOCITY CHANCE",
-      "total_offspring_runs_in_state": 9418,
-      "sire_win_rate": 0.1205139095349331
+      "total_offspring_runs_in_state": 9471,
+      "sire_win_rate": 0.12057860838348643
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 57,
+      "total_litter_runs": 59,
       "litter_wins": 7
     },
     "35_Injury_History": {
@@ -183,18 +183,15 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 4,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Inexperienced (< 3 starts)",
-        "Distance Shock (>= 100m diff last run)",
-        "FastAI Lukewarm (Rank 2, prob 0.134)"
+        "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
-        "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "High Career Win Rate (>25%)",
         "Proven Track Specialist Profile",
         "Adjacent Vacant Box (Clean Air potential)"

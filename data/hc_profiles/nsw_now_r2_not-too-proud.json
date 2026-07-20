@@ -1,19 +1,19 @@
 {
   "dog": "NOT TOO PROUD",
-  "date": "2026-06-11",
+  "date": "2026-07-22",
   "track": "NOW",
   "race": 2,
   "distance": 0,
-  "grade": "Maiden Heat",
+  "grade": "Maiden",
   "steps": {
-    "history_length": 1,
+    "history_length": 5,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2294,
-      "ens_prob": 0.1753,
-      "fastai_prob": 0.1825,
-      "fastai_rank": 4,
+      "ml_prob": 0.1898,
+      "ens_prob": 0.2411,
+      "fastai_prob": 0.226,
+      "fastai_rank": 2,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -21,32 +21,36 @@
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 1,
-      "has_inside_pressure": false,
-      "has_outside_pressure": true
+      "own_box": 2,
+      "has_inside_pressure": true,
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
-      "avg_dist": 400.0,
+      "avg_dist": 403.0,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
     "05_Class_Analysis": {
-      "current_vs_historic_grade": "Maiden Heat vs Field"
+      "current_vs_historic_grade": "Maiden vs Field"
     },
     "06_Geometry_Weight": {
       "last_weight": 31.8,
-      "fluctuation": 0.0,
+      "fluctuation": 0.40000000000000213,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
-      "total_starts": 1,
-      "last_3_avg_place": null,
-      "last_5_avg_place": null,
+      "total_starts": 5,
+      "last_3_avg_place": 6.0,
+      "last_5_avg_place": 5.2,
       "last_10_places": [
-        5.0
+        5.0,
+        3.0,
+        5.0,
+        7.0,
+        6.0
       ]
     },
     "09_Pattern_Recognition": {
@@ -59,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 713916
+      "races_with_same_dogs": 725973
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -68,13 +72,13 @@
       "is_bitch": false
     },
     "15_Run_Home": {
-      "avg_run_home": 16.64
+      "avg_run_home": 16.13
     },
     "16_Field_Changes": {
       "scratchings_in_race": 0
     },
     "17_Speed_Variance": {
-      "split_stdev": NaN
+      "split_stdev": 1.9938480383419397
     },
     "18_Pedigree": {
       "bloodline_check": true
@@ -90,7 +94,7 @@
       "is_light": false
     },
     "22_Quick_Backup": {
-      "days_since_last_run": 16
+      "days_since_last_run": 6
     },
     "23_Live_Track_Bias": {
       "inside_bias_assumed": true
@@ -102,13 +106,13 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 0.0
+      "career_prize": 250.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": NaN
     },
     "28_Distance_Switch": {
-      "dist_diff_from_last": -400
+      "dist_diff_from_last": -365
     },
     "29_Live_Weather": {
       "status": "error",
@@ -116,7 +120,7 @@
     },
     "30_Non_Chaser": {
       "win_rate": 0.0,
-      "place_rate": 0.0
+      "place_rate": 0.2
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -127,13 +131,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "KINLOCH BRAE",
       "dam": "IMPROBABLE",
-      "total_offspring_runs_in_state": 12325,
-      "sire_win_rate": 0.08430020283975659
+      "total_offspring_runs_in_state": 12400,
+      "sire_win_rate": 0.08419354838709678
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 14,
-      "litter_wins": 0
+      "total_litter_runs": 37,
+      "litter_wins": 1
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -167,13 +171,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 1
+      "total_starts": 5
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 5.0
+      "ewma_places": 5.903225806451613
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -186,13 +190,14 @@
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
-        "Inexperienced (< 3 starts)",
+        "Poor Recent Form (>4.5 avg)",
+        "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
-        "Time Decay - Recent forms tumbling backwards",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Time Decay - Recent forms tumbling backwards"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
+        "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
         "Adjacent Vacant Box (Clean Air potential)"
       ]

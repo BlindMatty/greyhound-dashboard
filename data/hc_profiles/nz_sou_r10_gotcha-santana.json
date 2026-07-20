@@ -1,32 +1,32 @@
 {
   "dog": "GOTCHA SANTANA",
-  "date": "2026-05-20",
+  "date": "2026-07-22",
   "track": "SOU",
   "race": 10,
   "distance": 0,
   "grade": "Class 5",
   "steps": {
-    "history_length": 88,
+    "history_length": 97,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 3,
-      "ml_prob": 0.3052,
-      "ens_prob": 0.1674,
-      "fastai_prob": 0.0753,
-      "fastai_rank": 1,
-      "is_three_way": true
+      "alignment_count": 1,
+      "ml_prob": 0.2873,
+      "ens_prob": 0.1591,
+      "fastai_prob": 0.0378,
+      "fastai_rank": 4,
+      "is_three_way": false
     },
     "02_TDG_Medians": {
       "status": "calculated",
       "td_runs": 0
     },
     "03_Speed_Map": {
-      "own_box": 3,
+      "own_box": 6,
       "has_inside_pressure": true,
       "has_outside_pressure": true
     },
     "04_Distance_Stamina": {
-      "avg_dist": 300.0568181818182,
+      "avg_dist": 307.4226804123711,
       "is_stepping_up": false,
       "is_dropping_down": true
     },
@@ -34,27 +34,27 @@
       "current_vs_historic_grade": "Class 5 vs Field"
     },
     "06_Geometry_Weight": {
-      "last_weight": 29.0,
-      "fluctuation": -0.5338235294117659,
+      "last_weight": 29.6,
+      "fluctuation": 0.045454545454543194,
       "major_fluctuation": false
     },
     "07_Race_Pace": {
       "field_size": 7
     },
     "08_Form_Trajectory": {
-      "total_starts": 88,
-      "last_3_avg_place": 3.3333333333333335,
-      "last_5_avg_place": 2.6,
+      "total_starts": 97,
+      "last_3_avg_place": 2.3333333333333335,
+      "last_5_avg_place": 2.8,
       "last_10_places": [
-        6.0,
-        3.0,
-        4.0,
-        8.0,
-        5.0,
         1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
         2.0,
         5.0,
         4.0,
+        2.0,
         1.0
       ]
     },
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 278727
+      "races_with_same_dogs": 285549
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -102,7 +102,7 @@
       "days_since_last_run": 7
     },
     "23_Live_Track_Bias": {
-      "inside_bias_assumed": true
+      "inside_bias_assumed": false
     },
     "24_Group_Feature_Races": {
       "has_group_experience": false
@@ -111,7 +111,7 @@
       "trials_on_record": 0
     },
     "26_Earnings_Class": {
-      "career_prize": 57750.0
+      "career_prize": 67042.0
     },
     "27_Acceleration_Profile": {
       "avg_1st_split_pos": 1.25
@@ -124,8 +124,8 @@
       "message": "Coordinates not mapped for track: SOU"
     },
     "30_Non_Chaser": {
-      "win_rate": 0.23529411764705882,
-      "place_rate": 0.6029411764705882
+      "win_rate": 0.22077922077922077,
+      "place_rate": 0.6233766233766234
     },
     "31_Track_Archetypes": {
       "track_specialist": false
@@ -136,13 +136,13 @@
     "33_Sire_Dam_Profile": {
       "sire": "SENNACHIE",
       "dam": "THRILLING CARLY",
-      "total_offspring_runs_in_state": 1891,
-      "sire_win_rate": 0.15864621893178213
+      "total_offspring_runs_in_state": 2073,
+      "sire_win_rate": 0.16111915098890497
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 354,
-      "litter_wins": 63
+      "total_litter_runs": 389,
+      "litter_wins": 65
     },
     "35_Injury_History": {
       "long_spells_count": 0
@@ -176,13 +176,13 @@
       "is_second_up": false
     },
     "45_Experience_Disparity": {
-      "total_starts": 88
+      "total_starts": 97
     },
     "46_Trial_Dropoff": {
       "trial_count": 0
     },
     "47_Time_Decay": {
-      "ewma_places": 2.4512478631349985
+      "ewma_places": 1.9383813434826855
     },
     "48_Track_Renovations": {
       "renovation_check": true
@@ -191,24 +191,24 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 10,
+      "final_score": 6,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
-        "Distance Shock (>= 100m diff last run)"
+        "Distance Shock (>= 100m diff last run)",
+        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
       ],
       "green_flags": [
+        "Strong Recent Form (<2.5 avg)",
         "Strong Head-to-Head Experience over field",
         "Elite Run Home Time Strength",
         "Optimal Racing Cadence (6-10 days)",
-        "Benefiting from inside track bias",
         "High Earnings Class / Classy Animal",
         "Elite Early Speed (<= 2.0 avg split pos)",
         "Elite Sire Line (>15% state win rate)",
         "From an active winning litter (10+ wins)",
-        "Veteran Dog (>50 starts) - Racing sense",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "Veteran Dog (>50 starts) - Racing sense"
       ]
     }
   }
