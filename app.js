@@ -255,8 +255,8 @@ function getShortlistBadgeHtml(pick) {
 
 // ── ML TS top picks ──
 async function loadHighConfidencePicks(states) {
-  const tsEloHC = [];
-  const tsGreenHC = [];
+  const tsEloFaSrAlignHC = [];
+  const tsGreenFaSrAlignHC = [];
   const tsFaSrAlignHC = [];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
@@ -265,15 +265,13 @@ async function loadHighConfidencePicks(states) {
       stateDataCache[s.code] = data;
       for (const p of (data.highConfidencePicks || [])) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
-        if (p.isMlSpecialist) {
+        if (p.isMlSpecialist && p.isMlTsFaSrAlign) {
+          tsFaSrAlignHC.push(enhancedP);
           if (p.isEloEns) {
-            tsEloHC.push(enhancedP);
+            tsEloFaSrAlignHC.push(enhancedP);
           }
           if (isGreenDotPick(enhancedP)) {
-            tsGreenHC.push(enhancedP);
-          }
-          if (p.isMlTsFaSrAlign) {
-            tsFaSrAlignHC.push(enhancedP);
+            tsGreenFaSrAlignHC.push(enhancedP);
           }
         }
       }
@@ -288,13 +286,13 @@ async function loadHighConfidencePicks(states) {
     return (a.track || '').localeCompare(b.track || '') || (a.raceNumber || 0) - (b.raceNumber || 0);
   };
 
-  tsEloHC.sort(sorter);
-  tsGreenHC.sort(sorter);
+  tsEloFaSrAlignHC.sort(sorter);
+  tsGreenFaSrAlignHC.sort(sorter);
   tsFaSrAlignHC.sort(sorter);
 
-  renderPicksGrid(tsEloHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'ML TS picks with ELO aligned', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition'});
-  renderPicksGrid(tsGreenHC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS picks on green-dot tracks', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', badgeLabel: 'GREEN DOT', badgeClass: 'badge-green-dot'});
-  renderPicksGrid(tsFaSrAlignHC, 'hcFaSrAlignPicks', 'hcFaSrAlignSection', 'hcFaSrAlignSubtitle', 'ML TS + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'FAI 40%', badgeClass: 'badge-fa40'});
+  renderPicksGrid(tsGreenFaSrAlignHC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS + Green Dot + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'GREEN + FAI 40%', badgeClass: 'badge-green-fa40', cardClass: ' hc-card-green-fa40'});
+  renderPicksGrid(tsEloFaSrAlignHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'ML TS + ELO Align + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'ELO + FAI 40%', badgeClass: 'badge-elo-fa40', cardClass: ' hc-card-elo-fa40'});
+  renderPicksGrid(tsFaSrAlignHC, 'hcFaSrAlignPicks', 'hcFaSrAlignSection', 'hcFaSrAlignSubtitle', 'ML TS + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'FAI 40%', badgeClass: 'badge-fa40', cardClass: ' hc-card-fa40'});
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */

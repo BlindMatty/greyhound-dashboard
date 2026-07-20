@@ -180,6 +180,8 @@ main {
 #hc50Section h2 { font-size: 1.1rem; margin-top: 8px; margin-bottom: 18px; }
 .section-title-fa40 { color: var(--lime); }
 .section-title-green { color: var(--green); }
+.section-title-green-fa40 { color: var(--green); }
+.section-title-elo-fa40 { color: #a78bfa; }
 .picks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -216,6 +218,14 @@ main {
   border-color: var(--lime);
   background: var(--lime-bg);
 }
+.hc-card-green-fa40 {
+  border-color: var(--green);
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.14), rgba(163, 230, 53, 0.06));
+}
+.hc-card-elo-fa40 {
+  border-color: #a78bfa;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.14), rgba(163, 230, 53, 0.05));
+}
 .hc-card .hc-left { display: flex; flex-direction: column; gap: 2px; }
 .hc-card .hc-right { display: flex; flex-direction: column; align-items: flex-end; }
 .hc-card .hc-dog { font-weight: 700; font-size: 1rem; }
@@ -227,6 +237,8 @@ main {
   white-space: nowrap;
 }
 .hc-card-fa40 .hc-odds { color: var(--lime); }
+.hc-card-green-fa40 .hc-odds { color: var(--green); }
+.hc-card-elo-fa40 .hc-odds { color: #c4b5fd; }
 .accent-fa40 { color: var(--lime); font-weight: 700; }
 .great-pot-card {
   box-shadow: 0 0 0 1px rgba(52, 211, 153, 0.45), var(--shadow);
@@ -374,6 +386,8 @@ main {
 .badge-green-bet { background: linear-gradient(135deg, var(--green), var(--lime)); color: #062013; }
 .badge-5way { background: #f97316; color: #fff; }
 .badge-fa40 { background: var(--lime); color: #152006; }
+.badge-green-fa40 { background: linear-gradient(135deg, var(--green), var(--lime)); color: #062013; }
+.badge-elo-fa40 { background: linear-gradient(135deg, #8b5cf6, var(--lime)); color: #fff; }
 
 .prob-bar {
   display: inline-block;
