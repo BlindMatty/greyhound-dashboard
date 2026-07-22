@@ -9,12 +9,12 @@
     "history_length": 46,
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
-      "alignment_count": 1,
-      "ml_prob": 0.1417,
-      "ens_prob": 0.2064,
-      "fastai_prob": 0.1565,
-      "fastai_rank": 3,
-      "is_three_way": false
+      "alignment_count": 3,
+      "ml_prob": 0.1314,
+      "ens_prob": 0.2761,
+      "fastai_prob": 0.2758,
+      "fastai_rank": 1,
+      "is_three_way": true
     },
     "02_TDG_Medians": {
       "status": "calculated",
@@ -23,7 +23,7 @@
     "03_Speed_Map": {
       "own_box": 7,
       "has_inside_pressure": true,
-      "has_outside_pressure": true
+      "has_outside_pressure": false
     },
     "04_Distance_Stamina": {
       "avg_dist": 452.2826086956522,
@@ -39,7 +39,7 @@
       "major_fluctuation": false
     },
     "07_Race_Pace": {
-      "field_size": 7
+      "field_size": 6
     },
     "08_Form_Trajectory": {
       "total_starts": 46,
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 803575
+      "races_with_same_dogs": 803896
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -121,10 +121,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 16.7,
-      "avg_temp_c": 10.4,
-      "total_precip_mm": 1.9,
-      "is_wet": false,
+      "max_wind_kmh": 17.8,
+      "avg_temp_c": 10.7,
+      "total_precip_mm": 2.9,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -140,12 +140,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "ASTON RUPEE",
       "dam": "MIA TESORO",
-      "total_offspring_runs_in_state": 14818,
-      "sire_win_rate": 0.12788500472398434
+      "total_offspring_runs_in_state": 14840,
+      "sire_win_rate": 0.12776280323450134
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 6,
-      "total_litter_runs": 233,
+      "total_litter_runs": 234,
       "litter_wins": 42
     },
     "35_Injury_History": {
@@ -171,7 +171,7 @@
       "mates_in_race": -1
     },
     "42_Vacant_Box": {
-      "has_adjacent_vacant": false
+      "has_adjacent_vacant": true
     },
     "43_Calendar_Intent": {
       "is_heat": false
@@ -195,17 +195,19 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 0,
-      "decision": "LAY / FADE - SEVERE RISK",
+      "final_score": 7,
+      "decision": "PASS / CAUTION",
       "red_flags": [
-        "Sandwiched (Inside & Outside Pressure)",
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
-        "From an active winning litter (10+ wins)"
+        "From an active winning litter (10+ wins)",
+        "Adjacent Vacant Box (Clean Air potential)",
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.276)"
       ]
     }
   }

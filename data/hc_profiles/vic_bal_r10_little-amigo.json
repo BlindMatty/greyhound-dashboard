@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.3107,
-      "ens_prob": 0.2007,
-      "fastai_prob": 0.0822,
-      "fastai_rank": 4,
+      "ml_prob": 0.317,
+      "ens_prob": 0.2034,
+      "fastai_prob": 0.0752,
+      "fastai_rank": 5,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -63,7 +63,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 803575
+      "races_with_same_dogs": 803896
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -116,10 +116,10 @@
     },
     "29_Live_Weather": {
       "status": "success",
-      "max_wind_kmh": 19.9,
-      "avg_temp_c": 7.0,
-      "total_precip_mm": 1.8,
-      "is_wet": false,
+      "max_wind_kmh": 21.1,
+      "avg_temp_c": 7.2,
+      "total_precip_mm": 2.6,
+      "is_wet": true,
       "is_hot": false
     },
     "30_Non_Chaser": {
@@ -135,12 +135,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "BERNARDO",
       "dam": "CAROLINE",
-      "total_offspring_runs_in_state": 40602,
-      "sire_win_rate": 0.14765282498399093
+      "total_offspring_runs_in_state": 40644,
+      "sire_win_rate": 0.14759866154906012
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 4,
-      "total_litter_runs": 23,
+      "total_litter_runs": 24,
       "litter_wins": 6
     },
     "35_Injury_History": {
@@ -187,15 +187,16 @@
       "renovation_check": true
     },
     "49_Weight_Math": {
-      "weight_penalty_if_wet": false
+      "weight_penalty_if_wet": true
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 1,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Dropping distance (Speed shock risk)",
         "Distance Shock (>= 100m diff last run)",
-        "FastAI Disagrees (Rank 4 \u2014 not in top 3)"
+        "Heavy dog penalty on assumed wet track",
+        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Strong Head-to-Head Experience over field",

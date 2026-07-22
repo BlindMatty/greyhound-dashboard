@@ -10,9 +10,9 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 3,
-      "ml_prob": 0.1976,
-      "ens_prob": 0.2875,
-      "fastai_prob": 0.1903,
+      "ml_prob": 0.1953,
+      "ens_prob": 0.3174,
+      "fastai_prob": 0.3325,
       "fastai_rank": 1,
       "is_three_way": true
     },
@@ -59,7 +59,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 803575
+      "races_with_same_dogs": 803896
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -127,8 +127,8 @@
     "33_Sire_Dam_Profile": {
       "sire": "BARCIA BALE",
       "dam": "YSABEL BALE",
-      "total_offspring_runs_in_state": 62859,
-      "sire_win_rate": 0.13094385847690865
+      "total_offspring_runs_in_state": 62861,
+      "sire_win_rate": 0.13095560045179047
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 3,
@@ -182,7 +182,7 @@
       "weight_penalty_if_wet": false
     },
     "50_Final_Probability": {
-      "final_score": 2,
+      "final_score": 3,
       "decision": "LAY / FADE - SEVERE RISK",
       "red_flags": [
         "Sandwiched (Inside & Outside Pressure)",
@@ -194,7 +194,8 @@
         "Strong Head-to-Head Experience over field",
         "Optimal Racing Cadence (6-10 days)",
         "Benefiting from inside track bias",
-        "3-Way Model Alignment (ML+ENS+FAI all agree)"
+        "3-Way Model Alignment (ML+ENS+FAI all agree)",
+        "FastAI Strong Conviction (Rank 1, prob 0.333)"
       ]
     }
   }

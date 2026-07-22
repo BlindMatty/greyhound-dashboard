@@ -10,10 +10,10 @@
     "01_Shortlist": {
       "status": "Validated (ML+ENS+FAI)",
       "alignment_count": 1,
-      "ml_prob": 0.2059,
-      "ens_prob": 0.146,
-      "fastai_prob": 0.2127,
-      "fastai_rank": 5,
+      "ml_prob": 0.168,
+      "ens_prob": 0.1709,
+      "fastai_prob": 0.5311,
+      "fastai_rank": 6,
       "is_three_way": false
     },
     "02_TDG_Medians": {
@@ -68,7 +68,7 @@
       "track_type": "Sand/Loam assumed"
     },
     "12_Head_To_Head": {
-      "races_with_same_dogs": 725973
+      "races_with_same_dogs": 726272
     },
     "13_Track_Topography": {
       "distance_to_first_turn": "Map inferred"
@@ -136,12 +136,12 @@
     "33_Sire_Dam_Profile": {
       "sire": "DJAYS OCTANE",
       "dam": "PRODIGIOUS",
-      "total_offspring_runs_in_state": 461,
-      "sire_win_rate": 0.08459869848156182
+      "total_offspring_runs_in_state": 465,
+      "sire_win_rate": 0.08387096774193549
     },
     "34_Sibling_Profile": {
       "litter_size_racing": 7,
-      "total_litter_runs": 408,
+      "total_litter_runs": 412,
       "litter_wins": 39
     },
     "35_Injury_History": {
@@ -198,7 +198,7 @@
         "Erratic Box Dog (High split variance > 1.5)",
         "Distance Shock (>= 100m diff last run)",
         "Wide Runner drawn Inside (Crash risk)",
-        "FastAI Disagrees (Rank 5 \u2014 not in top 3)"
+        "FastAI Disagrees (Rank 6 \u2014 not in top 3)"
       ],
       "green_flags": [
         "Positive Weight Gain (Strength build)",
