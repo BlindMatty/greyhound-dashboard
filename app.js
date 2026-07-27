@@ -258,6 +258,7 @@ async function loadHighConfidencePicks(states) {
   const tsEloFaSrAlignHC = [];
   const tsGreenFaSrAlignHC = [];
   const tsFaSrAlignHC = [];
+  const mlTsPicks = [];
   
   const fetches = states.filter(s => s.hasData).map(async (s) => {
     try {
@@ -265,6 +266,7 @@ async function loadHighConfidencePicks(states) {
       stateDataCache[s.code] = data;
       for (const p of (data.highConfidencePicks || [])) {
         const enhancedP = { ...p, state: s.code, stateName: s.name };
+        if (p.isMlSpecialist) mlTsPicks.push(enhancedP);
         if (p.isMlSpecialist && p.isMlTsFaSrAlign) {
           tsFaSrAlignHC.push(enhancedP);
           if (p.isEloEns) {
@@ -289,10 +291,64 @@ async function loadHighConfidencePicks(states) {
   tsEloFaSrAlignHC.sort(sorter);
   tsGreenFaSrAlignHC.sort(sorter);
   tsFaSrAlignHC.sort(sorter);
+  mlTsPicks.sort(sorter);
 
   renderPicksGrid(tsGreenFaSrAlignHC, 'hcFa40Picks', 'hcFa40Section', 'hcFa40Subtitle', 'ML TS + Green Dot + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'GREEN + FAI 40%', badgeClass: 'badge-green-fa40', cardClass: ' hc-card-green-fa40'});
   renderPicksGrid(tsEloFaSrAlignHC, 'hcPicks', 'hcSection', 'hcSubtitle', 'ML TS + ELO Align + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'ELO + FAI 40%', badgeClass: 'badge-elo-fa40', cardClass: ' hc-card-elo-fa40'});
   renderPicksGrid(tsFaSrAlignHC, 'hcFaSrAlignPicks', 'hcFaSrAlignSection', 'hcFaSrAlignSubtitle', 'ML TS + FAI 40% selections', {useNormOdds: true, newFlag: 'isNewMlSpecialistAddition', showFaTrackComboSr: true, badgeLabel: 'FAI 40%', badgeClass: 'badge-fa40', cardClass: ' hc-card-fa40'});
+  renderProfitableMlTsCards(mlTsPicks);
+}
+
+function renderProfitableMlTsCards(mlTsPicks) {
+  const section = document.getElementById('profitableTsCardsSection');
+  const container = document.getElementById('profitableTsCards');
+  if (!section || !container) return;
+
+  const isElo = p => !!p.isEloEns;
+  const isGreen = p => isGreenDotPick(p);
+  const isBet = p => hasBetBadge(p);
+  const isMc = p => !!p.isMlMcAlign;
+  const isFai = p => !!p.isMlFastAiAlign;
+  const isFai40 = p => !!p.isMlTsFaSrAlign;
+  const specs = [
+    ['ML TS + ELO', p => isElo(p)],
+    ['ML TS + Green Dot', p => isGreen(p)],
+    ['ML TS + Green Dot + Bet Badge', p => isGreen(p) && isBet(p)],
+    ['ML TS + ELO + Bet Badge', p => isElo(p) && isBet(p)],
+    ['ML TS + ELO + FAI', p => isElo(p) && isFai(p)],
+    ['ML TS + Green Dot + FAI', p => isGreen(p) && isFai(p)],
+    ['ML TS + Bet Badge + FAI', p => isBet(p) && isFai(p)],
+    ['ML TS + Green Dot + Bet Badge + FAI', p => isGreen(p) && isBet(p) && isFai(p)],
+    ['ML TS + ELO + Green Dot', p => isElo(p) && isGreen(p)],
+    ['ML TS + ELO + Green Dot + FAI', p => isElo(p) && isGreen(p) && isFai(p)],
+    ['ML TS + ELO + Bet Badge + FAI', p => isElo(p) && isBet(p) && isFai(p)],
+    ['ML TS + ELO + Bet Badge + MC', p => isElo(p) && isBet(p) && isMc(p)],
+    ['ML TS + ELO + Bet Badge + MC + FAI', p => isElo(p) && isBet(p) && isMc(p) && isFai(p)],
+    ['ML TS + FAI 40%', p => isFai40(p)],
+    ['ML TS + ELO + FAI 40%', p => isElo(p) && isFai40(p)],
+    ['ML TS + Bet Badge + FAI 40%', p => isBet(p) && isFai40(p)],
+    ['ML TS + ELO + Bet Badge + FAI 40%', p => isElo(p) && isBet(p) && isFai40(p)],
+    ['ML TS + Green Dot + FAI 40%', p => isGreen(p) && isFai40(p)],
+  ];
+
+  container.innerHTML = '';
+  let rendered = 0;
+  specs.forEach(([label, predicate], index) => {
+    const picks = mlTsPicks.filter(predicate);
+    if (!picks.length) return;
+    const id = `profitableTsCard${index}`;
+    container.insertAdjacentHTML('beforeend', `<section id="${id}" class="profitable-ts-card"><h3>${esc(label)}</h3><div id="${id}Picks" class="picks-grid"></div></section>`);
+    renderPicksGrid(picks, `${id}Picks`, id, null, `${label} selections`, {
+      useNormOdds: true,
+      newFlag: 'isNewMlSpecialistAddition',
+      showFaTrackComboSr: true,
+      badgeLabel: label.replace('ML TS + ', ''),
+      badgeClass: 'badge-fa40',
+      cardClass: ' hc-card-fa40',
+    });
+    rendered += 1;
+  });
+  section.hidden = rendered === 0;
 }
 
 /** Parse "11:17AM" / "8:53PM" into minutes since midnight for sorting. */

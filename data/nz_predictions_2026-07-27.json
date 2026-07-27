@@ -42,7 +42,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "MASTER COOPER",
@@ -221,7 +223,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "LUCKY GAIL",
@@ -400,7 +404,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": true,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "HOMEBUSH BABY",
@@ -602,7 +608,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "TEMPO TABLET",
@@ -781,7 +789,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "GOTHAM'S KING",
@@ -960,7 +970,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": true,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "MISS WINTER",
@@ -1162,7 +1174,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "HOMEBUSH LEO",
@@ -1341,7 +1355,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": true
         },
         {
           "dog": "DECISION TIME",
@@ -1520,7 +1536,9 @@
           "isFastEns": true,
           "isEloEns": false,
           "isMlSpecialist": true,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": true,
+          "isMlMcAlign": false
         },
         {
           "dog": "GOTCHA SANTANA",
@@ -1699,7 +1717,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": true
         },
         {
           "dog": "HOMEBUSH MARGO",
@@ -1901,7 +1921,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "BOLT",
@@ -2080,7 +2102,9 @@
           "isFastEns": false,
           "isEloEns": false,
           "isMlSpecialist": false,
-          "isMlTsFaSrAlign": false
+          "isMlTsFaSrAlign": false,
+          "isMlFastAiAlign": false,
+          "isMlMcAlign": false
         },
         {
           "dog": "BIG DIVOT",
@@ -2272,7 +2296,9 @@
       "isRemovedMlSpecialist": false,
       "isScratchedMlSpecialist": false,
       "isNewMlSpecialistAddition": false,
-      "isNewEloAddition": false
+      "isNewEloAddition": false,
+      "isMlFastAiAlign": true,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2308,7 +2334,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": true
     },
     {
       "track": "SOU",
@@ -2344,7 +2372,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2380,7 +2410,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": true
     },
     {
       "track": "SOU",
@@ -2426,7 +2458,9 @@
       "isRemovedMlSpecialist": false,
       "isScratchedMlSpecialist": false,
       "isNewMlSpecialistAddition": true,
-      "isNewEloAddition": false
+      "isNewEloAddition": false,
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2462,7 +2496,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2498,7 +2534,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2534,7 +2572,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2570,7 +2610,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2606,7 +2648,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2652,7 +2696,9 @@
       "isRemovedMlSpecialist": false,
       "isScratchedMlSpecialist": false,
       "isNewMlSpecialistAddition": true,
-      "isNewEloAddition": false
+      "isNewEloAddition": false,
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     },
     {
       "track": "SOU",
@@ -2688,7 +2734,9 @@
       "shortlistPolicyMode": "dashboard-morning-truth",
       "shortlistPolicyWindowStart": "2026-05-05",
       "shortlistPolicyWindowEnd": "2026-07-26",
-      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit"
+      "shortlistPolicyBuilder": "real_bets_ml_ts_system_audit",
+      "isMlFastAiAlign": false,
+      "isMlMcAlign": false
     }
   ],
   "topPicks": [
