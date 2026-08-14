@@ -1,12 +1,12 @@
 {
   "date": "2026-08-14",
-  "totalPredictions": 976,
+  "totalPredictions": 959,
   "totalHighConfidence": 37,
   "states": [
     {
       "code": "vic",
       "name": "Victoria",
-      "totalPredictions": 335,
+      "totalPredictions": 334,
       "highConfidenceCount": 16,
       "fastEnsCount": 16,
       "eloEnsCount": 3,
@@ -29,9 +29,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.057037517789716684,
           "elo_rating": 1327,
-          "mc_win_pct": 89.74,
-          "mc_place_pct": 96.42,
-          "mc_show_pct": 98.63,
+          "mc_win_pct": 90.47,
+          "mc_place_pct": 96.44,
+          "mc_show_pct": 98.56,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 2,
           "tier": "green"
@@ -54,9 +54,9 @@
           "fastai_rank": 2,
           "elo_prob": 0.11765907953611317,
           "elo_rating": 1338,
-          "mc_win_pct": 60.76,
-          "mc_place_pct": 84.87,
-          "mc_show_pct": 94.17,
+          "mc_win_pct": 61.27,
+          "mc_place_pct": 85.81,
+          "mc_show_pct": 95.07,
           "mc_method": "dog_relative",
           "mc_n_runs": 9,
           "tier": "green"
@@ -79,9 +79,9 @@
           "fastai_rank": 2,
           "elo_prob": 0.24612332487830188,
           "elo_rating": 1500,
-          "mc_win_pct": 17.76,
-          "mc_place_pct": 26.31,
-          "mc_show_pct": 35.25,
+          "mc_win_pct": 18.45,
+          "mc_place_pct": 27.09,
+          "mc_show_pct": 35.38,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 1,
           "tier": "yellow"
@@ -103,7 +103,7 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 332,
+      "totalPredictions": 323,
       "highConfidenceCount": 11,
       "fastEnsCount": 11,
       "eloEnsCount": 4,
@@ -126,9 +126,9 @@
           "fastai_rank": 3,
           "elo_prob": 0.3924947115951443,
           "elo_rating": 1782,
-          "mc_win_pct": 26.21,
-          "mc_place_pct": 45.66,
-          "mc_show_pct": 61.71,
+          "mc_win_pct": 26.65,
+          "mc_place_pct": 46.17,
+          "mc_show_pct": 62.3,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 1,
           "tier": "green"
@@ -151,9 +151,9 @@
           "fastai_rank": 2,
           "elo_prob": 0.3327671124965948,
           "elo_rating": 1726,
-          "mc_win_pct": 47.1,
-          "mc_place_pct": 69.9,
-          "mc_show_pct": 82.02,
+          "mc_win_pct": 47.94,
+          "mc_place_pct": 68.8,
+          "mc_show_pct": 81.65,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 7,
           "tier": "yellow"
@@ -176,9 +176,9 @@
           "fastai_rank": 4,
           "elo_prob": 0.320340430401574,
           "elo_rating": 1350,
-          "mc_win_pct": 40.16,
-          "mc_place_pct": 49.96,
-          "mc_show_pct": 50.87,
+          "mc_win_pct": 40.52,
+          "mc_place_pct": 50.36,
+          "mc_show_pct": 51.39,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 4,
           "tier": "yellow"
@@ -200,10 +200,10 @@
     {
       "code": "qld",
       "name": "Queensland",
-      "totalPredictions": 186,
+      "totalPredictions": 179,
       "highConfidenceCount": 8,
       "fastEnsCount": 8,
-      "eloEnsCount": 1,
+      "eloEnsCount": 2,
       "topPicks": [
         {
           "track": "QOT",
@@ -223,9 +223,9 @@
           "fastai_rank": 5,
           "elo_prob": 0.1741746192543088,
           "elo_rating": 1571,
-          "mc_win_pct": 57.31,
-          "mc_place_pct": 87.92,
-          "mc_show_pct": 97.19,
+          "mc_win_pct": 58.08,
+          "mc_place_pct": 87.95,
+          "mc_show_pct": 97.34,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 2,
           "tier": "green"
@@ -248,36 +248,36 @@
           "fastai_rank": 1,
           "elo_prob": 0.16058219937622503,
           "elo_rating": 1393,
-          "mc_win_pct": 49.17,
-          "mc_place_pct": 72.69,
-          "mc_show_pct": 84.91,
+          "mc_win_pct": 48.77,
+          "mc_place_pct": 72.84,
+          "mc_show_pct": 84.82,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 8,
           "tier": "yellow"
         },
         {
-          "track": "QOT",
-          "raceNumber": 4,
-          "raceId": -2082184542,
-          "raceStartTime": "4:07PM",
-          "dog": "RED HOT QUALITY",
-          "box": 6,
-          "rug": 6,
-          "probability": 0.3432378419838381,
-          "implied_odds": 2.9134316723943465,
-          "grade": "Maiden Final",
-          "distanceInMetres": 390,
-          "ensemble_prob": 0.257694486963184,
-          "ensemble_odds": 3.880564197490445,
-          "fastai_prob": 0.2510260431744511,
-          "fastai_rank": 2,
-          "elo_prob": 0.11496881757190915,
-          "elo_rating": 1251,
-          "mc_win_pct": 45.1,
-          "mc_place_pct": 73.66,
-          "mc_show_pct": 90.81,
+          "track": "TOW",
+          "raceNumber": 12,
+          "raceId": -2082184546,
+          "raceStartTime": "3:21PM",
+          "dog": "AVERAGE RETURN",
+          "box": 3,
+          "rug": 3,
+          "probability": 0.3498976686143289,
+          "implied_odds": 2.8579784597028555,
+          "grade": "Grade 5",
+          "distanceInMetres": 380,
+          "ensemble_prob": 0.3333269834186713,
+          "ensemble_odds": 3.0000571503206572,
+          "fastai_prob": 0.3167562982230138,
+          "fastai_rank": 1,
+          "elo_prob": 0.19788310424154082,
+          "elo_rating": 1317,
+          "mc_win_pct": 18.32,
+          "mc_place_pct": 44.86,
+          "mc_show_pct": 68.13,
           "mc_method": "dog_track_dist",
-          "mc_n_runs": 1,
+          "mc_n_runs": 11,
           "tier": "yellow"
         }
       ],
@@ -554,94 +554,94 @@
   ],
   "modelPerformance": {
     "startDate": "2026-04-08",
-    "resultsDate": "2026-08-11",
-    "settledRaces": 16666,
+    "resultsDate": "2026-08-13",
+    "settledRaces": 16900,
     "models": {
       "ml": {
-        "wins": 5244,
-        "settled": 16666,
+        "wins": 5319,
+        "settled": 16900,
         "label": "ML",
-        "strikeRate": 31.465258610344414
+        "strikeRate": 31.47337278106509
       },
       "fastai": {
-        "wins": 4394,
-        "settled": 16193,
+        "wins": 4464,
+        "settled": 16427,
         "label": "FastAI",
-        "strikeRate": 27.135181868708703
+        "strikeRate": 27.1747732391794
       },
       "mc": {
-        "wins": 3797,
-        "settled": 13710,
+        "wins": 3861,
+        "settled": 13944,
         "label": "MC",
-        "strikeRate": 27.695113056163382
+        "strikeRate": 27.68932874354561
       },
       "elo": {
-        "wins": 3481,
-        "settled": 15886,
+        "wins": 3532,
+        "settled": 16120,
         "label": "ELO",
-        "strikeRate": 21.912375676696463
+        "strikeRate": 21.910669975186103
       },
       "ens": {
-        "wins": 5409,
-        "settled": 16666,
+        "wins": 5478,
+        "settled": 16900,
         "label": "ENS",
-        "strikeRate": 32.45529821192848
+        "strikeRate": 32.41420118343195
       },
       "fast_ens": {
-        "wins": 2125,
-        "settled": 5201,
+        "wins": 2156,
+        "settled": 5274,
         "label": "FAST ENS",
-        "strikeRate": 40.8575273985772
+        "strikeRate": 40.87978763746682
       },
       "elo_ens": {
-        "wins": 627,
-        "settled": 1311,
+        "wins": 634,
+        "settled": 1327,
         "label": "ELO ENS",
-        "strikeRate": 47.82608695652174
+        "strikeRate": 47.77694046721929
       }
     },
     "mlTsTiers": {
       "startDate": "2026-04-08",
-      "resultsDate": "2026-08-11",
-      "settledRaces": 2393,
+      "resultsDate": "2026-08-13",
+      "settledRaces": 2428,
       "models": {
         "base_ml_ts": {
-          "wins": 1187,
-          "settled": 2393,
+          "wins": 1200,
+          "settled": 2428,
           "label": "ML TS",
-          "strikeRate": 49.603008775595484
+          "strikeRate": 49.42339373970346
         },
         "ml_ts_fa_align": {
-          "wins": 474,
-          "settled": 797,
+          "wins": 480,
+          "settled": 817,
           "label": "ML TS + FA Align",
-          "strikeRate": 59.47302383939774
+          "strikeRate": 58.7515299877601
         },
         "ml_ts_45_10": {
-          "wins": 559,
-          "settled": 1080,
+          "wins": 575,
+          "settled": 1119,
           "label": "ML TS >45%, 10+",
-          "strikeRate": 51.75925925925926
+          "strikeRate": 51.385165326184094
         },
         "ml_ts_50_10": {
-          "wins": 276,
-          "settled": 492,
+          "wins": 282,
+          "settled": 504,
           "label": "ML TS >50%, 10+",
-          "strikeRate": 56.09756097560976
+          "strikeRate": 55.952380952380956
         }
       }
     },
     "mlTsFaSrAlign": {
       "startDate": "2026-04-08",
-      "resultsDate": "2026-08-10",
-      "settledRaces": 220,
+      "resultsDate": "2026-08-12",
+      "settledRaces": 207,
       "minSettled": 5,
       "threshold": 40.0,
       "model": {
-        "wins": 162,
-        "settled": 220,
+        "wins": 154,
+        "settled": 207,
         "label": "ML TS + FA 40%",
-        "strikeRate": 73.63636363636363
+        "strikeRate": 74.39613526570048
       }
     }
   },

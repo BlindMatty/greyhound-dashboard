@@ -478,94 +478,94 @@
   ],
   "modelPerformance": {
     "startDate": "2026-04-08",
-    "resultsDate": "2026-08-11",
-    "settledRaces": 16666,
+    "resultsDate": "2026-08-13",
+    "settledRaces": 16900,
     "models": {
       "ml": {
-        "wins": 5244,
-        "settled": 16666,
+        "wins": 5319,
+        "settled": 16900,
         "label": "ML",
-        "strikeRate": 31.465258610344414
+        "strikeRate": 31.47337278106509
       },
       "fastai": {
-        "wins": 4394,
-        "settled": 16193,
+        "wins": 4464,
+        "settled": 16427,
         "label": "FastAI",
-        "strikeRate": 27.135181868708703
+        "strikeRate": 27.1747732391794
       },
       "mc": {
-        "wins": 3797,
-        "settled": 13710,
+        "wins": 3861,
+        "settled": 13944,
         "label": "MC",
-        "strikeRate": 27.695113056163382
+        "strikeRate": 27.68932874354561
       },
       "elo": {
-        "wins": 3481,
-        "settled": 15886,
+        "wins": 3532,
+        "settled": 16120,
         "label": "ELO",
-        "strikeRate": 21.912375676696463
+        "strikeRate": 21.910669975186103
       },
       "ens": {
-        "wins": 5409,
-        "settled": 16666,
+        "wins": 5478,
+        "settled": 16900,
         "label": "ENS",
-        "strikeRate": 32.45529821192848
+        "strikeRate": 32.41420118343195
       },
       "fast_ens": {
-        "wins": 2125,
-        "settled": 5201,
+        "wins": 2156,
+        "settled": 5274,
         "label": "FAST ENS",
-        "strikeRate": 40.8575273985772
+        "strikeRate": 40.87978763746682
       },
       "elo_ens": {
-        "wins": 627,
-        "settled": 1311,
+        "wins": 634,
+        "settled": 1327,
         "label": "ELO ENS",
-        "strikeRate": 47.82608695652174
+        "strikeRate": 47.77694046721929
       }
     },
     "mlTsTiers": {
       "startDate": "2026-04-08",
-      "resultsDate": "2026-08-11",
-      "settledRaces": 2393,
+      "resultsDate": "2026-08-13",
+      "settledRaces": 2428,
       "models": {
         "base_ml_ts": {
-          "wins": 1187,
-          "settled": 2393,
+          "wins": 1200,
+          "settled": 2428,
           "label": "ML TS",
-          "strikeRate": 49.603008775595484
+          "strikeRate": 49.42339373970346
         },
         "ml_ts_fa_align": {
-          "wins": 474,
-          "settled": 797,
+          "wins": 480,
+          "settled": 817,
           "label": "ML TS + FA Align",
-          "strikeRate": 59.47302383939774
+          "strikeRate": 58.7515299877601
         },
         "ml_ts_45_10": {
-          "wins": 559,
-          "settled": 1080,
+          "wins": 575,
+          "settled": 1119,
           "label": "ML TS >45%, 10+",
-          "strikeRate": 51.75925925925926
+          "strikeRate": 51.385165326184094
         },
         "ml_ts_50_10": {
-          "wins": 276,
-          "settled": 492,
+          "wins": 282,
+          "settled": 504,
           "label": "ML TS >50%, 10+",
-          "strikeRate": 56.09756097560976
+          "strikeRate": 55.952380952380956
         }
       }
     },
     "mlTsFaSrAlign": {
       "startDate": "2026-04-08",
-      "resultsDate": "2026-08-10",
-      "settledRaces": 220,
+      "resultsDate": "2026-08-12",
+      "settledRaces": 207,
       "minSettled": 5,
       "threshold": 40.0,
       "model": {
-        "wins": 162,
-        "settled": 220,
+        "wins": 154,
+        "settled": 207,
         "label": "ML TS + FA 40%",
-        "strikeRate": 73.63636363636363
+        "strikeRate": 74.39613526570048
       }
     }
   },
