@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "totalPredictions": 959,
+  "totalPredictions": 958,
   "totalHighConfidence": 37,
   "states": [
     {
@@ -297,7 +297,7 @@
     {
       "code": "wa",
       "name": "Western Australia",
-      "totalPredictions": 72,
+      "totalPredictions": 71,
       "highConfidenceCount": 0,
       "fastEnsCount": 0,
       "eloEnsCount": 0,
@@ -321,8 +321,8 @@
           "elo_prob": 0.2542962113510295,
           "elo_rating": 1489,
           "mc_win_pct": 16.1,
-          "mc_place_pct": 53.69,
-          "mc_show_pct": 86.97,
+          "mc_place_pct": 53.94,
+          "mc_show_pct": 86.6,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 4,
           "tier": "yellow"
@@ -345,9 +345,9 @@
           "fastai_rank": 10,
           "elo_prob": 0.1425790214240343,
           "elo_rating": 1389,
-          "mc_win_pct": 0.06,
-          "mc_place_pct": 0.83,
-          "mc_show_pct": 6.52,
+          "mc_win_pct": 0.02,
+          "mc_place_pct": 0.66,
+          "mc_show_pct": 6.35,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 1,
           "tier": "other"
@@ -368,11 +368,11 @@
           "ensemble_odds": 7.491922080453668,
           "fastai_prob": 0.0627203545820522,
           "fastai_rank": 6,
-          "elo_prob": 0.15143593327470187,
+          "elo_prob": 0.1514359332747018,
           "elo_rating": 1557,
-          "mc_win_pct": 20.69,
-          "mc_place_pct": 34.47,
-          "mc_show_pct": 46.81,
+          "mc_win_pct": 21.03,
+          "mc_place_pct": 34.67,
+          "mc_show_pct": 46.61,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 36,
           "tier": "other"
