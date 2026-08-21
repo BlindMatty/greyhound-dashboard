@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "totalPredictions": 1027,
+  "totalPredictions": 1024,
   "totalHighConfidence": 35,
   "states": [
     {
@@ -200,7 +200,7 @@
     {
       "code": "qld",
       "name": "Queensland",
-      "totalPredictions": 190,
+      "totalPredictions": 187,
       "highConfidenceCount": 5,
       "fastEnsCount": 5,
       "eloEnsCount": 1,
@@ -223,9 +223,9 @@
           "fastai_rank": 5,
           "elo_prob": 0.2579590759571083,
           "elo_rating": 1596,
-          "mc_win_pct": 34.48,
-          "mc_place_pct": 58.84,
-          "mc_show_pct": 71.17,
+          "mc_win_pct": 34.36,
+          "mc_place_pct": 58.85,
+          "mc_show_pct": 71.16,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 3,
           "tier": "green"
@@ -246,11 +246,11 @@
           "ensemble_odds": 5.13251813268733,
           "fastai_prob": 0.2216402066369922,
           "fastai_rank": 1,
-          "elo_prob": 0.09631949712600307,
+          "elo_prob": 0.096319497126003,
           "elo_rating": 1425,
-          "mc_win_pct": 5.17,
-          "mc_place_pct": 24.48,
-          "mc_show_pct": 53.16,
+          "mc_win_pct": 5.31,
+          "mc_place_pct": 24.64,
+          "mc_show_pct": 53.18,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 3,
           "tier": "yellow"
@@ -273,9 +273,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.1500287506439423,
           "elo_rating": 1432,
-          "mc_win_pct": 6.01,
-          "mc_place_pct": 20.88,
-          "mc_show_pct": 50.79,
+          "mc_win_pct": 5.74,
+          "mc_place_pct": 21.2,
+          "mc_show_pct": 50.81,
           "mc_method": "dog_relative",
           "mc_n_runs": 25,
           "tier": "yellow"
