@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "totalPredictions": 659,
+  "totalPredictions": 654,
   "totalHighConfidence": 30,
   "states": [
     {
@@ -103,7 +103,7 @@
     {
       "code": "nsw",
       "name": "New South Wales",
-      "totalPredictions": 361,
+      "totalPredictions": 356,
       "highConfidenceCount": 13,
       "fastEnsCount": 13,
       "eloEnsCount": 6,
@@ -126,9 +126,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.5797454403691249,
           "elo_rating": 1749,
-          "mc_win_pct": 46.15,
-          "mc_place_pct": 73.15,
-          "mc_show_pct": 86.96,
+          "mc_win_pct": 48.2,
+          "mc_place_pct": 74.87,
+          "mc_show_pct": 88.14,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 36,
           "tier": "green"
@@ -151,9 +151,9 @@
           "fastai_rank": 1,
           "elo_prob": 0.2176529010668044,
           "elo_rating": 1373,
-          "mc_win_pct": 80.85,
+          "mc_win_pct": 80.51,
           "mc_place_pct": 98.65,
-          "mc_show_pct": 99.88,
+          "mc_show_pct": 99.94,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 2,
           "tier": "green"
@@ -174,11 +174,11 @@
           "ensemble_odds": 5.430695248815626,
           "fastai_prob": 0.1563344771605832,
           "fastai_rank": 2,
-          "elo_prob": 0.10526983416306453,
+          "elo_prob": 0.1052698341630645,
           "elo_rating": 1514,
-          "mc_win_pct": 14.43,
-          "mc_place_pct": 33.43,
-          "mc_show_pct": 52.9,
+          "mc_win_pct": 14.96,
+          "mc_place_pct": 34.13,
+          "mc_show_pct": 53.8,
           "mc_method": "dog_track_dist",
           "mc_n_runs": 3,
           "tier": "yellow"
